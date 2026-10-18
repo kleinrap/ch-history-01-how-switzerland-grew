@@ -16,6 +16,13 @@ Swiss history through maps. Sister site: [Engineered Switzerland](../ch-landscap
 - **Licences:** texts CC BY 4.0, code MIT, data derived from OpenStreetMap ODbL. Border data: BFS GEOSTAT via swiss-maps, non-commercial.
 - **Plan and research tracking:** this file, plus GitHub issues for the research questions (sorted by impact).
 
+## Live
+
+- How Switzerland Grew: https://kleinrap.github.io/ch-history-01-how-switzerland-grew/
+- Engineered Switzerland: https://kleinrap.github.io/ch-landscape-01-engineered-switzerland/
+
+Published on GitHub Pages from the `main` branch (18 Oct 2026). The repository names equal the folder names, so the links between the sites (`../<folder>/index.html`) work both online and from disk.
+
 ## Phases
 
 | # | Phase | Status |
@@ -40,5 +47,4 @@ Work order across both sites: phase 1 of both together, then one phase at a time
 
 ## Open next steps
 
-- Create the GitHub repository and publish on GitHub Pages (needs the owner's go-ahead). Name both repositories exactly like their folders (`ch-history-01-how-switzerland-grew`, `ch-landscape-01-engineered-switzerland`) under the same account, so the links between the sites (`../<folder>/index.html`) keep working.
 - Sort the open questions and write the first visit sheets.
