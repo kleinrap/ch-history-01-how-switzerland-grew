@@ -1,0 +1,1482 @@
+[
+  {
+    "canton": "ZH",
+    "name": "Zurich",
+    "summary": "The city of Zurich bought and conquered most of today's canton in the 1400s, held some outlying lands until 1798, and got its present borders in 1803.",
+    "stops": [
+      {
+        "year": 1218,
+        "title": "An imperial city",
+        "text": [
+          "From 1098 the dukes of Zähringen hold the imperial bailiff rights (Reichsvogtei) over Zurich. The Zähringen family dies out in 1218.",
+          "The Emperor then takes the rights back. Zurich becomes an imperial city (a city directly under the Emperor). The abbess of the Fraumünster keeps some old rights.",
+          "The countryside belongs to many noble families. The strongest are the counts of Kyburg in the east and the barons of Regensberg in the north."
+        ],
+        "layers": [
+          {
+            "name": "City of Zurich",
+            "kind": "lord",
+            "lord": "empire",
+            "label": "Zurich: imperial city from 1218",
+            "sel": {
+              "munis": [
+                261
+              ]
+            }
+          },
+          {
+            "name": "Kyburg",
+            "kind": "lord",
+            "lord": "kyburg",
+            "label": "Counts of Kyburg: main lands around Kyburg and Winterthur (about)",
+            "sel": {
+              "districts": [
+                110,
+                108
+              ]
+            }
+          },
+          {
+            "name": "Regensberg",
+            "kind": "lord",
+            "lord": "noble",
+            "label": "Barons of Regensberg: lands in the Zurich Unterland (about)",
+            "sel": {
+              "districts": [
+                104
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "year": 1300,
+        "title": "Habsburg around the city",
+        "text": [
+          "The counts of Kyburg die out in 1264. Count Rudolf of Habsburg takes their lands. In 1267–1268 Habsburg and Zurich defeat the barons of Regensberg.",
+          "By about 1300 Habsburg holds the main rights in most of the later canton. Later, Zurich buys these lands one by one, mostly from Habsburg and its vassals."
+        ],
+        "layers": [
+          {
+            "name": "City of Zurich",
+            "kind": "lord",
+            "lord": "empire",
+            "label": "Zurich: imperial city",
+            "sel": {
+              "munis": [
+                261
+              ]
+            }
+          },
+          {
+            "name": "Habsburg",
+            "kind": "lord",
+            "lord": "habsburg",
+            "label": "Habsburg: main lordship rights in most of the countryside (about 1300)",
+            "sel": {
+              "cantons": [
+                "ZH"
+              ],
+              "except": [
+                261
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "year": 1351,
+        "title": "The city joins the Swiss",
+        "text": [
+          "In 1351 the city of Zurich makes an alliance with Uri, Schwyz and Unterwalden. At this time Zurich rules almost no land outside its walls.",
+          "Zurich starts to buy rights on the lake soon after, for example Zollikon in 1358."
+        ],
+        "layers": [
+          {
+            "name": "City of Zurich",
+            "kind": "core",
+            "label": "City of Zurich: member of the Confederation since 1351",
+            "sel": {
+              "munis": [
+                261
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "year": 1452,
+        "title": "A city-state is built",
+        "text": [
+          "Zurich buys or takes many lordships from nobles who need money. Greifensee comes in 1402, Grüningen in 1408 and Regensberg in 1409. Zurich takes the Knonauer Amt in 1415.",
+          "Zurich gets the County of Kyburg from Habsburg in 1424. It loses Kyburg in the Old Zurich War, but gets it back for good in 1452. Zurich also gave up the Höfe on the upper lake to Schwyz in 1440.",
+          "Each piece of land becomes a bailiwick (land ruled by a governor from the city). Its people have no vote. Since 1415 Zurich also shares the County of Baden with other cantons."
+        ],
+        "layers": [
+          {
+            "name": "County of Baden villages",
+            "kind": "shared",
+            "label": "Part of the County of Baden: ruled together with other cantons since 1415",
+            "sel": {
+              "munis": [
+                243,
+                247,
+                246,
+                87
+              ]
+            }
+          },
+          {
+            "name": "Dörflingen",
+            "kind": "subject",
+            "label": "Dörflingen: ruled by Zurich since 1434",
+            "sel": {
+              "munis": [
+                2915
+              ]
+            }
+          },
+          {
+            "name": "Grüningen",
+            "kind": "subject",
+            "label": "Grüningen: ruled by Zurich since 1408",
+            "sel": {
+              "districts": [
+                105
+              ],
+              "munis": [
+                153
+              ]
+            }
+          },
+          {
+            "name": "Greifensee",
+            "kind": "subject",
+            "label": "Greifensee: ruled by Zurich since 1402",
+            "sel": {
+              "districts": [
+                109
+              ]
+            }
+          },
+          {
+            "name": "Regensberg",
+            "kind": "subject",
+            "label": "Regensberg and Bülach: ruled by Zurich since 1409",
+            "sel": {
+              "districts": [
+                104
+              ],
+              "munis": [
+                53,
+                51,
+                59,
+                60,
+                72
+              ]
+            }
+          },
+          {
+            "name": "Knonauer Amt",
+            "kind": "subject",
+            "label": "Knonauer Amt: taken by Zurich in 1415",
+            "sel": {
+              "districts": [
+                101
+              ]
+            }
+          },
+          {
+            "name": "Lake and city lands",
+            "kind": "subject",
+            "label": "Villages near the city and on the lake: bought by Zurich 1358–1406",
+            "sel": {
+              "districts": [
+                107,
+                111
+              ],
+              "munis": [
+                131,
+                295,
+                135,
+                136,
+                137,
+                139,
+                141
+              ]
+            }
+          },
+          {
+            "name": "Kyburg",
+            "kind": "subject",
+            "label": "County of Kyburg: ruled by Zurich since 1424, for good since 1452",
+            "sel": {
+              "districts": [
+                110,
+                108,
+                102,
+                103
+              ],
+              "except": [
+                230,
+                292,
+                38,
+                34,
+                55,
+                58,
+                61,
+                67,
+                70,
+                71
+              ]
+            }
+          },
+          {
+            "name": "City of Zurich",
+            "kind": "core",
+            "label": "City of Zurich",
+            "sel": {
+              "munis": [
+                261
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "year": 1615,
+        "title": "Zurich at its largest",
+        "text": [
+          "Zurich buys Winterthur in 1467, Stein am Rhein in 1484, Eglisau in 1496 and Wädenswil in 1549. In 1615 it buys Sax-Forstegg in the Rhine valley.",
+          "From 1460 Zurich shares the rule of Thurgau with other cantons. Rheinau, with its abbey, is part of this shared land.",
+          "The country people have no vote. Only the citizens of the city govern."
+        ],
+        "layers": [
+          {
+            "name": "County of Baden villages",
+            "kind": "shared",
+            "label": "Part of the County of Baden: ruled together with other cantons",
+            "sel": {
+              "munis": [
+                243,
+                247,
+                246,
+                87
+              ]
+            }
+          },
+          {
+            "name": "Rheinau",
+            "kind": "shared",
+            "label": "Rheinau: under the cantons that ruled Thurgau",
+            "sel": {
+              "munis": [
+                38
+              ]
+            }
+          },
+          {
+            "name": "Thurgau",
+            "kind": "shared",
+            "label": "Thurgau: common lordship (land ruled together) since 1460",
+            "sel": {
+              "cantons": [
+                "TG"
+              ]
+            }
+          },
+          {
+            "name": "Sax-Forstegg",
+            "kind": "subject",
+            "label": "Sax-Forstegg: ruled by Zurich since 1615",
+            "sel": {
+              "munis": [
+                3274
+              ]
+            }
+          },
+          {
+            "name": "Stein am Rhein",
+            "kind": "subject",
+            "label": "Stein am Rhein: under Zurich since 1484",
+            "sel": {
+              "munis": [
+                2964,
+                2962
+              ]
+            }
+          },
+          {
+            "name": "Dörflingen",
+            "kind": "subject",
+            "label": "Dörflingen: ruled by Zurich since 1434",
+            "sel": {
+              "munis": [
+                2915
+              ]
+            }
+          },
+          {
+            "name": "Zurich countryside",
+            "kind": "subject",
+            "label": "Zurich countryside: bailiwicks ruled by the city",
+            "sel": {
+              "cantons": [
+                "ZH"
+              ],
+              "except": [
+                261
+              ]
+            }
+          },
+          {
+            "name": "City of Zurich",
+            "kind": "core",
+            "label": "City of Zurich",
+            "sel": {
+              "munis": [
+                261
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "year": 1803,
+        "title": "Today's borders",
+        "text": [
+          "In 1798 the old city-state ends. The country people get equal rights. Stein am Rhein and Dörflingen go to Schaffhausen, and Sax goes to the new canton of Linth.",
+          "In 1803 the Act of Mediation fixes the canton. Zurich gets Rheinau and Dietikon with nearby villages from the old County of Baden.",
+          "Since then, the borders have not changed, except for very small corrections."
+        ],
+        "layers": [
+          {
+            "name": "Gained 1803",
+            "kind": "core",
+            "label": "Rheinau and the Dietikon area: part of Zurich since 1803",
+            "sel": {
+              "munis": [
+                38,
+                243,
+                247,
+                246,
+                87
+              ]
+            }
+          },
+          {
+            "name": "Canton of Zurich",
+            "kind": "core",
+            "label": "Canton of Zurich",
+            "sel": {
+              "cantons": [
+                "ZH"
+              ]
+            }
+          },
+          {
+            "name": "Went to Schaffhausen",
+            "kind": "other",
+            "label": "Stein am Rhein and Dörflingen: went to Schaffhausen in 1798",
+            "sel": {
+              "munis": [
+                2964,
+                2962,
+                2915
+              ]
+            }
+          },
+          {
+            "name": "Went to St. Gallen",
+            "kind": "other",
+            "label": "Sax: went to Linth in 1798 and to St. Gallen in 1803",
+            "sel": {
+              "munis": [
+                3274
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "sources": [
+      "https://hls-dhs-dss.ch/de/articles/007381/",
+      "https://hls-dhs-dss.ch/de/articles/000164/"
+    ],
+    "notes": "Bailiwicks drawn as today's districts: Kyburg = Winterthur, Pfäffikon, Andelfingen and most of Bülach; Grüningen = Hinwil + Hombrechtikon; Greifensee = Uster; Regensberg = Dielsdorf + Bülach and nearby villages. Many small lordships bought later (Regensdorf 1469, Knonau 1512, Bonstetten 1539, Laufen 1544, Flaach 1694, Altikon 1696) are not shown separately in 1452. Winterthur, Stammheim (1464), Laufen-Uhwiesen and the Eglisau villages are left blank in 1452. Dietikon area = Dietikon, Schlieren, Oetwil an der Limmat, Hüttikon. Hemishofen is drawn with Stein am Rhein. Ellikon am Rhein (now part of Marthalen) came from Schaffhausen in 1798 and cannot be drawn alone."
+  },
+  {
+    "canton": "SH",
+    "name": "Schaffhausen",
+    "summary": "The city of Schaffhausen built its land north of the Rhine bit by bit from the 1400s to 1723, and gained Stein am Rhein and nearby villages in 1798.",
+    "stops": [
+      {
+        "year": 1092,
+        "title": "Town of an abbey",
+        "text": [
+          "In 1049 Count Eberhard of Nellenburg founds the abbey of All Saints (Allerheiligen) at Schaffhausen. Between 1080 and 1092 his son gives the abbey the lordship over the town.",
+          "So the abbey is the lord of the young town. The land around it belongs to many other lords."
+        ],
+        "layers": [
+          {
+            "name": "Schaffhausen",
+            "kind": "lord",
+            "lord": "abbey",
+            "label": "Town ruled by the abbey of All Saints",
+            "sel": {
+              "munis": [
+                2939
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "year": 1218,
+        "title": "An imperial town",
+        "text": [
+          "From 1197 to 1218 the dukes of Zähringen hold the bailiff rights over the town. After the Zähringen family dies out in 1218, the rights go back to the Empire.",
+          "Schaffhausen is now a town directly under the Emperor. The citizens slowly take power from the abbey."
+        ],
+        "layers": [
+          {
+            "name": "Schaffhausen",
+            "kind": "lord",
+            "lord": "empire",
+            "label": "Schaffhausen: imperial town from 1218",
+            "sel": {
+              "munis": [
+                2939
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "year": 1330,
+        "title": "Pledged to Habsburg",
+        "text": [
+          "In 1330 the Emperor pledges (gives as security for a loan) the town to Habsburg. Until 1415 the town cannot build its own territory.",
+          "Since 1302 the Bishop of Constance rules Neunkirch and Hallau in the Klettgau. In 1415 the town becomes free again, and later it buys land from these lords."
+        ],
+        "layers": [
+          {
+            "name": "Neunkirch and Hallau",
+            "kind": "lord",
+            "lord": "bishop",
+            "label": "Bishop of Constance: lordship of Neunkirch-Hallau since 1302",
+            "sel": {
+              "munis": [
+                2904,
+                2971,
+                2972
+              ]
+            }
+          },
+          {
+            "name": "Schaffhausen",
+            "kind": "lord",
+            "lord": "habsburg",
+            "label": "Schaffhausen: pledged to Habsburg 1330–1415",
+            "sel": {
+              "munis": [
+                2939
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "year": 1501,
+        "title": "The city joins the Swiss",
+        "text": [
+          "In 1501 Schaffhausen becomes the twelfth member of the Confederation. The city has been free under the Emperor again since 1415.",
+          "At this time it rules little land. It holds Thayngen since 1460, but Austria keeps the high court there."
+        ],
+        "layers": [
+          {
+            "name": "Thayngen",
+            "kind": "subject",
+            "label": "Thayngen: city bailiwick since 1460 (high court still Austrian)",
+            "sel": {
+              "munis": [
+                2920
+              ]
+            }
+          },
+          {
+            "name": "City of Schaffhausen",
+            "kind": "core",
+            "label": "City of Schaffhausen: member of the Confederation since 1501",
+            "sel": {
+              "munis": [
+                2939
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "year": 1530,
+        "title": "Land from churches and the bishop",
+        "text": [
+          "Between 1520 and 1530 the city gets much land. Rüdlingen and Buchberg come in 1520. In 1524 the abbey of All Saints gives up Merishausen, Neuhausen and other places.",
+          "In 1525 the city buys Neunkirch and Hallau from the Bishop of Constance. In 1529 the convent of Paradies sells Löhningen, Lohn, Büttenhardt and other villages. Schleitheim and Beggingen follow in 1530.",
+          "In many villages the high court (the right to judge serious crimes) still belongs to German lords."
+        ],
+        "layers": [
+          {
+            "name": "Rüdlingen and Buchberg",
+            "kind": "subject",
+            "label": "Rüdlingen and Buchberg: Schaffhausen since 1520",
+            "sel": {
+              "munis": [
+                2938,
+                2933
+              ]
+            }
+          },
+          {
+            "name": "Abbey lands",
+            "kind": "subject",
+            "label": "Merishausen and Neuhausen: from the abbey of All Saints, 1524",
+            "sel": {
+              "munis": [
+                2936,
+                2937
+              ]
+            }
+          },
+          {
+            "name": "Neunkirch and Hallau",
+            "kind": "subject",
+            "label": "Neunkirch and Hallau: bought from the Bishop of Constance, 1525",
+            "sel": {
+              "munis": [
+                2904,
+                2971,
+                2972
+              ]
+            }
+          },
+          {
+            "name": "Paradies villages",
+            "kind": "subject",
+            "label": "Löhningen, Lohn, Büttenhardt: bought from the convent of Paradies, 1529",
+            "sel": {
+              "munis": [
+                2903,
+                2917,
+                2914
+              ]
+            }
+          },
+          {
+            "name": "Schleitheim",
+            "kind": "subject",
+            "label": "Schleitheim and Beggingen: Schaffhausen since 1530",
+            "sel": {
+              "munis": [
+                2952,
+                2951
+              ]
+            }
+          },
+          {
+            "name": "Thayngen",
+            "kind": "subject",
+            "label": "Thayngen: city bailiwick since 1460",
+            "sel": {
+              "munis": [
+                2920
+              ]
+            }
+          },
+          {
+            "name": "City of Schaffhausen",
+            "kind": "core",
+            "label": "City of Schaffhausen",
+            "sel": {
+              "munis": [
+                2939
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "year": 1723,
+        "title": "Full rule over the countryside",
+        "text": [
+          "In 1657 the city buys the high court in its Klettgau villages. In 1723 it buys the high court in the Reiat from Austria.",
+          "Now the city fully rules its countryside. Stein am Rhein and Dörflingen nearby belong to Zurich. Later attempts to buy more land, such as Gailingen, fail."
+        ],
+        "layers": [
+          {
+            "name": "Ruled by Zurich",
+            "kind": "other",
+            "label": "Stein am Rhein, Hemishofen, Dörflingen: ruled by Zurich",
+            "sel": {
+              "munis": [
+                2964,
+                2962,
+                2915
+              ]
+            }
+          },
+          {
+            "name": "Schaffhausen countryside",
+            "kind": "subject",
+            "label": "Schaffhausen countryside: bailiwicks ruled by the city",
+            "sel": {
+              "cantons": [
+                "SH"
+              ],
+              "except": [
+                2939,
+                2964,
+                2962,
+                2963,
+                2915
+              ]
+            }
+          },
+          {
+            "name": "City of Schaffhausen",
+            "kind": "core",
+            "label": "City of Schaffhausen",
+            "sel": {
+              "munis": [
+                2939
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "year": 1798,
+        "title": "Stein am Rhein joins",
+        "text": [
+          "In 1798 the Helvetic Republic gives Stein am Rhein, Hemishofen and Ramsen to Schaffhausen. Zurich also gives Dörflingen in exchange for Ellikon am Rhein.",
+          "From 1798 to 1800 the Diessenhofen area of Thurgau is also part of the canton."
+        ],
+        "layers": [
+          {
+            "name": "Diessenhofen",
+            "kind": "other",
+            "label": "Diessenhofen area: part of Schaffhausen 1798–1800, then back to Thurgau",
+            "sel": {
+              "munis": [
+                4545,
+                4536,
+                4546
+              ]
+            }
+          },
+          {
+            "name": "Gained 1798",
+            "kind": "core",
+            "label": "Stein am Rhein, Hemishofen, Ramsen, Dörflingen: part of Schaffhausen since 1798",
+            "sel": {
+              "munis": [
+                2964,
+                2962,
+                2963,
+                2915
+              ]
+            }
+          },
+          {
+            "name": "Canton of Schaffhausen",
+            "kind": "core",
+            "label": "Canton of Schaffhausen",
+            "sel": {
+              "cantons": [
+                "SH"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "year": 1967,
+        "title": "Today's borders",
+        "text": [
+          "In 1967 a treaty with Germany gives the small farm area of Verenahof to Schaffhausen. Büsingen stays a German enclave inside Swiss land.",
+          "Since then, the borders have not changed."
+        ],
+        "layers": [
+          {
+            "name": "Canton of Schaffhausen",
+            "kind": "core",
+            "label": "Canton of Schaffhausen",
+            "sel": {
+              "cantons": [
+                "SH"
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "sources": [
+      "https://hls-dhs-dss.ch/de/articles/007388/",
+      "https://hls-dhs-dss.ch/de/articles/001280/",
+      "https://hls-dhs-dss.ch/fr/articles/001276/",
+      "https://hls-dhs-dss.ch/de/articles/001268/"
+    ],
+    "notes": "1501 shows only the city and Thayngen; the city's hospital and citizens also held smaller rights in other villages. In 1530 some villages are left blank because their date of purchase was not confirmed (e.g. Beringen, Siblingen, Stetten, Bargen, Gächlingen, Wilchingen, Trasadingen). The 1723 layer draws all of today's canton except the 1798 gains, so it may include a few places bought later. Diessenhofen area drawn as Diessenhofen, Basadingen-Schlattingen and Schlatt. Ramsen was Austrian until 1770, then under Zurich; it is left blank in 1723."
+  },
+  {
+    "canton": "TG",
+    "name": "Thurgau",
+    "summary": "Thurgau was land ruled together by the Swiss cantons from 1460 to 1798, and became a free canton with the same borders in 1803.",
+    "stops": [
+      {
+        "year": 1094,
+        "title": "County of the Kyburg counts",
+        "text": [
+          "From 1094 the counts of Dillingen-Kyburg hold the county of Thurgau. They also own large estates there. In 1178 they make Diessenhofen a town.",
+          "Abbeys such as St. Gallen and Reichenau, and the Bishop of Constance, also own much land in Thurgau."
+        ],
+        "layers": [
+          {
+            "name": "County of Thurgau",
+            "kind": "lord",
+            "lord": "kyburg",
+            "label": "County of Thurgau: held by the counts of Kyburg from 1094",
+            "sel": {
+              "cantons": [
+                "TG"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "year": 1264,
+        "title": "Habsburg takes over",
+        "text": [
+          "The counts of Kyburg die out in 1264. Rudolf of Habsburg inherits their rights in Thurgau. Habsburg rules the land from Frauenfeld.",
+          "The Bishop of Constance keeps the high court in Arbon and Bischofszell. From 1417 the city of Constance holds the land court (Landgericht) as a pledge."
+        ],
+        "layers": [
+          {
+            "name": "Arbon and Bischofszell",
+            "kind": "lord",
+            "lord": "bishop",
+            "label": "Bishop of Constance: high court in Arbon and Bischofszell",
+            "sel": {
+              "munis": [
+                4401,
+                4471
+              ]
+            }
+          },
+          {
+            "name": "Landgraviate of Thurgau",
+            "kind": "lord",
+            "lord": "habsburg",
+            "label": "Landgraviate of Thurgau: Habsburg 1264–1460",
+            "sel": {
+              "cantons": [
+                "TG"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "year": 1460,
+        "title": "Conquered by the Swiss",
+        "text": [
+          "In 1460 seven Swiss cantons take Thurgau from Habsburg. It becomes a common lordship (land ruled together by several cantons). A governor in Frauenfeld rules it in turn for each canton.",
+          "The people of Thurgau have no vote. Bern joins the ruling cantons in 1712. The town of Diessenhofen keeps special rights.",
+          "The Bishop of Constance keeps the high court in Arbon and Bischofszell. The land court stays with the city of Constance until 1499. In 1460 the land already has almost today's shape."
+        ],
+        "layers": [
+          {
+            "name": "Arbon and Bischofszell",
+            "kind": "lord",
+            "lord": "bishop",
+            "label": "Bishop of Constance: high court in Arbon and Bischofszell until 1798",
+            "sel": {
+              "munis": [
+                4401,
+                4471
+              ]
+            }
+          },
+          {
+            "name": "Diessenhofen",
+            "kind": "shared",
+            "label": "Diessenhofen: town with own courts, ruled by the Swiss cantons",
+            "sel": {
+              "munis": [
+                4545
+              ]
+            }
+          },
+          {
+            "name": "Landgraviate of Thurgau",
+            "kind": "shared",
+            "label": "Thurgau: common lordship of the Swiss cantons, not a member",
+            "sel": {
+              "cantons": [
+                "TG"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "year": 1798,
+        "title": "A free canton",
+        "text": [
+          "In 1798 Thurgau declares itself free. It becomes a canton of the Helvetic Republic.",
+          "From 1798 to 1800 the Diessenhofen area belongs to the canton of Schaffhausen."
+        ],
+        "layers": [
+          {
+            "name": "Diessenhofen area",
+            "kind": "other",
+            "label": "Diessenhofen area: part of Schaffhausen 1798–1800",
+            "sel": {
+              "munis": [
+                4545,
+                4536,
+                4546
+              ]
+            }
+          },
+          {
+            "name": "Canton of Thurgau",
+            "kind": "core",
+            "label": "Helvetic canton of Thurgau",
+            "sel": {
+              "cantons": [
+                "TG"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "year": 1803,
+        "title": "Full member of the Confederation",
+        "text": [
+          "In 1803 the Act of Mediation makes Thurgau a full canton of the Confederation, with Frauenfeld as capital.",
+          "Since then, the borders have not changed."
+        ],
+        "layers": [
+          {
+            "name": "Canton of Thurgau",
+            "kind": "core",
+            "label": "Canton of Thurgau",
+            "sel": {
+              "cantons": [
+                "TG"
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "sources": [
+      "https://hls-dhs-dss.ch/de/articles/007393/",
+      "https://hls-dhs-dss.ch/de/articles/001891/",
+      "https://hls-dhs-dss.ch/de/articles/007388/"
+    ],
+    "notes": "From 1460 to 1798 Thurgau is drawn as 'shared' (ruled land, not a member). Inside Thurgau, many lower courts belonged to the Bishop of Constance, abbeys or Zurich (e.g. Weinfelden 1614); these are not drawn. Diessenhofen area drawn as Diessenhofen, Basadingen-Schlattingen and Schlatt."
+  },
+  {
+    "canton": "AR",
+    "name": "Appenzell Ausserrhoden",
+    "summary": "Ausserrhoden is the Protestant outer part of the land of Appenzell, which joined the Swiss in 1513 and split in two in 1597.",
+    "stops": [
+      {
+        "year": 1300,
+        "title": "Land of the abbot",
+        "text": [
+          "The valley of Appenzell belongs to the Abbey of St. Gallen. The name Appenzell means 'cell of the abbot'. The abbot's officials rule the farmers.",
+          "In the Appenzell Wars (1401–1429) the people throw off the abbot's rule. Herisau and the Vorderland join their land in this time."
+        ],
+        "layers": [
+          {
+            "name": "Abbey lands",
+            "kind": "lord",
+            "lord": "abbey",
+            "label": "Appenzell valley: ruled by the Abbey of St. Gallen (about 1300)",
+            "sel": {
+              "cantons": [
+                "AR",
+                "AI"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "year": 1513,
+        "title": "Appenzell joins the Swiss",
+        "text": [
+          "The people of Appenzell free themselves from the Abbot of St. Gallen in the Appenzell Wars (from 1401). By 1429 their land includes Herisau and the Vorderland.",
+          "Appenzell is an ally of the Swiss from 1411. In 1513 it becomes the thirteenth full member.",
+          "Since 1500 Appenzell also shares the rule of the Rhine valley (Rheintal) with the other cantons."
+        ],
+        "layers": [
+          {
+            "name": "Rheintal",
+            "kind": "shared",
+            "label": "Rheintal: ruled together with other cantons since 1500",
+            "sel": {
+              "districts": [
+                1723
+              ]
+            }
+          },
+          {
+            "name": "Land of Appenzell",
+            "kind": "core",
+            "label": "Land of Appenzell: member of the Confederation since 1513",
+            "sel": {
+              "cantons": [
+                "AR",
+                "AI"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "year": 1597,
+        "title": "The land splits in two",
+        "text": [
+          "After the Reformation, the people disagree about religion. In 1597 the land splits into two half-cantons.",
+          "The Protestant outer parts form Ausserrhoden: the Hinterland, the Mittelland and the Vorderland. Both halves keep a share in the rule of the Rheintal."
+        ],
+        "layers": [
+          {
+            "name": "Rheintal",
+            "kind": "shared",
+            "label": "Rheintal: ruled together with other cantons",
+            "sel": {
+              "districts": [
+                1723
+              ]
+            }
+          },
+          {
+            "name": "Innerrhoden",
+            "kind": "other",
+            "label": "Appenzell Innerrhoden: the Catholic half since 1597",
+            "sel": {
+              "cantons": [
+                "AI"
+              ]
+            }
+          },
+          {
+            "name": "Ausserrhoden",
+            "kind": "core",
+            "label": "Appenzell Ausserrhoden: half-canton since 1597",
+            "sel": {
+              "cantons": [
+                "AR"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "year": 1798,
+        "title": "Part of the canton of Säntis",
+        "text": [
+          "In 1798 the Helvetic Republic joins both Appenzells with the lands of the Abbey of St. Gallen, the town of St. Gallen, the Rheintal and the lower Toggenburg. Together they form the canton of Säntis."
+        ],
+        "layers": [
+          {
+            "name": "Canton of Säntis",
+            "kind": "core",
+            "label": "Canton of Säntis (1798–1803)",
+            "sel": {
+              "cantons": [
+                "AR",
+                "AI"
+              ],
+              "districts": [
+                1721,
+                1722,
+                1723,
+                1727,
+                1728
+              ],
+              "except": [
+                3360,
+                3359,
+                3352
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "year": 1803,
+        "title": "Ausserrhoden restored",
+        "text": [
+          "In 1803 the Act of Mediation restores Ausserrhoden as a half-canton. The Rheintal goes to the new canton of St. Gallen.",
+          "Since then, the borders have not changed."
+        ],
+        "layers": [
+          {
+            "name": "Innerrhoden",
+            "kind": "other",
+            "label": "Appenzell Innerrhoden",
+            "sel": {
+              "cantons": [
+                "AI"
+              ]
+            }
+          },
+          {
+            "name": "Ausserrhoden",
+            "kind": "core",
+            "label": "Appenzell Ausserrhoden",
+            "sel": {
+              "cantons": [
+                "AR"
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "sources": [
+      "https://hls-dhs-dss.ch/de/articles/007389/",
+      "https://hls-dhs-dss.ch/de/articles/008634/",
+      "https://www.ai.ch/land-und-leute/geschichte/1597-die-landteilung"
+    ],
+    "notes": "In 1513 the land of Appenzell is drawn as today's two half-cantons together. Lower Toggenburg in Säntis drawn as Toggenburg without Nesslau, Wildhaus-Alt St. Johann and Ebnat-Kappel (approximate line)."
+  },
+  {
+    "canton": "AI",
+    "name": "Appenzell Innerrhoden",
+    "summary": "Innerrhoden is the Catholic inner part of the land of Appenzell, which joined the Swiss in 1513; it became a half-canton in 1597, with Oberegg as a separate piece.",
+    "stops": [
+      {
+        "year": 1300,
+        "title": "Land of the abbot",
+        "text": [
+          "The valley of Appenzell belongs to the Abbey of St. Gallen. The name Appenzell means 'cell of the abbot'. The abbot's officials rule the farmers.",
+          "In the Appenzell Wars (1401–1429) the people throw off the abbot's rule. Herisau and the Vorderland join their land in this time."
+        ],
+        "layers": [
+          {
+            "name": "Abbey lands",
+            "kind": "lord",
+            "lord": "abbey",
+            "label": "Appenzell valley: ruled by the Abbey of St. Gallen (about 1300)",
+            "sel": {
+              "cantons": [
+                "AR",
+                "AI"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "year": 1513,
+        "title": "Appenzell joins the Swiss",
+        "text": [
+          "The people of Appenzell free themselves from the Abbot of St. Gallen in the Appenzell Wars (from 1401).",
+          "Appenzell is an ally of the Swiss from 1411. In 1513 it becomes the thirteenth full member. Since 1500 it shares the rule of the Rheintal."
+        ],
+        "layers": [
+          {
+            "name": "Rheintal",
+            "kind": "shared",
+            "label": "Rheintal: ruled together with other cantons since 1500",
+            "sel": {
+              "districts": [
+                1723
+              ]
+            }
+          },
+          {
+            "name": "Land of Appenzell",
+            "kind": "core",
+            "label": "Land of Appenzell: member of the Confederation since 1513",
+            "sel": {
+              "cantons": [
+                "AR",
+                "AI"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "year": 1597,
+        "title": "The land splits in two",
+        "text": [
+          "In 1597 the land splits into two half-cantons because of religion. The Catholic inner part around the village of Appenzell forms Innerrhoden.",
+          "The Catholic villages of Hirschberg and Oberegg near the Rhine valley also join Innerrhoden. So Oberegg is a separate piece of the canton (an exclave)."
+        ],
+        "layers": [
+          {
+            "name": "Rheintal",
+            "kind": "shared",
+            "label": "Rheintal: ruled together with other cantons",
+            "sel": {
+              "districts": [
+                1723
+              ]
+            }
+          },
+          {
+            "name": "Ausserrhoden",
+            "kind": "other",
+            "label": "Appenzell Ausserrhoden: the Protestant half since 1597",
+            "sel": {
+              "cantons": [
+                "AR"
+              ]
+            }
+          },
+          {
+            "name": "Innerrhoden",
+            "kind": "core",
+            "label": "Appenzell Innerrhoden: half-canton since 1597",
+            "sel": {
+              "cantons": [
+                "AI"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "year": 1798,
+        "title": "Part of the canton of Säntis",
+        "text": [
+          "In 1798 the Helvetic Republic joins both Appenzells with the lands of the Abbey of St. Gallen, the town of St. Gallen, the Rheintal and the lower Toggenburg. Together they form the canton of Säntis."
+        ],
+        "layers": [
+          {
+            "name": "Canton of Säntis",
+            "kind": "core",
+            "label": "Canton of Säntis (1798–1803)",
+            "sel": {
+              "cantons": [
+                "AR",
+                "AI"
+              ],
+              "districts": [
+                1721,
+                1722,
+                1723,
+                1727,
+                1728
+              ],
+              "except": [
+                3360,
+                3359,
+                3352
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "year": 1803,
+        "title": "Innerrhoden restored",
+        "text": [
+          "In 1803 the Act of Mediation restores Innerrhoden as a half-canton, with Oberegg.",
+          "Since then, the borders have not changed."
+        ],
+        "layers": [
+          {
+            "name": "Ausserrhoden",
+            "kind": "other",
+            "label": "Appenzell Ausserrhoden",
+            "sel": {
+              "cantons": [
+                "AR"
+              ]
+            }
+          },
+          {
+            "name": "Innerrhoden",
+            "kind": "core",
+            "label": "Appenzell Innerrhoden",
+            "sel": {
+              "cantons": [
+                "AI"
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "sources": [
+      "https://hls-dhs-dss.ch/de/articles/007389/",
+      "https://hls-dhs-dss.ch/de/articles/001318/",
+      "https://hls-dhs-dss.ch/de/articles/008634/",
+      "https://www.ai.ch/land-und-leute/geschichte/1597-die-landteilung"
+    ],
+    "notes": "In 1513 the land of Appenzell is drawn as today's two half-cantons together. Lower Toggenburg in Säntis drawn as Toggenburg without Nesslau, Wildhaus-Alt St. Johann and Ebnat-Kappel (approximate line)."
+  },
+  {
+    "canton": "SG",
+    "name": "St. Gallen",
+    "summary": "St. Gallen was made in 1803 from the abbey's lands, the town of St. Gallen and lordships ruled by other cantons; its borders have not changed since.",
+    "stops": [
+      {
+        "year": 1400,
+        "title": "Abbot, town and counts",
+        "text": [
+          "About 1400 the Abbot of St. Gallen rules the old abbey lands around St. Gallen, Rorschach and Wil. The town of St. Gallen is becoming free from the abbot.",
+          "The counts of Toggenburg rule the Toggenburg until they die out in 1436. Rapperswil belongs to Habsburg. Other parts belong to many noble families.",
+          "Later the abbot buys the Toggenburg (1468), and Swiss cantons take the other lordships one by one."
+        ],
+        "layers": [
+          {
+            "name": "Town of St. Gallen",
+            "kind": "lord",
+            "lord": "empire",
+            "label": "Town of St. Gallen: imperial town, freeing itself from the abbot",
+            "sel": {
+              "munis": [
+                3203
+              ]
+            }
+          },
+          {
+            "name": "Abbey lands",
+            "kind": "lord",
+            "lord": "abbey",
+            "label": "Abbey of St. Gallen: old abbey lands",
+            "sel": {
+              "districts": [
+                1721,
+                1722,
+                1728
+              ]
+            }
+          },
+          {
+            "name": "Toggenburg",
+            "kind": "lord",
+            "lord": "noble",
+            "label": "Counts of Toggenburg (until 1436)",
+            "sel": {
+              "districts": [
+                1727
+              ]
+            }
+          },
+          {
+            "name": "Rapperswil",
+            "kind": "lord",
+            "lord": "habsburg",
+            "label": "Rapperswil: Habsburg town",
+            "sel": {
+              "munis": [
+                3340
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "year": 1797,
+        "title": "Many lords before 1798",
+        "text": [
+          "Before 1798 there is no canton of St. Gallen. The Prince-Abbot of St. Gallen rules the old abbey lands and, since 1468, the Toggenburg. The town of St. Gallen is a small free city-state. Both are allies of the Swiss, but not full members.",
+          "Other lands are bailiwicks (lands ruled by a governor) of Swiss cantons. Several cantons rule the Rheintal and Sargans together. Glarus rules Werdenberg, Zurich rules Sax, and Schwyz and Glarus rule Gaster, Uznach and Gams."
+        ],
+        "layers": [
+          {
+            "name": "Town of St. Gallen",
+            "kind": "lord",
+            "label": "Town of St. Gallen: free imperial city, ally of the Swiss (not a member)",
+            "sel": {
+              "munis": [
+                3203
+              ]
+            },
+            "lord": "empire"
+          },
+          {
+            "name": "Abbey lands",
+            "kind": "lord",
+            "label": "Prince-Abbey of St. Gallen: old abbey lands, ally of the Swiss (not a member)",
+            "sel": {
+              "districts": [
+                1721,
+                1722,
+                1728
+              ],
+              "except": [
+                3203
+              ]
+            },
+            "lord": "abbey"
+          },
+          {
+            "name": "Toggenburg",
+            "kind": "lord",
+            "label": "Toggenburg: ruled by the Abbey of St. Gallen since 1468",
+            "sel": {
+              "districts": [
+                1727
+              ]
+            },
+            "lord": "abbey"
+          },
+          {
+            "name": "Rheintal",
+            "kind": "shared",
+            "label": "Rheintal: common lordship of several cantons and Appenzell",
+            "sel": {
+              "districts": [
+                1723
+              ]
+            }
+          },
+          {
+            "name": "Sax",
+            "kind": "other",
+            "label": "Sax-Forstegg: ruled by Zurich since 1615",
+            "sel": {
+              "munis": [
+                3274
+              ]
+            }
+          },
+          {
+            "name": "Sargans",
+            "kind": "shared",
+            "label": "Sargans: common lordship of several cantons since 1483",
+            "sel": {
+              "districts": [
+                1725
+              ],
+              "munis": [
+                3276
+              ]
+            }
+          },
+          {
+            "name": "Gams",
+            "kind": "other",
+            "label": "Gams: ruled by Schwyz and Glarus",
+            "sel": {
+              "munis": [
+                3272
+              ]
+            }
+          },
+          {
+            "name": "Werdenberg",
+            "kind": "other",
+            "label": "Werdenberg: ruled by Glarus since 1517",
+            "sel": {
+              "districts": [
+                1724
+              ]
+            }
+          },
+          {
+            "name": "Rapperswil",
+            "kind": "other",
+            "label": "Rapperswil: town under the protection of other cantons",
+            "sel": {
+              "munis": [
+                3340
+              ]
+            }
+          },
+          {
+            "name": "Gaster and Uznach",
+            "kind": "other",
+            "label": "Gaster and Uznach: ruled by Schwyz and Glarus",
+            "sel": {
+              "districts": [
+                1726
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "year": 1798,
+        "title": "Cantons of Säntis and Linth",
+        "text": [
+          "In 1798 the Helvetic Republic ends the rule of the abbot and of the old cantons. It divides the land between two new cantons.",
+          "The canton of Säntis has the abbey lands, the town, the Rheintal, the lower Toggenburg and both Appenzells. The canton of Linth has Glarus, Werdenberg, Sax, Sargans, Gaster, Uznach, Rapperswil and the upper Toggenburg."
+        ],
+        "layers": [
+          {
+            "name": "Canton of Linth",
+            "kind": "core",
+            "label": "Canton of Linth (1798–1803), with Glarus",
+            "sel": {
+              "districts": [
+                1724,
+                1725,
+                1726
+              ],
+              "munis": [
+                3360,
+                3359,
+                3352
+              ]
+            }
+          },
+          {
+            "name": "Canton of Säntis",
+            "kind": "core",
+            "label": "Canton of Säntis (1798–1803), with both Appenzells",
+            "sel": {
+              "districts": [
+                1721,
+                1722,
+                1723,
+                1727,
+                1728
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "year": 1803,
+        "title": "A new canton",
+        "text": [
+          "In 1803 the Act of Mediation creates the canton of St. Gallen. It joins the abbey lands, the town and the former bailiwicks. Appenzell and Glarus become separate cantons again.",
+          "The abbey is closed in 1805. Since 1803, the borders have not changed."
+        ],
+        "layers": [
+          {
+            "name": "Canton of St. Gallen",
+            "kind": "core",
+            "label": "Canton of St. Gallen",
+            "sel": {
+              "cantons": [
+                "SG"
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "sources": [
+      "https://hls-dhs-dss.ch/de/articles/008634/",
+      "https://hls-dhs-dss.ch/de/articles/001407/",
+      "https://hls-dhs-dss.ch/de/articles/007389/"
+    ],
+    "notes": "In 1797 the town and the abbey are drawn as 'lord' layers: they were allies (zugewandte Orte), not members. In 1400 the Rheintal, Sargans, Werdenberg, Gaster and Uznach are left blank (many changing lords). Abbey lands = Wahlkreise St. Gallen (without the town), Rorschach and Wil; Toggenburg = Wahlkreis Toggenburg; Sargans = Sarganserland + Wartau; Werdenberg = Wahlkreis Werdenberg without Sennwald (Sax), Wartau and Gams; Gaster/Uznach = See-Gaster without Rapperswil-Jona. The line between lower and upper Toggenburg in 1798 is approximate (upper = Nesslau, Wildhaus-Alt St. Johann, Ebnat-Kappel). Glarus, March and Höfe (also in Linth) are not drawn."
+  }
+]

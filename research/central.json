@@ -1,0 +1,2076 @@
+[
+ {
+  "canton": "UR",
+  "name": "Uri",
+  "summary": "Uri grew from the Reuss valley to a pass state on both sides of the Gotthard, then lost the Leventina in 1798 and kept Urseren.",
+  "stops": [
+   {
+    "year": 1200,
+    "title": "Abbey land under Zähringen rule",
+    "text": [
+     "In 853 King Louis the German gives his lands and rights in Uri to the Fraumünster abbey in Zurich. The abbey owns much of the land.",
+     "Outside lords hold the right to judge and protect the valley for the king: the counts of Lenzburg from about 976 to 1173, then the dukes of Zähringen until 1218.",
+     "Urseren belongs to the lands of Disentis abbey, on the other side of the Oberalp Pass."
+    ],
+    "layers": [
+     {
+      "name": "Urseren",
+      "kind": "lord",
+      "lord": "abbey",
+      "label": "Urseren: land of Disentis abbey",
+      "sel": {
+       "munis": [
+        1202,
+        1210,
+        1212
+       ]
+      }
+     },
+     {
+      "name": "Uri",
+      "kind": "lord",
+      "lord": "zahringen",
+      "label": "Uri: Fraumünster abbey land, dukes of Zähringen as the king's governors (until 1218)",
+      "sel": {
+       "cantons": [
+        "UR"
+       ]
+      }
+     }
+    ]
+   },
+   {
+    "year": 1240,
+    "title": "Directly under the Empire",
+    "text": [
+     "After 1218 the Habsburgs get rights in Uri. In 1231 King Henry (VII) buys these rights back, and Uri comes directly under the Empire (reichsfrei: no lord between the valley and the king).",
+     "In 1239 or 1240 Emperor Frederick II makes Urseren an imperial district and gives it to Count Rudolf of Rapperswil."
+    ],
+    "layers": [
+     {
+      "name": "Urseren",
+      "kind": "lord",
+      "lord": "noble",
+      "label": "Urseren: Disentis abbey land, counts of Rapperswil as imperial governors",
+      "sel": {
+       "munis": [
+        1202,
+        1210,
+        1212
+       ]
+      }
+     },
+     {
+      "name": "Uri",
+      "kind": "lord",
+      "lord": "empire",
+      "label": "Uri: directly under the Empire since 1231",
+      "sel": {
+       "cantons": [
+        "UR"
+       ]
+      }
+     }
+    ]
+   },
+   {
+    "year": 1291,
+    "title": "Uri in the first league",
+    "text": [
+     "Uri is the valley of the Reuss from Lake Uri up to the Schöllenen gorge, with its side valleys. It is one of the first members of the Swiss league, around 1291 or 1309, and surely by 1315.",
+     "Urseren, the high valley around Andermatt, is not yet part of Uri."
+    ],
+    "layers": [
+     {
+      "name": "Urseren",
+      "kind": "lord",
+      "lord": "habsburg",
+      "label": "Urseren: Disentis abbey land, Habsburg as governors since 1283",
+      "sel": {
+       "munis": [
+        1202,
+        1210,
+        1212
+       ]
+      }
+     },
+     {
+      "name": "Uri",
+      "kind": "core",
+      "label": "Land of Uri: founding member of the Swiss league",
+      "sel": {
+       "cantons": [
+        "UR"
+       ]
+      }
+     }
+    ]
+   },
+   {
+    "year": 1410,
+    "title": "Urseren joins Uri",
+    "text": [
+     "In 1410 Uri and Urseren make a Landrecht (a treaty of common citizenship). Urseren keeps its own customs and court, but Uri leads it in war, justice and transit.",
+     "Uri now controls the road up to the Gotthard Pass. In 1403 Uri and Obwalden had already moved into the Leventina south of the pass, but they lose it again in 1422."
+    ],
+    "layers": [
+     {
+      "name": "Urseren",
+      "kind": "core",
+      "label": "Urseren: linked to Uri by treaty since 1410, with its own court",
+      "sel": {
+       "munis": [
+        1202,
+        1210,
+        1212
+       ]
+      }
+     },
+     {
+      "name": "Uri",
+      "kind": "core",
+      "label": "Land of Uri",
+      "sel": {
+       "cantons": [
+        "UR"
+       ]
+      }
+     }
+    ]
+   },
+   {
+    "year": 1503,
+    "title": "A pass state across the Gotthard",
+    "text": [
+     "Uri takes the Leventina again in 1439–1441. After the battle of Giornico in 1478 and peace with Milan in 1480, the valley stays with Uri. It is a subject land: Uri sends a bailiff (a governor) to rule it.",
+     "From 1503 Uri also rules Bellinzona, the Riviera and the Blenio valley, together with Schwyz and Nidwalden."
+    ],
+    "layers": [
+     {
+      "name": "Leventina",
+      "kind": "subject",
+      "label": "Leventina: ruled by Uri alone, about 1441–1798",
+      "sel": {
+       "districts": [
+        2103
+       ]
+      }
+     },
+     {
+      "name": "Bellinzona, Riviera, Blenio",
+      "kind": "shared",
+      "label": "Bellinzona, Riviera and Blenio: ruled by Uri, Schwyz and Nidwalden, 1503–1798",
+      "sel": {
+       "districts": [
+        2101,
+        2102,
+        2107
+       ]
+      }
+     },
+     {
+      "name": "Urseren",
+      "kind": "core",
+      "label": "Urseren: linked to Uri by treaty",
+      "sel": {
+       "munis": [
+        1202,
+        1210,
+        1212
+       ]
+      }
+     },
+     {
+      "name": "Uri",
+      "kind": "core",
+      "label": "Land of Uri",
+      "sel": {
+       "cantons": [
+        "UR"
+       ]
+      }
+     }
+    ]
+   },
+   {
+    "year": 1798,
+    "title": "Part of canton Waldstätten",
+    "text": [
+     "In 1798 the Helvetic Republic ends the old order. The Leventina is set free and is no longer ruled by Uri.",
+     "Uri becomes two districts, Altdorf and Andermatt, of the new canton of Waldstätten. This canton joins Uri, Schwyz, Obwalden, Nidwalden and Zug."
+    ],
+    "layers": [
+     {
+      "name": "Uri",
+      "kind": "core",
+      "label": "Uri: districts Altdorf and Andermatt of canton Waldstätten",
+      "sel": {
+       "cantons": [
+        "UR"
+       ]
+      }
+     },
+     {
+      "name": "Rest of Waldstätten",
+      "kind": "other",
+      "label": "Other parts of the Helvetic canton Waldstätten (1798–1801)",
+      "sel": {
+       "cantons": [
+        "OW",
+        "NW",
+        "ZG"
+       ],
+       "districts": [
+        506,
+        502,
+        504,
+        501
+       ]
+      }
+     },
+     {
+      "name": "Leventina",
+      "kind": "other",
+      "label": "Leventina: free of Uri since 1798, later part of Ticino",
+      "sel": {
+       "districts": [
+        2103
+       ]
+      }
+     }
+    ]
+   },
+   {
+    "year": 1803,
+    "title": "Uri as it is today",
+    "text": [
+     "In 1803 Uri is a canton again. Urseren becomes an equal part of Uri, not a separate valley under a treaty.",
+     "Uri tries to get the Leventina back, but it fails. The Leventina stays in the new canton of Ticino. Since then, the borders of Uri have not changed."
+    ],
+    "layers": [
+     {
+      "name": "Uri",
+      "kind": "core",
+      "label": "Canton of Uri, with Urseren (since 1803)",
+      "sel": {
+       "cantons": [
+        "UR"
+       ]
+      }
+     },
+     {
+      "name": "Leventina",
+      "kind": "other",
+      "label": "Leventina: part of Ticino since 1803",
+      "sel": {
+       "districts": [
+        2103
+       ]
+      }
+     }
+    ]
+   }
+  ],
+  "sources": [
+   "https://hls-dhs-dss.ch/de/articles/007384/2021-01-15/",
+   "https://hls-dhs-dss.ch/de/articles/007467/2014-01-14/"
+  ],
+  "notes": "Urseren drawn as Andermatt, Hospental and Realp. The bailiwicks of Bellinzona, Riviera and Blenio are drawn as today's districts of Bellinzona, Riviera and Blenio; Biasca is drawn with Riviera. The Val d'Ossola (shared 1410–1418, now in Italy) cannot be drawn."
+ },
+ {
+  "canton": "SZ",
+  "name": "Schwyz",
+  "summary": "Schwyz added Arth, the March, Einsiedeln, Küssnacht and the Höfe by 1440, shared Gaster and Uznach with Glarus until 1798, gained Gersau in 1817 and was briefly split in 1832–1833.",
+  "stops": [
+   {
+    "year": 1150,
+    "title": "Lenzburg and Einsiedeln",
+    "text": [
+     "Around 1150 the counts of Lenzburg own large estates in the Schwyz valley. The people of Schwyz already argue with Einsiedeln abbey about the border of their pastures. This dispute (the Marchenstreit) goes on for almost 200 years.",
+     "Einsiedeln abbey owns the forest land around the monastery and the Höfe on Lake Zurich. The lords of Rapperswil and others hold land in the March."
+    ],
+    "layers": [
+     {
+      "name": "Einsiedeln",
+      "kind": "lord",
+      "lord": "abbey",
+      "label": "Einsiedeln abbey and its lands (with the Höfe)",
+      "sel": {
+       "districts": [
+        501,
+        503
+       ]
+      }
+     },
+     {
+      "name": "March",
+      "kind": "lord",
+      "lord": "noble",
+      "label": "March: lords of Rapperswil and other lords (about)",
+      "sel": {
+       "districts": [
+        505
+       ]
+      }
+     },
+     {
+      "name": "Schwyz",
+      "kind": "lord",
+      "lord": "lenzburg",
+      "label": "Schwyz valley: large estates of the counts of Lenzburg (until 1173)",
+      "sel": {
+       "districts": [
+        506
+       ]
+      }
+     }
+    ]
+   },
+   {
+    "year": 1240,
+    "title": "Schwyz becomes reichsfrei",
+    "text": [
+     "The Lenzburg line dies out in 1173. Their lands go to the Kyburgs, the Frohburgs, the lords of Rapperswil and the Habsburgs.",
+     "In 1240 Emperor Frederick II puts the valley of Schwyz directly under the Empire, as thanks for its help. The Habsburgs do not accept this, and the conflict goes on.",
+     "Küssnacht is ruled by a family of knights who serve the Habsburgs."
+    ],
+    "layers": [
+     {
+      "name": "Einsiedeln",
+      "kind": "lord",
+      "lord": "abbey",
+      "label": "Einsiedeln abbey and its lands (with the Höfe)",
+      "sel": {
+       "districts": [
+        501,
+        503
+       ]
+      }
+     },
+     {
+      "name": "March",
+      "kind": "lord",
+      "lord": "noble",
+      "label": "March: lords of Rapperswil and other lords (about)",
+      "sel": {
+       "districts": [
+        505
+       ]
+      }
+     },
+     {
+      "name": "Küssnacht",
+      "kind": "lord",
+      "lord": "noble",
+      "label": "Küssnacht: knights of Küssnacht, vassals of Habsburg",
+      "sel": {
+       "districts": [
+        504
+       ]
+      }
+     },
+     {
+      "name": "Schwyz",
+      "kind": "lord",
+      "lord": "empire",
+      "label": "Valley of Schwyz: directly under the Empire since 1240",
+      "sel": {
+       "districts": [
+        506
+       ]
+      }
+     }
+    ]
+   },
+   {
+    "year": 1291,
+    "title": "Old Land Schwyz",
+    "text": [
+     "The Land of Schwyz is the valley around the village of Schwyz, from Lake Lucerne to the Muota valley and Rothenthurm. It is one of the first members of the Swiss league, around 1291 or 1309, and surely by 1315.",
+     "Arth, Küssnacht, Einsiedeln, the March and the Höfe are not yet part of Schwyz.",
+     "Einsiedeln abbey still rules its own lands, with the Habsburgs as protectors since 1283. Küssnacht is held by knights who serve the Habsburgs."
+    ],
+    "layers": [
+     {
+      "name": "Arth",
+      "kind": "other",
+      "label": "Arth: joined Schwyz in the 14th century",
+      "sel": {
+       "munis": [
+        1362
+       ]
+      }
+     },
+     {
+      "name": "Einsiedeln",
+      "kind": "lord",
+      "lord": "abbey",
+      "label": "Einsiedeln abbey and the Höfe (Habsburg protectors since 1283)",
+      "sel": {
+       "districts": [
+        501,
+        503
+       ]
+      }
+     },
+     {
+      "name": "Küssnacht",
+      "kind": "lord",
+      "lord": "noble",
+      "label": "Küssnacht: knights of Küssnacht, vassals of Habsburg",
+      "sel": {
+       "districts": [
+        504
+       ]
+      }
+     },
+     {
+      "name": "Land Schwyz",
+      "kind": "core",
+      "label": "Old Land of Schwyz: founding member of the Swiss league",
+      "sel": {
+       "districts": [
+        506
+       ]
+      }
+     }
+    ]
+   },
+   {
+    "year": 1440,
+    "title": "Schwyz and its outer lands",
+    "text": [
+     "Schwyz grows quickly. It takes Einsiedeln in 1386 and becomes protector (Kastvogt) of the abbey in 1424. It makes treaties with the March from 1386 and holds all of it by 1436. It buys the rights over Küssnacht in 1402. In 1440, after the Old Zurich War, it takes Wollerau and Pfäffikon (the Höfe).",
+     "These outer lands belong to Schwyz, but their people have fewer rights than the people of old Schwyz. Together with Glarus, Schwyz also rules Gaster (from 1438) and Uznach (pledged 1437, bought 1469).",
+     "Gersau stays a tiny free republic and an ally of the Swiss."
+    ],
+    "layers": [
+     {
+      "name": "Gersau",
+      "kind": "other",
+      "label": "Gersau: small free republic, ally of the Swiss",
+      "sel": {
+       "districts": [
+        502
+       ]
+      }
+     },
+     {
+      "name": "Gaster and Uznach",
+      "kind": "shared",
+      "label": "Gaster and Uznach: ruled by Schwyz and Glarus together until 1798",
+      "sel": {
+       "munis": [
+        3311,
+        3312,
+        3313,
+        3315,
+        3316,
+        3338,
+        3339,
+        3341,
+        3342
+       ]
+      }
+     },
+     {
+      "name": "Einsiedeln",
+      "kind": "subject",
+      "label": "Einsiedeln and abbey lands: under Schwyz since 1386–1424",
+      "sel": {
+       "districts": [
+        501
+       ],
+       "munis": [
+        1345
+       ]
+      }
+     },
+     {
+      "name": "March",
+      "kind": "subject",
+      "label": "March: under Schwyz, fully by 1436",
+      "sel": {
+       "districts": [
+        505
+       ]
+      }
+     },
+     {
+      "name": "Höfe",
+      "kind": "subject",
+      "label": "Höfe (Wollerau, Pfäffikon): taken by Schwyz in 1440",
+      "sel": {
+       "districts": [
+        503
+       ]
+      }
+     },
+     {
+      "name": "Küssnacht",
+      "kind": "subject",
+      "label": "Küssnacht: rights bought by Schwyz in 1402",
+      "sel": {
+       "districts": [
+        504
+       ]
+      }
+     },
+     {
+      "name": "Land Schwyz",
+      "kind": "core",
+      "label": "Land of Schwyz, now with Arth",
+      "sel": {
+       "districts": [
+        506
+       ]
+      }
+     }
+    ]
+   },
+   {
+    "year": 1798,
+    "title": "Split between two cantons",
+    "text": [
+     "In 1798 the Helvetic Republic divides the land of Schwyz. Schwyz, Gersau, Küssnacht and Einsiedeln go to the new canton of Waldstätten.",
+     "The March and the Höfe go to the canton of Linth, together with Glarus. Gaster and Uznach are no longer ruled by Schwyz."
+    ],
+    "layers": [
+     {
+      "name": "Schwyz in Waldstätten",
+      "kind": "core",
+      "label": "Schwyz, Gersau, Küssnacht, Einsiedeln: part of canton Waldstätten",
+      "sel": {
+       "districts": [
+        506,
+        502,
+        504,
+        501
+       ]
+      }
+     },
+     {
+      "name": "March and Höfe",
+      "kind": "other",
+      "label": "March and Höfe: part of canton Linth (1798–1803)",
+      "sel": {
+       "districts": [
+        505,
+        503
+       ]
+      }
+     },
+     {
+      "name": "Rest of Waldstätten",
+      "kind": "other",
+      "label": "Other parts of canton Waldstätten",
+      "sel": {
+       "cantons": [
+        "UR",
+        "OW",
+        "NW",
+        "ZG"
+       ]
+      }
+     }
+    ]
+   },
+   {
+    "year": 1817,
+    "title": "Gersau joins for good",
+    "text": [
+     "In 1803 Schwyz is a canton again, with the March, the Höfe, Einsiedeln and Küssnacht. All its people now have equal rights in law.",
+     "Gersau and Reichenburg are added in 1803. Gersau becomes part of Schwyz for good in 1817."
+    ],
+    "layers": [
+     {
+      "name": "Gersau",
+      "kind": "core",
+      "label": "Gersau: part of Schwyz for good since 1817",
+      "sel": {
+       "districts": [
+        502
+       ]
+      }
+     },
+     {
+      "name": "Schwyz",
+      "kind": "core",
+      "label": "Canton of Schwyz",
+      "sel": {
+       "cantons": [
+        "SZ"
+       ]
+      }
+     }
+    ]
+   },
+   {
+    "year": 1832,
+    "title": "Outer Schwyz breaks away",
+    "text": [
+     "The outer districts want equal seats in the cantonal council. In 1832 the March, Einsiedeln, Küssnacht and Pfäffikon form their own half-canton, Ausserschwyz (Outer Schwyz).",
+     "Old Schwyz, Gersau and Wollerau stay with the old canton."
+    ],
+    "layers": [
+     {
+      "name": "Ausserschwyz",
+      "kind": "other",
+      "label": "Ausserschwyz: breakaway half-canton, 1832–1833",
+      "sel": {
+       "districts": [
+        505,
+        501,
+        504
+       ],
+       "munis": [
+        1322
+       ]
+      }
+     },
+     {
+      "name": "Inner Schwyz",
+      "kind": "core",
+      "label": "Canton of Schwyz (inner part), 1832–1833",
+      "sel": {
+       "cantons": [
+        "SZ"
+       ]
+      }
+     }
+    ]
+   },
+   {
+    "year": 1833,
+    "title": "Schwyz reunited",
+    "text": [
+     "In August 1833 federal troops occupy the canton. A new constitution in 1833 joins the two parts again and gives all districts equal rights.",
+     "Since then, the borders have not changed. In 1848 Wollerau and Pfäffikon join to form the district of Höfe."
+    ],
+    "layers": [
+     {
+      "name": "Schwyz",
+      "kind": "core",
+      "label": "Canton of Schwyz today",
+      "sel": {
+       "cantons": [
+        "SZ"
+       ]
+      }
+     }
+    ]
+   }
+  ],
+  "sources": [
+   "https://hls-dhs-dss.ch/de/articles/007385/",
+   "https://hls-dhs-dss.ch/de/articles/007415/",
+   "https://hls-dhs-dss.ch/de/articles/007644/"
+  ],
+  "notes": "Old Land Schwyz drawn as today's district of Schwyz without Arth; the Iberg and Alpthal area was long disputed with Einsiedeln abbey and is drawn as Schwyz. Reichenburg is drawn with the Einsiedeln abbey lands in 1440. Ausserschwyz is drawn with Freienbach (Pfäffikon) only; Feusisberg is drawn with Wollerau (about). Gaster and Uznach drawn as today's See-Gaster without Rapperswil-Jona. The shared Italian bailiwicks (Bellinzona, Riviera, Blenio) and Gams are not drawn because they do not touch Schwyz."
+ },
+ {
+  "canton": "OW",
+  "name": "Obwalden",
+  "summary": "Obwalden, the upper half of Unterwalden, kept the same valley from the Middle Ages and gained the Engelberg valley in 1815.",
+  "stops": [
+   {
+    "year": 1150,
+    "title": "Lenzburg and the new abbey",
+    "text": [
+     "Around 1150 the counts of Lenzburg are strong in Obwalden. They build a castle above Sarnen and give much land to their monastery of Beromünster. Lucerne's monastery (part of Murbach abbey) owns farms in Sarnen, Giswil and Alpnach.",
+     "In 1120 a monastery is founded at Engelberg. The abbey becomes the lord of the high valley."
+    ],
+    "layers": [
+     {
+      "name": "Engelberg",
+      "kind": "lord",
+      "lord": "abbey",
+      "label": "Engelberg: valley of the abbey (founded 1120)",
+      "sel": {
+       "munis": [
+        1402
+       ]
+      }
+     },
+     {
+      "name": "Obwalden",
+      "kind": "lord",
+      "lord": "lenzburg",
+      "label": "Obwalden: counts of Lenzburg with church lands (about; until 1173)",
+      "sel": {
+       "cantons": [
+        "OW"
+       ]
+      }
+     },
+     {
+      "name": "Nidwalden",
+      "kind": "lord",
+      "lord": "lenzburg",
+      "label": "Nidwalden: many lords; Lenzburg probably among them (about)",
+      "sel": {
+       "cantons": [
+        "NW"
+       ]
+      }
+     }
+    ]
+   },
+   {
+    "year": 1257,
+    "title": "Habsburg rule",
+    "text": [
+     "After 1173 the Habsburgs become the strongest lords in Unterwalden. In 1257 they give their lands there as fiefs to local followers.",
+     "Around 1247 the people of Sarnen appear for the first time as a valley community. In 1291 the Habsburgs also buy Murbach abbey's rights in Obwalden."
+    ],
+    "layers": [
+     {
+      "name": "Engelberg",
+      "kind": "lord",
+      "lord": "abbey",
+      "label": "Engelberg: valley of the abbey",
+      "sel": {
+       "munis": [
+        1402
+       ]
+      }
+     },
+     {
+      "name": "Unterwalden",
+      "kind": "lord",
+      "lord": "habsburg",
+      "label": "Unterwalden: rights held mainly by the counts of Habsburg",
+      "sel": {
+       "cantons": [
+        "OW",
+        "NW"
+       ]
+      }
+     }
+    ]
+   },
+   {
+    "year": 1291,
+    "title": "Unterwalden in the first league",
+    "text": [
+     "Unterwalden has two halves: Obwalden (above the forest) around Sarnen, and Nidwalden (below the forest) around Stans. Unterwalden is one of the first members of the Swiss league, probably soon after 1291 and before 1309.",
+     "The Engelberg valley belongs to the abbey of Engelberg. It is a separate small lordship."
+    ],
+    "layers": [
+     {
+      "name": "Engelberg",
+      "kind": "lord",
+      "label": "Engelberg: valley of the abbey (Habsburg protectors since 1274)",
+      "sel": {
+       "munis": [
+        1402
+       ]
+      },
+      "lord": "abbey"
+     },
+     {
+      "name": "Hergiswil",
+      "kind": "other",
+      "label": "Hergiswil: not yet part of Nidwalden (joined 1378)",
+      "sel": {
+       "munis": [
+        1507
+       ]
+      }
+     },
+     {
+      "name": "Obwalden",
+      "kind": "core",
+      "label": "Obwalden: upper half of Unterwalden",
+      "sel": {
+       "cantons": [
+        "OW"
+       ]
+      }
+     },
+     {
+      "name": "Nidwalden",
+      "kind": "core",
+      "label": "Nidwalden: lower half of Unterwalden",
+      "sel": {
+       "cantons": [
+        "NW"
+       ]
+      }
+     }
+    ]
+   },
+   {
+    "year": 1798,
+    "title": "District of canton Waldstätten",
+    "text": [
+     "Obwalden is the first of the old forest cantons to accept the Helvetic constitution, on 1 April 1798.",
+     "It becomes the district of Sarnen in the new canton of Waldstätten. Engelberg goes with Nidwalden into the district of Stans."
+    ],
+    "layers": [
+     {
+      "name": "Rest of Waldstätten",
+      "kind": "other",
+      "label": "Other parts of canton Waldstätten, with Engelberg",
+      "sel": {
+       "cantons": [
+        "UR",
+        "NW",
+        "ZG"
+       ],
+       "districts": [
+        506,
+        502,
+        504,
+        501
+       ],
+       "munis": [
+        1402
+       ]
+      }
+     },
+     {
+      "name": "Obwalden",
+      "kind": "core",
+      "label": "Obwalden: district Sarnen of canton Waldstätten",
+      "sel": {
+       "cantons": [
+        "OW"
+       ],
+       "except": [
+        1402
+       ]
+      }
+     }
+    ]
+   },
+   {
+    "year": 1803,
+    "title": "Half-canton again",
+    "text": [
+     "In 1803 Obwalden is a half-canton again, as Unterwalden ob dem Wald. The split of Unterwalden into two halves is now official.",
+     "Engelberg is given to Nidwalden."
+    ],
+    "layers": [
+     {
+      "name": "Engelberg",
+      "kind": "other",
+      "label": "Engelberg: part of Nidwalden, 1803–1815",
+      "sel": {
+       "munis": [
+        1402
+       ]
+      }
+     },
+     {
+      "name": "Obwalden",
+      "kind": "core",
+      "label": "Half-canton Obwalden",
+      "sel": {
+       "cantons": [
+        "OW"
+       ]
+      }
+     }
+    ]
+   },
+   {
+    "year": 1815,
+    "title": "Engelberg joins Obwalden",
+    "text": [
+     "In 1815 Nidwalden refuses the new Federal Treaty. Federal troops enter Nidwalden, and Engelberg is given to Obwalden.",
+     "Engelberg is an exclave (land cut off from the rest of the canton) and becomes Obwalden's seventh commune. Since then, the borders have not changed."
+    ],
+    "layers": [
+     {
+      "name": "Obwalden",
+      "kind": "core",
+      "label": "Canton of Obwalden today, with the Engelberg exclave",
+      "sel": {
+       "cantons": [
+        "OW"
+       ]
+      }
+     }
+    ]
+   }
+  ],
+  "sources": [
+   "https://hls-dhs-dss.ch/de/articles/007410/",
+   "https://hls-dhs-dss.ch/de/articles/000741/",
+   "https://hls-dhs-dss.ch/de/articles/007411/2017-05-11/"
+  ],
+  "notes": "Obwalden before 1815 drawn as today's canton without Engelberg. The Leventina (with Uri 1403–1422), Bellinzona (1419–1422) and the Val d'Ossola (1410–1422) were short-lived and are mentioned only here, not drawn."
+ },
+ {
+  "canton": "NW",
+  "name": "Nidwalden",
+  "summary": "Nidwalden, the lower half of Unterwalden, added Hergiswil in 1378, held Engelberg from 1798 to 1815 and has kept the same borders since.",
+  "stops": [
+   {
+    "year": 1150,
+    "title": "Many lords and monasteries",
+    "text": [
+     "Around 1150 many nobles and monasteries hold land in Nidwalden, probably also the counts of Lenzburg. Lordship is weak, and local knights often act alone.",
+     "In 1120 a monastery is founded at Engelberg. Over time it gets much land in Nidwalden, for example around Buochs."
+    ],
+    "layers": [
+     {
+      "name": "Engelberg",
+      "kind": "lord",
+      "lord": "abbey",
+      "label": "Engelberg: valley of the abbey (founded 1120)",
+      "sel": {
+       "munis": [
+        1402
+       ]
+      }
+     },
+     {
+      "name": "Nidwalden",
+      "kind": "lord",
+      "lord": "lenzburg",
+      "label": "Nidwalden: many lords; Lenzburg probably among them (about; until 1173)",
+      "sel": {
+       "cantons": [
+        "NW"
+       ]
+      }
+     },
+     {
+      "name": "Obwalden",
+      "kind": "lord",
+      "lord": "lenzburg",
+      "label": "Obwalden: counts of Lenzburg with church lands (about)",
+      "sel": {
+       "cantons": [
+        "OW"
+       ]
+      }
+     }
+    ]
+   },
+   {
+    "year": 1257,
+    "title": "Habsburg, Engelberg and Murbach",
+    "text": [
+     "In the 1200s three lords count most in Nidwalden. The Habsburgs hold the right to judge and protect (Vogtei). Murbach-Lucerne owns a large manor in Stans. Engelberg abbey buys up land from 1260.",
+     "In 1274 King Rudolf of Habsburg becomes protector of Engelberg abbey. In 1291 he buys the rights of Murbach-Lucerne."
+    ],
+    "layers": [
+     {
+      "name": "Engelberg",
+      "kind": "lord",
+      "lord": "abbey",
+      "label": "Engelberg: valley of the abbey",
+      "sel": {
+       "munis": [
+        1402
+       ]
+      }
+     },
+     {
+      "name": "Unterwalden",
+      "kind": "lord",
+      "lord": "habsburg",
+      "label": "Unterwalden: Vogtei of the counts of Habsburg, with abbey lands",
+      "sel": {
+       "cantons": [
+        "OW",
+        "NW"
+       ]
+      }
+     }
+    ]
+   },
+   {
+    "year": 1291,
+    "title": "Unterwalden in the first league",
+    "text": [
+     "Unterwalden has two halves: Nidwalden (below the forest) around Stans, and Obwalden around Sarnen. Unterwalden is one of the first members of the Swiss league, around 1291 or 1309.",
+     "Hergiswil on Lake Lucerne belongs to other lords. The Engelberg valley belongs to its abbey."
+    ],
+    "layers": [
+     {
+      "name": "Engelberg",
+      "kind": "lord",
+      "label": "Engelberg: valley of the abbey (Habsburg protectors since 1274)",
+      "sel": {
+       "munis": [
+        1402
+       ]
+      },
+      "lord": "abbey"
+     },
+     {
+      "name": "Hergiswil",
+      "kind": "other",
+      "label": "Hergiswil: not yet part of Nidwalden",
+      "sel": {
+       "munis": [
+        1507
+       ]
+      }
+     },
+     {
+      "name": "Nidwalden",
+      "kind": "core",
+      "label": "Nidwalden: lower half of Unterwalden",
+      "sel": {
+       "cantons": [
+        "NW"
+       ]
+      }
+     },
+     {
+      "name": "Obwalden",
+      "kind": "core",
+      "label": "Obwalden: upper half of Unterwalden",
+      "sel": {
+       "cantons": [
+        "OW"
+       ]
+      }
+     }
+    ]
+   },
+   {
+    "year": 1378,
+    "title": "Hergiswil joins",
+    "text": [
+     "In 1378 the people of Hergiswil buy the local rights from their lady for 700 guilders. Soon after, Hergiswil joins Nidwalden as its eleventh commune.",
+     "From the early 1500s Nidwalden also rules Bellinzona, the Riviera and the Blenio valley, together with Uri and Schwyz, until 1798."
+    ],
+    "layers": [
+     {
+      "name": "Engelberg",
+      "kind": "lord",
+      "label": "Engelberg: valley of the abbey (Habsburg protectors since 1274)",
+      "sel": {
+       "munis": [
+        1402
+       ]
+      },
+      "lord": "abbey"
+     },
+     {
+      "name": "Nidwalden",
+      "kind": "core",
+      "label": "Nidwalden, with Hergiswil since 1378",
+      "sel": {
+       "cantons": [
+        "NW"
+       ]
+      }
+     },
+     {
+      "name": "Obwalden",
+      "kind": "core",
+      "label": "Obwalden: upper half of Unterwalden",
+      "sel": {
+       "cantons": [
+        "OW"
+       ]
+      }
+     }
+    ]
+   },
+   {
+    "year": 1798,
+    "title": "District Stans with Engelberg",
+    "text": [
+     "In 1798 Nidwalden becomes the district of Stans in the Helvetic canton of Waldstätten. Engelberg is added to this district.",
+     "Nidwalden fights against the new order. French troops crush it in September 1798."
+    ],
+    "layers": [
+     {
+      "name": "District Stans",
+      "kind": "core",
+      "label": "District Stans (Nidwalden and Engelberg) of canton Waldstätten",
+      "sel": {
+       "cantons": [
+        "NW"
+       ],
+       "munis": [
+        1402
+       ]
+      }
+     },
+     {
+      "name": "Rest of Waldstätten",
+      "kind": "other",
+      "label": "Other parts of canton Waldstätten",
+      "sel": {
+       "cantons": [
+        "UR",
+        "OW",
+        "ZG"
+       ],
+       "districts": [
+        506,
+        502,
+        504,
+        501
+       ]
+      }
+     }
+    ]
+   },
+   {
+    "year": 1803,
+    "title": "Half-canton with Engelberg",
+    "text": [
+     "In 1803 Nidwalden is a half-canton again, as Unterwalden nid dem Wald. It keeps Engelberg."
+    ],
+    "layers": [
+     {
+      "name": "Nidwalden",
+      "kind": "core",
+      "label": "Half-canton Nidwalden, with Engelberg (1803–1815)",
+      "sel": {
+       "cantons": [
+        "NW"
+       ],
+       "munis": [
+        1402
+       ]
+      }
+     }
+    ]
+   },
+   {
+    "year": 1815,
+    "title": "Engelberg is lost",
+    "text": [
+     "In 1815 Nidwalden refuses the new Federal Treaty. Federal troops enter on 18 August. Nidwalden must join, and it loses Engelberg to Obwalden.",
+     "Since then, the borders have not changed."
+    ],
+    "layers": [
+     {
+      "name": "Engelberg",
+      "kind": "other",
+      "label": "Engelberg: part of Obwalden since 1815",
+      "sel": {
+       "munis": [
+        1402
+       ]
+      }
+     },
+     {
+      "name": "Nidwalden",
+      "kind": "core",
+      "label": "Canton of Nidwalden today",
+      "sel": {
+       "cantons": [
+        "NW"
+       ]
+      }
+     }
+    ]
+   }
+  ],
+  "sources": [
+   "https://hls-dhs-dss.ch/de/articles/007411/2017-05-11/",
+   "https://hls-dhs-dss.ch/de/articles/000753/",
+   "https://hls-dhs-dss.ch/de/articles/000741/"
+  ],
+  "notes": "Nidwalden in 1291 drawn as today's canton without Hergiswil. Alpine pastures that Nidwalden took from Engelberg in 1435 are not drawn. The shared Italian bailiwicks are mentioned but not drawn, because they do not touch Nidwalden."
+ },
+ {
+  "canton": "LU",
+  "name": "Lucerne",
+  "summary": "The city of Lucerne joined the Swiss in 1332, built up its rural state from 1380 to 1415, and in 1803 traded Merenschwand for Hitzkirch.",
+  "stops": [
+   {
+    "year": 1150,
+    "title": "Murbach's town and Lenzburg's land",
+    "text": [
+     "The monastery of St. Leodegar in Lucerne belongs to Murbach abbey in Alsace. The town of Lucerne grows next to it, on the abbey's land.",
+     "The countryside is part of the Aargau. The counts of Lenzburg are the strongest lords there; they found the monastery of Beromünster. The lords of Wolhusen hold the Entlebuch (about)."
+    ],
+    "layers": [
+     {
+      "name": "Lucerne",
+      "kind": "lord",
+      "lord": "abbey",
+      "label": "Lucerne: town of Murbach abbey (monastery of St. Leodegar)",
+      "sel": {
+       "munis": [
+        1061
+       ]
+      }
+     },
+     {
+      "name": "Entlebuch",
+      "kind": "lord",
+      "lord": "noble",
+      "label": "Entlebuch: lords of Wolhusen (about)",
+      "sel": {
+       "munis": [
+        1001,
+        1002,
+        1004,
+        1005,
+        1007,
+        1008,
+        1009,
+        1010,
+        1107
+       ]
+      }
+     },
+     {
+      "name": "Countryside",
+      "kind": "lord",
+      "lord": "lenzburg",
+      "label": "Countryside: counts of Lenzburg and other lords (about; until 1173)",
+      "sel": {
+       "cantons": [
+        "LU"
+       ]
+      }
+     }
+    ]
+   },
+   {
+    "year": 1291,
+    "title": "Habsburg buys Lucerne",
+    "text": [
+     "The Lenzburg line dies out in about 1172. The Kyburgs and the Habsburgs then compete for the land and found new towns, such as Sursee, Sempach and Richensee.",
+     "When the Kyburg main line ends in 1264, the Habsburgs become the main power. In 1291 they buy Murbach's rights over the town of Lucerne. They rule the land from centres such as Sursee, Sempach, Willisau, Wolhusen, Rothenburg and Lucerne."
+    ],
+    "layers": [
+     {
+      "name": "Lucerne",
+      "kind": "lord",
+      "lord": "habsburg",
+      "label": "Town of Lucerne: bought by Habsburg from Murbach abbey in 1291",
+      "sel": {
+       "munis": [
+        1061
+       ]
+      }
+     },
+     {
+      "name": "Countryside",
+      "kind": "lord",
+      "lord": "habsburg",
+      "label": "Countryside: Habsburg districts and vassals (about)",
+      "sel": {
+       "cantons": [
+        "LU"
+       ]
+      }
+     }
+    ]
+   },
+   {
+    "year": 1332,
+    "title": "City joins the forest cantons",
+    "text": [
+     "In 1332 the city of Lucerne makes a league with Uri, Schwyz and Unterwalden. At this time Lucerne rules almost no land outside the town. The countryside around it belongs to the Habsburgs."
+    ],
+    "layers": [
+     {
+      "name": "Lucerne",
+      "kind": "core",
+      "label": "City of Lucerne: member of the Swiss league since 1332",
+      "sel": {
+       "munis": [
+        1061
+       ]
+      }
+     },
+     {
+      "name": "Countryside",
+      "kind": "lord",
+      "lord": "habsburg",
+      "label": "Countryside: Habsburg land (about)",
+      "sel": {
+       "cantons": [
+        "LU"
+       ]
+      }
+     }
+    ]
+   },
+   {
+    "year": 1415,
+    "title": "A city-state with a large countryside",
+    "text": [
+     "Lucerne begins to buy land in 1380 with Weggis. Its fastest growth comes after the Sempach War (1386–1389), mostly by purchase and pledge: Merenschwand (1394), the Entlebuch (1395 and 1405), Willisau and others.",
+     "In 1415 the Habsburgs lose their lands in the Aargau. Their last rights, also over Sursee and the abbey of Beromünster, go to Lucerne. The countryside is a subject land: bailiffs (governors) from the city rule it.",
+     "With the other cantons, Lucerne also rules the Freie Ämter (Free Districts), including Hitzkirch. By about 1480 Lucerne's land is mostly complete."
+    ],
+    "layers": [
+     {
+      "name": "Hitzkirch",
+      "kind": "shared",
+      "label": "Amt Hitzkirch: part of the Freie Ämter, shared with other cantons",
+      "sel": {
+       "munis": [
+        1021,
+        1025,
+        1030,
+        1041
+       ]
+      }
+     },
+     {
+      "name": "Merenschwand",
+      "kind": "subject",
+      "label": "Merenschwand: ruled by Lucerne, 1394–1798",
+      "sel": {
+       "munis": [
+        4234
+       ]
+      }
+     },
+     {
+      "name": "Freie Ämter",
+      "kind": "shared",
+      "label": "Freie Ämter: shared with other cantons (from 1415)",
+      "sel": {
+       "districts": [
+        1908,
+        1903
+       ]
+      }
+     },
+     {
+      "name": "Lucerne",
+      "kind": "core",
+      "label": "City of Lucerne",
+      "sel": {
+       "munis": [
+        1061
+       ]
+      }
+     },
+     {
+      "name": "Lucerne countryside",
+      "kind": "subject",
+      "label": "Countryside ruled by the city of Lucerne",
+      "sel": {
+       "cantons": [
+        "LU"
+       ],
+       "munis": [
+        1001,
+        1002,
+        1004,
+        1005,
+        1007,
+        1008,
+        1009,
+        1010,
+        1107,
+        1081,
+        1082,
+        1083,
+        1084,
+        1085,
+        1086,
+        1088,
+        1089,
+        1091,
+        1093,
+        1094,
+        1095,
+        1097,
+        1098,
+        1099,
+        1100,
+        1102,
+        1103,
+        1104
+       ]
+      }
+     }
+    ]
+   },
+   {
+    "year": 1803,
+    "title": "Hitzkirch in, Merenschwand out",
+    "text": [
+     "In 1798 the old order ends and the countryside gets equal rights. In 1803 Lucerne gets the Amt Hitzkirch from the Helvetic canton of Baden.",
+     "In return, Merenschwand goes to the new canton of Aargau. Since then, the borders have not changed."
+    ],
+    "layers": [
+     {
+      "name": "Merenschwand",
+      "kind": "other",
+      "label": "Merenschwand: part of Aargau since 1803",
+      "sel": {
+       "munis": [
+        4234
+       ]
+      }
+     },
+     {
+      "name": "Lucerne",
+      "kind": "core",
+      "label": "Canton of Lucerne today, with Hitzkirch since 1803",
+      "sel": {
+       "cantons": [
+        "LU"
+       ],
+       "munis": [
+        1001,
+        1002,
+        1004,
+        1005,
+        1007,
+        1008,
+        1009,
+        1010,
+        1107,
+        1081,
+        1082,
+        1083,
+        1084,
+        1085,
+        1086,
+        1088,
+        1089,
+        1091,
+        1093,
+        1094,
+        1095,
+        1097,
+        1098,
+        1099,
+        1100,
+        1102,
+        1103,
+        1104
+       ]
+      }
+     }
+    ]
+   }
+  ],
+  "sources": [
+   "https://hls-dhs-dss.ch/de/articles/007382/"
+  ],
+  "notes": "The 1332 city is drawn as today's municipality of Lucerne (which includes Littau since 2010). The 1415 stop shows the state of about 1415–1480 in one picture; some places came a little later. Amt Hitzkirch drawn as Hitzkirch, Aesch, Ermensee and Schongau (about). The Freie Ämter drawn as today's districts of Muri and Bremgarten (about; the towns of Bremgarten and Mellingen had their own status)."
+ },
+ {
+  "canton": "ZG",
+  "name": "Zug",
+  "summary": "Zug joined the Swiss in 1352 as a town and a rural Amt; the town bought bailiwicks in the west and south, and since 1803 all communes are equal.",
+  "stops": [
+   {
+    "year": 1150,
+    "title": "Loose rule of distant lords",
+    "text": [
+     "Around 1150 the counts of Lenzburg hold loose count rights over the Zug area, but they own little land there. Fraumünster abbey of Zurich has a manor in Cham since at least 858.",
+     "Monasteries from outside own much land: Einsiedeln in Ägeri, Kappel and Schänis in Baar, Muri and St. Blasien in the west. Local knights build castles."
+    ],
+    "layers": [
+     {
+      "name": "Cham",
+      "kind": "lord",
+      "lord": "abbey",
+      "label": "Cham: manor of Fraumünster abbey, Zurich",
+      "sel": {
+       "munis": [
+        1702
+       ]
+      }
+     },
+     {
+      "name": "Zug area",
+      "kind": "lord",
+      "lord": "lenzburg",
+      "label": "Zug area: count rights of Lenzburg (until 1173), many abbey lands",
+      "sel": {
+       "cantons": [
+        "ZG"
+       ]
+      }
+     }
+    ]
+   },
+   {
+    "year": 1273,
+    "title": "Habsburg and Hünenberg",
+    "text": [
+     "After 1240 the counts of Kyburg try to rule Baar and the town of Zug. They may have founded the town. The Kyburg line ends in 1263/1264, and Rudolf of Habsburg takes much of their land.",
+     "In 1273 Habsburg gets Zug (about). The town and the outer communities form the Habsburg Amt Zug. In the west, the lords of Hünenberg build their own lordship over Steinhausen, Cham, Hünenberg and Risch."
+    ],
+    "layers": [
+     {
+      "name": "Hünenberg lordship",
+      "kind": "lord",
+      "lord": "noble",
+      "label": "Lords of Hünenberg: Steinhausen, Cham, Hünenberg, Risch",
+      "sel": {
+       "munis": [
+        1708,
+        1702,
+        1703,
+        1707
+       ]
+      }
+     },
+     {
+      "name": "Amt Zug",
+      "kind": "lord",
+      "lord": "habsburg",
+      "label": "Amt Zug: town and outer communities under Habsburg (from about 1273)",
+      "sel": {
+       "cantons": [
+        "ZG"
+       ]
+      }
+     }
+    ]
+   },
+   {
+    "year": 1352,
+    "title": "Town and Amt join",
+    "text": [
+     "In 1352 Zurich besieges Zug. The town and the Amt (the rural communities of Baar, Ägeri and Menzingen) must join the Swiss league.",
+     "Habsburg still claims Zug. From 1370 to 1404 Schwyz leads it in practice."
+    ],
+    "layers": [
+     {
+      "name": "Town of Zug",
+      "kind": "core",
+      "label": "Town of Zug: member since 1352",
+      "sel": {
+       "munis": [
+        1711
+       ]
+      }
+     },
+     {
+      "name": "Outer Amt",
+      "kind": "core",
+      "label": "Outer Amt: Baar, Ägeri, Menzingen with Neuheim",
+      "sel": {
+       "munis": [
+        1701,
+        1704,
+        1705,
+        1706,
+        1709
+       ]
+      }
+     },
+     {
+      "name": "Hünenberg lordship",
+      "kind": "lord",
+      "lord": "noble",
+      "label": "Lords of Hünenberg: Steinhausen, Cham, Hünenberg, Risch (about)",
+      "sel": {
+       "munis": [
+        1708,
+        1702,
+        1703,
+        1707
+       ]
+      }
+     },
+     {
+      "name": "Walchwil",
+      "kind": "lord",
+      "lord": "noble",
+      "label": "Walchwil: held by private lords until the town bought it in 1379",
+      "sel": {
+       "munis": [
+        1710
+       ]
+      }
+     }
+    ]
+   },
+   {
+    "year": 1500,
+    "title": "The town's bailiwicks",
+    "text": [
+     "The town of Zug buys Walchwil in 1379. In the 15th century it buys more land: Cham, Steinhausen, Risch and Oberrüti. Hünenberg comes under the town by a citizenship treaty.",
+     "These are bailiwicks (land ruled by a governor) of the town only. The rural Amt stays free and equal to the town.",
+     "Zug also shares the rule of the Freie Ämter with other cantons."
+    ],
+    "layers": [
+     {
+      "name": "Freie Ämter",
+      "kind": "shared",
+      "label": "Freie Ämter: shared with other cantons",
+      "sel": {
+       "districts": [
+        1908,
+        1903
+       ],
+       "munis": [
+        1021,
+        1025,
+        1030,
+        1041
+       ],
+       "except": [
+        4237
+       ]
+      }
+     },
+     {
+      "name": "Town of Zug",
+      "kind": "core",
+      "label": "Town of Zug",
+      "sel": {
+       "munis": [
+        1711
+       ]
+      }
+     },
+     {
+      "name": "Town bailiwicks",
+      "kind": "subject",
+      "label": "Bailiwicks of the town of Zug (Walchwil from 1379, the rest in the 1400s)",
+      "sel": {
+       "munis": [
+        1710,
+        1702,
+        1708,
+        1703,
+        1707,
+        4237
+       ]
+      }
+     },
+     {
+      "name": "Outer Amt",
+      "kind": "core",
+      "label": "Outer Amt: Baar, Ägeri, Menzingen with Neuheim",
+      "sel": {
+       "munis": [
+        1701,
+        1704,
+        1705,
+        1706,
+        1709
+       ]
+      }
+     }
+    ]
+   },
+   {
+    "year": 1798,
+    "title": "District of canton Waldstätten",
+    "text": [
+     "In February 1798 the town gives up its bailiwicks. In May 1798 Zug becomes a district of the new canton of Waldstätten.",
+     "From 1799 to 1801 the town of Zug is the capital of Waldstätten."
+    ],
+    "layers": [
+     {
+      "name": "Zug",
+      "kind": "core",
+      "label": "Zug: district of canton Waldstätten",
+      "sel": {
+       "cantons": [
+        "ZG"
+       ]
+      }
+     },
+     {
+      "name": "Rest of Waldstätten",
+      "kind": "other",
+      "label": "Other parts of canton Waldstätten",
+      "sel": {
+       "cantons": [
+        "UR",
+        "OW",
+        "NW"
+       ],
+       "districts": [
+        506,
+        502,
+        504,
+        501
+       ]
+      }
+     }
+    ]
+   },
+   {
+    "year": 1803,
+    "title": "Canton of equal communes",
+    "text": [
+     "In 1803 Zug is a canton again. The old bailiwicks are now equal communes. Oberrüti goes to the new canton of Aargau.",
+     "Since then, the borders have not changed."
+    ],
+    "layers": [
+     {
+      "name": "Oberrüti",
+      "kind": "other",
+      "label": "Oberrüti: part of Aargau since 1803",
+      "sel": {
+       "munis": [
+        4237
+       ]
+      }
+     },
+     {
+      "name": "Zug",
+      "kind": "core",
+      "label": "Canton of Zug today",
+      "sel": {
+       "cantons": [
+        "ZG"
+       ]
+      }
+     }
+    ]
+   }
+  ],
+  "sources": [
+   "https://hls-dhs-dss.ch/de/articles/007373/",
+   "https://hls-dhs-dss.ch/de/articles/000797/2020-05-05/"
+  ],
+  "notes": "The year 1500 stands for the end of the 15th century; the exact purchase years of Cham, Steinhausen, Risch and Oberrüti are not given here. Hünenberg had a special status (citizenship treaty) but is drawn as a bailiwick. The Freie Ämter drawn as today's districts of Muri and Bremgarten plus the Hitzkirch area (about)."
+ },
+ {
+  "canton": "GL",
+  "name": "Glarus",
+  "summary": "Glarus joined the Swiss in 1352, ruled Gaster and Uznach with Schwyz and bought Werdenberg in 1517, but lost all its outer lands in 1798–1803.",
+  "stops": [
+   {
+    "year": 1150,
+    "title": "Säckingen abbey's valley",
+    "text": [
+     "In the 700s a noble family gives its land and rights in the Linth valley to the abbey of Säckingen on the Rhine. The abbey stays the main landowner of Glarus for centuries.",
+     "In the 1000s and 1100s the counts of Lenzburg protect the abbey's valley and judge for the king. They also hold the high justice in Gaster."
+    ],
+    "layers": [
+     {
+      "name": "Gaster",
+      "kind": "lord",
+      "lord": "lenzburg",
+      "label": "Gaster: high justice of the counts of Lenzburg",
+      "sel": {
+       "munis": [
+        3311,
+        3312,
+        3313,
+        3315,
+        3316
+       ]
+      }
+     },
+     {
+      "name": "Glarus",
+      "kind": "lord",
+      "lord": "lenzburg",
+      "label": "Glarus: Säckingen abbey land, counts of Lenzburg as protectors (until 1173)",
+      "sel": {
+       "cantons": [
+        "GL"
+       ]
+      }
+     }
+    ]
+   },
+   {
+    "year": 1200,
+    "title": "Kyburg as governors",
+    "text": [
+     "After 1173 the king's son Otto of Burgundy holds the right to rule Glarus. After his death in 1200 it goes to the counts of Kyburg.",
+     "The Kyburgs also hold the high justice in Gaster."
+    ],
+    "layers": [
+     {
+      "name": "Gaster",
+      "kind": "lord",
+      "lord": "kyburg",
+      "label": "Gaster: high justice of the counts of Kyburg",
+      "sel": {
+       "munis": [
+        3311,
+        3312,
+        3313,
+        3315,
+        3316
+       ]
+      }
+     },
+     {
+      "name": "Glarus",
+      "kind": "lord",
+      "lord": "kyburg",
+      "label": "Glarus: Säckingen abbey land, counts of Kyburg as governors (1200–1264)",
+      "sel": {
+       "cantons": [
+        "GL"
+       ]
+      }
+     }
+    ]
+   },
+   {
+    "year": 1288,
+    "title": "Habsburg takes control",
+    "text": [
+     "The Kyburg line ends in 1264. Their rights in Glarus go to Rudolf of Habsburg.",
+     "In 1288 the abbess of Säckingen also gives the castles, courts and the office of steward (Meieramt) to King Rudolf's sons. Now Habsburg holds all power in the valley. Gaster is Habsburg land too."
+    ],
+    "layers": [
+     {
+      "name": "Gaster",
+      "kind": "lord",
+      "lord": "habsburg",
+      "label": "Gaster: Habsburg land",
+      "sel": {
+       "munis": [
+        3311,
+        3312,
+        3313,
+        3315,
+        3316
+       ]
+      }
+     },
+     {
+      "name": "Glarus",
+      "kind": "lord",
+      "lord": "habsburg",
+      "label": "Glarus: Säckingen abbey land under Habsburg rule (1264/1288)",
+      "sel": {
+       "cantons": [
+        "GL"
+       ]
+      }
+     }
+    ]
+   },
+   {
+    "year": 1352,
+    "title": "Glarus joins the Swiss",
+    "text": [
+     "In 1352 Zurich and the forest cantons make a league with Glarus. At first Glarus is more a protected land than an equal member, and Habsburg soon gets it back.",
+     "Glarus beats a Habsburg army at Näfels in 1388. In 1395 it buys the old rights of Säckingen abbey. In 1393 it is named as an equal partner of the league."
+    ],
+    "layers": [
+     {
+      "name": "Glarus",
+      "kind": "core",
+      "label": "Land of Glarus: linked to the Swiss since 1352",
+      "sel": {
+       "cantons": [
+        "GL"
+       ]
+      }
+     },
+     {
+      "name": "Gaster",
+      "kind": "lord",
+      "lord": "habsburg",
+      "label": "Gaster: Habsburg land until 1438",
+      "sel": {
+       "munis": [
+        3311,
+        3312,
+        3313,
+        3315,
+        3316
+       ]
+      }
+     }
+    ]
+   },
+   {
+    "year": 1469,
+    "title": "Gaster and Uznach with Schwyz",
+    "text": [
+     "During the Old Zurich War, Glarus and Schwyz take Uznach as a pledge in 1437 and Gaster in 1438. Gaster becomes a shared bailiwick of the two cantons. They buy Uznach outright in 1469.",
+     "Glarus also takes the whole Kerenzerberg above Lake Walen in 1460."
+    ],
+    "layers": [
+     {
+      "name": "Gaster and Uznach",
+      "kind": "shared",
+      "label": "Gaster (from 1438) and Uznach (from 1437/1469): shared with Schwyz",
+      "sel": {
+       "munis": [
+        3311,
+        3312,
+        3313,
+        3315,
+        3316,
+        3338,
+        3339,
+        3341,
+        3342
+       ]
+      }
+     },
+     {
+      "name": "Glarus",
+      "kind": "core",
+      "label": "Land of Glarus",
+      "sel": {
+       "cantons": [
+        "GL"
+       ]
+      }
+     }
+    ]
+   },
+   {
+    "year": 1517,
+    "title": "Werdenberg and Sargans",
+    "text": [
+     "In 1517 Glarus buys the county of Werdenberg in the Rhine valley for 21,500 guilders. It rules Werdenberg alone as a bailiwick until 1798.",
+     "Glarus and Schwyz also buy Gams in 1497. From about 1500, Glarus shares the rule of Sargans with six other cantons."
+    ],
+    "layers": [
+     {
+      "name": "Werdenberg",
+      "kind": "subject",
+      "label": "Werdenberg: ruled by Glarus alone, 1517–1798",
+      "sel": {
+       "munis": [
+        3271,
+        3273,
+        3275
+       ]
+      }
+     },
+     {
+      "name": "Gams",
+      "kind": "shared",
+      "label": "Gams: shared with Schwyz since 1497",
+      "sel": {
+       "munis": [
+        3272
+       ]
+      }
+     },
+     {
+      "name": "Gaster and Uznach",
+      "kind": "shared",
+      "label": "Gaster and Uznach: shared with Schwyz",
+      "sel": {
+       "munis": [
+        3311,
+        3312,
+        3313,
+        3315,
+        3316,
+        3338,
+        3339,
+        3341,
+        3342
+       ]
+      }
+     },
+     {
+      "name": "Sargans",
+      "kind": "shared",
+      "label": "Sargans: shared with six other cantons",
+      "sel": {
+       "districts": [
+        1725
+       ],
+       "munis": [
+        3276
+       ]
+      }
+     },
+     {
+      "name": "Glarus",
+      "kind": "core",
+      "label": "Land of Glarus",
+      "sel": {
+       "cantons": [
+        "GL"
+       ]
+      }
+     }
+    ]
+   },
+   {
+    "year": 1798,
+    "title": "Canton of Linth",
+    "text": [
+     "In spring 1798 the old cantons set their bailiwicks free. In May 1798 the French join Glarus with its old subject lands and nearby areas into the canton of Linth. Its capital is the town of Glarus."
+    ],
+    "layers": [
+     {
+      "name": "Glarus",
+      "kind": "core",
+      "label": "Glarus: part of the Helvetic canton Linth",
+      "sel": {
+       "cantons": [
+        "GL"
+       ]
+      }
+     },
+     {
+      "name": "Rest of Linth",
+      "kind": "other",
+      "label": "Other parts of canton Linth (1798–1803)",
+      "sel": {
+       "districts": [
+        1724,
+        1725,
+        1726,
+        505,
+        503
+       ]
+      }
+     }
+    ]
+   },
+   {
+    "year": 1803,
+    "title": "Glarus alone",
+    "text": [
+     "In 1803 Glarus is a canton again, but without its old subject lands. Werdenberg, Sargans, Gaster and Uznach go to the new canton of St. Gallen.",
+     "Since then, the outer borders have not changed. In 2011 the 25 communes merge into three."
+    ],
+    "layers": [
+     {
+      "name": "To St. Gallen",
+      "kind": "other",
+      "label": "Former Glarus lands: part of St. Gallen since 1803",
+      "sel": {
+       "munis": [
+        3271,
+        3272,
+        3273,
+        3275,
+        3311,
+        3312,
+        3313,
+        3315,
+        3316,
+        3338,
+        3339,
+        3341,
+        3342
+       ]
+      }
+     },
+     {
+      "name": "Glarus",
+      "kind": "core",
+      "label": "Canton of Glarus today",
+      "sel": {
+       "cantons": [
+        "GL"
+       ]
+      }
+     }
+    ]
+   }
+  ],
+  "sources": [
+   "https://hls-dhs-dss.ch/de/articles/007374/",
+   "https://hls-dhs-dss.ch/de/articles/007646/",
+   "https://hls-dhs-dss.ch/de/articles/007644/"
+  ],
+  "notes": "Glarus is drawn as today's whole canton from 1352, because today's commune of Glarus Nord cannot be split; Bilten, Niederurnen, Oberurnen and Filzbach came in the early 1400s and the Kerenzerberg in 1460. Werdenberg drawn as Buchs, Grabs and Sevelen; Wartau is drawn with Sargans. Gaster and Uznach drawn as today's See-Gaster without Rapperswil-Jona. Canton Linth drawn only roughly (Werdenberg, Sargans, See-Gaster, March, Höfe)."
+ }
+]

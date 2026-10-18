@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>How Switzerland Grew</title>
+<meta name="description" content="Maps of how the Swiss cantons joined from 1291 to today, and how the canton of Bern grew and shrank.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="top">
+  <div class="brand">
+    <h1>How Switzerland Grew</h1>
+    <p>From three valleys in 1291 to 26 cantons today</p>
+  </div>
+  <div class="modes" role="tablist" aria-label="Views">
+    <button role="tab" id="tab-cantons" data-mode="cantons" aria-selected="true">Through time</button>
+    <button role="tab" id="tab-canton" data-mode="canton" aria-selected="false">Every canton</button>
+    <button role="tab" id="tab-stories" data-mode="stories" aria-selected="false">Stories</button>
+  </div>
+  <nav class="links" aria-label="Other site"><a href="../ch-landscape-01-engineered-switzerland/index.html">Engineered Switzerland: the reshaped landscape →</a></nav>
+</header>
+
+<main class="layout" id="main">
+  <section class="stage" aria-label="Map and timeline">
+    <div class="map-wrap" id="map-wrap">
+      <svg id="map" role="img" aria-labelledby="map-title"><title id="map-title">Map of Switzerland</title></svg>
+      <div class="map-note" id="map-note"></div>
+    </div>
+    <div class="timeline">
+      <button class="step" id="prev" aria-label="Previous date">&#8249;</button>
+      <button class="step play" id="play" aria-label="Play">&#9654;</button>
+      <ol class="ticks" id="ticks"></ol>
+      <button class="step" id="next" aria-label="Next date">&#8250;</button>
+    </div>
+  </section>
+
+  <aside class="panel" aria-live="polite">
+    <div class="picker" id="picker" hidden>
+      <p class="picker-title">Click a canton</p>
+      <svg id="picker-map" role="group" aria-label="Map of today's cantons: choose one"></svg>
+    </div>
+    <p><a href="#stories" class="back" id="back-stories" hidden>← All stories</a></p>
+    <p class="summary" id="summary" hidden></p>
+    <p class="year" id="year"></p>
+    <h2 id="title"></h2>
+    <div id="text" class="text"></div>
+    <div id="stat" class="stat"></div>
+    <ul id="legend" class="legend"></ul>
+    <figure id="chart" class="chart" hidden>
+      <figcaption>Area of the canton of Bern (km², approximate)</figcaption>
+      <svg id="chart-svg" role="img" aria-label="Bar chart of Bern's area at each date"></svg>
+    </figure>
+    <details class="notes" id="notes" hidden><summary>Uncertain: how this map is drawn</summary><p id="notes-text"></p><p><a href="uncertain.html">What we are not sure about</a></p></details>
+  </aside>
+</main>
+
+<section class="stories" id="stories" hidden aria-labelledby="stories-title">
+  <h2 id="stories-title">Stories</h2>
+  <p>Guided chapters about one part of Swiss history. More are coming.</p>
+  <ul class="cards" id="story-cards"></ul>
+</section>
+
+<footer class="foot">
+  <p><strong>How the maps are made.</strong> Every old territory is drawn by joining today's municipalities. This is close, but not exact: old borders did not always follow today's municipality lines. Before 1798, "How the cantons joined" uses each canton's researched history (see "Every canton"), mostly at the level of today's districts. Land outside today's Switzerland comes from OpenStreetMap. Areas are measured on a simplified map. <a href="uncertain.html">What we are not sure about</a>.</p>
+  <p id="sources"></p>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/topojson-client@3.1.0/dist/topojson-client.min.js"></script>
+<script src="data/geo.js"></script>
+<script src="data/communes.js"></script>
+<script src="data/outside.js"></script>
+<script src="logic.js"></script>
+<script src="content.js"></script>
+<script src="content-cantons.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

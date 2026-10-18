@@ -1,0 +1,2238 @@
+[
+  {
+    "canton": "BE",
+    "name": "Bern",
+    "summary": "Bern was founded by the Zähringen, became an imperial town in 1218, grew into the largest city-state north of the Alps, lost Vaud and Aargau in 1798–1803, got the Jura in 1815 and lost most of it again after 1979.",
+    "stops": [
+      {
+        "year": 1200,
+        "title": "Zähringen towns",
+        "text": [
+          "About 1200 the dukes of Zähringen rule much of the land between the Jura and the Alps. They found towns to hold it, for example Burgdorf, Thun and Bern. The usual date for Bern is 1191.",
+          "Bern is a small town on a bend of the Aare river."
+        ],
+        "layers": [
+          {
+            "name": "Zähringen towns",
+            "kind": "lord",
+            "lord": "zahringen",
+            "label": "Towns of the dukes of Zähringen: Bern, Burgdorf, Thun",
+            "sel": {
+              "munis": [
+                351,
+                404,
+                942
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "year": 1218,
+        "title": "A free town of the Empire",
+        "text": [
+          "In 1218 the last duke of Zähringen dies. The counts of Kyburg get his own lands, for example Burgdorf and Thun.",
+          "Bern now stands directly under the king. It is an imperial town (a town with no lord between it and the king). Laupen is also imperial land.",
+          "From 1256 the counts of Savoy protect Bern for some years."
+        ],
+        "layers": [
+          {
+            "name": "Kyburg",
+            "kind": "lord",
+            "lord": "kyburg",
+            "label": "Counts of Kyburg: Burgdorf and Thun",
+            "sel": {
+              "munis": [
+                404,
+                942
+              ]
+            }
+          },
+          {
+            "name": "Laupen",
+            "kind": "lord",
+            "lord": "empire",
+            "label": "Laupen: imperial land",
+            "sel": {
+              "munis": [
+                667
+              ]
+            }
+          },
+          {
+            "name": "Bern",
+            "kind": "lord",
+            "lord": "empire",
+            "label": "Bern: imperial town under the king",
+            "sel": {
+              "munis": [
+                351
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "year": 1353,
+        "title": "A small city-state joins",
+        "text": [
+          "In 1353 Bern makes a permanent alliance with Uri, Schwyz and Unterwalden. This links Bern to the Confederation.",
+          "At this time Bern rules only a small area: the city, four parishes around it, Laupen and the Hasli valley (Oberhasli). Bern holds Laupen and Hasli as a pledge (land given as security for a loan) from the king.",
+          "Bern also has strong ties with nearby lords and towns, for example Thun, but it does not rule them yet."
+        ],
+        "layers": [
+          {
+            "name": "Laupen",
+            "kind": "subject",
+            "label": "Laupen: held by Bern as a pledge (confirmed 1348)",
+            "sel": {
+              "munis": [
+                667
+              ]
+            }
+          },
+          {
+            "name": "Hasli",
+            "kind": "subject",
+            "label": "Hasli (Oberhasli): held by Bern as a pledge since 1334",
+            "sel": {
+              "munis": [
+                782,
+                783,
+                784,
+                785,
+                786
+              ]
+            }
+          },
+          {
+            "name": "City of Bern",
+            "kind": "core",
+            "label": "City of Bern and the parishes Bolligen, Vechigen, Stettlen and Muri",
+            "sel": {
+              "munis": [
+                351,
+                352,
+                358,
+                359,
+                356,
+                362,
+                363
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "year": 1415,
+        "title": "Fast growth and the Aargau",
+        "text": [
+          "After 1384 Bern grows very fast. It takes Burgdorf and Thun in 1384, the Simmental, Unterseen, Nidau and Büren in 1389, Frutigen in 1400 and the Emmental in 1406–1408.",
+          "In 1413 Bern and Solothurn take Bipp together. In 1415 Bern conquers most of the Aargau and rules it as bailiwicks (land ruled by a governor sent from Bern)."
+        ],
+        "layers": [
+          {
+            "name": "Bipp",
+            "kind": "shared",
+            "label": "Bipp: shared with Solothurn since 1413",
+            "sel": {
+              "munis": [
+                981,
+                983,
+                987,
+                995,
+                975,
+                971,
+                990
+              ]
+            }
+          },
+          {
+            "name": "Nidau",
+            "kind": "core",
+            "label": "Bernese state",
+            "sel": {
+              "munis": [
+                743,
+                731,
+                732,
+                733,
+                739,
+                742,
+                744,
+                745,
+                746,
+                747,
+                748,
+                750,
+                740,
+                756
+              ]
+            }
+          },
+          {
+            "name": "Bernese Aargau",
+            "kind": "subject",
+            "label": "Bernese Aargau: conquered by Bern in 1415",
+            "sel": {
+              "districts": [
+                1901,
+                1904,
+                1905,
+                1907,
+                1910
+              ]
+            }
+          },
+          {
+            "name": "Bern",
+            "kind": "core",
+            "label": "Bernese state",
+            "sel": {
+              "cantons": [
+                "BE"
+              ],
+              "exceptDistricts": [
+                241,
+                242
+              ],
+              "except": [
+                841,
+                842,
+                843,
+                852,
+                853,
+                855,
+                492,
+                491,
+                493,
+                494,
+                495,
+                496,
+                497,
+                498,
+                499,
+                500,
+                501,
+                502,
+                981,
+                983,
+                987,
+                995,
+                975,
+                971,
+                990
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "year": 1536,
+        "title": "Bern takes Vaud",
+        "text": [
+          "In the 1400s Bern adds more land, for example Gümmenen in 1467 and Erlach in 1474. In 1463 Bern gets Bipp alone. In the Burgundian Wars (1474–1476) Bern takes Aigle and, together with Fribourg, Murten, Grandson, Orbe and Echallens.",
+          "In 1536 Bern conquers Vaud without a fight. Vaud becomes Bernese subject land."
+        ],
+        "layers": [
+          {
+            "name": "Shared with Fribourg",
+            "kind": "shared",
+            "label": "Shared with Fribourg: Murten, Schwarzenburg, Orbe-Echallens, Grandson",
+            "sel": {
+              "munis": [
+                2275,
+                855,
+                852,
+                853,
+                5757,
+                5518,
+                5561
+              ]
+            }
+          },
+          {
+            "name": "Vaud",
+            "kind": "subject",
+            "label": "Vaud: ruled by Bern since 1536 (Aigle since 1475)",
+            "sel": {
+              "cantons": [
+                "VD"
+              ],
+              "except": [
+                5841,
+                5842,
+                5843
+              ]
+            }
+          },
+          {
+            "name": "Bernese Aargau",
+            "kind": "subject",
+            "label": "Bernese Aargau: ruled by Bern since 1415",
+            "sel": {
+              "districts": [
+                1901,
+                1904,
+                1905,
+                1907,
+                1910
+              ]
+            }
+          },
+          {
+            "name": "Nidau",
+            "kind": "core",
+            "label": "Bernese state",
+            "sel": {
+              "munis": [
+                743,
+                731,
+                732,
+                733,
+                739,
+                742,
+                744,
+                745,
+                746,
+                747,
+                748,
+                750,
+                740,
+                756
+              ]
+            }
+          },
+          {
+            "name": "Bern",
+            "kind": "core",
+            "label": "Bernese state",
+            "sel": {
+              "cantons": [
+                "BE"
+              ],
+              "exceptDistricts": [
+                241,
+                242
+              ],
+              "except": [
+                841,
+                842,
+                843
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "year": 1555,
+        "title": "Bern at its largest",
+        "text": [
+          "In 1555 the last count of Gruyère cannot pay his debts. Bern and Fribourg divide his county.",
+          "Bern gets the upper part: Saanen and the Pays-d'Enhaut. Now Bern is the largest city-state north of the Alps."
+        ],
+        "layers": [
+          {
+            "name": "Shared with Fribourg",
+            "kind": "shared",
+            "label": "Shared with Fribourg: Murten, Schwarzenburg, Orbe-Echallens, Grandson",
+            "sel": {
+              "munis": [
+                2275,
+                855,
+                852,
+                853,
+                5757,
+                5518,
+                5561
+              ]
+            }
+          },
+          {
+            "name": "Vaud",
+            "kind": "subject",
+            "label": "Vaud: ruled by Bern since 1536 (Aigle since 1475)",
+            "sel": {
+              "cantons": [
+                "VD"
+              ]
+            }
+          },
+          {
+            "name": "Bernese Aargau",
+            "kind": "subject",
+            "label": "Bernese Aargau: ruled by Bern since 1415",
+            "sel": {
+              "districts": [
+                1901,
+                1904,
+                1905,
+                1907,
+                1910
+              ]
+            }
+          },
+          {
+            "name": "Nidau",
+            "kind": "core",
+            "label": "Bernese state",
+            "sel": {
+              "munis": [
+                743,
+                731,
+                732,
+                733,
+                739,
+                742,
+                744,
+                745,
+                746,
+                747,
+                748,
+                750,
+                740,
+                756
+              ]
+            }
+          },
+          {
+            "name": "Bern",
+            "kind": "core",
+            "label": "Bernese state",
+            "sel": {
+              "cantons": [
+                "BE"
+              ],
+              "exceptDistricts": [
+                241,
+                242
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "year": 1798,
+        "title": "The Helvetic Republic splits Bern",
+        "text": [
+          "In 1798 France conquers Switzerland and makes the Helvetic Republic. Bern loses Vaud and the Aargau. Both become their own cantons.",
+          "The Oberland also becomes a separate canton, with Thun as its capital. Bern keeps only its middle part.",
+          "France had already taken the Jura and Biel in 1793 and 1797."
+        ],
+        "layers": [
+          {
+            "name": "Canton Oberland",
+            "kind": "other",
+            "label": "Canton of Oberland (1798–1803)",
+            "sel": {
+              "districts": [
+                247,
+                248,
+                249,
+                250
+              ]
+            }
+          },
+          {
+            "name": "Nidau",
+            "kind": "core",
+            "label": "Helvetic canton of Bern",
+            "sel": {
+              "munis": [
+                743,
+                731,
+                732,
+                733,
+                739,
+                742,
+                744,
+                745,
+                746,
+                747,
+                748,
+                750,
+                740,
+                756
+              ]
+            }
+          },
+          {
+            "name": "Bern",
+            "kind": "core",
+            "label": "Helvetic canton of Bern",
+            "sel": {
+              "cantons": [
+                "BE"
+              ],
+              "exceptDistricts": [
+                241,
+                242,
+                247,
+                248,
+                249,
+                250
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "year": 1803,
+        "title": "Bern without Vaud and Aargau",
+        "text": [
+          "In 1803 the Act of Mediation ends the Helvetic Republic. The Oberland goes back to Bern.",
+          "Vaud and Aargau stay separate cantons. Bern does not get them back."
+        ],
+        "layers": [
+          {
+            "name": "Nidau",
+            "kind": "core",
+            "label": "Canton of Bern",
+            "sel": {
+              "munis": [
+                743,
+                731,
+                732,
+                733,
+                739,
+                742,
+                744,
+                745,
+                746,
+                747,
+                748,
+                750,
+                740,
+                756
+              ]
+            }
+          },
+          {
+            "name": "Bern",
+            "kind": "core",
+            "label": "Canton of Bern",
+            "sel": {
+              "cantons": [
+                "BE"
+              ],
+              "exceptDistricts": [
+                241,
+                242
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "year": 1815,
+        "title": "Bern gets the Jura",
+        "text": [
+          "In 1815 the Congress of Vienna gives most of the old Prince-Bishopric of Basel to Bern. This is the land of the Jura, with Biel and the Laufen valley.",
+          "Bern gets it as a replacement for Vaud and Aargau."
+        ],
+        "layers": [
+          {
+            "name": "Jura",
+            "kind": "core",
+            "label": "Jura, Biel and Laufen: part of Bern since 1815",
+            "sel": {
+              "districts": [
+                241,
+                242,
+                1302
+              ],
+              "cantons": [
+                "JU"
+              ]
+            }
+          },
+          {
+            "name": "Bern",
+            "kind": "core",
+            "label": "Old Bernese land",
+            "sel": {
+              "cantons": [
+                "BE"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "year": 1979,
+        "title": "The canton of Jura leaves",
+        "text": [
+          "In 1974 the north of the Jura votes for its own canton. In 1975 the three southern districts vote to stay with Bern.",
+          "On 1 January 1979 the new canton of Jura starts. Bern loses the districts of Porrentruy, Delémont and Franches-Montagnes."
+        ],
+        "layers": [
+          {
+            "name": "Moutier",
+            "kind": "core",
+            "label": "Canton of Bern",
+            "sel": {
+              "munis": [
+                6831
+              ]
+            }
+          },
+          {
+            "name": "Canton of Jura",
+            "kind": "other",
+            "label": "Left Bern in 1979: new canton of Jura",
+            "sel": {
+              "cantons": [
+                "JU"
+              ]
+            }
+          },
+          {
+            "name": "Bern",
+            "kind": "core",
+            "label": "Canton of Bern",
+            "sel": {
+              "cantons": [
+                "BE"
+              ],
+              "districts": [
+                1302
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "year": 2026,
+        "title": "Laufen and Moutier leave",
+        "text": [
+          "The Laufen district was cut off from the rest of Bern by the new canton of Jura. In 1989 it voted to join Basel-Landschaft, and it moved in 1994.",
+          "In 1996 the small village of Vellerat moved to Jura. In 2021 the town of Moutier voted to join Jura, and it moved on 1 January 2026."
+        ],
+        "layers": [
+          {
+            "name": "Moutier",
+            "kind": "other",
+            "label": "Moutier: to the canton of Jura in 2026",
+            "sel": {
+              "munis": [
+                6831
+              ]
+            }
+          },
+          {
+            "name": "Laufen",
+            "kind": "other",
+            "label": "Laufen: to Basel-Landschaft in 1994",
+            "sel": {
+              "districts": [
+                1302
+              ]
+            }
+          },
+          {
+            "name": "Bern",
+            "kind": "core",
+            "label": "Canton of Bern today",
+            "sel": {
+              "cantons": [
+                "BE"
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "sources": [
+      "https://hls-dhs-dss.ch/de/articles/007383/",
+      "https://hls-dhs-dss.ch/de/articles/008456/",
+      "https://hls-dhs-dss.ch/de/articles/008451/",
+      "https://hls-dhs-dss.ch/de/articles/007399/"
+    ],
+    "notes": "1353: the four parishes around the city are drawn as Bern, Bolligen, Ittigen, Ostermundigen, Stettlen, Vechigen and Muri. 1415 and 1536: old Bern is drawn as today's canton without the districts Jura bernois and Biel, but with the old Nidau bailiwick (lake shore and Nidau). In 1415 Saanen, Schwarzenburg and the Erlach area are left out; the monastery lands of Interlaken are drawn as Bernese, although Bern only took them over fully in 1528. 1555: Saanen and the Pays-d'Enhaut are drawn as Saanen, Gsteig, Lauenen, Château-d'Oex, Rossinière and Rougemont. 1798: the Bern/Oberland line is drawn by today's districts. Vellerat (1996) cannot be drawn alone (now part of Courrendlin). 1200: only the Zähringen towns are drawn, not all their land; Bern's founding year 1191 is the traditional date, the HLS canton article gives no year."
+  },
+  {
+    "canton": "SO",
+    "name": "Solothurn",
+    "summary": "The city of Solothurn bought and conquered land on both sides of the Jura between 1344 and 1532; since then its borders have hardly changed.",
+    "stops": [
+      {
+        "year": 1200,
+        "title": "Under the Zähringen",
+        "text": [
+          "About 1200 the dukes of Zähringen rule the town of Solothurn and the St. Ursus church (St. Ursen) as rectors (governors) for the king.",
+          "In 1218 the last duke dies. Step by step Solothurn becomes a free imperial town."
+        ],
+        "layers": [
+          {
+            "name": "Solothurn",
+            "kind": "lord",
+            "lord": "zahringen",
+            "label": "Solothurn: ruled by the dukes of Zähringen",
+            "sel": {
+              "munis": [
+                2601
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "year": 1250,
+        "title": "Many small lords",
+        "text": [
+          "About 1250 Solothurn is an imperial town, but it owns no land outside its walls. The land around it belongs to many noble families.",
+          "The counts of Buchegg hold the Bucheggberg, and the Strassberg lords hold the area of Grenchen. The counts of Frohburg rule the Hauenstein passes and Olten. The lords of Bechburg and Falkenstein hold the Thal, and the counts of Thierstein hold the land north of the Passwang.",
+          "Much of this land is a fief (land lent) of the bishop of Basel. From 1344 Solothurn buys these lordships one by one."
+        ],
+        "layers": [
+          {
+            "name": "Buchegg",
+            "kind": "lord",
+            "lord": "noble",
+            "label": "Counts of Buchegg",
+            "sel": {
+              "districts": [
+                1103
+              ]
+            }
+          },
+          {
+            "name": "Strassberg",
+            "kind": "lord",
+            "lord": "noble",
+            "label": "Lords of Strassberg (later Neuenburg-Nidau): Grenchen area",
+            "sel": {
+              "munis": [
+                2546,
+                2556,
+                2543
+              ]
+            }
+          },
+          {
+            "name": "Frohburg",
+            "kind": "lord",
+            "lord": "noble",
+            "label": "Counts of Frohburg: Olten and the Hauenstein passes",
+            "sel": {
+              "districts": [
+                1101,
+                1108
+              ]
+            }
+          },
+          {
+            "name": "Bechburg and Falkenstein",
+            "kind": "lord",
+            "lord": "noble",
+            "label": "Lords of Bechburg and Falkenstein (fiefs of the bishop of Basel)",
+            "sel": {
+              "districts": [
+                1102
+              ]
+            }
+          },
+          {
+            "name": "Gösgen",
+            "kind": "lord",
+            "lord": "noble",
+            "label": "Lords of Gösgen and Wartenfels",
+            "sel": {
+              "districts": [
+                1105
+              ]
+            }
+          },
+          {
+            "name": "Thierstein",
+            "kind": "lord",
+            "lord": "noble",
+            "label": "Counts of Thierstein and other nobles north of the Passwang",
+            "sel": {
+              "districts": [
+                1110,
+                1104
+              ]
+            }
+          },
+          {
+            "name": "Solothurn",
+            "kind": "lord",
+            "lord": "empire",
+            "label": "Solothurn: imperial town",
+            "sel": {
+              "munis": [
+                2601
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "year": 1393,
+        "title": "First land around the city",
+        "text": [
+          "In the 1300s the city of Solothurn starts to get land around it. In 1386, after the battle of Sempach, it takes Grenchen and Altreu together with Bern.",
+          "In 1391 it buys the lordship of Buchegg (the Bucheggberg). From 1393 Grenchen and Altreu form the bailiwick of Lebern (land ruled by a governor from the city)."
+        ],
+        "layers": [
+          {
+            "name": "Lebern",
+            "kind": "subject",
+            "label": "Lebern (Grenchen, Altreu): Solothurn's since 1386/1393",
+            "sel": {
+              "munis": [
+                2546,
+                2556,
+                2543
+              ]
+            }
+          },
+          {
+            "name": "Buchegg",
+            "kind": "subject",
+            "label": "Buchegg: bought by Solothurn in 1391",
+            "sel": {
+              "districts": [
+                1103
+              ]
+            }
+          },
+          {
+            "name": "City of Solothurn",
+            "kind": "core",
+            "label": "City of Solothurn",
+            "sel": {
+              "munis": [
+                2601
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "year": 1481,
+        "title": "Solothurn joins the Confederation",
+        "text": [
+          "In the 1400s Solothurn gets much more land south of the Jura: Falkenstein (1402), the Buchsgau with Bern (1426), Olten as a pledge (1426), Gösgen (1458), Bechburg (1463) and Kriegstetten (1466).",
+          "In 1481 Solothurn becomes a member of the Confederation. Its land north of the Jura is still missing."
+        ],
+        "layers": [
+          {
+            "name": "Solothurn",
+            "kind": "core",
+            "label": "City-state of Solothurn and its bailiwicks",
+            "sel": {
+              "districts": [
+                1101,
+                1102,
+                1103,
+                1105,
+                1106,
+                1107,
+                1108,
+                1109
+              ],
+              "except": [
+                2492
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "year": 1532,
+        "title": "Land north of the Jura",
+        "text": [
+          "Between 1485 and 1527 Solothurn gets Dorneck, Seewen, Rotberg, Thierstein, Kienberg, Kleinlützel and Gilgenberg. This land lies north of the Jura, near Basel. Some parts are exclaves (pieces of land cut off from the rest).",
+          "In 1532 Solothurn's rule over Olten and Dorneck becomes final. Then its territory is complete.",
+          "Since then, the borders have hardly changed. Until 1798 Bern kept the high court in the Bucheggberg."
+        ],
+        "layers": [
+          {
+            "name": "North of the Jura",
+            "kind": "subject",
+            "label": "Dorneck and Thierstein: Solothurn's since 1485–1527",
+            "sel": {
+              "districts": [
+                1104,
+                1110
+              ],
+              "munis": [
+                2492
+              ]
+            }
+          },
+          {
+            "name": "Solothurn",
+            "kind": "core",
+            "label": "Canton of Solothurn",
+            "sel": {
+              "cantons": [
+                "SO"
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "sources": [
+      "https://hls-dhs-dss.ch/de/articles/007386/"
+    ],
+    "notes": "1393: Lebern drawn as Grenchen, Selzach (Altreu) and Bettlach; Buchegg drawn as today's district Bucheggberg. 1481: drawn as today's districts south of the Jura without Kienberg; Olten was only a pledge and the Buchsgau was shared with Bern until 1463. Small later steps (Lüsslingen 1539, Wisen 1826) are not drawn. 1250: the noble lands are drawn by today's districts and are only a rough picture; the Wasseramt and Lebern outside Grenchen are not drawn."
+  },
+  {
+    "canton": "BS",
+    "name": "Basel-Stadt",
+    "summary": "The city of Basel, long ruled by its bishop, built a territory in the Baselbiet from 1400, got Birseck in 1815, and in 1833 kept only the city and two villages when Basel-Landschaft split away.",
+    "stops": [
+      {
+        "year": 1260,
+        "title": "The bishop and the counts",
+        "text": [
+          "About 1260 the bishop of Basel rules the city of Basel. He also holds Birseck and the Laufen valley.",
+          "The counts of Frohburg and their Homberg branch hold much of the land in the hills to the south-east: Waldenburg, Liestal and Homburg. Other nobles hold the rest."
+        ],
+        "layers": [
+          {
+            "name": "Bishop's land",
+            "kind": "lord",
+            "lord": "bishop",
+            "label": "Prince-Bishop of Basel: Birseck and Laufen",
+            "sel": {
+              "districts": [
+                1302
+              ],
+              "munis": [
+                2761,
+                2762,
+                2763,
+                2768,
+                2771,
+                2772,
+                2773,
+                2774,
+                2775
+              ]
+            }
+          },
+          {
+            "name": "Frohburg",
+            "kind": "lord",
+            "lord": "noble",
+            "label": "Counts of Frohburg and Homberg, and other nobles",
+            "sel": {
+              "districts": [
+                1303,
+                1304,
+                1305
+              ]
+            }
+          },
+          {
+            "name": "City of Basel",
+            "kind": "lord",
+            "lord": "bishop",
+            "label": "City of Basel under its bishop",
+            "sel": {
+              "munis": [
+                2701
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "year": 1305,
+        "title": "The bishop buys the hills",
+        "text": [
+          "The Frohburg counts sell Waldenburg (1265), Homburg (1303) and Liestal (1305) to the bishop of Basel.",
+          "Between 1360 and 1390 the city buys many rights from the bishop, for example taxes and coins. In 1392 it buys Kleinbasel, the town on the other side of the Rhine. In 1400 it gets Liestal, Waldenburg and Homburg from the bishop as a pledge."
+        ],
+        "layers": [
+          {
+            "name": "Bishop's land",
+            "kind": "lord",
+            "lord": "bishop",
+            "label": "Prince-Bishop of Basel: Liestal, Waldenburg, Homburg, Birseck, Laufen",
+            "sel": {
+              "districts": [
+                1302,
+                1303,
+                1305
+              ],
+              "munis": [
+                2852,
+                2859,
+                2843,
+                2847,
+                2867,
+                2850,
+                2845,
+                2863,
+                2761,
+                2762,
+                2763,
+                2768,
+                2771,
+                2772,
+                2773,
+                2774,
+                2775
+              ]
+            }
+          },
+          {
+            "name": "Other nobles",
+            "kind": "lord",
+            "lord": "noble",
+            "label": "Counts of Thierstein and other nobles",
+            "sel": {
+              "districts": [
+                1304
+              ]
+            }
+          },
+          {
+            "name": "City of Basel",
+            "kind": "lord",
+            "lord": "bishop",
+            "label": "City of Basel under its bishop",
+            "sel": {
+              "munis": [
+                2701
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "year": 1501,
+        "title": "Basel joins the Confederation",
+        "text": [
+          "In 1400 the city of Basel gets Liestal, Waldenburg and Homburg as a pledge from the bishop. In 1461 it buys Farnsburg, and in 1470 it takes Muttenz and Münchenstein as a pledge.",
+          "In 1501 Basel joins the Confederation. The Prince-Bishopric of Basel (land of the bishop) still holds Birseck and the Laufen valley."
+        ],
+        "layers": [
+          {
+            "name": "Prince-Bishopric",
+            "kind": "other",
+            "label": "Prince-Bishopric of Basel (not Swiss)",
+            "sel": {
+              "districts": [
+                1302
+              ],
+              "munis": [
+                2761,
+                2762,
+                2763,
+                2768,
+                2771,
+                2772,
+                2773,
+                2774,
+                2775
+              ]
+            }
+          },
+          {
+            "name": "Bailiwicks",
+            "kind": "subject",
+            "label": "Bailiwicks of the city: Liestal, Waldenburg, Homburg, Farnsburg, Münchenstein",
+            "sel": {
+              "districts": [
+                1303,
+                1304,
+                1305
+              ],
+              "munis": [
+                2769,
+                2770,
+                2766
+              ],
+              "except": [
+                2831,
+                2821,
+                2883
+              ]
+            }
+          },
+          {
+            "name": "City of Basel",
+            "kind": "core",
+            "label": "City of Basel",
+            "sel": {
+              "munis": [
+                2701
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "year": 1534,
+        "title": "Territory almost complete",
+        "text": [
+          "Between 1513 and 1534 Basel buys more villages: Bettingen, Ramstein, Riehen, Pratteln, Biel-Benken, Arisdorf, Binningen and Bottmingen.",
+          "In 1640 Kleinhüningen follows. In 1798 the land becomes the Helvetic canton of Basel, with the same borders."
+        ],
+        "layers": [
+          {
+            "name": "Prince-Bishopric",
+            "kind": "other",
+            "label": "Prince-Bishopric of Basel (not Swiss)",
+            "sel": {
+              "districts": [
+                1302
+              ],
+              "munis": [
+                2761,
+                2762,
+                2763,
+                2768,
+                2771,
+                2772,
+                2773,
+                2774,
+                2775
+              ]
+            }
+          },
+          {
+            "name": "Countryside",
+            "kind": "subject",
+            "label": "Countryside ruled by the city",
+            "sel": {
+              "cantons": [
+                "BL",
+                "BS"
+              ],
+              "except": [
+                2701
+              ]
+            }
+          },
+          {
+            "name": "City of Basel",
+            "kind": "core",
+            "label": "City of Basel",
+            "sel": {
+              "munis": [
+                2701
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "year": 1815,
+        "title": "Basel gets Birseck",
+        "text": [
+          "In 1815 the Congress of Vienna gives Basel nine villages of the old Prince-Bishopric: the Birseck area with Arlesheim, Reinach, Aesch and Allschwil.",
+          "The Laufen valley goes to Bern."
+        ],
+        "layers": [
+          {
+            "name": "Laufen",
+            "kind": "other",
+            "label": "Laufen valley: to Bern in 1815",
+            "sel": {
+              "districts": [
+                1302
+              ]
+            }
+          },
+          {
+            "name": "Birseck",
+            "kind": "subject",
+            "label": "Birseck: to Basel in 1815",
+            "sel": {
+              "munis": [
+                2761,
+                2762,
+                2763,
+                2768,
+                2771,
+                2772,
+                2773,
+                2774,
+                2775
+              ]
+            }
+          },
+          {
+            "name": "Countryside",
+            "kind": "subject",
+            "label": "Countryside ruled by the city",
+            "sel": {
+              "cantons": [
+                "BL",
+                "BS"
+              ],
+              "except": [
+                2701
+              ]
+            }
+          },
+          {
+            "name": "City of Basel",
+            "kind": "core",
+            "label": "City of Basel",
+            "sel": {
+              "munis": [
+                2701
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "year": 1833,
+        "title": "Split into two half-cantons",
+        "text": [
+          "The people of the countryside want equal rights with the city. After fights in 1831–1833, the canton splits on 26 August 1833.",
+          "Basel-Stadt keeps only the city and the villages Riehen, Bettingen and Kleinhüningen on the right bank of the Rhine. Since then, the borders have not changed."
+        ],
+        "layers": [
+          {
+            "name": "Basel-Stadt",
+            "kind": "core",
+            "label": "Basel-Stadt since 1833",
+            "sel": {
+              "cantons": [
+                "BS"
+              ]
+            }
+          },
+          {
+            "name": "Basel-Landschaft",
+            "kind": "other",
+            "label": "Basel-Landschaft: separate half-canton since 1833",
+            "sel": {
+              "cantons": [
+                "BL"
+              ],
+              "exceptDistricts": [
+                1302
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "sources": [
+      "https://hls-dhs-dss.ch/de/articles/007387/",
+      "https://hls-dhs-dss.ch/de/articles/007478/",
+      "https://hls-dhs-dss.ch/de/articles/049333/"
+    ],
+    "notes": "Kleinbasel (1392) and Kleinhüningen (1640) are part of today's municipality of Basel and cannot be drawn alone. 1501: Birsfelden is drawn with Muttenz; Pratteln, Arisdorf and Bretzwil (Ramstein) are left out; Diegten and Eptingen (1482/1487) are drawn with Waldenburg. 1260 and 1305: the noble lands are drawn by today's districts Liestal, Sissach and Waldenburg; Homburg is drawn as the western villages of the Sissach district. Muttenz, Münchenstein and Pratteln belonged to other nobles and are drawn with them only roughly."
+  },
+  {
+    "canton": "BL",
+    "name": "Basel-Landschaft",
+    "summary": "The Baselbiet passed from nobles and the bishop to the city of Basel from 1400, got Birseck in 1815, became its own half-canton in 1833 and got the Laufen valley in 1994.",
+    "stops": [
+      {
+        "year": 1260,
+        "title": "The bishop and the counts",
+        "text": [
+          "About 1260 the bishop of Basel rules the city of Basel. He also holds Birseck and the Laufen valley.",
+          "The counts of Frohburg and their Homberg branch hold much of the land in the hills to the south-east: Waldenburg, Liestal and Homburg. Other nobles hold the rest."
+        ],
+        "layers": [
+          {
+            "name": "Bishop's land",
+            "kind": "lord",
+            "lord": "bishop",
+            "label": "Prince-Bishop of Basel: Birseck and Laufen",
+            "sel": {
+              "districts": [
+                1302
+              ],
+              "munis": [
+                2761,
+                2762,
+                2763,
+                2768,
+                2771,
+                2772,
+                2773,
+                2774,
+                2775
+              ]
+            }
+          },
+          {
+            "name": "Frohburg",
+            "kind": "lord",
+            "lord": "noble",
+            "label": "Counts of Frohburg and Homberg, and other nobles",
+            "sel": {
+              "districts": [
+                1303,
+                1304,
+                1305
+              ]
+            }
+          },
+          {
+            "name": "City of Basel",
+            "kind": "lord",
+            "lord": "bishop",
+            "label": "City of Basel under its bishop",
+            "sel": {
+              "munis": [
+                2701
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "year": 1305,
+        "title": "The bishop buys the hills",
+        "text": [
+          "The Frohburg counts sell Waldenburg (1265), Homburg (1303) and Liestal (1305) to the bishop of Basel.",
+          "Between 1360 and 1390 the city buys many rights from the bishop, for example taxes and coins. In 1392 it buys Kleinbasel, the town on the other side of the Rhine. In 1400 it gets Liestal, Waldenburg and Homburg from the bishop as a pledge."
+        ],
+        "layers": [
+          {
+            "name": "Bishop's land",
+            "kind": "lord",
+            "lord": "bishop",
+            "label": "Prince-Bishop of Basel: Liestal, Waldenburg, Homburg, Birseck, Laufen",
+            "sel": {
+              "districts": [
+                1302,
+                1303,
+                1305
+              ],
+              "munis": [
+                2852,
+                2859,
+                2843,
+                2847,
+                2867,
+                2850,
+                2845,
+                2863,
+                2761,
+                2762,
+                2763,
+                2768,
+                2771,
+                2772,
+                2773,
+                2774,
+                2775
+              ]
+            }
+          },
+          {
+            "name": "Other nobles",
+            "kind": "lord",
+            "lord": "noble",
+            "label": "Counts of Thierstein and other nobles",
+            "sel": {
+              "districts": [
+                1304
+              ]
+            }
+          },
+          {
+            "name": "City of Basel",
+            "kind": "lord",
+            "lord": "bishop",
+            "label": "City of Basel under its bishop",
+            "sel": {
+              "munis": [
+                2701
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "year": 1501,
+        "title": "Countryside of the city of Basel",
+        "text": [
+          "In 1400 the city of Basel gets Liestal, Waldenburg and Homburg as a pledge from the bishop. In 1461 it buys Farnsburg, and in 1470 it takes Muttenz and Münchenstein as a pledge.",
+          "In 1501 Basel joins the Confederation. The countryside is ruled by the city; its people have no vote. Birseck and the Laufen valley still belong to the Prince-Bishopric of Basel."
+        ],
+        "layers": [
+          {
+            "name": "Prince-Bishopric",
+            "kind": "other",
+            "label": "Prince-Bishopric of Basel (not Swiss)",
+            "sel": {
+              "districts": [
+                1302
+              ],
+              "munis": [
+                2761,
+                2762,
+                2763,
+                2768,
+                2771,
+                2772,
+                2773,
+                2774,
+                2775
+              ]
+            }
+          },
+          {
+            "name": "Bailiwicks",
+            "kind": "subject",
+            "label": "Bailiwicks of the city: Liestal, Waldenburg, Homburg, Farnsburg, Münchenstein",
+            "sel": {
+              "districts": [
+                1303,
+                1304,
+                1305
+              ],
+              "munis": [
+                2769,
+                2770,
+                2766
+              ],
+              "except": [
+                2831,
+                2821,
+                2883
+              ]
+            }
+          },
+          {
+            "name": "City of Basel",
+            "kind": "core",
+            "label": "City of Basel",
+            "sel": {
+              "munis": [
+                2701
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "year": 1534,
+        "title": "Territory almost complete",
+        "text": [
+          "Between 1513 and 1534 Basel buys more villages: Bettingen, Ramstein, Riehen, Pratteln, Biel-Benken, Arisdorf, Binningen and Bottmingen.",
+          "In 1798 the city and the countryside become the Helvetic canton of Basel, with the same borders."
+        ],
+        "layers": [
+          {
+            "name": "Prince-Bishopric",
+            "kind": "other",
+            "label": "Prince-Bishopric of Basel (not Swiss)",
+            "sel": {
+              "districts": [
+                1302
+              ],
+              "munis": [
+                2761,
+                2762,
+                2763,
+                2768,
+                2771,
+                2772,
+                2773,
+                2774,
+                2775
+              ]
+            }
+          },
+          {
+            "name": "Countryside",
+            "kind": "subject",
+            "label": "Countryside ruled by the city",
+            "sel": {
+              "cantons": [
+                "BL",
+                "BS"
+              ],
+              "except": [
+                2701
+              ]
+            }
+          },
+          {
+            "name": "City of Basel",
+            "kind": "core",
+            "label": "City of Basel",
+            "sel": {
+              "munis": [
+                2701
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "year": 1815,
+        "title": "Birseck joins Basel",
+        "text": [
+          "In 1815 the Congress of Vienna gives Basel nine villages of the old Prince-Bishopric: the Birseck area with Arlesheim, Reinach, Aesch and Allschwil.",
+          "The Laufen valley goes to Bern."
+        ],
+        "layers": [
+          {
+            "name": "Laufen",
+            "kind": "other",
+            "label": "Laufen valley: to Bern in 1815",
+            "sel": {
+              "districts": [
+                1302
+              ]
+            }
+          },
+          {
+            "name": "Birseck",
+            "kind": "subject",
+            "label": "Birseck: to Basel in 1815",
+            "sel": {
+              "munis": [
+                2761,
+                2762,
+                2763,
+                2768,
+                2771,
+                2772,
+                2773,
+                2774,
+                2775
+              ]
+            }
+          },
+          {
+            "name": "Countryside",
+            "kind": "subject",
+            "label": "Countryside ruled by the city",
+            "sel": {
+              "cantons": [
+                "BL",
+                "BS"
+              ],
+              "except": [
+                2701
+              ]
+            }
+          },
+          {
+            "name": "City of Basel",
+            "kind": "core",
+            "label": "City of Basel",
+            "sel": {
+              "munis": [
+                2701
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "year": 1833,
+        "title": "A canton of its own",
+        "text": [
+          "The people of the countryside want equal rights with the city. After fights in 1831–1833, the canton of Basel splits on 26 August 1833.",
+          "Basel-Landschaft becomes a half-canton with Liestal as its capital. It gets all the countryside left of the Rhine."
+        ],
+        "layers": [
+          {
+            "name": "Laufen",
+            "kind": "other",
+            "label": "Laufen valley: part of Bern",
+            "sel": {
+              "districts": [
+                1302
+              ]
+            }
+          },
+          {
+            "name": "Basel-Landschaft",
+            "kind": "core",
+            "label": "Basel-Landschaft since 1833",
+            "sel": {
+              "cantons": [
+                "BL"
+              ]
+            }
+          },
+          {
+            "name": "Basel-Stadt",
+            "kind": "other",
+            "label": "Basel-Stadt: the city, Riehen and Bettingen",
+            "sel": {
+              "cantons": [
+                "BS"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "year": 1994,
+        "title": "The Laufen valley joins",
+        "text": [
+          "In 1979 the canton of Jura is made, and the Laufen district of Bern is cut off from the rest of Bern.",
+          "In 1989 Laufen votes to join Basel-Landschaft. It moves on 1 January 1994."
+        ],
+        "layers": [
+          {
+            "name": "Laufen",
+            "kind": "core",
+            "label": "Laufen district: part of Basel-Landschaft since 1994",
+            "sel": {
+              "districts": [
+                1302
+              ]
+            }
+          },
+          {
+            "name": "Basel-Landschaft",
+            "kind": "core",
+            "label": "Basel-Landschaft",
+            "sel": {
+              "cantons": [
+                "BL"
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "sources": [
+      "https://hls-dhs-dss.ch/de/articles/007387/",
+      "https://hls-dhs-dss.ch/de/articles/049333/",
+      "https://hls-dhs-dss.ch/de/articles/007556/"
+    ],
+    "notes": "1501: Birsfelden is drawn with Muttenz; Pratteln, Arisdorf and Bretzwil (Ramstein) are left out; Diegten and Eptingen (1482/1487) are drawn with Waldenburg. The stops before 1833 are the same as for Basel-Stadt, because it was one canton. 1260 and 1305: the noble lands are drawn by today's districts Liestal, Sissach and Waldenburg; Homburg is drawn as the western villages of the Sissach district. Muttenz, Münchenstein and Pratteln belonged to other nobles and are drawn with them only roughly."
+  },
+  {
+    "canton": "AG",
+    "name": "Aargau",
+    "summary": "The Aargau was ruled by the Lenzburg, Kyburg and then Habsburg families, was conquered by the Swiss in 1415 and split between Bern and lands shared by several cantons; with the Austrian Fricktal it became one canton in 1803.",
+    "stops": [
+      {
+        "year": 1172,
+        "title": "The counts of Lenzburg",
+        "text": [
+          "In the 1000s and 1100s the counts of Lenzburg are the strongest lords in the Aargau. They rule the Seetal and the area around Baden.",
+          "The Habsburg family builds its castle near Brugg about 1030 and founds the abbey of Muri. The counts of Frohburg hold Zofingen. The Zähringen found Rheinfelden.",
+          "In 1172/1173 the Lenzburg family dies out. The emperor divides its land; the Habsburg family gets part of it."
+        ],
+        "layers": [
+          {
+            "name": "Habsburg",
+            "kind": "lord",
+            "lord": "habsburg",
+            "label": "Habsburg family land: castle Habsburg and Muri",
+            "sel": {
+              "munis": [
+                4099,
+                4123,
+                4092,
+                4104,
+                4100,
+                4093,
+                4107,
+                4236
+              ]
+            }
+          },
+          {
+            "name": "Rheinfelden",
+            "kind": "lord",
+            "lord": "zahringen",
+            "label": "Rheinfelden: town of the Zähringen",
+            "sel": {
+              "munis": [
+                4258
+              ]
+            }
+          },
+          {
+            "name": "Frohburg",
+            "kind": "lord",
+            "lord": "noble",
+            "label": "Counts of Frohburg: Zofingen",
+            "sel": {
+              "districts": [
+                1910
+              ]
+            }
+          },
+          {
+            "name": "Homberg",
+            "kind": "lord",
+            "lord": "noble",
+            "label": "Counts of Homberg-Thierstein: Fricktal",
+            "sel": {
+              "districts": [
+                1906,
+                1909
+              ]
+            }
+          },
+          {
+            "name": "Lenzburg",
+            "kind": "lord",
+            "lord": "lenzburg",
+            "label": "Counts of Lenzburg: Seetal and Baden",
+            "sel": {
+              "districts": [
+                1907,
+                1905,
+                1902
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "year": 1264,
+        "title": "Habsburg takes almost all",
+        "text": [
+          "After 1200 the counts of Kyburg get the Lenzburg land and found towns such as Baden, Aarau and Mellingen. The Habsburg family gets the Fricktal from the Homberg counts after 1223.",
+          "About 1264 the Kyburg family dies out. Count Rudolf of Habsburg, later king, takes their land. Now Habsburg rules almost all of today's Aargau.",
+          "About 1300 Habsburg also buys Zofingen and Aarburg, and in 1330 Rheinfelden. Lenzburg and Baden become centres of Habsburg rule, until the Swiss conquer the land in 1415."
+        ],
+        "layers": [
+          {
+            "name": "Rheinfelden",
+            "kind": "lord",
+            "lord": "empire",
+            "label": "Rheinfelden: imperial town",
+            "sel": {
+              "munis": [
+                4258
+              ]
+            }
+          },
+          {
+            "name": "Frohburg",
+            "kind": "lord",
+            "lord": "noble",
+            "label": "Counts of Frohburg: Zofingen and Aarburg (to Habsburg about 1300)",
+            "sel": {
+              "districts": [
+                1910
+              ]
+            }
+          },
+          {
+            "name": "Habsburg",
+            "kind": "lord",
+            "lord": "habsburg",
+            "label": "House of Habsburg (Fricktal: Habsburg-Laufenburg line)",
+            "sel": {
+              "cantons": [
+                "AG"
+              ],
+              "exceptDistricts": [
+                1911
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "year": 1415,
+        "title": "The Swiss conquer the Aargau",
+        "text": [
+          "In 1415 the Swiss conquer the Aargau from Austria. Bern takes the west part, the Bernese Aargau. It is not a canton, but land ruled by Bern.",
+          "The County of Baden and the Freie Ämter (Free Bailiwicks) become common lordships (land ruled together by several cantons). The Fricktal stays Austrian."
+        ],
+        "layers": [
+          {
+            "name": "Merenschwand",
+            "kind": "other",
+            "label": "Merenschwand: ruled by Lucerne",
+            "sel": {
+              "munis": [
+                4234
+              ]
+            }
+          },
+          {
+            "name": "County of Baden",
+            "kind": "shared",
+            "label": "County of Baden: ruled by several cantons",
+            "sel": {
+              "districts": [
+                1902,
+                1911
+              ],
+              "munis": [
+                243,
+                247,
+                87,
+                246
+              ]
+            }
+          },
+          {
+            "name": "Freie Ämter",
+            "kind": "shared",
+            "label": "Freie Ämter: ruled by several cantons",
+            "sel": {
+              "districts": [
+                1903,
+                1908
+              ],
+              "munis": [
+                1030
+              ]
+            }
+          },
+          {
+            "name": "Fricktal",
+            "kind": "lord",
+            "lord": "habsburg",
+            "label": "Fricktal: stays with Habsburg (Austria)",
+            "sel": {
+              "districts": [
+                1906,
+                1909
+              ]
+            }
+          },
+          {
+            "name": "Bernese Aargau",
+            "kind": "other",
+            "label": "Bernese Aargau: ruled by Bern from 1415",
+            "sel": {
+              "districts": [
+                1901,
+                1904,
+                1905,
+                1907,
+                1910
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "year": 1798,
+        "title": "Two Helvetic cantons",
+        "text": [
+          "In 1798 the Helvetic Republic makes the Bernese Aargau east of the Wigger river into the canton of Aargau, with Aarau as capital.",
+          "The County of Baden, the Freie Ämter and the Kelleramt become the canton of Baden. The Fricktal stays Austrian until 1801 and becomes a Helvetic canton in 1802."
+        ],
+        "layers": [
+          {
+            "name": "West of the Wigger",
+            "kind": "other",
+            "label": "West of the Wigger: still part of Bern",
+            "sel": {
+              "munis": [
+                4274,
+                4279,
+                4282,
+                4287
+              ]
+            }
+          },
+          {
+            "name": "Merenschwand",
+            "kind": "other",
+            "label": "Merenschwand: part of Lucerne",
+            "sel": {
+              "munis": [
+                4234
+              ]
+            }
+          },
+          {
+            "name": "Canton of Baden",
+            "kind": "other",
+            "label": "Helvetic canton of Baden (1798–1803)",
+            "sel": {
+              "districts": [
+                1902,
+                1903,
+                1908,
+                1911
+              ],
+              "munis": [
+                243,
+                247,
+                87,
+                246,
+                1030
+              ]
+            }
+          },
+          {
+            "name": "Fricktal",
+            "kind": "lord",
+            "lord": "habsburg",
+            "label": "Fricktal: Austrian until 1801",
+            "sel": {
+              "districts": [
+                1906,
+                1909
+              ]
+            }
+          },
+          {
+            "name": "Canton of Aargau",
+            "kind": "core",
+            "label": "Helvetic canton of Aargau",
+            "sel": {
+              "districts": [
+                1901,
+                1904,
+                1905,
+                1907,
+                1910
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "year": 1803,
+        "title": "One canton of Aargau",
+        "text": [
+          "In 1803 the Act of Mediation joins the cantons of Aargau, Baden and Fricktal into one canton of Aargau. It becomes a full member of the Confederation.",
+          "Aargau gets Merenschwand from Lucerne and gives Hitzkirch to Lucerne. Dietikon, Schlieren, Hüttikon and Oetwil an der Limmat go to Zurich.",
+          "Since then, the borders have not changed."
+        ],
+        "layers": [
+          {
+            "name": "Aargau",
+            "kind": "core",
+            "label": "Canton of Aargau since 1803",
+            "sel": {
+              "cantons": [
+                "AG"
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "sources": [
+      "https://hls-dhs-dss.ch/de/articles/007392/",
+      "https://hls-dhs-dss.ch/de/articles/008635/"
+    ],
+    "notes": "Bernese Aargau drawn as today's districts Aarau, Brugg, Kulm, Lenzburg and Zofingen; County of Baden as Baden and Zurzach (plus Dietikon, Schlieren, Hüttikon, Oetwil an der Limmat); Freie Ämter as Bremgarten and Muri (plus Hitzkirch); Fricktal as Laufenburg and Rheinfelden. 1798: the part west of the Wigger is drawn as Brittnau, Murgenthal, Rothrist and Vordemwald (approximate). The 1712 change (who ruled the shared lands) is not drawn. 1172: Lenzburg land drawn as today's districts Lenzburg, Kulm and Baden; Habsburg land as the Eigenamt around the castle plus Muri; the other districts are not drawn. 1264: the Zurzach district is not drawn (several lords, e.g. the bishop of Constance); Fricktal drawn as Habsburg, but it was the Habsburg-Laufenburg line."
+  },
+  {
+    "canton": "JU",
+    "name": "Jura",
+    "summary": "The Jura was the land of the Prince-Bishop of Basel, became French in 1793–1797, went to Bern in 1815 and became its own canton in 1979, with Moutier joining in 2026.",
+    "stops": [
+      {
+        "year": 999,
+        "title": "The bishop gets Moutier-Grandval",
+        "text": [
+          "In 999 Rudolf III, the last king of Burgundy, gives the abbey of Moutier-Grandval and its land to the bishop of Basel. This is the start of the bishop's state in the Jura.",
+          "The rest of the Jura is part of the Kingdom of Burgundy. Porrentruy and the Ajoie belong to the church of Besançon."
+        ],
+        "layers": [
+          {
+            "name": "Moutier-Grandval",
+            "kind": "lord",
+            "lord": "bishop",
+            "label": "Abbey land of Moutier-Grandval: given to the bishop of Basel",
+            "sel": {
+              "munis": [
+                6831,
+                681,
+                683,
+                687,
+                690,
+                691,
+                692,
+                694,
+                701,
+                716,
+                704,
+                706,
+                707,
+                708,
+                709,
+                711,
+                696,
+                703,
+                713,
+                717,
+                715
+              ]
+            }
+          },
+          {
+            "name": "Kingdom of Burgundy",
+            "kind": "lord",
+            "lord": "empire",
+            "label": "Kingdom of Burgundy",
+            "sel": {
+              "cantons": [
+                "JU"
+              ],
+              "districts": [
+                241
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "year": 1283,
+        "title": "The bishop takes Porrentruy",
+        "text": [
+          "In the 1100s and 1200s the bishop gets more land: Saint-Ursanne in the early 1100s, the Hasenburg lands in 1241 and the lands of the counts of Pfirt (Ferrette) in 1271.",
+          "In 1283, with help from King Rudolf of Habsburg, the bishop takes Porrentruy and the Ajoie from the count of Montbéliard. The bishop gets the Franches-Montagnes about 1360."
+        ],
+        "layers": [
+          {
+            "name": "Franches-Montagnes",
+            "kind": "other",
+            "label": "Franches-Montagnes: to the bishop about 1360",
+            "sel": {
+              "districts": [
+                2602
+              ]
+            }
+          },
+          {
+            "name": "Prince-Bishopric",
+            "kind": "lord",
+            "lord": "bishop",
+            "label": "Prince-Bishop of Basel",
+            "sel": {
+              "cantons": [
+                "JU"
+              ],
+              "districts": [
+                241,
+                1302
+              ],
+              "munis": [
+                371,
+                372
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "year": 1792,
+        "title": "The Prince-Bishopric before 1792",
+        "text": [
+          "For many centuries the Jura belongs to the Prince-Bishopric of Basel (a state ruled by the bishop of Basel). The bishop lives in Porrentruy.",
+          "The north is part of the Holy Roman Empire. The south has alliances with Bern, Fribourg and Solothurn and is linked to the Swiss. In April 1792 the bishop flees from the French army."
+        ],
+        "layers": [
+          {
+            "name": "Southern part",
+            "kind": "lord",
+            "lord": "bishop",
+            "label": "Prince-Bishop of Basel: southern part, allied with Swiss cantons",
+            "sel": {
+              "districts": [
+                241
+              ],
+              "munis": [
+                6831,
+                371,
+                372
+              ]
+            }
+          },
+          {
+            "name": "Northern part",
+            "kind": "lord",
+            "lord": "bishop",
+            "label": "Prince-Bishop of Basel: northern part (today's canton of Jura)",
+            "sel": {
+              "cantons": [
+                "JU"
+              ]
+            }
+          },
+          {
+            "name": "Laufen and Birseck",
+            "kind": "lord",
+            "lord": "bishop",
+            "label": "Prince-Bishop of Basel: Laufen and Birseck",
+            "sel": {
+              "districts": [
+                1302
+              ],
+              "munis": [
+                2761,
+                2762,
+                2763,
+                2768,
+                2771,
+                2772,
+                2773,
+                2774,
+                2775
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "year": 1793,
+        "title": "France takes the north",
+        "text": [
+          "In December 1792 the Rauracian Republic is declared in the north. On 23 March 1793 France annexes it as the department of Mont-Terrible.",
+          "In 1797 France also takes the south and Biel. In 1800 the land becomes part of the department of Haut-Rhin."
+        ],
+        "layers": [
+          {
+            "name": "Southern part",
+            "kind": "lord",
+            "lord": "bishop",
+            "label": "Prince-Bishop of Basel: southern part, until 1797",
+            "sel": {
+              "districts": [
+                241
+              ],
+              "munis": [
+                6831,
+                371,
+                372
+              ]
+            }
+          },
+          {
+            "name": "Mont-Terrible",
+            "kind": "other",
+            "label": "French department of Mont-Terrible",
+            "sel": {
+              "cantons": [
+                "JU"
+              ]
+            }
+          },
+          {
+            "name": "Laufen and Birseck",
+            "kind": "other",
+            "label": "Laufen and Birseck: also French",
+            "sel": {
+              "districts": [
+                1302
+              ],
+              "munis": [
+                2761,
+                2762,
+                2763,
+                2768,
+                2771,
+                2772,
+                2773,
+                2774,
+                2775
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "year": 1815,
+        "title": "The Jura goes to Bern",
+        "text": [
+          "In 1815 the Congress of Vienna gives most of the old Prince-Bishopric to the canton of Bern. Bern takes it over on 21 December 1815.",
+          "Birseck goes to Basel. For more than 150 years the Jura is a part of Bern."
+        ],
+        "layers": [
+          {
+            "name": "Jura",
+            "kind": "core",
+            "label": "North Jura: part of Bern",
+            "sel": {
+              "cantons": [
+                "JU"
+              ]
+            }
+          },
+          {
+            "name": "South and Laufen",
+            "kind": "other",
+            "label": "Bernese Jura, Biel and Laufen: also part of Bern",
+            "sel": {
+              "districts": [
+                241,
+                242,
+                1302
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "year": 1979,
+        "title": "The new canton of Jura",
+        "text": [
+          "Many people in the north want to leave Bern. On 23 June 1974 the north votes for its own canton. In 1975 the three southern districts vote to stay with Bern.",
+          "On 1 January 1979 the canton of Jura starts. It is the 26th canton. It has the districts of Delémont, Porrentruy and Franches-Montagnes."
+        ],
+        "layers": [
+          {
+            "name": "Moutier",
+            "kind": "other",
+            "label": "Moutier: stays with Bern",
+            "sel": {
+              "munis": [
+                6831
+              ]
+            }
+          },
+          {
+            "name": "Jura",
+            "kind": "core",
+            "label": "Canton of Jura since 1979",
+            "sel": {
+              "cantons": [
+                "JU"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "year": 2026,
+        "title": "Moutier joins Jura",
+        "text": [
+          "In 1996 the small village of Vellerat moves from Bern to Jura. Today it is part of Courrendlin.",
+          "On 28 March 2021 the town of Moutier votes to join Jura. It moves on 1 January 2026."
+        ],
+        "layers": [
+          {
+            "name": "Moutier",
+            "kind": "core",
+            "label": "Moutier: part of Jura since 2026",
+            "sel": {
+              "munis": [
+                6831
+              ]
+            }
+          },
+          {
+            "name": "Jura",
+            "kind": "core",
+            "label": "Canton of Jura",
+            "sel": {
+              "cantons": [
+                "JU"
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "sources": [
+      "https://hls-dhs-dss.ch/de/articles/007399/"
+    ],
+    "notes": "The line between the north (Empire, French from 1793) and the south (Swiss allies, French from 1797) is drawn along today's canton border; in reality some villages of the Moutier area south of today's border and some of today's Jura villages (e.g. around Courrendlin) were on the other side. Biel is drawn with the southern part. Vellerat (1996) cannot be drawn alone. 999: the abbey land is drawn as Moutier and the valleys of the old Prévôté (Grandval, Tavannes valley); its real extent is not known exactly. 1283: the whole later Prince-Bishopric is drawn, although some parts (e.g. Erguel, Laufen) came to the bishop at dates not checked."
+  }
+]
