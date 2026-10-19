@@ -28,8 +28,8 @@ Published on GitHub Pages from the `main` branch (18 Oct 2026). The repository n
 | # | Phase | Status |
 |---|---|---|
 | 1 | Clean-up: new layout (Through time, Every canton, Stories), rivers moved to the sister site, "uncertain" notes and page | **Done** (18 Oct 2026) |
-| 2 | The full Old Confederation (all ruled lands and allies: Valais, Geneva, Neuchâtel, Biel, Mulhouse …) and the Helvetic cantons 1798–1803 | Next |
-| 3 | Lords before 1291 on the main map (Habsburg, Kyburg, Zähringen, Savoy, bishops, abbeys) | Planned |
+| 2 | The full Old Confederation (all ruled lands and allies: Valais, Geneva, Neuchâtel, Biel, Mulhouse …) and the Helvetic cantons 1798–1803 | **Done** (19 Oct 2026): 30 allies and protected places (`research/allies.json`), 7 Helvetic maps (`research/helvetic.json`), new 1798 step, story "The Helvetic cantons 1798–1803". Dates to check on HLS: see docs/OPEN-QUESTIONS.md |
+| 3 | Lords before 1291 on the main map (Habsburg, Kyburg, Zähringen, Savoy, bishops, abbeys) | Next |
 | 4 | Religion: the Reformation | Planned |
 | 5 | Wars and battles (Morgarten to the Sonderbund War) | Planned |
 | 6 | Languages, and municipality mergers since 1850 | Planned |

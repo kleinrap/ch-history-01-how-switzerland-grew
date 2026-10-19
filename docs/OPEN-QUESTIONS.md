@@ -82,3 +82,25 @@ The maps before each canton existed are rougher than the later ones. Most rulers
 - Valais 999: Saint-Maurice and Monthey are drawn as abbey land. Valais 1392: all of Martigny is drawn under Savoy.
 - Neuchâtel 1250: Valangin is drawn with mountain villages that were settled mostly later.
 - Geneva 1402: HLS gives 1401, 1402 and 1424 for Savoy getting the Genevois. The site uses 1402.
+
+# The Helvetic cantons 1798–1803
+
+- HLS is unclear about 1802. It says the 1802 constitution dissolved Waldstätten, Oberland, Baden, Bellinzona, Lugano, Linth and Säntis. But the articles on these cantons say that Baden, Linth, Säntis, Bellinzona and Lugano existed formally until 1803. The site keeps them in the 1802 maps.
+- Waldstätten was dissolved in "November 1801". HLS gives no day.
+- The Upper Toggenburg left Linth in 1801. No source says where it went, so it stays in Linth.
+- Borders drawn only roughly with today's municipalities: Oberland's part of the Thun district, Payerne/Avenches, Amt Hitzkirch (in Baden), Rüthi (in Linth), the Birseck and the Biel area. In April 1798 the planned eastern and central cantons are drawn only roughly.
+- Tarasp and Rhäzüns were Austrian until 1803. They cannot be drawn separately with today's municipalities.
+- From general knowledge, not checked in HLS: Geneva taken by French troops in April 1798 (treaty of 26 April 1798), and Ticino's capital rotating between Bellinzona, Locarno and Lugano.
+
+# Allies and protected places of the Old Confederation
+
+The HLS website blocked direct downloads, so the agent read HLS only through summaries. All dates below should be checked on the HLS pages ("Zugewandte Orte" and the single articles).
+
+- Prince-Bishopric of Basel: alliance with the Catholic cantons 1579–1735 (one HLS article says it was renewed until 1717, and the bishop refused to renew it in 1735).
+- Moutier valley (Prévôté): HLS gives 1774 in one place and 1486–1798 in the table for Bern's protection. The site uses 1798.
+- Erguel, Moutier, La Neuveville, Tessenberg and Bellelay: France took them on 15 Dec 1797. The site ends them in 1798.
+- Places assigned without a source, municipality by municipality: Orvin and Pieterlen (Erguel), Rebévelier (Moutier), the Sous-les-Roches villages, the Birseck villages, Geneva's land before 1798 (partly inferred from the land added in 1815/16), and the Gruyère communes.
+- Valais: Hérens is drawn as Zenden land. The 1475 border of the Lower Valais is approximate. The Lötschental (ruled from 1376) is drawn from 1416.
+- Neuchâtel: older treaties exist (Fribourg 1290, Bern 1308, Solothurn 1369). Which cantons ruled it in 1512–1529 is not checked.
+- Rottweil: the alliance ends in 1632 on the map. Rottweil was excluded from the meetings in 1632, but the treaty was never ended.
+- Not drawn: Haldenstein (protected 1541–1798; today part of Chur), and the occasional allies around 1500 (the bishop of Konstanz, Württemberg, Montbéliard, Besançon, Arona).

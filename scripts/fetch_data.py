@@ -44,6 +44,7 @@ OUTSIDE = {
     "genevois": (2085004, "Communaute de communes du Genevois"),
     "annemasse": (2086904, "Annemasse Agglo"),
     "mulhouse": (38246, "Mulhouse"),
+    "rottweil": (943756, "Rottweil"),
 }
 
 CANTONS = ["ZH", "BE", "LU", "UR", "SZ", "OW", "NW", "GL", "ZG", "FR", "SO", "BS", "BL",

@@ -173,7 +173,9 @@
     { id: "ti12", from: 1512, canton: "TI", kind: "common", name: "Lugano, Locarno, Mendrisio, Vallemaggia", label: "Lugano, Locarno, Mendrisio, Vallemaggia: ruled together by 12 cantons", test: inD([2105, 2104, 2106, 2108]) },
     // Vaud
     { id: "vdshared", from: 1476, canton: "VD", kind: "common", name: "Orbe, Echallens, Grandson", label: "Orbe-Echallens and Grandson: ruled by Bern and Fribourg together", test: isB([5757, 5518, 5561]) },
-    { id: "vaud", from: 1536, owner: "BE", canton: "VD", kind: "one", name: "Vaud", label: "Pays de Vaud: ruled by Bern since 1536", test: function (c) { return c[0] === "VD"; } },
+    { id: "aigle", from: 1475, owner: "BE", canton: "VD", kind: "one", name: "Aigle", label: "Aigle: ruled by Bern since about 1475", test: inD([2221]) },
+    // The Pays-d'Enhaut (Château-d'Oex, Rossinière, Rougemont) came to Bern only in 1555: drawn by the allies data.
+    { id: "vaud", from: 1536, owner: "BE", canton: "VD", kind: "one", name: "Vaud", label: "Pays de Vaud: ruled by Bern since 1536", test: function (c, b) { return c[0] === "VD" && !has([5841, 5842, 5843], b); } },
     // Everything else that was a full member
     { id: "old13", kind: "old13", label: KINDS.old13, test: function (c, b) { return memberCanton(c, b, 1513) !== null; } }
   ];
@@ -250,7 +252,36 @@
 
   // Mode 1: what each municipality was in a year. Before 1798 this includes the ruled lands and
   // allies; from 1803 on, only full member cantons. Returns {key, kind, owner, layer} or null.
+  // Allies and other ruled lands of the Old Confederation (content-allies.js, from research/allies.json).
+  // They only fill land that no canton's own history claims at that date.
+  var ALLIES = [];
+  function setAllies(list) {
+    ALLIES = (list || []).filter(function (a) { return a.sel; });
+    (list || []).forEach(function (a) {
+      if (a.outside_id && a.kind !== "foreign")
+        OUTSIDE.push({ id: a.outside_id, from: a.from, until: a.until, kind: a.kind === "subject" ? "subject" : "ally", owner: a.owner, name: a.name, label: a.label });
+    });
+  }
+  function allyAt(c, b, year) {
+    if (year >= 1798) return null;
+    for (var i = 0; i < ALLIES.length; i++) {
+      var a = ALLIES[i];
+      if (year < a.from || year >= a.until || !selMatch(a.sel, c, b)) continue;
+      if (a.kind === "foreign") return null;
+      var layer = { name: a.name, label: a.label };
+      if (a.kind === "subject") return { key: "ally-" + a.id, kind: "subject", owner: a.owner || "ally", layer: layer };
+      if (a.kind === "common") return { key: "ally-" + a.id, kind: "common", layer: layer };
+      return { key: "ally-" + a.id, kind: "ally", layer: layer };
+    }
+    return null;
+  }
+
   function statusAt(c, b, year) {
+    var s = memberStatus(c, b, year);
+    return s || allyAt(c, b, year);
+  }
+
+  function memberStatus(c, b, year) {
     if (year < 1798) {
       for (var i = 0; i < BEFORE_1798.length - 1; i++) {
         var l = BEFORE_1798[i];
@@ -292,7 +323,7 @@
     KINDS: KINDS, UNITED: UNITED, OUTSIDE: OUTSIDE, outsideAt: outsideAt, SIX: SIX, BEFORE_1798: BEFORE_1798, AFTER_1803: AFTER_1803,
     memberCanton: memberCanton, waveOf: waveOf,
     memberGroups: memberGroups, bernGroups: bernGroups, groupBy: groupBy,
-    statusAt: statusAt, territoryGroups: territoryGroups,
+    statusAt: statusAt, territoryGroups: territoryGroups, setAllies: setAllies,
     selMatch: selMatch, stopGroups: stopGroups, setHistory: setHistory, stopAt: stopAt
   };
   if (typeof window !== "undefined") window.Territory = api;

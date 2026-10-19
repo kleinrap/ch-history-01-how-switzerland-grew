@@ -133,11 +133,14 @@
 
   var HIST = window.CANTON_HISTORY || [];
   T.setHistory(HIST);
+  T.setAllies(window.ALLIES || []);
   var CANTON_COLOR = { core: "var(--c-core)", subject: "var(--c-core)", shared: "var(--k-common)", other: "var(--c-other)" };
   function layerColor(l) { return l.kind === "lord" ? "var(--lord-" + (l.lord || "noble") + ")" : CANTON_COLOR[l.kind]; }
 
   var state = { mode: "cantons", index: 0, canton: HIST.length ? HIST[0].canton : null };
   function history() { return HIST.filter(function (h) { return h.canton === state.canton; })[0]; }
+  var HELV = window.HELVETIC || null;
+  if (HELV) C.helvetic = HELV.stops;
   function stops() { return state.mode === "canton" ? history().stops : C[state.mode]; }
 
   // Stories: guided chapters. Planned ones show as "coming later" cards (see PLAN.md).
@@ -145,7 +148,8 @@
     { mode: "six", title: "1803: Six new cantons", text: "What Aargau, Graubünden, St. Gallen, Thurgau, Ticino and Vaud were before 1798, and how they became equal cantons." },
     { mode: "bern", title: "Bern: from very large to large", text: "The largest city-state north of the Alps, cut up by France, and the long Jura question." },
     { title: "The full Old Confederation", text: "All ruled lands and allies, from Geneva to Mulhouse.", later: true },
-    { title: "The Helvetic cantons 1798–1803", text: "Léman, Oberland, Säntis, Linth, Baden and the other short-lived cantons.", later: true },
+    HELV ? { mode: "helvetic", title: "The Helvetic cantons 1798–1803", text: "Léman, Oberland, Säntis, Linth, Baden and the other short-lived cantons." }
+         : { title: "The Helvetic cantons 1798–1803", text: "Léman, Oberland, Säntis, Linth, Baden and the other short-lived cantons.", later: true },
     { title: "Lords before 1291", text: "Habsburg, Kyburg, Zähringen, Savoy, bishops and abbeys.", later: true },
     { title: "The Reformation", text: "Which areas became Protestant or Catholic.", later: true },
     { title: "Wars and battles", text: "From Morgarten to the Sonderbund War.", later: true },
@@ -153,7 +157,7 @@
     { title: "Municipalities", text: "From about 3,200 to about 2,100: mergers since 1850.", later: true },
     { title: "Romans and Celts", text: "The Helvetii, Roman roads and towns.", later: true }
   ];
-  var STORY_MODES = { six: 1, bern: 1 };
+  var STORY_MODES = { six: 1, bern: 1, helvetic: 1 };
   d3.select("#story-cards").selectAll("li").data(STORIES).join("li").attr("class", function (d) { return "card" + (d.later ? " later" : ""); })
     .html(function (d) {
       return (d.later ? "<span class=\"badge\">Coming later</span>" : "") + "<h3>" + d.title + "</h3><p>" + d.text + "</p>" +
@@ -163,6 +167,7 @@
 
   // Tab 1: the cantons, their ruled lands and allies in a year.
   function drawCantons(year) {
+    if (year === 1798 && HELV) return drawHelvetic(HELV.stops[0]);
     var groups = T.territoryGroups(communes, year);
     var feats = Object.keys(groups).map(function (key) {
       var f = merge(groups[key].ids), g = groups[key];
@@ -335,6 +340,35 @@
     d3.select("#map-note").text("Built from today's municipalities and districts, so small details are approximate.");
   }
 
+  // The Helvetic Republic: each stop is a full map of its administrative cantons.
+  var HELV_COLORS = ["#4e79a7", "#f28e2b", "#e15759", "#76b7b2", "#59a14f", "#edc948", "#b07aa1", "#ff9da7", "#9c755f",
+                     "#86bcb6", "#8cd17d", "#b6992d", "#499894", "#d37295", "#a0cbe8", "#ffbe7d", "#d4a6c8", "#f1ce63", "#79706e", "#bab0ac"];
+  var helvColor = {};
+  (HELV ? HELV.stops : []).forEach(function (st) {
+    st.layers.forEach(function (l) {
+      if (l.kind !== "foreign" && !(l.id in helvColor)) helvColor[l.id] = HELV_COLORS[Object.keys(helvColor).length % HELV_COLORS.length];
+    });
+  });
+  function drawHelvetic(stop) {
+    var groups = T.stopGroups(communes, stop);
+    var feats = stop.layers.map(function (l, i) {
+      if (!groups[i].length) return null;
+      var f = merge(groups[i]); f.properties = { key: "helv-" + l.id, layer: l }; return f;
+    }).filter(Boolean);
+    fillTerritories(feats, function (d) { return d.properties.layer.kind === "foreign" ? "var(--c-other)" : helvColor[d.properties.layer.id]; });
+    gFocus.selectAll("*").remove();
+    var k = zoomTo(null);
+    drawLabels(feats.filter(function (f) { return f.properties.layer.kind !== "foreign"; }).map(function (f) {
+      return { key: f.properties.key, text: f.properties.layer.name, at: largestPoint(f.geometry || f), cls: "minor" };
+    }), k);
+    setLegend(feats.map(function (f) {
+      var l = f.properties.layer;
+      return { color: l.kind === "foreign" ? "var(--c-other)" : helvColor[l.id], label: l.label };
+    }));
+    d3.select("#stat").html(feats.filter(function (f) { return f.properties.layer.kind !== "foreign"; }).length + " Helvetic cantons");
+    d3.select("#map-note").text("Helvetic borders drawn with today's municipalities, so small details are approximate.");
+  }
+
   function setLegend(items) {
     d3.select("#legend").selectAll("li").data(items).join("li")
       .html(function (d) {
@@ -390,6 +424,7 @@
     if (state.mode === "cantons") drawCantons(s.year);
     else if (state.mode === "bern") drawBern(s.year);
     else if (state.mode === "canton") drawCanton(s);
+    else if (state.mode === "helvetic") drawHelvetic(s);
     else drawSix(s);
     var h = state.mode === "canton" ? history() : null;
     d3.select("#picker").attr("hidden", state.mode === "canton" ? null : true);
@@ -500,7 +535,7 @@
     pickSvg.selectAll(".pick-label").classed("on", function (f) { return CANTON_IDS[f.id - 1] === state.canton; });
   }
 
-  var m = /^#(cantons|six|bern|canton)-([a-z0-9-]+)$/.exec(location.hash);
+  var m = /^#(cantons|six|bern|canton|helvetic)-([a-z0-9-]+)$/.exec(location.hash);
   setMode(m ? m[1] : "cantons", m ? m[2] : null);
   syncPick();
   if (location.hash === "#stories") showStories(true);

@@ -36,6 +36,12 @@ Every old territory is a set of today's municipalities (see `logic.js`):
 
 Before 1798, "How the cantons joined" takes each member canton's latest stop at or before the year. Only land that is `core`, `subject` or `shared` in that stop is drawn.
 
+## Allies and Helvetic cantons
+
+- `research/allies.json`: allies, protected places and ruled lands of the Old Confederation (from/until, selector or OpenStreetMap area). On the main map they fill only land that no canton's own history claims at that date; smaller entries win over larger ones.
+- `research/helvetic.json`: the Helvetic Republic's administrative cantons at 7 dates (April 1798 to March 1803), each covering all of today's Switzerland; land outside the Republic is marked "foreign".
+- `python3 scripts/build_confederation.py` builds `content-allies.js` and `content-helvetic.js`.
+
 ## Limits
 
 - Old borders did not always follow today's municipality lines. Small villages can be on the wrong side (for example Pieterlen near Biel).
