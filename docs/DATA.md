@@ -10,6 +10,7 @@
 | Historical maps for the river tab | [swisstopo "Journey through time"](https://www.swisstopo.admin.ch/en/journey-through-time-historical-maps) (WMTS layer ch.swisstopo.zeitreihen, 1844–2021) and the national map | swisstopo free geodata; attribute "© swisstopo" |
 | Old map scans (Kander about 1710, Linth plain 1811, Jura correction 1850) | Wikimedia Commons; licence on each file page (public domain or CC BY-SA 4.0) | As stated on each file page |
 | River corrections (years, stretches, lengths) | HLS article [Gewässerkorrektionen](https://hls-dhs-dss.ch/de/articles/007850), river articles, BAFU and canton pages | Read, not copied |
+| Europe: today's regions (admin-1) and countries (admin-0) | [Natural Earth](https://www.naturalearthdata.com/), clipped to Europe and simplified by `scripts/fetch_europe.py` | Public domain |
 | History (dates, who owned what) | [Historisches Lexikon der Schweiz](https://hls-dhs-dss.ch/): articles "Bern (Kanton)", "Schwarzenburg (Amtsbezirk)", "Murten (Vogtei)", "Gemeine Herrschaften", "Oberland", "Helvetische Republik" | Read, not copied |
 
 Three map areas are shared land, not municipalities, and are not in the BFS list: 2391 Staatswald Galm (FR), 5391 and 5394 (communanze in TI). The script adds them by hand.
@@ -41,6 +42,11 @@ Before 1798, "How the cantons joined" takes each member canton's latest stop at 
 - `research/allies.json`: allies, protected places and ruled lands of the Old Confederation (from/until, selector or OpenStreetMap area). On the main map they fill only land that no canton's own history claims at that date; smaller entries win over larger ones.
 - `research/helvetic.json`: the Helvetic Republic's administrative cantons at 7 dates (April 1798 to March 1803), each covering all of today's Switzerland; land outside the Republic is marked "foreign".
 - `python3 scripts/build_confederation.py` builds `content-allies.js` and `content-helvetic.js`.
+
+## Stories
+
+- `research/stories-*.json` (lords, Reformation, wars): each step has a view (Switzerland, Europe, or a box), areas built from today's municipalities and/or today's European regions and countries, and points (battles, towns, castles). `python3 scripts/build_stories.py` builds `content-stories.js`.
+- Outside Switzerland, regions are of very different size: France has départements and Italy provinces, but Germany and Austria only federal states. Old borders there are rough.
 
 ## Limits
 

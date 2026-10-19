@@ -45,6 +45,13 @@
   --lord-empire: #5f6b76;
   --lord-milan: #c56a2d;
   --lord-noble: #a39a83;
+  /* Stories: other sides and religions */
+  --s-burgundy: #a0522d;
+  --s-france: #2b4c9a;
+  --s-enemy: #5a5f66;
+  --s-reformed: #2f6fb3;
+  --s-catholic: #d4a017;
+  --s-mixed: #8a6bb8;
   color-scheme: light;
 }
 @media (prefers-color-scheme: dark) {
@@ -267,3 +274,9 @@ button { font: inherit; color: inherit; }
 .card.later { opacity: 0.6; }
 .badge { align-self: flex-start; font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); border: 1px solid var(--line); border-radius: 999px; padding: 1px 8px; }
 @media (max-width: 900px) { .stories { padding: 0 16px 16px; } }
+
+/* Europe background and story points */
+.eu-country { fill: var(--outside); stroke: var(--line); stroke-width: 0.6; vector-effect: non-scaling-stroke; }
+.place circle { fill: #333; stroke: #fff; vector-effect: non-scaling-stroke; }
+.place.battle circle { fill: #c8281e; }
+.place text { font-family: "IBM Plex Sans", sans-serif; font-weight: 600; fill: var(--ink); paint-order: stroke; stroke: var(--panel); stroke-linejoin: round; }

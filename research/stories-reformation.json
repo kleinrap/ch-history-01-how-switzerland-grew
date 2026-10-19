@@ -1,0 +1,4878 @@
+[
+ {
+  "id": "reformation",
+  "title": "Reformation: one Confederation, two faiths",
+  "card": "From Zwingli's Zurich to the Peace of Aarau: how each place in Switzerland became Reformed, Catholic or both, and why it led to four wars.",
+  "stops": [
+   {
+    "year": 1525,
+    "tick": "1519–1525",
+    "title": "Zwingli changes Zurich",
+    "text": [
+     "On 1 January 1519 Huldrych Zwingli starts to preach at the Grossmünster in Zurich. He says that only the Bible is the rule for faith. In 1522 friends of Zwingli eat sausages in Lent, which the Church forbids. This becomes a public dispute.",
+     "The city council supports Zwingli against the bishop of Constance. After public debates (disputations) in 1523, the council removes the images from the churches in June 1524 and closes the monasteries. In April 1525 Zurich stops the Catholic Mass.",
+     "The five inner cantons (Lucerne, Uri, Schwyz, Unterwalden, Zug) promise in 1524 to keep the old faith. In Appenzell, the Landsgemeinde (assembly of all men) decides in 1525 that each parish chooses its own faith."
+    ],
+    "view": "ch",
+    "layers": [
+     {
+      "name": "Zurich",
+      "kind": "reformed",
+      "label": "Zurich: Reformed from 1525 (Mass ended in April)",
+      "sel": {
+       "cantons": [
+        "ZH"
+       ],
+       "except": [
+        243,
+        247,
+        246,
+        87,
+        38
+       ]
+      }
+     },
+     {
+      "name": "Appenzell",
+      "kind": "mixed",
+      "label": "Appenzell: each parish chooses (1525)",
+      "sel": {
+       "cantons": [
+        "AR",
+        "AI"
+       ]
+      }
+     },
+     {
+      "name": "Five inner cantons",
+      "kind": "catholic",
+      "label": "Five inner cantons: keep the old faith (Beckenried 1524)",
+      "sel": {
+       "cantons": [
+        "LU",
+        "UR",
+        "SZ",
+        "OW",
+        "NW",
+        "ZG"
+       ]
+      }
+     }
+    ],
+    "places": [
+     {
+      "name": "Zurich, Grossmünster",
+      "lat": 47.3701,
+      "lon": 8.5439,
+      "kind": "town",
+      "year": 1519,
+      "note": "Zwingli preaches here from 1519"
+     }
+    ]
+   },
+   {
+    "year": 1528,
+    "tick": "1528",
+    "title": "Bern joins the Reformation",
+    "text": [
+     "In January 1528 Bern holds a large public debate. A few days later the council decides to introduce the Reformation. Bern is the largest city-state north of the Alps, so this decision is a turning point.",
+     "Bern's lands follow, from the Aargau to the Oberland. In the Hasli valley people rebel, but Bern stops the revolt. Biel also becomes Reformed in 1528. The French preacher Guillaume Farel works in Aigle, a Bernese land.",
+     "In the east the town of St. Gallen under Vadian and the Toggenburg are already Reformed. In Thurgau a Landsgemeinde declares freedom of faith in December 1528. In Graubünden the Ilanz Articles (1524, 1526) let each commune choose its pastor."
+    ],
+    "view": "ch",
+    "layers": [
+     {
+      "name": "Town of St. Gallen",
+      "kind": "reformed",
+      "label": "Town of St. Gallen: Reformed (Vadian)",
+      "sel": {
+       "munis": [
+        3203
+       ]
+      }
+     },
+     {
+      "name": "Toggenburg",
+      "kind": "reformed",
+      "label": "Toggenburg: Reformed from 1524 (Zwingli's home valley)",
+      "sel": {
+       "districts": [
+        1727
+       ]
+      }
+     },
+     {
+      "name": "Thurgau",
+      "kind": "mixed",
+      "label": "Thurgau: freedom of faith declared, December 1528",
+      "sel": {
+       "cantons": [
+        "TG"
+       ]
+      }
+     },
+     {
+      "name": "Glarus",
+      "kind": "mixed",
+      "label": "Glarus: both faiths; images destroyed in some churches 1528",
+      "sel": {
+       "cantons": [
+        "GL"
+       ]
+      }
+     },
+     {
+      "name": "Appenzell",
+      "kind": "mixed",
+      "label": "Appenzell: each parish chooses (1525)",
+      "sel": {
+       "cantons": [
+        "AR",
+        "AI"
+       ]
+      }
+     },
+     {
+      "name": "Three Leagues",
+      "kind": "mixed",
+      "label": "Three Leagues (Graubünden): each commune chooses its pastor (1526)",
+      "sel": {
+       "cantons": [
+        "GR"
+       ]
+      }
+     },
+     {
+      "name": "Bern",
+      "kind": "reformed",
+      "label": "Bern and its lands: Reformed (February 1528); Biel too",
+      "sel": {
+       "cantons": [
+        "BE"
+       ],
+       "exceptDistricts": [
+        241
+       ],
+       "districts": [
+        1901,
+        1904,
+        1905,
+        1907,
+        1910,
+        2221
+       ]
+      }
+     },
+     {
+      "name": "Zurich",
+      "kind": "reformed",
+      "label": "Zurich: Reformed",
+      "sel": {
+       "cantons": [
+        "ZH"
+       ],
+       "except": [
+        243,
+        247,
+        246,
+        87,
+        38
+       ]
+      }
+     },
+     {
+      "name": "Catholic cantons",
+      "kind": "catholic",
+      "label": "Catholic: five inner cantons, Fribourg, Valais, Ticino bailiwicks",
+      "sel": {
+       "cantons": [
+        "LU",
+        "UR",
+        "SZ",
+        "OW",
+        "NW",
+        "ZG",
+        "FR",
+        "VS",
+        "TI"
+       ]
+      }
+     }
+    ],
+    "places": [
+     {
+      "name": "Bern Minster",
+      "lat": 46.9472,
+      "lon": 7.4511,
+      "kind": "town",
+      "year": 1528,
+      "note": "Disputation of Bern, January 1528"
+     },
+     {
+      "name": "Biel",
+      "lat": 47.1368,
+      "lon": 7.2468,
+      "kind": "town",
+      "year": 1528,
+      "note": "Reformed 1528"
+     },
+     {
+      "name": "St. Gallen",
+      "lat": 47.4233,
+      "lon": 9.3772,
+      "kind": "town",
+      "year": 1527,
+      "note": "Vadian leads the Reformation"
+     },
+     {
+      "name": "Aigle",
+      "lat": 46.3185,
+      "lon": 6.9706,
+      "kind": "town",
+      "year": 1528,
+      "note": "Farel preaches here (Bernese land)"
+     },
+     {
+      "name": "Zurich, Grossmünster",
+      "lat": 47.3701,
+      "lon": 8.5439,
+      "kind": "town",
+      "year": 1519,
+      "note": "Zwingli preaches here from 1519"
+     }
+    ]
+   },
+   {
+    "year": 1529,
+    "tick": "1529",
+    "title": "Basel, Schaffhausen, First Kappel War",
+    "text": [
+     "In 1529 Basel (February) and Schaffhausen also become Reformed. In Glarus the Landsgemeinde lets each commune decide. The Reformed towns make an alliance (Christian Burgrecht); the five Catholic cantons ally with King Ferdinand of Habsburg.",
+     "Schwyz burns the Reformed pastor Jakob Kaiser. Zurich declares war on 8 June 1529 and marches to Kappel on the Zug border. Neutral cantons find a compromise, and there is no battle. The story says that soldiers from both sides ate milk soup together.",
+     "The First Land Peace (26 June 1529) helps the Reformed side. In the common lordships (lands ruled together by several cantons) each parish now decides by majority. Many parishes in Thurgau, Rheintal, the Freie Ämter and the abbot's lands turn Reformed."
+    ],
+    "view": "ch",
+    "layers": [
+     {
+      "name": "Bremgarten and Mellingen",
+      "kind": "reformed",
+      "label": "Bremgarten and Mellingen: Reformed 1529–1531",
+      "sel": {
+       "munis": [
+        4063,
+        4033
+       ]
+      }
+     },
+     {
+      "name": "Town of St. Gallen",
+      "kind": "reformed",
+      "label": "Town of St. Gallen: Reformed",
+      "sel": {
+       "munis": [
+        3203
+       ]
+      }
+     },
+     {
+      "name": "Gaster and Weesen",
+      "kind": "reformed",
+      "label": "Gaster and Weesen: side with Zurich",
+      "sel": {
+       "districts": [
+        1726
+       ],
+       "except": [
+        3340
+       ]
+      }
+     },
+     {
+      "name": "Freie Ämter and Baden",
+      "kind": "mixed",
+      "label": "Freie Ämter and County of Baden: many parishes turn Reformed",
+      "sel": {
+       "districts": [
+        1902,
+        1903,
+        1908,
+        1911
+       ]
+      }
+     },
+     {
+      "name": "Abbey lands and Sargans",
+      "kind": "mixed",
+      "label": "St. Gallen abbey lands and Sargans: many parishes turn Reformed",
+      "sel": {
+       "districts": [
+        1721,
+        1722,
+        1728,
+        1725
+       ]
+      }
+     },
+     {
+      "name": "Thurgau, Rheintal, Toggenburg",
+      "kind": "reformed",
+      "label": "Thurgau, Rheintal, Toggenburg: mostly Reformed (Thurgau synod under Zwingli, Dec 1529)",
+      "sel": {
+       "cantons": [
+        "TG"
+       ],
+       "districts": [
+        1723,
+        1727
+       ]
+      }
+     },
+     {
+      "name": "Glarus",
+      "kind": "mixed",
+      "label": "Glarus: each commune decides (May 1529)",
+      "sel": {
+       "cantons": [
+        "GL"
+       ]
+      }
+     },
+     {
+      "name": "Appenzell",
+      "kind": "mixed",
+      "label": "Appenzell: each parish chooses (1525)",
+      "sel": {
+       "cantons": [
+        "AR",
+        "AI"
+       ]
+      }
+     },
+     {
+      "name": "Three Leagues",
+      "kind": "mixed",
+      "label": "Three Leagues (Graubünden): each commune chooses",
+      "sel": {
+       "cantons": [
+        "GR"
+       ]
+      }
+     },
+     {
+      "name": "Solothurn",
+      "kind": "mixed",
+      "label": "Solothurn: undecided, both faiths",
+      "sel": {
+       "cantons": [
+        "SO"
+       ]
+      }
+     },
+     {
+      "name": "Basel",
+      "kind": "reformed",
+      "label": "Basel: Reformed (February 1529)",
+      "sel": {
+       "cantons": [
+        "BS"
+       ],
+       "districts": [
+        1303,
+        1304,
+        1305
+       ],
+       "munis": [
+        2770,
+        2769,
+        2766,
+        2765,
+        2767,
+        2764
+       ]
+      }
+     },
+     {
+      "name": "Schaffhausen",
+      "kind": "reformed",
+      "label": "Schaffhausen: Reformed (1529)",
+      "sel": {
+       "cantons": [
+        "SH"
+       ],
+       "except": [
+        2963
+       ]
+      }
+     },
+     {
+      "name": "Bern",
+      "kind": "reformed",
+      "label": "Bern and its lands: Reformed",
+      "sel": {
+       "cantons": [
+        "BE"
+       ],
+       "exceptDistricts": [
+        241
+       ],
+       "districts": [
+        1901,
+        1904,
+        1905,
+        1907,
+        1910,
+        2221
+       ]
+      }
+     },
+     {
+      "name": "Zurich",
+      "kind": "reformed",
+      "label": "Zurich: Reformed",
+      "sel": {
+       "cantons": [
+        "ZH"
+       ],
+       "except": [
+        243,
+        38
+       ]
+      }
+     },
+     {
+      "name": "Catholic cantons",
+      "kind": "catholic",
+      "label": "Catholic: five inner cantons, Fribourg, Valais, Ticino bailiwicks",
+      "sel": {
+       "cantons": [
+        "LU",
+        "UR",
+        "SZ",
+        "OW",
+        "NW",
+        "ZG",
+        "FR",
+        "VS",
+        "TI"
+       ]
+      }
+     }
+    ],
+    "places": [
+     {
+      "name": "Kappel milk soup stone",
+      "lat": 47.2215,
+      "lon": 8.5452,
+      "kind": "treaty",
+      "year": 1529,
+      "note": "Armies meet, no battle; First Land Peace 26 June 1529"
+     },
+     {
+      "name": "Basel Minster",
+      "lat": 47.5566,
+      "lon": 7.5927,
+      "kind": "town",
+      "year": 1529,
+      "note": "Reformed February 1529 (Oecolampadius)"
+     },
+     {
+      "name": "Schaffhausen",
+      "lat": 47.6969,
+      "lon": 8.6339,
+      "kind": "town",
+      "year": 1529,
+      "note": "Reformed 1529"
+     },
+     {
+      "name": "Zurich, Grossmünster",
+      "lat": 47.3701,
+      "lon": 8.5439,
+      "kind": "town",
+      "year": 1519,
+      "note": "Zwingli preaches here from 1519"
+     },
+     {
+      "name": "Bern Minster",
+      "lat": 46.9472,
+      "lon": 7.4511,
+      "kind": "town",
+      "year": 1528,
+      "note": "Disputation of Bern, January 1528"
+     }
+    ]
+   },
+   {
+    "year": 1531,
+    "tick": "1531",
+    "title": "Second Kappel War",
+    "text": [
+     "Zurich wants Reformed preaching in the five inner cantons too. In May 1531 Zurich and Bern stop the sale of grain and salt to them. The five cantons answer with war. On 11 October 1531 they defeat Zurich at Kappel. Zwingli dies in the battle. A second Catholic victory follows at the Gubel on 24 October.",
+     "The Second Land Peace (20 November 1531) fixes faith by place: each canton keeps its own faith. In the common lordships, parishes may go back to the Catholic faith, but not the other way. The Freie Ämter, Bremgarten and Mellingen become Catholic again at once; so do Sargans and most of the abbot's lands.",
+     "Thurgau, the Rheintal and the County of Baden get mixed parishes, often with one church for both faiths. Solothurn decides for the Catholic side in 1532–1533. This map shows the order that lasts, with small changes, until 1712."
+    ],
+    "view": "ch",
+    "layers": [
+     {
+      "name": "Echallens villages",
+      "kind": "mixed",
+      "label": "Echallens and nearby villages (ruled by Bern and Fribourg): Catholic or shared",
+      "sel": {
+       "munis": [
+        5518,
+        5511,
+        5514,
+        5537,
+        5533,
+        5535
+       ]
+      }
+     },
+     {
+      "name": "Orbe and Grandson",
+      "kind": "mixed",
+      "label": "Orbe and Grandson (ruled by Bern and Fribourg): parishes vote one by one",
+      "sel": {
+       "munis": [
+        5757,
+        5561
+       ]
+      }
+     },
+     {
+      "name": "Pays-d'Enhaut",
+      "kind": "catholic",
+      "label": "Pays-d'Enhaut: county of Gruyère, Catholic until Bern takes it in 1555",
+      "sel": {
+       "munis": [
+        5841,
+        5842,
+        5843
+       ]
+      }
+     },
+     {
+      "name": "Le Landeron and Cressier",
+      "kind": "catholic",
+      "label": "Le Landeron and Cressier: stay Catholic inside Reformed Neuchâtel",
+      "sel": {
+       "munis": [
+        6455,
+        6452,
+        6434
+       ]
+      }
+     },
+     {
+      "name": "County of Baden: shared parishes",
+      "kind": "mixed",
+      "label": "County of Baden: parish with both faiths (shared church)",
+      "sel": {
+       "munis": [
+        4324,
+        4048,
+        243
+       ]
+      }
+     },
+     {
+      "name": "County of Baden: Reformed parishes",
+      "kind": "reformed",
+      "label": "County of Baden: Reformed parish",
+      "sel": {
+       "munis": [
+        4320,
+        247,
+        246,
+        87
+       ]
+      }
+     },
+     {
+      "name": "Rheinau and Ramsen",
+      "kind": "catholic",
+      "label": "Rheinau abbey and Ramsen (Austrian): Catholic",
+      "sel": {
+       "munis": [
+        38,
+        2963
+       ]
+      }
+     },
+     {
+      "name": "Werdenberg, Sax, Wartau",
+      "kind": "reformed",
+      "label": "Werdenberg, Sax and Wartau: Reformed",
+      "sel": {
+       "munis": [
+        3271,
+        3273,
+        3275,
+        3274,
+        3276
+       ]
+      }
+     },
+     {
+      "name": "Toggenburg: upper part",
+      "kind": "reformed",
+      "label": "Toggenburg, upper part: mostly Reformed",
+      "sel": {
+       "munis": [
+        3359,
+        3360,
+        3352,
+        3379
+       ]
+      }
+     },
+     {
+      "name": "Toggenburg: mixed",
+      "kind": "mixed",
+      "label": "Toggenburg: Reformed and Catholic villages side by side",
+      "sel": {
+       "munis": [
+        3374,
+        3396,
+        3407,
+        3408,
+        3401
+       ]
+      }
+     },
+     {
+      "name": "Toggenburg: lower part",
+      "kind": "catholic",
+      "label": "Toggenburg, lower part: mostly Catholic",
+      "sel": {
+       "munis": [
+        3395,
+        3393,
+        3394,
+        3392,
+        3405
+       ]
+      }
+     },
+     {
+      "name": "Town of St. Gallen",
+      "kind": "reformed",
+      "label": "Town of St. Gallen: Reformed (Vadian, 1527)",
+      "sel": {
+       "munis": [
+        3203
+       ]
+      }
+     },
+     {
+      "name": "Bucheggberg",
+      "kind": "reformed",
+      "label": "Bucheggberg: Reformed (Bern holds high justice there)",
+      "sel": {
+       "districts": [
+        1103
+       ]
+      }
+     },
+     {
+      "name": "Oberriet",
+      "kind": "catholic",
+      "label": "Upper Rheintal: Catholic",
+      "sel": {
+       "munis": [
+        3254
+       ]
+      }
+     },
+     {
+      "name": "Rheintal",
+      "kind": "mixed",
+      "label": "Rheintal (common lordship): both faiths, many shared churches",
+      "sel": {
+       "districts": [
+        1723
+       ],
+       "munis": [
+        3237
+       ]
+      }
+     },
+     {
+      "name": "Appenzell",
+      "kind": "mixed",
+      "label": "Appenzell: each parish chooses (1525); outer parts Reformed, inner parts Catholic",
+      "sel": {
+       "cantons": [
+        "AR",
+        "AI"
+       ]
+      }
+     },
+     {
+      "name": "Glarus",
+      "kind": "mixed",
+      "label": "Glarus: Reformed majority, Catholic minority (Näfels, Oberurnen); shared church in Glarus",
+      "sel": {
+       "cantons": [
+        "GL"
+       ]
+      }
+     },
+     {
+      "name": "Thurgau",
+      "kind": "mixed",
+      "label": "Thurgau (common lordship): mostly Reformed, Catholic parishes, 27 shared churches",
+      "sel": {
+       "cantons": [
+        "TG"
+       ]
+      }
+     },
+     {
+      "name": "Three Leagues",
+      "kind": "mixed",
+      "label": "Three Leagues (Graubünden): each commune chooses its faith (Ilanz Articles 1526)",
+      "sel": {
+       "cantons": [
+        "GR"
+       ]
+      }
+     },
+     {
+      "name": "Vaud and Bernese lands",
+      "kind": "reformed",
+      "label": "Bern and its lands: Reformed",
+      "sel": {
+       "cantons": [
+        "BE"
+       ],
+       "districts": [
+        1901,
+        1904,
+        1905,
+        1907,
+        1910,
+        2221,
+        2604
+       ],
+       "munis": [
+        2275,
+        2250,
+        2258,
+        2261,
+        2265,
+        2271,
+        2274,
+        2276,
+        2284,
+        2391
+       ]
+      }
+     },
+     {
+      "name": "Zurich",
+      "kind": "reformed",
+      "label": "Zurich: Reformed",
+      "sel": {
+       "cantons": [
+        "ZH"
+       ]
+      }
+     },
+     {
+      "name": "Basel",
+      "kind": "reformed",
+      "label": "Basel: Reformed (1529)",
+      "sel": {
+       "cantons": [
+        "BS"
+       ],
+       "districts": [
+        1303,
+        1304,
+        1305
+       ],
+       "munis": [
+        2770,
+        2769,
+        2766,
+        2765,
+        2767,
+        2764
+       ]
+      }
+     },
+     {
+      "name": "Schaffhausen",
+      "kind": "reformed",
+      "label": "Schaffhausen: Reformed (1529)",
+      "sel": {
+       "cantons": [
+        "SH"
+       ]
+      }
+     },
+     {
+      "name": "Neuchâtel",
+      "kind": "reformed",
+      "label": "Neuchâtel: Reformed (1530, Farel)",
+      "sel": {
+       "cantons": [
+        "NE"
+       ]
+      }
+     },
+     {
+      "name": "Catholic cantons",
+      "kind": "catholic",
+      "label": "Catholic cantons",
+      "sel": {
+       "cantons": [
+        "LU",
+        "UR",
+        "SZ",
+        "OW",
+        "NW",
+        "ZG",
+        "FR",
+        "SO"
+       ]
+      }
+     },
+     {
+      "name": "Laufen and Birseck",
+      "kind": "mixed",
+      "label": "Laufen and Birseck (bishop of Basel): partly Reformed",
+      "sel": {
+       "districts": [
+        1302
+       ],
+       "munis": [
+        2761,
+        2762,
+        2763,
+        2768,
+        2771,
+        2772,
+        2773,
+        2774,
+        2775
+       ]
+      }
+     },
+     {
+      "name": "Other Catholic lands",
+      "kind": "catholic",
+      "label": "Catholic: Valais, bishopric of Basel, Ticino, Fricktal, Catholic common lordships and abbey lands, Vaud under Savoy",
+      "sel": {
+       "cantons": [
+        "VS",
+        "TI",
+        "JU",
+        "AG",
+        "SG",
+        "ZH",
+        "VD"
+       ]
+      }
+     }
+    ],
+    "places": [
+     {
+      "name": "Kappel (Zwingli memorial)",
+      "lat": 47.2323,
+      "lon": 8.5269,
+      "kind": "battle",
+      "year": 1531,
+      "note": "11 Oct 1531: Catholics win, Zwingli killed"
+     },
+     {
+      "name": "Gubel",
+      "lat": 47.1619,
+      "lon": 8.5745,
+      "kind": "battle",
+      "year": 1531,
+      "note": "24 Oct 1531: second Catholic victory"
+     },
+     {
+      "name": "Solothurn",
+      "lat": 47.2088,
+      "lon": 7.5323,
+      "kind": "town",
+      "year": 1533,
+      "note": "Stays Catholic after 1531"
+     }
+    ]
+   },
+   {
+    "year": 1536,
+    "tick": "1536",
+    "title": "Farel, Vaud and Geneva",
+    "text": [
+     "After 1531 the Reformation grows in the west. Guillaume Farel preaches in French-speaking lands with Bern's support. Neuchâtel becomes Reformed in 1530; only Le Landeron and Cressier stay Catholic.",
+     "Geneva has fought for its freedom from Savoy and its bishop. On 21 May 1536 its citizens vote to live by the Gospel. In the same year Bern conquers Vaud from Savoy. After a debate in Lausanne in October 1536, Bern orders the Reformation in all of Vaud.",
+     "In the lands that Bern and Fribourg rule together (Orbe, Echallens, Grandson) each parish votes on the Mass. Some villages around Echallens stay Catholic until today. Fribourg's own new lands stay Catholic."
+    ],
+    "view": "ch",
+    "layers": [
+     {
+      "name": "Echallens villages",
+      "kind": "mixed",
+      "label": "Echallens and nearby villages (ruled by Bern and Fribourg): Catholic or shared",
+      "sel": {
+       "munis": [
+        5518,
+        5511,
+        5514,
+        5537,
+        5533,
+        5535
+       ]
+      }
+     },
+     {
+      "name": "Orbe and Grandson",
+      "kind": "mixed",
+      "label": "Orbe and Grandson (ruled by Bern and Fribourg): parishes vote one by one",
+      "sel": {
+       "munis": [
+        5757,
+        5561
+       ]
+      }
+     },
+     {
+      "name": "Pays-d'Enhaut",
+      "kind": "catholic",
+      "label": "Pays-d'Enhaut: county of Gruyère, Catholic until Bern takes it in 1555",
+      "sel": {
+       "munis": [
+        5841,
+        5842,
+        5843
+       ]
+      }
+     },
+     {
+      "name": "Geneva",
+      "kind": "reformed",
+      "label": "Geneva and its villages: Reformed from 1536",
+      "sel": {
+       "munis": [
+        6621,
+        6609,
+        6603,
+        6611,
+        6622,
+        6617,
+        6642,
+        6612,
+        6638,
+        6620,
+        6637,
+        6626,
+        6624,
+        6610
+       ]
+      }
+     },
+     {
+      "name": "Gex (Bernese)",
+      "kind": "reformed",
+      "label": "Pays de Gex: ruled by Bern 1536–1564, Reformed",
+      "sel": {
+       "munis": [
+        6644,
+        6615,
+        6606,
+        6623,
+        6634,
+        6643,
+        6630
+       ]
+      }
+     },
+     {
+      "name": "Le Landeron and Cressier",
+      "kind": "catholic",
+      "label": "Le Landeron and Cressier: stay Catholic inside Reformed Neuchâtel",
+      "sel": {
+       "munis": [
+        6455,
+        6452,
+        6434
+       ]
+      }
+     },
+     {
+      "name": "County of Baden: shared parishes",
+      "kind": "mixed",
+      "label": "County of Baden: parish with both faiths (shared church)",
+      "sel": {
+       "munis": [
+        4324,
+        4048,
+        243
+       ]
+      }
+     },
+     {
+      "name": "County of Baden: Reformed parishes",
+      "kind": "reformed",
+      "label": "County of Baden: Reformed parish",
+      "sel": {
+       "munis": [
+        4320,
+        247,
+        246,
+        87
+       ]
+      }
+     },
+     {
+      "name": "Rheinau and Ramsen",
+      "kind": "catholic",
+      "label": "Rheinau abbey and Ramsen (Austrian): Catholic",
+      "sel": {
+       "munis": [
+        38,
+        2963
+       ]
+      }
+     },
+     {
+      "name": "Werdenberg, Sax, Wartau",
+      "kind": "reformed",
+      "label": "Werdenberg, Sax and Wartau: Reformed",
+      "sel": {
+       "munis": [
+        3271,
+        3273,
+        3275,
+        3274,
+        3276
+       ]
+      }
+     },
+     {
+      "name": "Toggenburg: upper part",
+      "kind": "reformed",
+      "label": "Toggenburg, upper part: mostly Reformed",
+      "sel": {
+       "munis": [
+        3359,
+        3360,
+        3352,
+        3379
+       ]
+      }
+     },
+     {
+      "name": "Toggenburg: mixed",
+      "kind": "mixed",
+      "label": "Toggenburg: Reformed and Catholic villages side by side",
+      "sel": {
+       "munis": [
+        3374,
+        3396,
+        3407,
+        3408,
+        3401
+       ]
+      }
+     },
+     {
+      "name": "Toggenburg: lower part",
+      "kind": "catholic",
+      "label": "Toggenburg, lower part: mostly Catholic",
+      "sel": {
+       "munis": [
+        3395,
+        3393,
+        3394,
+        3392,
+        3405
+       ]
+      }
+     },
+     {
+      "name": "Town of St. Gallen",
+      "kind": "reformed",
+      "label": "Town of St. Gallen: Reformed (Vadian, 1527)",
+      "sel": {
+       "munis": [
+        3203
+       ]
+      }
+     },
+     {
+      "name": "Bucheggberg",
+      "kind": "reformed",
+      "label": "Bucheggberg: Reformed (Bern holds high justice there)",
+      "sel": {
+       "districts": [
+        1103
+       ]
+      }
+     },
+     {
+      "name": "Oberriet",
+      "kind": "catholic",
+      "label": "Upper Rheintal: Catholic",
+      "sel": {
+       "munis": [
+        3254
+       ]
+      }
+     },
+     {
+      "name": "Rheintal",
+      "kind": "mixed",
+      "label": "Rheintal (common lordship): both faiths, many shared churches",
+      "sel": {
+       "districts": [
+        1723
+       ],
+       "munis": [
+        3237
+       ]
+      }
+     },
+     {
+      "name": "Appenzell",
+      "kind": "mixed",
+      "label": "Appenzell: each parish chooses (1525); outer parts Reformed, inner parts Catholic",
+      "sel": {
+       "cantons": [
+        "AR",
+        "AI"
+       ]
+      }
+     },
+     {
+      "name": "Glarus",
+      "kind": "mixed",
+      "label": "Glarus: Reformed majority, Catholic minority (Näfels, Oberurnen); shared church in Glarus",
+      "sel": {
+       "cantons": [
+        "GL"
+       ]
+      }
+     },
+     {
+      "name": "Thurgau",
+      "kind": "mixed",
+      "label": "Thurgau (common lordship): mostly Reformed, Catholic parishes, 27 shared churches",
+      "sel": {
+       "cantons": [
+        "TG"
+       ]
+      }
+     },
+     {
+      "name": "Three Leagues",
+      "kind": "mixed",
+      "label": "Three Leagues (Graubünden): each commune chooses its faith (Ilanz Articles 1526)",
+      "sel": {
+       "cantons": [
+        "GR"
+       ]
+      }
+     },
+     {
+      "name": "Vaud and Bernese lands",
+      "kind": "reformed",
+      "label": "Bern and its lands (Aargau, Vaud from 1536): Reformed",
+      "sel": {
+       "cantons": [
+        "BE",
+        "VD"
+       ],
+       "districts": [
+        1901,
+        1904,
+        1905,
+        1907,
+        1910,
+        2221,
+        2604
+       ],
+       "munis": [
+        2275,
+        2250,
+        2258,
+        2261,
+        2265,
+        2271,
+        2274,
+        2276,
+        2284,
+        2391
+       ]
+      }
+     },
+     {
+      "name": "Zurich",
+      "kind": "reformed",
+      "label": "Zurich: Reformed",
+      "sel": {
+       "cantons": [
+        "ZH"
+       ]
+      }
+     },
+     {
+      "name": "Basel",
+      "kind": "reformed",
+      "label": "Basel: Reformed (1529)",
+      "sel": {
+       "cantons": [
+        "BS"
+       ],
+       "districts": [
+        1303,
+        1304,
+        1305
+       ],
+       "munis": [
+        2770,
+        2769,
+        2766,
+        2765,
+        2767,
+        2764
+       ]
+      }
+     },
+     {
+      "name": "Schaffhausen",
+      "kind": "reformed",
+      "label": "Schaffhausen: Reformed (1529)",
+      "sel": {
+       "cantons": [
+        "SH"
+       ]
+      }
+     },
+     {
+      "name": "Neuchâtel",
+      "kind": "reformed",
+      "label": "Neuchâtel: Reformed (1530, Farel)",
+      "sel": {
+       "cantons": [
+        "NE"
+       ]
+      }
+     },
+     {
+      "name": "Catholic cantons",
+      "kind": "catholic",
+      "label": "Catholic cantons",
+      "sel": {
+       "cantons": [
+        "LU",
+        "UR",
+        "SZ",
+        "OW",
+        "NW",
+        "ZG",
+        "FR",
+        "SO"
+       ]
+      }
+     },
+     {
+      "name": "Laufen and Birseck",
+      "kind": "mixed",
+      "label": "Laufen and Birseck (bishop of Basel): partly Reformed",
+      "sel": {
+       "districts": [
+        1302
+       ],
+       "munis": [
+        2761,
+        2762,
+        2763,
+        2768,
+        2771,
+        2772,
+        2773,
+        2774,
+        2775
+       ]
+      }
+     },
+     {
+      "name": "Other Catholic lands",
+      "kind": "catholic",
+      "label": "Catholic: Valais, bishopric of Basel, Ticino, Fricktal, Catholic common lordships and abbey lands",
+      "sel": {
+       "cantons": [
+        "VS",
+        "TI",
+        "JU",
+        "AG",
+        "SG",
+        "ZH",
+        "GE"
+       ]
+      }
+     }
+    ],
+    "places": [
+     {
+      "name": "Neuchâtel",
+      "lat": 46.9921,
+      "lon": 6.9289,
+      "kind": "town",
+      "year": 1530,
+      "note": "Reformed 1530 (Farel)"
+     },
+     {
+      "name": "Lausanne Cathedral",
+      "lat": 46.5225,
+      "lon": 6.6355,
+      "kind": "town",
+      "year": 1536,
+      "note": "Disputation of Lausanne, October 1536"
+     },
+     {
+      "name": "Geneva, St-Pierre",
+      "lat": 46.2011,
+      "lon": 6.1484,
+      "kind": "town",
+      "year": 1536,
+      "note": "Citizens vote for the Reformation, 21 May 1536"
+     },
+     {
+      "name": "Bern Minster",
+      "lat": 46.9472,
+      "lon": 7.4511,
+      "kind": "town",
+      "year": 1528,
+      "note": "Disputation of Bern, January 1528"
+     }
+    ]
+   },
+   {
+    "year": 1541,
+    "tick": "1541",
+    "title": "Calvin's Geneva",
+    "text": [
+     "The French lawyer John Calvin flees France. In 1536 he comes to Geneva, and Farel asks him to stay. The council does not support them, and in 1538 both must leave. Calvin works in Strasbourg with Martin Bucer.",
+     "In September 1541 the council asks Calvin to return. In November it accepts his church order (Ordonnances ecclésiastiques). Pastors and a church court (consistory) teach and control how people live.",
+     "Bern rules Vaud and, until the 1560s, lands south and west of the lake (Chablais, Gex). In 1549 Zurich and Geneva agree on the Lord's Supper (Consensus Tigurinus). This joins the Zwingli and Calvin lines into one Reformed church family."
+    ],
+    "view": [
+     [
+      45.95,
+      5.85
+     ],
+     [
+      47.15,
+      7.35
+     ]
+    ],
+    "layers": [
+     {
+      "name": "Echallens villages",
+      "kind": "mixed",
+      "label": "Echallens and nearby villages (ruled by Bern and Fribourg): Catholic or shared",
+      "sel": {
+       "munis": [
+        5518,
+        5511,
+        5514,
+        5537,
+        5533,
+        5535
+       ]
+      }
+     },
+     {
+      "name": "Orbe and Grandson",
+      "kind": "mixed",
+      "label": "Orbe and Grandson (ruled by Bern and Fribourg): parishes vote one by one",
+      "sel": {
+       "munis": [
+        5757,
+        5561
+       ]
+      }
+     },
+     {
+      "name": "Pays-d'Enhaut",
+      "kind": "catholic",
+      "label": "Pays-d'Enhaut: county of Gruyère, Catholic until Bern takes it in 1555",
+      "sel": {
+       "munis": [
+        5841,
+        5842,
+        5843
+       ]
+      }
+     },
+     {
+      "name": "Geneva",
+      "kind": "reformed",
+      "label": "Geneva and its villages: Reformed from 1536",
+      "sel": {
+       "munis": [
+        6621,
+        6609,
+        6603,
+        6611,
+        6622,
+        6617,
+        6642,
+        6612,
+        6638,
+        6620,
+        6637,
+        6626,
+        6624,
+        6610
+       ]
+      }
+     },
+     {
+      "name": "Gex (Bernese)",
+      "kind": "reformed",
+      "label": "Pays de Gex: ruled by Bern 1536–1564, Reformed",
+      "sel": {
+       "munis": [
+        6644,
+        6615,
+        6606,
+        6623,
+        6634,
+        6643,
+        6630
+       ]
+      }
+     },
+     {
+      "name": "Le Landeron and Cressier",
+      "kind": "catholic",
+      "label": "Le Landeron and Cressier: stay Catholic inside Reformed Neuchâtel",
+      "sel": {
+       "munis": [
+        6455,
+        6452,
+        6434
+       ]
+      }
+     },
+     {
+      "name": "County of Baden: shared parishes",
+      "kind": "mixed",
+      "label": "County of Baden: parish with both faiths (shared church)",
+      "sel": {
+       "munis": [
+        4324,
+        4048,
+        243
+       ]
+      }
+     },
+     {
+      "name": "County of Baden: Reformed parishes",
+      "kind": "reformed",
+      "label": "County of Baden: Reformed parish",
+      "sel": {
+       "munis": [
+        4320,
+        247,
+        246,
+        87
+       ]
+      }
+     },
+     {
+      "name": "Rheinau and Ramsen",
+      "kind": "catholic",
+      "label": "Rheinau abbey and Ramsen (Austrian): Catholic",
+      "sel": {
+       "munis": [
+        38,
+        2963
+       ]
+      }
+     },
+     {
+      "name": "Werdenberg, Sax, Wartau",
+      "kind": "reformed",
+      "label": "Werdenberg, Sax and Wartau: Reformed",
+      "sel": {
+       "munis": [
+        3271,
+        3273,
+        3275,
+        3274,
+        3276
+       ]
+      }
+     },
+     {
+      "name": "Toggenburg: upper part",
+      "kind": "reformed",
+      "label": "Toggenburg, upper part: mostly Reformed",
+      "sel": {
+       "munis": [
+        3359,
+        3360,
+        3352,
+        3379
+       ]
+      }
+     },
+     {
+      "name": "Toggenburg: mixed",
+      "kind": "mixed",
+      "label": "Toggenburg: Reformed and Catholic villages side by side",
+      "sel": {
+       "munis": [
+        3374,
+        3396,
+        3407,
+        3408,
+        3401
+       ]
+      }
+     },
+     {
+      "name": "Toggenburg: lower part",
+      "kind": "catholic",
+      "label": "Toggenburg, lower part: mostly Catholic",
+      "sel": {
+       "munis": [
+        3395,
+        3393,
+        3394,
+        3392,
+        3405
+       ]
+      }
+     },
+     {
+      "name": "Town of St. Gallen",
+      "kind": "reformed",
+      "label": "Town of St. Gallen: Reformed (Vadian, 1527)",
+      "sel": {
+       "munis": [
+        3203
+       ]
+      }
+     },
+     {
+      "name": "Bucheggberg",
+      "kind": "reformed",
+      "label": "Bucheggberg: Reformed (Bern holds high justice there)",
+      "sel": {
+       "districts": [
+        1103
+       ]
+      }
+     },
+     {
+      "name": "Oberriet",
+      "kind": "catholic",
+      "label": "Upper Rheintal: Catholic",
+      "sel": {
+       "munis": [
+        3254
+       ]
+      }
+     },
+     {
+      "name": "Rheintal",
+      "kind": "mixed",
+      "label": "Rheintal (common lordship): both faiths, many shared churches",
+      "sel": {
+       "districts": [
+        1723
+       ],
+       "munis": [
+        3237
+       ]
+      }
+     },
+     {
+      "name": "Appenzell",
+      "kind": "mixed",
+      "label": "Appenzell: each parish chooses (1525); outer parts Reformed, inner parts Catholic",
+      "sel": {
+       "cantons": [
+        "AR",
+        "AI"
+       ]
+      }
+     },
+     {
+      "name": "Glarus",
+      "kind": "mixed",
+      "label": "Glarus: Reformed majority, Catholic minority (Näfels, Oberurnen); shared church in Glarus",
+      "sel": {
+       "cantons": [
+        "GL"
+       ]
+      }
+     },
+     {
+      "name": "Thurgau",
+      "kind": "mixed",
+      "label": "Thurgau (common lordship): mostly Reformed, Catholic parishes, 27 shared churches",
+      "sel": {
+       "cantons": [
+        "TG"
+       ]
+      }
+     },
+     {
+      "name": "Three Leagues",
+      "kind": "mixed",
+      "label": "Three Leagues (Graubünden): each commune chooses its faith (Ilanz Articles 1526)",
+      "sel": {
+       "cantons": [
+        "GR"
+       ]
+      }
+     },
+     {
+      "name": "Vaud and Bernese lands",
+      "kind": "reformed",
+      "label": "Bern and its lands (Aargau, Vaud from 1536): Reformed",
+      "sel": {
+       "cantons": [
+        "BE",
+        "VD"
+       ],
+       "districts": [
+        1901,
+        1904,
+        1905,
+        1907,
+        1910,
+        2221,
+        2604
+       ],
+       "munis": [
+        2275,
+        2250,
+        2258,
+        2261,
+        2265,
+        2271,
+        2274,
+        2276,
+        2284,
+        2391
+       ]
+      }
+     },
+     {
+      "name": "Zurich",
+      "kind": "reformed",
+      "label": "Zurich: Reformed",
+      "sel": {
+       "cantons": [
+        "ZH"
+       ]
+      }
+     },
+     {
+      "name": "Basel",
+      "kind": "reformed",
+      "label": "Basel: Reformed (1529)",
+      "sel": {
+       "cantons": [
+        "BS"
+       ],
+       "districts": [
+        1303,
+        1304,
+        1305
+       ],
+       "munis": [
+        2770,
+        2769,
+        2766,
+        2765,
+        2767,
+        2764
+       ]
+      }
+     },
+     {
+      "name": "Schaffhausen",
+      "kind": "reformed",
+      "label": "Schaffhausen: Reformed (1529)",
+      "sel": {
+       "cantons": [
+        "SH"
+       ]
+      }
+     },
+     {
+      "name": "Neuchâtel",
+      "kind": "reformed",
+      "label": "Neuchâtel: Reformed (1530, Farel)",
+      "sel": {
+       "cantons": [
+        "NE"
+       ]
+      }
+     },
+     {
+      "name": "Catholic cantons",
+      "kind": "catholic",
+      "label": "Catholic cantons",
+      "sel": {
+       "cantons": [
+        "LU",
+        "UR",
+        "SZ",
+        "OW",
+        "NW",
+        "ZG",
+        "FR",
+        "SO"
+       ]
+      }
+     },
+     {
+      "name": "Laufen and Birseck",
+      "kind": "mixed",
+      "label": "Laufen and Birseck (bishop of Basel): partly Reformed",
+      "sel": {
+       "districts": [
+        1302
+       ],
+       "munis": [
+        2761,
+        2762,
+        2763,
+        2768,
+        2771,
+        2772,
+        2773,
+        2774,
+        2775
+       ]
+      }
+     },
+     {
+      "name": "Other Catholic lands",
+      "kind": "catholic",
+      "label": "Catholic: Valais, bishopric of Basel, Ticino, Fricktal, Catholic common lordships and abbey lands",
+      "sel": {
+       "cantons": [
+        "VS",
+        "TI",
+        "JU",
+        "AG",
+        "SG",
+        "ZH",
+        "GE"
+       ]
+      }
+     }
+    ],
+    "places": [
+     {
+      "name": "Geneva, St-Pierre",
+      "lat": 46.2011,
+      "lon": 6.1484,
+      "kind": "town",
+      "year": 1536,
+      "note": "Citizens vote for the Reformation, 21 May 1536"
+     },
+     {
+      "name": "Lausanne Cathedral",
+      "lat": 46.5225,
+      "lon": 6.6355,
+      "kind": "town",
+      "year": 1536,
+      "note": "Disputation of Lausanne, October 1536"
+     },
+     {
+      "name": "Thonon",
+      "lat": 46.3705,
+      "lon": 6.4793,
+      "kind": "town",
+      "year": 1536,
+      "note": "Bernese 1536 until the late 1560s"
+     },
+     {
+      "name": "Gex",
+      "lat": 46.3333,
+      "lon": 6.0578,
+      "kind": "town",
+      "year": 1536,
+      "note": "Bernese 1536–1564"
+     },
+     {
+      "name": "Neuchâtel",
+      "lat": 46.9921,
+      "lon": 6.9289,
+      "kind": "town",
+      "year": 1530,
+      "note": "Reformed 1530 (Farel)"
+     }
+    ]
+   },
+   {
+    "year": 1559,
+    "tick": "1559 Europe",
+    "title": "The Swiss Reformation in Europe",
+    "text": [
+     "The Reformation starts in 1517 with Martin Luther in Wittenberg. Zwingli in Zurich and Calvin in Geneva start a second line, the Reformed churches. Strasbourg, with Martin Bucer, links both lines.",
+     "In 1559 Geneva opens its Academy, a school for pastors from all of Europe. About 30 printers in Geneva print Reformed books, many for France. Reformed churches grow in France, the Netherlands, Scotland, Hungary and Poland. In 1559 the French Reformed churches hold their first national synod in Paris.",
+     "The Peace of Augsburg (1555) protects only Lutherans in the Empire, not the Reformed. The map shows Europe about 1560 only roughly: German states and whole countries are coloured as one."
+    ],
+    "view": "europe",
+    "layers": [
+     {
+      "name": "Echallens villages",
+      "kind": "mixed",
+      "label": "Echallens and nearby villages (ruled by Bern and Fribourg): Catholic or shared",
+      "sel": {
+       "munis": [
+        5518,
+        5511,
+        5514,
+        5537,
+        5533,
+        5535
+       ]
+      }
+     },
+     {
+      "name": "Geneva",
+      "kind": "reformed",
+      "label": "Geneva and its villages: Reformed from 1536",
+      "sel": {
+       "munis": [
+        6621,
+        6609,
+        6603,
+        6611,
+        6622,
+        6617,
+        6642,
+        6612,
+        6638,
+        6620,
+        6637,
+        6626,
+        6624,
+        6610
+       ]
+      }
+     },
+     {
+      "name": "Gex (Bernese)",
+      "kind": "reformed",
+      "label": "Pays de Gex: ruled by Bern 1536–1564, Reformed",
+      "sel": {
+       "munis": [
+        6644,
+        6615,
+        6606,
+        6623,
+        6634,
+        6643,
+        6630
+       ]
+      }
+     },
+     {
+      "name": "Le Landeron and Cressier",
+      "kind": "catholic",
+      "label": "Le Landeron and Cressier: stay Catholic inside Reformed Neuchâtel",
+      "sel": {
+       "munis": [
+        6455,
+        6452,
+        6434
+       ]
+      }
+     },
+     {
+      "name": "County of Baden: shared parishes",
+      "kind": "mixed",
+      "label": "County of Baden: parish with both faiths (shared church)",
+      "sel": {
+       "munis": [
+        4324,
+        4048,
+        243
+       ]
+      }
+     },
+     {
+      "name": "County of Baden: Reformed parishes",
+      "kind": "reformed",
+      "label": "County of Baden: Reformed parish",
+      "sel": {
+       "munis": [
+        4320,
+        247,
+        246,
+        87
+       ]
+      }
+     },
+     {
+      "name": "Rheinau and Ramsen",
+      "kind": "catholic",
+      "label": "Rheinau abbey and Ramsen (Austrian): Catholic",
+      "sel": {
+       "munis": [
+        38,
+        2963
+       ]
+      }
+     },
+     {
+      "name": "Werdenberg, Sax, Wartau",
+      "kind": "reformed",
+      "label": "Werdenberg, Sax and Wartau: Reformed",
+      "sel": {
+       "munis": [
+        3271,
+        3273,
+        3275,
+        3274,
+        3276
+       ]
+      }
+     },
+     {
+      "name": "Toggenburg: upper part",
+      "kind": "reformed",
+      "label": "Toggenburg, upper part: mostly Reformed",
+      "sel": {
+       "munis": [
+        3359,
+        3360,
+        3352,
+        3379
+       ]
+      }
+     },
+     {
+      "name": "Toggenburg: mixed",
+      "kind": "mixed",
+      "label": "Toggenburg: Reformed and Catholic villages side by side",
+      "sel": {
+       "munis": [
+        3374,
+        3396,
+        3407,
+        3408,
+        3401
+       ]
+      }
+     },
+     {
+      "name": "Toggenburg: lower part",
+      "kind": "catholic",
+      "label": "Toggenburg, lower part: mostly Catholic",
+      "sel": {
+       "munis": [
+        3395,
+        3393,
+        3394,
+        3392,
+        3405
+       ]
+      }
+     },
+     {
+      "name": "Town of St. Gallen",
+      "kind": "reformed",
+      "label": "Town of St. Gallen: Reformed (Vadian, 1527)",
+      "sel": {
+       "munis": [
+        3203
+       ]
+      }
+     },
+     {
+      "name": "Bucheggberg",
+      "kind": "reformed",
+      "label": "Bucheggberg: Reformed (Bern holds high justice there)",
+      "sel": {
+       "districts": [
+        1103
+       ]
+      }
+     },
+     {
+      "name": "Oberriet",
+      "kind": "catholic",
+      "label": "Upper Rheintal: Catholic",
+      "sel": {
+       "munis": [
+        3254
+       ]
+      }
+     },
+     {
+      "name": "Rheintal",
+      "kind": "mixed",
+      "label": "Rheintal (common lordship): both faiths, many shared churches",
+      "sel": {
+       "districts": [
+        1723
+       ],
+       "munis": [
+        3237
+       ]
+      }
+     },
+     {
+      "name": "Appenzell",
+      "kind": "mixed",
+      "label": "Appenzell: each parish chooses (1525); outer parts Reformed, inner parts Catholic",
+      "sel": {
+       "cantons": [
+        "AR",
+        "AI"
+       ]
+      }
+     },
+     {
+      "name": "Glarus",
+      "kind": "mixed",
+      "label": "Glarus: Reformed majority, Catholic minority (Näfels, Oberurnen); shared church in Glarus",
+      "sel": {
+       "cantons": [
+        "GL"
+       ]
+      }
+     },
+     {
+      "name": "Thurgau",
+      "kind": "mixed",
+      "label": "Thurgau (common lordship): mostly Reformed, Catholic parishes, 27 shared churches",
+      "sel": {
+       "cantons": [
+        "TG"
+       ]
+      }
+     },
+     {
+      "name": "Three Leagues",
+      "kind": "mixed",
+      "label": "Three Leagues (Graubünden): each commune chooses its faith (Ilanz Articles 1526)",
+      "sel": {
+       "cantons": [
+        "GR"
+       ]
+      }
+     },
+     {
+      "name": "Vaud and Bernese lands",
+      "kind": "reformed",
+      "label": "Bern and its lands (Aargau, Vaud from 1536): Reformed",
+      "sel": {
+       "cantons": [
+        "BE",
+        "VD"
+       ],
+       "districts": [
+        1901,
+        1904,
+        1905,
+        1907,
+        1910,
+        2221,
+        2604
+       ],
+       "munis": [
+        2275,
+        2250,
+        2258,
+        2261,
+        2265,
+        2271,
+        2274,
+        2276,
+        2284,
+        2391
+       ]
+      }
+     },
+     {
+      "name": "Zurich",
+      "kind": "reformed",
+      "label": "Zurich: Reformed",
+      "sel": {
+       "cantons": [
+        "ZH"
+       ]
+      }
+     },
+     {
+      "name": "Basel",
+      "kind": "reformed",
+      "label": "Basel: Reformed (1529)",
+      "sel": {
+       "cantons": [
+        "BS"
+       ],
+       "districts": [
+        1303,
+        1304,
+        1305
+       ],
+       "munis": [
+        2770,
+        2769,
+        2766,
+        2765,
+        2767,
+        2764
+       ]
+      }
+     },
+     {
+      "name": "Schaffhausen",
+      "kind": "reformed",
+      "label": "Schaffhausen: Reformed (1529)",
+      "sel": {
+       "cantons": [
+        "SH"
+       ]
+      }
+     },
+     {
+      "name": "Neuchâtel",
+      "kind": "reformed",
+      "label": "Neuchâtel: Reformed (1530, Farel)",
+      "sel": {
+       "cantons": [
+        "NE"
+       ]
+      }
+     },
+     {
+      "name": "Catholic cantons",
+      "kind": "catholic",
+      "label": "Catholic cantons",
+      "sel": {
+       "cantons": [
+        "LU",
+        "UR",
+        "SZ",
+        "OW",
+        "NW",
+        "ZG",
+        "FR",
+        "SO"
+       ]
+      }
+     },
+     {
+      "name": "Laufen and Birseck",
+      "kind": "mixed",
+      "label": "Laufen and Birseck (bishop of Basel): partly Reformed",
+      "sel": {
+       "districts": [
+        1302
+       ],
+       "munis": [
+        2761,
+        2762,
+        2763,
+        2768,
+        2771,
+        2772,
+        2773,
+        2774,
+        2775
+       ]
+      }
+     },
+     {
+      "name": "Other Catholic lands",
+      "kind": "catholic",
+      "label": "Catholic: Valais, bishopric of Basel, Ticino, Fricktal, Catholic common lordships and abbey lands",
+      "sel": {
+       "cantons": [
+        "VS",
+        "TI",
+        "JU",
+        "AG",
+        "SG",
+        "ZH",
+        "GE"
+       ]
+      }
+     },
+     {
+      "name": "Protestant Europe",
+      "kind": "reformed",
+      "label": "Mostly Protestant (Lutheran, Reformed or Anglican) about 1560 — rough",
+      "sel": {},
+      "regions": [
+       "DEU-1601",
+       "DEU-1600",
+       "DEU-1577",
+       "DEU-3487",
+       "DEU-1599",
+       "DEU-3488",
+       "DEU-1579",
+       "DEU-1578",
+       "DEU-1575",
+       "DEU-1576",
+       "DEU-1574"
+      ],
+      "countries": [
+       "GBR",
+       "DNK",
+       "NOR",
+       "SWE",
+       "FIN",
+       "EST",
+       "LVA"
+      ]
+     },
+     {
+      "name": "Divided Europe",
+      "kind": "mixed",
+      "label": "Divided: Catholic rulers or lands next to strong Protestant groups (rough)",
+      "sel": {},
+      "regions": [
+       "DEU-1591",
+       "DEU-1573",
+       "DEU-1580",
+       "DEU-1572",
+       "DEU-1581"
+      ],
+      "countries": [
+       "NLD",
+       "BEL",
+       "AUT",
+       "CZE",
+       "HUN",
+       "POL",
+       "LTU",
+       "SVK"
+      ]
+     },
+     {
+      "name": "Catholic Europe",
+      "kind": "catholic",
+      "label": "Mostly Catholic (France with a growing Reformed minority)",
+      "sel": {},
+      "countries": [
+       "FRA",
+       "ESP",
+       "PRT",
+       "ITA",
+       "IRL",
+       "SVN",
+       "HRV",
+       "LUX",
+       "MCO",
+       "SMR",
+       "AND",
+       "MLT"
+      ]
+     }
+    ],
+    "places": [
+     {
+      "name": "Wittenberg",
+      "lat": 51.8664,
+      "lon": 12.6464,
+      "kind": "town",
+      "year": 1517,
+      "note": "Luther's theses, 31 Oct 1517"
+     },
+     {
+      "name": "Strasbourg",
+      "lat": 48.5818,
+      "lon": 7.7509,
+      "kind": "town",
+      "year": 1538,
+      "note": "Bucer; Calvin lives here 1538–1541"
+     },
+     {
+      "name": "Zurich, Grossmünster",
+      "lat": 47.3701,
+      "lon": 8.5439,
+      "kind": "town",
+      "year": 1519,
+      "note": "Zwingli preaches here from 1519"
+     },
+     {
+      "name": "Geneva, St-Pierre",
+      "lat": 46.2011,
+      "lon": 6.1484,
+      "kind": "town",
+      "year": 1536,
+      "note": "Citizens vote for the Reformation, 21 May 1536"
+     },
+     {
+      "name": "Augsburg",
+      "lat": 48.3668,
+      "lon": 10.8987,
+      "kind": "treaty",
+      "year": 1555,
+      "note": "Peace of Augsburg 1555 (Lutherans only)"
+     },
+     {
+      "name": "Paris",
+      "lat": 48.8566,
+      "lon": 2.3522,
+      "kind": "town",
+      "year": 1559,
+      "note": "First synod of French Reformed churches 1559"
+     },
+     {
+      "name": "Edinburgh",
+      "lat": 55.9533,
+      "lon": -3.1883,
+      "kind": "town",
+      "year": 1560,
+      "note": "Knox, back from Geneva, leads the Scottish Reformation"
+     }
+    ]
+   },
+   {
+    "year": 1586,
+    "tick": "1586",
+    "title": "Catholic reform, Golden League",
+    "text": [
+     "After the Council of Trent (1545–1563) the Catholic Church reforms itself. Cardinal Charles Borromeo, archbishop of Milan, is protector of the Swiss Catholics. In 1579 he founds the Collegium Helveticum in Milan to train Swiss priests.",
+     "Jesuits open colleges in Lucerne (1577) and Fribourg (1582), where Petrus Canisius works. Capuchin friars settle in Altdorf (1581) and many other towns. From 1586 a papal envoy (nuncio) lives in Lucerne.",
+     "On 5 October 1586 the seven Catholic cantons sign the Golden League in Lucerne. They promise to keep the Catholic faith and to help each other. The bishop of Basel brings Laufen and Birseck back to the Catholic faith. Bern now rules the Pays-d'Enhaut (1555), which becomes Reformed."
+    ],
+    "view": [
+     [
+      45.35,
+      5.9
+     ],
+     [
+      47.9,
+      10.6
+     ]
+    ],
+    "layers": [
+     {
+      "name": "Echallens villages",
+      "kind": "mixed",
+      "label": "Echallens and nearby villages (ruled by Bern and Fribourg): Catholic or shared",
+      "sel": {
+       "munis": [
+        5518,
+        5511,
+        5514,
+        5537,
+        5533,
+        5535
+       ]
+      }
+     },
+     {
+      "name": "Geneva",
+      "kind": "reformed",
+      "label": "Geneva and its villages: Reformed from 1536",
+      "sel": {
+       "munis": [
+        6621,
+        6609,
+        6603,
+        6611,
+        6622,
+        6617,
+        6642,
+        6612,
+        6638,
+        6620,
+        6637,
+        6626,
+        6624,
+        6610
+       ]
+      }
+     },
+     {
+      "name": "Gex",
+      "kind": "mixed",
+      "label": "Pays de Gex: Savoy, then France from 1601; Reformed still tolerated",
+      "sel": {
+       "munis": [
+        6644,
+        6615,
+        6606,
+        6623,
+        6634,
+        6643,
+        6630
+       ]
+      }
+     },
+     {
+      "name": "Le Landeron and Cressier",
+      "kind": "catholic",
+      "label": "Le Landeron and Cressier: stay Catholic inside Reformed Neuchâtel",
+      "sel": {
+       "munis": [
+        6455,
+        6452,
+        6434
+       ]
+      }
+     },
+     {
+      "name": "County of Baden: shared parishes",
+      "kind": "mixed",
+      "label": "County of Baden: parish with both faiths (shared church)",
+      "sel": {
+       "munis": [
+        4324,
+        4048,
+        243
+       ]
+      }
+     },
+     {
+      "name": "County of Baden: Reformed parishes",
+      "kind": "reformed",
+      "label": "County of Baden: Reformed parish",
+      "sel": {
+       "munis": [
+        4320,
+        247,
+        246,
+        87
+       ]
+      }
+     },
+     {
+      "name": "Rheinau and Ramsen",
+      "kind": "catholic",
+      "label": "Rheinau abbey and Ramsen (Austrian): Catholic",
+      "sel": {
+       "munis": [
+        38,
+        2963
+       ]
+      }
+     },
+     {
+      "name": "Werdenberg, Sax, Wartau",
+      "kind": "reformed",
+      "label": "Werdenberg, Sax and Wartau: Reformed",
+      "sel": {
+       "munis": [
+        3271,
+        3273,
+        3275,
+        3274,
+        3276
+       ]
+      }
+     },
+     {
+      "name": "Toggenburg: upper part",
+      "kind": "reformed",
+      "label": "Toggenburg, upper part: mostly Reformed",
+      "sel": {
+       "munis": [
+        3359,
+        3360,
+        3352,
+        3379
+       ]
+      }
+     },
+     {
+      "name": "Toggenburg: mixed",
+      "kind": "mixed",
+      "label": "Toggenburg: Reformed and Catholic villages side by side",
+      "sel": {
+       "munis": [
+        3374,
+        3396,
+        3407,
+        3408,
+        3401
+       ]
+      }
+     },
+     {
+      "name": "Toggenburg: lower part",
+      "kind": "catholic",
+      "label": "Toggenburg, lower part: mostly Catholic",
+      "sel": {
+       "munis": [
+        3395,
+        3393,
+        3394,
+        3392,
+        3405
+       ]
+      }
+     },
+     {
+      "name": "Town of St. Gallen",
+      "kind": "reformed",
+      "label": "Town of St. Gallen: Reformed (Vadian, 1527)",
+      "sel": {
+       "munis": [
+        3203
+       ]
+      }
+     },
+     {
+      "name": "Bucheggberg",
+      "kind": "reformed",
+      "label": "Bucheggberg: Reformed (Bern holds high justice there)",
+      "sel": {
+       "districts": [
+        1103
+       ]
+      }
+     },
+     {
+      "name": "Oberriet",
+      "kind": "catholic",
+      "label": "Upper Rheintal: Catholic",
+      "sel": {
+       "munis": [
+        3254
+       ]
+      }
+     },
+     {
+      "name": "Rheintal",
+      "kind": "mixed",
+      "label": "Rheintal (common lordship): both faiths, many shared churches",
+      "sel": {
+       "districts": [
+        1723
+       ],
+       "munis": [
+        3237
+       ]
+      }
+     },
+     {
+      "name": "Appenzell",
+      "kind": "mixed",
+      "label": "Appenzell: each parish chooses (1525); outer parts Reformed, inner parts Catholic",
+      "sel": {
+       "cantons": [
+        "AR",
+        "AI"
+       ]
+      }
+     },
+     {
+      "name": "Glarus",
+      "kind": "mixed",
+      "label": "Glarus: Reformed majority, Catholic minority (Näfels, Oberurnen); shared church in Glarus",
+      "sel": {
+       "cantons": [
+        "GL"
+       ]
+      }
+     },
+     {
+      "name": "Thurgau",
+      "kind": "mixed",
+      "label": "Thurgau (common lordship): mostly Reformed, Catholic parishes, 27 shared churches",
+      "sel": {
+       "cantons": [
+        "TG"
+       ]
+      }
+     },
+     {
+      "name": "Three Leagues",
+      "kind": "mixed",
+      "label": "Three Leagues (Graubünden): each commune chooses its faith (Ilanz Articles 1526)",
+      "sel": {
+       "cantons": [
+        "GR"
+       ]
+      }
+     },
+     {
+      "name": "Vaud and Bernese lands",
+      "kind": "reformed",
+      "label": "Bern and its lands (Aargau, Vaud from 1536): Reformed",
+      "sel": {
+       "cantons": [
+        "BE",
+        "VD"
+       ],
+       "districts": [
+        1901,
+        1904,
+        1905,
+        1907,
+        1910,
+        2221,
+        2604
+       ],
+       "munis": [
+        2275,
+        2250,
+        2258,
+        2261,
+        2265,
+        2271,
+        2274,
+        2276,
+        2284,
+        2391
+       ]
+      }
+     },
+     {
+      "name": "Zurich",
+      "kind": "reformed",
+      "label": "Zurich: Reformed",
+      "sel": {
+       "cantons": [
+        "ZH"
+       ]
+      }
+     },
+     {
+      "name": "Basel",
+      "kind": "reformed",
+      "label": "Basel: Reformed (1529)",
+      "sel": {
+       "cantons": [
+        "BS"
+       ],
+       "districts": [
+        1303,
+        1304,
+        1305
+       ],
+       "munis": [
+        2770,
+        2769,
+        2766,
+        2765,
+        2767,
+        2764
+       ]
+      }
+     },
+     {
+      "name": "Schaffhausen",
+      "kind": "reformed",
+      "label": "Schaffhausen: Reformed (1529)",
+      "sel": {
+       "cantons": [
+        "SH"
+       ]
+      }
+     },
+     {
+      "name": "Neuchâtel",
+      "kind": "reformed",
+      "label": "Neuchâtel: Reformed (1530, Farel)",
+      "sel": {
+       "cantons": [
+        "NE"
+       ]
+      }
+     },
+     {
+      "name": "Golden League",
+      "kind": "catholic",
+      "label": "Seven Catholic cantons (Golden League 1586)",
+      "sel": {
+       "cantons": [
+        "LU",
+        "UR",
+        "SZ",
+        "OW",
+        "NW",
+        "ZG",
+        "FR",
+        "SO"
+       ]
+      }
+     },
+     {
+      "name": "Laufen and Birseck",
+      "kind": "mixed",
+      "label": "Laufen and Birseck (bishop of Basel): brought back to the Catholic faith from the 1580s",
+      "sel": {
+       "districts": [
+        1302
+       ],
+       "munis": [
+        2761,
+        2762,
+        2763,
+        2768,
+        2771,
+        2772,
+        2773,
+        2774,
+        2775
+       ]
+      }
+     },
+     {
+      "name": "Other Catholic lands",
+      "kind": "catholic",
+      "label": "Catholic: Valais, bishopric of Basel, Ticino, Fricktal, Catholic common lordships and abbey lands",
+      "sel": {
+       "cantons": [
+        "VS",
+        "TI",
+        "JU",
+        "AG",
+        "SG",
+        "ZH",
+        "GE"
+       ]
+      }
+     }
+    ],
+    "places": [
+     {
+      "name": "Lucerne",
+      "lat": 47.0505,
+      "lon": 8.3064,
+      "kind": "treaty",
+      "year": 1586,
+      "note": "Golden League signed 5 Oct 1586; Jesuit college 1577"
+     },
+     {
+      "name": "Milan, Collegium Helveticum",
+      "lat": 45.4703,
+      "lon": 9.1982,
+      "kind": "town",
+      "year": 1579,
+      "note": "Borromeo trains Swiss priests here"
+     },
+     {
+      "name": "Fribourg",
+      "lat": 46.8065,
+      "lon": 7.162,
+      "kind": "town",
+      "year": 1580,
+      "note": "Petrus Canisius comes in 1580; Jesuit college 1582"
+     },
+     {
+      "name": "Altdorf",
+      "lat": 46.8806,
+      "lon": 8.6444,
+      "kind": "town",
+      "year": 1581,
+      "note": "First Capuchin friary north of the Alps in Switzerland, 1581"
+     }
+    ]
+   },
+   {
+    "year": 1597,
+    "tick": "1597",
+    "title": "Appenzell splits in two",
+    "text": [
+     "Since 1525 Appenzell has two faiths: the outer parishes are Reformed, the inner parishes Catholic. After 1580 the conflict grows, for example about the Capuchins and a Catholic alliance with Spain.",
+     "In 1597 the land splits. Catholic Innerrhoden has its seat in Appenzell; Reformed Ausserrhoden meets in Trogen and Hundwil. Each half has its own Landsgemeinde. Innerrhoden joins the Golden League in 1600.",
+     "Glarus does not split. Its Catholics and Reformed share some offices and the church in Glarus. From 1623 each side holds its own Landsgemeinde, the Reformed in Schwanden and the Catholics in Näfels."
+    ],
+    "view": "ch",
+    "layers": [
+     {
+      "name": "Echallens villages",
+      "kind": "mixed",
+      "label": "Echallens and nearby villages (ruled by Bern and Fribourg): Catholic or shared",
+      "sel": {
+       "munis": [
+        5518,
+        5511,
+        5514,
+        5537,
+        5533,
+        5535
+       ]
+      }
+     },
+     {
+      "name": "Geneva",
+      "kind": "reformed",
+      "label": "Geneva and its villages: Reformed from 1536",
+      "sel": {
+       "munis": [
+        6621,
+        6609,
+        6603,
+        6611,
+        6622,
+        6617,
+        6642,
+        6612,
+        6638,
+        6620,
+        6637,
+        6626,
+        6624,
+        6610
+       ]
+      }
+     },
+     {
+      "name": "Gex",
+      "kind": "mixed",
+      "label": "Pays de Gex: Savoy, then France from 1601; Reformed still tolerated",
+      "sel": {
+       "munis": [
+        6644,
+        6615,
+        6606,
+        6623,
+        6634,
+        6643,
+        6630
+       ]
+      }
+     },
+     {
+      "name": "Le Landeron and Cressier",
+      "kind": "catholic",
+      "label": "Le Landeron and Cressier: stay Catholic inside Reformed Neuchâtel",
+      "sel": {
+       "munis": [
+        6455,
+        6452,
+        6434
+       ]
+      }
+     },
+     {
+      "name": "County of Baden: shared parishes",
+      "kind": "mixed",
+      "label": "County of Baden: parish with both faiths (shared church)",
+      "sel": {
+       "munis": [
+        4324,
+        4048,
+        243
+       ]
+      }
+     },
+     {
+      "name": "County of Baden: Reformed parishes",
+      "kind": "reformed",
+      "label": "County of Baden: Reformed parish",
+      "sel": {
+       "munis": [
+        4320,
+        247,
+        246,
+        87
+       ]
+      }
+     },
+     {
+      "name": "Rheinau and Ramsen",
+      "kind": "catholic",
+      "label": "Rheinau abbey and Ramsen (Austrian): Catholic",
+      "sel": {
+       "munis": [
+        38,
+        2963
+       ]
+      }
+     },
+     {
+      "name": "Werdenberg, Sax, Wartau",
+      "kind": "reformed",
+      "label": "Werdenberg, Sax and Wartau: Reformed",
+      "sel": {
+       "munis": [
+        3271,
+        3273,
+        3275,
+        3274,
+        3276
+       ]
+      }
+     },
+     {
+      "name": "Toggenburg: upper part",
+      "kind": "reformed",
+      "label": "Toggenburg, upper part: mostly Reformed",
+      "sel": {
+       "munis": [
+        3359,
+        3360,
+        3352,
+        3379
+       ]
+      }
+     },
+     {
+      "name": "Toggenburg: mixed",
+      "kind": "mixed",
+      "label": "Toggenburg: Reformed and Catholic villages side by side",
+      "sel": {
+       "munis": [
+        3374,
+        3396,
+        3407,
+        3408,
+        3401
+       ]
+      }
+     },
+     {
+      "name": "Toggenburg: lower part",
+      "kind": "catholic",
+      "label": "Toggenburg, lower part: mostly Catholic",
+      "sel": {
+       "munis": [
+        3395,
+        3393,
+        3394,
+        3392,
+        3405
+       ]
+      }
+     },
+     {
+      "name": "Town of St. Gallen",
+      "kind": "reformed",
+      "label": "Town of St. Gallen: Reformed (Vadian, 1527)",
+      "sel": {
+       "munis": [
+        3203
+       ]
+      }
+     },
+     {
+      "name": "Bucheggberg",
+      "kind": "reformed",
+      "label": "Bucheggberg: Reformed (Bern holds high justice there)",
+      "sel": {
+       "districts": [
+        1103
+       ]
+      }
+     },
+     {
+      "name": "Oberriet",
+      "kind": "catholic",
+      "label": "Upper Rheintal: Catholic",
+      "sel": {
+       "munis": [
+        3254
+       ]
+      }
+     },
+     {
+      "name": "Rheintal",
+      "kind": "mixed",
+      "label": "Rheintal (common lordship): both faiths, many shared churches",
+      "sel": {
+       "districts": [
+        1723
+       ],
+       "munis": [
+        3237
+       ]
+      }
+     },
+     {
+      "name": "Appenzell Innerrhoden",
+      "kind": "catholic",
+      "label": "Appenzell Innerrhoden: Catholic half-canton from 1597",
+      "sel": {
+       "cantons": [
+        "AI"
+       ]
+      }
+     },
+     {
+      "name": "Appenzell Ausserrhoden",
+      "kind": "reformed",
+      "label": "Appenzell Ausserrhoden: Reformed half-canton from 1597",
+      "sel": {
+       "cantons": [
+        "AR"
+       ]
+      }
+     },
+     {
+      "name": "Glarus",
+      "kind": "mixed",
+      "label": "Glarus: Reformed majority, Catholic minority (Näfels, Oberurnen); shared church in Glarus",
+      "sel": {
+       "cantons": [
+        "GL"
+       ]
+      }
+     },
+     {
+      "name": "Thurgau",
+      "kind": "mixed",
+      "label": "Thurgau (common lordship): mostly Reformed, Catholic parishes, 27 shared churches",
+      "sel": {
+       "cantons": [
+        "TG"
+       ]
+      }
+     },
+     {
+      "name": "Three Leagues",
+      "kind": "mixed",
+      "label": "Three Leagues (Graubünden): each commune chooses its faith (Ilanz Articles 1526)",
+      "sel": {
+       "cantons": [
+        "GR"
+       ]
+      }
+     },
+     {
+      "name": "Vaud and Bernese lands",
+      "kind": "reformed",
+      "label": "Bern and its lands (Aargau, Vaud from 1536): Reformed",
+      "sel": {
+       "cantons": [
+        "BE",
+        "VD"
+       ],
+       "districts": [
+        1901,
+        1904,
+        1905,
+        1907,
+        1910,
+        2221,
+        2604
+       ],
+       "munis": [
+        2275,
+        2250,
+        2258,
+        2261,
+        2265,
+        2271,
+        2274,
+        2276,
+        2284,
+        2391
+       ]
+      }
+     },
+     {
+      "name": "Zurich",
+      "kind": "reformed",
+      "label": "Zurich: Reformed",
+      "sel": {
+       "cantons": [
+        "ZH"
+       ]
+      }
+     },
+     {
+      "name": "Basel",
+      "kind": "reformed",
+      "label": "Basel: Reformed (1529)",
+      "sel": {
+       "cantons": [
+        "BS"
+       ],
+       "districts": [
+        1303,
+        1304,
+        1305
+       ],
+       "munis": [
+        2770,
+        2769,
+        2766,
+        2765,
+        2767,
+        2764
+       ]
+      }
+     },
+     {
+      "name": "Schaffhausen",
+      "kind": "reformed",
+      "label": "Schaffhausen: Reformed (1529)",
+      "sel": {
+       "cantons": [
+        "SH"
+       ]
+      }
+     },
+     {
+      "name": "Neuchâtel",
+      "kind": "reformed",
+      "label": "Neuchâtel: Reformed (1530, Farel)",
+      "sel": {
+       "cantons": [
+        "NE"
+       ]
+      }
+     },
+     {
+      "name": "Golden League",
+      "kind": "catholic",
+      "label": "Seven Catholic cantons (Golden League 1586)",
+      "sel": {
+       "cantons": [
+        "LU",
+        "UR",
+        "SZ",
+        "OW",
+        "NW",
+        "ZG",
+        "FR",
+        "SO"
+       ]
+      }
+     },
+     {
+      "name": "Laufen and Birseck",
+      "kind": "catholic",
+      "label": "Laufen and Birseck (bishop of Basel): brought back to the Catholic faith from the 1580s",
+      "sel": {
+       "districts": [
+        1302
+       ],
+       "munis": [
+        2761,
+        2762,
+        2763,
+        2768,
+        2771,
+        2772,
+        2773,
+        2774,
+        2775
+       ]
+      }
+     },
+     {
+      "name": "Other Catholic lands",
+      "kind": "catholic",
+      "label": "Catholic: Valais, bishopric of Basel, Ticino, Fricktal, Catholic common lordships and abbey lands",
+      "sel": {
+       "cantons": [
+        "VS",
+        "TI",
+        "JU",
+        "AG",
+        "SG",
+        "ZH",
+        "GE"
+       ]
+      }
+     }
+    ],
+    "places": [
+     {
+      "name": "Appenzell",
+      "lat": 47.331,
+      "lon": 9.4091,
+      "kind": "town",
+      "year": 1597,
+      "note": "Capital of Catholic Innerrhoden"
+     },
+     {
+      "name": "Trogen",
+      "lat": 47.4078,
+      "lon": 9.4646,
+      "kind": "town",
+      "year": 1597,
+      "note": "Seat of Reformed Ausserrhoden"
+     },
+     {
+      "name": "Hundwil",
+      "lat": 47.3651,
+      "lon": 9.3176,
+      "kind": "town",
+      "year": 1597,
+      "note": "Ausserrhoden Landsgemeinde"
+     },
+     {
+      "name": "Näfels",
+      "lat": 47.0985,
+      "lon": 9.0636,
+      "kind": "town",
+      "year": 1623,
+      "note": "Catholic Landsgemeinde of Glarus from 1623"
+     },
+     {
+      "name": "Schwanden",
+      "lat": 46.9963,
+      "lon": 9.0757,
+      "kind": "town",
+      "year": 1623,
+      "note": "Reformed Landsgemeinde of Glarus from 1623"
+     }
+    ]
+   },
+   {
+    "year": 1639,
+    "tick": "1620–1639",
+    "title": "Graubünden: faith by commune",
+    "text": [
+     "In the Three Leagues there is no ruler who decides the faith. Since the Ilanz Articles (1526) each commune elects its pastor and so chooses its faith. Chur, the Prättigau, the Schams and the Heinzenberg turn Reformed first; the Engadine follows after 1550.",
+     "In the Thirty Years' War (1618–1648) Graubünden is fought over by Spain, Austria and France. In July 1620 Catholics in the Valtellina kill hundreds of Reformed. Austrian troops try to make the Prättigau and the Lower Engadine Catholic again, without success.",
+     "By about 1640 the map is fixed and stays almost the same until 1803. The Surselva, the Oberhalbstein and the Misox are Catholic. Some communes have both faiths, for example Poschiavo, Brusio, the Vier Dörfer near Chur and Val Müstair."
+    ],
+    "view": [
+     [
+      45.95,
+      8.55
+     ],
+     [
+      47.15,
+      10.6
+     ]
+    ],
+    "layers": [
+     {
+      "name": "Valtellina",
+      "kind": "catholic",
+      "label": "Valtellina (subject land of the Three Leagues, today Italy): Catholic only from 1620/1639",
+      "sel": {},
+      "regions": [
+       "ITA-5444"
+      ]
+     },
+     {
+      "name": "Echallens villages",
+      "kind": "mixed",
+      "label": "Echallens and nearby villages (ruled by Bern and Fribourg): Catholic or shared",
+      "sel": {
+       "munis": [
+        5518,
+        5511,
+        5514,
+        5537,
+        5533,
+        5535
+       ]
+      }
+     },
+     {
+      "name": "Geneva",
+      "kind": "reformed",
+      "label": "Geneva and its villages: Reformed from 1536",
+      "sel": {
+       "munis": [
+        6621,
+        6609,
+        6603,
+        6611,
+        6622,
+        6617,
+        6642,
+        6612,
+        6638,
+        6620,
+        6637,
+        6626,
+        6624,
+        6610
+       ]
+      }
+     },
+     {
+      "name": "Gex",
+      "kind": "mixed",
+      "label": "Pays de Gex: Savoy, then France from 1601; Reformed still tolerated",
+      "sel": {
+       "munis": [
+        6644,
+        6615,
+        6606,
+        6623,
+        6634,
+        6643,
+        6630
+       ]
+      }
+     },
+     {
+      "name": "Le Landeron and Cressier",
+      "kind": "catholic",
+      "label": "Le Landeron and Cressier: stay Catholic inside Reformed Neuchâtel",
+      "sel": {
+       "munis": [
+        6455,
+        6452,
+        6434
+       ]
+      }
+     },
+     {
+      "name": "County of Baden: shared parishes",
+      "kind": "mixed",
+      "label": "County of Baden: parish with both faiths (shared church)",
+      "sel": {
+       "munis": [
+        4324,
+        4048,
+        243
+       ]
+      }
+     },
+     {
+      "name": "County of Baden: Reformed parishes",
+      "kind": "reformed",
+      "label": "County of Baden: Reformed parish",
+      "sel": {
+       "munis": [
+        4320,
+        247,
+        246,
+        87
+       ]
+      }
+     },
+     {
+      "name": "Rheinau and Ramsen",
+      "kind": "catholic",
+      "label": "Rheinau abbey and Ramsen (Austrian): Catholic",
+      "sel": {
+       "munis": [
+        38,
+        2963
+       ]
+      }
+     },
+     {
+      "name": "Werdenberg, Sax, Wartau",
+      "kind": "reformed",
+      "label": "Werdenberg, Sax and Wartau: Reformed",
+      "sel": {
+       "munis": [
+        3271,
+        3273,
+        3275,
+        3274,
+        3276
+       ]
+      }
+     },
+     {
+      "name": "Toggenburg: upper part",
+      "kind": "reformed",
+      "label": "Toggenburg, upper part: mostly Reformed",
+      "sel": {
+       "munis": [
+        3359,
+        3360,
+        3352,
+        3379
+       ]
+      }
+     },
+     {
+      "name": "Toggenburg: mixed",
+      "kind": "mixed",
+      "label": "Toggenburg: Reformed and Catholic villages side by side",
+      "sel": {
+       "munis": [
+        3374,
+        3396,
+        3407,
+        3408,
+        3401
+       ]
+      }
+     },
+     {
+      "name": "Toggenburg: lower part",
+      "kind": "catholic",
+      "label": "Toggenburg, lower part: mostly Catholic",
+      "sel": {
+       "munis": [
+        3395,
+        3393,
+        3394,
+        3392,
+        3405
+       ]
+      }
+     },
+     {
+      "name": "Town of St. Gallen",
+      "kind": "reformed",
+      "label": "Town of St. Gallen: Reformed (Vadian, 1527)",
+      "sel": {
+       "munis": [
+        3203
+       ]
+      }
+     },
+     {
+      "name": "Bucheggberg",
+      "kind": "reformed",
+      "label": "Bucheggberg: Reformed (Bern holds high justice there)",
+      "sel": {
+       "districts": [
+        1103
+       ]
+      }
+     },
+     {
+      "name": "Oberriet",
+      "kind": "catholic",
+      "label": "Upper Rheintal: Catholic",
+      "sel": {
+       "munis": [
+        3254
+       ]
+      }
+     },
+     {
+      "name": "Rheintal",
+      "kind": "mixed",
+      "label": "Rheintal (common lordship): both faiths, many shared churches",
+      "sel": {
+       "districts": [
+        1723
+       ],
+       "munis": [
+        3237
+       ]
+      }
+     },
+     {
+      "name": "Appenzell Innerrhoden",
+      "kind": "catholic",
+      "label": "Appenzell Innerrhoden: Catholic half-canton from 1597",
+      "sel": {
+       "cantons": [
+        "AI"
+       ]
+      }
+     },
+     {
+      "name": "Appenzell Ausserrhoden",
+      "kind": "reformed",
+      "label": "Appenzell Ausserrhoden: Reformed half-canton from 1597",
+      "sel": {
+       "cantons": [
+        "AR"
+       ]
+      }
+     },
+     {
+      "name": "Glarus",
+      "kind": "mixed",
+      "label": "Glarus: Reformed majority, Catholic minority (Näfels, Oberurnen); shared church in Glarus",
+      "sel": {
+       "cantons": [
+        "GL"
+       ]
+      }
+     },
+     {
+      "name": "Thurgau",
+      "kind": "mixed",
+      "label": "Thurgau (common lordship): mostly Reformed, Catholic parishes, 27 shared churches",
+      "sel": {
+       "cantons": [
+        "TG"
+       ]
+      }
+     },
+     {
+      "name": "Graubuenden: mixed communes",
+      "kind": "mixed",
+      "label": "Graubünden: commune with both faiths or with Catholic and Reformed villages (about 1640)",
+      "sel": {
+       "munis": [
+        3543,
+        3551,
+        3561,
+        3752,
+        3847,
+        3946,
+        3947,
+        3945,
+        3911,
+        3981,
+        3619,
+        3988,
+        3661,
+        3673
+       ]
+      }
+     },
+     {
+      "name": "Graubuenden: Catholic communes",
+      "kind": "catholic",
+      "label": "Graubünden: Catholic commune (about 1640)",
+      "sel": {
+       "munis": [
+        3542,
+        3513,
+        3514,
+        3506,
+        3721,
+        3722,
+        3723,
+        3982,
+        3572,
+        3575,
+        3618,
+        3983,
+        3581,
+        3582,
+        3985,
+        3987,
+        3986,
+        3603
+       ],
+       "districts": [
+        1847
+       ]
+      }
+     },
+     {
+      "name": "Graubuenden: Reformed communes",
+      "kind": "reformed",
+      "label": "Graubünden: Reformed commune (about 1640)",
+      "sel": {
+       "munis": [
+        3544,
+        3762,
+        3764,
+        3746,
+        3731,
+        3732,
+        3733,
+        3734,
+        3951,
+        3952,
+        3953,
+        3954,
+        3955,
+        3781,
+        3792,
+        3782,
+        3785,
+        3783,
+        3784,
+        3788,
+        3786,
+        3789,
+        3790,
+        3787,
+        3791,
+        3901,
+        3921,
+        3851,
+        3861,
+        3862,
+        3961,
+        3863,
+        3871,
+        3881,
+        3882,
+        3891,
+        3962,
+        3972,
+        3672,
+        3701,
+        3681,
+        3713,
+        3662,
+        3633,
+        3663,
+        3715,
+        3714,
+        3711,
+        3637,
+        3638,
+        3640,
+        3695,
+        3668,
+        3669,
+        3670,
+        3712
+       ]
+      }
+     },
+     {
+      "name": "Vaud and Bernese lands",
+      "kind": "reformed",
+      "label": "Bern and its lands (Aargau, Vaud from 1536): Reformed",
+      "sel": {
+       "cantons": [
+        "BE",
+        "VD"
+       ],
+       "districts": [
+        1901,
+        1904,
+        1905,
+        1907,
+        1910,
+        2221,
+        2604
+       ],
+       "munis": [
+        2275,
+        2250,
+        2258,
+        2261,
+        2265,
+        2271,
+        2274,
+        2276,
+        2284,
+        2391
+       ]
+      }
+     },
+     {
+      "name": "Zurich",
+      "kind": "reformed",
+      "label": "Zurich: Reformed",
+      "sel": {
+       "cantons": [
+        "ZH"
+       ]
+      }
+     },
+     {
+      "name": "Basel",
+      "kind": "reformed",
+      "label": "Basel: Reformed (1529)",
+      "sel": {
+       "cantons": [
+        "BS"
+       ],
+       "districts": [
+        1303,
+        1304,
+        1305
+       ],
+       "munis": [
+        2770,
+        2769,
+        2766,
+        2765,
+        2767,
+        2764
+       ]
+      }
+     },
+     {
+      "name": "Schaffhausen",
+      "kind": "reformed",
+      "label": "Schaffhausen: Reformed (1529)",
+      "sel": {
+       "cantons": [
+        "SH"
+       ]
+      }
+     },
+     {
+      "name": "Neuchâtel",
+      "kind": "reformed",
+      "label": "Neuchâtel: Reformed (1530, Farel)",
+      "sel": {
+       "cantons": [
+        "NE"
+       ]
+      }
+     },
+     {
+      "name": "Golden League",
+      "kind": "catholic",
+      "label": "Seven Catholic cantons (Golden League 1586)",
+      "sel": {
+       "cantons": [
+        "LU",
+        "UR",
+        "SZ",
+        "OW",
+        "NW",
+        "ZG",
+        "FR",
+        "SO"
+       ]
+      }
+     },
+     {
+      "name": "Laufen and Birseck",
+      "kind": "catholic",
+      "label": "Laufen and Birseck (bishop of Basel): brought back to the Catholic faith from the 1580s",
+      "sel": {
+       "districts": [
+        1302
+       ],
+       "munis": [
+        2761,
+        2762,
+        2763,
+        2768,
+        2771,
+        2772,
+        2773,
+        2774,
+        2775
+       ]
+      }
+     },
+     {
+      "name": "Other Catholic lands",
+      "kind": "catholic",
+      "label": "Catholic: Valais, bishopric of Basel, Ticino, Fricktal, Catholic common lordships and abbey lands",
+      "sel": {
+       "cantons": [
+        "VS",
+        "TI",
+        "JU",
+        "AG",
+        "SG",
+        "ZH",
+        "GE"
+       ]
+      }
+     }
+    ],
+    "places": [
+     {
+      "name": "Ilanz",
+      "lat": 46.7742,
+      "lon": 9.2044,
+      "kind": "town",
+      "year": 1526,
+      "note": "Ilanz Articles 1524 and 1526"
+     },
+     {
+      "name": "Chur",
+      "lat": 46.8508,
+      "lon": 9.532,
+      "kind": "town",
+      "year": 1527,
+      "note": "Reformed under Comander; seat of the Catholic bishop"
+     },
+     {
+      "name": "Tirano",
+      "lat": 46.2157,
+      "lon": 10.1732,
+      "kind": "place",
+      "year": 1620,
+      "note": "Valtellina massacre, July 1620"
+     }
+    ]
+   },
+   {
+    "year": 1656,
+    "tick": "1656",
+    "title": "First Villmergen War",
+    "text": [
+     "In Arth (Schwyz) some families secretly keep the Reformed faith. In September 1655 a group flees to Zurich. Schwyz executes four Reformed who stay. Zurich and Bern declare war on 6 January 1656.",
+     "Zurich besieges Rapperswil but cannot take it. On 24 January 1656 troops from Lucerne and Zug surprise the Bernese army at Villmergen and win. The Reformed plan to take the Freie Ämter, which separate Zurich from Bern, fails.",
+     "The Third Land Peace (7 March 1656) restores the old order of 1531. Each canton stays master of the faith in its own land. The Catholic cantons keep their lead in the common lordships."
+    ],
+    "view": "ch",
+    "layers": [
+     {
+      "name": "Echallens villages",
+      "kind": "mixed",
+      "label": "Echallens and nearby villages (ruled by Bern and Fribourg): Catholic or shared",
+      "sel": {
+       "munis": [
+        5518,
+        5511,
+        5514,
+        5537,
+        5533,
+        5535
+       ]
+      }
+     },
+     {
+      "name": "Geneva",
+      "kind": "reformed",
+      "label": "Geneva and its villages: Reformed from 1536",
+      "sel": {
+       "munis": [
+        6621,
+        6609,
+        6603,
+        6611,
+        6622,
+        6617,
+        6642,
+        6612,
+        6638,
+        6620,
+        6637,
+        6626,
+        6624,
+        6610
+       ]
+      }
+     },
+     {
+      "name": "Gex",
+      "kind": "mixed",
+      "label": "Pays de Gex: Savoy, then France from 1601; Reformed still tolerated",
+      "sel": {
+       "munis": [
+        6644,
+        6615,
+        6606,
+        6623,
+        6634,
+        6643,
+        6630
+       ]
+      }
+     },
+     {
+      "name": "Le Landeron and Cressier",
+      "kind": "catholic",
+      "label": "Le Landeron and Cressier: stay Catholic inside Reformed Neuchâtel",
+      "sel": {
+       "munis": [
+        6455,
+        6452,
+        6434
+       ]
+      }
+     },
+     {
+      "name": "County of Baden: shared parishes",
+      "kind": "mixed",
+      "label": "County of Baden: parish with both faiths (shared church)",
+      "sel": {
+       "munis": [
+        4324,
+        4048,
+        243
+       ]
+      }
+     },
+     {
+      "name": "County of Baden: Reformed parishes",
+      "kind": "reformed",
+      "label": "County of Baden: Reformed parish",
+      "sel": {
+       "munis": [
+        4320,
+        247,
+        246,
+        87
+       ]
+      }
+     },
+     {
+      "name": "Rheinau and Ramsen",
+      "kind": "catholic",
+      "label": "Rheinau abbey and Ramsen (Austrian): Catholic",
+      "sel": {
+       "munis": [
+        38,
+        2963
+       ]
+      }
+     },
+     {
+      "name": "Werdenberg, Sax, Wartau",
+      "kind": "reformed",
+      "label": "Werdenberg, Sax and Wartau: Reformed",
+      "sel": {
+       "munis": [
+        3271,
+        3273,
+        3275,
+        3274,
+        3276
+       ]
+      }
+     },
+     {
+      "name": "Toggenburg: upper part",
+      "kind": "reformed",
+      "label": "Toggenburg, upper part: mostly Reformed",
+      "sel": {
+       "munis": [
+        3359,
+        3360,
+        3352,
+        3379
+       ]
+      }
+     },
+     {
+      "name": "Toggenburg: mixed",
+      "kind": "mixed",
+      "label": "Toggenburg: Reformed and Catholic villages side by side",
+      "sel": {
+       "munis": [
+        3374,
+        3396,
+        3407,
+        3408,
+        3401
+       ]
+      }
+     },
+     {
+      "name": "Toggenburg: lower part",
+      "kind": "catholic",
+      "label": "Toggenburg, lower part: mostly Catholic",
+      "sel": {
+       "munis": [
+        3395,
+        3393,
+        3394,
+        3392,
+        3405
+       ]
+      }
+     },
+     {
+      "name": "Town of St. Gallen",
+      "kind": "reformed",
+      "label": "Town of St. Gallen: Reformed (Vadian, 1527)",
+      "sel": {
+       "munis": [
+        3203
+       ]
+      }
+     },
+     {
+      "name": "Bucheggberg",
+      "kind": "reformed",
+      "label": "Bucheggberg: Reformed (Bern holds high justice there)",
+      "sel": {
+       "districts": [
+        1103
+       ]
+      }
+     },
+     {
+      "name": "Oberriet",
+      "kind": "catholic",
+      "label": "Upper Rheintal: Catholic",
+      "sel": {
+       "munis": [
+        3254
+       ]
+      }
+     },
+     {
+      "name": "Rheintal",
+      "kind": "mixed",
+      "label": "Rheintal (common lordship): both faiths, many shared churches",
+      "sel": {
+       "districts": [
+        1723
+       ],
+       "munis": [
+        3237
+       ]
+      }
+     },
+     {
+      "name": "Appenzell Innerrhoden",
+      "kind": "catholic",
+      "label": "Appenzell Innerrhoden: Catholic half-canton from 1597",
+      "sel": {
+       "cantons": [
+        "AI"
+       ]
+      }
+     },
+     {
+      "name": "Appenzell Ausserrhoden",
+      "kind": "reformed",
+      "label": "Appenzell Ausserrhoden: Reformed half-canton from 1597",
+      "sel": {
+       "cantons": [
+        "AR"
+       ]
+      }
+     },
+     {
+      "name": "Glarus",
+      "kind": "mixed",
+      "label": "Glarus: Reformed majority, Catholic minority (Näfels, Oberurnen); shared church in Glarus",
+      "sel": {
+       "cantons": [
+        "GL"
+       ]
+      }
+     },
+     {
+      "name": "Thurgau",
+      "kind": "mixed",
+      "label": "Thurgau (common lordship): mostly Reformed, Catholic parishes, 27 shared churches",
+      "sel": {
+       "cantons": [
+        "TG"
+       ]
+      }
+     },
+     {
+      "name": "Graubuenden: mixed communes",
+      "kind": "mixed",
+      "label": "Graubünden: commune with both faiths or with Catholic and Reformed villages (about 1640)",
+      "sel": {
+       "munis": [
+        3543,
+        3551,
+        3561,
+        3752,
+        3847,
+        3946,
+        3947,
+        3945,
+        3911,
+        3981,
+        3619,
+        3988,
+        3661,
+        3673
+       ]
+      }
+     },
+     {
+      "name": "Graubuenden: Catholic communes",
+      "kind": "catholic",
+      "label": "Graubünden: Catholic commune (about 1640)",
+      "sel": {
+       "munis": [
+        3542,
+        3513,
+        3514,
+        3506,
+        3721,
+        3722,
+        3723,
+        3982,
+        3572,
+        3575,
+        3618,
+        3983,
+        3581,
+        3582,
+        3985,
+        3987,
+        3986,
+        3603
+       ],
+       "districts": [
+        1847
+       ]
+      }
+     },
+     {
+      "name": "Graubuenden: Reformed communes",
+      "kind": "reformed",
+      "label": "Graubünden: Reformed commune (about 1640)",
+      "sel": {
+       "munis": [
+        3544,
+        3762,
+        3764,
+        3746,
+        3731,
+        3732,
+        3733,
+        3734,
+        3951,
+        3952,
+        3953,
+        3954,
+        3955,
+        3781,
+        3792,
+        3782,
+        3785,
+        3783,
+        3784,
+        3788,
+        3786,
+        3789,
+        3790,
+        3787,
+        3791,
+        3901,
+        3921,
+        3851,
+        3861,
+        3862,
+        3961,
+        3863,
+        3871,
+        3881,
+        3882,
+        3891,
+        3962,
+        3972,
+        3672,
+        3701,
+        3681,
+        3713,
+        3662,
+        3633,
+        3663,
+        3715,
+        3714,
+        3711,
+        3637,
+        3638,
+        3640,
+        3695,
+        3668,
+        3669,
+        3670,
+        3712
+       ]
+      }
+     },
+     {
+      "name": "Vaud and Bernese lands",
+      "kind": "reformed",
+      "label": "Bern and its lands (Aargau, Vaud from 1536): Reformed",
+      "sel": {
+       "cantons": [
+        "BE",
+        "VD"
+       ],
+       "districts": [
+        1901,
+        1904,
+        1905,
+        1907,
+        1910,
+        2221,
+        2604
+       ],
+       "munis": [
+        2275,
+        2250,
+        2258,
+        2261,
+        2265,
+        2271,
+        2274,
+        2276,
+        2284,
+        2391
+       ]
+      }
+     },
+     {
+      "name": "Zurich",
+      "kind": "reformed",
+      "label": "Zurich: Reformed",
+      "sel": {
+       "cantons": [
+        "ZH"
+       ]
+      }
+     },
+     {
+      "name": "Basel",
+      "kind": "reformed",
+      "label": "Basel: Reformed (1529)",
+      "sel": {
+       "cantons": [
+        "BS"
+       ],
+       "districts": [
+        1303,
+        1304,
+        1305
+       ],
+       "munis": [
+        2770,
+        2769,
+        2766,
+        2765,
+        2767,
+        2764
+       ]
+      }
+     },
+     {
+      "name": "Schaffhausen",
+      "kind": "reformed",
+      "label": "Schaffhausen: Reformed (1529)",
+      "sel": {
+       "cantons": [
+        "SH"
+       ]
+      }
+     },
+     {
+      "name": "Neuchâtel",
+      "kind": "reformed",
+      "label": "Neuchâtel: Reformed (1530, Farel)",
+      "sel": {
+       "cantons": [
+        "NE"
+       ]
+      }
+     },
+     {
+      "name": "Golden League",
+      "kind": "catholic",
+      "label": "Seven Catholic cantons (Golden League 1586)",
+      "sel": {
+       "cantons": [
+        "LU",
+        "UR",
+        "SZ",
+        "OW",
+        "NW",
+        "ZG",
+        "FR",
+        "SO"
+       ]
+      }
+     },
+     {
+      "name": "Laufen and Birseck",
+      "kind": "catholic",
+      "label": "Laufen and Birseck (bishop of Basel): brought back to the Catholic faith from the 1580s",
+      "sel": {
+       "districts": [
+        1302
+       ],
+       "munis": [
+        2761,
+        2762,
+        2763,
+        2768,
+        2771,
+        2772,
+        2773,
+        2774,
+        2775
+       ]
+      }
+     },
+     {
+      "name": "Other Catholic lands",
+      "kind": "catholic",
+      "label": "Catholic: Valais, bishopric of Basel, Ticino, Fricktal, Catholic common lordships and abbey lands",
+      "sel": {
+       "cantons": [
+        "VS",
+        "TI",
+        "JU",
+        "AG",
+        "SG",
+        "ZH",
+        "GE"
+       ]
+      }
+     }
+    ],
+    "places": [
+     {
+      "name": "Arth",
+      "lat": 47.0634,
+      "lon": 8.5239,
+      "kind": "town",
+      "year": 1655,
+      "note": "Secret Reformed flee to Zurich, 1655"
+     },
+     {
+      "name": "Villmergen",
+      "lat": 47.3471,
+      "lon": 8.2438,
+      "kind": "battle",
+      "year": 1656,
+      "note": "24 Jan 1656: Lucerne and Zug beat Bern"
+     },
+     {
+      "name": "Rapperswil",
+      "lat": 47.2267,
+      "lon": 8.8184,
+      "kind": "town",
+      "year": 1656,
+      "note": "Zurich besieges it in vain"
+     }
+    ]
+   },
+   {
+    "year": 1712,
+    "tick": "1712",
+    "title": "Villmergen and the Peace of Aarau",
+    "text": [
+     "The Toggenburg, mostly Reformed, rises against its lord, the Catholic abbot of St. Gallen. Zurich and Bern support the Toggenburg; the five inner cantons support the abbot. In 1712 Zurich and Bern occupy Thurgau, take Wil and win near Bremgarten on 26 May.",
+     "On 25 July 1712 the Bernese defeat the inner cantons at Villmergen. More than 3000 men die. The Fourth Land Peace, signed in Aarau on 11 August 1712, ends the war.",
+     "Both faiths are now equal in the common lordships, with clear rules for shared churches. The Catholic cantons lose their part in the County of Baden and the lower Freie Ämter; Bern joins the rule of Thurgau, the Rheintal, Sargans and the upper Freie Ämter. The map of faiths stays, but the Catholic lead ends."
+    ],
+    "view": "ch",
+    "layers": [
+     {
+      "name": "Echallens villages",
+      "kind": "mixed",
+      "label": "Echallens and nearby villages (ruled by Bern and Fribourg): Catholic or shared",
+      "sel": {
+       "munis": [
+        5518,
+        5511,
+        5514,
+        5537,
+        5533,
+        5535
+       ]
+      }
+     },
+     {
+      "name": "Geneva",
+      "kind": "reformed",
+      "label": "Geneva and its villages: Reformed from 1536",
+      "sel": {
+       "munis": [
+        6621,
+        6609,
+        6603,
+        6611,
+        6622,
+        6617,
+        6642,
+        6612,
+        6638,
+        6620,
+        6637,
+        6626,
+        6624,
+        6610
+       ]
+      }
+     },
+     {
+      "name": "Gex",
+      "kind": "catholic",
+      "label": "Pays de Gex: French; Reformed worship forbidden by 1685",
+      "sel": {
+       "munis": [
+        6644,
+        6615,
+        6606,
+        6623,
+        6634,
+        6643,
+        6630
+       ]
+      }
+     },
+     {
+      "name": "Le Landeron and Cressier",
+      "kind": "catholic",
+      "label": "Le Landeron and Cressier: stay Catholic inside Reformed Neuchâtel",
+      "sel": {
+       "munis": [
+        6455,
+        6452,
+        6434
+       ]
+      }
+     },
+     {
+      "name": "County of Baden: shared parishes",
+      "kind": "mixed",
+      "label": "County of Baden: parish with both faiths (shared church)",
+      "sel": {
+       "munis": [
+        4324,
+        4048,
+        243
+       ]
+      }
+     },
+     {
+      "name": "County of Baden: Reformed parishes",
+      "kind": "reformed",
+      "label": "County of Baden: Reformed parish",
+      "sel": {
+       "munis": [
+        4320,
+        247,
+        246,
+        87
+       ]
+      }
+     },
+     {
+      "name": "Rheinau and Ramsen",
+      "kind": "catholic",
+      "label": "Rheinau abbey and Ramsen (Austrian): Catholic",
+      "sel": {
+       "munis": [
+        38,
+        2963
+       ]
+      }
+     },
+     {
+      "name": "Werdenberg, Sax, Wartau",
+      "kind": "reformed",
+      "label": "Werdenberg, Sax and Wartau: Reformed",
+      "sel": {
+       "munis": [
+        3271,
+        3273,
+        3275,
+        3274,
+        3276
+       ]
+      }
+     },
+     {
+      "name": "Toggenburg: upper part",
+      "kind": "reformed",
+      "label": "Toggenburg, upper part: mostly Reformed",
+      "sel": {
+       "munis": [
+        3359,
+        3360,
+        3352,
+        3379
+       ]
+      }
+     },
+     {
+      "name": "Toggenburg: mixed",
+      "kind": "mixed",
+      "label": "Toggenburg: Reformed and Catholic villages side by side",
+      "sel": {
+       "munis": [
+        3374,
+        3396,
+        3407,
+        3408,
+        3401
+       ]
+      }
+     },
+     {
+      "name": "Toggenburg: lower part",
+      "kind": "catholic",
+      "label": "Toggenburg, lower part: mostly Catholic",
+      "sel": {
+       "munis": [
+        3395,
+        3393,
+        3394,
+        3392,
+        3405
+       ]
+      }
+     },
+     {
+      "name": "Town of St. Gallen",
+      "kind": "reformed",
+      "label": "Town of St. Gallen: Reformed (Vadian, 1527)",
+      "sel": {
+       "munis": [
+        3203
+       ]
+      }
+     },
+     {
+      "name": "Bucheggberg",
+      "kind": "reformed",
+      "label": "Bucheggberg: Reformed (Bern holds high justice there)",
+      "sel": {
+       "districts": [
+        1103
+       ]
+      }
+     },
+     {
+      "name": "Oberriet",
+      "kind": "catholic",
+      "label": "Upper Rheintal: Catholic",
+      "sel": {
+       "munis": [
+        3254
+       ]
+      }
+     },
+     {
+      "name": "Rheintal",
+      "kind": "mixed",
+      "label": "Rheintal (common lordship): both faiths, many shared churches",
+      "sel": {
+       "districts": [
+        1723
+       ],
+       "munis": [
+        3237
+       ]
+      }
+     },
+     {
+      "name": "Appenzell Innerrhoden",
+      "kind": "catholic",
+      "label": "Appenzell Innerrhoden: Catholic half-canton from 1597",
+      "sel": {
+       "cantons": [
+        "AI"
+       ]
+      }
+     },
+     {
+      "name": "Appenzell Ausserrhoden",
+      "kind": "reformed",
+      "label": "Appenzell Ausserrhoden: Reformed half-canton from 1597",
+      "sel": {
+       "cantons": [
+        "AR"
+       ]
+      }
+     },
+     {
+      "name": "Glarus",
+      "kind": "mixed",
+      "label": "Glarus: Reformed majority, Catholic minority (Näfels, Oberurnen); shared church in Glarus",
+      "sel": {
+       "cantons": [
+        "GL"
+       ]
+      }
+     },
+     {
+      "name": "Thurgau",
+      "kind": "mixed",
+      "label": "Thurgau (common lordship): mostly Reformed, Catholic parishes, 27 shared churches",
+      "sel": {
+       "cantons": [
+        "TG"
+       ]
+      }
+     },
+     {
+      "name": "Graubuenden: mixed communes",
+      "kind": "mixed",
+      "label": "Graubünden: commune with both faiths or with Catholic and Reformed villages (about 1640)",
+      "sel": {
+       "munis": [
+        3543,
+        3551,
+        3561,
+        3752,
+        3847,
+        3946,
+        3947,
+        3945,
+        3911,
+        3981,
+        3619,
+        3988,
+        3661,
+        3673
+       ]
+      }
+     },
+     {
+      "name": "Graubuenden: Catholic communes",
+      "kind": "catholic",
+      "label": "Graubünden: Catholic commune (about 1640)",
+      "sel": {
+       "munis": [
+        3542,
+        3513,
+        3514,
+        3506,
+        3721,
+        3722,
+        3723,
+        3982,
+        3572,
+        3575,
+        3618,
+        3983,
+        3581,
+        3582,
+        3985,
+        3987,
+        3986,
+        3603
+       ],
+       "districts": [
+        1847
+       ]
+      }
+     },
+     {
+      "name": "Graubuenden: Reformed communes",
+      "kind": "reformed",
+      "label": "Graubünden: Reformed commune (about 1640)",
+      "sel": {
+       "munis": [
+        3544,
+        3762,
+        3764,
+        3746,
+        3731,
+        3732,
+        3733,
+        3734,
+        3951,
+        3952,
+        3953,
+        3954,
+        3955,
+        3781,
+        3792,
+        3782,
+        3785,
+        3783,
+        3784,
+        3788,
+        3786,
+        3789,
+        3790,
+        3787,
+        3791,
+        3901,
+        3921,
+        3851,
+        3861,
+        3862,
+        3961,
+        3863,
+        3871,
+        3881,
+        3882,
+        3891,
+        3962,
+        3972,
+        3672,
+        3701,
+        3681,
+        3713,
+        3662,
+        3633,
+        3663,
+        3715,
+        3714,
+        3711,
+        3637,
+        3638,
+        3640,
+        3695,
+        3668,
+        3669,
+        3670,
+        3712
+       ]
+      }
+     },
+     {
+      "name": "Vaud and Bernese lands",
+      "kind": "reformed",
+      "label": "Bern and its lands (Aargau, Vaud from 1536): Reformed",
+      "sel": {
+       "cantons": [
+        "BE",
+        "VD"
+       ],
+       "districts": [
+        1901,
+        1904,
+        1905,
+        1907,
+        1910,
+        2221,
+        2604
+       ],
+       "munis": [
+        2275,
+        2250,
+        2258,
+        2261,
+        2265,
+        2271,
+        2274,
+        2276,
+        2284,
+        2391
+       ]
+      }
+     },
+     {
+      "name": "Zurich",
+      "kind": "reformed",
+      "label": "Zurich: Reformed",
+      "sel": {
+       "cantons": [
+        "ZH"
+       ]
+      }
+     },
+     {
+      "name": "Basel",
+      "kind": "reformed",
+      "label": "Basel: Reformed (1529)",
+      "sel": {
+       "cantons": [
+        "BS"
+       ],
+       "districts": [
+        1303,
+        1304,
+        1305
+       ],
+       "munis": [
+        2770,
+        2769,
+        2766,
+        2765,
+        2767,
+        2764
+       ]
+      }
+     },
+     {
+      "name": "Schaffhausen",
+      "kind": "reformed",
+      "label": "Schaffhausen: Reformed (1529)",
+      "sel": {
+       "cantons": [
+        "SH"
+       ]
+      }
+     },
+     {
+      "name": "Neuchâtel",
+      "kind": "reformed",
+      "label": "Neuchâtel: Reformed (1530, Farel)",
+      "sel": {
+       "cantons": [
+        "NE"
+       ]
+      }
+     },
+     {
+      "name": "Golden League",
+      "kind": "catholic",
+      "label": "Seven Catholic cantons (Golden League 1586)",
+      "sel": {
+       "cantons": [
+        "LU",
+        "UR",
+        "SZ",
+        "OW",
+        "NW",
+        "ZG",
+        "FR",
+        "SO"
+       ]
+      }
+     },
+     {
+      "name": "Laufen and Birseck",
+      "kind": "catholic",
+      "label": "Laufen and Birseck (bishop of Basel): brought back to the Catholic faith from the 1580s",
+      "sel": {
+       "districts": [
+        1302
+       ],
+       "munis": [
+        2761,
+        2762,
+        2763,
+        2768,
+        2771,
+        2772,
+        2773,
+        2774,
+        2775
+       ]
+      }
+     },
+     {
+      "name": "Other Catholic lands",
+      "kind": "catholic",
+      "label": "Catholic: Valais, bishopric of Basel, Ticino, Fricktal, Catholic common lordships and abbey lands",
+      "sel": {
+       "cantons": [
+        "VS",
+        "TI",
+        "JU",
+        "AG",
+        "SG",
+        "ZH",
+        "GE"
+       ]
+      }
+     }
+    ],
+    "places": [
+     {
+      "name": "Bremgarten",
+      "lat": 47.3519,
+      "lon": 8.342,
+      "kind": "battle",
+      "year": 1712,
+      "note": "26 May 1712: Reformed win the 'Staudenschlacht'"
+     },
+     {
+      "name": "Villmergen",
+      "lat": 47.3471,
+      "lon": 8.2438,
+      "kind": "battle",
+      "year": 1712,
+      "note": "25 July 1712: Bern beats the inner cantons"
+     },
+     {
+      "name": "Aarau",
+      "lat": 47.3925,
+      "lon": 8.0444,
+      "kind": "treaty",
+      "year": 1712,
+      "note": "Fourth Land Peace, 11 Aug 1712"
+     },
+     {
+      "name": "Wil",
+      "lat": 47.4615,
+      "lon": 9.0455,
+      "kind": "town",
+      "year": 1712,
+      "note": "Zurich takes the abbot's town"
+     }
+    ]
+   }
+  ],
+  "sources": [
+   "https://hls-dhs-dss.ch/de/articles/013328/",
+   "https://hls-dhs-dss.ch/de/articles/008903/",
+   "https://hls-dhs-dss.ch/de/articles/009807/",
+   "https://hls-dhs-dss.ch/de/articles/030550/",
+   "https://hls-dhs-dss.ch/de/articles/017187/",
+   "https://hls-dhs-dss.ch/de/articles/017177/",
+   "https://hls-dhs-dss.ch/de/articles/017173/",
+   "https://hls-dhs-dss.ch/de/articles/008910/",
+   "https://hls-dhs-dss.ch/de/articles/008911/",
+   "https://hls-dhs-dss.ch/de/articles/007374/",
+   "https://hls-dhs-dss.ch/de/articles/007393/",
+   "https://hls-dhs-dss.ch/de/articles/007642/",
+   "https://hls-dhs-dss.ch/fr/articles/007592/",
+   "https://kulturforschung.ch/storage/atlasgr/seiten/32_konfessionen.pdf"
+  ],
+  "notes": "Areas are today's municipalities; many were merged, so one old village with another faith can colour a whole new municipality 'mixed' (e.g. Ilanz/Glion, Domleschg, Cazis, Breil/Brigels, Obersaxen Mundaun, Scuol shown Reformed although Tarasp was Catholic and Austrian). Graubünden communes follow the Atlas Graubünden map 'Konfessionsverhältnisse um 1640' read by eye; the exact commune shown mixed near Laax/Falera was not identified (both drawn Catholic); Trimmis drawn mixed. Thurgau, Rheintal and Glarus are drawn mixed as a whole (HLS: Thurgau mostly Reformed with 27 shared churches); only Oberriet is singled out as Catholic in the Rheintal. Toggenburg: HLS says upper part mostly Reformed, lower part mostly Catholic; the split by municipality (incl. Oberuzwil, Uzwil, Degersheim, Jonschwil) is an estimate. County of Baden: Zurzach, Würenlos, Dietikon as shared and Tegerfelden, Schlieren, Oetwil, Hüttikon as Reformed are from general knowledge, not checked one by one. 1529 step: extent of Reformed parishes in common lordships and abbey lands is approximate; Gaster/Weesen shown Reformed because they joined Zurich's 1531 blockade. Echallens group: Villars-le-Terroir, Bottens, Assens per HLS; Poliez-Pittet and Saint-Barthélemy assumed. Date for Orbe and Grandson becoming Reformed (here 1554) not checked. Laufen/Birseck: re-Catholicisation by bishop Blarer in the 1580s, drawn Catholic from 1597. Gex: rough (Bernese 1536–1564, tolerated Reformed later, Catholic by 1685). Nuncio in Lucerne 'from 1586' and Calvin's arrival month (HLS: June 1536) may differ in other sources. The Villmergen memorial is used for both battles. Europe step is very rough (whole countries, German federal states)."
+ }
+]

@@ -1,0 +1,1541 @@
+code	name	country	country_code	type	region
+ALD-4814	Föglö	Aland	ALD		
+ALD-4824	Kökar	Aland	ALD		
+ALD-4818	Lemland	Aland	ALD		
+ALB-1523	Berat	Albania	ALB	County	
+ALB-1526	Dibër	Albania	ALB	County	
+ALB-1494	Durrës	Albania	ALB	County	
+ALB-1524	Elbasan	Albania	ALB	County	
+ALB-1495	Fier	Albania	ALB	County	
+ALB-1525	Gjirokastër	Albania	ALB	County	
+ALB-1521	Korçë	Albania	ALB	County	
+ALB-1502	Kukës	Albania	ALB	County	
+ALB-1528	Lezhë	Albania	ALB	County	
+ALB-1498	Shkodër	Albania	ALB	County	
+ALB-1529	Tiranë	Albania	ALB	County	
+ALB-1504	Vlorë	Albania	ALB	County	
+DZA-2195	Alger	Algeria	DZA	Province	
+DZA-2163	Annaba	Algeria	DZA	Province	
+DZA-2199	Aïn Defla	Algeria	DZA	Province	
+DZA-2144	Aïn Témouchent	Algeria	DZA	Province	
+DZA-2216	Batna	Algeria	DZA	Province	
+DZA-2211	Biskra	Algeria	DZA	Province	
+DZA-2209	Blida	Algeria	DZA	Province	
+DZA-2207	Bordj Bou Arréridj	Algeria	DZA	Province	
+DZA-2210	Bouira	Algeria	DZA	Province	
+DZA-2196	Boumerdès	Algeria	DZA	Province	
+DZA-2208	Béjaïa	Algeria	DZA	Province	
+DZA-2200	Chlef	Algeria	DZA	Province	
+DZA-2217	Constantine	Algeria	DZA	Province	
+DZA-2212	Djelfa	Algeria	DZA	Province	
+DZA-2164	El Tarf	Algeria	DZA	Province	
+DZA-2218	Guelma	Algeria	DZA	Province	
+DZA-2165	Jijel	Algeria	DZA	Province	
+DZA-2219	Khenchela	Algeria	DZA	Province	
+DZA-2214	M'Sila	Algeria	DZA	Province	
+DZA-2201	Mascara	Algeria	DZA	Province	
+DZA-2220	Mila	Algeria	DZA	Province	
+DZA-2202	Mostaganem	Algeria	DZA	Province	
+DZA-2213	Médéa	Algeria	DZA	Province	
+DZA-2145	Oran	Algeria	DZA	Province	
+DZA-2221	Oum el Bouaghi	Algeria	DZA	Province	
+DZA-2203	Relizane	Algeria	DZA	Province	
+DZA-2204	Saïda	Algeria	DZA	Province	
+DZA-2146	Sidi Bel Abbès	Algeria	DZA	Province	
+DZA-2166	Skikda	Algeria	DZA	Province	
+DZA-2222	Souk Ahras	Algeria	DZA	Province	
+DZA-2215	Sétif	Algeria	DZA	Province	
+DZA-2205	Tiaret	Algeria	DZA	Province	
+DZA-2198	Tipaza	Algeria	DZA	Province	
+DZA-2206	Tissemsilt	Algeria	DZA	Province	
+DZA-2197	Tizi Ouzou	Algeria	DZA	Province	
+DZA-2147	Tlemcen	Algeria	DZA	Province	
+DZA-2223	Tébessa	Algeria	DZA	Province	
+AND-4876	Andorra la Vella	Andorra	AND		
+AND-4879	Canillo	Andorra	AND		
+AND-4880	Encamp	Andorra	AND		
+AND-4881	Escaldes-Engordany	Andorra	AND		
+AND-4877	La Massana	Andorra	AND		
+AND-4878	Ordino	Andorra	AND		
+AND-4882	Sant Julià de Lòria	Andorra	AND		
+AUT-2322	Burgenland	Austria	AUT	State	
+AUT-2325	Kärnten	Austria	AUT	State	
+AUT-2330	Niederösterreich	Austria	AUT	State	
+AUT-2326	Oberösterreich	Austria	AUT	State	
+AUT-2327	Salzburg	Austria	AUT	State	
+AUT-2323	Steiermark	Austria	AUT	State	
+AUT-2329	Tirol	Austria	AUT	State	
+AUT-2320	Vorarlberg	Austria	AUT	State	
+AUT-2331	Wien	Austria	AUT	State	
+BLR-2338	Brest	Belarus	BLR	Region	
+BLR-4825	City of Minsk	Belarus	BLR	Region	
+BLR-2339	Gomel	Belarus	BLR	Region	
+BLR-2344	Grodno	Belarus	BLR	Region	
+BLR-2345	Minsk	Belarus	BLR	Municipality	
+BLR-2340	Mogilev	Belarus	BLR	Region	
+BLR-2341	Vitebsk	Belarus	BLR	Region	
+BEL-3474	Brussels	Belgium	BEL	Capital Region	Capital Region
+BEL-3480	Antwerp	Belgium	BEL	Province	Flemish
+BEL-3478	East Flanders	Belgium	BEL	Province	Flemish
+BEL-3475	Flemish Brabant	Belgium	BEL	Province	Flemish
+BEL-3	Limburg	Belgium	BEL	Province	Flemish
+BEL-3479	West Flanders	Belgium	BEL	Province	Flemish
+BEL-2	Hainaut	Belgium	BEL	Province	Walloon
+BEL-3481	Liege	Belgium	BEL	Province	Walloon
+BEL-3477	Luxembourg	Belgium	BEL	Province	Walloon
+BEL-3476	Namur	Belgium	BEL	Province	Walloon
+BEL-3482	Walloon Brabant	Belgium	BEL	Province	Walloon
+BIH-2891	Bosnian Podrinje	Bosnia and Herzegovina	BIH	Canton	Federacija Bosna i Hercegovina
+BIH-2226	Central Bosnia	Bosnia and Herzegovina	BIH	Canton	Federacija Bosna i Hercegovina
+BIH-2228	Herzegovina-Neretva	Bosnia and Herzegovina	BIH	Canton	Federacija Bosna i Hercegovina
+BIH-2890	Sarajevo	Bosnia and Herzegovina	BIH	Canton	Federacija Bosna i Hercegovina
+BIH-2887	Tuzla	Bosnia and Herzegovina	BIH	Canton	Federacija Bosna i Hercegovina
+BIH-2225	Una-Sana	Bosnia and Herzegovina	BIH	Canton	Federacija Bosna i Hercegovina
+BIH-2224	West Bosnia	Bosnia and Herzegovina	BIH	Canton	Federacija Bosna i Hercegovina
+BIH-2227	West Herzegovina	Bosnia and Herzegovina	BIH	Canton	Federacija Bosna i Hercegovina
+BIH-2889	Zenica-Doboj	Bosnia and Herzegovina	BIH	Canton	Federacija Bosna i Hercegovina
+BIH-4802	Banja Luka	Bosnia and Herzegovina	BIH		Repuplika Srpska
+BIH-4804	Bijeljina	Bosnia and Herzegovina	BIH		Repuplika Srpska
+BIH-4803	Brčko Distrikt	Bosnia and Herzegovina	BIH		Repuplika Srpska
+BIH-4801	Doboj	Bosnia and Herzegovina	BIH		Repuplika Srpska
+BIH-4807	Foča	Bosnia and Herzegovina	BIH		Repuplika Srpska
+BIH-3153	Posavina	Bosnia and Herzegovina	BIH	Canton	Repuplika Srpska
+BIH-4806	Sarajevo-romanija	Bosnia and Herzegovina	BIH		Repuplika Srpska
+BIH-4808	Trebinje	Bosnia and Herzegovina	BIH		Repuplika Srpska
+BIH-4805	Vlasenica	Bosnia and Herzegovina	BIH		Repuplika Srpska
+BGR-3002	Blagoevgrad	Bulgaria	BGR	Province	
+BGR-2254	Burgas	Bulgaria	BGR	Province	
+BGR-2259	Dobrich	Bulgaria	BGR	Province	
+BGR-2246	Gabrovo	Bulgaria	BGR	Province	
+BGR-2243	Grad Sofiya	Bulgaria	BGR	Province	
+BGR-2232	Haskovo	Bulgaria	BGR	Province	
+BGR-2237	Kardzhali	Bulgaria	BGR	Province	
+BGR-2252	Kyustendil	Bulgaria	BGR	Province	
+BGR-2247	Lovech	Bulgaria	BGR	Province	
+BGR-2250	Montana	Bulgaria	BGR	Province	
+BGR-2234	Pazardzhik	Bulgaria	BGR	Province	
+BGR-2245	Pernik	Bulgaria	BGR	Province	
+BGR-2248	Pleven	Bulgaria	BGR	Province	
+BGR-2235	Plovdiv	Bulgaria	BGR	Province	
+BGR-2256	Razgrad	Bulgaria	BGR	Province	
+BGR-2262	Ruse	Bulgaria	BGR	Province	
+BGR-2258	Shumen	Bulgaria	BGR	Province	
+BGR-2261	Silistra	Bulgaria	BGR	Province	
+BGR-2231	Sliven	Bulgaria	BGR	Province	
+BGR-2236	Smolyan	Bulgaria	BGR	Province	
+BGR-2244	Sofia	Bulgaria	BGR	Province	
+BGR-2233	Stara Zagora	Bulgaria	BGR	Province	
+BGR-2257	Targovishte	Bulgaria	BGR	Province	
+BGR-2260	Varna	Bulgaria	BGR	Province	
+BGR-2249	Veliko Tarnovo	Bulgaria	BGR	Province	
+BGR-2253	Vidin	Bulgaria	BGR	Province	
+BGR-2251	Vratsa	Bulgaria	BGR	Province	
+BGR-2255	Yambol	Bulgaria	BGR	Province	
+HRV-1607	Bjelovarsko-bilogorska	Croatia	HRV	County	
+HRV-1602	Brodsko-Posavska	Croatia	HRV	County	
+HRV-1604	Brodsko-Posavska	Croatia	HRV	County	
+HRV-1490	Dubrovacko-Neretvanska	Croatia	HRV	County	
+HRV-1589	Grad Zagreb	Croatia	HRV	City	
+HRV-1592	Istarska	Croatia	HRV	County	
+HRV-1583	Karlovacka	Croatia	HRV	County	
+HRV-1608	Koprivničko-Križevačka	Croatia	HRV	County	
+HRV-1582	Krapinsko-Zagorska	Croatia	HRV	County	
+HRV-1584	Licko-Senjska	Croatia	HRV	County	
+HRV-1609	Medimurska	Croatia	HRV	County	
+HRV-1603	Osjecko-Baranjska	Croatia	HRV	County	
+HRV-1586	Primorsko-Goranska	Croatia	HRV	County	
+HRV-1587	Sisacko-Moslavacka	Croatia	HRV	County	
+HRV-1492	Splitsko-Dalmatinska	Croatia	HRV	County	
+HRV-1610	Varaždinska	Croatia	HRV	County	
+HRV-1606	Viroviticko-Podravska	Croatia	HRV	County	
+HRV-1605	Vukovarsko-Srijemska	Croatia	HRV	County	
+HRV-1493	Zadarska	Croatia	HRV	County	
+HRV-1491	Šibensko-Kninska	Croatia	HRV	County	
+HRV-1588	Zagrebacka	Croatia	HRV	County	Jugovzhodna Slovenija
+CYP-3464	Nicosia	Cyprus	CYP	District	
+CYP-3465	Paphos	Cyprus	CYP	District	
+CZE-10370	Jihomoravský	Czech Republic	CZE	Region	
+CZE-1593	Jihočeský	Czech Republic	CZE	Region	
+CZE-1590	Karlovarský	Czech Republic	CZE	Region	
+CZE-1598	Královéhradecký	Czech Republic	CZE	Region	
+CZE-1597	Liberecký	Czech Republic	CZE	Region	
+CZE-1612	Moravskoslezský	Czech Republic	CZE	Region	
+CZE-10372	Olomoucký	Czech Republic	CZE	Region	
+CZE-10373	Pardubický	Czech Republic	CZE	Region	
+CZE-10369	Plzeňský	Czech Republic	CZE	Region	
+CZE-1595	Prague	Czech Republic	CZE	Region	
+CZE-1596	Středočeský	Czech Republic	CZE	Region	
+CZE-1594	Vysočina	Czech Republic	CZE	Region	
+CZE-10371	Zlínský	Czech Republic	CZE	Region	
+CZE-10368	Ústecký	Czech Republic	CZE	Region	
+DNK-3419	Hovedstaden	Denmark	DNK	Region	
+DNK-3416	Midtjylland	Denmark	DNK	Region	
+DNK-3418	Nordjylland	Denmark	DNK	Region	
+DNK-3420	Sjaælland	Denmark	DNK	Region	
+DNK-3417	Syddanmark	Denmark	DNK	Region	
+EST-1654	Harju	Estonia	EST	County	
+EST-1660	Hiiu	Estonia	EST	County	
+EST-1655	Ida-Viru	Estonia	EST	County	
+EST-1656	Järva	Estonia	EST	County	
+EST-1657	Jõgeva	Estonia	EST	County	
+EST-1661	Lääne	Estonia	EST	County	
+EST-1658	Lääne-Viru	Estonia	EST	County	
+EST-2346	Pärnu	Estonia	EST	County	
+EST-2347	Põlva	Estonia	EST	County	
+EST-2348	Rapla	Estonia	EST	County	
+EST-2352	Saare	Estonia	EST	Municipality	
+EST-1659	Tartu	Estonia	EST	County	
+EST-2349	Valga	Estonia	EST	County	
+EST-2350	Viljandi	Estonia	EST	County	
+EST-2351	Võru	Estonia	EST	County	
+FIN-3191	Finland Proper	Finland	FIN	Region	
+FIN-3193	Uusimaa	Finland	FIN	Province	
+FRA-5262	Ain	France	FRA	Metropolitan department	Auvergne-Rhône-Alpes
+FRA-5264	Allier	France	FRA	Metropolitan department	Auvergne-Rhône-Alpes
+FRA-5267	Ardèche	France	FRA	Metropolitan department	Auvergne-Rhône-Alpes
+FRA-5276	Cantal	France	FRA	Metropolitan department	Auvergne-Rhône-Alpes
+FRA-5288	Drôme	France	FRA	Metropolitan department	Auvergne-Rhône-Alpes
+FRA-5299	Haute-Loire	France	FRA	Metropolitan department	Auvergne-Rhône-Alpes
+FRA-5302	Haute-Savoie	France	FRA	Metropolitan department	Auvergne-Rhône-Alpes
+FRA-5311	Isère	France	FRA	Metropolitan department	Auvergne-Rhône-Alpes
+FRA-5315	Loire	France	FRA	Metropolitan department	Auvergne-Rhône-Alpes
+FRA-5335	Puy-de-Dôme	France	FRA	Metropolitan department	Auvergne-Rhône-Alpes
+FRA-5338	Rhône	France	FRA	Metropolitan department	Auvergne-Rhône-Alpes
+FRA-5341	Savoie	France	FRA	Metropolitan department	Auvergne-Rhône-Alpes
+FRA-5282	Côte-d'Or	France	FRA	Metropolitan department	Bourgogne-Franche-Comté
+FRA-5287	Doubs	France	FRA	Metropolitan department	Bourgogne-Franche-Comté
+FRA-5301	Haute-Saône	France	FRA	Metropolitan department	Bourgogne-Franche-Comté
+FRA-5312	Jura	France	FRA	Metropolitan department	Bourgogne-Franche-Comté
+FRA-5329	Nièvre	France	FRA	Metropolitan department	Bourgogne-Franche-Comté
+FRA-5339	Saône-et-Loire	France	FRA	Metropolitan department	Bourgogne-Franche-Comté
+FRA-5348	Territoire de Belfort	France	FRA	Metropolitan department	Bourgogne-Franche-Comté
+FRA-5356	Yonne	France	FRA	Metropolitan department	Bourgogne-Franche-Comté
+FRA-5283	Côtes-d'Armor	France	FRA	Metropolitan department	Bretagne
+FRA-5292	Finistère	France	FRA	Metropolitan department	Bretagne
+FRA-5308	Ille-et-Vilaine	France	FRA	Metropolitan department	Bretagne
+FRA-5327	Morbihan	France	FRA	Metropolitan department	Bretagne
+FRA-5279	Cher	France	FRA	Metropolitan department	Centre-Val de Loire
+FRA-5291	Eure-et-Loir	France	FRA	Metropolitan department	Centre-Val de Loire
+FRA-5309	Indre	France	FRA	Metropolitan department	Centre-Val de Loire
+FRA-5310	Indre-et-Loire	France	FRA	Metropolitan department	Centre-Val de Loire
+FRA-5314	Loir-et-Cher	France	FRA	Metropolitan department	Centre-Val de Loire
+FRA-5317	Loiret	France	FRA	Metropolitan department	Centre-Val de Loire
+FRA-5281	Corse-du-Sud	France	FRA	Metropolitan department	Corse
+FRA-5297	Haute-Corse	France	FRA	Metropolitan department	Corse
+FRA-5268	Ardennes	France	FRA	Metropolitan department	Grand Est
+FRA-5270	Aube	France	FRA	Metropolitan department	Grand Est
+FRA-5273	Bas-Rhin	France	FRA	Metropolitan department	Grand Est
+FRA-5300	Haute-Marne	France	FRA	Metropolitan department	Grand Est
+FRA-5296	Haute-Rhin	France	FRA	Metropolitan department	Grand Est
+FRA-5323	Marne	France	FRA	Metropolitan department	Grand Est
+FRA-5325	Meurthe-et-Moselle	France	FRA	Metropolitan department	Grand Est
+FRA-5326	Meuse	France	FRA	Metropolitan department	Grand Est
+FRA-5328	Moselle	France	FRA	Metropolitan department	Grand Est
+FRA-5355	Vosges	France	FRA	Metropolitan department	Grand Est
+FRA-5263	Aisne	France	FRA	Metropolitan department	Hauts-de-France
+FRA-5330	Nord	France	FRA	Metropolitan department	Hauts-de-France
+FRA-5331	Oise	France	FRA	Metropolitan department	Hauts-de-France
+FRA-5334	Pas-de-Calais	France	FRA	Metropolitan department	Hauts-de-France
+FRA-5345	Somme	France	FRA	Metropolitan department	Hauts-de-France
+FRA-5275	Calvados	France	FRA	Metropolitan department	Normandie
+FRA-5290	Eure	France	FRA	Metropolitan department	Normandie
+FRA-5322	Manche	France	FRA	Metropolitan department	Normandie
+FRA-5332	Orne	France	FRA	Metropolitan department	Normandie
+FRA-5343	Seine-Maritime	France	FRA	Metropolitan department	Normandie
+FRA-5277	Charente	France	FRA	Metropolitan department	Nouvelle-Aquitaine
+FRA-5278	Charente-Maritime	France	FRA	Metropolitan department	Nouvelle-Aquitaine
+FRA-5280	Corrèze	France	FRA	Metropolitan department	Nouvelle-Aquitaine
+FRA-5284	Creuse	France	FRA	Metropolitan department	Nouvelle-Aquitaine
+FRA-5285	Deux-Sèvres	France	FRA	Metropolitan department	Nouvelle-Aquitaine
+FRA-5286	Dordogne	France	FRA	Metropolitan department	Nouvelle-Aquitaine
+FRA-5295	Gironde	France	FRA	Metropolitan department	Nouvelle-Aquitaine
+FRA-5303	Haute-Vienne	France	FRA	Metropolitan department	Nouvelle-Aquitaine
+FRA-5313	Landes	France	FRA	Metropolitan department	Nouvelle-Aquitaine
+FRA-5319	Lot-et-Garonne	France	FRA	Metropolitan department	Nouvelle-Aquitaine
+FRA-5336	Pyrénées-Atlantiques	France	FRA	Metropolitan department	Nouvelle-Aquitaine
+FRA-5354	Vienne	France	FRA	Metropolitan department	Nouvelle-Aquitaine
+FRA-5269	Ariège	France	FRA	Metropolitan department	Occitanie
+FRA-5271	Aude	France	FRA	Metropolitan department	Occitanie
+FRA-5272	Aveyron	France	FRA	Metropolitan department	Occitanie
+FRA-5293	Gard	France	FRA	Metropolitan department	Occitanie
+FRA-5294	Gers	France	FRA	Metropolitan department	Occitanie
+FRA-5298	Haute-Garonne	France	FRA	Metropolitan department	Occitanie
+FRA-5305	Hautes-Pyrénées	France	FRA	Metropolitan department	Occitanie
+FRA-5307	Hérault	France	FRA	Metropolitan department	Occitanie
+FRA-5318	Lot	France	FRA	Metropolitan department	Occitanie
+FRA-5320	Lozère	France	FRA	Metropolitan department	Occitanie
+FRA-5337	Pyrénées-Orientales	France	FRA	Metropolitan department	Occitanie
+FRA-5346	Tarn	France	FRA	Metropolitan department	Occitanie
+FRA-5347	Tarn-et-Garonne	France	FRA	Metropolitan department	Occitanie
+FRA-5316	Loire-Atlantique	France	FRA	Metropolitan department	Pays de la Loire
+FRA-5321	Maine-et-Loire	France	FRA	Metropolitan department	Pays de la Loire
+FRA-5324	Mayenne	France	FRA	Metropolitan department	Pays de la Loire
+FRA-5340	Sarthe	France	FRA	Metropolitan department	Pays de la Loire
+FRA-5353	Vendée	France	FRA	Metropolitan department	Pays de la Loire
+FRA-5266	Alpes-Maritimes	France	FRA	Metropolitan department	Provence-Alpes-Côte-d'Azur
+FRA-5265	Alpes-de-Haute-Provence	France	FRA	Metropolitan department	Provence-Alpes-Côte-d'Azur
+FRA-5274	Bouches-du-Rhône	France	FRA	Metropolitan department	Provence-Alpes-Côte-d'Azur
+FRA-5304	Hautes-Alpes	France	FRA	Metropolitan department	Provence-Alpes-Côte-d'Azur
+FRA-5351	Var	France	FRA	Metropolitan department	Provence-Alpes-Côte-d'Azur
+FRA-5352	Vaucluse	France	FRA	Metropolitan department	Provence-Alpes-Côte-d'Azur
+FRA-5289	Essonne	France	FRA	Metropolitan department	Île-de-France
+FRA-5306	Hauts-de-Seine	France	FRA	Metropolitan department	Île-de-France
+FRA-5333	Paris	France	FRA	Metropolitan department	Île-de-France
+FRA-5342	Seien-et-Marne	France	FRA	Metropolitan department	Île-de-France
+FRA-5344	Seine-Saint-Denis	France	FRA	Metropolitan department	Île-de-France
+FRA-5349	Val-d'Oise	France	FRA	Metropolitan department	Île-de-France
+FRA-5350	Val-de-Marne	France	FRA	Metropolitan department	Île-de-France
+FRA-5357	Yvelines	France	FRA	Metropolitan department	Île-de-France
+DEU-1573	Baden-Württemberg	Germany	DEU	State	
+DEU-1591	Bayern	Germany	DEU	State	
+DEU-1599	Berlin	Germany	DEU	State	
+DEU-3487	Brandenburg	Germany	DEU	State	
+DEU-1575	Bremen	Germany	DEU	State	
+DEU-1578	Hamburg	Germany	DEU	State	
+DEU-1574	Hessen	Germany	DEU	State	
+DEU-3488	Mecklenburg-Vorpommern	Germany	DEU	State	
+DEU-1576	Niedersachsen	Germany	DEU	State	
+DEU-1572	Nordrhein-Westfalen	Germany	DEU	State	
+DEU-1580	Rheinland-Pfalz	Germany	DEU	State	
+DEU-1581	Saarland	Germany	DEU	State	
+DEU-1601	Sachsen	Germany	DEU	State	
+DEU-1600	Sachsen-Anhalt	Germany	DEU	State	
+DEU-1579	Schleswig-Holstein	Germany	DEU	State	
+DEU-1577	Thüringen	Germany	DEU	State	
+GRC-3001	Anatoliki Makedonia kai Thraki	Greece	GRC	Region	
+GRC-2892	Dytiki Makedonia	Greece	GRC	Region	
+GRC-2883	Ionioi Nisoi	Greece	GRC	Region	
+GRC-2949	Ipeiros	Greece	GRC	Region	
+GRC-2991	Kentriki Makedonia	Greece	GRC	Region	
+GRC-2990	Kriti	Greece	GRC	Region	
+GRC-3013	Notio Aigaio	Greece	GRC	Region	
+GRC-2989	Stereá Elláda	Greece	GRC	Region	
+GRC-2900	Thessalia	Greece	GRC	Region	
+GRC-2988	Voreio Aigaio	Greece	GRC	Region	
+GRC-2992	Ayion Oros	Greece	GRC	Autonomous Monastic State	Macedonia
+GRC-2884	Attiki	Greece	GRC	Region	Peloponnisos
+GRC-2886	Dytiki Ellada	Greece	GRC	Region	Peloponnisos
+GRC-2885	Peloponnisos	Greece	GRC	Region	Peloponnisos
+GGY+00?	Sark	Guernsey	GGY		
+HUN-3160	Budapest	Hungary	HUN	Capital City	Central Hungary
+HUN-3164	Pest	Hungary	HUN	County	Central Hungary
+HUN-4907	Érd	Hungary	HUN	Urban county	Central Hungary
+HUN-4925	Dunaújváros	Hungary	HUN	Urban county	Central Transdanubia
+HUN-3162	Fejér	Hungary	HUN	County	Central Transdanubia
+HUN-3163	Komárom-Esztergom	Hungary	HUN	County	Central Transdanubia
+HUN-4908	Székesfehérvár	Hungary	HUN	Urban county	Central Transdanubia
+HUN-4906	Tatabánya	Hungary	HUN	Urban county	Central Transdanubia
+HUN-3158	Veszprém	Hungary	HUN	County	Central Transdanubia
+HUN-4909	Veszprém	Hungary	HUN	Urban county	Central Transdanubia
+HUN-3161	Bács-Kiskun	Hungary	HUN	County	Great Southern Plain
+HUN-3171	Békés	Hungary	HUN	County	Great Southern Plain
+HUN-4919	Békéscsaba	Hungary	HUN	Urban county	Great Southern Plain
+HUN-3172	Csongrád	Hungary	HUN	County	Great Southern Plain
+HUN-4917	Hódmezôvásárhely	Hungary	HUN	Urban county	Great Southern Plain
+HUN-4915	Kecskemét	Hungary	HUN	Urban county	Great Southern Plain
+HUN-4916	Szeged	Hungary	HUN	Urban county	Great Southern Plain
+HUN-4924	Debrecen	Hungary	HUN	Urban county	Northern Great Plain
+HUN-3173	Hajdú-Bihar	Hungary	HUN	County	Northern Great Plain
+HUN-3175	Jász-Nagykun-Szolnok	Hungary	HUN	County	Northern Great Plain
+HUN-4923	Nyíregyháza	Hungary	HUN	Urban county	Northern Great Plain
+HUN-3169	Szabolcs-Szatmár-Bereg	Hungary	HUN	County	Northern Great Plain
+HUN-4918	Szolnok	Hungary	HUN	Urban county	Northern Great Plain
+HUN-3168	Borsod-Abaúj-Zemplén	Hungary	HUN	County	Northern Hungary
+HUN-4920	Eger	Hungary	HUN	Urban county	Northern Hungary
+HUN-3174	Heves	Hungary	HUN	County	Northern Hungary
+HUN-4922	Miskolc	Hungary	HUN	Urban county	Northern Hungary
+HUN-3166	Nógrád	Hungary	HUN	County	Northern Hungary
+HUN-4921	Salgótarján	Hungary	HUN	Urban county	Northern Hungary
+HUN-3155	Baranya	Hungary	HUN	County	Southern Transdanubia
+HUN-4912	Kaposvár	Hungary	HUN	Urban county	Southern Transdanubia
+HUN-4913	Pécs	Hungary	HUN	Urban county	Southern Transdanubia
+HUN-3157	Somogy	Hungary	HUN	County	Southern Transdanubia
+HUN-4914	Szekszárd	Hungary	HUN	Urban county	Southern Transdanubia
+HUN-3165	Tolna	Hungary	HUN	County	Southern Transdanubia
+HUN-3156	Gyor-Moson-Sopron	Hungary	HUN	County	Western Transdanubia
+HUN-4905	Gyôr	Hungary	HUN	Urban county	Western Transdanubia
+HUN-4911	Nagykanizsa	Hungary	HUN	Urban county	Western Transdanubia
+HUN-4904	Sopron	Hungary	HUN	Urban county	Western Transdanubia
+HUN-4903	Szombathely	Hungary	HUN	Urban county	Western Transdanubia
+HUN-3138	Vas	Hungary	HUN	County	Western Transdanubia
+HUN-3159	Zala	Hungary	HUN	County	Western Transdanubia
+HUN-4910	Zalaegerszeg	Hungary	HUN	Urban county	Western Transdanubia
+IRL-79	Cavan	Ireland	IRL	County	Border
+IRL-729	Donegal	Ireland	IRL	County	Border
+IRL-730	Leitrim	Ireland	IRL	County	Border
+IRL-712	Louth	Ireland	IRL	County	Border
+IRL-3412	Monaghan	Ireland	IRL	Administrative County	Border
+IRL-728	Sligo	Ireland	IRL	County	Border
+IRL-5575	Dublin	Ireland	IRL	County	Dublin
+IRL-5576	Dún Laoghaire–Rathdown	Ireland	IRL	County	Dublin
+IRL-5574	Fingal	Ireland	IRL	County	Dublin
+IRL-5573	South Dublin	Ireland	IRL	County	Dublin
+IRL-721	Kildare	Ireland	IRL	County	Mid-East
+IRL-715	Meath	Ireland	IRL	County	Mid-East
+IRL-719	Wicklow	Ireland	IRL	County	Mid-East
+IRL-76	Clare	Ireland	IRL	County	Mid-West
+IRL-726	Limerick	Ireland	IRL	County	Mid-West
+IRL-5570	Limerick	Ireland	IRL	City	Mid-West
+IRL-724	North Tipperary	Ireland	IRL	County	Mid-West
+IRL-723	Laoighis	Ireland	IRL	County	Midlands
+IRL-731	Longford	Ireland	IRL	County	Midlands
+IRL-716	Offaly	Ireland	IRL	County	Midlands
+IRL-717	Westmeath	Ireland	IRL	County	Midlands
+IRL-77	Carlow	Ireland	IRL	County	South-East
+IRL-722	Kilkenny	Ireland	IRL	County	South-East
+IRL-5572	South Tipperary	Ireland	IRL	County	South-East
+IRL-1444	Waterford	Ireland	IRL	County	South-East
+IRL-5571	Waterford	Ireland	IRL	City	South-East
+IRL-718	Wexford	Ireland	IRL	County	South-East
+IRL-78	Cork	Ireland	IRL	County	South-West
+IRL-5569	Cork	Ireland	IRL	City	South-West
+IRL-725	Kerry	Ireland	IRL	County	South-West
+IRL-713	Galway	Ireland	IRL	County	West
+IRL-5568	Galway	Ireland	IRL	City	West
+IRL-714	Mayo	Ireland	IRL	County	West
+IRL-727	Roscommon	Ireland	IRL	County	West
+IMN+00?	Isle of Man	Isle of Man	IMN		
+ITA-5421	Chieti	Italy	ITA	Province	Abruzzo
+ITA-5420	L'Aquila	Italy	ITA	Province	Abruzzo
+ITA-5418	Pescara	Italy	ITA	Province	Abruzzo
+ITA-5419	Teramo	Italy	ITA	Province	Abruzzo
+ITA-5403	Bari	Italy	ITA	Province	Apulia
+ITA-5405	Barletta-Andria Trani	Italy	ITA	Province	Apulia
+ITA-5406	Brindisi	Italy	ITA	Province	Apulia
+ITA-5404	Foggia	Italy	ITA	Province	Apulia
+ITA-5407	Lecce	Italy	ITA	Province	Apulia
+ITA-5408	Taranto	Italy	ITA	Province	Apulia
+ITA-5389	Matera	Italy	ITA	Province	Basilicata
+ITA-5390	Potenza	Italy	ITA	Province	Basilicata
+ITA-5393	Catanzaro	Italy	ITA	Province	Calabria
+ITA-5391	Cosenza	Italy	ITA	Province	Calabria
+ITA-5392	Crotene	Italy	ITA	Province	Calabria
+ITA-5395	Reggio Calabria	Italy	ITA	Province	Calabria
+ITA-5394	Vibo Valentia	Italy	ITA	Province	Calabria
+ITA-5399	Avellino	Italy	ITA	Province	Campania
+ITA-5398	Benevento	Italy	ITA	Province	Campania
+ITA-5396	Caserta	Italy	ITA	Province	Campania
+ITA-5397	Napoli	Italy	ITA	Province	Campania
+ITA-5400	Salerno	Italy	ITA	Province	Campania
+ITA-5362	Bologna	Italy	ITA	Province	Emilia-Romagna
+ITA-5363	Ferrara	Italy	ITA	Province	Emilia-Romagna
+ITA-5365	Forlì-Cesena	Italy	ITA	Province	Emilia-Romagna
+ITA-5358	Modena	Italy	ITA	Province	Emilia-Romagna
+ITA-5360	Parma	Italy	ITA	Province	Emilia-Romagna
+ITA-5361	Piacenza	Italy	ITA	Province	Emilia-Romagna
+ITA-5364	Ravenna	Italy	ITA	Province	Emilia-Romagna
+ITA-5359	Reggio Emilia	Italy	ITA	Province	Emilia-Romagna
+ITA-5366	Rimini	Italy	ITA	Province	Emilia-Romagna
+ITA-5457	Gorizia	Italy	ITA	Province	Friuli-Venezia Giulia
+ITA-5456	Pordenone	Italy	ITA	Province	Friuli-Venezia Giulia
+ITA-5458	Trieste	Italy	ITA	Province	Friuli-Venezia Giulia
+ITA-5455	Udine	Italy	ITA	Province	Friuli-Venezia Giulia
+ITA-5425	Frosinone	Italy	ITA	Province	Lazio
+ITA-5426	Latina	Italy	ITA	Province	Lazio
+ITA-5424	Rieti	Italy	ITA	Province	Lazio
+ITA-5422	Roma	Italy	ITA	Province	Lazio
+ITA-5423	Viterbo	Italy	ITA	Province	Lazio
+ITA-5367	Genova	Italy	ITA	Province	Liguria
+ITA-5369	Imperia	Italy	ITA	Province	Liguria
+ITA-5370	La Spezia	Italy	ITA	Province	Liguria
+ITA-5368	Savona	Italy	ITA	Province	Liguria
+ITA-5443	Bergamo	Italy	ITA	Province	Lombardia
+ITA-5445	Brescia	Italy	ITA	Province	Lombardia
+ITA-5452	Como	Italy	ITA	Province	Lombardia
+ITA-5447	Cremona	Italy	ITA	Province	Lombardia
+ITA-5453	Lecco	Italy	ITA	Province	Lombardia
+ITA-5448	Lodi	Italy	ITA	Province	Lombardia
+ITA-5446	Mantova	Italy	ITA	Province	Lombardia
+ITA-5450	Milano	Italy	ITA	Province	Lombardia
+ITA-5454	Monza e Brianza	Italy	ITA	Province	Lombardia
+ITA-5449	Pavia	Italy	ITA	Province	Lombardia
+ITA-5444	Sondrio	Italy	ITA	Province	Lombardia
+ITA-5451	Varese	Italy	ITA	Province	Lombardia
+ITA-5427	Ancona	Italy	ITA	Province	Marche
+ITA-5431	Ascoli Piceno	Italy	ITA	Province	Marche
+ITA-5430	Fermo	Italy	ITA	Province	Marche
+ITA-5429	Macerata	Italy	ITA	Province	Marche
+ITA-5428	Pesaro e Urbino	Italy	ITA	Province	Marche
+ITA-5401	Campobasso	Italy	ITA	Province	Molise
+ITA-5402	Isernia	Italy	ITA	Province	Molise
+ITA-5439	Alessandria	Italy	ITA	Province	Piemonte
+ITA-5440	Asti	Italy	ITA	Province	Piemonte
+ITA-5435	Biella	Italy	ITA	Province	Piemonte
+ITA-5441	Cuneo	Italy	ITA	Province	Piemonte
+ITA-5438	Novara	Italy	ITA	Province	Piemonte
+ITA-5434	Turin	Italy	ITA	Province	Piemonte
+ITA-5437	Verbano-Cusio-Ossola	Italy	ITA	Province	Piemonte
+ITA-5436	Vercelli	Italy	ITA	Province	Piemonte
+ITA-5378	Cagliari	Italy	ITA	Province	Sardegna
+ITA-5371	Carbonia-Iglesias	Italy	ITA	Province	Sardegna
+ITA-5372	Medio Campidano	Italy	ITA	Province	Sardegna
+ITA-5376	Nuoro	Italy	ITA	Province	Sardegna
+ITA-5377	Ogliastra	Italy	ITA	Province	Sardegna
+ITA-5375	Olbia-Tempio	Italy	ITA	Province	Sardegna
+ITA-5373	Oristrano	Italy	ITA	Province	Sardegna
+ITA-5374	Sassari	Italy	ITA	Province	Sardegna
+ITA-5417	Agrigento	Italy	ITA	Province	Sicily
+ITA-5416	Caltanissetta	Italy	ITA	Province	Sicily
+ITA-5413	Catania	Italy	ITA	Province	Sicily
+ITA-5412	Enna	Italy	ITA	Province	Sicily
+ITA-5411	Messina	Italy	ITA	Province	Sicily
+ITA-5410	Palermo	Italy	ITA	Province	Sicily
+ITA-5415	Ragusa	Italy	ITA	Province	Sicily
+ITA-5414	Siracusa	Italy	ITA	Province	Sicily
+ITA-5409	Trapani	Italy	ITA	Province	Sicily
+ITA-5387	Arezzo	Italy	ITA	Province	Toscana
+ITA-5386	Firenze	Italy	ITA	Province	Toscana
+ITA-5379	Grosseto	Italy	ITA	Province	Toscana
+ITA-5380	Livorno	Italy	ITA	Province	Toscana
+ITA-5383	Lucca	Italy	ITA	Province	Toscana
+ITA-5382	Massa-Carrara	Italy	ITA	Province	Toscana
+ITA-5381	Pisa	Italy	ITA	Province	Toscana
+ITA-5384	Pistoia	Italy	ITA	Province	Toscana
+ITA-5385	Prato	Italy	ITA	Province	Toscana
+ITA-5388	Siena	Italy	ITA	Province	Toscana
+ITA-5459	Bozen	Italy	ITA	Province	Trentino-Alto Adige
+ITA-5460	Trento	Italy	ITA	Province	Trentino-Alto Adige
+ITA-5432	Perugia	Italy	ITA	Province	Umbria
+ITA-5433	Terni	Italy	ITA	Province	Umbria
+ITA-5442	Aoste	Italy	ITA	Province	Valle d'Aosta
+ITA-5467	Belluno	Italy	ITA	Province	Veneto
+ITA-5463	Padova	Italy	ITA	Province	Veneto
+ITA-5462	Rovigo	Italy	ITA	Province	Veneto
+ITA-5466	Treviso	Italy	ITA	Province	Veneto
+ITA-5461	Venezia	Italy	ITA	Province	Veneto
+ITA-5464	Verona	Italy	ITA	Province	Veneto
+ITA-5465	Vicenza	Italy	ITA	Province	Veneto
+JEY+00?	Jersey	Jersey	JEY		
+KOS-5904	Gnjilane	Kosovo	KOS	District	Gnjilane
+KOS-5907	Kosovska Kamenica	Kosovo	KOS	District	Gnjilane
+KOS-5905	Vitina	Kosovo	KOS	District	Gnjilane
+KOS-5894	Kosovska Mitrovica	Kosovo	KOS	District	Kosovska Mitrovica
+KOS-5893	Leposavić	Kosovo	KOS	District	Kosovska Mitrovica
+KOS-5896	Srbica	Kosovo	KOS	District	Kosovska Mitrovica
+KOS-5895	Vučitrn	Kosovo	KOS	District	Kosovska Mitrovica
+KOS-5897	Zubin Potok	Kosovo	KOS	District	Kosovska Mitrovica
+KOS-5892	Zvečan	Kosovo	KOS	District	Kosovska Mitrovica
+KOS-5887	Istok	Kosovo	KOS	District	Peć
+KOS-5888	Klina	Kosovo	KOS	District	Peć
+KOS-5886	Peć	Kosovo	KOS	District	Peć
+KOS-5899	Glogovac	Kosovo	KOS	District	Pristina
+KOS-5898	Kosovo Polje	Kosovo	KOS	District	Pristina
+KOS-5903	Lipljan	Kosovo	KOS	District	Pristina
+KOS-5906	Novo Brdo	Kosovo	KOS	District	Pristina
+KOS-5900	Obilić	Kosovo	KOS	District	Pristina
+KOS-5901	Podujevo	Kosovo	KOS	District	Pristina
+KOS-5902	Priština	Kosovo	KOS	District	Pristina
+KOS-5909	Dragaš	Kosovo	KOS	District	Prizren
+KOS-5911	Mališevo	Kosovo	KOS	District	Prizren
+KOS-5908	Prizren	Kosovo	KOS	District	Prizren
+KOS-5910	Suva Reka	Kosovo	KOS	District	Prizren
+KOS-5915	Kačanik	Kosovo	KOS	District	Uroševac
+KOS-5913	Uroševac	Kosovo	KOS	District	Uroševac
+KOS-5912	Štimlje	Kosovo	KOS	District	Uroševac
+KOS-5914	Štrpce	Kosovo	KOS	District	Uroševac
+KOS-5889	Dečani	Kosovo	KOS	District	Đakovica
+KOS-5891	Orahovac	Kosovo	KOS	District	Đakovica
+KOS-5890	Đakovica	Kosovo	KOS	District	Đakovica
+LVA-5714	Aizputes	Latvia	LVA	Municipality	Kurzeme
+LVA-5710	Alsungas	Latvia	LVA	Municipality	Kurzeme
+LVA-5711	Brocenu	Latvia	LVA	Municipality	Kurzeme
+LVA-5721	Dundagas	Latvia	LVA	Municipality	Kurzeme
+LVA-5720	Durbes	Latvia	LVA	Municipality	Kurzeme
+LVA-5716	Grobinas	Latvia	LVA	Municipality	Kurzeme
+LVA-5709	Kuldigas	Latvia	LVA	Municipality	Kurzeme
+LVA-4848	Liepāja	Latvia	LVA	Republican City	Kurzeme
+LVA-5723	Mersraga	Latvia	LVA	Municipality	Kurzeme
+LVA-5717	Nicas	Latvia	LVA	Municipality	Kurzeme
+LVA-5719	Pavilostas	Latvia	LVA	Municipality	Kurzeme
+LVA-5715	Priekules	Latvia	LVA	Municipality	Kurzeme
+LVA-5722	Rojas	Latvia	LVA	Municipality	Kurzeme
+LVA-5718	Rucavas	Latvia	LVA	Municipality	Kurzeme
+LVA-1068	Saldus	Latvia	LVA	Municipality	Kurzeme
+LVA-5712	Skrundas	Latvia	LVA	Municipality	Kurzeme
+LVA-1091	Talsi	Latvia	LVA	Municipality	Kurzeme
+LVA-5713	Vainodes	Latvia	LVA	Municipality	Kurzeme
+LVA-934	Ventspils	Latvia	LVA	Municipality	Kurzeme
+LVA-4852	Ventspils	Latvia	LVA	Republican City	Kurzeme
+LVA-5748	Aglonas	Latvia	LVA	Municipality	Latgale
+LVA-5743	Baltinavas	Latvia	LVA	Municipality	Latgale
+LVA-1063	Balvu	Latvia	LVA	Municipality	Latgale
+LVA-5745	Ciblas	Latvia	LVA	Municipality	Latgale
+LVA-5747	Dagdas	Latvia	LVA	Municipality	Latgale
+LVA-1081	Daugavpils	Latvia	LVA	Municipality	Latgale
+LVA-4850	Daugavpils	Latvia	LVA	Republican City	Latgale
+LVA-5749	Ilukstes	Latvia	LVA	Municipality	Latgale
+LVA-5744	Karsavas	Latvia	LVA	Municipality	Latgale
+LVA-1064	Kraslavas	Latvia	LVA	Municipality	Latgale
+LVA-5750	Livanu	Latvia	LVA	Municipality	Latgale
+LVA-1065	Ludzas	Latvia	LVA	Municipality	Latgale
+LVA-1089	Preilu	Latvia	LVA	Municipality	Latgale
+LVA-4851	Rezekne	Latvia	LVA	Republican City	Latgale
+LVA-1066	Rezeknes	Latvia	LVA	Municipality	Latgale
+LVA-5752	Riebinu	Latvia	LVA	Municipality	Latgale
+LVA-5741	Rugaju	Latvia	LVA	Municipality	Latgale
+LVA-5751	Varkavas	Latvia	LVA	Municipality	Latgale
+LVA-5742	Vilakas	Latvia	LVA	Municipality	Latgale
+LVA-5753	Vilanu	Latvia	LVA	Municipality	Latgale
+LVA-5746	Zilupes	Latvia	LVA	Municipality	Latgale
+LVA-5755	Alojas	Latvia	LVA	Municipality	Riga
+LVA-5756	Babites	Latvia	LVA	Municipality	Riga
+LVA-5757	Baldones	Latvia	LVA	Municipality	Riga
+LVA-5758	Carnikavas	Latvia	LVA	Municipality	Riga
+LVA-5759	Engures	Latvia	LVA	Municipality	Riga
+LVA-5760	Garkalnes	Latvia	LVA	Municipality	Riga
+LVA-5761	Ikskiles	Latvia	LVA	Municipality	Riga
+LVA-5762	Incukalna	Latvia	LVA	Municipality	Riga
+LVA-5763	Jaunpils	Latvia	LVA	Municipality	Riga
+LVA-5764	Jurmala	Latvia	LVA	Republican City	Riga
+LVA-5765	Kandavas	Latvia	LVA	Municipality	Riga
+LVA-5766	Keguma	Latvia	LVA	Municipality	Riga
+LVA-5767	Kekavas	Latvia	LVA	Municipality	Riga
+LVA-5768	Krimuldas	Latvia	LVA	Municipality	Riga
+LVA-5769	Lielvardes	Latvia	LVA	Municipality	Riga
+LVA-1086	Limbaži	Latvia	LVA	Municipality	Riga
+LVA-5770	Malpils	Latvia	LVA	Municipality	Riga
+LVA-5771	Marupes	Latvia	LVA	Municipality	Riga
+LVA-1088	Ogre	Latvia	LVA	Municipality	Riga
+LVA-5772	Olaines	Latvia	LVA	Municipality	Riga
+LVA-1094	Riga	Latvia	LVA	Republican City	Riga
+LVA-5773	Ropazu	Latvia	LVA	Municipality	Riga
+LVA-5774	Salacgrivas	Latvia	LVA	Municipality	Riga
+LVA-5775	Salaspils	Latvia	LVA	Municipality	Riga
+LVA-5776	Saulkrastu	Latvia	LVA	Municipality	Riga
+LVA-5777	Sejas	Latvia	LVA	Municipality	Riga
+LVA-5778	Siguldas	Latvia	LVA	Municipality	Riga
+LVA-5780	Stopinu	Latvia	LVA	Municipality	Riga
+LVA-1092	Tukums	Latvia	LVA	Municipality	Riga
+LVA-5754	Ādaži	Latvia	LVA	Municipality	Riga
+LVA-1076	Aluksne	Latvia	LVA	Municipality	Vidzeme
+LVA-5781	Amatas	Latvia	LVA	Municipality	Vidzeme
+LVA-5782	Apes	Latvia	LVA	Municipality	Vidzeme
+LVA-5783	Beverinas	Latvia	LVA	Municipality	Vidzeme
+LVA-5784	Burtnieku	Latvia	LVA	Municipality	Vidzeme
+LVA-1080	Cesu	Latvia	LVA	Municipality	Vidzeme
+LVA-5785	Cesvaines	Latvia	LVA	Municipality	Vidzeme
+LVA-5786	Erglu	Latvia	LVA	Municipality	Vidzeme
+LVA-1083	Gulbene	Latvia	LVA	Municipality	Vidzeme
+LVA-5787	Jaunpiebalgas	Latvia	LVA	Municipality	Vidzeme
+LVA-5788	Kocenu	Latvia	LVA	Municipality	Vidzeme
+LVA-5789	Ligatnes	Latvia	LVA	Municipality	Vidzeme
+LVA-5790	Lubanas	Latvia	LVA	Municipality	Vidzeme
+LVA-1087	Madona	Latvia	LVA	Municipality	Vidzeme
+LVA-5791	Mazsalacas	Latvia	LVA	Municipality	Vidzeme
+LVA-5792	Nauksenu	Latvia	LVA	Municipality	Vidzeme
+LVA-5793	Pargaujas	Latvia	LVA	Municipality	Vidzeme
+LVA-5794	Priekulu	Latvia	LVA	Municipality	Vidzeme
+LVA-5799	Raunas	Latvia	LVA	Municipality	Vidzeme
+LVA-5796	Rujienas	Latvia	LVA	Municipality	Vidzeme
+LVA-5798	Smiltenes	Latvia	LVA	Municipality	Vidzeme
+LVA-5795	Strencu	Latvia	LVA	Municipality	Vidzeme
+LVA-1077	Valkas	Latvia	LVA	Municipality	Vidzeme
+LVA-1093	Valmiera	Latvia	LVA	Republican City	Vidzeme
+LVA-5800	Varaklanu	Latvia	LVA	Municipality	Vidzeme
+LVA-5797	Vecpiebalgas	Latvia	LVA	Municipality	Vidzeme
+LVA-5730	Aizkraukles	Latvia	LVA	Municipality	Zemgale
+LVA-5734	Aknistes	Latvia	LVA	Municipality	Zemgale
+LVA-5740	Auces	Latvia	LVA	Municipality	Zemgale
+LVA-1079	Bauska	Latvia	LVA	Municipality	Zemgale
+LVA-1082	Dobele	Latvia	LVA	Municipality	Zemgale
+LVA-5736	Iecavas	Latvia	LVA	Municipality	Zemgale
+LVA-5732	Jaunjelgavas	Latvia	LVA	Municipality	Zemgale
+LVA-5725	Jekabpils	Latvia	LVA	Municipality	Zemgale
+LVA-1085	Jekabpils	Latvia	LVA	Republican City	Zemgale
+LVA-1084	Jelgava	Latvia	LVA	Municipality	Zemgale
+LVA-4849	Jelgava	Latvia	LVA	Republican City	Zemgale
+LVA-5729	Kokneses	Latvia	LVA	Municipality	Zemgale
+LVA-5726	Krustpils	Latvia	LVA	Municipality	Zemgale
+LVA-5724	Neretas	Latvia	LVA	Municipality	Zemgale
+LVA-5737	Ozolnieku	Latvia	LVA	Municipality	Zemgale
+LVA-5728	Plavinu	Latvia	LVA	Municipality	Zemgale
+LVA-5738	Rundales	Latvia	LVA	Municipality	Zemgale
+LVA-5727	Salas	Latvia	LVA	Municipality	Zemgale
+LVA-5731	Skriveru	Latvia	LVA	Municipality	Zemgale
+LVA-5739	Tervetes	Latvia	LVA	Municipality	Zemgale
+LVA-5735	Vecumnieku	Latvia	LVA	Municipality	Zemgale
+LVA-5733	Viesites	Latvia	LVA	Municipality	Zemgale
+LIE-4894	Balzers	Liechtenstein	LIE		
+LIE-4902	Eschen	Liechtenstein	LIE		
+LIE-4898	Ruggell	Liechtenstein	LIE		
+LIE-4896	Schaan	Liechtenstein	LIE		
+LIE-4893	Triesen	Liechtenstein	LIE		
+LIE-4892	Triesenberg	Liechtenstein	LIE		
+LIE-4895	Vaduz	Liechtenstein	LIE		
+LTU-1067	Alytaus	Lithuania	LTU	County	
+LTU-1069	Kauno	Lithuania	LTU	County	
+LTU-935	Klaipedos	Lithuania	LTU	County	
+LTU-1070	Marijampoles	Lithuania	LTU	County	
+LTU-1071	Panevezio	Lithuania	LTU	County	
+LTU-1073	Taurages	Lithuania	LTU	County	
+LTU-936	Telšiai	Lithuania	LTU	County	
+LTU-1074	Utenos	Lithuania	LTU	County	
+LTU-1075	Vilniaus	Lithuania	LTU	County	
+LTU-1072	Šiauliai	Lithuania	LTU	County	
+LUX-906	Diekirch	Luxembourg	LUX	District	
+LUX-907	Grevenmacher	Luxembourg	LUX	District	
+LUX-908	Luxembourg	Luxembourg	LUX	District	
+MKD-2997	Bosilovo	Macedonia	MKD	Statistical Region	
+MKD-2953	Drugovo	Macedonia	MKD	Statistical Region	
+MKD-2998	Gevgelija	Macedonia	MKD	Statistical Region	
+MKD-2963	Jegunovce	Macedonia	MKD	Municipality	
+MKD-2945	Mogila	Macedonia	MKD	Statistical Region	
+MKD-2956	Oslomej	Macedonia	MKD	Statistical Region	
+MKD-2902	Plasnica	Macedonia	MKD	Statistical Region	
+MKD-2907	Rosoman	Macedonia	MKD	Statistical Region	
+MKD-2901	Skopje	Macedonia	MKD	Statistical Region	
+MKD-2910	Staro Nagoričane	Macedonia	MKD	Statistical Region	
+MKD-2993	Strumitsa	Macedonia	MKD	Statistical Region	
+MKD-2957	Tearce	Macedonia	MKD	Municipality	
+MKD-2958	Tetovo	Macedonia	MKD	Statistical Region	
+MKD-2959	Vrapcište	Macedonia	MKD	Statistical Region	
+MKD-2924	Zrnovci	Macedonia	MKD	Statistical Region	
+MKD-3005	Delčevo	Macedonia	MKD	Statistical Region	Eastern
+MKD-2934	Karbinci	Macedonia	MKD	Statistical Region	Eastern
+MKD-2939	Kočani	Macedonia	MKD	Statistical Region	Eastern
+MKD-3006	Makedonska Kamenica	Macedonia	MKD	Statistical Region	Eastern
+MKD-3007	Pehčevo	Macedonia	MKD	Statistical Region	Eastern
+MKD-2905	Radoviš	Macedonia	MKD	Statistical Region	Eastern
+MKD-3003	Vinica	Macedonia	MKD	Statistical Region	Eastern
+MKD-2925	Češinovo-Obleševo	Macedonia	MKD	Statistical Region	Eastern
+MKD-2911	Štip	Macedonia	MKD	Statistical Region	Eastern
+MKD-2937	Aerodrom	Macedonia	MKD	Municipality	Greater Skopje
+MKD-2921	Butel	Macedonia	MKD	Municipality	Greater Skopje
+MKD-2929	Gazi Baba	Macedonia	MKD	Municipality	Greater Skopje
+MKD-2948	Gjorče Petrov	Macedonia	MKD	Municipality	Greater Skopje
+MKD-2935	Karpoš	Macedonia	MKD	Municipality	Greater Skopje
+MKD-2938	Kisela Voda	Macedonia	MKD	Municipality	Greater Skopje
+MKD-2908	Saraj	Macedonia	MKD	Municipality	Greater Skopje
+MKD-5883	Šuto Orizari	Macedonia	MKD	Municipality	Greater Skopje
+MKD-2940	Kratovo	Macedonia	MKD	Statistical Region	Northeastern
+MKD-2906	Kriva Palanka	Macedonia	MKD	Statistical Region	Northeastern
+MKD-2943	Kumanovo	Macedonia	MKD	Statistical Region	Northeastern
+MKD-2904	Probištip	Macedonia	MKD	Statistical Region	Northeastern
+MKD-4846	Rankovce	Macedonia	MKD	Statistical Region	Northeastern
+MKD-2914	Sveti Nikole	Macedonia	MKD	Statistical Region	Northeastern
+MKD-2896	Bitola	Macedonia	MKD	Statistical Region	Pelagonia
+MKD-2928	Dolneni	Macedonia	MKD	Statistical Region	Pelagonia
+MKD-2941	Krivogaštani	Macedonia	MKD	Statistical Region	Pelagonia
+MKD-2942	Kruševo	Macedonia	MKD	Statistical Region	Pelagonia
+MKD-2947	Novaci	Macedonia	MKD	Statistical Region	Pelagonia
+MKD-2903	Prilep	Macedonia	MKD	Statistical Region	Pelagonia
+MKD-2960	Bogovinje	Macedonia	MKD	Statistical Region	Polog
+MKD-2944	Brod	Macedonia	MKD	Statistical Region	Polog
+MKD-2961	Brvenica	Macedonia	MKD	Statistical Region	Polog
+MKD-2962	Gostivar	Macedonia	MKD	Statistical Region	Polog
+MKD-2955	Mavrovo and Rostusa	Macedonia	MKD	Statistical Region	Polog
+MKD-2918	Želino	Macedonia	MKD	Statistical Region	Polog
+MKD-2919	Aračinovo	Macedonia	MKD	Statistical Region	Skopje
+MKD-2933	Ilinden	Macedonia	MKD	Statistical Region	Skopje
+MKD-2920	Lipkovo	Macedonia	MKD	Statistical Region	Skopje
+MKD-2909	Sopište	Macedonia	MKD	Statistical Region	Skopje
+MKD-2912	Studeničani	Macedonia	MKD	Statistical Region	Skopje
+MKD-2917	Zelenikovo	Macedonia	MKD	Statistical Region	Skopje
+MKD-2926	Čučer Sandevo	Macedonia	MKD	Statistical Region	Skopje
+MKD-3004	Berovo	Macedonia	MKD	Statistical Region	Southeastern
+MKD-2996	Bogdanci	Macedonia	MKD	Statistical Region	Southeastern
+MKD-2927	Demir Kapija	Macedonia	MKD	Statistical Region	Southeastern
+MKD-3000	Dojran	Macedonia	MKD	Statistical Region	Southeastern
+MKD-2932	Konče	Macedonia	MKD	Statistical Region	Southeastern
+MKD-2999	Novo Selo	Macedonia	MKD	Statistical Region	Southeastern
+MKD-2994	Valandovo	Macedonia	MKD	Statistical Region	Southeastern
+MKD-2995	Vasilevo	Macedonia	MKD	Statistical Region	Southeastern
+MKD-2951	Centar župa	Macedonia	MKD	Statistical Region	Southwestern
+MKD-2952	Debar	Macedonia	MKD	Statistical Region	Southwestern
+MKD-2899	Debarca	Macedonia	MKD	Statistical Region	Southwestern
+MKD-2897	Demir Hisar	Macedonia	MKD	Statistical Region	Southwestern
+MKD-2954	Kičevo	Macedonia	MKD	Statistical Region	Southwestern
+MKD-2898	Ohrid	Macedonia	MKD	Statistical Region	Southwestern
+MKD-2894	Resen	Macedonia	MKD	Statistical Region	Southwestern
+MKD-4845	Struga	Macedonia	MKD	Statistical Region	Southwestern
+MKD-2895	Vevčani	Macedonia	MKD	Statistical Region	Southwestern
+MKD-2916	Vraneštica	Macedonia	MKD	Statistical Region	Southwestern
+MKD-2950	Zajas	Macedonia	MKD	Statistical Region	Southwestern
+MKD-2930	Gradsko	Macedonia	MKD	Statistical Region	Vardar
+MKD-2936	Kavadartsi	Macedonia	MKD	Statistical Region	Vardar
+MKD-2931	Lozovo	Macedonia	MKD	Statistical Region	Vardar
+MKD-2946	Negotino	Macedonia	MKD	Statistical Region	Vardar
+MKD-2915	Veles	Macedonia	MKD	Statistical Region	Vardar
+MKD-2922	Čaška	Macedonia	MKD	Statistical Region	Vardar
+MLT-5979	Nadur	Malta	MLT		Gozo
+MLT-5978	Xagħra	Malta	MLT		Gozo
+MLT-5977	Żebbuġ	Malta	MLT		Gozo
+MLT-5920	Attard	Malta	MLT		Malta Majjistral
+MLT-5925	Mellieħa	Malta	MLT		Malta Majjistral
+MLT-5927	Mosta	Malta	MLT		Malta Majjistral
+MLT-5924	Mġarr	Malta	MLT		Malta Majjistral
+MLT-5928	Naxxar	Malta	MLT		Malta Majjistral
+MLT-5934	Pembroke	Malta	MLT		Malta Majjistral
+MLT-5923	Rabat	Malta	MLT		Malta Majjistral
+MLT-5926	San Pawl il-Bahar	Malta	MLT		Malta Majjistral
+MLT-5948	Siġġiewi	Malta	MLT		Malta Majjistral
+MLT-5973	Żurrieq	Malta	MLT		Malta Xlokk
+MDA-1629	Anenii Noi	Moldova	MDA	District	
+MDA-1630	Basarabeasca	Moldova	MDA	District	
+MDA-1650	Bender	Moldova	MDA	City	
+MDA-1613	Briceni	Moldova	MDA	District	
+MDA-1618	Bălţi	Moldova	MDA	City	
+MDA-1624	Cahul	Moldova	MDA	District	
+MDA-1652	Camenca	Moldova	MDA	District	
+MDA-1631	Cantemir	Moldova	MDA	District	
+MDA-1649	Causeni	Moldova	MDA	District	
+MDA-1627	Chişinău	Moldova	MDA	City	
+MDA-1633	Cimişlia	Moldova	MDA	District	
+MDA-1626	Comrat	Moldova	MDA	Autonomous Territory	
+MDA-1634	Criuleni	Moldova	MDA	District	
+MDA-1632	Călărași	Moldova	MDA	District	
+MDA-1614	Donduseni	Moldova	MDA	District	
+MDA-1619	Drochia	Moldova	MDA	District	
+MDA-1615	Edineţ	Moldova	MDA	District	
+MDA-1635	Floreşti	Moldova	MDA	District	
+MDA-1620	Făleşti	Moldova	MDA	District	
+MDA-1621	Glodeni	Moldova	MDA	District	
+MDA-1637	Grigoriopol	Moldova	MDA	Territorial Unit	
+MDA-1639	Hîncesti	Moldova	MDA	District	
+MDA-1640	Ialoveni	Moldova	MDA	District	
+MDA-1641	Leova	Moldova	MDA	District	
+MDA-1642	Nisporeni	Moldova	MDA	District	
+MDA-1616	Ocniţa	Moldova	MDA	District	
+MDA-1643	Orhei	Moldova	MDA	District	
+MDA-1645	Rezina	Moldova	MDA	District	
+MDA-1644	Rezina	Moldova	MDA	District	
+MDA-1617	Rîşcani	Moldova	MDA	District	
+MDA-1653	Soroca	Moldova	MDA	District	
+MDA-1647	Străşeni	Moldova	MDA	District	
+MDA-1628	Stîngă Nistrului	Moldova	MDA	District	
+MDA-1622	Sîngerei	Moldova	MDA	District	
+MDA-1625	Taraclia	Moldova	MDA	District	
+MDA-1648	Teleneşti	Moldova	MDA	District	
+MDA-1638	Transnistria	Moldova	MDA	District	
+MDA-1623	Ungheni	Moldova	MDA	District	
+MDA-1646	Şoldăneşti	Moldova	MDA	District	
+MDA-1651	Ștefan Vodă	Moldova	MDA	District	
+MCO+00?	Monaco	Monaco	MCO		
+MNE-1508	Andrijevica	Montenegro	MNE	Municipality	
+MNE-1496	Bar	Montenegro	MNE	Municipality	
+MNE-1509	Berane	Montenegro	MNE	Municipality	
+MNE-1510	Bijelo Polje	Montenegro	MNE	Municipality	
+MNE-1499	Budva	Montenegro	MNE	Municipality	
+MNE-1500	Cetinje	Montenegro	MNE	Municipality	
+MNE-1511	Danilovgrad	Montenegro	MNE	Municipality	
+MNE-1506	Herceg Novi	Montenegro	MNE	Municipality	
+MNE-1512	Kolašin	Montenegro	MNE	Municipality	
+MNE-1507	Kotor	Montenegro	MNE	Municipality	
+MNE-1513	Mojkovac	Montenegro	MNE	Municipality	
+MNE-1514	Nikšic	Montenegro	MNE	Municipality	
+MNE-1503	Plav	Montenegro	MNE	Municipality	
+MNE-1516	Pljevlja	Montenegro	MNE	Municipality	
+MNE-1515	Plužine	Montenegro	MNE	Municipality	
+MNE-1517	Podgorica	Montenegro	MNE	Municipality	
+MNE-1501	Rožaje	Montenegro	MNE	Municipality	
+MNE-1518	Tivat	Montenegro	MNE	Municipality	
+MNE-1497	Ulcinj	Montenegro	MNE	Municipality	
+MNE-1519	Šavnik	Montenegro	MNE	Municipality	
+MNE-1520	Žabljak	Montenegro	MNE	Municipality	
+MAR-1448	Gharb - Chrarda - Béni Hssen	Morocco	MAR	Region	
+MAR-1454	Oriental	Morocco	MAR	Region	
+MAR-1445	Tanger - Tétouan	Morocco	MAR	Region	
+MAR-1447	Taza - Al Hoceima - Taounate	Morocco	MAR	Region	
+NLD-894	Drenthe	Netherlands	NLD	Province	
+NLD-902	Flevoland	Netherlands	NLD	Province	
+NLD-895	Friesland	Netherlands	NLD	Province	
+NLD-896	Gelderland	Netherlands	NLD	Province	
+NLD-897	Groningen	Netherlands	NLD	Province	
+NLD-898	Limburg	Netherlands	NLD	Province	
+NLD-3483	Noord-Brabant	Netherlands	NLD	Province	
+NLD-3486	Noord-Holland	Netherlands	NLD	Province	
+NLD-899	Overijssel	Netherlands	NLD	Province	
+NLD-3484	Utrecht	Netherlands	NLD	Province	
+NLD-903	Zeeland	Netherlands	NLD	Province	
+NLD-3485	Zuid-Holland	Netherlands	NLD	Province	
+CYN+00?	Northern Cyprus	Northern Cyprus	CYN		
+NOR-917	Akershus	Norway	NOR	County	
+NOR-912	Aust-Agder	Norway	NOR	County	
+NOR-918	Buskerud	Norway	NOR	County	
+NOR-919	Hedmark	Norway	NOR	County	
+NOR-913	Hordaland	Norway	NOR	County	
+NOR-921	Oslo	Norway	NOR	County	
+NOR-914	Rogaland	Norway	NOR	County	
+NOR-922	Telemark	Norway	NOR	County	
+NOR-916	Vest-Agder	Norway	NOR	County	
+NOR-923	Vestfold	Norway	NOR	County	
+NOR-924	Østfold	Norway	NOR	County	
+POL-3144	Greater Poland	Poland	POL	Voivodeship|Province	
+POL-3145	Kuyavian-Pomeranian	Poland	POL	Voivodeship|Province	
+POL-3170	Lesser Poland	Poland	POL	Voivodeship|Province	
+POL-3141	Lower Silesian	Poland	POL	Voivodeship|Province	
+POL-3151	Lublin	Poland	POL	Voivodeship|Province	
+POL-3143	Lubusz	Poland	POL	Voivodeship|Province	
+POL-3148	Masovian	Poland	POL	Voivodeship|Province	
+POL-3167	Opole	Poland	POL	Voivodeship|Province	
+POL-3150	Podlachian	Poland	POL	Voivodeship|Province	
+POL-3140	Pomeranian	Poland	POL	Voivodeship|Province	
+POL-3146	Silesian	Poland	POL	Voivodeship|Province	
+POL-3152	Subcarpathian	Poland	POL	Voivodeship|Province	
+POL-3139	Warmian-Masurian	Poland	POL	Voivodeship|Province	
+POL-3142	West Pomeranian	Poland	POL	Voivodeship|Province	
+POL-3147	Łódź	Poland	POL	Voivodeship|Province	
+POL-3149	Świętokrzyskie	Poland	POL	Voivodeship|Province	
+PRT-743	Beja	Portugal	PRT	District	Alentejo
+PRT-747	Portalegre	Portugal	PRT	District	Alentejo
+PRT-748	Santarém	Portugal	PRT	District	Alentejo
+PRT-744	Évora	Portugal	PRT	District	Alentejo
+PRT-745	Faro	Portugal	PRT	District	Algarve
+PRT-751	Castelo Branco	Portugal	PRT	District	Centro
+PRT-752	Coimbra	Portugal	PRT	District	Centro
+PRT-753	Guarda	Portugal	PRT	District	Centro
+PRT-740	Leiria	Portugal	PRT	District	Centro
+PRT-755	Viseu	Portugal	PRT	District	Centro
+PRT-746	Lisboa	Portugal	PRT	District	Lisbon
+PRT-5498	Setúbal	Portugal	PRT	District	Lisbon
+PRT-749	Braga	Portugal	PRT	District	Norte
+PRT-750	Bragança	Portugal	PRT	District	Norte
+PRT-754	Porto	Portugal	PRT	District	Norte
+PRT-741	Viana do Castelo	Portugal	PRT	District	Norte
+PRT-756	Vila Real	Portugal	PRT	District	Norte
+PRT-739	Aveiro	Portugal	PRT	District	Norte, Centro
+SRB-125	Borski	Republic of Serbia	SRB	District	
+SRB-836	Grad Beograd	Republic of Serbia	SRB	City	
+SRB-1060	Južno-Banatski	Republic of Serbia	SRB	District	
+SRB-837	Kolubarski	Republic of Serbia	SRB	District	
+SRB-830	Nišavski	Republic of Serbia	SRB	District	
+SRB-121	Pirotski	Republic of Serbia	SRB	District	
+SRB-831	Podunavski	Republic of Serbia	SRB	District	
+SRB-832	Pomoravski	Republic of Serbia	SRB	District	
+SRB-834	Raški	Republic of Serbia	SRB	District	
+SRB-275	Severno-Banatski	Republic of Serbia	SRB	District	
+SRB-1061	Srednje-Banatski	Republic of Serbia	SRB	District	
+SRB-281	Sremski	Republic of Serbia	SRB	District	
+SRB-1505	Zlatiborski	Republic of Serbia	SRB	District	
+SRB-839	Šumadijski	Republic of Serbia	SRB	District	
+SRB-279	Branicevski	Republic of Serbia	SRB	District	Braničevski
+SRB-843	Jablanicki	Republic of Serbia	SRB	District	Jablanički
+SRB-1059	Južno-Backi	Republic of Serbia	SRB	District	Južno-Bački
+SRB-838	Macvanski	Republic of Serbia	SRB	District	Mačvanski
+SRB-829	Moravicki	Republic of Serbia	SRB	District	Moravički
+SRB-841	Pcinjski	Republic of Serbia	SRB	District	Pčinjski
+SRB-833	Pomoravski	Republic of Serbia	SRB	District	Rasinski
+SRB-274	Severno-Backi	Republic of Serbia	SRB	District	Severno-Bački
+SRB-835	Toplicki	Republic of Serbia	SRB	District	Toplički
+SRB-844	Zajecarski	Republic of Serbia	SRB	District	Zaječarski
+SRB-273	Zapadno-Backi	Republic of Serbia	SRB	District	Zapadno-Bački
+ROU-294	Alba	Romania	ROU	County	
+ROU-276	Arad	Romania	ROU	County	
+ROU-302	Arges	Romania	ROU	County	
+ROU-312	Bacau	Romania	ROU	County	
+ROU-277	Bihor	Romania	ROU	County	
+ROU-295	Bistrita-Nasaud	Romania	ROU	County	
+ROU-287	Botosani	Romania	ROU	County	
+ROU-313	Braila	Romania	ROU	County	
+ROU-305	Brasov	Romania	ROU	County	
+ROU-128	Bucharest	Romania	ROU	City	
+ROU-314	Buzau	Romania	ROU	County	
+ROU-129	Calarasi	Romania	ROU	County	
+ROU-278	Caras-Severin	Romania	ROU	County	
+ROU-296	Cluj	Romania	ROU	County	
+ROU-133	Constanta	Romania	ROU	County	
+ROU-306	Covasna	Romania	ROU	County	
+ROU-122	Dolj	Romania	ROU	County	
+ROU-130	Dâmbovita	Romania	ROU	County	
+ROU-315	Galati	Romania	ROU	County	
+ROU-131	Giurgiu	Romania	ROU	County	
+ROU-123	Gorj	Romania	ROU	County	
+ROU-307	Harghita	Romania	ROU	County	
+ROU-297	Hunedoara	Romania	ROU	County	
+ROU-132	Ialomita	Romania	ROU	County	
+ROU-308	Iasi	Romania	ROU	County	
+ROU-4844	Ilfov	Romania	ROU	County	
+ROU-298	Maramures	Romania	ROU	County	
+ROU-124	Mehedinti	Romania	ROU	County	
+ROU-299	Mures	Romania	ROU	County	
+ROU-309	Neamt	Romania	ROU	County	
+ROU-126	Olt	Romania	ROU	County	
+ROU-310	Prahova	Romania	ROU	County	
+ROU-300	Salaj	Romania	ROU	County	
+ROU-301	Satu Mare	Romania	ROU	County	
+ROU-303	Sibiu	Romania	ROU	County	
+ROU-311	Suceava	Romania	ROU	County	
+ROU-127	Teleorman	Romania	ROU	County	
+ROU-280	Timis	Romania	ROU	County	
+ROU-4847	Tulcea	Romania	ROU	County	
+ROU-316	Vaslui	Romania	ROU	County	
+ROU-317	Vrancea	Romania	ROU	County	
+ROU-304	Vâlcea	Romania	ROU	County	
+RUS-2342	Bryansk	Russia	RUS	Region	Central
+RUS-2343	Smolensk	Russia	RUS	Region	Central
+RUS-2358	Tver'	Russia	RUS	Region	Central
+RUS-2337	City of St. Petersburg	Russia	RUS	Federal City	Northwestern
+RUS-2324	Kaliningrad	Russia	RUS	Region	Northwestern
+RUS-2336	Leningrad	Russia	RUS	Region	Northwestern
+RUS-2334	Novgorod	Russia	RUS	Region	Northwestern
+RUS-2335	Pskov	Russia	RUS	Region	Northwestern
+RUS-283	Crimea	Russia	RUS	Autonomous Republic	Volga
+SMR-4883	Borgo Maggiore	San Marino	SMR		
+SMR-4884	San Marino	San Marino	SMR		
+SMR-4886	Serravalle	San Marino	SMR		
+SVK-1052	Banskobystrický	Slovakia	SVK	Region	
+SVK-1051	Bratislavský	Slovakia	SVK	Region	
+SVK-1057	Košický	Slovakia	SVK	Region	
+SVK-1054	Nitriansky	Slovakia	SVK	Region	
+SVK-1058	Prešov	Slovakia	SVK	Region	
+SVK-1055	Trenciansky	Slovakia	SVK	Region	
+SVK-1056	Trnavský	Slovakia	SVK	Region	
+SVK-1053	Žilinský	Slovakia	SVK	Region	
+SVN-1008	Bled	Slovenia	SVN	Commune|Municipality	Gorenjska
+SVN-1009	Bohinj	Slovenia	SVN	Commune|Municipality	Gorenjska
+SVN-942	Cerklje na Gorenjskem	Slovenia	SVN	Commune|Municipality	Gorenjska
+SVN-1011	Gorenja vas-Poljane	Slovenia	SVN	Commune|Municipality	Gorenjska
+SVN-258	Jesenice	Slovenia	SVN	Commune|Municipality	Gorenjska
+SVN-237	Jezersko	Slovenia	SVN	Commune|Municipality	Gorenjska
+SVN-1013	Kranj	Slovenia	SVN	Commune|Municipality	Gorenjska
+SVN-1014	Kranjska Gora	Slovenia	SVN	Commune|Municipality	Gorenjska
+SVN-1015	Naklo	Slovenia	SVN	Commune|Municipality	Gorenjska
+SVN-215	Preddvor	Slovenia	SVN	Commune|Municipality	Gorenjska
+SVN-1016	Radovljica	Slovenia	SVN	Statistical Region	Gorenjska
+SVN-1019	Tržič	Slovenia	SVN	Commune|Municipality	Gorenjska
+SVN-985	Šenčur	Slovenia	SVN	Commune|Municipality	Gorenjska
+SVN-1017	Škofja Loka	Slovenia	SVN	Commune|Municipality	Gorenjska
+SVN-1020	Železniki	Slovenia	SVN	Commune|Municipality	Gorenjska
+SVN-1021	Žiri	Slovenia	SVN	Commune|Municipality	Gorenjska
+SVN-259	Žirovnica	Slovenia	SVN	Commune|Municipality	Gorenjska
+SVN-1022	Ajdovščina	Slovenia	SVN	Commune|Municipality	Goriška
+SVN-1023	Bovec	Slovenia	SVN	Commune|Municipality	Goriška
+SVN-1024	Brda	Slovenia	SVN	Commune|Municipality	Goriška
+SVN-1010	Cerkno	Slovenia	SVN	Commune|Municipality	Goriška
+SVN-1012	Idrija	Slovenia	SVN	Commune|Municipality	Goriška
+SVN-1028	Kanal	Slovenia	SVN	Commune|Municipality	Goriška
+SVN-1029	Kobarid	Slovenia	SVN	Commune|Municipality	Goriška
+SVN-1032	Miren-Kostanjevica	Slovenia	SVN	Commune|Municipality	Goriška
+SVN-260	Nova Goriška	Slovenia	SVN	Statistical Region	Goriška
+SVN-1018	Tolmin	Slovenia	SVN	Commune|Municipality	Goriška
+SVN-1035	Vipava	Slovenia	SVN	Commune|Municipality	Goriška
+SVN-261	Šempeter-Vrtojba	Slovenia	SVN	Commune|Municipality	Goriška
+SVN-945	Crnomelj	Slovenia	SVN	Commune|Municipality	Jugovzhodna Slovenija
+SVN-249	Dolenjske Toplice	Slovenia	SVN	Statistical Region	Jugovzhodna Slovenija
+SVN-207	Kocevje	Slovenia	SVN	Commune|Municipality	Jugovzhodna Slovenija
+SVN-245	Kostel	Slovenia	SVN	Commune|Municipality	Jugovzhodna Slovenija
+SVN-965	Loški Potok	Slovenia	SVN	Commune|Municipality	Jugovzhodna Slovenija
+SVN-969	Metlika	Slovenia	SVN	Commune|Municipality	Jugovzhodna Slovenija
+SVN-242	Mirna Pec	Slovenia	SVN	Commune|Municipality	Jugovzhodna Slovenija
+SVN-212	Novo Mesto	Slovenia	SVN	Commune|Municipality	Jugovzhodna Slovenija
+SVN-218	Ribnica	Slovenia	SVN	Commune|Municipality	Jugovzhodna Slovenija
+SVN-984	Semic	Slovenia	SVN	Commune|Municipality	Jugovzhodna Slovenija
+SVN-248	Sodražica	Slovenia	SVN	Commune|Municipality	Jugovzhodna Slovenija
+SVN-999	Trebnje	Slovenia	SVN	Commune|Municipality	Jugovzhodna Slovenija
+SVN-987	Šentjernej	Slovenia	SVN	Commune|Municipality	Jugovzhodna Slovenija
+SVN-989	Škocjan	Slovenia	SVN	Commune|Municipality	Jugovzhodna Slovenija
+SVN-238	Žužemberk	Slovenia	SVN	Commune|Municipality	Jugovzhodna Slovenija
+SVN-947	Dravograd	Slovenia	SVN	Commune|Municipality	Koroška
+SVN-970	Mežica	Slovenia	SVN	Commune|Municipality	Koroška
+SVN-971	Mislinja	Slovenia	SVN	Commune|Municipality	Koroška
+SVN-974	Muta	Slovenia	SVN	Commune|Municipality	Koroška
+SVN-214	Podvelka	Slovenia	SVN	Commune|Municipality	Koroška
+SVN-233	Prevalje	Slovenia	SVN	Commune|Municipality	Koroška
+SVN-981	Radlje ob Dravi	Slovenia	SVN	Commune|Municipality	Koroška
+SVN-217	Ravne na Koroškem	Slovenia	SVN	Commune|Municipality	Koroška
+SVN-257	Ribnica na Pohorju	Slovenia	SVN	Commune|Municipality	Koroška
+SVN-991	Slovenj Gradec	Slovenia	SVN	Statistical Region	Koroška
+SVN-1005	Vuzenica	Slovenia	SVN	Commune|Municipality	Koroška
+SVN-944	Črna na Koroškem	Slovenia	SVN	Commune|Municipality	Koroška
+SVN-254	Bloke	Slovenia	SVN	Commune|Municipality	Notranjsko-kraška
+SVN-943	Cerknica	Slovenia	SVN	Commune|Municipality	Notranjsko-kraška
+SVN-954	Ilirska Bistrica	Slovenia	SVN	Commune|Municipality	Notranjsko-kraška
+SVN-209	Loška dolina	Slovenia	SVN	Commune|Municipality	Notranjsko-kraška
+SVN-977	Pivka	Slovenia	SVN	Statistical Region	Notranjsko-kraška
+SVN-978	Postojna	Slovenia	SVN	Commune|Municipality	Notranjsko-kraška
+SVN-1025	Divaca	Slovenia	SVN	Commune|Municipality	Obalno-kraška
+SVN-1026	Hrpelje-Kozina	Slovenia	SVN	Commune|Municipality	Obalno-kraška
+SVN-1027	Izola	Slovenia	SVN	Commune|Municipality	Obalno-kraška
+SVN-1030	Komen	Slovenia	SVN	Commune|Municipality	Obalno-kraška
+SVN-1031	Koper	Slovenia	SVN	Commune|Municipality	Obalno-kraška
+SVN-1033	Piran	Slovenia	SVN	Commune|Municipality	Obalno-kraška
+SVN-1034	Sežana	Slovenia	SVN	Commune|Municipality	Obalno-kraška
+SVN-937	Borovnica	Slovenia	SVN	Commune|Municipality	Osrednjeslovenska
+SVN-940	Brezovica	Slovenia	SVN	Commune|Municipality	Osrednjeslovenska
+SVN-253	Dobrepolje	Slovenia	SVN	Commune|Municipality	Osrednjeslovenska
+SVN-204	Dobrova-Polhov Gradec	Slovenia	SVN	Commune|Municipality	Osrednjeslovenska
+SVN-946	Dol pri Ljubljani	Slovenia	SVN	Commune|Municipality	Osrednjeslovenska
+SVN-205	Domžale	Slovenia	SVN	Commune|Municipality	Osrednjeslovenska
+SVN-950	Grosuplje	Slovenia	SVN	Commune|Municipality	Osrednjeslovenska
+SVN-250	Horjul	Slovenia	SVN	Commune|Municipality	Osrednjeslovenska
+SVN-953	Ig	Slovenia	SVN	Commune|Municipality	Osrednjeslovenska
+SVN-955	Ivancna Gorica	Slovenia	SVN	Commune|Municipality	Osrednjeslovenska
+SVN-206	Kamnik	Slovenia	SVN	Commune|Municipality	Osrednjeslovenska
+SVN-225	Komenda	Slovenia	SVN	Commune|Municipality	Osrednjeslovenska
+SVN-961	Litija	Slovenia	SVN	Commune|Municipality	Osrednjeslovenska
+SVN-962	Ljubljana	Slovenia	SVN	Statistical Region	Osrednjeslovenska
+SVN-964	Logatec	Slovenia	SVN	Commune|Municipality	Osrednjeslovenska
+SVN-966	Lukovica	Slovenia	SVN	Commune|Municipality	Osrednjeslovenska
+SVN-967	Medvode	Slovenia	SVN	Commune|Municipality	Osrednjeslovenska
+SVN-968	Mengeš	Slovenia	SVN	Commune|Municipality	Osrednjeslovenska
+SVN-972	Moravce	Slovenia	SVN	Commune|Municipality	Osrednjeslovenska
+SVN-236	Trzin	Slovenia	SVN	Commune|Municipality	Osrednjeslovenska
+SVN-1000	Velike Lašče	Slovenia	SVN	Commune|Municipality	Osrednjeslovenska
+SVN-1003	Vodice	Slovenia	SVN	Commune|Municipality	Osrednjeslovenska
+SVN-1004	Vrhnika	Slovenia	SVN	Commune|Municipality	Osrednjeslovenska
+SVN-990	Škofljica	Slovenia	SVN	Commune|Municipality	Osrednjeslovenska
+SVN-5885	Šmartno in Litiji	Slovenia	SVN	Commune|Municipality	Osrednjeslovenska
+SVN-199	Benedikt	Slovenia	SVN	Commune|Municipality	Podravska
+SVN-198	Cerkvenjak	Slovenia	SVN	Commune|Municipality	Podravska
+SVN-203	Destrnik	Slovenia	SVN	Commune|Municipality	Podravska
+SVN-1040	Dornava	Slovenia	SVN	Commune|Municipality	Podravska
+SVN-948	Duplek	Slovenia	SVN	Commune|Municipality	Podravska
+SVN-1041	Gorišnica	Slovenia	SVN	Commune|Municipality	Podravska
+SVN-227	Hajdina	Slovenia	SVN	Commune|Municipality	Podravska
+SVN-229	Hoce-Slivnica	Slovenia	SVN	Commune|Municipality	Podravska
+SVN-1042	Juršinci	Slovenia	SVN	Commune|Municipality	Podravska
+SVN-956	Kidricevo	Slovenia	SVN	Commune|Municipality	Podravska
+SVN-959	Kungota	Slovenia	SVN	Commune|Municipality	Podravska
+SVN-208	Lenart	Slovenia	SVN	Commune|Municipality	Podravska
+SVN-235	Lovrenc na Pohorju	Slovenia	SVN	Commune|Municipality	Podravska
+SVN-211	Majšperk	Slovenia	SVN	Commune|Municipality	Podravska
+SVN-256	Maribor	Slovenia	SVN	Commune|Municipality	Podravska
+SVN-272	Markovci	Slovenia	SVN	Commune|Municipality	Podravska
+SVN-228	Miklavž na Dravskem polju	Slovenia	SVN	Commune|Municipality	Podravska
+SVN-226	Oplotnica	Slovenia	SVN	Commune|Municipality	Podravska
+SVN-976	Pesnica	Slovenia	SVN	Commune|Municipality	Podravska
+SVN-232	Podlehnik	Slovenia	SVN	Commune|Municipality	Podravska
+SVN-216	Ptuj	Slovenia	SVN	Commune|Municipality	Podravska
+SVN-979	Race-Fram	Slovenia	SVN	Commune|Municipality	Podravska
+SVN-219	Ruše	Slovenia	SVN	Commune|Municipality	Podravska
+SVN-234	Selnica ob Dravi	Slovenia	SVN	Commune|Municipality	Podravska
+SVN-221	Slovenska Bistrica	Slovenia	SVN	Commune|Municipality	Podravska
+SVN-996	Starše	Slovenia	SVN	Statistical Region	Podravska
+SVN-200	Sveta Ana	Slovenia	SVN	Commune|Municipality	Podravska
+SVN-268	Sveti Andraž v Slovenskih Goricah	Slovenia	SVN	Commune|Municipality	Podravska
+SVN-230	Trnovska vas	Slovenia	SVN	Commune|Municipality	Podravska
+SVN-222	Videm	Slovenia	SVN	Commune|Municipality	Podravska
+SVN-1050	Zavrc	Slovenia	SVN	Commune|Municipality	Podravska
+SVN-986	Šentilj	Slovenia	SVN	Commune|Municipality	Podravska
+SVN-231	Žetale	Slovenia	SVN	Commune|Municipality	Podravska
+SVN-5884	Apace	Slovenia	SVN	Commune|Municipality	Pomurska
+SVN-1039	Beltinci	Slovenia	SVN	Commune|Municipality	Pomurska
+SVN-926	Cankova	Slovenia	SVN	Commune|Municipality	Pomurska
+SVN-271	Dobrovnik	Slovenia	SVN	Commune|Municipality	Pomurska
+SVN-927	Gornja Radgona	Slovenia	SVN	Commune|Municipality	Pomurska
+SVN-928	Gornji Petrovci	Slovenia	SVN	Commune|Municipality	Pomurska
+SVN-202	Grad	Slovenia	SVN	Commune|Municipality	Pomurska
+SVN-201	Hodoš	Slovenia	SVN	Commune|Municipality	Pomurska
+SVN-1043	Kobilje	Slovenia	SVN	Commune|Municipality	Pomurska
+SVN-266	Križevci	Slovenia	SVN	Commune|Municipality	Pomurska
+SVN-197	Kuzma	Slovenia	SVN	Commune|Municipality	Pomurska
+SVN-264	Lendava	Slovenia	SVN	Commune|Municipality	Pomurska
+SVN-265	Ljutomer	Slovenia	SVN	Commune|Municipality	Pomurska
+SVN-1044	Moravske Toplice	Slovenia	SVN	Commune|Municipality	Pomurska
+SVN-1045	Murska Sobota	Slovenia	SVN	Statistical Region	Pomurska
+SVN-1047	Ormož	Slovenia	SVN	Commune|Municipality	Pomurska
+SVN-929	Puconci	Slovenia	SVN	Commune|Municipality	Pomurska
+SVN-930	Radenci	Slovenia	SVN	Commune|Municipality	Pomurska
+SVN-931	Rogašovci	Slovenia	SVN	Commune|Municipality	Pomurska
+SVN-1048	Sveti Jurij	Slovenia	SVN	Commune|Municipality	Pomurska
+SVN-1049	Turnišče	Slovenia	SVN	Commune|Municipality	Pomurska
+SVN-270	Velika Polana	Slovenia	SVN	Commune|Municipality	Pomurska
+SVN-267	Veržej	Slovenia	SVN	Commune|Municipality	Pomurska
+SVN-263	Črenšovci	Slovenia	SVN	Commune|Municipality	Pomurska
+SVN-196	Šalovci	Slovenia	SVN	Commune|Municipality	Pomurska
+SVN-213	Bistrica ob Sotli	Slovenia	SVN	Commune|Municipality	Savinjska
+SVN-247	Braslovce	Slovenia	SVN	Commune|Municipality	Savinjska
+SVN-941	Celje	Slovenia	SVN	Commune|Municipality	Savinjska
+SVN-252	Dobje	Slovenia	SVN	Commune|Municipality	Savinjska
+SVN-239	Dobrna	Slovenia	SVN	Commune|Municipality	Savinjska
+SVN-949	Gornji Grad	Slovenia	SVN	Commune|Municipality	Savinjska
+SVN-957	Kozje	Slovenia	SVN	Commune|Municipality	Savinjska
+SVN-960	Laško	Slovenia	SVN	Commune|Municipality	Savinjska
+SVN-963	Ljubno	Slovenia	SVN	Commune|Municipality	Savinjska
+SVN-210	Luce	Slovenia	SVN	Commune|Municipality	Savinjska
+SVN-973	Mozirje	Slovenia	SVN	Commune|Municipality	Savinjska
+SVN-975	Nazarje	Slovenia	SVN	Commune|Municipality	Savinjska
+SVN-255	Podcetrtek	Slovenia	SVN	Commune|Municipality	Savinjska
+SVN-244	Polzela	Slovenia	SVN	Commune|Municipality	Savinjska
+SVN-243	Prebold	Slovenia	SVN	Commune|Municipality	Savinjska
+SVN-980	Radece	Slovenia	SVN	Commune|Municipality	Savinjska
+SVN-983	Rogatec	Slovenia	SVN	Commune|Municipality	Savinjska
+SVN-982	Rogaška Slatina	Slovenia	SVN	Commune|Municipality	Savinjska
+SVN-992	Slovenske Konjice	Slovenia	SVN	Commune|Municipality	Savinjska
+SVN-251	Solcava	Slovenia	SVN	Commune|Municipality	Savinjska
+SVN-240	Tabor	Slovenia	SVN	Commune|Municipality	Savinjska
+SVN-1001	Velenje	Slovenia	SVN	Commune|Municipality	Savinjska
+SVN-1002	Vitanje	Slovenia	SVN	Commune|Municipality	Savinjska
+SVN-223	Vojnik	Slovenia	SVN	Commune|Municipality	Savinjska
+SVN-241	Vransko	Slovenia	SVN	Commune|Municipality	Savinjska
+SVN-1007	Zrece	Slovenia	SVN	Commune|Municipality	Savinjska
+SVN-220	Šentjur pri Celju	Slovenia	SVN	Commune|Municipality	Savinjska
+SVN-993	Šmarje pri Jelšah	Slovenia	SVN	Commune|Municipality	Savinjska
+SVN-994	Šmartno ob Paki	Slovenia	SVN	Commune|Municipality	Savinjska
+SVN-995	Šoštanj	Slovenia	SVN	Commune|Municipality	Savinjska
+SVN-997	Štore	Slovenia	SVN	Commune|Municipality	Savinjska
+SVN-224	Žalec	Slovenia	SVN	Statistical Region	Savinjska
+SVN-938	Brežice	Slovenia	SVN	Commune|Municipality	Spodnjeposavska
+SVN-958	Krško	Slovenia	SVN	Statistical Region	Spodnjeposavska
+SVN-988	Sevnica	Slovenia	SVN	Commune|Municipality	Spodnjeposavska
+SVN-951	Hrastnik	Slovenia	SVN	Commune|Municipality	Zasavska
+SVN-952	Trbovlje	Slovenia	SVN	Statistical Region	Zasavska
+SVN-1006	Zasavska	Slovenia	SVN	Statistical Region	Zasavska
+ESP-5804	Almería	Spain	ESP	Autonomous Community	Andalucía
+ESP-5812	Cádiz	Spain	ESP	Autonomous Community	Andalucía
+ESP-5817	Córdoba	Spain	ESP	Autonomous Community	Andalucía
+ESP-5821	Granada	Spain	ESP	Autonomous Community	Andalucía
+ESP-5824	Huelva	Spain	ESP	Autonomous Community	Andalucía
+ESP-5826	Jaén	Spain	ESP	Autonomous Community	Andalucía
+ESP-5834	Málaga	Spain	ESP	Autonomous Community	Andalucía
+ESP-5844	Sevilla	Spain	ESP	Autonomous Community	Andalucía
+ESP-5825	Huesca	Spain	ESP	Autonomous Community	Aragón
+ESP-5847	Teruel	Spain	ESP	Autonomous Community	Aragón
+ESP-5853	Zaragoza	Spain	ESP	Autonomous Community	Aragón
+ESP-5805	Asturias	Spain	ESP	Autonomous Community	Asturias
+ESP-5813	Cantabria	Spain	ESP	Autonomous Community	Cantabria
+ESP-5810	Burgos	Spain	ESP	Autonomous Community	Castilla y León
+ESP-5830	León	Spain	ESP	Autonomous Community	Castilla y León
+ESP-5839	Palencia	Spain	ESP	Autonomous Community	Castilla y León
+ESP-5841	Salamanca	Spain	ESP	Autonomous Community	Castilla y León
+ESP-5843	Segovia	Spain	ESP	Autonomous Community	Castilla y León
+ESP-5845	Soria	Spain	ESP	Autonomous Community	Castilla y León
+ESP-5850	Valladolid	Spain	ESP	Autonomous Community	Castilla y León
+ESP-5852	Zamora	Spain	ESP	Autonomous Community	Castilla y León
+ESP-5806	Ávila	Spain	ESP	Autonomous Community	Castilla y León
+ESP-5802	Albacete	Spain	ESP	Autonomous Community	Castilla-La Mancha
+ESP-5816	Ciudad Real	Spain	ESP	Autonomous Community	Castilla-La Mancha
+ESP-5818	Cuenca	Spain	ESP	Autonomous Community	Castilla-La Mancha
+ESP-5822	Guadalajara	Spain	ESP	Autonomous Community	Castilla-La Mancha
+ESP-5848	Toledo	Spain	ESP	Autonomous Community	Castilla-La Mancha
+ESP-5809	Barcelona	Spain	ESP	Autonomous Community	Cataluña
+ESP-5820	Gerona	Spain	ESP	Autonomous Community	Cataluña
+ESP-5831	Lérida	Spain	ESP	Autonomous Community	Cataluña
+ESP-5846	Tarragona	Spain	ESP	Autonomous Community	Cataluña
+ESP-5815	Ceuta	Spain	ESP	Autonomous City	Ceuta
+ESP-5807	Badajoz	Spain	ESP	Autonomous Community	Extremadura
+ESP-5811	Cáceres	Spain	ESP	Autonomous Community	Extremadura
+ESP-5837	Navarra	Spain	ESP	Autonomous Community	Foral de Navarra
+ESP-5827	La Coruña	Spain	ESP	Autonomous Community	Galicia
+ESP-5832	Lugo	Spain	ESP	Autonomous Community	Galicia
+ESP-5838	Orense	Spain	ESP	Autonomous Community	Galicia
+ESP-5840	Pontevedra	Spain	ESP	Autonomous Community	Galicia
+ESP-5808	Baleares	Spain	ESP	Autonomous Community	Islas Baleares
+ESP-5828	La Rioja	Spain	ESP	Autonomous Community	La Rioja
+ESP-5833	Madrid	Spain	ESP	Autonomous Community	Madrid
+ESP-5835	Melilla	Spain	ESP	Autonomous City	Melilla
+ESP-5836	Murcia	Spain	ESP	Autonomous Community	Murcia
+ESP-5851	Bizkaia	Spain	ESP	Autonomous Community	País Vasco
+ESP-5823	Gipuzkoa	Spain	ESP	Autonomous Community	País Vasco
+ESP-5801	Álava	Spain	ESP	Autonomous Community	País Vasco
+ESP-5803	Alicante	Spain	ESP	Autonomous Community	Valenciana
+ESP-5814	Castellón	Spain	ESP	Autonomous Community	Valenciana
+ESP-5849	Valencia	Spain	ESP	Autonomous Community	Valenciana
+SWE-262	Blekinge	Sweden	SWE	County	
+SWE-181	Dalarna	Sweden	SWE	County	
+SWE-193	Gotland	Sweden	SWE	County	
+SWE-187	Halland	Sweden	SWE	County	
+SWE-179	Jönköping	Sweden	SWE	County	
+SWE-180	Kalmar	Sweden	SWE	County	
+SWE-182	Kronoberg	Sweden	SWE	County	
+SWE-183	Orebro	Sweden	SWE	County	
+SWE-3429	Skåne	Sweden	SWE	County	
+SWE-194	Stockholm	Sweden	SWE	County	
+SWE-185	Södermanland	Sweden	SWE	County	
+SWE-195	Uppsala	Sweden	SWE	County	
+SWE-188	Värmland	Sweden	SWE	County	
+SWE-186	Västmanland	Sweden	SWE	County	
+SWE-3428	Västra Götaland	Sweden	SWE	County	
+SWE-184	Östergötland	Sweden	SWE	County	
+TUN-104	Ben Arous (Tunis Sud)	Tunisia	TUN	Governorate	
+TUN-105	Bizerte	Tunisia	TUN	Governorate	
+TUN-103	Béja	Tunisia	TUN	Governorate	
+TUN-106	Jendouba	Tunisia	TUN	Governorate	
+TUN-118	Kairouan	Tunisia	TUN	Governorate	
+TUN-110	Kassérine	Tunisia	TUN	Governorate	
+TUN-109	Le Kef	Tunisia	TUN	Governorate	
+TUN-116	Mahdia	Tunisia	TUN	Governorate	
+TUN-102	Manubah	Tunisia	TUN	Governorate	
+TUN-117	Monastir	Tunisia	TUN	Governorate	
+TUN-107	Nabeul	Tunisia	TUN	Governorate	
+TUN-114	Sfax	Tunisia	TUN	Governorate	
+TUN-113	Sidi Bou Zid	Tunisia	TUN	Governorate	
+TUN-115	Siliana	Tunisia	TUN	Governorate	
+TUN-119	Sousse	Tunisia	TUN	Governorate	
+TUN-108	Tunis	Tunisia	TUN	Governorate	
+TUN-120	Zaghouan	Tunisia	TUN	Governorate	
+TUR-2272	Afyonkarahisar	Turkey	TUR	Province	
+TUR-3008	Ankara	Turkey	TUR	Province	
+TUR-2271	Antalya	Turkey	TUR	Province	
+TUR-2229	Aydin	Turkey	TUR	Province	
+TUR-2238	Balikesir	Turkey	TUR	Province	
+TUR-5521	Bartın	Turkey	TUR	Province	
+TUR-2263	Bilecik	Turkey	TUR	Province	
+TUR-2268	Bolu	Turkey	TUR	Province	
+TUR-2273	Burdur	Turkey	TUR	Province	
+TUR-2264	Bursa	Turkey	TUR	Province	
+TUR-2274	Denizli	Turkey	TUR	Province	
+TUR-5519	Düzce	Turkey	TUR	Province	
+TUR-2240	Edirne	Turkey	TUR	Province	
+TUR-2269	Eskisehir	Turkey	TUR	Province	
+TUR-2275	Isparta	Turkey	TUR	Province	
+TUR-2265	Istanbul	Turkey	TUR	Province	
+TUR-2230	Izmir	Turkey	TUR	Province	
+TUR-5520	Karabük	Turkey	TUR	Province	
+TUR-3012	Karaman	Turkey	TUR	Province	
+TUR-2270	Kastamonu	Turkey	TUR	Province	
+TUR-2241	Kirklareli	Turkey	TUR	Province	
+TUR-2266	Kocaeli	Turkey	TUR	Province	
+TUR-3011	Konya	Turkey	TUR	Province	
+TUR-2276	Kütahya	Turkey	TUR	Province	
+TUR-2277	Manisa	Turkey	TUR	Province	
+TUR-2285	Mersin	Turkey	TUR	Province	
+TUR-2278	Mugla	Turkey	TUR	Province	
+TUR-2267	Sakarya	Turkey	TUR	Province	
+TUR-2242	Tekirdag	Turkey	TUR	Province	
+TUR-3014	Usak	Turkey	TUR	Province	
+TUR-5518	Yalova	Turkey	TUR	Province	
+TUR-3010	Zinguldak	Turkey	TUR	Province	
+TUR-2239	Çanakkale	Turkey	TUR	Province	
+TUR-3009	Çankiri	Turkey	TUR	Province	
+UKR-319	Cherkasy	Ukraine	UKR	Region	
+UKR-285	Chernihiv	Ukraine	UKR	Region	
+UKR-288	Chernivtsi	Ukraine	UKR	Region	
+UKR-326	Dnipropetrovs'k	Ukraine	UKR	Region	
+UKR-289	Ivano-Frankivs'k	Ukraine	UKR	Region	
+UKR-4827	Kherson	Ukraine	UKR		
+UKR-290	Khmel'nyts'kyy	Ukraine	UKR	Region	
+UKR-321	Kiev	Ukraine	UKR	Region	
+UKR-4826	Kiev City	Ukraine	UKR	Municipality	
+UKR-320	Kirovohrad	Ukraine	UKR	Region	
+UKR-291	L'viv	Ukraine	UKR	Region	
+UKR-284	Mykolayiv	Ukraine	UKR	Region	
+UKR-322	Odessa	Ukraine	UKR	Region	
+UKR-330	Poltava	Ukraine	UKR	Region	
+UKR-286	Rivne	Ukraine	UKR	Region	
+UKR-325	Sumy	Ukraine	UKR	Region	
+UKR-292	Ternopil'	Ukraine	UKR	Region	
+UKR-293	Transcarpathia	Ukraine	UKR	Region	
+UKR-323	Vinnytsya	Ukraine	UKR	Region	
+UKR-318	Volyn	Ukraine	UKR	Region	
+UKR-324	Zhytomyr	Ukraine	UKR	Region	
+GBR-5698	Bedford	United Kingdom	GBR	Unitary Authority	East
+GBR-2053	Cambridgeshire	United Kingdom	GBR	Administrative County	East
+GBR-5697	Central Bedfordshire	United Kingdom	GBR	Unitary Authority	East
+GBR-2317	Essex	United Kingdom	GBR	Administrative County	East
+GBR-2042	Hertfordshire	United Kingdom	GBR	Administrative County	East
+GBR-2752	Luton	United Kingdom	GBR	Unitary Authority	East
+GBR-2319	Norfolk	United Kingdom	GBR	Administrative County	East
+GBR-2760	Peterborough	United Kingdom	GBR	Unitary Authority	East
+GBR-2679	Southend-on-Sea	United Kingdom	GBR	Unitary Authority	East
+GBR-2318	Suffolk	United Kingdom	GBR	Administrative County	East
+GBR-2676	Thurrock	United Kingdom	GBR	Unitary Authority	East
+GBR-2058	Derby	United Kingdom	GBR	Unitary Authority	East Midlands
+GBR-2059	Derbyshire	United Kingdom	GBR	Administrative County	East Midlands
+GBR-2761	Leicester	United Kingdom	GBR	Unitary Authority	East Midlands
+GBR-2054	Leicestershire	United Kingdom	GBR	Kingdom	East Midlands
+GBR-2081	Lincolnshire	United Kingdom	GBR	Administrative County	East Midlands
+GBR-2749	Northamptonshire	United Kingdom	GBR	Administrative County	East Midlands
+GBR-2763	Nottingham	United Kingdom	GBR	Unitary Authority	East Midlands
+GBR-2764	Nottinghamshire	United Kingdom	GBR	Administrative County	East Midlands
+GBR-2762	Rutland	United Kingdom	GBR	Unitary Authority	East Midlands
+GBR-2128	Anglesey	United Kingdom	GBR	Unitary Authority (wales)	East Wales
+GBR-2131	Blaenau Gwent	United Kingdom	GBR	Unitary Authority (wales)	East Wales
+GBR-2112	Bridgend	United Kingdom	GBR	Unitary Authority (wales)	East Wales
+GBR-2113	Caerphilly	United Kingdom	GBR	Unitary Authority (wales)	East Wales
+GBR-2104	Carmarthenshire	United Kingdom	GBR	Unitary Authority (wales)	East Wales
+GBR-2105	Ceredigion	United Kingdom	GBR	Principality	East Wales
+GBR-2129	Conwy	United Kingdom	GBR	Unitary Authority (wales)	East Wales
+GBR-2125	Denbighshire	United Kingdom	GBR	Unitary Authority (wales)	East Wales
+GBR-2130	Gwynedd	United Kingdom	GBR	Unitary Authority (wales)	East Wales
+GBR-2114	Merthyr Tydfil	United Kingdom	GBR	Unitary Authority (wales)	East Wales
+GBR-2118	Neath Port Talbot	United Kingdom	GBR	Unitary Authority (wales)	East Wales
+GBR-2106	Pembrokeshire	United Kingdom	GBR	Unitary Authority (wales)	East Wales
+GBR-2115	Rhondda, Cynon, Taff	United Kingdom	GBR	Unitary Authority (wales)	East Wales
+GBR-2119	Swansea	United Kingdom	GBR	Unitary Authority (wales)	East Wales
+GBR-2134	Torfaen	United Kingdom	GBR	Unitary Authority (wales)	East Wales
+GBR-2019	Angus	United Kingdom	GBR	Unitary District	Eastern
+GBR-2017	Clackmannanshire	United Kingdom	GBR	Unitary District	Eastern
+GBR-2020	Dundee	United Kingdom	GBR	Unitary District (city)	Eastern
+GBR-2022	East Lothian	United Kingdom	GBR	Unitary District	Eastern
+GBR-2023	Edinburgh	United Kingdom	GBR	Unitary District (city)	Eastern
+GBR-2015	Falkirk	United Kingdom	GBR	Unitary District	Eastern
+GBR-2021	Fife	United Kingdom	GBR	Unitary District	Eastern
+GBR-2024	Midlothian	United Kingdom	GBR	Unitary District	Eastern
+GBR-2018	Perthshire and Kinross	United Kingdom	GBR	Unitary District	Eastern
+GBR-2026	Scottish Borders	United Kingdom	GBR	Unitary District	Eastern
+GBR-2016	Stirling	United Kingdom	GBR	Unitary District	Eastern
+GBR-2025	West Lothian	United Kingdom	GBR	Unitary District	Eastern
+GBR-2060	Barking and Dagenham	United Kingdom	GBR	London Borough	Greater London
+GBR-5705	Barnet	United Kingdom	GBR	London Borough	Greater London
+GBR-2061	Bexley	United Kingdom	GBR	London Borough	Greater London
+GBR-2062	Brent	United Kingdom	GBR	London Borough	Greater London
+GBR-2063	Bromley	United Kingdom	GBR	London Borough	Greater London
+GBR-2064	Camden	United Kingdom	GBR	London Borough	Greater London
+GBR-2065	Croydon	United Kingdom	GBR	London Borough	Greater London
+GBR-2066	Ealing	United Kingdom	GBR	London Borough	Greater London
+GBR-2067	Enfield	United Kingdom	GBR	London Borough	Greater London
+GBR-2068	Greenwich	United Kingdom	GBR	London Borough (royal)	Greater London
+GBR-2765	Hackney	United Kingdom	GBR	London Borough	Greater London
+GBR-2069	Hammersmith and Fulham	United Kingdom	GBR	London Borough	Greater London
+GBR-2766	Haringey	United Kingdom	GBR	London Borough	Greater London
+GBR-2767	Harrow	United Kingdom	GBR	London Borough	Greater London
+GBR-2675	Havering	United Kingdom	GBR	London Borough	Greater London
+GBR-2753	Hillingdon	United Kingdom	GBR	London Borough	Greater London
+GBR-2070	Hounslow	United Kingdom	GBR	London Borough	Greater London
+GBR-2071	Islington	United Kingdom	GBR	London Borough	Greater London
+GBR-2072	Kensington and Chelsea	United Kingdom	GBR	London Borough (royal)	Greater London
+GBR-2754	Kingston upon Thames	United Kingdom	GBR	London Borough (royal)	Greater London
+GBR-2768	Lambeth	United Kingdom	GBR	London Borough	Greater London
+GBR-2769	Lewisham	United Kingdom	GBR	London Borough	Greater London
+GBR-2073	Merton	United Kingdom	GBR	London Borough	Greater London
+GBR-2770	Newham	United Kingdom	GBR	London Borough	Greater London
+GBR-2074	Redbridge	United Kingdom	GBR	London Borough	Greater London
+GBR-2075	Richmond upon Thames	United Kingdom	GBR	London Borough	Greater London
+GBR-2771	Southwark	United Kingdom	GBR	London Borough	Greater London
+GBR-2076	Sutton	United Kingdom	GBR	London Borough	Greater London
+GBR-2077	Tower Hamlets	United Kingdom	GBR	London Borough	Greater London
+GBR-2078	Waltham Forest	United Kingdom	GBR	London Borough	Greater London
+GBR-2079	Wandsworth	United Kingdom	GBR	London Borough	Greater London
+GBR-2080	Westminster	United Kingdom	GBR	London Borough (city)	Greater London
+GBR-2746	Argyll and Bute	United Kingdom	GBR	Unitary District	Highlands and Islands
+GBR-2772	Eilean Siar	United Kingdom	GBR	Island Area	Highlands and Islands
+GBR-2745	Highland	United Kingdom	GBR	Unitary District	Highlands and Islands
+GBR-2014	Moray	United Kingdom	GBR	Unitary District	Highlands and Islands
+GBR-2744	Orkney	United Kingdom	GBR	Unitary District	Highlands and Islands
+GBR-2747	Shetland Islands	United Kingdom	GBR	Unitary District (city)	Highlands and Islands
+GBR-2028	Darlington	United Kingdom	GBR	Unitary Authority	North East
+GBR-2029	Durham	United Kingdom	GBR	Unitary Single-Tier County	North East
+GBR-5665	Gateshead	United Kingdom	GBR	Metropolitan Borough	North East
+GBR-2030	Hartlepool	United Kingdom	GBR	Unitary Authority	North East
+GBR-2031	Middlesbrough	United Kingdom	GBR	Unitary Authority	North East
+GBR-5661	Newcastle upon Tyne	United Kingdom	GBR	Metropolitan Borough	North East
+GBR-5662	North Tyneside	United Kingdom	GBR	Metropolitan Borough	North East
+GBR-2034	Northumberland	United Kingdom	GBR	Unitary Single-Tier County	North East
+GBR-2032	Redcar and Cleveland	United Kingdom	GBR	Unitary Authority	North East
+GBR-5663	South Tyneside	United Kingdom	GBR	Metropolitan Borough	North East
+GBR-2033	Stockton-on-Tees	United Kingdom	GBR	Unitary Authority	North East
+GBR-5664	Sunderland	United Kingdom	GBR	Metropolitan Borough	North East
+GBR-2012	Aberdeen	United Kingdom	GBR	Unitary District (city)	North Eastern
+GBR-2013	Aberdeenshire	United Kingdom	GBR	Unitary District	North Eastern
+GBR-2122	Blackburn with Darwen	United Kingdom	GBR	Unitary Authority	North West
+GBR-5670	Blackpool	United Kingdom	GBR	Unitary Authority	North West
+GBR-5678	Bolton	United Kingdom	GBR	Metropolitan Borough	North West
+GBR-5679	Bury	United Kingdom	GBR	Metropolitan Borough	North West
+GBR-5706	Cheshire East	United Kingdom	GBR	Unitary Authority	North West
+GBR-5707	Cheshire West and Chester	United Kingdom	GBR	Unitary Authority	North West
+GBR-2139	Cumbria	United Kingdom	GBR	Administrative County	North West
+GBR-2108	Halton	United Kingdom	GBR	Metropolitan Borough	North West
+GBR-5708	Halton	United Kingdom	GBR	Unitary Authority	North West
+GBR-5666	Knowsley	United Kingdom	GBR	Metropolitan Borough	North West
+GBR-2123	Lancashire	United Kingdom	GBR	Administrative County	North West
+GBR-5668	Liverpool	United Kingdom	GBR	Metropolitan Borough	North West
+GBR-5684	Manchester	United Kingdom	GBR	Metropolitan Borough	North West
+GBR-5669	Merseyside	United Kingdom	GBR	Metropolitan Borough	North West
+GBR-5681	Oldham	United Kingdom	GBR	Metropolitan Borough	North West
+GBR-5680	Rochdale	United Kingdom	GBR	Metropolitan Borough	North West
+GBR-5676	Salford	United Kingdom	GBR	Metropolitan Borough	North West
+GBR-5667	Sefton	United Kingdom	GBR	Metropolitan Borough	North West
+GBR-5683	Stockport	United Kingdom	GBR	Metropolitan Borough	North West
+GBR-5682	Tameside	United Kingdom	GBR	Metropolitan Borough	North West
+GBR-5685	Trafford	United Kingdom	GBR	Metropolitan Borough	North West
+GBR-2774	Warrington	United Kingdom	GBR	Unitary Authority	North West
+GBR-5677	Wigan	United Kingdom	GBR	Metropolitan Borough	North West
+GBR-2092	Antrim	United Kingdom	GBR	District	Northern Ireland
+GBR-2137	Ards	United Kingdom	GBR	District	Northern Ireland
+GBR-2085	Armagh	United Kingdom	GBR	District	Northern Ireland
+GBR-2094	Ballymena	United Kingdom	GBR	District	Northern Ireland
+GBR-2101	Ballymoney	United Kingdom	GBR	District	Northern Ireland
+GBR-2087	Banbridge	United Kingdom	GBR	District	Northern Ireland
+GBR-2082	Belfast	United Kingdom	GBR	District	Northern Ireland
+GBR-2096	Carrickfergus	United Kingdom	GBR	District	Northern Ireland
+GBR-2103	Castlereagh	United Kingdom	GBR	District	Northern Ireland
+GBR-2100	Coleraine	United Kingdom	GBR	District	Northern Ireland
+GBR-2088	Craigavon	United Kingdom	GBR	District	Northern Ireland
+GBR-2083	Derry	United Kingdom	GBR	London Borough (city)	Northern Ireland
+GBR-2099	Down	United Kingdom	GBR	District	Northern Ireland
+GBR-2089	Dungannon	United Kingdom	GBR	District	Northern Ireland
+GBR-2136	Fermanagh	United Kingdom	GBR	District	Northern Ireland
+GBR-2095	Larne	United Kingdom	GBR	District	Northern Ireland
+GBR-2102	Limavady	United Kingdom	GBR	District	Northern Ireland
+GBR-2090	Lisburn	United Kingdom	GBR	District	Northern Ireland
+GBR-2093	Magherafelt	United Kingdom	GBR	District	Northern Ireland
+GBR-2091	Mid Ulster	United Kingdom	GBR	Province	Northern Ireland
+GBR-2773	Moyle	United Kingdom	GBR	District	Northern Ireland
+GBR-2086	Newry and Mourne	United Kingdom	GBR	District	Northern Ireland
+GBR-2097	Newtownabbey	United Kingdom	GBR	District	Northern Ireland
+GBR-2098	North Down	United Kingdom	GBR	District	Northern Ireland
+GBR-2084	Omagh	United Kingdom	GBR	District	Northern Ireland
+GBR-2135	Strabane	United Kingdom	GBR	District	Northern Ireland
+GBR-5702	Bracknell Forest	United Kingdom	GBR	Unitary Authority	South East
+GBR-2674	Brighton and Hove	United Kingdom	GBR	Unitary Authority	South East
+GBR-2040	Buckinghamshire	United Kingdom	GBR	Administrative County	South East
+GBR-2677	East Sussex	United Kingdom	GBR	Administrative County	South East
+GBR-2035	Hampshire	United Kingdom	GBR	Administrative County	South East
+GBR-2758	Isle of Wight	United Kingdom	GBR	Unitary Authority	South East
+GBR-3409	Kent	United Kingdom	GBR	Administrative County	South East
+GBR-2678	Medway	United Kingdom	GBR	Unitary Authority	South East
+GBR-2038	Milton Keynes	United Kingdom	GBR	Unitary Authority	South East
+GBR-2751	Oxfordshire	United Kingdom	GBR	Administrative County	South East
+GBR-2759	Portsmouth	United Kingdom	GBR	Unitary Authority	South East
+GBR-5699	Reading	United Kingdom	GBR	Unitary Authority	South East
+GBR-5703	Royal Borough of Windsor and Maidenhead	United Kingdom	GBR	Unitary Authority	South East
+GBR-5704	Slough	United Kingdom	GBR	Unitary Authority	South East
+GBR-2036	Southampton	United Kingdom	GBR	Unitary Authority	South East
+GBR-2755	Surrey	United Kingdom	GBR	Administrative County	South East
+GBR-5700	West Berkshire	United Kingdom	GBR	Unitary Authority	South East
+GBR-2748	West Sussex	United Kingdom	GBR	Administrative County	South East
+GBR-5701	Wokingham	United Kingdom	GBR	Unitary Authority	South East
+GBR-2043	Bath and North East Somerset	United Kingdom	GBR	Unitary Authority	South West
+GBR-2044	Bristol	United Kingdom	GBR	Unitary Authority	South West
+GBR-2110	Cornwall	United Kingdom	GBR	Unitary Single-Tier County	South West
+GBR-2048	Devon	United Kingdom	GBR	Administrative County	South West
+GBR-2051	Dorset	United Kingdom	GBR	Administrative County	South West
+GBR-2039	Gloucestershire	United Kingdom	GBR	Administrative County	South West
+GBR-2045	North Somerset	United Kingdom	GBR	Unitary Authority	South West
+GBR-2141	Plymouth	United Kingdom	GBR	Unitary Authority	South West
+GBR-2052	Poole	United Kingdom	GBR	Unitary Authority	South West
+GBR-2047	Somerset	United Kingdom	GBR	Administrative County	South West
+GBR-2046	South Gloucestershire	United Kingdom	GBR	Unitary Authority	South West
+GBR-2756	Swindon	United Kingdom	GBR	Unitary Authority	South West
+GBR-2142	Torbay	United Kingdom	GBR	Unitary Authority	South West
+GBR-2757	Wiltshire	United Kingdom	GBR	Unitary Single-Tier County	South West
+GBR-2138	Dumfries and Galloway	United Kingdom	GBR	Unitary District	South Western
+GBR-2001	East Ayrshire	United Kingdom	GBR	Unitary District	South Western
+GBR-2002	East Dunbartonshire	United Kingdom	GBR	Unitary District	South Western
+GBR-2003	East Renfrewshire	United Kingdom	GBR	Unitary District	South Western
+GBR-2004	Glasgow	United Kingdom	GBR	Unitary District (city)	South Western
+GBR-2005	Inverclyde	United Kingdom	GBR	Unitary District	South Western
+GBR-2006	North Ayshire	United Kingdom	GBR	Unitary District	South Western
+GBR-2007	North Lanarkshire	United Kingdom	GBR	Unitary District	South Western
+GBR-2008	Renfrewshire	United Kingdom	GBR	Unitary District	South Western
+GBR-2009	South Ayrshire	United Kingdom	GBR	Unitary District	South Western
+GBR-2010	South Lanarkshire	United Kingdom	GBR	Unitary District	South Western
+GBR-2011	West Dunbartonshire	United Kingdom	GBR	Unitary District	South Western
+GBR-5690	Birmingham	United Kingdom	GBR	Metropolitan Borough	West Midlands
+GBR-5696	Coventry	United Kingdom	GBR	Metropolitan Borough	West Midlands
+GBR-5692	Dudley	United Kingdom	GBR	Metropolitan Borough	West Midlands
+GBR-2775	Herefordshire	United Kingdom	GBR	Unitary Authority	West Midlands
+GBR-5691	Sandwell	United Kingdom	GBR	Metropolitan Borough	West Midlands
+GBR-2779	Shropshire	United Kingdom	GBR	Unitary Single-Tier County	West Midlands
+GBR-5695	Solihull	United Kingdom	GBR	Metropolitan Borough	West Midlands
+GBR-2777	Staffordshire	United Kingdom	GBR	Administrative County	West Midlands
+GBR-2778	Stoke-on-Trent	United Kingdom	GBR	Unitary Authority	West Midlands
+GBR-2121	Telford and Wrekin	United Kingdom	GBR	Unitary Authority	West Midlands
+GBR-5694	Walsall	United Kingdom	GBR	Metropolitan Borough	West Midlands
+GBR-2750	Warwickshire	United Kingdom	GBR	Administrative County	West Midlands
+GBR-5693	Wolverhampton	United Kingdom	GBR	Metropolitan Borough	West Midlands
+GBR-2776	Worcestershire	United Kingdom	GBR	Administrative County	West Midlands
+GBR-2116	Cardiff	United Kingdom	GBR	Unitary Authority (wales)	West Wales and the Valleys
+GBR-2126	Flintshire	United Kingdom	GBR	Unitary Authority (wales)	West Wales and the Valleys
+GBR-2132	Monmouthshire	United Kingdom	GBR	Unitary Authority (wales)	West Wales and the Valleys
+GBR-2133	Newport	United Kingdom	GBR	Unitary Authority (wales)	West Wales and the Valleys
+GBR-2111	Powys	United Kingdom	GBR	Unitary Authority (wales)	West Wales and the Valleys
+GBR-2117	Vale of Glamorgan	United Kingdom	GBR	Unitary Authority (wales)	West Wales and the Valleys
+GBR-2127	Wrexham	United Kingdom	GBR	Unitary Authority (wales)	West Wales and the Valleys
+GBR-5688	Barnsley	United Kingdom	GBR	Metropolitan Borough	Yorkshire and the Humber
+GBR-5673	Bradford	United Kingdom	GBR	Metropolitan Borough	Yorkshire and the Humber
+GBR-5672	Calderdale	United Kingdom	GBR	Metropolitan Borough	Yorkshire and the Humber
+GBR-5689	Doncaster	United Kingdom	GBR	Metropolitan Borough	Yorkshire and the Humber
+GBR-2124	East Riding of Yorkshire	United Kingdom	GBR	Unitary Authority	Yorkshire and the Humber
+GBR-2055	Kingston upon Hull	United Kingdom	GBR	Unitary Authority	Yorkshire and the Humber
+GBR-5671	Kirklees	United Kingdom	GBR	Metropolitan Borough	Yorkshire and the Humber
+GBR-5674	Leeds	United Kingdom	GBR	Metropolitan Borough	Yorkshire and the Humber
+GBR-2056	North East Lincolnshire	United Kingdom	GBR	Unitary Authority	Yorkshire and the Humber
+GBR-2057	North Lincolnshire	United Kingdom	GBR	Unitary Authority	Yorkshire and the Humber
+GBR-2140	North Yorkshire	United Kingdom	GBR	Administrative County	Yorkshire and the Humber
+GBR-5686	Rotherham	United Kingdom	GBR	Metropolitan Borough	Yorkshire and the Humber
+GBR-5687	Sheffield	United Kingdom	GBR	Metropolitan Borough	Yorkshire and the Humber
+GBR-5675	Wakefield	United Kingdom	GBR	Metropolitan Borough	Yorkshire and the Humber
+GBR-2120	York	United Kingdom	GBR	Unitary Authority	Yorkshire and the Humber
+USA-3563	Alaska	United States of America	USA	State	West

@@ -29,10 +29,10 @@ Published on GitHub Pages from the `main` branch (18 Oct 2026). The repository n
 |---|---|---|
 | 1 | Clean-up: new layout (Through time, Every canton, Stories), rivers moved to the sister site, "uncertain" notes and page | **Done** (18 Oct 2026) |
 | 2 | The full Old Confederation (all ruled lands and allies: Valais, Geneva, Neuchâtel, Biel, Mulhouse …) and the Helvetic cantons 1798–1803 | **Done** (19 Oct 2026): 30 allies and protected places (`research/allies.json`), 7 Helvetic maps (`research/helvetic.json`), new 1798 step, story "The Helvetic cantons 1798–1803". Dates to check on HLS: see docs/OPEN-QUESTIONS.md |
-| 3 | Lords before 1291 on the main map (Habsburg, Kyburg, Zähringen, Savoy, bishops, abbeys) | Next |
-| 4 | Religion: the Reformation | Planned |
-| 5 | Wars and battles (Morgarten to the Sonderbund War) | Planned |
-| 6 | Languages, and municipality mergers since 1850 | Planned |
+| 3 | Lords before 1291 on the main map (Habsburg, Kyburg, Zähringen, Savoy, bishops, abbeys) | **Done** (19 Oct 2026): main map steps 1000, 1150, 1218, 1264 with the lords' land; stories Habsburg, Savoy, Zähringen and Kyburg, Bishops and abbeys (with Europe zoom) |
+| 4 | Religion: the Reformation | **Done** (19 Oct 2026): story "Reformation: one Confederation, two faiths", 1519–1712 |
+| 5 | Wars and battles (Morgarten to the Sonderbund War) | **Done** (19 Oct 2026): 6 stories, 46 steps, battles abroad on the Europe map, foreign armies 1798–1799 |
+| 6 | Languages, and municipality mergers since 1850 | Next |
 | 7 | Romans and Celts | Planned |
 | – | Translations (DE, FR, IT) | When both sites have their main content |
 

@@ -1,0 +1,3949 @@
+[
+ {
+  "id": "wars-founding",
+  "title": "The first wars: from Morgarten to the Stoss",
+  "card": "How small valleys and towns beat Habsburg armies and nobles between 1315 and 1405.",
+  "stops": [
+   {
+    "year": 1315,
+    "tick": "1315",
+    "title": "Morgarten: ambush at the lake",
+    "text": [
+     "Schwyz quarrelled with Habsburg for years. One cause was a long fight over pasture land with the abbey of Einsiedeln, which Habsburg protected.",
+     "In November 1315 Duke Leopold I of Habsburg led an army towards Schwyz. Near the upper end of Lake Ägeri, men from Schwyz attacked the army on a narrow path and beat it.",
+     "Three weeks later, Uri, Schwyz and Unterwalden renewed their alliance at Brunnen. For centuries people saw this pact of 1315 as the start of the Confederation."
+    ],
+    "view": "ch",
+    "layers": [
+     {
+      "name": "Uri, Schwyz, Unterwalden",
+      "kind": "confederates",
+      "label": "The three valleys (today's cantons, rough)",
+      "sel": {
+       "cantons": [
+        "UR",
+        "SZ",
+        "OW",
+        "NW"
+       ]
+      }
+     },
+     {
+      "name": "Habsburg land",
+      "kind": "habsburg",
+      "label": "Habsburg land nearby (rough)",
+      "sel": {
+       "cantons": [
+        "ZG",
+        "LU",
+        "AG",
+        "GL"
+       ]
+      }
+     }
+    ],
+    "places": [
+     {
+      "name": "Morgarten (Schornen)",
+      "lat": 47.1265,
+      "lon": 8.6383,
+      "kind": "battle",
+      "year": 1315,
+      "note": "Schwyz beats Duke Leopold I of Habsburg"
+     },
+     {
+      "name": "Brunnen",
+      "lat": 46.995,
+      "lon": 8.606,
+      "kind": "treaty",
+      "year": 1315,
+      "note": "Pact of Brunnen, 9 December 1315"
+     }
+    ]
+   },
+   {
+    "year": 1339,
+    "tick": "1339",
+    "title": "Laupen: Bern against the nobles",
+    "text": [
+     "Bern grew fast and took land from noble families. The nobles and the town of Fribourg joined forces and laid siege to the small town of Laupen, which belonged to Bern.",
+     "On 21 June 1339 Bern, helped by troops from the forest valleys (Uri, Schwyz, Unterwalden), beat the nobles' army on the Bramberg hill near Neuenegg.",
+     "The victory made Bern the strongest power in the western Swiss plateau. In 1353 Bern made a lasting alliance with the forest valleys."
+    ],
+    "view": "ch",
+    "layers": [
+     {
+      "name": "Bern",
+      "kind": "confederates",
+      "label": "Bern and its helpers from the forest valleys (rough)",
+      "sel": {
+       "districts": [
+        246,
+        247,
+        250
+       ],
+       "cantons": [
+        "UR",
+        "SZ",
+        "OW",
+        "NW"
+       ]
+      }
+     },
+     {
+      "name": "Fribourg and nobles",
+      "kind": "enemy",
+      "label": "Fribourg and its noble allies (rough)",
+      "sel": {
+       "districts": [
+        1004,
+        1006,
+        1005
+       ]
+      }
+     }
+    ],
+    "places": [
+     {
+      "name": "Laupen (Bramberg)",
+      "lat": 46.9065,
+      "lon": 7.2717,
+      "kind": "battle",
+      "year": 1339,
+      "note": "Bern and the forest valleys win"
+     },
+     {
+      "name": "Laupen town",
+      "lat": 46.902,
+      "lon": 7.239,
+      "kind": "town"
+     }
+    ]
+   },
+   {
+    "year": 1386,
+    "tick": "1386",
+    "title": "Sempach: the duke is killed",
+    "text": [
+     "By 1353 eight places were allied: Uri, Schwyz, Unterwalden, Lucerne, Zurich, Zug, Glarus and Bern. Lucerne took Habsburg towns and land around it.",
+     "Duke Leopold III of Habsburg marched against Lucerne. On 9 July 1386 the Confederates beat his army near Sempach. The duke died in the battle, with many nobles.",
+     "Habsburg lost its strength south of the Rhine. Step by step, it lost its land in this area to the Confederates."
+    ],
+    "view": "ch",
+    "layers": [
+     {
+      "name": "Eight places",
+      "kind": "confederates",
+      "label": "The eight allied places (today's cantons, rough)",
+      "sel": {
+       "cantons": [
+        "UR",
+        "SZ",
+        "OW",
+        "NW",
+        "LU",
+        "ZH",
+        "ZG",
+        "GL",
+        "BE"
+       ]
+      }
+     },
+     {
+      "name": "Habsburg land",
+      "kind": "habsburg",
+      "label": "Habsburg land (rough)",
+      "sel": {
+       "cantons": [
+        "AG",
+        "TG",
+        "SH"
+       ],
+       "districts": [
+        1723,
+        1724,
+        1725
+       ]
+      }
+     }
+    ],
+    "places": [
+     {
+      "name": "Sempach",
+      "lat": 47.1453,
+      "lon": 8.2167,
+      "kind": "battle",
+      "year": 1386,
+      "note": "Confederates win; Duke Leopold III killed"
+     }
+    ]
+   },
+   {
+    "year": 1388,
+    "tick": "1388",
+    "title": "Näfels: Glarus frees itself",
+    "text": [
+     "The war went on. In February 1388 Habsburg troops took the small town of Weesen by surprise.",
+     "On 9 April 1388 a Habsburg army broke into the valley of Glarus. About 400 men from Glarus, with a few dozen from Schwyz and Uri, attacked the army while it plundered. The army fled, and the bridge at Weesen broke under the fleeing men.",
+     "Glarus was now free of Habsburg rule. People in Glarus still walk to the battle site each year (the 'Näfelser Fahrt')."
+    ],
+    "view": "ch",
+    "layers": [
+     {
+      "name": "Glarus",
+      "kind": "confederates",
+      "label": "Glarus",
+      "sel": {
+       "cantons": [
+        "GL"
+       ]
+      }
+     },
+     {
+      "name": "Eight places",
+      "kind": "confederates",
+      "label": "The other allied places (rough)",
+      "sel": {
+       "cantons": [
+        "UR",
+        "SZ",
+        "OW",
+        "NW",
+        "LU",
+        "ZH",
+        "ZG",
+        "GL",
+        "BE"
+       ]
+      }
+     },
+     {
+      "name": "Habsburg land",
+      "kind": "habsburg",
+      "label": "Habsburg land (rough)",
+      "sel": {
+       "cantons": [
+        "AG",
+        "TG",
+        "SH"
+       ],
+       "districts": [
+        1723,
+        1724,
+        1725,
+        1726
+       ]
+      }
+     }
+    ],
+    "places": [
+     {
+      "name": "Näfels",
+      "lat": 47.1016,
+      "lon": 9.061,
+      "kind": "battle",
+      "year": 1388,
+      "note": "Glarus wins against Habsburg"
+     },
+     {
+      "name": "Sempach",
+      "lat": 47.1453,
+      "lon": 8.2167,
+      "kind": "battle",
+      "year": 1386,
+      "note": "Confederates win"
+     }
+    ]
+   },
+   {
+    "year": 1393,
+    "tick": "1393",
+    "title": "The Sempach Letter",
+    "text": [
+     "In 1393 the eight places agreed on common rules for war, the 'Sempacherbrief' (Sempach Letter). For example, soldiers must not attack churches, and they must not run away from a battle.",
+     "In this letter Glarus is named for the first time as an equal partner. The letter was one of the few laws that all places shared."
+    ],
+    "view": "ch",
+    "layers": [
+     {
+      "name": "Eight places",
+      "kind": "confederates",
+      "label": "The eight places of the Sempach Letter (rough)",
+      "sel": {
+       "cantons": [
+        "UR",
+        "SZ",
+        "OW",
+        "NW",
+        "LU",
+        "ZH",
+        "ZG",
+        "GL",
+        "BE"
+       ]
+      }
+     },
+     {
+      "name": "Habsburg land",
+      "kind": "habsburg",
+      "label": "Habsburg land (rough)",
+      "sel": {
+       "cantons": [
+        "AG",
+        "TG",
+        "SH"
+       ],
+       "districts": [
+        1723,
+        1724,
+        1725
+       ]
+      }
+     }
+    ],
+    "places": [
+     {
+      "name": "Sempach",
+      "lat": 47.1453,
+      "lon": 8.2167,
+      "kind": "battle",
+      "year": 1386,
+      "note": "Confederates win"
+     },
+     {
+      "name": "Näfels",
+      "lat": 47.1016,
+      "lon": 9.061,
+      "kind": "battle",
+      "year": 1388,
+      "note": "Glarus wins"
+     }
+    ]
+   },
+   {
+    "year": 1403,
+    "tick": "1403",
+    "title": "Vögelinsegg: Appenzell rises",
+    "text": [
+     "The farmers of Appenzell had to pay taxes to the abbot of St. Gallen. They refused and made an alliance with Schwyz.",
+     "On 15 May 1403, near Speicher, the men of Appenzell, led by captains from Schwyz, beat the army of the abbot and the towns around Lake Constance. After this, the town of St. Gallen took the side of Appenzell."
+    ],
+    "view": "ch",
+    "layers": [
+     {
+      "name": "Appenzell",
+      "kind": "ally",
+      "label": "Appenzell (ally of Schwyz)",
+      "sel": {
+       "cantons": [
+        "AI",
+        "AR"
+       ]
+      }
+     },
+     {
+      "name": "Abbey of St. Gallen",
+      "kind": "abbey",
+      "label": "Land of the abbot of St. Gallen (rough)",
+      "sel": {
+       "districts": [
+        1721,
+        1722,
+        1728,
+        1727
+       ]
+      }
+     },
+     {
+      "name": "Habsburg land",
+      "kind": "habsburg",
+      "label": "Habsburg land (rough)",
+      "sel": {
+       "cantons": [
+        "TG"
+       ],
+       "districts": [
+        1723,
+        1724,
+        1725
+       ]
+      }
+     },
+     {
+      "name": "Eight places",
+      "kind": "confederates",
+      "label": "The eight places (rough)",
+      "sel": {
+       "cantons": [
+        "UR",
+        "SZ",
+        "OW",
+        "NW",
+        "LU",
+        "ZH",
+        "ZG",
+        "GL",
+        "BE"
+       ]
+      }
+     }
+    ],
+    "places": [
+     {
+      "name": "Vögelinsegg",
+      "lat": 47.4185,
+      "lon": 9.43,
+      "kind": "battle",
+      "year": 1403,
+      "note": "Appenzell beats the abbot of St. Gallen"
+     }
+    ]
+   },
+   {
+    "year": 1405,
+    "tick": "1405",
+    "title": "Stoss: Habsburg is beaten again",
+    "text": [
+     "The abbot asked Duke Frederick IV of Habsburg for help. On 17 June 1405 an Austrian army climbed towards Appenzell over the Stoss pass above Altstätten.",
+     "The men of Appenzell waited above the path. They threw stones and attacked with halberds, and the army fled. The story of the hero Uli Rotach comes from later times and is probably not true.",
+     "After the victory Appenzell and its friends founded the 'League above the Lake' (Bund ob dem See). It broke up in 1408. In 1411 Appenzell made a treaty of protection with the Confederates."
+    ],
+    "view": "ch",
+    "layers": [
+     {
+      "name": "Appenzell",
+      "kind": "ally",
+      "label": "Appenzell (ally of the Confederates)",
+      "sel": {
+       "cantons": [
+        "AI",
+        "AR"
+       ]
+      }
+     },
+     {
+      "name": "Abbey of St. Gallen",
+      "kind": "abbey",
+      "label": "Land of the abbot of St. Gallen (rough)",
+      "sel": {
+       "districts": [
+        1721,
+        1722,
+        1728,
+        1727
+       ]
+      }
+     },
+     {
+      "name": "Habsburg land",
+      "kind": "habsburg",
+      "label": "Habsburg land (rough)",
+      "sel": {
+       "cantons": [
+        "TG"
+       ],
+       "districts": [
+        1723,
+        1724,
+        1725
+       ]
+      }
+     },
+     {
+      "name": "Eight places",
+      "kind": "confederates",
+      "label": "The eight places (rough)",
+      "sel": {
+       "cantons": [
+        "UR",
+        "SZ",
+        "OW",
+        "NW",
+        "LU",
+        "ZH",
+        "ZG",
+        "GL",
+        "BE"
+       ]
+      }
+     }
+    ],
+    "places": [
+     {
+      "name": "Stoss",
+      "lat": 47.366,
+      "lon": 9.484,
+      "kind": "battle",
+      "year": 1405,
+      "note": "Appenzell beats an Austrian army"
+     },
+     {
+      "name": "Vögelinsegg",
+      "lat": 47.4185,
+      "lon": 9.43,
+      "kind": "battle",
+      "year": 1403,
+      "note": "Appenzell wins"
+     }
+    ]
+   }
+  ],
+  "sources": [
+   "https://hls-dhs-dss.ch/de/articles/008726/",
+   "https://hls-dhs-dss.ch/de/articles/008871/2012-12-18/",
+   "https://hls-dhs-dss.ch/de/articles/008873/2021-01-15/",
+   "https://hls-dhs-dss.ch/de/articles/000400/2010-09-07/",
+   "https://hls-dhs-dss.ch/de/articles/008875/",
+   "https://hls-dhs-dss.ch/de/articles/008876/2013-10-22/",
+   "https://hls-dhs-dss.ch/de/articles/008874/2001-08-14/"
+  ],
+  "notes": "Areas are today's cantons and districts; the real territories of 1315-1405 were smaller and patchy. Habsburg land is shown only roughly. The exact place of the Morgarten battle is debated; the point is at the memorial at Schornen. Laupen point: Bramberg memorial near Neuenegg. The Sempach Letter step (1393) is context, not a battle."
+ },
+ {
+  "id": "wars-15th",
+  "title": "The 15th century: civil war, Burgundy and the Empire",
+  "card": "From the Old Zurich War to Charles the Bold and the Swabian War: the century that made the Swiss feared soldiers.",
+  "stops": [
+   {
+    "year": 1443,
+    "tick": "1443 Sihl",
+    "title": "Old Zurich War: St. Jakob an der Sihl",
+    "text": [
+     "In 1436 the last Count of Toggenburg died without heirs. Zurich and Schwyz both wanted his land. The quarrel became a war between the Confederates.",
+     "Zurich made an alliance with Habsburg against the others. On 22 July 1443 the Confederates beat the Zurich troops at St. Jakob an der Sihl, just outside the town. The mayor of Zurich, Rudolf Stüssi, was killed."
+    ],
+    "view": "ch",
+    "layers": [
+     {
+      "name": "Zurich",
+      "kind": "habsburg",
+      "label": "Zurich, now allied with Habsburg",
+      "sel": {
+       "cantons": [
+        "ZH"
+       ]
+      }
+     },
+     {
+      "name": "Confederates",
+      "kind": "confederates",
+      "label": "Schwyz and the other Confederates (rough)",
+      "sel": {
+       "cantons": [
+        "UR",
+        "SZ",
+        "OW",
+        "NW",
+        "LU",
+        "ZG",
+        "GL",
+        "BE"
+       ]
+      }
+     }
+    ],
+    "places": [
+     {
+      "name": "St. Jakob an der Sihl",
+      "lat": 47.376,
+      "lon": 8.524,
+      "kind": "battle",
+      "year": 1443,
+      "note": "Confederates beat Zurich"
+     }
+    ]
+   },
+   {
+    "year": 1444,
+    "tick": "1444 Birs",
+    "title": "St. Jakob an der Birs",
+    "text": [
+     "Habsburg asked the King of France for help. He sent a large army of mercenaries, the 'Armagnacs', led by the Dauphin Louis.",
+     "On 26 August 1444 a small Confederate force attacked them near Basel. After a long fight almost all the Confederates were killed. HLS gives about 1,200 Confederate dead and about 2,000 Armagnac dead.",
+     "But the French army did not march on. In October 1444 the Dauphin made peace at Ensisheim. In 1450 Zurich left the alliance with Habsburg and returned to the Confederates."
+    ],
+    "view": "ch",
+    "layers": [
+     {
+      "name": "France and Armagnacs",
+      "kind": "france",
+      "label": "Kingdom of France",
+      "sel": {},
+      "countries": [
+       "FRA"
+      ]
+     },
+     {
+      "name": "Zurich",
+      "kind": "habsburg",
+      "label": "Zurich, allied with Habsburg",
+      "sel": {
+       "cantons": [
+        "ZH"
+       ]
+      }
+     },
+     {
+      "name": "Confederates",
+      "kind": "confederates",
+      "label": "Confederates (rough)",
+      "sel": {
+       "cantons": [
+        "UR",
+        "SZ",
+        "OW",
+        "NW",
+        "LU",
+        "ZG",
+        "GL",
+        "BE"
+       ]
+      }
+     }
+    ],
+    "places": [
+     {
+      "name": "St. Jakob an der Birs",
+      "lat": 47.54,
+      "lon": 7.62,
+      "kind": "battle",
+      "year": 1444,
+      "note": "Armagnacs win, but turn back"
+     },
+     {
+      "name": "St. Jakob an der Sihl",
+      "lat": 47.376,
+      "lon": 8.524,
+      "kind": "battle",
+      "year": 1443,
+      "note": "Confederates win"
+     }
+    ]
+   },
+   {
+    "year": 1474,
+    "tick": "1474",
+    "title": "Charles the Bold of Burgundy",
+    "text": [
+     "Duke Charles the Bold of Burgundy ruled a rich state from the Netherlands to the Jura. He wanted to join his lands into one kingdom. In 1469 Habsburg gave him land in Alsace as a pledge.",
+     "Bern and the King of France, Louis XI, feared him. In 1474 the Confederates and Austria made peace, and the Confederates declared war on Burgundy. The fighting started at Héricourt, west of Basel."
+    ],
+    "view": [
+     [
+      45.5,
+      1.5
+     ],
+     [
+      53.8,
+      10.5
+     ]
+    ],
+    "layers": [
+     {
+      "name": "Duchy of Burgundy",
+      "kind": "burgundy",
+      "label": "Lands of Charles the Bold (rough)",
+      "sel": {},
+      "regions": [
+       "FRA-5282",
+       "FRA-5339",
+       "FRA-5356",
+       "FRA-5329",
+       "FRA-5287",
+       "FRA-5312",
+       "FRA-5301",
+       "FRA-5296",
+       "FRA-5348"
+      ],
+      "countries": [
+       "BEL",
+       "NLD",
+       "LUX"
+      ]
+     },
+     {
+      "name": "Confederates",
+      "kind": "confederates",
+      "label": "Confederates and allies (rough)",
+      "sel": {
+       "cantons": [
+        "UR",
+        "SZ",
+        "OW",
+        "NW",
+        "LU",
+        "ZH",
+        "ZG",
+        "GL",
+        "BE",
+        "FR",
+        "SO"
+       ]
+      }
+     },
+     {
+      "name": "France",
+      "kind": "france",
+      "label": "Kingdom of France",
+      "sel": {},
+      "countries": [
+       "FRA"
+      ]
+     }
+    ],
+    "places": [
+     {
+      "name": "Héricourt",
+      "lat": 47.577,
+      "lon": 6.762,
+      "kind": "battle",
+      "year": 1474,
+      "note": "Confederates and allies win"
+     }
+    ]
+   },
+   {
+    "year": 1476,
+    "tick": "1476 Grandson",
+    "title": "Grandson: the duke flees",
+    "text": [
+     "In February 1476 Charles took the town and castle of Grandson. He had the Bernese garrison hanged or drowned in the lake.",
+     "On 2 March 1476 the Confederate army met his army near Concise. The Burgundian troops panicked and ran away. The Confederates took his camp with a huge booty: tents, cannons, gold and tapestries."
+    ],
+    "view": "ch",
+    "layers": [
+     {
+      "name": "Duchy of Burgundy",
+      "kind": "burgundy",
+      "label": "Burgundy (rough)",
+      "sel": {},
+      "regions": [
+       "FRA-5282",
+       "FRA-5339",
+       "FRA-5356",
+       "FRA-5329",
+       "FRA-5287",
+       "FRA-5312",
+       "FRA-5301",
+       "FRA-5296",
+       "FRA-5348"
+      ]
+     },
+     {
+      "name": "Savoy",
+      "kind": "savoy",
+      "label": "Savoy, ally of Burgundy (rough)",
+      "sel": {
+       "cantons": [
+        "VD"
+       ]
+      },
+      "regions": [
+       "FRA-5341",
+       "FRA-5302"
+      ]
+     },
+     {
+      "name": "Confederates",
+      "kind": "confederates",
+      "label": "Confederates and allies (rough)",
+      "sel": {
+       "cantons": [
+        "UR",
+        "SZ",
+        "OW",
+        "NW",
+        "LU",
+        "ZH",
+        "ZG",
+        "GL",
+        "BE",
+        "FR",
+        "SO"
+       ]
+      }
+     }
+    ],
+    "places": [
+     {
+      "name": "Grandson",
+      "lat": 46.85,
+      "lon": 6.71,
+      "kind": "battle",
+      "year": 1476,
+      "note": "Confederates win; Charles flees"
+     }
+    ]
+   },
+   {
+    "year": 1476,
+    "tick": "1476 Murten",
+    "title": "Murten: the great victory",
+    "text": [
+     "Charles came back with a new army. He laid siege to Murten. Soldiers from Bern and Fribourg held the town.",
+     "On 22 June 1476 the Confederates and their allies attacked his camp. Many Burgundian soldiers were driven into the lake. HLS gives 8,000 to 20,000 Burgundian dead, and a few hundred Confederate dead or wounded."
+    ],
+    "view": "ch",
+    "layers": [
+     {
+      "name": "Duchy of Burgundy",
+      "kind": "burgundy",
+      "label": "Burgundy (rough)",
+      "sel": {},
+      "regions": [
+       "FRA-5282",
+       "FRA-5339",
+       "FRA-5356",
+       "FRA-5329",
+       "FRA-5287",
+       "FRA-5312",
+       "FRA-5301",
+       "FRA-5296",
+       "FRA-5348"
+      ]
+     },
+     {
+      "name": "Savoy",
+      "kind": "savoy",
+      "label": "Savoy, ally of Burgundy (rough)",
+      "sel": {
+       "cantons": [
+        "VD"
+       ]
+      },
+      "regions": [
+       "FRA-5341",
+       "FRA-5302"
+      ]
+     },
+     {
+      "name": "Confederates",
+      "kind": "confederates",
+      "label": "Confederates and allies (rough)",
+      "sel": {
+       "cantons": [
+        "UR",
+        "SZ",
+        "OW",
+        "NW",
+        "LU",
+        "ZH",
+        "ZG",
+        "GL",
+        "BE",
+        "FR",
+        "SO"
+       ]
+      }
+     }
+    ],
+    "places": [
+     {
+      "name": "Murten",
+      "lat": 46.918,
+      "lon": 7.11,
+      "kind": "battle",
+      "year": 1476,
+      "note": "Confederates win"
+     },
+     {
+      "name": "Grandson",
+      "lat": 46.85,
+      "lon": 6.71,
+      "kind": "battle",
+      "year": 1476,
+      "note": "Confederates win"
+     }
+    ]
+   },
+   {
+    "year": 1477,
+    "tick": "1477",
+    "title": "Nancy: the end of Charles",
+    "text": [
+     "Charles now tried to take Lorraine. Duke René II of Lorraine hired more than 8,000 Confederate soldiers.",
+     "On 5 January 1477 René's army beat Charles near Nancy. Charles was killed after the battle. His lands were split: France took the Duchy of Burgundy, and Habsburg won the Netherlands by marriage.",
+     "After these wars the princes of Europe wanted Swiss soldiers. Hiring out soldiers (mercenary service) became a big business for the Confederates."
+    ],
+    "view": [
+     [
+      45.5,
+      1.5
+     ],
+     [
+      53.8,
+      10.5
+     ]
+    ],
+    "layers": [
+     {
+      "name": "Lorraine",
+      "kind": "ally",
+      "label": "Lorraine of René II, with Swiss soldiers (rough)",
+      "sel": {},
+      "regions": [
+       "FRA-5325",
+       "FRA-5355",
+       "FRA-5326",
+       "FRA-5328"
+      ]
+     },
+     {
+      "name": "Duchy of Burgundy",
+      "kind": "burgundy",
+      "label": "Lands of Charles the Bold (rough)",
+      "sel": {},
+      "regions": [
+       "FRA-5282",
+       "FRA-5339",
+       "FRA-5356",
+       "FRA-5329",
+       "FRA-5287",
+       "FRA-5312",
+       "FRA-5301",
+       "FRA-5296",
+       "FRA-5348"
+      ],
+      "countries": [
+       "BEL",
+       "NLD",
+       "LUX"
+      ]
+     },
+     {
+      "name": "Confederates",
+      "kind": "confederates",
+      "label": "Confederates (rough)",
+      "sel": {
+       "cantons": [
+        "UR",
+        "SZ",
+        "OW",
+        "NW",
+        "LU",
+        "ZH",
+        "ZG",
+        "GL",
+        "BE",
+        "FR",
+        "SO"
+       ]
+      }
+     }
+    ],
+    "places": [
+     {
+      "name": "Nancy",
+      "lat": 48.683,
+      "lon": 6.188,
+      "kind": "battle",
+      "year": 1477,
+      "note": "Lorraine and Swiss win; Charles killed"
+     },
+     {
+      "name": "Murten",
+      "lat": 46.918,
+      "lon": 7.11,
+      "kind": "battle",
+      "year": 1476,
+      "note": "Confederates win"
+     },
+     {
+      "name": "Grandson",
+      "lat": 46.85,
+      "lon": 6.71,
+      "kind": "battle",
+      "year": 1476,
+      "note": "Confederates win"
+     }
+    ]
+   },
+   {
+    "year": 1478,
+    "tick": "1478",
+    "title": "Giornico: Uri in the south",
+    "text": [
+     "Uri wanted the Leventina valley south of the Gotthard pass. Milan refused to give it up. In November 1478 the Confederates crossed the Gotthard.",
+     "On 28 December 1478 a small force stayed behind at Giornico. With a trick, it beat a much larger army from Milan. People there call it the 'battle of the big stones'.",
+     "Milan gave up the Leventina, and Uri ruled it. Bellinzona stayed with Milan for now."
+    ],
+    "view": [
+     [
+      45.6,
+      7.8
+     ],
+     [
+      47.2,
+      9.8
+     ]
+    ],
+    "layers": [
+     {
+      "name": "Leventina",
+      "kind": "confederates",
+      "label": "Leventina, ruled by Uri",
+      "sel": {
+       "districts": [
+        2103
+       ]
+      }
+     },
+     {
+      "name": "Confederates",
+      "kind": "confederates",
+      "label": "Confederates (rough)",
+      "sel": {
+       "cantons": [
+        "UR",
+        "SZ",
+        "OW",
+        "NW",
+        "LU",
+        "ZH",
+        "ZG",
+        "GL",
+        "BE"
+       ]
+      }
+     },
+     {
+      "name": "Milan",
+      "kind": "milan",
+      "label": "Duchy of Milan (rough)",
+      "sel": {
+       "districts": [
+        2101,
+        2107,
+        2102,
+        2104,
+        2105,
+        2106,
+        2108
+       ]
+      },
+      "regions": [
+       "ITA-5450",
+       "ITA-5454",
+       "ITA-5448",
+       "ITA-5449",
+       "ITA-5452",
+       "ITA-5453",
+       "ITA-5451",
+       "ITA-5438",
+       "ITA-5447",
+       "ITA-5437",
+       "ITA-5444"
+      ]
+     }
+    ],
+    "places": [
+     {
+      "name": "Giornico",
+      "lat": 46.401,
+      "lon": 8.873,
+      "kind": "battle",
+      "year": 1478,
+      "note": "Confederates beat Milan"
+     },
+     {
+      "name": "Gotthard Pass",
+      "lat": 46.559,
+      "lon": 8.5617,
+      "kind": "place"
+     }
+    ]
+   },
+   {
+    "year": 1499,
+    "tick": "1499 Calven",
+    "title": "Swabian War: Calven",
+    "text": [
+     "Emperor Maximilian I wanted the Confederates to pay imperial taxes and obey the imperial court. They refused. In 1499 war broke out with Habsburg and the Swabian League, an alliance of south German princes and towns.",
+     "The Three Leagues of Graubünden were allies of the Confederates. On 22 May 1499 their army beat a Tyrolean army at the Calven gorge near Glurns. Their captain Benedikt Fontana was killed."
+    ],
+    "view": "ch",
+    "layers": [
+     {
+      "name": "Three Leagues",
+      "kind": "ally",
+      "label": "Three Leagues of Graubünden (ally)",
+      "sel": {
+       "cantons": [
+        "GR"
+       ]
+      }
+     },
+     {
+      "name": "Confederates",
+      "kind": "confederates",
+      "label": "Confederates and allies (rough)",
+      "sel": {
+       "cantons": [
+        "UR",
+        "SZ",
+        "OW",
+        "NW",
+        "LU",
+        "ZH",
+        "ZG",
+        "GL",
+        "BE",
+        "FR",
+        "SO",
+        "AG",
+        "TG",
+        "SH",
+        "AI",
+        "AR",
+        "SG"
+       ]
+      }
+     },
+     {
+      "name": "Habsburg",
+      "kind": "habsburg",
+      "label": "Habsburg: Tyrol and Vorarlberg",
+      "sel": {},
+      "regions": [
+       "AUT-2329",
+       "AUT-2320"
+      ]
+     },
+     {
+      "name": "Swabian League",
+      "kind": "empire",
+      "label": "Swabian League and Empire (rough)",
+      "sel": {},
+      "regions": [
+       "DEU-1573",
+       "DEU-1591"
+      ]
+     }
+    ],
+    "places": [
+     {
+      "name": "Calven",
+      "lat": 46.66,
+      "lon": 10.52,
+      "kind": "battle",
+      "year": 1499,
+      "note": "Graubünden beats Tyrol"
+     }
+    ]
+   },
+   {
+    "year": 1499,
+    "tick": "1499 Dornach",
+    "title": "Dornach and the Peace of Basel",
+    "text": [
+     "On 22 July 1499 troops from Bern, Zurich, Lucerne, Zug and Solothurn attacked an imperial army at Dornach. They won, and the army's commander, Heinrich von Fürstenberg, was killed.",
+     "Maximilian had to make peace. The Peace of Basel (September 1499) ended the war. The Confederates did not leave the Empire on paper, but in practice imperial law no longer applied to them.",
+     "Basel and Schaffhausen joined the Confederation in 1501, and Appenzell in 1513."
+    ],
+    "view": "ch",
+    "layers": [
+     {
+      "name": "Three Leagues",
+      "kind": "ally",
+      "label": "Three Leagues of Graubünden (ally)",
+      "sel": {
+       "cantons": [
+        "GR"
+       ]
+      }
+     },
+     {
+      "name": "Confederates",
+      "kind": "confederates",
+      "label": "Confederates and allies (rough)",
+      "sel": {
+       "cantons": [
+        "UR",
+        "SZ",
+        "OW",
+        "NW",
+        "LU",
+        "ZH",
+        "ZG",
+        "GL",
+        "BE",
+        "FR",
+        "SO",
+        "AG",
+        "TG",
+        "SH",
+        "AI",
+        "AR",
+        "SG"
+       ]
+      }
+     },
+     {
+      "name": "Habsburg",
+      "kind": "habsburg",
+      "label": "Habsburg: Tyrol and Vorarlberg",
+      "sel": {},
+      "regions": [
+       "AUT-2329",
+       "AUT-2320"
+      ]
+     },
+     {
+      "name": "Swabian League",
+      "kind": "empire",
+      "label": "Swabian League and Empire (rough)",
+      "sel": {},
+      "regions": [
+       "DEU-1573",
+       "DEU-1591"
+      ]
+     }
+    ],
+    "places": [
+     {
+      "name": "Dornach",
+      "lat": 47.4815,
+      "lon": 7.617,
+      "kind": "battle",
+      "year": 1499,
+      "note": "Confederates win"
+     },
+     {
+      "name": "Basel",
+      "lat": 47.5596,
+      "lon": 7.5886,
+      "kind": "treaty",
+      "year": 1499,
+      "note": "Peace of Basel"
+     },
+     {
+      "name": "Calven",
+      "lat": 46.66,
+      "lon": 10.52,
+      "kind": "battle",
+      "year": 1499,
+      "note": "Graubünden wins"
+     }
+    ]
+   }
+  ],
+  "sources": [
+   "https://hls-dhs-dss.ch/de/articles/008877",
+   "https://hls-dhs-dss.ch/de/articles/008878/2009-09-14/",
+   "https://hls-dhs-dss.ch/de/articles/008879/",
+   "https://hls-dhs-dss.ch/de/articles/008881/",
+   "https://hls-dhs-dss.ch/de/articles/008883/2007-07-17/",
+   "https://hls-dhs-dss.ch/de/articles/008884/",
+   "https://hls-dhs-dss.ch/de/articles/008885/2010-04-20/",
+   "https://hls-dhs-dss.ch/textes/d/D8900.php",
+   "https://hls-dhs-dss.ch/de/articles/008888/2015-02-24/",
+   "https://hls-dhs-dss.ch/de/articles/008889/2006-03-15/",
+   "https://hls-dhs-dss.ch/de/articles/008891/2004-04-14/"
+  ],
+  "notes": "Areas are today's cantons; the Confederate territories were smaller, and many areas were subject lands or allies. Burgundy is drawn with French départements plus Belgium, the Netherlands and Luxembourg: very rough; Charles's lands also covered parts of northern France and Germany not shown. Savoy is shown as Vaud plus Savoie: rough. Swabian League shown as Baden-Württemberg and Bavaria: very rough. Grandson point is near Concise/Corcelles where the battle was fought. Calven point is approximate (gorge near Glurns/Taufers). Dead counts are from HLS and are estimates."
+ },
+ {
+  "id": "wars-italy",
+  "title": "The Italian Wars: Swiss soldiers in Lombardy",
+  "card": "From 1500 to 1525 Swiss armies fought for Milan, beat France at Novara and lost at Marignano and Pavia.",
+  "stops": [
+   {
+    "year": 1500,
+    "tick": "1500",
+    "title": "Milan, France and Swiss soldiers",
+    "text": [
+     "Around 1500 the Kings of France and the Dukes of Milan fought over Milan. Both sides hired Swiss soldiers.",
+     "In April 1500, at Novara, Swiss soldiers stood on both sides and refused to fight each other. Duke Ludovico Sforza fell into French hands. France ruled Milan.",
+     "In the same year Uri, Schwyz and Nidwalden took Bellinzona. France accepted this in 1503."
+    ],
+    "view": [
+     [
+      44.7,
+      6.4
+     ],
+     [
+      47.4,
+      10.9
+     ]
+    ],
+    "layers": [
+     {
+      "name": "Bellinzona and valleys",
+      "kind": "confederates",
+      "label": "Bellinzona, Riviera, Blenio: taken by Uri, Schwyz, Nidwalden",
+      "sel": {
+       "districts": [
+        2101,
+        2107,
+        2102,
+        2103
+       ]
+      }
+     },
+     {
+      "name": "Confederates",
+      "kind": "confederates",
+      "label": "Confederates (rough)",
+      "sel": {
+       "cantons": [
+        "UR",
+        "SZ",
+        "OW",
+        "NW",
+        "LU",
+        "ZH",
+        "ZG",
+        "GL",
+        "BE",
+        "FR",
+        "SO",
+        "BS",
+        "SH",
+        "AI",
+        "AR"
+       ]
+      }
+     },
+     {
+      "name": "Three Leagues",
+      "kind": "ally",
+      "label": "Three Leagues of Graubünden (ally)",
+      "sel": {
+       "cantons": [
+        "GR"
+       ]
+      }
+     },
+     {
+      "name": "Milan under France",
+      "kind": "france",
+      "label": "Duchy of Milan, ruled by France (rough)",
+      "sel": {
+       "districts": [
+        2104,
+        2105,
+        2106,
+        2108
+       ]
+      },
+      "regions": [
+       "ITA-5450",
+       "ITA-5454",
+       "ITA-5448",
+       "ITA-5449",
+       "ITA-5452",
+       "ITA-5453",
+       "ITA-5451",
+       "ITA-5438",
+       "ITA-5447",
+       "ITA-5437",
+       "ITA-5444"
+      ]
+     }
+    ],
+    "places": [
+     {
+      "name": "Novara",
+      "lat": 45.446,
+      "lon": 8.622,
+      "kind": "battle",
+      "year": 1500,
+      "note": "Swiss on both sides; Ludovico Sforza captured"
+     },
+     {
+      "name": "Bellinzona",
+      "lat": 46.195,
+      "lon": 9.017,
+      "kind": "town",
+      "year": 1500,
+      "note": "Taken by Uri, Schwyz, Nidwalden"
+     }
+    ]
+   },
+   {
+    "year": 1512,
+    "tick": "1512",
+    "title": "The Pavia campaign",
+    "text": [
+     "In 1512 the Confederates joined the Pope and his allies (the Holy League). A large Swiss army marched into Lombardy and drove the French out of Milan.",
+     "The Confederates made Massimiliano Sforza Duke of Milan and protected him. In return they took Lugano, Locarno, Mendrisio and the Ossola valley. Graubünden took the Valtellina, Chiavenna and Bormio."
+    ],
+    "view": [
+     [
+      44.7,
+      6.4
+     ],
+     [
+      47.4,
+      10.9
+     ]
+    ],
+    "layers": [
+     {
+      "name": "New Swiss lands",
+      "kind": "confederates",
+      "label": "Lugano, Locarno, Mendrisio, Ossola: new Confederate lands",
+      "sel": {
+       "districts": [
+        2104,
+        2105,
+        2106,
+        2108,
+        2101,
+        2107,
+        2102,
+        2103
+       ]
+      },
+      "regions": [
+       "ITA-5437"
+      ]
+     },
+     {
+      "name": "Confederates",
+      "kind": "confederates",
+      "label": "Confederates (rough)",
+      "sel": {
+       "cantons": [
+        "UR",
+        "SZ",
+        "OW",
+        "NW",
+        "LU",
+        "ZH",
+        "ZG",
+        "GL",
+        "BE",
+        "FR",
+        "SO",
+        "BS",
+        "SH",
+        "AI",
+        "AR"
+       ]
+      }
+     },
+     {
+      "name": "Graubünden",
+      "kind": "ally",
+      "label": "Three Leagues with Valtellina (ally)",
+      "sel": {
+       "cantons": [
+        "GR"
+       ]
+      },
+      "regions": [
+       "ITA-5444"
+      ]
+     },
+     {
+      "name": "Milan",
+      "kind": "milan",
+      "label": "Duchy of Milan under Swiss protection (rough)",
+      "sel": {},
+      "regions": [
+       "ITA-5450",
+       "ITA-5454",
+       "ITA-5448",
+       "ITA-5449",
+       "ITA-5452",
+       "ITA-5453",
+       "ITA-5451",
+       "ITA-5438",
+       "ITA-5447"
+      ]
+     }
+    ],
+    "places": [
+     {
+      "name": "Pavia",
+      "lat": 45.1847,
+      "lon": 9.1582,
+      "kind": "town",
+      "year": 1512,
+      "note": "Swiss army takes Lombardy"
+     },
+     {
+      "name": "Domodossola",
+      "lat": 45.1167,
+      "lon": 8.2917,
+      "kind": "town",
+      "year": 1512,
+      "note": "Ossola under the Confederates"
+     }
+    ]
+   },
+   {
+    "year": 1513,
+    "tick": "1513",
+    "title": "Novara: the high point",
+    "text": [
+     "In 1513 King Louis XII of France sent an army to take Milan back. Swiss troops held Novara.",
+     "On 6 June 1513 the Swiss attacked the French army near Novara and beat it. HLS calls this the high point of Swiss military power.",
+     "In the same year a Swiss army marched into France as far as Dijon. The town paid money, and the army went home."
+    ],
+    "view": [
+     [
+      44.7,
+      6.4
+     ],
+     [
+      47.4,
+      10.9
+     ]
+    ],
+    "layers": [
+     {
+      "name": "New Swiss lands",
+      "kind": "confederates",
+      "label": "Confederate lands south of the Alps",
+      "sel": {
+       "districts": [
+        2104,
+        2105,
+        2106,
+        2108,
+        2101,
+        2107,
+        2102,
+        2103
+       ]
+      },
+      "regions": [
+       "ITA-5437"
+      ]
+     },
+     {
+      "name": "Confederates",
+      "kind": "confederates",
+      "label": "Confederates (rough)",
+      "sel": {
+       "cantons": [
+        "UR",
+        "SZ",
+        "OW",
+        "NW",
+        "LU",
+        "ZH",
+        "ZG",
+        "GL",
+        "BE",
+        "FR",
+        "SO",
+        "BS",
+        "SH",
+        "AI",
+        "AR"
+       ]
+      }
+     },
+     {
+      "name": "Graubünden",
+      "kind": "ally",
+      "label": "Three Leagues with Valtellina (ally)",
+      "sel": {
+       "cantons": [
+        "GR"
+       ]
+      },
+      "regions": [
+       "ITA-5444"
+      ]
+     },
+     {
+      "name": "Milan",
+      "kind": "milan",
+      "label": "Duchy of Milan under Swiss protection (rough)",
+      "sel": {},
+      "regions": [
+       "ITA-5450",
+       "ITA-5454",
+       "ITA-5448",
+       "ITA-5449",
+       "ITA-5452",
+       "ITA-5453",
+       "ITA-5451",
+       "ITA-5438",
+       "ITA-5447"
+      ]
+     },
+     {
+      "name": "France",
+      "kind": "france",
+      "label": "Kingdom of France",
+      "sel": {},
+      "countries": [
+       "FRA"
+      ]
+     }
+    ],
+    "places": [
+     {
+      "name": "Novara",
+      "lat": 45.446,
+      "lon": 8.622,
+      "kind": "battle",
+      "year": 1513,
+      "note": "Swiss beat the French"
+     }
+    ]
+   },
+   {
+    "year": 1515,
+    "tick": "1515",
+    "title": "Marignano: the turning point",
+    "text": [
+     "In 1515 the new King of France, Francis I, came with a strong army with cavalry and many cannons. Some Swiss troops went home after an offer of money. The others fought.",
+     "On 13 and 14 September 1515 the armies met at Marignano (today Melegnano), south-east of Milan. On the second morning Venetian troops came to help the French, and the Swiss lost. HLS gives 9,000 to 10,000 Swiss dead.",
+     "France took Milan. The defeat showed that pikes alone could not beat cavalry and guns."
+    ],
+    "view": [
+     [
+      44.7,
+      6.4
+     ],
+     [
+      47.4,
+      10.9
+     ]
+    ],
+    "layers": [
+     {
+      "name": "New Swiss lands",
+      "kind": "confederates",
+      "label": "Confederate lands south of the Alps",
+      "sel": {
+       "districts": [
+        2104,
+        2105,
+        2106,
+        2108,
+        2101,
+        2107,
+        2102,
+        2103
+       ]
+      },
+      "regions": [
+       "ITA-5437"
+      ]
+     },
+     {
+      "name": "Confederates",
+      "kind": "confederates",
+      "label": "Confederates (rough)",
+      "sel": {
+       "cantons": [
+        "UR",
+        "SZ",
+        "OW",
+        "NW",
+        "LU",
+        "ZH",
+        "ZG",
+        "GL",
+        "BE",
+        "FR",
+        "SO",
+        "BS",
+        "SH",
+        "AI",
+        "AR"
+       ]
+      }
+     },
+     {
+      "name": "Graubünden",
+      "kind": "ally",
+      "label": "Three Leagues with Valtellina (ally)",
+      "sel": {
+       "cantons": [
+        "GR"
+       ]
+      },
+      "regions": [
+       "ITA-5444"
+      ]
+     },
+     {
+      "name": "France",
+      "kind": "france",
+      "label": "France, now also ruling Milan (rough)",
+      "sel": {},
+      "regions": [
+       "ITA-5450",
+       "ITA-5454",
+       "ITA-5448",
+       "ITA-5449",
+       "ITA-5452",
+       "ITA-5453",
+       "ITA-5451",
+       "ITA-5438",
+       "ITA-5447"
+      ],
+      "countries": [
+       "FRA"
+      ]
+     }
+    ],
+    "places": [
+     {
+      "name": "Marignano",
+      "lat": 45.378,
+      "lon": 9.295,
+      "kind": "battle",
+      "year": 1515,
+      "note": "France and Venice beat the Swiss"
+     },
+     {
+      "name": "Novara",
+      "lat": 45.446,
+      "lon": 8.622,
+      "kind": "battle",
+      "year": 1513,
+      "note": "Swiss win"
+     }
+    ]
+   },
+   {
+    "year": 1516,
+    "tick": "1516",
+    "title": "The Perpetual Peace",
+    "text": [
+     "On 29 November 1516 the Confederates and France signed the 'Perpetual Peace' at Fribourg. The Swiss gave up their protection of Milan.",
+     "They kept Bellinzona, Lugano, Locarno, Mendrisio and the Maggia valley. These lands are today the canton of Ticino. Graubünden kept the Valtellina. The Ossola valley went back to Milan.",
+     "In 1521 the Confederates made an alliance with France. From now on France hired many Swiss soldiers."
+    ],
+    "view": [
+     [
+      44.7,
+      6.4
+     ],
+     [
+      47.4,
+      10.9
+     ]
+    ],
+    "layers": [
+     {
+      "name": "Swiss lands in the south",
+      "kind": "confederates",
+      "label": "Lands the Confederates kept (today Ticino)",
+      "sel": {
+       "districts": [
+        2104,
+        2105,
+        2106,
+        2108,
+        2101,
+        2107,
+        2102,
+        2103
+       ]
+      }
+     },
+     {
+      "name": "Confederates",
+      "kind": "confederates",
+      "label": "Confederates (rough)",
+      "sel": {
+       "cantons": [
+        "UR",
+        "SZ",
+        "OW",
+        "NW",
+        "LU",
+        "ZH",
+        "ZG",
+        "GL",
+        "BE",
+        "FR",
+        "SO",
+        "BS",
+        "SH",
+        "AI",
+        "AR"
+       ]
+      }
+     },
+     {
+      "name": "Graubünden",
+      "kind": "ally",
+      "label": "Three Leagues with Valtellina (ally)",
+      "sel": {
+       "cantons": [
+        "GR"
+       ]
+      },
+      "regions": [
+       "ITA-5444"
+      ]
+     },
+     {
+      "name": "France",
+      "kind": "france",
+      "label": "France, ruling Milan and the Ossola (rough)",
+      "sel": {},
+      "regions": [
+       "ITA-5450",
+       "ITA-5454",
+       "ITA-5448",
+       "ITA-5449",
+       "ITA-5452",
+       "ITA-5453",
+       "ITA-5451",
+       "ITA-5438",
+       "ITA-5447",
+       "ITA-5437"
+      ],
+      "countries": [
+       "FRA"
+      ]
+     }
+    ],
+    "places": [
+     {
+      "name": "Fribourg",
+      "lat": 46.8065,
+      "lon": 7.1619,
+      "kind": "treaty",
+      "year": 1516,
+      "note": "Perpetual Peace with France"
+     },
+     {
+      "name": "Marignano",
+      "lat": 45.378,
+      "lon": 9.295,
+      "kind": "battle",
+      "year": 1515,
+      "note": "French win"
+     }
+    ]
+   },
+   {
+    "year": 1522,
+    "tick": "1522",
+    "title": "Bicocca: guns beat pikes",
+    "text": [
+     "Now the Swiss fought for France against Emperor Charles V, who wanted Milan.",
+     "On 27 April 1522 the Swiss attacked the imperial army at Bicocca, north of Milan. The enemy waited behind a ditch and a wall and fired with handguns (arquebuses). The Swiss lost many men and did not win."
+    ],
+    "view": [
+     [
+      44.7,
+      6.4
+     ],
+     [
+      47.4,
+      10.9
+     ]
+    ],
+    "layers": [
+     {
+      "name": "Swiss lands in the south",
+      "kind": "confederates",
+      "label": "Confederate lands south of the Alps",
+      "sel": {
+       "districts": [
+        2104,
+        2105,
+        2106,
+        2108,
+        2101,
+        2107,
+        2102,
+        2103
+       ]
+      }
+     },
+     {
+      "name": "Confederates",
+      "kind": "confederates",
+      "label": "Confederates (rough)",
+      "sel": {
+       "cantons": [
+        "UR",
+        "SZ",
+        "OW",
+        "NW",
+        "LU",
+        "ZH",
+        "ZG",
+        "GL",
+        "BE",
+        "FR",
+        "SO",
+        "BS",
+        "SH",
+        "AI",
+        "AR"
+       ]
+      }
+     },
+     {
+      "name": "Graubünden",
+      "kind": "ally",
+      "label": "Three Leagues with Valtellina (ally)",
+      "sel": {
+       "cantons": [
+        "GR"
+       ]
+      },
+      "regions": [
+       "ITA-5444"
+      ]
+     },
+     {
+      "name": "Milan",
+      "kind": "empire",
+      "label": "Milan, held by the Emperor's side (rough)",
+      "sel": {},
+      "regions": [
+       "ITA-5450",
+       "ITA-5454",
+       "ITA-5448",
+       "ITA-5449",
+       "ITA-5452",
+       "ITA-5453",
+       "ITA-5451",
+       "ITA-5438",
+       "ITA-5447",
+       "ITA-5437"
+      ]
+     },
+     {
+      "name": "France",
+      "kind": "france",
+      "label": "Kingdom of France",
+      "sel": {},
+      "countries": [
+       "FRA"
+      ]
+     }
+    ],
+    "places": [
+     {
+      "name": "Bicocca",
+      "lat": 45.518,
+      "lon": 9.212,
+      "kind": "battle",
+      "year": 1522,
+      "note": "Imperial army beats French and Swiss"
+     }
+    ]
+   },
+   {
+    "year": 1525,
+    "tick": "1525",
+    "title": "Pavia: the end of expansion",
+    "text": [
+     "King Francis I tried again. From October 1524 he laid siege to Pavia. About 8,000 Swiss served in his army.",
+     "On 24 February 1525 an imperial army attacked and won. The king himself was taken prisoner.",
+     "Bicocca and Pavia ended Swiss plans to rule in northern Italy. The Reformation now divided the Confederates. From here on they no longer made war to win land abroad, but many Swiss still served as mercenaries."
+    ],
+    "view": [
+     [
+      44.7,
+      6.4
+     ],
+     [
+      47.4,
+      10.9
+     ]
+    ],
+    "layers": [
+     {
+      "name": "Swiss lands in the south",
+      "kind": "confederates",
+      "label": "Confederate lands south of the Alps",
+      "sel": {
+       "districts": [
+        2104,
+        2105,
+        2106,
+        2108,
+        2101,
+        2107,
+        2102,
+        2103
+       ]
+      }
+     },
+     {
+      "name": "Confederates",
+      "kind": "confederates",
+      "label": "Confederates (rough)",
+      "sel": {
+       "cantons": [
+        "UR",
+        "SZ",
+        "OW",
+        "NW",
+        "LU",
+        "ZH",
+        "ZG",
+        "GL",
+        "BE",
+        "FR",
+        "SO",
+        "BS",
+        "SH",
+        "AI",
+        "AR"
+       ]
+      }
+     },
+     {
+      "name": "Graubünden",
+      "kind": "ally",
+      "label": "Three Leagues with Valtellina (ally)",
+      "sel": {
+       "cantons": [
+        "GR"
+       ]
+      },
+      "regions": [
+       "ITA-5444"
+      ]
+     },
+     {
+      "name": "Milan",
+      "kind": "empire",
+      "label": "Milan, held by the Emperor's side (rough)",
+      "sel": {},
+      "regions": [
+       "ITA-5450",
+       "ITA-5454",
+       "ITA-5448",
+       "ITA-5449",
+       "ITA-5452",
+       "ITA-5453",
+       "ITA-5451",
+       "ITA-5438",
+       "ITA-5447",
+       "ITA-5437"
+      ]
+     },
+     {
+      "name": "France",
+      "kind": "france",
+      "label": "Kingdom of France",
+      "sel": {},
+      "countries": [
+       "FRA"
+      ]
+     }
+    ],
+    "places": [
+     {
+      "name": "Pavia",
+      "lat": 45.205,
+      "lon": 9.147,
+      "kind": "battle",
+      "year": 1525,
+      "note": "Imperial army wins; Francis I captured"
+     },
+     {
+      "name": "Bicocca",
+      "lat": 45.518,
+      "lon": 9.212,
+      "kind": "battle",
+      "year": 1522,
+      "note": "Imperial army wins"
+     },
+     {
+      "name": "Marignano",
+      "lat": 45.378,
+      "lon": 9.295,
+      "kind": "battle",
+      "year": 1515,
+      "note": "French win"
+     },
+     {
+      "name": "Novara",
+      "lat": 45.446,
+      "lon": 8.622,
+      "kind": "battle",
+      "year": 1513,
+      "note": "Swiss win"
+     }
+    ]
+   }
+  ],
+  "sources": [
+   "http://www.hls-dhs-dss.ch/textes/d/D8894.php",
+   "https://hls-dhs-dss.ch/de/articles/024649/2016-04-21/",
+   "https://hls-dhs-dss.ch/de/articles/008893/2024-02-05/",
+   "https://hls-dhs-dss.ch/de/articles/008896/",
+   "https://hls-dhs-dss.ch/de/articles/008898/",
+   "http://www.hls-dhs-dss.ch/textes/d/D8902.php",
+   "https://hls-dhs-dss.ch/de/articles/008897/2009-11-24/",
+   "https://hls-dhs-dss.ch/de/articles/008895/"
+  ],
+  "notes": "Duchy of Milan drawn with today's Italian provinces (Milano, Monza, Lodi, Pavia, Como, Lecco, Varese, Novara, Cremona): rough. Ossola = province Verbano-Cusio-Ossola, which is larger than the old Ossola. Valtellina = province of Sondrio (Chiavenna and Bormio included). Swiss core shown as today's cantons; Basel, Schaffhausen and Appenzell joined only 1501/1513. Ticino districts are grouped; Blenio and Riviera details simplified. Marignano point is at Zivido/San Giuliano, where most fighting took place (approximate)."
+ },
+ {
+  "id": "wars-civil",
+  "title": "Civil wars: faith and farmers",
+  "card": "After the Reformation the Confederates fought each other four times, and in 1653 the farmers rose against the towns.",
+  "stops": [
+   {
+    "year": 1529,
+    "tick": "1529",
+    "title": "First Kappel War: the milk soup",
+    "text": [
+     "The Reformation split the Confederates. Zurich, Bern, Basel and Schaffhausen became Protestant (Reformed). The five inner places, Lucerne, Uri, Schwyz, Unterwalden and Zug, stayed Catholic.",
+     "In 1529 Schwyz burned a Reformed pastor, Jakob Kaiser. Zurich went to war. The armies met near Kappel, but they did not fight. A story says that soldiers of both sides ate milk soup together.",
+     "The First Peace of Kappel (26 June 1529) favoured the Reformed side."
+    ],
+    "view": "ch",
+    "layers": [
+     {
+      "name": "Reformed",
+      "kind": "reformed",
+      "label": "Reformed places (rough)",
+      "sel": {
+       "cantons": [
+        "ZH",
+        "BE",
+        "BS",
+        "SH"
+       ],
+       "munis": [
+        3203
+       ]
+      }
+     },
+     {
+      "name": "Catholic",
+      "kind": "catholic",
+      "label": "Catholic places (rough)",
+      "sel": {
+       "cantons": [
+        "LU",
+        "UR",
+        "SZ",
+        "OW",
+        "NW",
+        "ZG",
+        "FR",
+        "SO",
+        "VS"
+       ]
+      }
+     },
+     {
+      "name": "Mixed",
+      "kind": "mixed",
+      "label": "Mixed or divided areas (rough)",
+      "sel": {
+       "cantons": [
+        "GL",
+        "AR",
+        "AI",
+        "TG",
+        "SG",
+        "GR",
+        "AG"
+       ]
+      }
+     }
+    ],
+    "places": [
+     {
+      "name": "Kappel am Albis",
+      "lat": 47.229,
+      "lon": 8.5285,
+      "kind": "treaty",
+      "year": 1529,
+      "note": "First Peace of Kappel, no battle"
+     }
+    ]
+   },
+   {
+    "year": 1531,
+    "tick": "1531 Kappel",
+    "title": "Kappel: Zwingli is killed",
+    "text": [
+     "Zurich and Bern blocked food supplies to the Catholic places. In October 1531 the five Catholic places attacked.",
+     "On 11 October 1531 they beat the Zurich army at Kappel. About 500 men from Zurich died, among them the reformer Huldrych Zwingli, who went with the army as a preacher.",
+     "On 24 October the Catholics beat Zurich troops again at the Gubel, near Menzingen."
+    ],
+    "view": "ch",
+    "layers": [
+     {
+      "name": "Reformed",
+      "kind": "reformed",
+      "label": "Reformed places (rough)",
+      "sel": {
+       "cantons": [
+        "ZH",
+        "BE",
+        "BS",
+        "SH"
+       ],
+       "munis": [
+        3203
+       ]
+      }
+     },
+     {
+      "name": "Catholic",
+      "kind": "catholic",
+      "label": "Catholic places (rough)",
+      "sel": {
+       "cantons": [
+        "LU",
+        "UR",
+        "SZ",
+        "OW",
+        "NW",
+        "ZG",
+        "FR",
+        "SO",
+        "VS"
+       ]
+      }
+     },
+     {
+      "name": "Mixed",
+      "kind": "mixed",
+      "label": "Mixed or divided areas (rough)",
+      "sel": {
+       "cantons": [
+        "GL",
+        "AR",
+        "AI",
+        "TG",
+        "SG",
+        "GR",
+        "AG"
+       ]
+      }
+     }
+    ],
+    "places": [
+     {
+      "name": "Kappel am Albis",
+      "lat": 47.229,
+      "lon": 8.5285,
+      "kind": "battle",
+      "year": 1531,
+      "note": "Catholics win; Zwingli killed"
+     },
+     {
+      "name": "Gubel",
+      "lat": 47.18,
+      "lon": 8.596,
+      "kind": "battle",
+      "year": 1531,
+      "note": "Catholics win"
+     }
+    ]
+   },
+   {
+    "year": 1531,
+    "tick": "1531 Peace",
+    "title": "Second Peace of Kappel",
+    "text": [
+     "The Second Peace of Kappel (November 1531) said that each place keeps its own faith. In the common subject lands, the Catholic side gained.",
+     "The Catholic places now had more power in the Confederation. The border between the faiths stayed almost the same until 1798."
+    ],
+    "view": "ch",
+    "layers": [
+     {
+      "name": "Reformed",
+      "kind": "reformed",
+      "label": "Reformed places (rough)",
+      "sel": {
+       "cantons": [
+        "ZH",
+        "BE",
+        "BS",
+        "SH"
+       ],
+       "munis": [
+        3203
+       ]
+      }
+     },
+     {
+      "name": "Catholic",
+      "kind": "catholic",
+      "label": "Catholic places (rough)",
+      "sel": {
+       "cantons": [
+        "LU",
+        "UR",
+        "SZ",
+        "OW",
+        "NW",
+        "ZG",
+        "FR",
+        "SO",
+        "VS"
+       ]
+      }
+     },
+     {
+      "name": "Mixed",
+      "kind": "mixed",
+      "label": "Mixed or divided areas (rough)",
+      "sel": {
+       "cantons": [
+        "GL",
+        "AR",
+        "AI",
+        "TG",
+        "SG",
+        "GR",
+        "AG"
+       ]
+      }
+     }
+    ],
+    "places": [
+     {
+      "name": "Kappel am Albis",
+      "lat": 47.229,
+      "lon": 8.5285,
+      "kind": "treaty",
+      "year": 1531,
+      "note": "Second Peace of Kappel"
+     },
+     {
+      "name": "Gubel",
+      "lat": 47.18,
+      "lon": 8.596,
+      "kind": "battle",
+      "year": 1531,
+      "note": "Catholics win"
+     }
+    ]
+   },
+   {
+    "year": 1653,
+    "tick": "1653 Rising",
+    "title": "The Peasants' War",
+    "text": [
+     "After the Thirty Years' War, prices for farm products fell. Lucerne and Bern also made their coins worth less. The farmers lost money and were angry.",
+     "In February 1653 the farmers of the Entlebuch rose against Lucerne. Farmers in the Emmental and in the lands of Solothurn and Basel joined them. In May 1653 they swore an alliance at Huttwil. They wanted to speak to the town governments as equals.",
+     "This time Catholic and Reformed farmers fought together, against the town lords."
+    ],
+    "view": "ch",
+    "layers": [
+     {
+      "name": "Rising farmers",
+      "kind": "other",
+      "label": "Areas where the farmers rose (rough)",
+      "sel": {
+       "districts": [
+        316,
+        315,
+        314,
+        245,
+        244,
+        1101,
+        1102,
+        1105,
+        1106,
+        1108,
+        1303,
+        1304,
+        1305,
+        1910,
+        1907,
+        1901,
+        1905
+       ]
+      }
+     },
+     {
+      "name": "Town governments",
+      "kind": "confederates",
+      "label": "Lands of Lucerne, Bern, Solothurn and Basel (rough)",
+      "sel": {
+       "cantons": [
+        "LU",
+        "BE",
+        "SO",
+        "BS",
+        "BL",
+        "AG"
+       ]
+      }
+     }
+    ],
+    "places": [
+     {
+      "name": "Huttwil",
+      "lat": 47.115,
+      "lon": 7.848,
+      "kind": "treaty",
+      "year": 1653,
+      "note": "Farmers' alliance of Huttwil"
+     },
+     {
+      "name": "Entlebuch",
+      "lat": 46.993,
+      "lon": 8.064,
+      "kind": "place",
+      "year": 1653,
+      "note": "Start of the rising"
+     }
+    ]
+   },
+   {
+    "year": 1653,
+    "tick": "1653 Defeat",
+    "title": "Wohlenschwil and Herzogenbuchsee",
+    "text": [
+     "The Diet (the meeting of the Confederate places) sent an army. On 3 June 1653 it beat the farmers at Wohlenschwil. A few days later Bernese troops beat the rest of the farmers' army at Herzogenbuchsee, and the village burned.",
+     "The farmers' leader, Niklaus Leuenberger, was betrayed and executed in Bern with other leaders. The town lords won, but after this they were more careful with new taxes."
+    ],
+    "view": "ch",
+    "layers": [
+     {
+      "name": "Rising farmers",
+      "kind": "other",
+      "label": "Areas where the farmers rose (rough)",
+      "sel": {
+       "districts": [
+        316,
+        315,
+        314,
+        245,
+        244,
+        1101,
+        1102,
+        1105,
+        1106,
+        1108,
+        1303,
+        1304,
+        1305,
+        1910,
+        1907,
+        1901,
+        1905
+       ]
+      }
+     },
+     {
+      "name": "Town governments",
+      "kind": "confederates",
+      "label": "Lands of Lucerne, Bern, Solothurn and Basel (rough)",
+      "sel": {
+       "cantons": [
+        "LU",
+        "BE",
+        "SO",
+        "BS",
+        "BL",
+        "AG"
+       ]
+      }
+     }
+    ],
+    "places": [
+     {
+      "name": "Wohlenschwil",
+      "lat": 47.414,
+      "lon": 8.258,
+      "kind": "battle",
+      "year": 1653,
+      "note": "Diet army beats the farmers"
+     },
+     {
+      "name": "Herzogenbuchsee",
+      "lat": 47.188,
+      "lon": 7.706,
+      "kind": "battle",
+      "year": 1653,
+      "note": "Bern beats the farmers"
+     },
+     {
+      "name": "Huttwil",
+      "lat": 47.115,
+      "lon": 7.848,
+      "kind": "treaty",
+      "year": 1653,
+      "note": "Farmers' alliance"
+     }
+    ]
+   },
+   {
+    "year": 1656,
+    "tick": "1656",
+    "title": "First Villmergen War",
+    "text": [
+     "In 1655 Schwyz punished Reformed people in Arth, and some fled to Zurich. Zurich and Bern wanted to change the Peace of Kappel by force.",
+     "Zurich laid siege to Rapperswil but could not take it. On 24 January 1656 the army of Lucerne and the inner places beat the Bernese army at Villmergen.",
+     "The Third Peace of Baden (March 1656) kept the old rules. The Catholic places kept their stronger position."
+    ],
+    "view": "ch",
+    "layers": [
+     {
+      "name": "Reformed",
+      "kind": "reformed",
+      "label": "Reformed side: Zurich, Bern, Schaffhausen",
+      "sel": {
+       "cantons": [
+        "ZH",
+        "BE",
+        "SH"
+       ]
+      }
+     },
+     {
+      "name": "Catholic",
+      "kind": "catholic",
+      "label": "Catholic side: the five inner places",
+      "sel": {
+       "cantons": [
+        "LU",
+        "UR",
+        "SZ",
+        "OW",
+        "NW",
+        "ZG"
+       ]
+      }
+     },
+     {
+      "name": "Others",
+      "kind": "other",
+      "label": "Other places, not fighting (rough)",
+      "sel": {
+       "cantons": [
+        "FR",
+        "SO",
+        "BS",
+        "GL",
+        "AR",
+        "AI",
+        "TG",
+        "SG",
+        "AG",
+        "VS",
+        "GR"
+       ]
+      }
+     }
+    ],
+    "places": [
+     {
+      "name": "Villmergen",
+      "lat": 47.348,
+      "lon": 8.243,
+      "kind": "battle",
+      "year": 1656,
+      "note": "Catholics beat Bern"
+     },
+     {
+      "name": "Rapperswil",
+      "lat": 47.226,
+      "lon": 8.818,
+      "kind": "town",
+      "year": 1656,
+      "note": "Zurich siege fails"
+     }
+    ]
+   },
+   {
+    "year": 1712,
+    "tick": "1712",
+    "title": "Second Villmergen War",
+    "text": [
+     "The war started in the Toggenburg, where people rose against their lord, the abbot of St. Gallen. Zurich and Bern supported them. The five Catholic places took the abbot's side.",
+     "On 25 July 1712 Bern beat the Catholic army at Villmergen. In the Peace of Aarau (11 August 1712) the Catholics lost their share in ruling the county of Baden and the lower Freie Ämter.",
+     "Now Zurich and Bern were the strongest powers in the Confederation. Both faiths had equal rights in the common lands."
+    ],
+    "view": "ch",
+    "layers": [
+     {
+      "name": "Baden and lower Freie Ämter",
+      "kind": "reformed",
+      "label": "Baden and lower Freie Ämter: now ruled by Zurich, Bern and Glarus (rough)",
+      "sel": {
+       "districts": [
+        1902,
+        1903
+       ]
+      }
+     },
+     {
+      "name": "Toggenburg",
+      "kind": "mixed",
+      "label": "Toggenburg, where the war began",
+      "sel": {
+       "districts": [
+        1727
+       ]
+      }
+     },
+     {
+      "name": "Reformed",
+      "kind": "reformed",
+      "label": "Reformed side: Zurich and Bern",
+      "sel": {
+       "cantons": [
+        "ZH",
+        "BE"
+       ]
+      }
+     },
+     {
+      "name": "Catholic",
+      "kind": "catholic",
+      "label": "Catholic side: the five inner places",
+      "sel": {
+       "cantons": [
+        "LU",
+        "UR",
+        "SZ",
+        "OW",
+        "NW",
+        "ZG"
+       ]
+      }
+     }
+    ],
+    "places": [
+     {
+      "name": "Villmergen",
+      "lat": 47.348,
+      "lon": 8.243,
+      "kind": "battle",
+      "year": 1712,
+      "note": "Bern beats the Catholics"
+     },
+     {
+      "name": "Aarau",
+      "lat": 47.392,
+      "lon": 8.044,
+      "kind": "treaty",
+      "year": 1712,
+      "note": "Peace of Aarau"
+     }
+    ]
+   }
+  ],
+  "sources": [
+   "http://www.hls-dhs-dss.ch/textes/d/D8903.php",
+   "https://hls-dhs-dss.ch/de/articles/010447/2014-03-04/",
+   "https://hls-dhs-dss.ch/de/articles/007498/2006-03-06/",
+   "https://hls-dhs-dss.ch/de/articles/013328/",
+   "https://hls-dhs-dss.ch/de/articles/008909/",
+   "https://hls-dhs-dss.ch/de/articles/000550/",
+   "https://hls-dhs-dss.ch/de/articles/001657/2013-11-20/",
+   "https://hls-dhs-dss.ch/de/articles/000565/",
+   "https://hls-dhs-dss.ch/de/articles/018844/",
+   "https://hls-dhs-dss.ch/de/articles/008910/2014-01-22/",
+   "https://hls-dhs-dss.ch/de/articles/008911/2013-02-28/"
+  ],
+  "notes": "Religion areas are today's cantons and are rough: Glarus, Appenzell, Thurgau, St. Gallen, Graubünden and Aargau were mixed or split; the town of St. Gallen was Reformed. Areas of the 1653 rising are today's districts, rough. The Huttwil oath date differs (4 or 14 May 1653, old and new calendar). The 'milk soup' of 1529 is a traditional story. The exact day of Herzogenbuchsee (June 1653) was not checked in HLS, so the text says 'a few days later'."
+ },
+ {
+  "id": "wars-1798",
+  "title": "1798-1799: foreign armies in Switzerland",
+  "card": "France ended the old Confederation, and in 1799 French, Austrian and Russian armies fought on Swiss soil.",
+  "stops": [
+   {
+    "year": 1798,
+    "tick": "1798 Jan",
+    "title": "French troops in Vaud",
+    "text": [
+     "France had become a republic after the revolution of 1789. In 1797 it took the south of the Bishopric of Basel. Many people in Vaud wanted to be free of Bern's rule.",
+     "In January 1798 Vaud declared itself free (the 'Lemanic Republic'). French troops marched in. Other places also freed their subjects. The old order of the Confederation broke down."
+    ],
+    "view": "ch",
+    "layers": [
+     {
+      "name": "France",
+      "kind": "france",
+      "label": "France, with the former Bishopric of Basel (rough)",
+      "sel": {
+       "cantons": [
+        "JU"
+       ],
+       "districts": [
+        241,
+        242
+       ]
+      },
+      "countries": [
+       "FRA"
+      ]
+     },
+     {
+      "name": "Vaud",
+      "kind": "other",
+      "label": "Vaud, now free of Bern, with French troops",
+      "sel": {
+       "cantons": [
+        "VD"
+       ]
+      }
+     },
+     {
+      "name": "Confederates",
+      "kind": "confederates",
+      "label": "The old Confederation (rough)",
+      "sel": {
+       "cantons": [
+        "ZH",
+        "BE",
+        "LU",
+        "UR",
+        "SZ",
+        "OW",
+        "NW",
+        "GL",
+        "ZG",
+        "FR",
+        "SO",
+        "BS",
+        "BL",
+        "SH",
+        "AR",
+        "AI",
+        "SG",
+        "AG",
+        "TG",
+        "TI",
+        "VS",
+        "NE",
+        "GR"
+       ]
+      }
+     }
+    ],
+    "places": [
+     {
+      "name": "Lausanne",
+      "lat": 46.5197,
+      "lon": 6.6323,
+      "kind": "town",
+      "year": 1798,
+      "note": "Vaud declares itself free"
+     }
+    ]
+   },
+   {
+    "year": 1798,
+    "tick": "1798 March",
+    "title": "Grauholz and Neuenegg: Bern falls",
+    "text": [
+     "Bern decided to fight. French armies attacked from the west and the north.",
+     "On 5 March 1798 the French beat the Bernese at Fraubrunnen and then at the Grauholz, north of Bern. On the same day, in the south, Bernese troops beat the French at Neuenegg. But this victory came too late.",
+     "Bern gave up, and French troops occupied the town. They took the Bernese state treasure to France."
+    ],
+    "view": "ch",
+    "layers": [
+     {
+      "name": "France",
+      "kind": "france",
+      "label": "France, with the former Bishopric of Basel (rough)",
+      "sel": {
+       "cantons": [
+        "JU"
+       ],
+       "districts": [
+        241,
+        242
+       ]
+      },
+      "countries": [
+       "FRA"
+      ]
+     },
+     {
+      "name": "French-held",
+      "kind": "france",
+      "label": "Land taken by the French (rough)",
+      "sel": {
+       "cantons": [
+        "VD",
+        "FR"
+       ],
+       "districts": [
+        243
+       ]
+      }
+     },
+     {
+      "name": "Bern",
+      "kind": "confederates",
+      "label": "Bern (rough)",
+      "sel": {
+       "cantons": [
+        "BE"
+       ]
+      }
+     }
+    ],
+    "places": [
+     {
+      "name": "Fraubrunnen",
+      "lat": 47.086,
+      "lon": 7.527,
+      "kind": "battle",
+      "year": 1798,
+      "note": "French win"
+     },
+     {
+      "name": "Grauholz",
+      "lat": 47.004,
+      "lon": 7.505,
+      "kind": "battle",
+      "year": 1798,
+      "note": "French beat Bern"
+     },
+     {
+      "name": "Neuenegg",
+      "lat": 46.9,
+      "lon": 7.296,
+      "kind": "battle",
+      "year": 1798,
+      "note": "Bern beats the French"
+     },
+     {
+      "name": "Bern",
+      "lat": 46.948,
+      "lon": 7.4474,
+      "kind": "town",
+      "year": 1798,
+      "note": "Occupied by France"
+     }
+    ]
+   },
+   {
+    "year": 1798,
+    "tick": "1798 April",
+    "title": "The Helvetic Republic",
+    "text": [
+     "On 12 April 1798 the Helvetic Republic was proclaimed in Aarau. It was one state with one constitution, made after the French model. All people now had the same rights; there were no more subject lands.",
+     "Schwyz, Uri and Nidwalden refused the new constitution. Their troops, led by Alois Reding of Schwyz, won some fights, for example at Rothenthurm on 2 May 1798. But the French army was too strong, and Schwyz had to accept the constitution."
+    ],
+    "view": "ch",
+    "layers": [
+     {
+      "name": "Resisting",
+      "kind": "confederates",
+      "label": "Schwyz, Uri, Nidwalden: resisting",
+      "sel": {
+       "cantons": [
+        "SZ",
+        "UR",
+        "NW"
+       ]
+      }
+     },
+     {
+      "name": "Helvetic Republic",
+      "kind": "france",
+      "label": "Helvetic Republic, under French control (rough)",
+      "sel": {
+       "cantons": [
+        "ZH",
+        "BE",
+        "LU",
+        "FR",
+        "SO",
+        "BS",
+        "BL",
+        "SH",
+        "AR",
+        "AI",
+        "SG",
+        "AG",
+        "TG",
+        "TI",
+        "VD",
+        "VS",
+        "OW",
+        "ZG",
+        "GL"
+       ]
+      }
+     },
+     {
+      "name": "France",
+      "kind": "france",
+      "label": "France (with Geneva and the Jura, rough)",
+      "sel": {
+       "cantons": [
+        "GE",
+        "JU"
+       ],
+       "districts": [
+        241,
+        242
+       ]
+      },
+      "countries": [
+       "FRA"
+      ]
+     }
+    ],
+    "places": [
+     {
+      "name": "Aarau",
+      "lat": 47.392,
+      "lon": 8.044,
+      "kind": "treaty",
+      "year": 1798,
+      "note": "Helvetic Republic proclaimed"
+     },
+     {
+      "name": "Rothenthurm",
+      "lat": 47.104,
+      "lon": 8.676,
+      "kind": "battle",
+      "year": 1798,
+      "note": "Schwyz wins, then gives up"
+     },
+     {
+      "name": "Grauholz",
+      "lat": 47.004,
+      "lon": 7.505,
+      "kind": "battle",
+      "year": 1798,
+      "note": "French win"
+     }
+    ]
+   },
+   {
+    "year": 1798,
+    "tick": "1798 Sept",
+    "title": "Nidwalden: the days of terror",
+    "text": [
+     "Nidwalden refused to swear an oath to the new state. In September 1798 French troops attacked from the lake and over the Allweg pass.",
+     "On 9 September the people of Nidwalden fought hard, but around midday they had to give way. HLS gives about 100 dead fighters from Nidwalden and about as many French. About 300 more men, women and children were killed afterwards. Stans, Stansstad, Buochs and Ennetmoos were burned and destroyed.",
+     "People in Nidwalden remembered these days of terror for a long time."
+    ],
+    "view": "ch",
+    "layers": [
+     {
+      "name": "Nidwalden",
+      "kind": "confederates",
+      "label": "Nidwalden",
+      "sel": {
+       "cantons": [
+        "NW"
+       ]
+      }
+     },
+     {
+      "name": "Helvetic Republic",
+      "kind": "france",
+      "label": "Helvetic Republic, under French control (rough)",
+      "sel": {
+       "cantons": [
+        "ZH",
+        "BE",
+        "LU",
+        "FR",
+        "SO",
+        "BS",
+        "BL",
+        "SH",
+        "AR",
+        "AI",
+        "SG",
+        "AG",
+        "TG",
+        "TI",
+        "VD",
+        "VS",
+        "OW",
+        "ZG",
+        "GL",
+        "SZ",
+        "UR"
+       ]
+      }
+     },
+     {
+      "name": "France",
+      "kind": "france",
+      "label": "France (rough)",
+      "sel": {
+       "cantons": [
+        "GE",
+        "JU"
+       ],
+       "districts": [
+        241,
+        242
+       ]
+      },
+      "countries": [
+       "FRA"
+      ]
+     }
+    ],
+    "places": [
+     {
+      "name": "Allweg",
+      "lat": 46.945,
+      "lon": 8.333,
+      "kind": "battle",
+      "year": 1798,
+      "note": "French win against Nidwalden"
+     },
+     {
+      "name": "Stans",
+      "lat": 46.958,
+      "lon": 8.366,
+      "kind": "town",
+      "year": 1798,
+      "note": "Burned"
+     },
+     {
+      "name": "Stansstad",
+      "lat": 46.977,
+      "lon": 8.34,
+      "kind": "town",
+      "year": 1798,
+      "note": "Burned"
+     },
+     {
+      "name": "Buochs",
+      "lat": 46.974,
+      "lon": 8.422,
+      "kind": "town",
+      "year": 1798,
+      "note": "Burned"
+     }
+    ]
+   },
+   {
+    "year": 1799,
+    "tick": "1799 Zurich I",
+    "title": "First Battle of Zurich",
+    "text": [
+     "In 1799 Austria and Russia went to war against France again (the Second Coalition War). Switzerland became a battlefield of foreign armies.",
+     "Austrian troops under Archduke Charles came from the east. In early June 1799 they attacked the French under General Masséna at Zurich. The French gave up the town and moved back to a line west of Zurich.",
+     "The armies took food, animals and wood from the people. Many villages suffered badly."
+    ],
+    "view": "ch",
+    "layers": [
+     {
+      "name": "Austrian-held",
+      "kind": "habsburg",
+      "label": "Held by Austria after June 1799 (rough)",
+      "sel": {
+       "cantons": [
+        "GR",
+        "SG",
+        "AR",
+        "AI",
+        "TG",
+        "SH",
+        "GL"
+       ],
+       "districts": [
+        102,
+        103,
+        104,
+        105,
+        107,
+        108,
+        109,
+        110,
+        112
+       ]
+      }
+     },
+     {
+      "name": "French-held",
+      "kind": "france",
+      "label": "Held by France (rough)",
+      "sel": {
+       "cantons": [
+        "ZH",
+        "BE",
+        "LU",
+        "UR",
+        "SZ",
+        "OW",
+        "NW",
+        "ZG",
+        "FR",
+        "SO",
+        "BS",
+        "BL",
+        "AG",
+        "TI",
+        "VD",
+        "VS",
+        "NE",
+        "GE",
+        "JU"
+       ]
+      }
+     }
+    ],
+    "places": [
+     {
+      "name": "Zurich",
+      "lat": 47.38,
+      "lon": 8.56,
+      "kind": "battle",
+      "year": 1799,
+      "note": "Austrians beat the French"
+     }
+    ]
+   },
+   {
+    "year": 1799,
+    "tick": "1799 Zurich II",
+    "title": "Second Battle of Zurich",
+    "text": [
+     "In late summer most Austrian troops left. A Russian army under General Korsakov took their place at Zurich.",
+     "On 25 and 26 September 1799 Masséna attacked and beat the Russians at Zurich. On the same days French troops under General Soult beat the Austrians on the Linth river. The Austrian general Hotze was killed near Schänis.",
+     "The plan of the allies was to attack the French together with a second Russian army coming from Italy. That army, under General Suvorov, was still in the mountains."
+    ],
+    "view": "ch",
+    "layers": [
+     {
+      "name": "Allied-held",
+      "kind": "habsburg",
+      "label": "Held by Austria and Russia before the battle (rough)",
+      "sel": {
+       "cantons": [
+        "GR",
+        "SG",
+        "AR",
+        "AI",
+        "TG",
+        "SH",
+        "GL"
+       ],
+       "districts": [
+        102,
+        103,
+        104,
+        105,
+        107,
+        108,
+        109,
+        110,
+        112
+       ]
+      }
+     },
+     {
+      "name": "French-held",
+      "kind": "france",
+      "label": "Held by France (rough)",
+      "sel": {
+       "cantons": [
+        "ZH",
+        "BE",
+        "LU",
+        "UR",
+        "SZ",
+        "OW",
+        "NW",
+        "ZG",
+        "FR",
+        "SO",
+        "BS",
+        "BL",
+        "AG",
+        "TI",
+        "VD",
+        "VS",
+        "NE",
+        "GE",
+        "JU"
+       ]
+      }
+     }
+    ],
+    "places": [
+     {
+      "name": "Zurich",
+      "lat": 47.38,
+      "lon": 8.56,
+      "kind": "battle",
+      "year": 1799,
+      "note": "French beat the Russians"
+     },
+     {
+      "name": "Schänis (Linth)",
+      "lat": 47.16,
+      "lon": 9.046,
+      "kind": "battle",
+      "year": 1799,
+      "note": "French beat the Austrians"
+     }
+    ]
+   },
+   {
+    "year": 1799,
+    "tick": "1799 Gotthard",
+    "title": "Suvorov crosses the Gotthard",
+    "text": [
+     "The Russian general Alexander Suvorov had driven the French out of northern Italy. Now he was to join Korsakov at Zurich. His army had about 20,000 men.",
+     "On 24 September 1799 he fought his way over the Gotthard pass. On 25 September his troops fought the French at the Devil's Bridge in the Schöllenen gorge. On 26 September he reached Altdorf.",
+     "There was no road along Lake Lucerne, and the French held the boats. So Suvorov had to go over the mountains."
+    ],
+    "view": [
+     [
+      46.4,
+      8.2
+     ],
+     [
+      47.3,
+      9.9
+     ]
+    ],
+    "layers": [],
+    "places": [
+     {
+      "name": "Airolo",
+      "lat": 46.5285,
+      "lon": 8.608,
+      "kind": "place",
+      "year": 1799,
+      "note": "Suvorov's route"
+     },
+     {
+      "name": "Gotthard Pass",
+      "lat": 46.559,
+      "lon": 8.5617,
+      "kind": "battle",
+      "year": 1799,
+      "note": "Russians push the French back"
+     },
+     {
+      "name": "Devil's Bridge",
+      "lat": 46.6461,
+      "lon": 8.5888,
+      "kind": "battle",
+      "year": 1799,
+      "note": "Russians fight their way through"
+     },
+     {
+      "name": "Altdorf",
+      "lat": 46.8806,
+      "lon": 8.6444,
+      "kind": "place",
+      "year": 1799,
+      "note": "Suvorov's route"
+     }
+    ]
+   },
+   {
+    "year": 1799,
+    "tick": "1799 Muotathal",
+    "title": "Trapped in the Muota valley",
+    "text": [
+     "Suvorov led his army over the Kinzig pass into the Muota valley. There he learned that Korsakov had lost at Zurich. He was now cut off.",
+     "At the end of September and early October his rear guard fought the French in the Muota valley. The main army crossed the Pragel pass to Glarus, in snow and rain, with little food."
+    ],
+    "view": [
+     [
+      46.4,
+      8.2
+     ],
+     [
+      47.3,
+      9.9
+     ]
+    ],
+    "layers": [],
+    "places": [
+     {
+      "name": "Airolo",
+      "lat": 46.5285,
+      "lon": 8.608,
+      "kind": "place",
+      "year": 1799,
+      "note": "Suvorov's route"
+     },
+     {
+      "name": "Gotthard Pass",
+      "lat": 46.559,
+      "lon": 8.5617,
+      "kind": "battle",
+      "year": 1799,
+      "note": "Russians push the French back"
+     },
+     {
+      "name": "Devil's Bridge",
+      "lat": 46.6461,
+      "lon": 8.5888,
+      "kind": "battle",
+      "year": 1799,
+      "note": "Russians fight their way through"
+     },
+     {
+      "name": "Altdorf",
+      "lat": 46.8806,
+      "lon": 8.6444,
+      "kind": "place",
+      "year": 1799,
+      "note": "Suvorov's route"
+     },
+     {
+      "name": "Kinzig Pass",
+      "lat": 46.906,
+      "lon": 8.777,
+      "kind": "place",
+      "year": 1799,
+      "note": "Suvorov's route"
+     },
+     {
+      "name": "Muotathal",
+      "lat": 46.9767,
+      "lon": 8.7609,
+      "kind": "battle",
+      "year": 1799,
+      "note": "Russians hold off the French"
+     },
+     {
+      "name": "Pragel Pass",
+      "lat": 47.0247,
+      "lon": 8.8883,
+      "kind": "place",
+      "year": 1799,
+      "note": "Suvorov's route"
+     },
+     {
+      "name": "Glarus",
+      "lat": 47.0404,
+      "lon": 9.0681,
+      "kind": "place",
+      "year": 1799,
+      "note": "Suvorov's route"
+     }
+    ]
+   },
+   {
+    "year": 1799,
+    "tick": "1799 Panix",
+    "title": "Over the Panix pass",
+    "text": [
+     "The way north was blocked. Suvorov turned south. In early October (HLS: 5 October) his army crossed the Panix pass, about 2,400 metres high, in deep snow. Many soldiers and horses fell to their death.",
+     "The army reached Ilanz and Chur and then left Switzerland for the east. The march cost Suvorov many men, but it did not change the war.",
+     "For the local people, the march brought hunger and loss. French troops stayed in Switzerland. In 1803 Napoleon gave the country a new order, the Act of Mediation."
+    ],
+    "view": [
+     [
+      46.4,
+      8.2
+     ],
+     [
+      47.3,
+      9.9
+     ]
+    ],
+    "layers": [],
+    "places": [
+     {
+      "name": "Airolo",
+      "lat": 46.5285,
+      "lon": 8.608,
+      "kind": "place",
+      "year": 1799,
+      "note": "Suvorov's route"
+     },
+     {
+      "name": "Gotthard Pass",
+      "lat": 46.559,
+      "lon": 8.5617,
+      "kind": "battle",
+      "year": 1799,
+      "note": "Russians push the French back"
+     },
+     {
+      "name": "Devil's Bridge",
+      "lat": 46.6461,
+      "lon": 8.5888,
+      "kind": "battle",
+      "year": 1799,
+      "note": "Russians fight their way through"
+     },
+     {
+      "name": "Altdorf",
+      "lat": 46.8806,
+      "lon": 8.6444,
+      "kind": "place",
+      "year": 1799,
+      "note": "Suvorov's route"
+     },
+     {
+      "name": "Kinzig Pass",
+      "lat": 46.906,
+      "lon": 8.777,
+      "kind": "place",
+      "year": 1799,
+      "note": "Suvorov's route"
+     },
+     {
+      "name": "Muotathal",
+      "lat": 46.9767,
+      "lon": 8.7609,
+      "kind": "battle",
+      "year": 1799,
+      "note": "Russians hold off the French"
+     },
+     {
+      "name": "Pragel Pass",
+      "lat": 47.0247,
+      "lon": 8.8883,
+      "kind": "place",
+      "year": 1799,
+      "note": "Suvorov's route"
+     },
+     {
+      "name": "Glarus",
+      "lat": 47.0404,
+      "lon": 9.0681,
+      "kind": "place",
+      "year": 1799,
+      "note": "Suvorov's route"
+     },
+     {
+      "name": "Elm",
+      "lat": 46.9185,
+      "lon": 9.1714,
+      "kind": "place",
+      "year": 1799,
+      "note": "Suvorov's route"
+     },
+     {
+      "name": "Panix Pass",
+      "lat": 46.876,
+      "lon": 9.103,
+      "kind": "battle",
+      "year": 1799,
+      "note": "Crossing in snow"
+     },
+     {
+      "name": "Ilanz",
+      "lat": 46.7744,
+      "lon": 9.2047,
+      "kind": "place",
+      "year": 1799,
+      "note": "Suvorov's route"
+     },
+     {
+      "name": "Chur",
+      "lat": 46.8508,
+      "lon": 9.532,
+      "kind": "place",
+      "year": 1799,
+      "note": "Suvorov's route"
+     }
+    ]
+   }
+  ],
+  "sources": [
+   "https://hls-dhs-dss.ch/de/articles/008915/2021-09-14/",
+   "https://hls-dhs-dss.ch/de/articles/017217/",
+   "https://hls-dhs-dss.ch/de/articles/000400/2010-09-07/",
+   "http://www.hls-dhs-dss.ch/textes/d/D7411.php",
+   "https://hls-dhs-dss.ch/de/articles/007480/1998-01-06/",
+   "https://hls-dhs-dss.ch/articles/008917",
+   "https://hls-dhs-dss.ch/textes/d/D8914.php",
+   "http://www.hls-dhs-dss.ch/textes/d/D41517.php",
+   "https://hls-dhs-dss.ch/articles/000762/2020-11-19/",
+   "https://hls-dhs-dss.ch/en/articles/008796/2011-04-11/"
+  ],
+  "notes": "Front lines of 1799 are drawn as today's cantons and Zurich districts: very rough; the real line ran along the Limmat, the Lake of Zurich and the Linth and moved during the year. The Helvetic Republic also first had different cantons than today. Dates of Suvorov's march after Altdorf (Muotathal fights about 30 Sept-1 Oct; Panix crossing 5-7 Oct) differ slightly between sources; HLS (Elm) gives 5 October for the Panix pass. Route points are main places on the way, not an exact track. Nidwalden numbers come from the HLS Nidwalden article. Neuenegg point: the 1798 fight was around the Sense bridge and the Bramberg; point placed near Neuenegg."
+ },
+ {
+  "id": "wars-sonderbund",
+  "title": "The Sonderbund War and the federal state",
+  "card": "In November 1847 the last civil war lasted less than a month, and in 1848 modern Switzerland was born.",
+  "stops": [
+   {
+    "year": 1845,
+    "tick": "1845",
+    "title": "The Sonderbund",
+    "text": [
+     "In the 1840s liberals and Catholic conservatives fought over the future of Switzerland. The liberals wanted a stronger central state. The conservatives wanted the cantons to stay free, and they defended the Catholic Church.",
+     "In 1844 Lucerne called the Jesuits to its schools. Armed groups of radicals (the 'Freischaren') attacked Lucerne twice, in 1844 and 1845, but failed.",
+     "In December 1845 seven Catholic conservative cantons formed a defence league in Lucerne: Lucerne, Uri, Schwyz, Unterwalden (Obwalden and Nidwalden), Zug, Fribourg and Valais. Its opponents called it the 'Sonderbund' (separate league)."
+    ],
+    "view": "ch",
+    "layers": [
+     {
+      "name": "Sonderbund",
+      "kind": "catholic",
+      "label": "Sonderbund: seven Catholic cantons (rough)",
+      "sel": {
+       "cantons": [
+        "LU",
+        "UR",
+        "SZ",
+        "OW",
+        "NW",
+        "ZG",
+        "FR",
+        "VS"
+       ]
+      }
+     },
+     {
+      "name": "Neutral",
+      "kind": "other",
+      "label": "Neutral: Neuchâtel and Appenzell Innerrhoden",
+      "sel": {
+       "cantons": [
+        "NE",
+        "AI"
+       ]
+      }
+     },
+     {
+      "name": "Diet majority",
+      "kind": "confederates",
+      "label": "Liberal majority of the Diet (rough)",
+      "sel": {
+       "cantons": [
+        "ZH",
+        "BE",
+        "GL",
+        "SO",
+        "BS",
+        "BL",
+        "SH",
+        "AR",
+        "SG",
+        "GR",
+        "AG",
+        "TG",
+        "TI",
+        "VD",
+        "GE",
+        "JU"
+       ]
+      }
+     }
+    ],
+    "places": [
+     {
+      "name": "Lucerne",
+      "lat": 47.0502,
+      "lon": 8.3093,
+      "kind": "treaty",
+      "year": 1845,
+      "note": "Sonderbund founded"
+     }
+    ]
+   },
+   {
+    "year": 1847,
+    "tick": "1847 July",
+    "title": "The Diet decides",
+    "text": [
+     "The federal treaty did not allow such separate leagues. In 1847 the liberals won a majority in the Diet, the meeting of the cantons.",
+     "In July 1847 the Diet ordered the Sonderbund to break up. The Sonderbund refused and called up its troops in October. The Diet made Guillaume-Henri Dufour of Geneva general of the federal army."
+    ],
+    "view": "ch",
+    "layers": [
+     {
+      "name": "Sonderbund",
+      "kind": "catholic",
+      "label": "Sonderbund: seven Catholic cantons (rough)",
+      "sel": {
+       "cantons": [
+        "LU",
+        "UR",
+        "SZ",
+        "OW",
+        "NW",
+        "ZG",
+        "FR",
+        "VS"
+       ]
+      }
+     },
+     {
+      "name": "Neutral",
+      "kind": "other",
+      "label": "Neutral: Neuchâtel and Appenzell Innerrhoden",
+      "sel": {
+       "cantons": [
+        "NE",
+        "AI"
+       ]
+      }
+     },
+     {
+      "name": "Diet majority",
+      "kind": "confederates",
+      "label": "Liberal majority of the Diet (rough)",
+      "sel": {
+       "cantons": [
+        "ZH",
+        "BE",
+        "GL",
+        "SO",
+        "BS",
+        "BL",
+        "SH",
+        "AR",
+        "SG",
+        "GR",
+        "AG",
+        "TG",
+        "TI",
+        "VD",
+        "GE",
+        "JU"
+       ]
+      }
+     }
+    ],
+    "places": [
+     {
+      "name": "Bern",
+      "lat": 46.948,
+      "lon": 7.4474,
+      "kind": "town",
+      "year": 1847,
+      "note": "Diet orders the Sonderbund to break up"
+     },
+     {
+      "name": "Lucerne",
+      "lat": 47.0502,
+      "lon": 8.3093,
+      "kind": "town",
+      "year": 1845,
+      "note": "Centre of the Sonderbund"
+     }
+    ]
+   },
+   {
+    "year": 1847,
+    "tick": "1847 Fribourg",
+    "title": "Fribourg gives up",
+    "text": [
+     "Dufour attacked first in the west, where Fribourg was cut off from the other Sonderbund cantons.",
+     "His army surrounded the town. On 14 November 1847 Fribourg gave up almost without a fight."
+    ],
+    "view": "ch",
+    "layers": [
+     {
+      "name": "Sonderbund",
+      "kind": "catholic",
+      "label": "Sonderbund: seven Catholic cantons (rough)",
+      "sel": {
+       "cantons": [
+        "LU",
+        "UR",
+        "SZ",
+        "OW",
+        "NW",
+        "ZG",
+        "FR",
+        "VS"
+       ]
+      }
+     },
+     {
+      "name": "Neutral",
+      "kind": "other",
+      "label": "Neutral: Neuchâtel and Appenzell Innerrhoden",
+      "sel": {
+       "cantons": [
+        "NE",
+        "AI"
+       ]
+      }
+     },
+     {
+      "name": "Diet majority",
+      "kind": "confederates",
+      "label": "Liberal majority of the Diet (rough)",
+      "sel": {
+       "cantons": [
+        "ZH",
+        "BE",
+        "GL",
+        "SO",
+        "BS",
+        "BL",
+        "SH",
+        "AR",
+        "SG",
+        "GR",
+        "AG",
+        "TG",
+        "TI",
+        "VD",
+        "GE",
+        "JU"
+       ]
+      }
+     }
+    ],
+    "places": [
+     {
+      "name": "Fribourg",
+      "lat": 46.8065,
+      "lon": 7.1619,
+      "kind": "battle",
+      "year": 1847,
+      "note": "Fribourg gives up to the federal army"
+     }
+    ]
+   },
+   {
+    "year": 1847,
+    "tick": "1847 Gisikon",
+    "title": "Gisikon and Lucerne",
+    "text": [
+     "Then Dufour turned against Lucerne. On 23 November 1847 the federal army fought the Sonderbund troops at Gisikon on the Reuss bridge and at Meierskappel. The federal army won.",
+     "On 24 November federal troops entered Lucerne. The leaders of the Sonderbund fled."
+    ],
+    "view": "ch",
+    "layers": [
+     {
+      "name": "Sonderbund",
+      "kind": "catholic",
+      "label": "Sonderbund: seven Catholic cantons (rough)",
+      "sel": {
+       "cantons": [
+        "LU",
+        "UR",
+        "SZ",
+        "OW",
+        "NW",
+        "ZG",
+        "FR",
+        "VS"
+       ]
+      }
+     },
+     {
+      "name": "Neutral",
+      "kind": "other",
+      "label": "Neutral: Neuchâtel and Appenzell Innerrhoden",
+      "sel": {
+       "cantons": [
+        "NE",
+        "AI"
+       ]
+      }
+     },
+     {
+      "name": "Diet majority",
+      "kind": "confederates",
+      "label": "Liberal majority of the Diet (rough)",
+      "sel": {
+       "cantons": [
+        "ZH",
+        "BE",
+        "GL",
+        "SO",
+        "BS",
+        "BL",
+        "SH",
+        "AR",
+        "SG",
+        "GR",
+        "AG",
+        "TG",
+        "TI",
+        "VD",
+        "GE",
+        "JU"
+       ]
+      }
+     }
+    ],
+    "places": [
+     {
+      "name": "Gisikon",
+      "lat": 47.126,
+      "lon": 8.403,
+      "kind": "battle",
+      "year": 1847,
+      "note": "Federal army wins"
+     },
+     {
+      "name": "Meierskappel",
+      "lat": 47.124,
+      "lon": 8.444,
+      "kind": "battle",
+      "year": 1847,
+      "note": "Federal army wins"
+     },
+     {
+      "name": "Lucerne",
+      "lat": 47.0502,
+      "lon": 8.3093,
+      "kind": "town",
+      "year": 1847,
+      "note": "Occupied by federal troops"
+     },
+     {
+      "name": "Fribourg",
+      "lat": 46.8065,
+      "lon": 7.1619,
+      "kind": "battle",
+      "year": 1847,
+      "note": "Gave up"
+     }
+    ]
+   },
+   {
+    "year": 1847,
+    "tick": "1847 End",
+    "title": "The war ends",
+    "text": [
+     "One after the other, the other Sonderbund cantons gave up. Valais was the last, at the end of November.",
+     "The war lasted less than a month, and fairly few people died. Dufour had ordered his troops to treat prisoners and people well. This made peace easier."
+    ],
+    "view": "ch",
+    "layers": [
+     {
+      "name": "Former Sonderbund",
+      "kind": "catholic",
+      "label": "Former Sonderbund cantons, now occupied",
+      "sel": {
+       "cantons": [
+        "LU",
+        "UR",
+        "SZ",
+        "OW",
+        "NW",
+        "ZG",
+        "FR",
+        "VS"
+       ]
+      }
+     },
+     {
+      "name": "Others",
+      "kind": "confederates",
+      "label": "The other cantons",
+      "sel": {
+       "cantons": [
+        "ZH",
+        "BE",
+        "GL",
+        "SO",
+        "BS",
+        "BL",
+        "SH",
+        "AR",
+        "SG",
+        "GR",
+        "AG",
+        "TG",
+        "TI",
+        "VD",
+        "GE",
+        "JU",
+        "NE",
+        "AI"
+       ]
+      }
+     }
+    ],
+    "places": [
+     {
+      "name": "Sion",
+      "lat": 46.233,
+      "lon": 7.36,
+      "kind": "town",
+      "year": 1847,
+      "note": "Valais gives up last"
+     },
+     {
+      "name": "Gisikon",
+      "lat": 47.126,
+      "lon": 8.403,
+      "kind": "battle",
+      "year": 1847,
+      "note": "Federal army wins"
+     },
+     {
+      "name": "Fribourg",
+      "lat": 46.8065,
+      "lon": 7.1619,
+      "kind": "battle",
+      "year": 1847,
+      "note": "Gave up"
+     }
+    ]
+   },
+   {
+    "year": 1848,
+    "tick": "1848",
+    "title": "The federal state",
+    "text": [
+     "The winners wrote a new constitution. In September 1848 it came into force. Switzerland was now a federal state with a government (the Federal Council), and a parliament with two chambers. Customs, post and money became federal matters.",
+     "Bern became the federal city. The cantons kept many rights. The Catholic conservatives were the losers for a long time; they got a seat in the Federal Council only in 1891.",
+     "The Sonderbund War was the last war between Swiss cantons."
+    ],
+    "view": "ch",
+    "layers": [
+     {
+      "name": "Switzerland 1848",
+      "kind": "confederates",
+      "label": "The cantons of the federal state",
+      "sel": {
+       "cantons": [
+        "LU",
+        "UR",
+        "SZ",
+        "OW",
+        "NW",
+        "ZG",
+        "FR",
+        "VS",
+        "ZH",
+        "BE",
+        "GL",
+        "SO",
+        "BS",
+        "BL",
+        "SH",
+        "AR",
+        "SG",
+        "GR",
+        "AG",
+        "TG",
+        "TI",
+        "VD",
+        "GE",
+        "JU",
+        "NE",
+        "AI"
+       ]
+      }
+     }
+    ],
+    "places": [
+     {
+      "name": "Bern",
+      "lat": 46.948,
+      "lon": 7.4474,
+      "kind": "town",
+      "year": 1848,
+      "note": "Federal city"
+     }
+    ]
+   }
+  ],
+  "sources": [
+   "https://hls-dhs-dss.ch/de/articles/017241/",
+   "https://hls-dhs-dss.ch/de/articles/008682/",
+   "https://hls-dhs-dss.ch/de/articles/009811/",
+   "https://hls-dhs-dss.ch/de/articles/000618/",
+   "https://hls-dhs-dss.ch/de/articles/009800/"
+  ],
+  "notes": "Areas are today's cantons (Jura was part of Bern in 1847; Basel was split into two half-cantons from 1833). No number of dead is given because I did not check one in HLS. The 1891 Federal Council seat (Josef Zemp) is from general knowledge, not checked in this research. Dufour's orders on humane treatment are widely documented but were not checked in HLS for this file."
+ }
+]

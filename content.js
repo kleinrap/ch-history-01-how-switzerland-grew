@@ -2,6 +2,18 @@
 // Historisches Lexikon der Schweiz (HLS); see docs/DATA.md for the articles used.
 window.CONTENT = {
   cantons: [
+    { year: 1000, title: "Kings, bishops and abbeys",
+      text: ["Around the year 1000 there is no Switzerland. The west belongs to the Kingdom of Burgundy, the east to the Duchy of Swabia, the south to Italy. In 1032 Burgundy also comes to the Emperor.",
+             "Bishops and abbeys hold much land: the bishops of Basel, Lausanne, Sion, Chur, Constance and Geneva, and abbeys such as St. Gallen and Einsiedeln. Grey areas: the research has no clear ruler for them at this date."] },
+    { year: 1150, title: "Great noble families",
+      text: ["Noble families now build castles and rule land: the counts of Lenzburg in the centre, the Kyburg in the east, and the dukes of Zähringen, who found towns such as Fribourg (1157) and Bern (about 1191).",
+             "The Lenzburg family dies out in 1173. Its land goes to the Kyburg, the Zähringen and others."] },
+    { year: 1218, title: "The Zähringen die out",
+      text: ["The last duke of Zähringen dies in 1218. Bern and Zurich become free imperial towns, under the Emperor only. The Kyburg take much Zähringen land.",
+             "Grey areas: land that changed hands, where the research has no clear ruler for this date."] },
+    { year: 1264, title: "Habsburg takes over",
+      text: ["The Kyburg die out in 1264. Rudolf of Habsburg takes their land. In 1273 he becomes king. Habsburg is now the strongest power in the land between the Alps and the Rhine.",
+             "In the west, Savoy rules most of the Vaud. The story \"Habsburg\" follows the family to Europe."] },
     { year: 1291, title: "Three valleys make a pact",
       text: ["Uri, Schwyz and Unterwalden promise to help each other against outside lords. The Federal Charter of 1291 is the oldest written record of this alliance.",
              "Unterwalden is today two cantons: Obwalden and Nidwalden. The abbey of Engelberg, in the south, joins Obwalden only in 1815.",

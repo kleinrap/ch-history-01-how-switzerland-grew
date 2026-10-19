@@ -1,0 +1,4501 @@
+[
+ {
+  "id": "habsburg",
+  "title": "Habsburg: from a castle in the Aargau to an empire",
+  "card": "How a noble family from the Aargau became kings, lost its Swiss lands to the Confederates, and ruled half of Europe.",
+  "stops": [
+   {
+    "year": 1020,
+    "tick": "1020",
+    "title": "A castle above the Aare",
+    "text": [
+     "About 1020 a noble family builds a castle on a hill above the Aare river, in today's Aargau. The builder was Radbot or his brother Werner. The castle is called Habsburg, and the family takes its name.",
+     "Soon after, Radbot founds the abbey of Muri. The family owns farms and rights around the castle and Muri. At first it is one noble family among many in the region."
+    ],
+    "view": "ch",
+    "layers": [
+     {
+      "name": "Habsburg home land",
+      "kind": "habsburg",
+      "label": "Habsburg family land: the castle and Muri abbey (about)",
+      "sel": {
+       "munis": [
+        4099,
+        4123,
+        4092,
+        4104,
+        4100,
+        4093,
+        4107,
+        4236
+       ]
+      },
+      "regions": [],
+      "countries": []
+     }
+    ],
+    "places": [
+     {
+      "name": "Habsburg castle",
+      "lat": 47.4625,
+      "lon": 8.1856,
+      "kind": "castle",
+      "year": 1020,
+      "note": "Built about 1020"
+     },
+     {
+      "name": "Muri abbey",
+      "lat": 47.2747,
+      "lon": 8.3389,
+      "kind": "place",
+      "note": "Founded by Radbot after 1020"
+     }
+    ]
+   },
+   {
+    "year": 1173,
+    "tick": "1173",
+    "title": "Count rights after Lenzburg",
+    "text": [
+     "In 1172–1173 the counts of Lenzburg die out. The Habsburgs get part of their rights: the county (high court) in the Aargau and in the western Zürichgau, which includes Schwyz and Unterwalden. They also become protectors of Säckingen abbey.",
+     "The counts of Kyburg get another part. Kyburg and Habsburg are now neighbours and rivals in northern Switzerland."
+    ],
+    "view": "ch",
+    "layers": [
+     {
+      "name": "Home land",
+      "kind": "habsburg",
+      "label": "Habsburg own land: castle and Muri",
+      "sel": {
+       "munis": [
+        4099,
+        4123,
+        4092,
+        4104,
+        4100,
+        4093,
+        4107,
+        4236
+       ]
+      },
+      "regions": [],
+      "countries": []
+     },
+     {
+      "name": "Count rights",
+      "kind": "habsburg",
+      "label": "Habsburg count rights from 1173: Aargau and western Zürichgau with Schwyz and Unterwalden (about)",
+      "sel": {
+       "districts": [
+        1901,
+        1902,
+        1903,
+        1904,
+        1905,
+        1907,
+        1908,
+        1910,
+        101,
+        111,
+        506
+       ],
+       "cantons": [
+        "OW",
+        "NW"
+       ]
+      },
+      "regions": [],
+      "countries": []
+     },
+     {
+      "name": "Kyburg",
+      "kind": "kyburg",
+      "label": "Counts of Kyburg: Winterthur area and Thurgau (about)",
+      "sel": {
+       "districts": [
+        110,
+        108
+       ],
+       "cantons": [
+        "TG"
+       ]
+      },
+      "regions": [],
+      "countries": []
+     },
+     {
+      "name": "Zurich",
+      "kind": "zahringen",
+      "label": "Zurich: imperial rights held by the dukes of Zähringen",
+      "sel": {
+       "munis": [
+        261
+       ]
+      },
+      "regions": [],
+      "countries": []
+     }
+    ],
+    "places": [
+     {
+      "name": "Habsburg castle",
+      "lat": 47.4625,
+      "lon": 8.1856,
+      "kind": "castle"
+     },
+     {
+      "name": "Lenzburg castle",
+      "lat": 47.3846,
+      "lon": 8.1806,
+      "kind": "castle",
+      "year": 1173,
+      "note": "Lenzburg counts die out"
+     }
+    ]
+   },
+   {
+    "year": 1264,
+    "tick": "1264",
+    "title": "The Kyburg inheritance",
+    "text": [
+     "In 1263 and 1264 the last two counts of Kyburg die. Count Rudolf of Habsburg is their nearest heir. He takes over their lands: the Winterthur area, the Thurgau, Baden, Glarus and Zug, and in the west Burgdorf and Thun.",
+     "Rudolf is now the strongest lord between the Rhine and the Alps. Only a few towns and valleys stand directly under the king: for example Zurich, Bern, Uri and Schwyz."
+    ],
+    "view": "ch",
+    "layers": [
+     {
+      "name": "Western Kyburg land",
+      "kind": "kyburg",
+      "label": "Western Kyburg land (Burgdorf, Thun, Fribourg): Rudolf rules it for the young heiress Anna",
+      "sel": {
+       "munis": [
+        404,
+        942,
+        2196
+       ]
+      },
+      "regions": [],
+      "countries": []
+     },
+     {
+      "name": "Imperial towns and valleys",
+      "kind": "empire",
+      "label": "Directly under the king: Zurich, Bern, Solothurn, Schaffhausen, Uri, Schwyz",
+      "sel": {
+       "munis": [
+        261,
+        351,
+        2601,
+        2939
+       ],
+       "cantons": [
+        "UR"
+       ],
+       "districts": [
+        506
+       ]
+      },
+      "regions": [],
+      "countries": []
+     },
+     {
+      "name": "Bishop of Constance",
+      "kind": "bishop",
+      "label": "Bishop of Constance: Arbon and Bischofszell",
+      "sel": {
+       "munis": [
+        4401,
+        4471
+       ]
+      },
+      "regions": [],
+      "countries": []
+     },
+     {
+      "name": "Habsburg",
+      "kind": "habsburg",
+      "label": "Habsburg after 1264: own land, old count rights and the Kyburg inheritance (about)",
+      "sel": {
+       "cantons": [
+        "AG",
+        "TG",
+        "GL",
+        "ZG",
+        "OW",
+        "NW"
+       ],
+       "districts": [
+        110,
+        108,
+        101,
+        111,
+        109,
+        105
+       ],
+       "munis": [
+        3311,
+        3312,
+        3313,
+        3315,
+        3316
+       ],
+       "exceptDistricts": [
+        1911
+       ]
+      },
+      "regions": [],
+      "countries": []
+     }
+    ],
+    "places": [
+     {
+      "name": "Habsburg castle",
+      "lat": 47.4625,
+      "lon": 8.1856,
+      "kind": "castle"
+     },
+     {
+      "name": "Kyburg castle",
+      "lat": 47.4578,
+      "lon": 8.7436,
+      "kind": "castle",
+      "year": 1264,
+      "note": "Last Kyburg count dies"
+     }
+    ]
+   },
+   {
+    "year": 1282,
+    "tick": "1282",
+    "title": "A king and a duchy",
+    "text": [
+     "In 1273 the princes elect Count Rudolf as king of the Romans (the German king). In 1278 he defeats King Ottokar of Bohemia at Dürnkrut, near Vienna.",
+     "In 1282 Rudolf gives the duchies of Austria and Styria to his sons. From now on the Habsburgs are dukes of Austria. Their centre of power moves east to Vienna, but they keep their old lands in Switzerland and in Alsace."
+    ],
+    "view": "europe",
+    "layers": [
+     {
+      "name": "Austria and Styria",
+      "kind": "habsburg",
+      "label": "Duchies of Austria and Styria: Habsburg from 1282 (borders rough)",
+      "sel": {},
+      "regions": [
+       "AUT-2330",
+       "AUT-2331",
+       "AUT-2326",
+       "AUT-2323"
+      ],
+      "countries": []
+     },
+     {
+      "name": "Alsace",
+      "kind": "habsburg",
+      "label": "Upper Alsace: Habsburg landgraves (drawn as Haut-Rhin)",
+      "sel": {},
+      "regions": [
+       "FRA-5296"
+      ],
+      "countries": []
+     },
+     {
+      "name": "Swiss lands",
+      "kind": "habsburg",
+      "label": "Old Habsburg lands in today's Switzerland (about)",
+      "sel": {
+       "cantons": [
+        "AG",
+        "TG",
+        "GL",
+        "ZG"
+       ],
+       "districts": [
+        110,
+        108,
+        101,
+        111,
+        109,
+        105
+       ],
+       "munis": [
+        2254,
+        2257,
+        2262,
+        2266,
+        2272,
+        2196
+       ]
+      },
+      "regions": [],
+      "countries": []
+     }
+    ],
+    "places": [
+     {
+      "name": "Aachen",
+      "lat": 50.7753,
+      "lon": 6.0839,
+      "kind": "place",
+      "year": 1273,
+      "note": "Rudolf crowned king"
+     },
+     {
+      "name": "Dürnkrut",
+      "lat": 48.4722,
+      "lon": 16.8483,
+      "kind": "battle",
+      "year": 1278,
+      "note": "Rudolf defeats Ottokar"
+     },
+     {
+      "name": "Vienna",
+      "lat": 48.2082,
+      "lon": 16.3738,
+      "kind": "town",
+      "year": 1282,
+      "note": "New centre of Habsburg power"
+     },
+     {
+      "name": "Habsburg castle",
+      "lat": 47.4625,
+      "lon": 8.1856,
+      "kind": "castle"
+     }
+    ]
+   },
+   {
+    "year": 1291,
+    "tick": "1291",
+    "title": "Habsburg and the forest valleys",
+    "text": [
+     "Rudolf and his sons want to join their Swiss lands into one territory. In 1291 they buy the town of Lucerne from Murbach abbey. They also protect the abbeys of Engelberg and Einsiedeln.",
+     "Uri and Schwyz have letters from earlier kings that put them directly under the Empire. They fear Habsburg rule. After Rudolf dies in July 1291, Uri, Schwyz and Unterwalden renew their alliance."
+    ],
+    "view": "ch",
+    "layers": [
+     {
+      "name": "Urseren",
+      "kind": "habsburg",
+      "label": "Urseren: Habsburg as governors since 1283",
+      "sel": {
+       "munis": [
+        1202,
+        1210,
+        1212
+       ]
+      },
+      "regions": [],
+      "countries": []
+     },
+     {
+      "name": "Lucerne",
+      "kind": "habsburg",
+      "label": "Lucerne: bought by Habsburg in 1291",
+      "sel": {
+       "munis": [
+        1061
+       ]
+      },
+      "regions": [],
+      "countries": []
+     },
+     {
+      "name": "Imperial towns",
+      "kind": "empire",
+      "label": "Imperial towns: Zurich, Bern, Solothurn, Schaffhausen",
+      "sel": {
+       "munis": [
+        261,
+        351,
+        2601,
+        2939
+       ]
+      },
+      "regions": [],
+      "countries": []
+     },
+     {
+      "name": "Uri and Schwyz",
+      "kind": "empire",
+      "label": "Uri and Schwyz: directly under the Empire",
+      "sel": {
+       "cantons": [
+        "UR"
+       ],
+       "districts": [
+        506
+       ]
+      },
+      "regions": [],
+      "countries": []
+     },
+     {
+      "name": "Neu-Kyburg",
+      "kind": "kyburg",
+      "label": "Burgdorf and Thun: Neu-Kyburg, a Habsburg side line",
+      "sel": {
+       "munis": [
+        404,
+        942
+       ]
+      },
+      "regions": [],
+      "countries": []
+     },
+     {
+      "name": "Bishop of Constance",
+      "kind": "bishop",
+      "label": "Bishop of Constance: Arbon and Bischofszell",
+      "sel": {
+       "munis": [
+        4401,
+        4471
+       ]
+      },
+      "regions": [],
+      "countries": []
+     },
+     {
+      "name": "Habsburg",
+      "kind": "habsburg",
+      "label": "Habsburg land and rights about 1291 (about)",
+      "sel": {
+       "cantons": [
+        "AG",
+        "TG",
+        "GL",
+        "ZG",
+        "LU",
+        "ZH",
+        "OW",
+        "NW"
+       ],
+       "districts": [
+        1004,
+        1006,
+        501,
+        503,
+        504
+       ],
+       "munis": [
+        2254,
+        2257,
+        2262,
+        2266,
+        2272,
+        3311,
+        3312,
+        3313,
+        3315,
+        3316
+       ],
+       "exceptDistricts": [
+        1911
+       ]
+      },
+      "regions": [],
+      "countries": []
+     }
+    ],
+    "places": [
+     {
+      "name": "Lucerne",
+      "lat": 47.0502,
+      "lon": 8.3093,
+      "kind": "town",
+      "year": 1291,
+      "note": "Bought by Habsburg"
+     },
+     {
+      "name": "Schwyz",
+      "lat": 47.0207,
+      "lon": 8.653,
+      "kind": "town",
+      "year": 1291,
+      "note": "Alliance renewed"
+     }
+    ]
+   },
+   {
+    "year": 1386,
+    "tick": "1386",
+    "title": "Morgarten, Sempach, Näfels",
+    "text": [
+     "The Habsburgs try several times to force the valleys and towns under their rule. In 1315 the men of Schwyz beat a Habsburg army at Morgarten. Historians today argue about how big this battle really was.",
+     "Lucerne (1332), Zurich (1351), Glarus and Zug (1352) and Bern (1353) join the alliance. In 1386 the Confederates beat Duke Leopold III at Sempach. He dies in the battle. In 1388 Glarus wins at Näfels.",
+     "Habsburg loses Lucerne, Zug and Glarus. It keeps the Aargau, the Thurgau and much of the countryside."
+    ],
+    "view": "ch",
+    "layers": [
+     {
+      "name": "Schaffhausen",
+      "kind": "habsburg",
+      "label": "Schaffhausen: pledged to Habsburg 1330–1415",
+      "sel": {
+       "munis": [
+        2939
+       ]
+      },
+      "regions": [],
+      "countries": []
+     },
+     {
+      "name": "Confederates",
+      "kind": "confederates",
+      "label": "Members of the Confederation (Zurich, Bern, Lucerne drawn as their towns only)",
+      "sel": {
+       "cantons": [
+        "UR",
+        "SZ",
+        "OW",
+        "NW",
+        "ZG",
+        "GL"
+       ],
+       "munis": [
+        261,
+        351,
+        1061
+       ]
+      },
+      "regions": [],
+      "countries": []
+     },
+     {
+      "name": "Bishop of Constance",
+      "kind": "bishop",
+      "label": "Bishop of Constance: Arbon and Bischofszell",
+      "sel": {
+       "munis": [
+        4401,
+        4471
+       ]
+      },
+      "regions": [],
+      "countries": []
+     },
+     {
+      "name": "Habsburg",
+      "kind": "habsburg",
+      "label": "Habsburg land about 1386 (about)",
+      "sel": {
+       "cantons": [
+        "AG",
+        "TG",
+        "LU",
+        "ZH"
+       ],
+       "districts": [
+        1004,
+        1006
+       ],
+       "munis": [
+        2254,
+        2257,
+        2262,
+        2266,
+        2272,
+        3311,
+        3312,
+        3313,
+        3315,
+        3316,
+        3340
+       ]
+      },
+      "regions": [],
+      "countries": []
+     }
+    ],
+    "places": [
+     {
+      "name": "Morgarten",
+      "lat": 47.106,
+      "lon": 8.633,
+      "kind": "battle",
+      "year": 1315,
+      "note": "Schwyz beats Habsburg"
+     },
+     {
+      "name": "Sempach",
+      "lat": 47.1457,
+      "lon": 8.2081,
+      "kind": "battle",
+      "year": 1386,
+      "note": "Duke Leopold III killed"
+     },
+     {
+      "name": "Näfels",
+      "lat": 47.1003,
+      "lon": 9.061,
+      "kind": "battle",
+      "year": 1388,
+      "note": "Glarus wins"
+     }
+    ]
+   },
+   {
+    "year": 1415,
+    "tick": "1415",
+    "title": "The Aargau is lost",
+    "text": [
+     "In 1415 Duke Frederick IV of Austria helps Pope John XXIII flee from the Council of Constance. King Sigismund puts the duke under the ban of the Empire and asks his neighbours to take his lands.",
+     "The Confederates conquer the Aargau in a few weeks. Bern, Lucerne and Zurich each take a part. Baden and the Free Offices become common lordships (land ruled jointly by several cantons). The old Habsburg castle is now Swiss.",
+     "Habsburg keeps the Fricktal, the Thurgau, Rapperswil and Fribourg."
+    ],
+    "view": "ch",
+    "layers": [
+     {
+      "name": "Fricktal",
+      "kind": "habsburg",
+      "label": "Fricktal: stays Austrian",
+      "sel": {
+       "districts": [
+        1906,
+        1909
+       ]
+      },
+      "regions": [],
+      "countries": []
+     },
+     {
+      "name": "Aargau",
+      "kind": "confederates",
+      "label": "Aargau: conquered by the Confederates in 1415",
+      "sel": {
+       "districts": [
+        1901,
+        1902,
+        1903,
+        1904,
+        1905,
+        1907,
+        1908,
+        1910,
+        1911
+       ]
+      },
+      "regions": [],
+      "countries": []
+     },
+     {
+      "name": "Bishop of Constance",
+      "kind": "bishop",
+      "label": "Bishop of Constance: Arbon and Bischofszell",
+      "sel": {
+       "munis": [
+        4401,
+        4471
+       ]
+      },
+      "regions": [],
+      "countries": []
+     },
+     {
+      "name": "Habsburg",
+      "kind": "habsburg",
+      "label": "Habsburg still: Thurgau, Rapperswil, Fribourg, Gaster",
+      "sel": {
+       "cantons": [
+        "TG"
+       ],
+       "districts": [
+        1004,
+        1006
+       ],
+       "munis": [
+        2254,
+        2257,
+        2262,
+        2266,
+        2272,
+        3311,
+        3312,
+        3313,
+        3315,
+        3316,
+        3340
+       ]
+      },
+      "regions": [],
+      "countries": []
+     },
+     {
+      "name": "Schaffhausen",
+      "kind": "empire",
+      "label": "Schaffhausen: imperial town again from 1415",
+      "sel": {
+       "munis": [
+        2939
+       ]
+      },
+      "regions": [],
+      "countries": []
+     },
+     {
+      "name": "Confederates",
+      "kind": "confederates",
+      "label": "The eight cantons (about)",
+      "sel": {
+       "cantons": [
+        "UR",
+        "SZ",
+        "OW",
+        "NW",
+        "ZG",
+        "GL",
+        "LU",
+        "ZH",
+        "BE"
+       ],
+       "exceptDistricts": [
+        241,
+        242
+       ]
+      },
+      "regions": [],
+      "countries": []
+     }
+    ],
+    "places": [
+     {
+      "name": "Habsburg castle",
+      "lat": 47.4625,
+      "lon": 8.1856,
+      "kind": "castle",
+      "year": 1415,
+      "note": "Taken by Bern"
+     },
+     {
+      "name": "Baden",
+      "lat": 47.4733,
+      "lon": 8.3059,
+      "kind": "town",
+      "year": 1415,
+      "note": "Stein castle taken"
+     },
+     {
+      "name": "Constance",
+      "lat": 47.6603,
+      "lon": 9.1758,
+      "kind": "place",
+      "year": 1415,
+      "note": "Council of Constance"
+     }
+    ]
+   },
+   {
+    "year": 1460,
+    "tick": "1460",
+    "title": "The Thurgau is lost",
+    "text": [
+     "Duke Sigismund of Tyrol quarrels with the pope, who puts him under the ban of the church. In 1460 the Confederates use this and take the Thurgau. It becomes a common lordship of seven cantons.",
+     "Fribourg leaves Habsburg in 1452, Rapperswil in 1458, and Winterthur is pledged to Zurich in 1467. South of the Rhine, only the Fricktal stays with Austria."
+    ],
+    "view": "ch",
+    "layers": [
+     {
+      "name": "Winterthur",
+      "kind": "habsburg",
+      "label": "Winterthur: Habsburg until 1467",
+      "sel": {
+       "munis": [
+        230
+       ]
+      },
+      "regions": [],
+      "countries": []
+     },
+     {
+      "name": "Fricktal",
+      "kind": "habsburg",
+      "label": "Fricktal: Austrian",
+      "sel": {
+       "districts": [
+        1906,
+        1909
+       ]
+      },
+      "regions": [],
+      "countries": []
+     },
+     {
+      "name": "Bishop of Constance",
+      "kind": "bishop",
+      "label": "Bishop of Constance: Arbon and Bischofszell",
+      "sel": {
+       "munis": [
+        4401,
+        4471
+       ]
+      },
+      "regions": [],
+      "countries": []
+     },
+     {
+      "name": "Thurgau",
+      "kind": "confederates",
+      "label": "Thurgau: taken by the Confederates in 1460",
+      "sel": {
+       "cantons": [
+        "TG"
+       ]
+      },
+      "regions": [],
+      "countries": []
+     },
+     {
+      "name": "Aargau",
+      "kind": "confederates",
+      "label": "Aargau: Swiss since 1415",
+      "sel": {
+       "districts": [
+        1901,
+        1902,
+        1903,
+        1904,
+        1905,
+        1907,
+        1908,
+        1910,
+        1911
+       ]
+      },
+      "regions": [],
+      "countries": []
+     },
+     {
+      "name": "Confederates",
+      "kind": "confederates",
+      "label": "The eight cantons (about)",
+      "sel": {
+       "cantons": [
+        "UR",
+        "SZ",
+        "OW",
+        "NW",
+        "ZG",
+        "GL",
+        "LU",
+        "ZH",
+        "BE"
+       ],
+       "exceptDistricts": [
+        241,
+        242
+       ]
+      },
+      "regions": [],
+      "countries": []
+     }
+    ],
+    "places": [
+     {
+      "name": "Frauenfeld",
+      "lat": 47.5536,
+      "lon": 8.8987,
+      "kind": "town",
+      "year": 1460,
+      "note": "Thurgau taken"
+     },
+     {
+      "name": "Diessenhofen",
+      "lat": 47.6893,
+      "lon": 8.7495,
+      "kind": "town",
+      "year": 1460,
+      "note": "Taken after a siege"
+     }
+    ]
+   },
+   {
+    "year": 1474,
+    "tick": "1474",
+    "title": "Peace: the Ewige Richtung",
+    "text": [
+     "In 1469 Sigismund pledges his lands in Alsace and on the Upper Rhine to Charles the Bold, Duke of Burgundy. Soon Charles becomes a danger to both Austria and the Swiss.",
+     "In 1474 Sigismund and the Confederates make the Ewige Richtung (perpetual settlement) at Constance. Austria accepts that the Aargau and Thurgau belong to the Swiss. Old enemies become partners against Burgundy."
+    ],
+    "view": [
+     [
+      46.0,
+      5.5
+     ],
+     [
+      48.6,
+      10.6
+     ]
+    ],
+    "layers": [
+     {
+      "name": "Fricktal",
+      "kind": "habsburg",
+      "label": "Fricktal: Austrian",
+      "sel": {
+       "districts": [
+        1906,
+        1909
+       ]
+      },
+      "regions": [],
+      "countries": []
+     },
+     {
+      "name": "Upper Alsace",
+      "kind": "habsburg",
+      "label": "Upper Alsace: back to Austria in 1474 (drawn as Haut-Rhin)",
+      "sel": {},
+      "regions": [
+       "FRA-5296"
+      ],
+      "countries": []
+     },
+     {
+      "name": "Tyrol and Vorarlberg",
+      "kind": "habsburg",
+      "label": "Tyrol and Vorarlberg: Sigismund's lands (borders rough)",
+      "sel": {},
+      "regions": [
+       "AUT-2329",
+       "AUT-2320"
+      ],
+      "countries": []
+     },
+     {
+      "name": "Burgundy",
+      "kind": "burgundy",
+      "label": "Franche-Comté: Duke Charles the Bold of Burgundy",
+      "sel": {},
+      "regions": [
+       "FRA-5287",
+       "FRA-5312",
+       "FRA-5301"
+      ],
+      "countries": []
+     },
+     {
+      "name": "Swiss lands",
+      "kind": "confederates",
+      "label": "Confederates and their common lordships (about)",
+      "sel": {
+       "cantons": [
+        "UR",
+        "SZ",
+        "OW",
+        "NW",
+        "ZG",
+        "GL",
+        "LU",
+        "ZH",
+        "BE",
+        "TG",
+        "AG"
+       ],
+       "exceptDistricts": [
+        241,
+        242,
+        1906,
+        1909
+       ]
+      },
+      "regions": [],
+      "countries": []
+     }
+    ],
+    "places": [
+     {
+      "name": "Constance",
+      "lat": 47.6603,
+      "lon": 9.1758,
+      "kind": "treaty",
+      "year": 1474,
+      "note": "Ewige Richtung"
+     },
+     {
+      "name": "Nancy",
+      "lat": 48.6921,
+      "lon": 6.1844,
+      "kind": "battle",
+      "year": 1477,
+      "note": "Charles the Bold killed"
+     }
+    ]
+   },
+   {
+    "year": 1499,
+    "tick": "1499",
+    "title": "The Swabian War",
+    "text": [
+     "King Maximilian I wants the Swiss to accept new imperial taxes and courts. The Swiss refuse. In 1499 war breaks out between the Confederates with the Grisons on one side, and Maximilian with the Swabian League (an alliance of south German lords and towns) on the other.",
+     "The Swiss win at Calven and at Dornach. In the Peace of Basel (September 1499) the borders do not change. But after 1499 the Empire's courts and taxes no longer reach the Swiss in practice.",
+     "In 1511 Austria and the Swiss sign a hereditary union (Erbeinung). They promise to respect each other's land."
+    ],
+    "view": [
+     [
+      46.0,
+      5.5
+     ],
+     [
+      48.6,
+      11.5
+     ]
+    ],
+    "layers": [
+     {
+      "name": "Rhäzüns",
+      "kind": "habsburg",
+      "label": "Rhäzüns: Austrian since 1497",
+      "sel": {
+       "munis": [
+        3723,
+        3721,
+        3722
+       ]
+      },
+      "regions": [],
+      "countries": []
+     },
+     {
+      "name": "Fricktal",
+      "kind": "habsburg",
+      "label": "Fricktal: Austrian",
+      "sel": {
+       "districts": [
+        1906,
+        1909
+       ]
+      },
+      "regions": [],
+      "countries": []
+     },
+     {
+      "name": "Austrian lands",
+      "kind": "habsburg",
+      "label": "Maximilian's lands: Tyrol, Vorarlberg, Upper Alsace (borders rough)",
+      "sel": {},
+      "regions": [
+       "AUT-2329",
+       "AUT-2320",
+       "ITA-5459",
+       "FRA-5296"
+      ],
+      "countries": []
+     },
+     {
+      "name": "Swabian League",
+      "kind": "enemy",
+      "label": "Swabian League: allied with Maximilian (drawn as Baden-Württemberg, rough)",
+      "sel": {},
+      "regions": [
+       "DEU-1573"
+      ],
+      "countries": []
+     },
+     {
+      "name": "Allies",
+      "kind": "ally",
+      "label": "Allies of the Swiss: Three Leagues (Grisons), Valais, St. Gallen, Appenzell, Schaffhausen",
+      "sel": {
+       "cantons": [
+        "GR",
+        "VS",
+        "SG",
+        "AR",
+        "AI",
+        "SH"
+       ]
+      },
+      "regions": [],
+      "countries": []
+     },
+     {
+      "name": "Confederates",
+      "kind": "confederates",
+      "label": "The ten cantons and their common lordships (about)",
+      "sel": {
+       "cantons": [
+        "UR",
+        "SZ",
+        "OW",
+        "NW",
+        "ZG",
+        "GL",
+        "LU",
+        "ZH",
+        "BE",
+        "TG",
+        "AG",
+        "FR",
+        "SO"
+       ],
+       "exceptDistricts": [
+        241,
+        242,
+        1906,
+        1909
+       ]
+      },
+      "regions": [],
+      "countries": []
+     }
+    ],
+    "places": [
+     {
+      "name": "Calven",
+      "lat": 46.665,
+      "lon": 10.52,
+      "kind": "battle",
+      "year": 1499,
+      "note": "Grisons win"
+     },
+     {
+      "name": "Dornach",
+      "lat": 47.4824,
+      "lon": 7.6187,
+      "kind": "battle",
+      "year": 1499,
+      "note": "Confederates win"
+     },
+     {
+      "name": "Basel",
+      "lat": 47.5596,
+      "lon": 7.5886,
+      "kind": "treaty",
+      "year": 1499,
+      "note": "Peace of Basel"
+     }
+    ]
+   },
+   {
+    "year": 1500,
+    "tick": "1500",
+    "title": "From Austria to Burgundy",
+    "text": [
+     "The Habsburgs grow most by marriage. In 1477 Maximilian marries Mary, the heiress of Burgundy. After her father Charles the Bold dies, the Habsburgs get the Netherlands and later the Franche-Comté.",
+     "About 1500 Maximilian rules the Austrian lands, Tyrol, and the Burgundian Netherlands. The Swiss now have a much stronger neighbour on two sides."
+    ],
+    "view": "europe",
+    "layers": [
+     {
+      "name": "Austrian lands",
+      "kind": "habsburg",
+      "label": "Austrian hereditary lands (borders rough)",
+      "sel": {},
+      "regions": [
+       "AUT-2330",
+       "AUT-2331",
+       "AUT-2326",
+       "AUT-2323",
+       "AUT-2325",
+       "AUT-2329",
+       "AUT-2320",
+       "ITA-5459",
+       "ITA-5457",
+       "ITA-5458",
+       "FRA-5296"
+      ],
+      "countries": [
+       "SVN"
+      ]
+     },
+     {
+      "name": "Burgundian inheritance",
+      "kind": "habsburg",
+      "label": "Burgundian inheritance: Netherlands, Artois, Franche-Comté (borders rough)",
+      "sel": {},
+      "regions": [
+       "FRA-5330",
+       "FRA-5334",
+       "FRA-5287",
+       "FRA-5312",
+       "FRA-5301"
+      ],
+      "countries": [
+       "BEL",
+       "LUX",
+       "NLD"
+      ]
+     },
+     {
+      "name": "Fricktal",
+      "kind": "habsburg",
+      "label": "Fricktal: Austrian",
+      "sel": {
+       "districts": [
+        1906,
+        1909
+       ]
+      },
+      "regions": [],
+      "countries": []
+     }
+    ],
+    "places": [
+     {
+      "name": "Vienna",
+      "lat": 48.2082,
+      "lon": 16.3738,
+      "kind": "town"
+     },
+     {
+      "name": "Innsbruck",
+      "lat": 47.2692,
+      "lon": 11.4041,
+      "kind": "town",
+      "note": "Maximilian's favourite seat"
+     },
+     {
+      "name": "Brussels",
+      "lat": 50.8467,
+      "lon": 4.3525,
+      "kind": "town",
+      "note": "Centre of the Netherlands"
+     }
+    ]
+   },
+   {
+    "year": 1550,
+    "tick": "1550",
+    "title": "An empire around Switzerland",
+    "text": [
+     "Maximilian's grandson Charles V becomes king of Spain in 1516 and emperor in 1519. With Spain come Naples, Sicily, Sardinia and lands in America. In 1535 he also takes the Duchy of Milan. In 1526 his brother Ferdinand becomes king of Bohemia and Hungary.",
+     "About 1550 Habsburg land lies north, east and south of the Swiss. In 1556 the family splits into a Spanish line and an Austrian line. The family that began at a small castle in the Aargau is now one of the great powers of Europe."
+    ],
+    "view": "europe",
+    "layers": [
+     {
+      "name": "Spanish line",
+      "kind": "habsburg",
+      "label": "Charles V: Spain, Netherlands, Franche-Comté, Milan, Naples, Sicily, Sardinia (borders rough)",
+      "sel": {},
+      "regions": [
+       "FRA-5330",
+       "FRA-5334",
+       "FRA-5287",
+       "FRA-5312",
+       "FRA-5301",
+       "ITA-5418",
+       "ITA-5419",
+       "ITA-5420",
+       "ITA-5421",
+       "ITA-5401",
+       "ITA-5402",
+       "ITA-5396",
+       "ITA-5397",
+       "ITA-5398",
+       "ITA-5399",
+       "ITA-5400",
+       "ITA-5403",
+       "ITA-5404",
+       "ITA-5405",
+       "ITA-5406",
+       "ITA-5407",
+       "ITA-5408",
+       "ITA-5389",
+       "ITA-5390",
+       "ITA-5391",
+       "ITA-5392",
+       "ITA-5393",
+       "ITA-5394",
+       "ITA-5395",
+       "ITA-5409",
+       "ITA-5410",
+       "ITA-5411",
+       "ITA-5412",
+       "ITA-5413",
+       "ITA-5414",
+       "ITA-5415",
+       "ITA-5416",
+       "ITA-5417",
+       "ITA-5371",
+       "ITA-5372",
+       "ITA-5373",
+       "ITA-5374",
+       "ITA-5375",
+       "ITA-5376",
+       "ITA-5377",
+       "ITA-5378",
+       "ITA-5450",
+       "ITA-5454",
+       "ITA-5448",
+       "ITA-5449",
+       "ITA-5452",
+       "ITA-5451",
+       "ITA-5453",
+       "ITA-5447",
+       "ITA-5438"
+      ],
+      "countries": [
+       "ESP",
+       "BEL",
+       "LUX",
+       "NLD"
+      ]
+     },
+     {
+      "name": "Austrian line",
+      "kind": "habsburg",
+      "label": "Ferdinand: Austrian lands, Bohemia, and part of Hungary (borders rough)",
+      "sel": {},
+      "regions": [
+       "AUT-2330",
+       "AUT-2331",
+       "AUT-2326",
+       "AUT-2323",
+       "AUT-2325",
+       "AUT-2329",
+       "AUT-2320",
+       "ITA-5459",
+       "ITA-5457",
+       "ITA-5458",
+       "FRA-5296"
+      ],
+      "countries": [
+       "SVN",
+       "CZE",
+       "SVK"
+      ]
+     },
+     {
+      "name": "Fricktal",
+      "kind": "habsburg",
+      "label": "Fricktal: Austrian until 1802/1803",
+      "sel": {
+       "districts": [
+        1906,
+        1909
+       ]
+      },
+      "regions": [],
+      "countries": []
+     }
+    ],
+    "places": [
+     {
+      "name": "Habsburg castle",
+      "lat": 47.4625,
+      "lon": 8.1856,
+      "kind": "castle",
+      "note": "Where it began"
+     },
+     {
+      "name": "Vienna",
+      "lat": 48.2082,
+      "lon": 16.3738,
+      "kind": "town"
+     },
+     {
+      "name": "Milan",
+      "lat": 45.4642,
+      "lon": 9.19,
+      "kind": "town",
+      "year": 1535,
+      "note": "Habsburg from 1535"
+     }
+    ]
+   }
+  ],
+  "sources": [
+   "https://hls-dhs-dss.ch/de/articles/019506/",
+   "https://hls-dhs-dss.ch/de/articles/029461/",
+   "https://hls-dhs-dss.ch/de/articles/019520/2024-02-20/",
+   "https://hls-dhs-dss.ch/de/articles/001692/2007-10-16/"
+  ],
+  "notes": "Lands inside Switzerland are drawn from today's cantons and districts and are approximate; Habsburg rights were often scattered rights, not closed territories. 1291 and 1386 maps simplify (Zurich, Bern, Lucerne drawn as towns only in 1386; the whole of today's Lucerne and Zurich countryside drawn as Habsburg). Austria 1282 drawn as today's Lower Austria, Vienna, Upper Austria and Styria (Lower Styria in Slovenia left out). Upper Alsace drawn as Haut-Rhin. Around 1500/1550: Slovenia drawn whole (Carniola, Lower Styria); Netherlands drawn whole although the northern provinces came 1524–1543; Hungary and Croatia left out because most was Ottoman or contested; Milan drawn as several Lombard provinces plus Novara; Further Austria in Baden-Württemberg (Breisgau) not drawn because only whole German states exist. Morgarten and Calven coordinates are approximate. Swabian War allies grouped roughly."
+ },
+ {
+  "id": "savoy",
+  "title": "Savoy: masters of the Alpine passes and the Vaud",
+  "card": "How the counts of Savoy took the Vaud and the passes, lost them to Bern and the Valais, and became kings in Turin.",
+  "stops": [
+   {
+    "year": 1050,
+    "tick": "about 1050",
+    "title": "Counts of the Alpine passes",
+    "text": [
+     "The house of Savoy begins in the early 1000s with Count Humbert. His lands lie south-west of Lake Geneva, around Bugey and the Isère valley.",
+     "His son Odo marries Adelaide of Turin. This brings the Susa valley and Piedmont. Now Savoy holds both sides of the passes, for example Mont-Cenis and the Great St Bernard. Tolls and travellers on these roads bring money and power.",
+     "In the 1000s the counts also gain influence in the Chablais, around the old abbey of Saint-Maurice."
+    ],
+    "view": [
+     [
+      44.3,
+      4.8
+     ],
+     [
+      47.2,
+      9.0
+     ]
+    ],
+    "layers": [
+     {
+      "name": "Chablais",
+      "kind": "savoy",
+      "label": "Chablais around Saint-Maurice: Savoy influence (about)",
+      "sel": {
+       "districts": [
+        2310,
+        2308
+       ]
+      },
+      "regions": [],
+      "countries": []
+     },
+     {
+      "name": "Savoy",
+      "kind": "savoy",
+      "label": "Lands of the counts of Savoy (about, borders rough)",
+      "sel": {},
+      "regions": [
+       "FRA-5341",
+       "FRA-5262",
+       "FRA-5311",
+       "ITA-5442",
+       "ITA-5434"
+      ],
+      "countries": []
+     }
+    ],
+    "places": [
+     {
+      "name": "Great St Bernard pass",
+      "lat": 45.8689,
+      "lon": 7.1706,
+      "kind": "place",
+      "note": "Pass between Valais and Aosta"
+     },
+     {
+      "name": "Saint-Maurice abbey",
+      "lat": 46.2183,
+      "lon": 7.0034,
+      "kind": "place"
+     },
+     {
+      "name": "Turin",
+      "lat": 45.0703,
+      "lon": 7.6869,
+      "kind": "town"
+     },
+     {
+      "name": "Susa",
+      "lat": 45.1381,
+      "lon": 7.0486,
+      "kind": "town"
+     }
+    ]
+   },
+   {
+    "year": 1260,
+    "tick": "1260",
+    "title": "Peter II and the Vaud",
+    "text": [
+     "Peter of Savoy (about 1203–1268) is a younger son. He gets little land at home, so he builds his own power north of Lake Geneva. Between 1240 and 1260 he forces many nobles of the Vaud to hold their land from him as a fief (land held in return for loyalty).",
+     "He beats the count of Geneva and pushes back the bishop of Lausanne. In 1260 the bishop of Sion lets him have the Valais down to the Morge stream near Conthey. Bern and Murten seek his protection in the 1250s.",
+     "Peter becomes count of Savoy in 1263. People later call him the 'little Charlemagne'."
+    ],
+    "view": "ch",
+    "layers": [
+     {
+      "name": "Bishop of Lausanne",
+      "kind": "bishop",
+      "label": "Bishop of Lausanne: Lausanne, Lavaux, Lucens, Avenches; Bulle",
+      "sel": {
+       "munis": [
+        5586,
+        5606,
+        5613,
+        5601,
+        5607,
+        5609,
+        5610,
+        5675,
+        5451,
+        2125,
+        2148,
+        2149
+       ]
+      },
+      "regions": [],
+      "countries": []
+     },
+     {
+      "name": "Gruyère",
+      "kind": "noble",
+      "label": "Counts of Gruyère",
+      "sel": {
+       "munis": [
+        2135,
+        2121,
+        2162,
+        2134,
+        2145,
+        2124,
+        2163,
+        2128,
+        2130,
+        2123,
+        2138,
+        5841,
+        5842,
+        5843
+       ]
+      },
+      "regions": [],
+      "countries": []
+     },
+     {
+      "name": "Grandson",
+      "kind": "noble",
+      "label": "Lords of Grandson",
+      "sel": {
+       "munis": [
+        5561
+       ]
+      },
+      "regions": [],
+      "countries": []
+     },
+     {
+      "name": "Fribourg",
+      "kind": "kyburg",
+      "label": "Fribourg: Kyburg, then Habsburg (1277)",
+      "sel": {
+       "districts": [
+        1004,
+        1006
+       ],
+       "munis": [
+        2254,
+        2257,
+        2262,
+        2266,
+        2272
+       ]
+      },
+      "regions": [],
+      "countries": []
+     },
+     {
+      "name": "Lower Valais",
+      "kind": "savoy",
+      "label": "Lower Valais to the Morge: Savoy from 1260",
+      "sel": {
+       "districts": [
+        2302,
+        2307,
+        2303,
+        2310,
+        2308
+       ]
+      },
+      "regions": [],
+      "countries": []
+     },
+     {
+      "name": "Vaud",
+      "kind": "savoy",
+      "label": "Savoy: Pays de Vaud, Chablais, Romont, Murten",
+      "sel": {
+       "cantons": [
+        "VD",
+        "FR"
+       ]
+      },
+      "regions": [],
+      "countries": []
+     },
+     {
+      "name": "Bishop of Sion",
+      "kind": "bishop",
+      "label": "Upper Valais: Bishop of Sion",
+      "sel": {
+       "cantons": [
+        "VS"
+       ]
+      },
+      "regions": [],
+      "countries": []
+     }
+    ],
+    "places": [
+     {
+      "name": "Chillon castle",
+      "lat": 46.4142,
+      "lon": 6.9275,
+      "kind": "castle",
+      "note": "Savoy castle on the lake"
+     },
+     {
+      "name": "Moudon",
+      "lat": 46.6683,
+      "lon": 6.7975,
+      "kind": "town",
+      "note": "Savoy centre in the Vaud"
+     },
+     {
+      "name": "Yverdon",
+      "lat": 46.7784,
+      "lon": 6.6413,
+      "kind": "castle",
+      "note": "Castle built by Peter II"
+     },
+     {
+      "name": "Romont",
+      "lat": 46.6966,
+      "lon": 6.9183,
+      "kind": "town"
+     },
+     {
+      "name": "Conthey",
+      "lat": 46.2236,
+      "lon": 7.3039,
+      "kind": "treaty",
+      "year": 1260,
+      "note": "Border at the Morge"
+     },
+     {
+      "name": "Bern",
+      "lat": 46.948,
+      "lon": 7.4474,
+      "kind": "town",
+      "note": "Under Savoy protection for some years"
+     }
+    ]
+   },
+   {
+    "year": 1416,
+    "tick": "1416",
+    "title": "The Duchy of Savoy",
+    "text": [
+     "From 1285 to 1359 a side line of the family rules the Vaud as a barony. In 1359 Count Amadeus VI takes it back.",
+     "Savoy keeps growing. It gets Nice and access to the sea in 1388 and the Genevois (the land around Geneva) in 1401–1402. In 1416 the emperor makes Amadeus VIII a duke. The city of Geneva itself stays under its bishop.",
+     "The duchy now reaches from the Swiss plateau to the Mediterranean."
+    ],
+    "view": [
+     [
+      43.3,
+      4.5
+     ],
+     [
+      47.3,
+      9.0
+     ]
+    ],
+    "layers": [
+     {
+      "name": "Bishop of Lausanne",
+      "kind": "bishop",
+      "label": "Bishop of Lausanne: Lausanne and Lavaux",
+      "sel": {
+       "munis": [
+        5586,
+        5606,
+        5613,
+        5601,
+        5607,
+        5609,
+        5610
+       ]
+      },
+      "regions": [],
+      "countries": []
+     },
+     {
+      "name": "Geneva",
+      "kind": "bishop",
+      "label": "City of Geneva: its bishop",
+      "sel": {
+       "munis": [
+        6621
+       ]
+      },
+      "regions": [],
+      "countries": []
+     },
+     {
+      "name": "Gruyère",
+      "kind": "noble",
+      "label": "Counts of Gruyère",
+      "sel": {
+       "munis": [
+        2135,
+        2121,
+        2162,
+        2134,
+        2145,
+        2124,
+        2163,
+        2128,
+        2130,
+        2123,
+        2138,
+        5841,
+        5842,
+        5843
+       ]
+      },
+      "regions": [],
+      "countries": []
+     },
+     {
+      "name": "Fribourg",
+      "kind": "habsburg",
+      "label": "Fribourg: Habsburg town until 1452",
+      "sel": {
+       "districts": [
+        1004,
+        1006
+       ],
+       "munis": [
+        2254,
+        2257,
+        2262,
+        2266,
+        2272
+       ]
+      },
+      "regions": [],
+      "countries": []
+     },
+     {
+      "name": "Swiss Savoy",
+      "kind": "savoy",
+      "label": "Duchy of Savoy: Vaud, Lower Valais, Romont, Murten, land around Geneva",
+      "sel": {
+       "cantons": [
+        "VD",
+        "FR",
+        "GE"
+       ],
+       "districts": [
+        2302,
+        2307,
+        2303,
+        2310,
+        2308
+       ]
+      },
+      "regions": [],
+      "countries": []
+     },
+     {
+      "name": "Bishop of Sion",
+      "kind": "bishop",
+      "label": "Upper Valais: Bishop of Sion and the Zenden",
+      "sel": {
+       "cantons": [
+        "VS"
+       ]
+      },
+      "regions": [],
+      "countries": []
+     },
+     {
+      "name": "Duchy of Savoy",
+      "kind": "savoy",
+      "label": "Duchy of Savoy: Savoy, Bresse and Bugey, Aosta, Piedmont, Nice (borders rough)",
+      "sel": {},
+      "regions": [
+       "FRA-5341",
+       "FRA-5302",
+       "FRA-5262",
+       "FRA-5266",
+       "ITA-5442",
+       "ITA-5434",
+       "ITA-5435",
+       "ITA-5436",
+       "ITA-5441"
+      ],
+      "countries": []
+     }
+    ],
+    "places": [
+     {
+      "name": "Chambéry",
+      "lat": 45.5646,
+      "lon": 5.9178,
+      "kind": "town",
+      "note": "Capital of Savoy"
+     },
+     {
+      "name": "Nice",
+      "lat": 43.7102,
+      "lon": 7.262,
+      "kind": "town",
+      "year": 1388,
+      "note": "Savoy from 1388"
+     },
+     {
+      "name": "Turin",
+      "lat": 45.0703,
+      "lon": 7.6869,
+      "kind": "town"
+     },
+     {
+      "name": "Geneva",
+      "lat": 46.2011,
+      "lon": 6.1486,
+      "kind": "town"
+     }
+    ]
+   },
+   {
+    "year": 1476,
+    "tick": "1476",
+    "title": "Losses in the Burgundian Wars",
+    "text": [
+     "In 1475 Duchess Yolande of Savoy sides with Charles the Bold of Burgundy. Bern and the Valais attack Savoy land. The Swiss beat Charles at Grandson and Murten in 1476.",
+     "In the Treaty of Fribourg (1476) Bern gets Aigle. The Valais gets the Lower Valais down to Massongex. Bern and Fribourg together take Murten, Grandson, Orbe and Echallens as shared lordships (1476 and 1484).",
+     "Savoy keeps most of the Vaud, but it is weaker now."
+    ],
+    "view": "ch",
+    "layers": [
+     {
+      "name": "Bern and Fribourg",
+      "kind": "confederates",
+      "label": "Murten, Grandson, Orbe, Echallens: shared by Bern and Fribourg",
+      "sel": {
+       "munis": [
+        2275,
+        5561,
+        5757,
+        5518
+       ]
+      },
+      "regions": [],
+      "countries": []
+     },
+     {
+      "name": "Aigle",
+      "kind": "confederates",
+      "label": "Aigle: Bernese from 1475/1476",
+      "sel": {
+       "districts": [
+        2221
+       ]
+      },
+      "regions": [],
+      "countries": []
+     },
+     {
+      "name": "Lower Valais",
+      "kind": "ally",
+      "label": "Lower Valais to Massongex: taken by the Upper Valais (Zenden) in 1475",
+      "sel": {
+       "districts": [
+        2302,
+        2307,
+        2303,
+        2310
+       ]
+      },
+      "regions": [],
+      "countries": []
+     },
+     {
+      "name": "Bishop of Lausanne",
+      "kind": "bishop",
+      "label": "Bishop of Lausanne: Lausanne and Lavaux",
+      "sel": {
+       "munis": [
+        5586,
+        5606,
+        5613,
+        5601,
+        5607,
+        5609,
+        5610
+       ]
+      },
+      "regions": [],
+      "countries": []
+     },
+     {
+      "name": "Gruyère",
+      "kind": "noble",
+      "label": "Counts of Gruyère",
+      "sel": {
+       "munis": [
+        2135,
+        2121,
+        2162,
+        2134,
+        2145,
+        2124,
+        2163,
+        2128,
+        2130,
+        2123,
+        2138,
+        5841,
+        5842,
+        5843
+       ]
+      },
+      "regions": [],
+      "countries": []
+     },
+     {
+      "name": "Fribourg",
+      "kind": "confederates",
+      "label": "Fribourg (Swiss member from 1481)",
+      "sel": {
+       "districts": [
+        1004,
+        1006,
+        1005
+       ]
+      },
+      "regions": [],
+      "countries": []
+     },
+     {
+      "name": "Geneva",
+      "kind": "bishop",
+      "label": "City of Geneva: its bishop",
+      "sel": {
+       "munis": [
+        6621
+       ]
+      },
+      "regions": [],
+      "countries": []
+     },
+     {
+      "name": "Savoy",
+      "kind": "savoy",
+      "label": "Duchy of Savoy",
+      "sel": {
+       "cantons": [
+        "VD",
+        "GE"
+       ],
+       "districts": [
+        1001,
+        1002,
+        1003,
+        1007,
+        2308
+       ]
+      },
+      "regions": [],
+      "countries": []
+     },
+     {
+      "name": "Valais",
+      "kind": "ally",
+      "label": "Valais: Bishop of Sion and Zenden, allies of the Swiss",
+      "sel": {
+       "cantons": [
+        "VS"
+       ]
+      },
+      "regions": [],
+      "countries": []
+     },
+     {
+      "name": "Bern",
+      "kind": "confederates",
+      "label": "Bern",
+      "sel": {
+       "cantons": [
+        "BE"
+       ],
+       "exceptDistricts": [
+        241,
+        242
+       ]
+      },
+      "regions": [],
+      "countries": []
+     }
+    ],
+    "places": [
+     {
+      "name": "Grandson",
+      "lat": 46.85,
+      "lon": 6.68,
+      "kind": "battle",
+      "year": 1476,
+      "note": "Swiss beat Charles the Bold"
+     },
+     {
+      "name": "Murten",
+      "lat": 46.9333,
+      "lon": 7.1333,
+      "kind": "battle",
+      "year": 1476,
+      "note": "Swiss beat Charles the Bold"
+     },
+     {
+      "name": "Fribourg",
+      "lat": 46.8065,
+      "lon": 7.1619,
+      "kind": "treaty",
+      "year": 1476,
+      "note": "Treaty of Fribourg"
+     },
+     {
+      "name": "Massongex",
+      "lat": 46.2427,
+      "lon": 6.9887,
+      "kind": "place",
+      "note": "New border in the Valais"
+     }
+    ]
+   },
+   {
+    "year": 1536,
+    "tick": "1536",
+    "title": "Bern takes the Vaud",
+    "text": [
+     "Geneva wants to be free from the duke and the bishop. Bern helps the city. In 1536 Bern conquers the Vaud, the Pays de Gex and land south of Lake Geneva. Fribourg takes Romont and other places. The Valais takes the Chablais east of the Dranse river.",
+     "At the same time France occupies Savoy and most of Piedmont. In spring 1536 the duke holds only Nice, Vercelli and Aosta. Geneva becomes an independent city."
+    ],
+    "view": [
+     [
+      43.3,
+      4.5
+     ],
+     [
+      47.6,
+      9.0
+     ]
+    ],
+    "layers": [
+     {
+      "name": "Geneva",
+      "kind": "ally",
+      "label": "Geneva: independent city, ally of Bern",
+      "sel": {
+       "munis": [
+        6621
+       ]
+      },
+      "regions": [],
+      "countries": []
+     },
+     {
+      "name": "Gruyère",
+      "kind": "noble",
+      "label": "County of Gruyère: until 1555",
+      "sel": {
+       "munis": [
+        2135,
+        2121,
+        2162,
+        2134,
+        2145,
+        2124,
+        2163,
+        2128,
+        2130,
+        2123,
+        2138,
+        5841,
+        5842,
+        5843
+       ]
+      },
+      "regions": [],
+      "countries": []
+     },
+     {
+      "name": "Fribourg's share",
+      "kind": "confederates",
+      "label": "Taken by Fribourg in 1536",
+      "sel": {
+       "districts": [
+        1001,
+        1002,
+        1003,
+        1007
+       ]
+      },
+      "regions": [],
+      "countries": []
+     },
+     {
+      "name": "Valais's share",
+      "kind": "ally",
+      "label": "Monthey area: taken by the Valais in 1536",
+      "sel": {
+       "districts": [
+        2308
+       ]
+      },
+      "regions": [],
+      "countries": []
+     },
+     {
+      "name": "Vaud",
+      "kind": "confederates",
+      "label": "Vaud: conquered by Bern in 1536",
+      "sel": {
+       "cantons": [
+        "VD"
+       ]
+      },
+      "regions": [],
+      "countries": []
+     },
+     {
+      "name": "Bernese land around Geneva",
+      "kind": "confederates",
+      "label": "Land around Geneva: Bern 1536–1567",
+      "sel": {
+       "cantons": [
+        "GE"
+       ]
+      },
+      "regions": [],
+      "countries": []
+     },
+     {
+      "name": "Savoy",
+      "kind": "savoy",
+      "label": "What the duke still holds: Nice, Aosta, Vercelli (rough)",
+      "sel": {},
+      "regions": [
+       "FRA-5266",
+       "ITA-5442",
+       "ITA-5436"
+      ],
+      "countries": []
+     },
+     {
+      "name": "France",
+      "kind": "france",
+      "label": "Occupied by France from 1536 (rough)",
+      "sel": {},
+      "regions": [
+       "FRA-5341",
+       "FRA-5262",
+       "ITA-5434",
+       "ITA-5441",
+       "ITA-5435"
+      ],
+      "countries": []
+     }
+    ],
+    "places": [
+     {
+      "name": "Lausanne",
+      "lat": 46.5226,
+      "lon": 6.6355,
+      "kind": "town",
+      "year": 1536,
+      "note": "Taken by Bern"
+     },
+     {
+      "name": "Chillon castle",
+      "lat": 46.4142,
+      "lon": 6.9275,
+      "kind": "castle",
+      "year": 1536,
+      "note": "Taken by Bern"
+     },
+     {
+      "name": "Geneva",
+      "lat": 46.2011,
+      "lon": 6.1486,
+      "kind": "town"
+     },
+     {
+      "name": "Nice",
+      "lat": 43.7102,
+      "lon": 7.262,
+      "kind": "town",
+      "note": "Still Savoy"
+     }
+    ]
+   },
+   {
+    "year": 1569,
+    "tick": "1569",
+    "title": "A new state around Turin",
+    "text": [
+     "Duke Emmanuel Philibert gets most of his lands back in 1559. In 1563 he makes Turin his capital. The duchy now looks south, to Italy.",
+     "In the Treaty of Lausanne (1564) and at Thonon (1569) he makes peace with Bern and the Valais. He gets back the land south of Lake Geneva. In return, the Vaud stays Bernese, and the Valais keeps the Monthey area. These borders still hold today."
+    ],
+    "view": [
+     [
+      43.3,
+      4.5
+     ],
+     [
+      47.6,
+      9.0
+     ]
+    ],
+    "layers": [
+     {
+      "name": "Geneva",
+      "kind": "ally",
+      "label": "Geneva: independent city with its villages Peney and Jussy",
+      "sel": {
+       "munis": [
+        6621,
+        6638,
+        6620,
+        6637,
+        6626,
+        6624,
+        6610
+       ]
+      },
+      "regions": [],
+      "countries": []
+     },
+     {
+      "name": "Valais",
+      "kind": "ally",
+      "label": "Monthey area: stays with the Valais",
+      "sel": {
+       "districts": [
+        2308
+       ]
+      },
+      "regions": [],
+      "countries": []
+     },
+     {
+      "name": "Vaud",
+      "kind": "confederates",
+      "label": "Vaud: stays with Bern (Fribourg holds its part)",
+      "sel": {
+       "cantons": [
+        "VD"
+       ],
+       "districts": [
+        1001,
+        1002,
+        1003,
+        1007
+       ]
+      },
+      "regions": [],
+      "countries": []
+     },
+     {
+      "name": "Savoy around Geneva",
+      "kind": "savoy",
+      "label": "Land around Geneva: back to Savoy",
+      "sel": {
+       "cantons": [
+        "GE"
+       ]
+      },
+      "regions": [],
+      "countries": []
+     },
+     {
+      "name": "Duchy of Savoy",
+      "kind": "savoy",
+      "label": "Duchy of Savoy: Savoy, Bresse, Bugey and Gex (until 1601), Aosta, Piedmont, Nice (rough)",
+      "sel": {},
+      "regions": [
+       "FRA-5341",
+       "FRA-5302",
+       "FRA-5262",
+       "FRA-5266",
+       "ITA-5442",
+       "ITA-5434",
+       "ITA-5435",
+       "ITA-5436",
+       "ITA-5441"
+      ],
+      "countries": []
+     }
+    ],
+    "places": [
+     {
+      "name": "Turin",
+      "lat": 45.0703,
+      "lon": 7.6869,
+      "kind": "town",
+      "year": 1563,
+      "note": "New capital"
+     },
+     {
+      "name": "Lausanne",
+      "lat": 46.5226,
+      "lon": 6.6355,
+      "kind": "treaty",
+      "year": 1564,
+      "note": "Treaty with Bern"
+     },
+     {
+      "name": "Thonon",
+      "lat": 46.3705,
+      "lon": 6.4797,
+      "kind": "treaty",
+      "year": 1569,
+      "note": "Treaty with the Valais"
+     }
+    ]
+   },
+   {
+    "year": 1720,
+    "tick": "1720",
+    "title": "Kings of Sardinia",
+    "text": [
+     "In 1601 Savoy gives Bresse, Bugey and Gex to France. In 1602 an attack on Geneva fails (the 'Escalade'). In 1603 Savoy accepts that Geneva is independent.",
+     "In 1713 the duke becomes king of Sicily. In 1720 he swaps Sicily for Sardinia. His state is now called the Kingdom of Sardinia, but its centre is still Turin and Piedmont."
+    ],
+    "view": [
+     [
+      38.5,
+      4.5
+     ],
+     [
+      47.3,
+      10.5
+     ]
+    ],
+    "layers": [
+     {
+      "name": "Geneva",
+      "kind": "ally",
+      "label": "Geneva: independent city with Peney and Jussy, ally of the Swiss",
+      "sel": {
+       "munis": [
+        6621,
+        6638,
+        6620,
+        6637,
+        6626,
+        6624,
+        6610
+       ]
+      },
+      "regions": [],
+      "countries": []
+     },
+     {
+      "name": "Pays de Gex",
+      "kind": "france",
+      "label": "Villages of the Pays de Gex: French from 1601",
+      "sel": {
+       "munis": [
+        6644,
+        6615,
+        6606,
+        6623,
+        6634,
+        6643,
+        6630
+       ]
+      },
+      "regions": [],
+      "countries": []
+     },
+     {
+      "name": "Savoy around Geneva",
+      "kind": "savoy",
+      "label": "Villages around Geneva: Savoy (later partly to Geneva)",
+      "sel": {
+       "cantons": [
+        "GE"
+       ]
+      },
+      "regions": [],
+      "countries": []
+     },
+     {
+      "name": "Kingdom of Sardinia",
+      "kind": "savoy",
+      "label": "Kingdom of Sardinia: Savoy, Nice, Aosta, Piedmont, Sardinia (rough)",
+      "sel": {},
+      "regions": [
+       "FRA-5341",
+       "FRA-5302",
+       "FRA-5266",
+       "ITA-5442",
+       "ITA-5434",
+       "ITA-5435",
+       "ITA-5436",
+       "ITA-5441",
+       "ITA-5440",
+       "ITA-5439",
+       "ITA-5371",
+       "ITA-5372",
+       "ITA-5373",
+       "ITA-5374",
+       "ITA-5375",
+       "ITA-5376",
+       "ITA-5377",
+       "ITA-5378"
+      ],
+      "countries": []
+     }
+    ],
+    "places": [
+     {
+      "name": "Geneva",
+      "lat": 46.2011,
+      "lon": 6.1486,
+      "kind": "town",
+      "year": 1602,
+      "note": "Escalade fails"
+     },
+     {
+      "name": "Turin",
+      "lat": 45.0703,
+      "lon": 7.6869,
+      "kind": "town",
+      "note": "Capital"
+     },
+     {
+      "name": "Cagliari",
+      "lat": 39.2238,
+      "lon": 9.1217,
+      "kind": "town",
+      "year": 1720,
+      "note": "Sardinia to Savoy"
+     }
+    ]
+   },
+   {
+    "year": 1860,
+    "tick": "1860",
+    "title": "Savoy becomes French",
+    "text": [
+     "In 1815 and 1816 the treaties of Paris and Turin give Geneva several Savoy villages, for example Carouge. Now Geneva's land touches the rest of Switzerland.",
+     "In 1860 Savoy and Nice become French. In return, France helps the House of Savoy unite Italy. From 1861 the family rules the Kingdom of Italy, until 1946."
+    ],
+    "view": "europe",
+    "layers": [
+     {
+      "name": "Savoy and Nice",
+      "kind": "france",
+      "label": "Savoy and Nice: French since 1860 (Nice drawn as Alpes-Maritimes, rough)",
+      "sel": {},
+      "regions": [
+       "FRA-5341",
+       "FRA-5302",
+       "FRA-5266"
+      ],
+      "countries": []
+     },
+     {
+      "name": "Kingdom of Italy",
+      "kind": "savoy",
+      "label": "Kingdom of Italy, ruled by the House of Savoy from 1861",
+      "sel": {},
+      "regions": [],
+      "countries": [
+       "ITA"
+      ]
+     },
+     {
+      "name": "Geneva",
+      "kind": "confederates",
+      "label": "Geneva with the former Savoy villages (Swiss since 1815)",
+      "sel": {
+       "cantons": [
+        "GE"
+       ]
+      },
+      "regions": [],
+      "countries": []
+     }
+    ],
+    "places": [
+     {
+      "name": "Carouge",
+      "lat": 46.1814,
+      "lon": 6.1392,
+      "kind": "town",
+      "year": 1816,
+      "note": "To Geneva"
+     },
+     {
+      "name": "Chambéry",
+      "lat": 45.5646,
+      "lon": 5.9178,
+      "kind": "town",
+      "year": 1860,
+      "note": "French"
+     },
+     {
+      "name": "Turin",
+      "lat": 45.0703,
+      "lon": 7.6869,
+      "kind": "town",
+      "year": 1861,
+      "note": "First capital of Italy"
+     }
+    ]
+   }
+  ],
+  "sources": [
+   "https://hls-dhs-dss.ch/de/articles/006641/",
+   "https://hls-dhs-dss.ch/de/articles/017867/",
+   "https://hls-dhs-dss.ch/de/articles/008560/"
+  ],
+  "notes": "Early Savoy (about 1050) is very rough: the exact date when Savoy took the Chablais and Saint-Maurice is not given; Humbert's lands drawn as today's Savoie and Ain plus Turin and Aosta. Outside Switzerland the duchy is drawn by whole French départements and Italian provinces (for example all of Ain for Bresse and Bugey, Cuneo whole, Alpes-Maritimes for the County of Nice). 1536–1720: the Geneva countryside is drawn roughly (Geneva's own villages Peney and Jussy and the Gex villages shown only from 1569/1720). 1536: Bern's land south of Lake Geneva (Gex, Chablais west of the Dranse) and Valais's Chablais east of the Dranse are in France today and are not drawn separately. 1720: Montferrat drawn as Asti and Alessandria (rough). Peter II's protection of Bern is given as 'in the 1250s'."
+ },
+ {
+  "id": "zahringen-kyburg",
+  "title": "The Zähringen and the Kyburg: lords who built towns",
+  "card": "Two families founded many Swiss towns, then died out within fifty years and left their land to Habsburg and the free towns.",
+  "stops": [
+   {
+    "year": 1098,
+    "tick": "1098",
+    "title": "Dukes from the Breisgau",
+    "text": [
+     "The Zähringen family are counts in the Breisgau, the land around today's Freiburg in Germany. From 1092 to 1098 they fight the Staufer family for the Duchy of Swabia.",
+     "In 1098 they make peace. Berchtold II gives up Swabia. In return he keeps the castle of Zähringen and gets the king's rights in Zurich. From now on the family calls itself dukes of Zähringen.",
+     "Around this time the counts of Dillingen, from the Danube, gain land in the Thurgau and around Winterthur. They will later call themselves counts of Kyburg."
+    ],
+    "view": [
+     [
+      46.6,
+      6.6
+     ],
+     [
+      48.4,
+      10.6
+     ]
+    ],
+    "layers": [
+     {
+      "name": "Zurich",
+      "kind": "zahringen",
+      "label": "Zurich: imperial rights of the Zähringen from 1098",
+      "sel": {
+       "munis": [
+        261
+       ]
+      },
+      "regions": [],
+      "countries": []
+     },
+     {
+      "name": "Rheinfelden",
+      "kind": "zahringen",
+      "label": "Rheinfelden: inherited by the Zähringen (about)",
+      "sel": {
+       "munis": [
+        4258
+       ]
+      },
+      "regions": [],
+      "countries": []
+     },
+     {
+      "name": "Dillingen-Kyburg",
+      "kind": "kyburg",
+      "label": "Counts of Dillingen (later Kyburg): Thurgau and Winterthur area (about)",
+      "sel": {
+       "cantons": [
+        "TG"
+       ],
+       "districts": [
+        110
+       ]
+      },
+      "regions": [],
+      "countries": []
+     }
+    ],
+    "places": [
+     {
+      "name": "Zähringen castle",
+      "lat": 48.0275,
+      "lon": 7.8711,
+      "kind": "castle",
+      "note": "Home of the family"
+     },
+     {
+      "name": "Freiburg im Breisgau",
+      "lat": 47.9959,
+      "lon": 7.8522,
+      "kind": "town",
+      "year": 1120,
+      "note": "Market town founded 1120"
+     },
+     {
+      "name": "Kyburg castle",
+      "lat": 47.4578,
+      "lon": 8.7436,
+      "kind": "castle"
+     }
+    ]
+   },
+   {
+    "year": 1127,
+    "tick": "1127",
+    "title": "Rectors of Burgundy",
+    "text": [
+     "In 1127 King Lothar III makes Duke Konrad rector of Burgundy. A rector rules a land in the king's name. The area lies between the Jura, Lake Geneva and the Alps.",
+     "In practice the dukes are strong only in parts of it. The local nobles and bishops often resist. In 1156 the emperor lets the duke invest (formally install) the bishops of Geneva, Lausanne and Sion, but the duke can enforce this only in Lausanne."
+    ],
+    "view": "ch",
+    "layers": [
+     {
+      "name": "Zurich",
+      "kind": "zahringen",
+      "label": "Zurich: imperial rights of the Zähringen",
+      "sel": {
+       "munis": [
+        261
+       ]
+      },
+      "regions": [],
+      "countries": []
+     },
+     {
+      "name": "Rheinfelden",
+      "kind": "zahringen",
+      "label": "Rheinfelden",
+      "sel": {
+       "munis": [
+        4258
+       ]
+      },
+      "regions": [],
+      "countries": []
+     },
+     {
+      "name": "Rectorate",
+      "kind": "zahringen",
+      "label": "Rectorate of Burgundy: the area the dukes claim (rough)",
+      "sel": {
+       "cantons": [
+        "VD",
+        "FR",
+        "SO"
+       ],
+       "districts": [
+        242,
+        243,
+        244,
+        245,
+        246,
+        247,
+        248,
+        249,
+        250
+       ]
+      },
+      "regions": [],
+      "countries": []
+     }
+    ],
+    "places": [
+     {
+      "name": "Lausanne",
+      "lat": 46.5226,
+      "lon": 6.6355,
+      "kind": "town",
+      "year": 1156,
+      "note": "The duke installs the bishop"
+     }
+    ]
+   },
+   {
+    "year": 1157,
+    "tick": "1157",
+    "title": "Fribourg is founded",
+    "text": [
+     "In 1157 Duke Berchtold IV founds the town of Fribourg on the Saane river. It has the same name as the family's town in the Breisgau.",
+     "A new town gives a lord a safe base, markets and taxes. It also gives him soldiers in a region where nobles do not obey him. Fribourg lies on the language border and close to the bishop of Lausanne."
+    ],
+    "view": "ch",
+    "layers": [
+     {
+      "name": "Fribourg",
+      "kind": "zahringen",
+      "label": "Fribourg: founded 1157 by the Zähringen",
+      "sel": {
+       "munis": [
+        2196
+       ]
+      },
+      "regions": [],
+      "countries": []
+     },
+     {
+      "name": "Zurich",
+      "kind": "zahringen",
+      "label": "Zurich: imperial rights of the Zähringen",
+      "sel": {
+       "munis": [
+        261
+       ]
+      },
+      "regions": [],
+      "countries": []
+     },
+     {
+      "name": "Rheinfelden",
+      "kind": "zahringen",
+      "label": "Rheinfelden",
+      "sel": {
+       "munis": [
+        4258
+       ]
+      },
+      "regions": [],
+      "countries": []
+     },
+     {
+      "name": "Bishop of Lausanne",
+      "kind": "bishop",
+      "label": "Bishop of Lausanne: Lausanne; Bulle, Riaz, La Roche",
+      "sel": {
+       "munis": [
+        5586,
+        2125,
+        2148,
+        2149
+       ]
+      },
+      "regions": [],
+      "countries": []
+     }
+    ],
+    "places": [
+     {
+      "name": "Fribourg",
+      "lat": 46.8065,
+      "lon": 7.1619,
+      "kind": "town",
+      "year": 1157,
+      "note": "Founded by Berchtold IV"
+     }
+    ]
+   },
+   {
+    "year": 1191,
+    "tick": "1191",
+    "title": "Bern and a ring of towns",
+    "text": [
+     "In 1173 the counts of Lenzburg die out. The Zähringen, the Kyburg and the Habsburg all gain from it. The Kyburg get land near Baden and around the Walensee.",
+     "In 1190–1191 Duke Berchtold V beats nobles who rise against him, at Payerne and Grindelwald. In 1191 he finishes the founding of Bern. He also builds up Burgdorf, Thun and Murten, and holds Moudon and castles such as Laupen. From 1198 he is protector of Schaffhausen.",
+     "Historians think that only Fribourg and Bern were real towns before 1218."
+    ],
+    "view": "ch",
+    "layers": [
+     {
+      "name": "Zähringen",
+      "kind": "zahringen",
+      "label": "Towns and castles of the Zähringen: Bern, Fribourg, Burgdorf, Thun, Murten, Moudon, Laupen",
+      "sel": {
+       "munis": [
+        351,
+        2196,
+        404,
+        942,
+        2275,
+        5678,
+        667
+       ]
+      },
+      "regions": [],
+      "countries": []
+     },
+     {
+      "name": "Imperial rights",
+      "kind": "zahringen",
+      "label": "Zähringen as the king's officers: Zurich, Solothurn, Schaffhausen, Uri (about)",
+      "sel": {
+       "munis": [
+        261,
+        2601,
+        2939,
+        4258
+       ],
+       "cantons": [
+        "UR"
+       ]
+      },
+      "regions": [],
+      "countries": []
+     },
+     {
+      "name": "Kyburg",
+      "kind": "kyburg",
+      "label": "Counts of Kyburg: Thurgau, Winterthur area, Baden, Gaster, Glarus (about)",
+      "sel": {
+       "cantons": [
+        "TG",
+        "GL"
+       ],
+       "districts": [
+        110,
+        108
+       ],
+       "munis": [
+        3311,
+        3312,
+        3313,
+        3315,
+        3316,
+        4021
+       ]
+      },
+      "regions": [],
+      "countries": []
+     }
+    ],
+    "places": [
+     {
+      "name": "Bern",
+      "lat": 46.948,
+      "lon": 7.4474,
+      "kind": "town",
+      "year": 1191,
+      "note": "Founding completed"
+     },
+     {
+      "name": "Burgdorf",
+      "lat": 47.0591,
+      "lon": 7.6271,
+      "kind": "castle"
+     },
+     {
+      "name": "Thun",
+      "lat": 46.758,
+      "lon": 7.628,
+      "kind": "castle"
+     },
+     {
+      "name": "Payerne",
+      "lat": 46.8219,
+      "lon": 6.9381,
+      "kind": "battle",
+      "year": 1190,
+      "note": "Duke beats rebel nobles"
+     },
+     {
+      "name": "Grindelwald",
+      "lat": 46.6242,
+      "lon": 8.0414,
+      "kind": "battle",
+      "year": 1191,
+      "note": "Duke beats rebel nobles"
+     }
+    ]
+   },
+   {
+    "year": 1218,
+    "tick": "1218",
+    "title": "The Zähringen die out",
+    "text": [
+     "Duke Berchtold V dies in 1218 without a son. Emperor Frederick II takes back the title of duke and most of the imperial rights.",
+     "Bern, Zurich, Solothurn and Schaffhausen now stand directly under the Empire. The family's own lands are split. The counts of Urach get the land north of the Rhine. The counts of Kyburg get Fribourg, Burgdorf, Thun and land in the Aargau and around Zurich. Count Ulrich III of Kyburg had married Anna of Zähringen, of the duke's family."
+    ],
+    "view": [
+     [
+      46.3,
+      6.5
+     ],
+     [
+      48.3,
+      9.8
+     ]
+    ],
+    "layers": [
+     {
+      "name": "Kyburg (Zähringen inheritance)",
+      "kind": "kyburg",
+      "label": "Zähringen inheritance to Kyburg: Fribourg, Burgdorf, Thun",
+      "sel": {
+       "munis": [
+        2196,
+        404,
+        942
+       ]
+      },
+      "regions": [],
+      "countries": []
+     },
+     {
+      "name": "Imperial towns",
+      "kind": "empire",
+      "label": "Imperial towns from 1218: Bern, Zurich, Solothurn, Schaffhausen, Rheinfelden; Laupen and Murten",
+      "sel": {
+       "munis": [
+        351,
+        261,
+        2601,
+        2939,
+        4258,
+        667,
+        2275
+       ]
+      },
+      "regions": [],
+      "countries": []
+     },
+     {
+      "name": "Kyburg",
+      "kind": "kyburg",
+      "label": "Counts of Kyburg: Thurgau, Winterthur area, Baden, Gaster, Glarus (about)",
+      "sel": {
+       "cantons": [
+        "TG",
+        "GL"
+       ],
+       "districts": [
+        110,
+        108
+       ],
+       "munis": [
+        3311,
+        3312,
+        3313,
+        3315,
+        3316,
+        4021
+       ]
+      },
+      "regions": [],
+      "countries": []
+     }
+    ],
+    "places": [
+     {
+      "name": "Freiburg im Breisgau",
+      "lat": 47.9959,
+      "lon": 7.8522,
+      "kind": "town",
+      "year": 1218,
+      "note": "Berchtold V dies; to the counts of Urach"
+     },
+     {
+      "name": "Kyburg castle",
+      "lat": 47.4578,
+      "lon": 8.7436,
+      "kind": "castle"
+     }
+    ]
+   },
+   {
+    "year": 1250,
+    "tick": "1250",
+    "title": "Kyburg at its height",
+    "text": [
+     "The counts of Kyburg now rule a broad belt of land from Lake Constance to Fribourg. Like the Zähringen, they found towns to hold it: Winterthur and Diessenhofen about 1180, Zug and Baden about 1230, later Frauenfeld, Aarau, Mellingen and Lenzburg, and about 1250 Sursee and Weesen.",
+     "About 1250 the family splits its land. Hartmann IV keeps the east. His nephew Hartmann V gets the west, with Burgdorf, Thun and Fribourg. Neither has a son."
+    ],
+    "view": "ch",
+    "layers": [
+     {
+      "name": "Western Kyburg",
+      "kind": "kyburg",
+      "label": "Hartmann V: western lands with Fribourg, Burgdorf, Thun",
+      "sel": {
+       "munis": [
+        2196,
+        404,
+        942,
+        954
+       ]
+      },
+      "regions": [],
+      "countries": []
+     },
+     {
+      "name": "Kyburg towns",
+      "kind": "kyburg",
+      "label": "Kyburg towns: Zug, Baden, Mellingen, Aarau, Lenzburg, Sursee",
+      "sel": {
+       "munis": [
+        1711,
+        4021,
+        4033,
+        4001,
+        4201,
+        1103
+       ]
+      },
+      "regions": [],
+      "countries": []
+     },
+     {
+      "name": "Imperial towns",
+      "kind": "empire",
+      "label": "Imperial towns: Bern, Zurich, Solothurn, Schaffhausen",
+      "sel": {
+       "munis": [
+        351,
+        261,
+        2601,
+        2939
+       ]
+      },
+      "regions": [],
+      "countries": []
+     },
+     {
+      "name": "Eastern Kyburg",
+      "kind": "kyburg",
+      "label": "Hartmann IV: eastern lands, Thurgau, Winterthur, Gaster, Glarus (about)",
+      "sel": {
+       "cantons": [
+        "TG",
+        "GL"
+       ],
+       "districts": [
+        110,
+        108
+       ],
+       "munis": [
+        3311,
+        3312,
+        3313,
+        3315,
+        3316
+       ]
+      },
+      "regions": [],
+      "countries": []
+     }
+    ],
+    "places": [
+     {
+      "name": "Winterthur",
+      "lat": 47.4997,
+      "lon": 8.7241,
+      "kind": "town",
+      "year": 1180,
+      "note": "Kyburg town"
+     },
+     {
+      "name": "Diessenhofen",
+      "lat": 47.6893,
+      "lon": 8.7495,
+      "kind": "town",
+      "year": 1180,
+      "note": "Kyburg town"
+     },
+     {
+      "name": "Frauenfeld",
+      "lat": 47.5536,
+      "lon": 8.8987,
+      "kind": "town",
+      "note": "Kyburg town"
+     },
+     {
+      "name": "Zug",
+      "lat": 47.1662,
+      "lon": 8.5155,
+      "kind": "town",
+      "year": 1230,
+      "note": "Kyburg town"
+     },
+     {
+      "name": "Baden",
+      "lat": 47.4733,
+      "lon": 8.3059,
+      "kind": "town",
+      "year": 1230,
+      "note": "Kyburg town"
+     },
+     {
+      "name": "Aarau",
+      "lat": 47.3925,
+      "lon": 8.0444,
+      "kind": "town",
+      "note": "Kyburg town"
+     },
+     {
+      "name": "Sursee",
+      "lat": 47.1714,
+      "lon": 8.1111,
+      "kind": "town",
+      "year": 1250,
+      "note": "Kyburg town"
+     },
+     {
+      "name": "Weesen",
+      "lat": 47.134,
+      "lon": 9.096,
+      "kind": "town",
+      "year": 1250,
+      "note": "Kyburg town"
+     }
+    ]
+   },
+   {
+    "year": 1264,
+    "tick": "1264",
+    "title": "Habsburg takes the Kyburg land",
+    "text": [
+     "Hartmann V dies in 1263 and Hartmann IV about a year later. Count Rudolf of Habsburg is a nephew of Hartmann IV. He becomes guardian of Hartmann V's young daughter Anna and takes over all Kyburg land.",
+     "About 1273 Anna marries Eberhard of Habsburg-Laufenburg. Their line, called Neu-Kyburg, holds Burgdorf and Thun. It sells them to Bern in 1384 and dies out in 1417. Rudolf buys Fribourg in 1277. The rest of the Kyburg land becomes the base of Habsburg power in Switzerland."
+    ],
+    "view": "ch",
+    "layers": [
+     {
+      "name": "Neu-Kyburg",
+      "kind": "kyburg",
+      "label": "Burgdorf and Thun: Neu-Kyburg line from about 1273 (to Bern 1384)",
+      "sel": {
+       "munis": [
+        404,
+        942
+       ]
+      },
+      "regions": [],
+      "countries": []
+     },
+     {
+      "name": "Fribourg",
+      "kind": "habsburg",
+      "label": "Fribourg: Rudolf as guardian, bought by Habsburg in 1277",
+      "sel": {
+       "districts": [
+        1004,
+        1006
+       ],
+       "munis": [
+        2254,
+        2257,
+        2262,
+        2266,
+        2272
+       ]
+      },
+      "regions": [],
+      "countries": []
+     },
+     {
+      "name": "Imperial towns",
+      "kind": "empire",
+      "label": "Imperial towns: Bern, Zurich, Solothurn, Schaffhausen",
+      "sel": {
+       "munis": [
+        351,
+        261,
+        2601,
+        2939
+       ]
+      },
+      "regions": [],
+      "countries": []
+     },
+     {
+      "name": "Kyburg land to Habsburg",
+      "kind": "habsburg",
+      "label": "Former Kyburg land, now Habsburg (about)",
+      "sel": {
+       "cantons": [
+        "TG",
+        "GL",
+        "ZG"
+       ],
+       "districts": [
+        110,
+        108
+       ],
+       "munis": [
+        3311,
+        3312,
+        3313,
+        3315,
+        3316,
+        4021,
+        4033,
+        4001,
+        4201,
+        1103
+       ]
+      },
+      "regions": [],
+      "countries": []
+     },
+     {
+      "name": "Habsburg own land",
+      "kind": "habsburg",
+      "label": "Old Habsburg land in the Aargau (about)",
+      "sel": {
+       "cantons": [
+        "AG"
+       ],
+       "exceptDistricts": [
+        1911
+       ]
+      },
+      "regions": [],
+      "countries": []
+     }
+    ],
+    "places": [
+     {
+      "name": "Kyburg castle",
+      "lat": 47.4578,
+      "lon": 8.7436,
+      "kind": "castle",
+      "year": 1264,
+      "note": "Last Kyburg count dies"
+     },
+     {
+      "name": "Habsburg castle",
+      "lat": 47.4625,
+      "lon": 8.1856,
+      "kind": "castle"
+     },
+     {
+      "name": "Burgdorf",
+      "lat": 47.0591,
+      "lon": 7.6271,
+      "kind": "castle",
+      "year": 1384,
+      "note": "Sold to Bern"
+     }
+    ]
+   }
+  ],
+  "sources": [
+   "https://hls-dhs-dss.ch/de/articles/019504/2020-06-03/",
+   "https://hls-dhs-dss.ch/de/articles/019520/2024-02-20/",
+   "https://hls-dhs-dss.ch/de/articles/019506/"
+  ],
+  "notes": "The Breisgau home of the Zähringen is shown only by points, because Germany can only be drawn by whole states. The Rectorate of Burgundy is a claim, drawn very roughly. HLS warns that older research overstates the Zähringen 'town-founding plan'; only Fribourg and Bern were clearly towns before 1218. Kyburg lands are drawn as whole districts or cantons (Thurgau, Winterthur, Pfäffikon, Glarus) and are approximate; Glarus is Säckingen abbey land with Kyburg as governors (1200–1264). Kyburg town dates are those in HLS (several only 'later' or 'about'). Hartmann IV's death year (1264) follows from HLS 'one year after' Hartmann V (1263). The Kyburg split of about 1250 is simplified."
+ },
+ {
+  "id": "church-lords",
+  "title": "Bishops and abbeys as lords",
+  "card": "Between 950 and 1300, kings gave counties to bishops and abbeys, who ruled much of today's Switzerland before Savoy and Habsburg pushed them back.",
+  "stops": [
+   {
+    "year": 950,
+    "tick": "about 950",
+    "title": "Two realms meet",
+    "text": [
+     "About 950 today's Switzerland is split between two realms. The west belongs to the Kingdom of Burgundy. Its kings, the Rudolfings, began in 888 with Rudolf I, who was chosen king at Saint-Maurice.",
+     "The east belongs to the Duchy of Swabia, a part of the German kingdom. Its land reaches from the Upper Rhine and the Aare to the Lech river, and includes Rhaetia (today's Grisons). Zurich is one of the dukes' main seats. The border between the two realms runs roughly along the Aare.",
+     "The south (today's Ticino) belongs to the Kingdom of Italy."
+    ],
+    "view": [
+     [
+      43.2,
+      3.8
+     ],
+     [
+      49.4,
+      12.0
+     ]
+    ],
+    "layers": [
+     {
+      "name": "Burgundy (Swiss part)",
+      "kind": "burgundy",
+      "label": "Kingdom of Burgundy (border with Swabia about the Aare)",
+      "sel": {
+       "cantons": [
+        "VD",
+        "VS",
+        "GE",
+        "NE",
+        "FR",
+        "JU",
+        "SO",
+        "BS",
+        "BL"
+       ],
+       "districts": [
+        241,
+        242,
+        243,
+        246,
+        247,
+        248,
+        249
+       ]
+      },
+      "regions": [
+       "FRA-5287",
+       "FRA-5312",
+       "FRA-5301",
+       "FRA-5262",
+       "FRA-5341",
+       "FRA-5302",
+       "FRA-5311",
+       "FRA-5288",
+       "FRA-5338",
+       "FRA-5352",
+       "FRA-5274",
+       "FRA-5351",
+       "FRA-5265",
+       "FRA-5304",
+       "FRA-5266",
+       "ITA-5442"
+      ],
+      "countries": []
+     },
+     {
+      "name": "Swabia",
+      "kind": "empire",
+      "label": "Duchy of Swabia, part of the German kingdom (rough)",
+      "sel": {
+       "cantons": [
+        "ZH",
+        "LU",
+        "UR",
+        "SZ",
+        "OW",
+        "NW",
+        "GL",
+        "ZG",
+        "SH",
+        "AR",
+        "AI",
+        "SG",
+        "GR",
+        "AG",
+        "TG"
+       ],
+       "districts": [
+        244,
+        245,
+        250
+       ]
+      },
+      "regions": [
+       "DEU-1573",
+       "FRA-5296",
+       "FRA-5273",
+       "AUT-2320"
+      ],
+      "countries": [
+       "LIE"
+      ]
+     },
+     {
+      "name": "Italy",
+      "kind": "other",
+      "label": "Kingdom of Italy",
+      "sel": {
+       "cantons": [
+        "TI"
+       ]
+      },
+      "regions": [
+       "ITA-5452",
+       "ITA-5451",
+       "ITA-5450",
+       "ITA-5444",
+       "ITA-5437"
+      ],
+      "countries": []
+     }
+    ],
+    "places": [
+     {
+      "name": "Saint-Maurice",
+      "lat": 46.2183,
+      "lon": 7.0034,
+      "kind": "place",
+      "year": 888,
+      "note": "Rudolf I chosen king"
+     },
+     {
+      "name": "Zurich",
+      "lat": 47.3698,
+      "lon": 8.5414,
+      "kind": "town",
+      "note": "Seat of the dukes of Swabia"
+     },
+     {
+      "name": "Winterthur",
+      "lat": 47.4997,
+      "lon": 8.7241,
+      "kind": "battle",
+      "year": 919,
+      "note": "Swabia beats Burgundy"
+     }
+    ]
+   },
+   {
+    "year": 960,
+    "tick": "960",
+    "title": "The bishop of Chur",
+    "text": [
+     "Kings like to give power to bishops. A bishop cannot pass land to a son, so the land stays with the church, and the king can choose the next bishop.",
+     "Between 951 and 960 King Otto I gives Bishop Hartbert of Chur income from the county, the tolls of Chur, the right to make coins (958) and rights in the Bergell. This is the start of the bishop's rule over Chur and the roads to the Alpine passes.",
+     "The abbey of Disentis, founded in the 700s, holds the upper Rhine valley below the Lukmanier and Oberalp passes."
+    ],
+    "view": "ch",
+    "layers": [
+     {
+      "name": "Bishop of Chur",
+      "kind": "bishop",
+      "label": "Bishop of Chur: Chur, Zizers, the Bergell (about)",
+      "sel": {
+       "munis": [
+        3901,
+        3947,
+        3792
+       ]
+      },
+      "regions": [],
+      "countries": []
+     },
+     {
+      "name": "Disentis",
+      "kind": "abbey",
+      "label": "Abbey of Disentis: upper Vorderrhein valley (about)",
+      "sel": {
+       "munis": [
+        3982,
+        3986,
+        3983,
+        3985,
+        3987,
+        3981
+       ]
+      },
+      "regions": [],
+      "countries": []
+     },
+     {
+      "name": "Rhaetia",
+      "kind": "empire",
+      "label": "Rhaetia: royal land ruled by counts for the king (about)",
+      "sel": {
+       "cantons": [
+        "GR"
+       ]
+      },
+      "regions": [],
+      "countries": []
+     }
+    ],
+    "places": [
+     {
+      "name": "Chur cathedral",
+      "lat": 46.8497,
+      "lon": 9.5348,
+      "kind": "place",
+      "year": 958,
+      "note": "Bishop gets the right to mint coins"
+     },
+     {
+      "name": "Disentis abbey",
+      "lat": 46.7036,
+      "lon": 8.8556,
+      "kind": "place"
+     },
+     {
+      "name": "Vicosoprano",
+      "lat": 46.3533,
+      "lon": 9.6267,
+      "kind": "place",
+      "year": 960,
+      "note": "Bergell rights to the bishop"
+     }
+    ]
+   },
+   {
+    "year": 999,
+    "tick": "999",
+    "title": "Sion and Basel get counties",
+    "text": [
+     "King Rudolf III of Burgundy is weak against his nobles. To build a counterweight, he gives counties to the church. In 999 he gives the bishop of Sion the County of Valais with all its rights.",
+     "In the same year he gives the old abbey of Moutier-Grandval to the bishop of Basel. Before this, the bishop ruled little outside his city. Now he holds land in the Jura from Lake Biel to Alsace. This is the start of the Prince-Bishopric of Basel."
+    ],
+    "view": "ch",
+    "layers": [
+     {
+      "name": "Saint-Maurice",
+      "kind": "abbey",
+      "label": "Abbey of Saint-Maurice and the Chablais",
+      "sel": {
+       "districts": [
+        2310,
+        2308
+       ]
+      },
+      "regions": [],
+      "countries": []
+     },
+     {
+      "name": "Bishop of Sion",
+      "kind": "bishop",
+      "label": "Bishop of Sion: County of Valais from 999",
+      "sel": {
+       "cantons": [
+        "VS"
+       ]
+      },
+      "regions": [],
+      "countries": []
+     },
+     {
+      "name": "Moutier-Grandval",
+      "kind": "bishop",
+      "label": "Moutier-Grandval: given to the bishop of Basel in 999",
+      "sel": {
+       "munis": [
+        6831,
+        681,
+        683,
+        687,
+        690,
+        691,
+        692,
+        694,
+        701,
+        716,
+        704,
+        706,
+        707,
+        708,
+        709,
+        711,
+        696,
+        703,
+        713,
+        717,
+        715
+       ]
+      },
+      "regions": [],
+      "countries": []
+     },
+     {
+      "name": "Basel",
+      "kind": "bishop",
+      "label": "City of Basel: its bishop",
+      "sel": {
+       "munis": [
+        2701
+       ]
+      },
+      "regions": [],
+      "countries": []
+     },
+     {
+      "name": "Burgundy",
+      "kind": "burgundy",
+      "label": "Rest of the Kingdom of Burgundy",
+      "sel": {
+       "cantons": [
+        "VD",
+        "VS",
+        "GE",
+        "NE",
+        "FR",
+        "JU",
+        "SO",
+        "BS",
+        "BL"
+       ],
+       "districts": [
+        241,
+        242,
+        243,
+        246,
+        247,
+        248,
+        249
+       ]
+      },
+      "regions": [],
+      "countries": []
+     }
+    ],
+    "places": [
+     {
+      "name": "Sion (Valère)",
+      "lat": 46.2338,
+      "lon": 7.3638,
+      "kind": "place",
+      "year": 999,
+      "note": "Bishop gets the county"
+     },
+     {
+      "name": "Moutier",
+      "lat": 47.2792,
+      "lon": 7.37,
+      "kind": "place",
+      "year": 999,
+      "note": "Abbey given to Basel"
+     },
+     {
+      "name": "Basel cathedral",
+      "lat": 47.5565,
+      "lon": 7.5925,
+      "kind": "place"
+     }
+    ]
+   },
+   {
+    "year": 1011,
+    "tick": "1011",
+    "title": "Lausanne gets the Vaud",
+    "text": [
+     "In 1011 Rudolf III gives the County of Vaud to Bishop Henry of Lausanne. The bishop already ruled the city of Lausanne itself.",
+     "So by 1011 three bishops in the west — Sion, Basel and Lausanne — are also counts. They judge, collect taxes and call men to arms, like a noble lord."
+    ],
+    "view": "ch",
+    "layers": [
+     {
+      "name": "Saint-Maurice",
+      "kind": "abbey",
+      "label": "Abbey of Saint-Maurice and the Chablais",
+      "sel": {
+       "districts": [
+        2310,
+        2308
+       ]
+      },
+      "regions": [],
+      "countries": []
+     },
+     {
+      "name": "Bishop of Lausanne",
+      "kind": "bishop",
+      "label": "Bishop of Lausanne: County of Vaud from 1011",
+      "sel": {
+       "cantons": [
+        "VD"
+       ]
+      },
+      "regions": [],
+      "countries": []
+     },
+     {
+      "name": "Bishop of Sion",
+      "kind": "bishop",
+      "label": "Bishop of Sion: County of Valais",
+      "sel": {
+       "cantons": [
+        "VS"
+       ]
+      },
+      "regions": [],
+      "countries": []
+     },
+     {
+      "name": "Bishop of Basel",
+      "kind": "bishop",
+      "label": "Bishop of Basel: city and Moutier-Grandval",
+      "sel": {
+       "munis": [
+        6831,
+        681,
+        683,
+        687,
+        690,
+        691,
+        692,
+        694,
+        701,
+        716,
+        704,
+        706,
+        707,
+        708,
+        709,
+        711,
+        696,
+        703,
+        713,
+        717,
+        715,
+        2701
+       ]
+      },
+      "regions": [],
+      "countries": []
+     },
+     {
+      "name": "Burgundy",
+      "kind": "burgundy",
+      "label": "Rest of the Kingdom of Burgundy",
+      "sel": {
+       "cantons": [
+        "VD",
+        "VS",
+        "GE",
+        "NE",
+        "FR",
+        "JU",
+        "SO",
+        "BS",
+        "BL"
+       ],
+       "districts": [
+        241,
+        242,
+        243,
+        246,
+        247,
+        248,
+        249
+       ]
+      },
+      "regions": [],
+      "countries": []
+     }
+    ],
+    "places": [
+     {
+      "name": "Lausanne cathedral",
+      "lat": 46.5226,
+      "lon": 6.6355,
+      "kind": "place",
+      "year": 1011,
+      "note": "Bishop gets the county"
+     }
+    ]
+   },
+   {
+    "year": 1033,
+    "tick": "1033",
+    "title": "Burgundy joins the Empire",
+    "text": [
+     "Rudolf III dies in 1032 without a son. Emperor Conrad II takes over the kingdom. He is crowned king of Burgundy at Payerne in 1033. By 1038 Burgundy is joined with Germany and Italy.",
+     "Now all of today's Switzerland is part of the Holy Roman Empire. The bishops who hold counties now hold them from the emperor. The bishop of Sion, for example, becomes a prince of the Empire."
+    ],
+    "view": [
+     [
+      43.2,
+      3.8
+     ],
+     [
+      49.4,
+      12.0
+     ]
+    ],
+    "layers": [
+     {
+      "name": "Former Burgundy",
+      "kind": "empire",
+      "label": "Kingdom of Burgundy: part of the Empire from 1032/1033",
+      "sel": {
+       "cantons": [
+        "VD",
+        "VS",
+        "GE",
+        "NE",
+        "FR",
+        "JU",
+        "SO",
+        "BS",
+        "BL"
+       ],
+       "districts": [
+        241,
+        242,
+        243,
+        246,
+        247,
+        248,
+        249
+       ]
+      },
+      "regions": [
+       "FRA-5287",
+       "FRA-5312",
+       "FRA-5301",
+       "FRA-5262",
+       "FRA-5341",
+       "FRA-5302",
+       "FRA-5311",
+       "FRA-5288",
+       "FRA-5338",
+       "FRA-5352",
+       "FRA-5274",
+       "FRA-5351",
+       "FRA-5265",
+       "FRA-5304",
+       "FRA-5266",
+       "ITA-5442"
+      ],
+      "countries": []
+     },
+     {
+      "name": "Swabia",
+      "kind": "empire",
+      "label": "Duchy of Swabia (Empire)",
+      "sel": {
+       "cantons": [
+        "ZH",
+        "LU",
+        "UR",
+        "SZ",
+        "OW",
+        "NW",
+        "GL",
+        "ZG",
+        "SH",
+        "AR",
+        "AI",
+        "SG",
+        "GR",
+        "AG",
+        "TG"
+       ],
+       "districts": [
+        244,
+        245,
+        250
+       ]
+      },
+      "regions": [
+       "DEU-1573",
+       "FRA-5296",
+       "FRA-5273",
+       "AUT-2320"
+      ],
+      "countries": [
+       "LIE"
+      ]
+     },
+     {
+      "name": "Italy",
+      "kind": "empire",
+      "label": "Kingdom of Italy (Empire)",
+      "sel": {
+       "cantons": [
+        "TI"
+       ]
+      },
+      "regions": [
+       "ITA-5452",
+       "ITA-5451",
+       "ITA-5450",
+       "ITA-5444",
+       "ITA-5437"
+      ],
+      "countries": []
+     }
+    ],
+    "places": [
+     {
+      "name": "Payerne abbey",
+      "lat": 46.8219,
+      "lon": 6.9381,
+      "kind": "place",
+      "year": 1033,
+      "note": "Conrad II crowned"
+     },
+     {
+      "name": "Solothurn",
+      "lat": 47.2088,
+      "lon": 7.5323,
+      "kind": "place",
+      "year": 1038,
+      "note": "Henry III chosen king of Burgundy"
+     }
+    ]
+   },
+   {
+    "year": 1200,
+    "tick": "1200",
+    "title": "Bishops as lords",
+    "text": [
+     "About 1200 the bishops are among the biggest lords in the land. In Geneva the treaty of Seyssel (1124) makes the bishop the only lord of the city; the count of Geneva is only his protector.",
+     "The bishop of Constance rules Arbon and Bischofszell south of the lake. In the south, the bishop of Como rules Bellinzona.",
+     "But bishops need lay protectors (called 'Vögte'), and these nobles often take power for themselves."
+    ],
+    "view": "ch",
+    "layers": [
+     {
+      "name": "Bishop of Geneva",
+      "kind": "bishop",
+      "label": "Bishop of Geneva: the city",
+      "sel": {
+       "munis": [
+        6621
+       ]
+      },
+      "regions": [],
+      "countries": []
+     },
+     {
+      "name": "Bishop of Lausanne",
+      "kind": "bishop",
+      "label": "Bishop of Lausanne: Lausanne, Lavaux, Lucens, Avenches; Bulle, Riaz, La Roche",
+      "sel": {
+       "munis": [
+        5586,
+        5606,
+        5613,
+        5601,
+        5607,
+        5609,
+        5610,
+        5675,
+        5451,
+        2125,
+        2148,
+        2149
+       ]
+      },
+      "regions": [],
+      "countries": []
+     },
+     {
+      "name": "Bishop of Sion",
+      "kind": "bishop",
+      "label": "Bishop of Sion: Valais",
+      "sel": {
+       "cantons": [
+        "VS"
+       ],
+       "exceptDistricts": [
+        2310,
+        2308
+       ]
+      },
+      "regions": [],
+      "countries": []
+     },
+     {
+      "name": "Bishop of Basel",
+      "kind": "bishop",
+      "label": "Bishop of Basel: city and Jura lands (about)",
+      "sel": {
+       "munis": [
+        6831,
+        681,
+        683,
+        687,
+        690,
+        691,
+        692,
+        694,
+        701,
+        716,
+        704,
+        706,
+        707,
+        708,
+        709,
+        711,
+        696,
+        703,
+        713,
+        717,
+        715,
+        2701
+       ],
+       "cantons": [
+        "JU"
+       ]
+      },
+      "regions": [],
+      "countries": []
+     },
+     {
+      "name": "Bishop of Chur",
+      "kind": "bishop",
+      "label": "Bishop of Chur: Chur, Zizers, the Bergell (about)",
+      "sel": {
+       "munis": [
+        3901,
+        3947,
+        3792
+       ]
+      },
+      "regions": [],
+      "countries": []
+     },
+     {
+      "name": "Bishop of Constance",
+      "kind": "bishop",
+      "label": "Bishop of Constance: Arbon and Bischofszell",
+      "sel": {
+       "munis": [
+        4401,
+        4471
+       ]
+      },
+      "regions": [],
+      "countries": []
+     },
+     {
+      "name": "Bishop of Como",
+      "kind": "bishop",
+      "label": "Bishop of Como: Bellinzona",
+      "sel": {
+       "districts": [
+        2101
+       ]
+      },
+      "regions": [],
+      "countries": []
+     }
+    ],
+    "places": [
+     {
+      "name": "Geneva cathedral",
+      "lat": 46.2011,
+      "lon": 6.1486,
+      "kind": "place",
+      "year": 1124,
+      "note": "Bishop lord of the city"
+     },
+     {
+      "name": "Constance cathedral",
+      "lat": 47.6633,
+      "lon": 9.176,
+      "kind": "place"
+     },
+     {
+      "name": "Lausanne cathedral",
+      "lat": 46.5226,
+      "lon": 6.6355,
+      "kind": "place"
+     },
+     {
+      "name": "Sion (Valère)",
+      "lat": 46.2338,
+      "lon": 7.3638,
+      "kind": "place"
+     },
+     {
+      "name": "Chur cathedral",
+      "lat": 46.8497,
+      "lon": 9.5348,
+      "kind": "place"
+     },
+     {
+      "name": "Basel cathedral",
+      "lat": 47.5565,
+      "lon": 7.5925,
+      "kind": "place"
+     }
+    ]
+   },
+   {
+    "year": 1250,
+    "tick": "1250",
+    "title": "Abbeys as lords",
+    "text": [
+     "Abbeys also rule land and people. St. Gallen (founded in the 700s) holds land around the town and in Appenzell. Einsiedeln (934) owns much of the valley around it. Engelberg (1120) owns its own valley. Disentis holds the upper Rhine valley and Urseren.",
+     "Other abbeys own manors far away. The Fraumünster in Zurich owned land in Uri and at Cham. Murbach abbey in Alsace owned the town of Lucerne.",
+     "Like bishops, abbeys need protectors. Kyburg, Habsburg and others take these posts and use them to build their own power."
+    ],
+    "view": "ch",
+    "layers": [
+     {
+      "name": "Urseren",
+      "kind": "abbey",
+      "label": "Urseren: land of Disentis abbey",
+      "sel": {
+       "munis": [
+        1202,
+        1210,
+        1212
+       ]
+      },
+      "regions": [],
+      "countries": []
+     },
+     {
+      "name": "Disentis",
+      "kind": "abbey",
+      "label": "Abbey of Disentis",
+      "sel": {
+       "munis": [
+        3982,
+        3986,
+        3983,
+        3985,
+        3987,
+        3981
+       ]
+      },
+      "regions": [],
+      "countries": []
+     },
+     {
+      "name": "Engelberg",
+      "kind": "abbey",
+      "label": "Engelberg abbey and its valley",
+      "sel": {
+       "munis": [
+        1402
+       ]
+      },
+      "regions": [],
+      "countries": []
+     },
+     {
+      "name": "Einsiedeln",
+      "kind": "abbey",
+      "label": "Einsiedeln abbey and its lands",
+      "sel": {
+       "districts": [
+        501,
+        503
+       ]
+      },
+      "regions": [],
+      "countries": []
+     },
+     {
+      "name": "Lucerne",
+      "kind": "abbey",
+      "label": "Lucerne: town of Murbach abbey",
+      "sel": {
+       "munis": [
+        1061
+       ]
+      },
+      "regions": [],
+      "countries": []
+     },
+     {
+      "name": "Cham",
+      "kind": "abbey",
+      "label": "Cham: manor of the Fraumünster, Zurich",
+      "sel": {
+       "munis": [
+        1702
+       ]
+      },
+      "regions": [],
+      "countries": []
+     },
+     {
+      "name": "Pfäfers",
+      "kind": "abbey",
+      "label": "Pfäfers abbey",
+      "sel": {
+       "munis": [
+        3294
+       ]
+      },
+      "regions": [],
+      "countries": []
+     },
+     {
+      "name": "St. Gallen",
+      "kind": "abbey",
+      "label": "Abbey of St. Gallen: lands around the town and Appenzell (about)",
+      "sel": {
+       "districts": [
+        1721,
+        1722,
+        1728
+       ],
+       "cantons": [
+        "AR",
+        "AI"
+       ]
+      },
+      "regions": [],
+      "countries": []
+     },
+     {
+      "name": "Saint-Maurice",
+      "kind": "abbey",
+      "label": "Abbey of Saint-Maurice",
+      "sel": {
+       "munis": [
+        6217
+       ]
+      },
+      "regions": [],
+      "countries": []
+     }
+    ],
+    "places": [
+     {
+      "name": "St. Gallen abbey",
+      "lat": 47.4233,
+      "lon": 9.377,
+      "kind": "place"
+     },
+     {
+      "name": "Einsiedeln abbey",
+      "lat": 47.1265,
+      "lon": 8.7517,
+      "kind": "place",
+      "year": 934,
+      "note": "Founded 934"
+     },
+     {
+      "name": "Engelberg abbey",
+      "lat": 46.8206,
+      "lon": 8.4011,
+      "kind": "place",
+      "year": 1120,
+      "note": "Founded 1120"
+     },
+     {
+      "name": "Disentis abbey",
+      "lat": 46.7036,
+      "lon": 8.8556,
+      "kind": "place"
+     },
+     {
+      "name": "Fraumünster, Zurich",
+      "lat": 47.3698,
+      "lon": 8.5414,
+      "kind": "place"
+     },
+     {
+      "name": "Murbach abbey",
+      "lat": 47.9233,
+      "lon": 7.1611,
+      "kind": "place",
+      "note": "Owner of Lucerne"
+     },
+     {
+      "name": "Saint-Maurice abbey",
+      "lat": 46.2183,
+      "lon": 7.0034,
+      "kind": "place"
+     }
+    ]
+   },
+   {
+    "year": 1300,
+    "tick": "1300",
+    "title": "Church land under pressure",
+    "text": [
+     "By 1300 big lay lords press the church lords. Savoy takes most of the Vaud from the bishop of Lausanne and the Lower Valais from the bishop of Sion. Habsburg protects Einsiedeln (1283) and Engelberg (1274) and buys Lucerne from Murbach (1291).",
+     "Some church lords stay strong. The bishop of Basel buys land in today's Baselland (about 1305), the abbey of St. Gallen rules Appenzell, and the bishop of Chur is the biggest lord in the Grisons. Several of these church states last until 1798."
+    ],
+    "view": "ch",
+    "layers": [
+     {
+      "name": "Engelberg",
+      "kind": "abbey",
+      "label": "Engelberg abbey (Habsburg protectors since 1274)",
+      "sel": {
+       "munis": [
+        1402
+       ]
+      },
+      "regions": [],
+      "countries": []
+     },
+     {
+      "name": "Einsiedeln",
+      "kind": "abbey",
+      "label": "Einsiedeln abbey (Habsburg protectors since 1283)",
+      "sel": {
+       "districts": [
+        501,
+        503
+       ]
+      },
+      "regions": [],
+      "countries": []
+     },
+     {
+      "name": "Disentis",
+      "kind": "abbey",
+      "label": "Abbey of Disentis",
+      "sel": {
+       "munis": [
+        3982,
+        3986,
+        3983,
+        3985,
+        3987,
+        3981
+       ]
+      },
+      "regions": [],
+      "countries": []
+     },
+     {
+      "name": "St. Gallen",
+      "kind": "abbey",
+      "label": "Abbey of St. Gallen with Appenzell",
+      "sel": {
+       "districts": [
+        1721,
+        1722,
+        1728
+       ],
+       "cantons": [
+        "AR",
+        "AI"
+       ]
+      },
+      "regions": [],
+      "countries": []
+     },
+     {
+      "name": "Bishop of Geneva",
+      "kind": "bishop",
+      "label": "Bishop of Geneva: the city",
+      "sel": {
+       "munis": [
+        6621
+       ]
+      },
+      "regions": [],
+      "countries": []
+     },
+     {
+      "name": "Bishop of Lausanne",
+      "kind": "bishop",
+      "label": "Bishop of Lausanne: Lausanne, Lavaux, Lucens, Avenches; Bulle",
+      "sel": {
+       "munis": [
+        5586,
+        5606,
+        5613,
+        5601,
+        5607,
+        5609,
+        5610,
+        5675,
+        5451,
+        2125,
+        2148,
+        2149
+       ]
+      },
+      "regions": [],
+      "countries": []
+     },
+     {
+      "name": "Bishop of Basel",
+      "kind": "bishop",
+      "label": "Prince-Bishop of Basel (about 1305)",
+      "sel": {
+       "cantons": [
+        "JU"
+       ],
+       "districts": [
+        241,
+        1302,
+        1303,
+        1305
+       ],
+       "munis": [
+        2852,
+        2859,
+        2843,
+        2847,
+        2867,
+        2850,
+        2845,
+        2863,
+        2761,
+        2762,
+        2763,
+        2768,
+        2771,
+        2772,
+        2773,
+        2774,
+        2775,
+        2701,
+        371,
+        372
+       ]
+      },
+      "regions": [],
+      "countries": []
+     },
+     {
+      "name": "Bishop of Constance",
+      "kind": "bishop",
+      "label": "Bishop of Constance: Arbon, Bischofszell; Neunkirch-Hallau (1302)",
+      "sel": {
+       "munis": [
+        4401,
+        4471,
+        2904,
+        2971,
+        2972
+       ]
+      },
+      "regions": [],
+      "countries": []
+     },
+     {
+      "name": "Bishop of Chur",
+      "kind": "bishop",
+      "label": "Bishop of Chur: biggest lord in the Grisons (about)",
+      "sel": {
+       "cantons": [
+        "GR"
+       ]
+      },
+      "regions": [],
+      "countries": []
+     },
+     {
+      "name": "Savoy",
+      "kind": "savoy",
+      "label": "Savoy: Vaud and Lower Valais",
+      "sel": {
+       "cantons": [
+        "VD"
+       ],
+       "districts": [
+        2302,
+        2307,
+        2303,
+        2310,
+        2308
+       ]
+      },
+      "regions": [],
+      "countries": []
+     },
+     {
+      "name": "Bishop of Sion",
+      "kind": "bishop",
+      "label": "Bishop of Sion: Upper Valais",
+      "sel": {
+       "cantons": [
+        "VS"
+       ]
+      },
+      "regions": [],
+      "countries": []
+     },
+     {
+      "name": "Lucerne",
+      "kind": "habsburg",
+      "label": "Lucerne: bought by Habsburg from Murbach in 1291",
+      "sel": {
+       "munis": [
+        1061
+       ]
+      },
+      "regions": [],
+      "countries": []
+     }
+    ],
+    "places": [
+     {
+      "name": "Lucerne",
+      "lat": 47.0502,
+      "lon": 8.3093,
+      "kind": "town",
+      "year": 1291,
+      "note": "Sold to Habsburg"
+     },
+     {
+      "name": "Chillon castle",
+      "lat": 46.4142,
+      "lon": 6.9275,
+      "kind": "castle",
+      "note": "Savoy power on the lake"
+     }
+    ]
+   }
+  ],
+  "sources": [
+   "https://hls-dhs-dss.ch/de/articles/006620/",
+   "https://hls-dhs-dss.ch/de/articles/006642/",
+   "https://hls-dhs-dss.ch/de/articles/008560/",
+   "https://hls-dhs-dss.ch/de/articles/008558/",
+   "https://hls-dhs-dss.ch/de/articles/008559/",
+   "https://hls-dhs-dss.ch/de/articles/011403/",
+   "https://hls-dhs-dss.ch/de/articles/011399/"
+  ],
+  "notes": "The Burgundy–Swabia border is drawn along today's Bernese districts as a rough Aare line; Basel is counted as Burgundian about 950 (it belonged to Burgundy for part of the 10th century). Outside Switzerland Burgundy is drawn as whole French départements from the Franche-Comté to Provence plus Aosta; Swabia as Baden-Württemberg, Alsace and Vorarlberg (Bavarian Swabia not drawn). The Lausanne county of 1011 is drawn as all of today's Vaud. Bishop of Basel lands about 1200 drawn as all of Jura plus Moutier-Grandval (rough). St. Gallen and Chur lands are approximate. Foundation dates: St. Gallen and Disentis given only as 'the 700s'."
+ }
+]

@@ -38,6 +38,13 @@
   stripes.append("rect").attr("width", 2.5).attr("height", 7).style("fill", "var(--panel)").style("fill-opacity", 0.75);
 
   // No fixed canton lines: every border on the map comes from the territories of the chosen date.
+  // Europe: today's countries as a quiet background (Natural Earth). Stories can zoom out to it.
+  var EU = window.DATA_EUROPE || { regions: { features: [] }, countries: { features: [] } };
+  var euRegion = {}, euCountry = {};
+  EU.regions.features.forEach(function (f) { euRegion[f.id] = f; });
+  EU.countries.features.forEach(function (f) { euCountry[f.id] = f; });
+  svg.append("g").selectAll("path").data(EU.countries.features.filter(function (f) { return f.id !== "CHE"; }))
+    .join("path").attr("class", "eu-country").attr("d", path);
   svg.append("path").datum(country).attr("class", "territory empty").attr("d", path);
   svg.append("g").selectAll("path").data(outside.features).join("path").attr("class", "outside-land").attr("d", path);
   var gFill = svg.append("g");
@@ -46,6 +53,7 @@
     .join("path").attr("class", "lake").attr("d", path);
   var gFocus = svg.append("g");
   svg.append("path").datum(country).attr("class", "outline").attr("d", path);
+  var gPlaces = svg.append("g");
   var gLabels = svg.append("g");
 
   var cantonFeatures = topojson.feature(topo, topo.objects.cantons).features;
@@ -132,22 +140,30 @@
   });
 
   var HIST = window.CANTON_HISTORY || [];
+  var MAP_STORIES = window.MAP_STORIES || [];
   T.setHistory(HIST);
   T.setAllies(window.ALLIES || []);
   var CANTON_COLOR = { core: "var(--c-core)", subject: "var(--c-core)", shared: "var(--k-common)", other: "var(--c-other)" };
+  var LORD_NAMES = {
+    habsburg: "Habsburg", kyburg: "Kyburg", zahringen: "Zähringen", lenzburg: "Lenzburg", savoy: "Savoy",
+    bishop: "A bishop", abbey: "An abbey", empire: "The Emperor (imperial land)", milan: "Milan or Como", noble: "Other noble families"
+  };
   function layerColor(l) { return l.kind === "lord" ? "var(--lord-" + (l.lord || "noble") + ")" : CANTON_COLOR[l.kind]; }
 
   var state = { mode: "cantons", index: 0, canton: HIST.length ? HIST[0].canton : null };
   function history() { return HIST.filter(function (h) { return h.canton === state.canton; })[0]; }
   var HELV = window.HELVETIC || null;
   if (HELV) C.helvetic = HELV.stops;
-  function stops() { return state.mode === "canton" ? history().stops : C[state.mode]; }
+  function stops() {
+    if (state.mode === "canton") return history().stops;
+    if (state.mode === "story") return currentStory().stops;
+    return C[state.mode];
+  }
 
   // Stories: guided chapters. Planned ones show as "coming later" cards (see PLAN.md).
   var STORIES = [
     { mode: "six", title: "1803: Six new cantons", text: "What Aargau, Graubünden, St. Gallen, Thurgau, Ticino and Vaud were before 1798, and how they became equal cantons." },
     { mode: "bern", title: "Bern: from very large to large", text: "The largest city-state north of the Alps, cut up by France, and the long Jura question." },
-    { title: "The full Old Confederation", text: "All ruled lands and allies, from Geneva to Mulhouse.", later: true },
     HELV ? { mode: "helvetic", title: "The Helvetic cantons 1798–1803", text: "Léman, Oberland, Säntis, Linth, Baden and the other short-lived cantons." }
          : { title: "The Helvetic cantons 1798–1803", text: "Léman, Oberland, Säntis, Linth, Baden and the other short-lived cantons.", later: true },
     { title: "Lords before 1291", text: "Habsburg, Kyburg, Zähringen, Savoy, bishops and abbeys.", later: true },
@@ -157,13 +173,23 @@
     { title: "Municipalities", text: "From about 3,200 to about 2,100: mergers since 1850.", later: true },
     { title: "Romans and Celts", text: "The Helvetii, Roman roads and towns.", later: true }
   ];
-  var STORY_MODES = { six: 1, bern: 1, helvetic: 1 };
+  var STORY_MODES = { six: 1, bern: 1, helvetic: 1, story: 1 };
+  // Researched map stories: shown as cards; a planned card is removed once a story of its topic exists.
+  var TOPIC_OF = { habsburg: "Lords before 1291", savoy: "Lords before 1291", "zahringen-kyburg": "Lords before 1291", "church-lords": "Lords before 1291",
+                   reformation: "The Reformation" };
+  MAP_STORIES.forEach(function (st) {
+    var topic = TOPIC_OF[st.id] || (st.id.indexOf("wars") === 0 ? "Wars and battles" : null);
+    STORIES = STORIES.filter(function (c) { return !(c.later && c.title === topic); });
+  });
+  var laterIndex = STORIES.findIndex(function (c) { return c.later; });
+  var dataCards = MAP_STORIES.map(function (st) { return { mode: "story", story: st.id, title: st.title, text: st.card }; });
+  STORIES = laterIndex === -1 ? STORIES.concat(dataCards) : STORIES.slice(0, laterIndex).concat(dataCards, STORIES.slice(laterIndex));
   d3.select("#story-cards").selectAll("li").data(STORIES).join("li").attr("class", function (d) { return "card" + (d.later ? " later" : ""); })
     .html(function (d) {
       return (d.later ? "<span class=\"badge\">Coming later</span>" : "") + "<h3>" + d.title + "</h3><p>" + d.text + "</p>" +
         (d.later ? "" : "<button>Open the story</button>");
     })
-    .select("button").on("click", function (e, d) { stopPlay(); setMode(d.mode); });
+    .select("button").on("click", function (e, d) { stopPlay(); if (d.story) state.story = d.story; setMode(d.mode); });
 
   // Tab 1: the cantons, their ruled lands and allies in a year.
   function drawCantons(year) {
@@ -171,13 +197,14 @@
     var groups = T.territoryGroups(communes, year);
     var feats = Object.keys(groups).map(function (key) {
       var f = merge(groups[key].ids), g = groups[key];
-      f.properties = { key: key, kind: g.kind, owner: g.owner, layer: g.layer }; return f;
+      f.properties = { key: key, kind: g.kind, owner: g.owner, lord: g.lord, layer: g.layer }; return f;
     }).concat(outsideFeats(year, function (o) {
       return { key: "out-" + o.id, kind: o.kind, owner: o.owner, layer: o, outside: true };
     }));
     fillTerritories(feats, function (d) {
       var p = d.properties;
       if (p.kind === "member") return "var(--" + T.waveOf(p.key) + ")";
+      if (p.kind === "lord") return "var(--lord-" + p.lord + ")";
       if (p.kind === "subject") return (p.owner === "abbey" || !T.JOINED[p.owner] || T.JOINED[p.owner] > year) ? "var(--k-ally)" : "var(--" + T.waveOf(p.owner) + ")";
       return KIND_COLOR[p.kind];
     }, function (d) { return d.properties.kind === "subject" ? "subject" : ""; });
@@ -189,7 +216,7 @@
       if (p.kind === "member") return T.UNITED[p.key]
         ? { key: p.key, text: T.UNITED[p.key].name, at: largestPoint(f.geometry || f) }
         : { key: p.key, text: p.key, at: cantonPoint(p.key) };
-      if (p.kind === "ally" || p.kind === "common" || p.outside) return { key: p.key, text: p.layer.name, at: largestPoint(f.geometry || f), cls: "minor" };
+      if (p.kind === "ally" || p.kind === "common" || p.kind === "lord" || p.outside) return { key: p.key, text: p.layer.name, at: largestPoint(f.geometry || f), cls: "minor" };
       return null;
     }).filter(Boolean);
     drawLabels(labels, k);
@@ -204,6 +231,9 @@
     if (kinds.subject) legend.push({ color: "var(--w1353)", light: true, label: "Stripes: land ruled by that canton (no vote)" });
     if (kinds.common) legend.push({ color: "var(--k-common)", label: T.KINDS.common });
     if (kinds.ally) legend.push({ color: "var(--k-ally)", label: "Ally with its own government" });
+    var lordsSeen = {};
+    Object.keys(groups).forEach(function (key) { if (groups[key].kind === "lord") lordsSeen[groups[key].lord] = true; });
+    Object.keys(LORD_NAMES).forEach(function (l) { if (lordsSeen[l]) legend.push({ color: "var(--lord-" + l + ")", label: LORD_NAMES[l] }); });
     legend.push({ color: "var(--empty)", label: "Not linked to the Swiss" });
     setLegend(legend);
     d3.select("#stat").html(whole + " cantons" + (whole !== members.length ? " <span>(" + members.length + " if you count each half-canton)</span>" : ""));
@@ -340,6 +370,75 @@
     d3.select("#map-note").text("Built from today's municipalities and districts, so small details are approximate.");
   }
 
+  // Map stories (content-stories.js): areas built from today's municipalities and Europe's regions,
+  // points for battles and towns, and a view of Switzerland, all of Europe, or a box.
+  var STORY_COLOR = {
+    habsburg: "var(--lord-habsburg)", kyburg: "var(--lord-kyburg)", zahringen: "var(--lord-zahringen)", lenzburg: "var(--lord-lenzburg)",
+    savoy: "var(--lord-savoy)", bishop: "var(--lord-bishop)", abbey: "var(--lord-abbey)", empire: "var(--lord-empire)",
+    milan: "var(--lord-milan)", noble: "var(--lord-noble)", burgundy: "var(--s-burgundy)", france: "var(--s-france)",
+    confederates: "var(--w1353)", ally: "var(--k-ally)", enemy: "var(--s-enemy)",
+    reformed: "var(--s-reformed)", catholic: "var(--s-catholic)", mixed: "var(--s-mixed)", other: "var(--c-other)"
+  };
+  var EUROPE_BOX = { type: "MultiPoint", coordinates: [[-9.5, 36], [30, 57]] };
+  function storyView(view) {
+    if (view === "europe") return EUROPE_BOX;
+    if (Array.isArray(view)) return { type: "MultiPoint", coordinates: [[view[0][1], view[0][0]], [view[1][1], view[1][0]]] };
+    return null;
+  }
+  function currentStory() { return MAP_STORIES.filter(function (st) { return st.id === state.story; })[0]; }
+
+  function drawStory(stop) {
+    var swiss = T.stopGroups(communes, { layers: stop.layers.map(function (l) { return { sel: l.sel || {} }; }) });
+    var feats = [];
+    stop.layers.forEach(function (l, i) {
+      var parts = [];
+      if (swiss[i].length) parts.push({ type: "Feature", geometry: merge(swiss[i]) });
+      (l.regions || []).forEach(function (r) { if (euRegion[r]) parts.push(euRegion[r]); });
+      (l.countries || []).forEach(function (c) { if (euCountry[c]) parts.push(euCountry[c]); });
+      parts.forEach(function (p, j) {
+        feats.push({ type: "Feature", geometry: p.geometry, properties: { key: "st-" + i + "-" + j + "-" + (p.id || "ch"), layer: l, first: j === 0 } });
+      });
+    });
+    fillTerritories(feats, function (d) { return STORY_COLOR[d.properties.layer.kind] || "var(--c-other)"; });
+    gFocus.selectAll("*").remove();
+    var k = zoomTo(storyView(stop.view));
+    // One label per layer, on its largest piece.
+    var best = {};
+    feats.forEach(function (f) {
+      var a = d3.geoArea(f), name = f.properties.layer.name;
+      if (!best[name] || a > best[name].a) best[name] = { a: a, f: f };
+    });
+    var labels = Object.keys(best).map(function (n) {
+      return { key: "stl-" + n, text: n, at: largestPoint(best[n].f.geometry), cls: "minor" };
+    });
+    drawLabels(labels, k);
+    drawPlaces(stop.places || [], k);
+    var seen = {};
+    setLegend(stop.layers.filter(function (l) { if (seen[l.label]) return false; seen[l.label] = true; return true; })
+      .map(function (l) { return { color: STORY_COLOR[l.kind] || "var(--c-other)", label: l.label }; })
+      .concat((stop.places || []).some(function (p) { return p.kind === "battle"; }) ? [{ color: "battle", label: "Battle" }] : []));
+    d3.select("#stat").html("");
+    d3.select("#map-note").text(stop.view === "europe" || Array.isArray(stop.view)
+      ? "Old territories drawn with today's regions of Europe, so borders are approximate (German and Austrian states are large units)."
+      : "Old territories drawn with today's municipalities, so small details are approximate.");
+  }
+
+  // Points: battles (red with a white cross), towns and others (dark dots), with a short label.
+  function drawPlaces(places, k) {
+    var g = gPlaces.selectAll("g.place").data(places, function (p) { return p.name + p.lat; })
+      .join(function (en) {
+        var gg = en.append("g").attr("class", "place");
+        gg.append("circle"); gg.append("text");
+        return gg;
+      });
+    g.attr("transform", function (p) { var xy = projection([p.lon, p.lat]); return "translate(" + xy[0] + "," + xy[1] + ")"; })
+      .attr("class", function (p) { return "place " + (p.kind || "place"); });
+    g.select("circle").attr("r", function (p) { return (p.kind === "battle" ? 5 : 3.5) * k; }).style("stroke-width", (1.5 * k) + "px");
+    g.select("text").attr("x", 7 * k).attr("y", 3.5 * k).style("font-size", (10.5 * k) + "px").style("stroke-width", (3 * k) + "px")
+      .text(function (p) { return p.name + (p.year ? " " + p.year : ""); })
+      .append("title").text(function (p) { return p.note || ""; });
+  }
+
   // The Helvetic Republic: each stop is a full map of its administrative cantons.
   var HELV_COLORS = ["#4e79a7", "#f28e2b", "#e15759", "#76b7b2", "#59a14f", "#edc948", "#b07aa1", "#ff9da7", "#9c755f",
                      "#86bcb6", "#8cd17d", "#b6992d", "#499894", "#d37295", "#a0cbe8", "#ffbe7d", "#d4a6c8", "#f1ce63", "#79706e", "#bab0ac"];
@@ -372,6 +471,7 @@
   function setLegend(items) {
     d3.select("#legend").selectAll("li").data(items).join("li")
       .html(function (d) {
+        if (d.color === "battle") return '<span class="swatch" style="background:#c8281e;border-radius:50%;border:2px solid #fff;box-shadow:0 0 0 1px #c8281e"></span><span>' + d.label + "</span>";
         if (d.color === "dash") return '<span class="swatch" style="border:1.5px dashed var(--ink);background:transparent"></span><span>' + d.label + "</span>";
         var bg = d.color === "url-hatch"
           ? "background: repeating-linear-gradient(45deg, var(--bern) 0 3px, var(--shared) 3px 6px)"
@@ -421,10 +521,12 @@
     d3.select("#text").selectAll("p").data(s.text).join("p").text(function (d) { return d; });
     d3.select("#chart").attr("hidden", state.mode === "bern" ? null : true);
     d3.select("#back-stories").attr("hidden", STORY_MODES[state.mode] ? null : true);
+    if (state.mode !== "story") gPlaces.selectAll("*").remove();
     if (state.mode === "cantons") drawCantons(s.year);
     else if (state.mode === "bern") drawBern(s.year);
     else if (state.mode === "canton") drawCanton(s);
     else if (state.mode === "helvetic") drawHelvetic(s);
+    else if (state.mode === "story") drawStory(s);
     else drawSix(s);
     var h = state.mode === "canton" ? history() : null;
     d3.select("#picker").attr("hidden", state.mode === "canton" ? null : true);
@@ -440,6 +542,7 @@
     if (cur && cur.scrollIntoView) cur.scrollIntoView({ block: "nearest", inline: "nearest" });
     var slug = tickText(s).toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/-$/, "");
     if (state.mode === "canton") slug = state.canton.toLowerCase() + "-" + slug;
+    if (state.mode === "story") slug = state.story + "--" + slug;
     try { window.history.replaceState(null, "", "#" + state.mode + "-" + slug); } catch (e) { /* file:// in some browsers */ }
   }
 
@@ -450,6 +553,8 @@
   }
 
   function setMode(mode, slug) {
+    if (mode === "story" && slug && slug.indexOf("--") > 0) { state.story = slug.split("--")[0]; slug = slug.split("--")[1]; }
+    if (mode === "story" && !currentStory()) mode = "cantons";
     if (mode === "canton" && !HIST.length) mode = "cantons";
     if (mode === "canton" && slug) {
       var cm = /^([a-z]{2})-?(.*)$/.exec(slug);
@@ -466,6 +571,7 @@
     showStories(false);
     gLabels.selectAll("*").remove();
     gFill.selectAll("*").remove();
+    gPlaces.selectAll("*").remove();
     render();
   }
 
@@ -506,6 +612,7 @@
     'Borders: <a href="https://www.bfs.admin.ch/bfs/en/home/services/geostat.html">BFS GEOSTAT</a>, generalised municipality borders, state 1 January 2026, via ' +
     '<a href="https://github.com/interactivethings/swiss-maps">swiss-maps</a> (non-commercial use). ' +
     'Municipality list: <a href="https://www.agvchapp.bfs.admin.ch/">BFS official register of municipalities</a>, 1 January 2026. ' +
+    'Europe: <a href="https://www.naturalearthdata.com/">Natural Earth</a> (public domain). ' +
     'History: <a href="https://hls-dhs-dss.ch/">Historisches Lexikon der Schweiz</a>.');
 
   // Canton picker: a small clickable map of today's cantons.
@@ -535,8 +642,9 @@
     pickSvg.selectAll(".pick-label").classed("on", function (f) { return CANTON_IDS[f.id - 1] === state.canton; });
   }
 
-  var m = /^#(cantons|six|bern|canton|helvetic)-([a-z0-9-]+)$/.exec(location.hash);
+  var startHash = location.hash;
+  var m = /^#(cantons|six|bern|canton|helvetic|story)-([a-z0-9-]+)$/.exec(startHash);
   setMode(m ? m[1] : "cantons", m ? m[2] : null);
   syncPick();
-  if (location.hash === "#stories") showStories(true);
+  if (startHash === "#stories") showStories(true);
 })();

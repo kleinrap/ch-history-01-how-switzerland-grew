@@ -276,9 +276,23 @@
     return null;
   }
 
+  // Families that died out: their land is not shown after this year, even if a canton's next
+  // researched step is later (then the land stays blank, "not known here", until that step).
+  var LORD_END = { lenzburg: 1173, zahringen: 1218 };
+
+  // Land held by an outside lord (Habsburg, Savoy, a bishop ...) in a canton's researched history.
+  function lordAt(c, b, year) {
+    if (year >= 1798) return null;
+    var st = stopAt(c[0], year);
+    if (!st) return null;
+    var i = layerIndex(st, c, b), l = i === -1 ? null : st.layers[i];
+    if (!l || l.kind !== "lord") return null;
+    if (LORD_END[l.lord] && year >= LORD_END[l.lord]) return null;
+    return { key: "lord-" + c[0] + "-" + st.year + "-" + i, kind: "lord", lord: l.lord || "noble", layer: { name: l.name, label: l.label } };
+  }
+
   function statusAt(c, b, year) {
-    var s = memberStatus(c, b, year);
-    return s || allyAt(c, b, year);
+    return memberStatus(c, b, year) || allyAt(c, b, year) || lordAt(c, b, year);
   }
 
   function memberStatus(c, b, year) {
@@ -312,7 +326,7 @@
     Object.keys(communes).forEach(function (id) {
       var s = statusAt(communes[id], +id, year);
       if (!s) return;
-      if (!out[s.key]) out[s.key] = { ids: [], kind: s.kind, owner: s.owner, layer: s.layer };
+      if (!out[s.key]) out[s.key] = { ids: [], kind: s.kind, owner: s.owner, lord: s.lord, layer: s.layer };
       out[s.key].ids.push(+id);
     });
     return out;

@@ -104,3 +104,38 @@ The HLS website blocked direct downloads, so the agent read HLS only through sum
 - Neuchâtel: older treaties exist (Fribourg 1290, Bern 1308, Solothurn 1369). Which cantons ruled it in 1512–1529 is not checked.
 - Rottweil: the alliance ends in 1632 on the map. Rottweil was excluded from the meetings in 1632, but the treaty was never ended.
 - Not drawn: Haldenstein (protected 1541–1798; today part of Chur), and the occasional allies around 1500 (the bishop of Konstanz, Württemberg, Montbéliard, Besançon, Arona).
+
+# Wars and battles (stories)
+
+- Areas are drawn with today's cantons, districts and regions, so they are rough: the Habsburg land of 1315–1405, the religion map, the 1653 rising, and the front lines of 1799. Burgundy is drawn as French départements plus Belgium, the Netherlands and Luxembourg; Milan as Italian provinces; Ossola as the whole province of Verbano-Cusio-Ossola; the Swabian League as Baden-Württemberg plus Bavaria.
+- Battle sites: the Morgarten site is debated (the point is at the Schornen memorial). The points for Calven, Marignano (Zivido) and Neuenegg 1798 are approximate.
+- Dates: the Huttwil oath was on 4 or 14 May 1653 (old and new calendars). The day of Herzogenbuchsee is not checked. The Muotathal fights were about 30 Sept–1 Oct 1799, and the Panix crossing 5–7 Oct (HLS, Elm article: 5 October). Rothenthurm (2 May 1798) is not checked in HLS.
+- Numbers are estimates from HLS: St. Jakob an der Birs (about 1,200 Confederate and 2,000 Armagnac dead), Murten (8,000–20,000 Burgundian dead), Marignano (9,000–10,000 Swiss dead), Kappel (about 500 Zurich dead), Nidwalden 1798 (about 100 + 100 killed in battle, about 300 killed afterwards), Nancy (over 8,000 Swiss soldiers), Pavia (8,000 Swiss soldiers), Suvorov (about 20,000 men).
+- Not checked in HLS: the "milk soup" of Kappel 1529 (told as a story), Zurich mayor Stüssi's death at St. Jakob an der Sihl, Dufour's orders to treat prisoners humanely, the first Catholic-conservative Federal Councillor (1891), the date of the Pact of Brunnen (9 December 1315), and the rules of the Sempach Letter.
+
+# Lords before 1291 (stories)
+
+- Habsburg castle and Muri: HLS says only that Radbot or Wernher built the castle about 1020, and that Muri was founded "after 1020".
+- Uri, Schwyz and Unterwalden in 1173: drawn under the Habsburg count rights in the western Zürichgau. This is only roughly right.
+- The Ewige Richtung (1474) is placed at Constance from general knowledge.
+- Early Savoy: HLS gives no date for Savoy taking the Chablais and Saint-Maurice ("in the 1000s"). Humbert's land is drawn very roughly. Peter II's protection of Bern and Murten ("in the 1250s") and his castles Yverdon and Chillon are not checked in HLS.
+- Kyburg: Hartmann IV's death in 1264 is inferred from HLS. The Kyburg split about 1250 is simplified. Several Kyburg town dates are only "later" or "about" in HLS.
+- The Rectorate of Burgundy (Zähringen) was a claim; its area is drawn very roughly.
+- Burgundy and Swabia about 950: Basel is counted as Burgundian, and the border is drawn roughly along the Aare.
+- Bishops in 1033: only Sion is confirmed in HLS as becoming a prince of the Empire.
+- Founding dates: St. Gallen and Disentis "in the 700s"; Engelberg 1120 and Einsiedeln 934 from general knowledge.
+- Habsburg in Europe (1282–1550): borders are rough. Lower Styria is left out in 1282; Slovenia and the Netherlands are drawn whole; Hungary and Croatia are left out; Milan is drawn as Lombard provinces plus Novara; the Breisgau is not drawn.
+- Geneva's countryside (1536–1720) is drawn roughly. Some battle points (Morgarten, Calven, Grandson, Murten, Payerne/Grindelwald 1190–1191) are approximate.
+
+# The Reformation (story)
+
+- Graubünden: the communes are read by eye from the Atlas Graubünden map "Konfessionsverhältnisse um 1640" (kulturforschung.ch, chapter 32). Unclear: one commune near Laax/Falera (both drawn Catholic), Trimmis (drawn mixed), and merged municipalities such as Ilanz/Glion, Domleschg, Cazis, Breil/Brigels and Obersaxen Mundaun (drawn mixed). Scuol is drawn Reformed, although Tarasp was Catholic and Austrian.
+- Thurgau, the Rheintal and Glarus are drawn mixed as a whole. HLS says Thurgau was mostly Reformed, with 27 shared churches; in the Rheintal only Oberriet is named as Catholic.
+- Toggenburg: HLS says only that the upper part was mostly Reformed and the lower part mostly Catholic. The split by municipality is an estimate.
+- County of Baden: shared parishes (Zurzach, Würenlos, Dietikon) and Reformed places (Tegerfelden, Schlieren, Oetwil, Hüttikon) come from general knowledge.
+- 1529: how far the Reformed faith spread in the common lordships, the abbey lands and Sargans is approximate. Gaster and Weesen are drawn Reformed only because HLS lists them in Zurich's 1531 blockade.
+- Echallens group: HLS supports Villars-le-Terroir, Bottens and Assens; Poliez-Pittet and Saint-Barthélemy are assumed. The year Orbe and Grandson became Reformed (1554) is not checked.
+- Laufen/Birseck drawn Catholic from 1597 (the bishop brought it back from the 1580s). Gex: Bernese 1536–1564, then mixed, then Catholic by 1685 (rough).
+- From memory, not checked: the papal nuncio in Lucerne from 1586, the Collegium Helveticum in Milan (1579), the Capuchins in Altdorf (1581), the Jesuit college in Fribourg (1582), and the Valtellina massacre (July 1620, starting at Tirano).
+- Calvin came to Geneva in June 1536 (HLS); other sources say July.
+- The Europe step is very rough: whole countries and German federal states only. France is drawn Catholic; its Reformed minority is in the text only.
