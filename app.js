@@ -77,7 +77,7 @@
   }
 
   // Zoom: move the viewBox; strokes do not scale (CSS), labels are resized to stay readable.
-  var view = [0, 0, W, H];
+  var view = [0, 0, W, H], curK = 1;
   function zoomTo(feature) {
     var next = [0, 0, W, H];
     if (feature) {
@@ -91,6 +91,7 @@
     view = next;
     svg.interrupt();
     var still = document.hidden || (window.matchMedia && matchMedia("(prefers-reduced-motion: reduce)").matches);
+    curK = next[2] / W;
     if (still || from === to) { svg.attr("viewBox", to); return next[2] / W; }
     svg.transition().duration(700).attrTween("viewBox", function () { return d3.interpolateString(from, to); });
     // Animation frames stop in background tabs; make sure the map still ends at the right place.
@@ -438,15 +439,57 @@
     var g = gPlaces.selectAll("g.place").data(places, function (p) { return p.name + p.lat; })
       .join(function (en) {
         var gg = en.append("g").attr("class", "place");
-        gg.append("circle"); gg.append("text");
+        gg.append("circle"); gg.append("path").attr("class", "swords-halo"); gg.append("path").attr("class", "swords"); gg.append("text");
         return gg;
       });
     g.attr("transform", function (p) { var xy = projection([p.lon, p.lat]); return "translate(" + xy[0] + "," + xy[1] + ")"; })
       .attr("class", function (p) { return "place " + (p.kind || "place"); });
-    g.select("circle").attr("r", function (p) { return (p.kind === "battle" ? 5 : 3.5) * k; }).style("stroke-width", (1.5 * k) + "px");
-    g.select("text").attr("x", 7 * k).attr("y", 3.5 * k).style("font-size", (10.5 * k) + "px").style("stroke-width", (3 * k) + "px")
+    g.select("circle").attr("r", function (p) { return p.kind === "battle" ? 0 : 3.5 * k; }).style("stroke-width", (1.5 * k) + "px");
+    // Battles: two crossed swords (blade, guard and grip), drawn at the same size at every zoom.
+    var SWORDS = "M-6,-6L6,6M6,-6L-6,6M-6.5,-1.5L-1.5,-6.5M1.5,-6.5L6.5,-1.5";
+    g.selectAll("path.swords, path.swords-halo").attr("d", function () { var p = d3.select(this.parentNode).datum(); return p.kind === "battle" ? SWORDS : null; })
+      .attr("transform", "scale(" + k + ")");
+    g.select("text").attr("x", function (p) { return (p.kind === "battle" ? 9 : 7) * k; })
+    g.select("text").attr("y", 3.5 * k).style("font-size", (10.5 * k) + "px").style("stroke-width", (3 * k) + "px")
       .text(function (p) { return p.name + (p.year ? " " + p.year : ""); })
       .append("title").text(function (p) { return p.note || ""; });
+  }
+
+  // Battles named in a step's text get the battle icon too. Positions come from the checked battle
+  // points of the stories; a battle is only shown when its sentence speaks of a battle.
+  var BATTLES = [];
+  MAP_STORIES.forEach(function (st) {
+    st.stops.forEach(function (s) {
+      (s.places || []).forEach(function (p) {
+        if (p.kind !== "battle") return;
+        var key = p.name.split(/ \(|,/)[0].replace(/^Battlefield.*/, "Bibracte").trim();
+        if (!BATTLES.some(function (b) { return b.key === key && b.year === p.year; }))
+          BATTLES.push({ key: key, year: p.year, lat: p.lat, lon: p.lon, note: p.note });
+      });
+    });
+  });
+  function battlesInText(texts, stepYear) {
+    var found = {};
+    (texts || []).join(" ").split(/(?<=[.!?])\s+/).forEach(function (sentence) {
+      var named = /\bbattles?\b/i.test(sentence);
+      // Other war words count only when the sentence also gives the year of that battle.
+      if (!named && !/\b(fought|fight|defeat\w*|beat|beats|wins?|won|lose|loses|lost|wars?|attack\w*|besieg\w*|siege)\b/i.test(sentence)) return;
+      var years = (sentence.match(/\b\d{3,4}\b/g) || []).map(Number);
+      if (!named && !years.length) return;
+      BATTLES.forEach(function (b) {
+        var esc = b.key.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+        if (!new RegExp("\\b" + esc + "\\b").test(sentence)) return;
+        // Without the word "battle", the place must read as a battle: "at/near X" or "the X War".
+        if (!named && !new RegExp("\\b(at|near) " + esc + "\\b|\\b" + esc + " War\\b").test(sentence)) return;
+        var target = years.length ? years : [stepYear];
+        var d = Math.min.apply(null, target.map(function (y) { return Math.abs(y - b.year); }));
+        if (!found[b.key] || d < found[b.key].d) found[b.key] = { d: d, b: b };
+      });
+    });
+    return Object.keys(found).filter(function (k) { return found[k].d <= 2; }).map(function (k) {
+      var b = found[k].b;
+      return { name: b.key, year: b.year, lat: b.lat, lon: b.lon, kind: "battle", note: b.note };
+    });
   }
 
   // The Helvetic Republic: each stop is a full map of its administrative cantons.
@@ -500,7 +543,7 @@
   function setLegend(items) {
     d3.select("#legend").selectAll("li").data(items).join("li")
       .html(function (d) {
-        if (d.color === "battle") return '<span class="swatch" style="background:#c8281e;border-radius:50%;border:2px solid #fff;box-shadow:0 0 0 1px #c8281e"></span><span>' + d.label + "</span>";
+        if (d.color === "battle") return '<svg class="swatch-swords" viewBox="-8 -8 16 16" aria-hidden="true"><path class="swords-halo" d="M-6,-6L6,6M6,-6L-6,6M-6.5,-1.5L-1.5,-6.5M1.5,-6.5L6.5,-1.5"/><path class="swords" d="M-6,-6L6,6M6,-6L-6,6M-6.5,-1.5L-1.5,-6.5M1.5,-6.5L6.5,-1.5"/></svg><span>' + d.label + "</span>";
         if (d.color === "dash") return '<span class="swatch" style="border:1.5px dashed var(--ink);background:transparent"></span><span>' + d.label + "</span>";
         var bg = d.color === "url-hatch"
           ? "background: repeating-linear-gradient(45deg, var(--bern) 0 3px, var(--shared) 3px 6px)"
@@ -566,6 +609,12 @@
     d3.select("#notes-text").text(h && h.notes ? h.notes : state.mode === "cantons"
       ? "Before 1798, each canton's land comes from its researched history (see \"Every canton\"). Most borders are drawn by today's districts, so small places can be on the wrong side."
       : "Old territories are drawn by joining today's municipalities, so small details are approximate.");
+    if (state.mode !== "story") {
+      var named = battlesInText([s.title].concat(s.text), s.year);
+      drawPlaces(named, curK);
+      if (named.length) d3.select("#legend").append("li")
+        .html('<svg class="swatch-swords" viewBox="-8 -8 16 16" aria-hidden="true"><path class="swords-halo" d="M-6,-6L6,6M6,-6L-6,6M-6.5,-1.5L-1.5,-6.5M1.5,-6.5L6.5,-1.5"/><path class="swords" d="M-6,-6L6,6M6,-6L-6,6M-6.5,-1.5L-1.5,-6.5M1.5,-6.5L6.5,-1.5"/></svg><span>Battle named in the text</span>');
+    }
     drawSources(s);
     renderTicks();
     var cur = document.querySelector('#ticks [aria-current="true"]');
