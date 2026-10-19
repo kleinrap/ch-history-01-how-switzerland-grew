@@ -355,7 +355,7 @@
     ],
     "uncertain": [
      "All borders are rough: they are drawn with today's cantons, districts and foreign regions. The eastern Plateau (east of Zürich) and central Switzerland are drawn or left blank without exact evidence.",
-     "Most other valleys of Graubünden may have been Celtic, not Raetian (HLS Räter, opinion of R. Frei-Stolba); they are left blank."
+     "Most other valleys of Graubünden may have been Celtic, not Raetian (opinion of R. Frei-Stolba); they are left blank."
     ]
    },
    {
@@ -498,7 +498,7 @@
      }
     ],
     "uncertain": [
-     "The Mont Vully burn layer was once linked with 58 BC; HLS says this idea was given up (fire about 80 BC).",
+     "The Mont Vully burn layer was once linked with 58 BC; this idea was given up (fire about 80 BC).",
      "The extent of Gallia Narbonensis is drawn very roughly."
     ]
    },
@@ -630,7 +630,7 @@
      }
     ],
     "uncertain": [
-     "The place of the battle is not certain (HLS: 'vermutlich bei Montmort'). The point is set at the village of Montmort."
+     "The place of the battle is not certain (the source says 'probably near Montmort'). The point is set at the village of Montmort."
     ]
    },
    {
@@ -986,7 +986,7 @@
      }
     ],
     "uncertain": [
-     "The HLS gives 16–15 BC for Zürich and Chur and 15 BC for the main campaign; the step uses 15 BC.",
+     "The sources give 16–15 BC for Zürich and Chur and 15 BC for the main campaign; the step uses 15 BC.",
      "Coloured areas are rough; Bavaria, Tyrol and Vorarlberg are whole modern states."
     ]
    },
@@ -1148,7 +1148,7 @@
      }
     ],
     "uncertain": [
-     "The start of the legion camp is dated differently in the HLS: 14 (Römisches Reich), about 16/17 (Aventicum), end of 16 (Römisches Heer).",
+     "The start of the legion camp is dated differently in the sources: 14, about 16/17, or the end of 16.",
      "Where exactly the border between Belgica and Raetia ran in the east is not known; central and eastern Switzerland are left blank or drawn roughly."
     ]
    },
@@ -1519,7 +1519,7 @@
     "uncertain": [
      "The road lists date from different times (the Itinerarium Antonini is 3rd century); this step is placed at AD 47 for the story only.",
      "The exact line of many Roman roads is not known; the points mark towns and passes along the routes, not the roads themselves.",
-     "Whether the Septimer or the Julier was more important is unclear (HLS Julierpass)."
+     "Whether the Septimer or the Julier was more important is unclear."
     ]
    },
    {
@@ -1792,7 +1792,7 @@
     ],
     "uncertain": [
      "Province borders are drawn with whole modern cantons and regions (for example all of Baden-Württemberg, Rhineland-Palatinate and Bavaria); the real borders were different.",
-     "Central Switzerland (UR, SZ, OW, NW) is left blank: the HLS gives no province for it here."
+     "Central Switzerland (UR, SZ, OW, NW) is left blank: the sources give no province for it here."
     ]
    },
    {
@@ -1937,7 +1937,7 @@
      }
     ],
     "uncertain": [
-     "HLS Augusta Raurica dates the destruction of the civil town to 273/274; HLS Römisches Reich gives 275–277.",
+     "One source dates the destruction of the civil town to 273/274; another gives 275–277.",
      "The Alemanni area is shown as all of Baden-Württemberg, which is only a rough picture of the Dekumatland."
     ]
    },
@@ -2163,8 +2163,8 @@
      }
     ],
     "uncertain": [
-     "Year of the troop withdrawal: HLS Römisches Reich says 400, HLS Völkerwanderung 401, other HLS articles 401/402; the text says 'about 401'.",
-     "Geneva's late Roman province is not named in the HLS texts used; Geneva is left blank.",
+     "Year of the troop withdrawal: the sources give 400, 401 or 401/402; the text says 'about 401'.",
+     "Geneva's late Roman province is not named in the sources used; Geneva is left blank.",
      "Whether late Roman Raetia included all of eastern Switzerland is not checked; drawn roughly."
     ]
    }
@@ -2176,7 +2176,7 @@
    "https://hls-dhs-dss.ch/de/articles/007866/",
    "https://hls-dhs-dss.ch/de/articles/012289/"
   ],
-  "notes": "All areas are built from today's cantons, districts and foreign regions (French départements, Italian provinces, whole German and Austrian states), so ancient borders are only rough. Kinds are used for colour: 'roman' = the main Gaulish province of the Plateau (Belgica, Germania superior, Maxima Sequanorum), 'other' = Raetia, 'ally' = Alpes Graiae et Poeninae, 'noble' = Gallia Narbonensis, 'empire' = Italy; in step 2 'ally' = Raurici, 'noble' = Valais tribes, 'milan' = Lepontii. Negative years are BC. Quotes were taken from Wayback Machine copies of the HLS articles (HLS itself blocked direct access)."
+  "notes": "All areas are built from today's cantons, districts and foreign regions (French départements, Italian provinces, whole German and Austrian states), so ancient borders are only rough. Kinds are used for colour: 'roman' = the main Gaulish province of the Plateau (Belgica, Germania superior, Maxima Sequanorum), 'other' = Raetia, 'ally' = Alpes Graiae et Poeninae, 'noble' = Gallia Narbonensis, 'empire' = Italy; in step 2 'ally' = Raurici, 'noble' = Valais tribes, 'milan' = Lepontii. Negative years are BC."
  },
  {
   "id": "early-middle-ages",
@@ -2299,7 +2299,7 @@
      }
     ],
     "uncertain": [
-     "The location of the Sapaudia is disputed (HLS Sapaudia). The coloured area follows the newer reading and is drawn with whole cantons and Bernese districts; the Bernese Oberland is left out without evidence either way."
+     "The location of the Sapaudia is disputed. The coloured area follows the newer reading and is drawn with whole cantons and Bernese districts; the Bernese Oberland is left out without evidence either way."
     ]
    },
    {
@@ -2733,7 +2733,7 @@
      }
     ],
     "uncertain": [
-     "Saint-Maurice is often called the oldest monastery in Switzerland still in existence; this is not stated in the quoted HLS text and is left out."
+     "Saint-Maurice is often called the oldest monastery in Switzerland still in existence; this is not stated in the quoted source and is left out."
     ]
    },
    {
@@ -2914,7 +2914,7 @@
      }
     ],
     "uncertain": [
-     "The battle point is set at the town of Autun; HLS only says 'bei Autun'."
+     "The battle point is set at the town of Autun; the source only says 'near Autun'."
     ]
    },
    {
@@ -3374,7 +3374,7 @@
     ],
     "uncertain": [
      "The coloured areas only show the rough political frame; Alemannic settlement in the 7th century did not yet cover all of it (especially the Alps).",
-     "That the west kept its Romance speech is supported only by the HLS phrase 'romanisch geprägte Westschweiz' (for 561)."
+     "That the west kept its Romance speech is supported only by the phrase 'romanisch geprägte Westschweiz' (for 561)."
     ]
    }
   ],
@@ -3385,6 +3385,6 @@
    "https://hls-dhs-dss.ch/de/articles/047784/",
    "https://hls-dhs-dss.ch/de/articles/011411/"
   ],
-  "notes": "All areas are rough and built from today's cantons, districts and foreign regions (whole French départements, Italian provinces, German and Austrian states). Kinds used for colour: 'burgundians' = Burgundian kingdom, 'france' = Frankish kingdom, 'burgundy' = Frankish part-kingdom of Burgundy (Ultrajurania), 'alemanni' = Alemanni, 'other' = Ostrogothic/Italian rule, 'noble' = Churrätien. Quotes were taken from Wayback Machine copies of the HLS articles."
+  "notes": "All areas are rough and built from today's cantons, districts and foreign regions (whole French départements, Italian provinces, German and Austrian states). Kinds used for colour: 'burgundians' = Burgundian kingdom, 'france' = Frankish kingdom, 'burgundy' = Frankish part-kingdom of Burgundy (Ultrajurania), 'alemanni' = Alemanni, 'other' = Ostrogothic/Italian rule, 'noble' = Churrätien."
  }
 ]

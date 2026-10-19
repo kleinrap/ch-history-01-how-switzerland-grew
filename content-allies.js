@@ -823,7 +823,7 @@ window.ALLIES = [
     "supports": "France took the land in December 1797"
    }
   ],
-  "note": "Prévôté means the land of the provost of the Moutier-Grandval church. The Bern treaty covered the Protestant south part (Sur-les-Roches). The Catholic north part (Sous-les-Roches: Courrendlin, Corban, Courchapoix, Schelten, Seehof) is drawn with the Prince-Bishopric. Saicourt is drawn as Bellelay. France took the land in December 1797. HLS also gives 1774 as an end date of the treaty in one place."
+  "note": "Prévôté means the land of the provost of the Moutier-Grandval church. The Bern treaty covered the Protestant south part (Sur-les-Roches). The Catholic north part (Sous-les-Roches: Courrendlin, Corban, Courchapoix, Schelten, Seehof) is drawn with the Prince-Bishopric. Saicourt is drawn as Bellelay. France took the land in December 1797. One source also gives 1774 as the end date of the treaty."
  },
  {
   "id": "neuchatel-1406",
@@ -868,7 +868,7 @@ window.ALLIES = [
     "supports": "This status ends in 1512 with the occupation"
    }
   ],
-  "note": "A Burgrecht is a treaty that gives a lord or town the protection of a city. The HLS also names older treaties (Fribourg 1290, Bern 1308, Solothurn 1369). Valangin was a separate lordship until 1592; it is drawn with the county. Lignières (1815) and Le Cerneux-Péquignot (1814) are left out."
+  "note": "A Burgrecht is a treaty that gives a lord or town the protection of a city. Older treaties are also known (Fribourg 1290, Bern 1308, Solothurn 1369). Valangin was a separate lordship until 1592; it is drawn with the county. Lignières (1815) and Le Cerneux-Péquignot (1814) are left out."
  },
  {
   "id": "neuchatel-occupied",

@@ -314,3 +314,9 @@ button { font: inherit; color: inherit; }
 .swords-halo { fill: none; stroke: #fff; stroke-width: 5.5; stroke-linecap: round; vector-effect: non-scaling-stroke; }
 .swatch-swords { flex: none; width: 16px; height: 16px; margin-top: 2px; }
 .swatch-swords .swords, .swatch-swords .swords-halo { vector-effect: none; }
+
+/* Other land of a noble family, for perspective */
+.territory.context { fill-opacity: 0.4; stroke: var(--panel); stroke-dasharray: 3 2; }
+.ctx-toggle { position: absolute; right: 12px; top: 12px; border: 1px solid var(--line); background: var(--panel); color: var(--ink);
+  border-radius: 999px; padding: 5px 12px; font: 600 0.82rem "IBM Plex Sans", sans-serif; cursor: pointer; }
+.ctx-toggle[hidden] { display: none; }

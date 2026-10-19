@@ -47,6 +47,7 @@
     .join("path").attr("class", "eu-country").attr("d", path);
   svg.append("path").datum(country).attr("class", "territory empty").attr("d", path);
   svg.append("g").selectAll("path").data(outside.features).join("path").attr("class", "outside-land").attr("d", path);
+  var gContext = svg.append("g");   // other land of a noble family, shown for perspective
   var gFill = svg.append("g");
   var gStripes = svg.append("g");
   svg.append("g").selectAll("path").data(topojson.feature(topo, topo.objects.lakes).features)
@@ -355,15 +356,34 @@
 
     var today = merge(idsWhere(function (c) { return c[0] === h.canton; }));
     gFocus.selectAll("path").data([today]).join("path").attr("class", "today-line").attr("d", path);
-    var k = zoomTo(cantonZoom(h));
+    // Perspective: all the other land of the noble families in this step, at this date.
+    var drawnIds = {};
+    groups.forEach(function (g) { g.forEach(function (id) { drawnIds[id] = 1; }); });
+    var families = [];
+    stop.layers.forEach(function (l, i) { if (l.kind === "lord" && FAMILY[l.lord] && groups[i].length && families.indexOf(l.lord) === -1) families.push(l.lord); });
+    var ctx = [];
+    if (contextOn) families.forEach(function (lord) { ctx = ctx.concat(familyLand(lord, stop.year, drawnIds)); });
+    gContext.selectAll("path").data(ctx, function (d) { return d.properties.key; }).join("path")
+      .attr("class", "territory context").attr("d", path).style("fill", function (d) { return "var(--lord-" + d.properties.lord + ")"; });
+    d3.select("#ctx-toggle").attr("hidden", families.length ? null : true)
+      .text(contextOn ? "Show only this canton" : "Show all land of the " + families.map(function (l) { return FAMILY[l]; }).join(" and "));
+    var k = zoomTo(ctx.length ? { type: "FeatureCollection", features: cantonZoom(h).features.concat(ctx) } : cantonZoom(h));
 
+    var ctxLabels = families.map(function (lord) {
+      var mine = ctx.filter(function (f) { return f.properties.lord === lord; });
+      if (!mine.length) return null;
+      var big = mine.reduce(function (a, b) { return d3.geoArea(b) > d3.geoArea(a) ? b : a; });
+      return { key: "ctx-" + lord, text: "Other " + FAMILY[lord] + " land", at: largestPoint(big.geometry), cls: "minor" };
+    }).filter(Boolean);
     drawLabels(feats.map(function (f) {
       return { key: f.properties.key, text: f.properties.layer.name, at: largestPoint(f.geometry || f) };
-    }), k);
+    }).concat(ctxLabels), k);
     setLegend(feats.map(function (f) {
       var kind = f.properties.layer.kind;
       return { color: layerColor(f.properties.layer), light: kind === "subject", opacity: f.properties.opacity, label: f.properties.layer.label };
-    }).concat([{ color: "dash", label: "Dashed line: the canton's border today" }]));
+    }).concat(families.filter(function (l) { return ctx.some(function (f) { return f.properties.lord === l; }); }).map(function (l) {
+      return { color: "var(--lord-" + l + ")", opacity: 0.4, label: "Other land of the " + FAMILY[l] + " about " + stop.year + " (from the other cantons' research and the lords stories)" };
+    })).concat([{ color: "dash", label: "Dashed line: the canton's border today" }]));
 
     var land = [];
     stop.layers.forEach(function (l, i) { if (l.kind === "core" || l.kind === "subject") land = land.concat(groups[i]); });
@@ -371,6 +391,41 @@
     d3.select("#stat").html(a ? "Land of " + h.name + ": about " + a.toLocaleString("en-GB") + " km² <span>(own and ruled land)</span>" : "");
     d3.select("#map-note").text("Built from today's municipalities and districts, so small details are approximate.");
   }
+
+  // Noble families whose whole land can be shown for perspective. Generic rulers ("a bishop",
+  // "an abbey", "the Emperor", "other nobles") are many different lords, so they are left out.
+  var FAMILY = { habsburg: "Habsburg", kyburg: "Kyburg", zahringen: "Zähringen", lenzburg: "Lenzburg", savoy: "Savoy", milan: "Milan" };
+  var contextOn = true;
+  // All land of a family at a date: in Switzerland from every canton's research (lordAt), outside
+  // from the lords story step closest to that date (not more than 50 years earlier).
+  function familyLand(lord, year, skip) {
+    var ids = [];
+    Object.keys(communes).forEach(function (id) {
+      if (skip[id]) return;
+      var st = T.lordAt(communes[id], +id, year);
+      if (st && st.lord === lord) ids.push(+id);
+    });
+    var best = null;
+    MAP_STORIES.forEach(function (story) {
+      story.stops.forEach(function (s) {
+        if (s.year > year + 5 || s.year < year - 50) return;
+        if (!s.layers.some(function (l) { return l.kind === lord; })) return;
+        if (!best || Math.abs(s.year - year) < Math.abs(best.year - year)) best = s;
+      });
+    });
+    var out = [];
+    if (best) best.layers.forEach(function (l, i) {
+      if (l.kind !== lord) return;
+      Object.keys(communes).forEach(function (id) {
+        if (!skip[id] && ids.indexOf(+id) === -1 && T.selMatch(l.sel || {}, communes[id], +id)) ids.push(+id);
+      });
+      (l.regions || []).forEach(function (r) { if (euRegion[r]) out.push({ type: "Feature", geometry: euRegion[r].geometry, properties: { key: "ctx-" + lord + "-" + r, lord: lord } }); });
+      (l.countries || []).forEach(function (c) { if (euCountry[c]) out.push({ type: "Feature", geometry: euCountry[c].geometry, properties: { key: "ctx-" + lord + "-" + c, lord: lord } }); });
+    });
+    if (ids.length) out.unshift({ type: "Feature", geometry: merge(ids), properties: { key: "ctx-" + lord + "-ch", lord: lord } });
+    return out;
+  }
+  d3.select("#ctx-toggle").on("click", function () { contextOn = !contextOn; render(); });
 
   // Map stories (content-stories.js): areas built from today's municipalities and Europe's regions,
   // points for battles and towns, and a view of Switzerland, all of Europe, or a box.
@@ -594,6 +649,7 @@
     d3.select("#chart").attr("hidden", state.mode === "bern" ? null : true);
     d3.select("#back-stories").attr("hidden", STORY_MODES[state.mode] ? null : true);
     if (state.mode !== "story") gPlaces.selectAll("*").remove();
+    if (state.mode !== "canton") { gContext.selectAll("*").remove(); d3.select("#ctx-toggle").attr("hidden", true); }
     if (state.mode === "cantons") drawCantons(s.year);
     else if (state.mode === "bern") drawBern(s.year);
     else if (state.mode === "canton") drawCanton(s);

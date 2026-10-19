@@ -337,7 +337,7 @@
     KINDS: KINDS, UNITED: UNITED, OUTSIDE: OUTSIDE, outsideAt: outsideAt, SIX: SIX, BEFORE_1798: BEFORE_1798, AFTER_1803: AFTER_1803,
     memberCanton: memberCanton, waveOf: waveOf,
     memberGroups: memberGroups, bernGroups: bernGroups, groupBy: groupBy,
-    statusAt: statusAt, territoryGroups: territoryGroups, setAllies: setAllies,
+    statusAt: statusAt, territoryGroups: territoryGroups, setAllies: setAllies, lordAt: lordAt,
     selMatch: selMatch, stopGroups: stopGroups, setHistory: setHistory, stopAt: stopAt
   };
   if (typeof window !== "undefined") window.Territory = api;

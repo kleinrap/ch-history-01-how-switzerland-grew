@@ -1591,7 +1591,7 @@ window.CANTON_HISTORY = [
    "https://hls-dhs-dss.ch/de/articles/008451/",
    "https://hls-dhs-dss.ch/de/articles/007399/"
   ],
-  "notes": "1353: the four parishes around the city are drawn as Bern, Bolligen, Ittigen, Ostermundigen, Stettlen, Vechigen and Muri. 1415 and 1536: old Bern is drawn as today's canton without the districts Jura bernois and Biel, but with the old Nidau bailiwick (lake shore and Nidau). In 1415 Saanen, Schwarzenburg and the Erlach area are left out; the monastery lands of Interlaken are drawn as Bernese, although Bern only took them over fully in 1528. 1555: Saanen and the Pays-d'Enhaut are drawn as Saanen, Gsteig, Lauenen, Château-d'Oex, Rossinière and Rougemont. 1798: the Bern/Oberland line is drawn by today's districts. Vellerat (1996) cannot be drawn alone (now part of Courrendlin). 1200: only the Zähringen towns are drawn, not all their land; Bern's founding year 1191 is the traditional date, the HLS canton article gives no year."
+  "notes": "1353: the four parishes around the city are drawn as Bern, Bolligen, Ittigen, Ostermundigen, Stettlen, Vechigen and Muri. 1415 and 1536: old Bern is drawn as today's canton without the districts Jura bernois and Biel, but with the old Nidau bailiwick (lake shore and Nidau). In 1415 Saanen, Schwarzenburg and the Erlach area are left out; the monastery lands of Interlaken are drawn as Bernese, although Bern only took them over fully in 1528. 1555: Saanen and the Pays-d'Enhaut are drawn as Saanen, Gsteig, Lauenen, Château-d'Oex, Rossinière and Rougemont. 1798: the Bern/Oberland line is drawn by today's districts. Vellerat (1996) cannot be drawn alone (now part of Courrendlin). 1200: only the Zähringen towns are drawn, not all their land; Bern's founding year 1191 is the traditional date, the main canton article gives no year."
  },
  {
   "canton": "LU",
@@ -2155,7 +2155,7 @@ window.CANTON_HISTORY = [
      }
     ],
     "uncertain": [
-     "King Henry (VII) gives this charter in 1231 (the HLS article on Uri gives no year)."
+     "King Henry (VII) gives this charter in 1231 (the main article on Uri gives no year)."
     ]
    },
    {
@@ -5915,7 +5915,7 @@ window.CANTON_HISTORY = [
      }
     ],
     "uncertain": [
-     "Payerne and Avenches return to Vaud in 1802 (one HLS article gives 16 October 1802; the HLS article on Fribourg says the split came already in 1801)."
+     "Payerne and Avenches return to Vaud in 1802 (one source gives 16 October 1802; the article on Fribourg says the split came already in 1801)."
     ]
    },
    {
@@ -10043,7 +10043,7 @@ window.CANTON_HISTORY = [
      }
     ],
     "uncertain": [
-     "Austria still keeps the lordship of Rhäzüns in 1803. HLS (Bonaduz) says Rhäzüns came to Graubünden only in 1819, but HLS (Graubünden) says the 1803 constitution already included Rhäzüns."
+     "Austria still keeps the lordship of Rhäzüns in 1803. One source (article Bonaduz) says Rhäzüns came to Graubünden only in 1819, but another (article Graubünden) says the 1803 constitution already included Rhäzüns."
     ]
    },
    {

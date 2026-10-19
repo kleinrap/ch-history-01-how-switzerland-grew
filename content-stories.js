@@ -356,7 +356,7 @@ window.MAP_STORIES = [
     ],
     "uncertain": [
      "All borders are rough: they are drawn with today's cantons, districts and foreign regions. The eastern Plateau (east of Zürich) and central Switzerland are drawn or left blank without exact evidence.",
-     "Most other valleys of Graubünden may have been Celtic, not Raetian (HLS Räter, opinion of R. Frei-Stolba); they are left blank."
+     "Most other valleys of Graubünden may have been Celtic, not Raetian (opinion of R. Frei-Stolba); they are left blank."
     ]
    },
    {
@@ -499,7 +499,7 @@ window.MAP_STORIES = [
      }
     ],
     "uncertain": [
-     "The Mont Vully burn layer was once linked with 58 BC; HLS says this idea was given up (fire about 80 BC).",
+     "The Mont Vully burn layer was once linked with 58 BC; this idea was given up (fire about 80 BC).",
      "The extent of Gallia Narbonensis is drawn very roughly."
     ]
    },
@@ -631,7 +631,7 @@ window.MAP_STORIES = [
      }
     ],
     "uncertain": [
-     "The place of the battle is not certain (HLS: 'vermutlich bei Montmort'). The point is set at the village of Montmort."
+     "The place of the battle is not certain (the source says 'probably near Montmort'). The point is set at the village of Montmort."
     ]
    },
    {
@@ -987,7 +987,7 @@ window.MAP_STORIES = [
      }
     ],
     "uncertain": [
-     "The HLS gives 16–15 BC for Zürich and Chur and 15 BC for the main campaign; the step uses 15 BC.",
+     "The sources give 16–15 BC for Zürich and Chur and 15 BC for the main campaign; the step uses 15 BC.",
      "Coloured areas are rough; Bavaria, Tyrol and Vorarlberg are whole modern states."
     ]
    },
@@ -1149,7 +1149,7 @@ window.MAP_STORIES = [
      }
     ],
     "uncertain": [
-     "The start of the legion camp is dated differently in the HLS: 14 (Römisches Reich), about 16/17 (Aventicum), end of 16 (Römisches Heer).",
+     "The start of the legion camp is dated differently in the sources: 14, about 16/17, or the end of 16.",
      "Where exactly the border between Belgica and Raetia ran in the east is not known; central and eastern Switzerland are left blank or drawn roughly."
     ]
    },
@@ -1520,7 +1520,7 @@ window.MAP_STORIES = [
     "uncertain": [
      "The road lists date from different times (the Itinerarium Antonini is 3rd century); this step is placed at AD 47 for the story only.",
      "The exact line of many Roman roads is not known; the points mark towns and passes along the routes, not the roads themselves.",
-     "Whether the Septimer or the Julier was more important is unclear (HLS Julierpass)."
+     "Whether the Septimer or the Julier was more important is unclear."
     ]
    },
    {
@@ -1793,7 +1793,7 @@ window.MAP_STORIES = [
     ],
     "uncertain": [
      "Province borders are drawn with whole modern cantons and regions (for example all of Baden-Württemberg, Rhineland-Palatinate and Bavaria); the real borders were different.",
-     "Central Switzerland (UR, SZ, OW, NW) is left blank: the HLS gives no province for it here."
+     "Central Switzerland (UR, SZ, OW, NW) is left blank: the sources give no province for it here."
     ]
    },
    {
@@ -1938,7 +1938,7 @@ window.MAP_STORIES = [
      }
     ],
     "uncertain": [
-     "HLS Augusta Raurica dates the destruction of the civil town to 273/274; HLS Römisches Reich gives 275–277.",
+     "One source dates the destruction of the civil town to 273/274; another gives 275–277.",
      "The Alemanni area is shown as all of Baden-Württemberg, which is only a rough picture of the Dekumatland."
     ]
    },
@@ -2164,8 +2164,8 @@ window.MAP_STORIES = [
      }
     ],
     "uncertain": [
-     "Year of the troop withdrawal: HLS Römisches Reich says 400, HLS Völkerwanderung 401, other HLS articles 401/402; the text says 'about 401'.",
-     "Geneva's late Roman province is not named in the HLS texts used; Geneva is left blank.",
+     "Year of the troop withdrawal: the sources give 400, 401 or 401/402; the text says 'about 401'.",
+     "Geneva's late Roman province is not named in the sources used; Geneva is left blank.",
      "Whether late Roman Raetia included all of eastern Switzerland is not checked; drawn roughly."
     ]
    }
@@ -2177,7 +2177,7 @@ window.MAP_STORIES = [
    "https://hls-dhs-dss.ch/de/articles/007866/",
    "https://hls-dhs-dss.ch/de/articles/012289/"
   ],
-  "notes": "All areas are built from today's cantons, districts and foreign regions (French départements, Italian provinces, whole German and Austrian states), so ancient borders are only rough. Kinds are used for colour: 'roman' = the main Gaulish province of the Plateau (Belgica, Germania superior, Maxima Sequanorum), 'other' = Raetia, 'ally' = Alpes Graiae et Poeninae, 'noble' = Gallia Narbonensis, 'empire' = Italy; in step 2 'ally' = Raurici, 'noble' = Valais tribes, 'milan' = Lepontii. Negative years are BC. Quotes were taken from Wayback Machine copies of the HLS articles (HLS itself blocked direct access)."
+  "notes": "All areas are built from today's cantons, districts and foreign regions (French départements, Italian provinces, whole German and Austrian states), so ancient borders are only rough. Kinds are used for colour: 'roman' = the main Gaulish province of the Plateau (Belgica, Germania superior, Maxima Sequanorum), 'other' = Raetia, 'ally' = Alpes Graiae et Poeninae, 'noble' = Gallia Narbonensis, 'empire' = Italy; in step 2 'ally' = Raurici, 'noble' = Valais tribes, 'milan' = Lepontii. Negative years are BC."
  },
  {
   "id": "early-middle-ages",
@@ -2300,7 +2300,7 @@ window.MAP_STORIES = [
      }
     ],
     "uncertain": [
-     "The location of the Sapaudia is disputed (HLS Sapaudia). The coloured area follows the newer reading and is drawn with whole cantons and Bernese districts; the Bernese Oberland is left out without evidence either way."
+     "The location of the Sapaudia is disputed. The coloured area follows the newer reading and is drawn with whole cantons and Bernese districts; the Bernese Oberland is left out without evidence either way."
     ]
    },
    {
@@ -2734,7 +2734,7 @@ window.MAP_STORIES = [
      }
     ],
     "uncertain": [
-     "Saint-Maurice is often called the oldest monastery in Switzerland still in existence; this is not stated in the quoted HLS text and is left out."
+     "Saint-Maurice is often called the oldest monastery in Switzerland still in existence; this is not stated in the quoted source and is left out."
     ]
    },
    {
@@ -2915,7 +2915,7 @@ window.MAP_STORIES = [
      }
     ],
     "uncertain": [
-     "The battle point is set at the town of Autun; HLS only says 'bei Autun'."
+     "The battle point is set at the town of Autun; the source only says 'near Autun'."
     ]
    },
    {
@@ -3375,7 +3375,7 @@ window.MAP_STORIES = [
     ],
     "uncertain": [
      "The coloured areas only show the rough political frame; Alemannic settlement in the 7th century did not yet cover all of it (especially the Alps).",
-     "That the west kept its Romance speech is supported only by the HLS phrase 'romanisch geprägte Westschweiz' (for 561)."
+     "That the west kept its Romance speech is supported only by the phrase 'romanisch geprägte Westschweiz' (for 561)."
     ]
    }
   ],
@@ -3386,7 +3386,7 @@ window.MAP_STORIES = [
    "https://hls-dhs-dss.ch/de/articles/047784/",
    "https://hls-dhs-dss.ch/de/articles/011411/"
   ],
-  "notes": "All areas are rough and built from today's cantons, districts and foreign regions (whole French départements, Italian provinces, German and Austrian states). Kinds used for colour: 'burgundians' = Burgundian kingdom, 'france' = Frankish kingdom, 'burgundy' = Frankish part-kingdom of Burgundy (Ultrajurania), 'alemanni' = Alemanni, 'other' = Ostrogothic/Italian rule, 'noble' = Churrätien. Quotes were taken from Wayback Machine copies of the HLS articles."
+  "notes": "All areas are rough and built from today's cantons, districts and foreign regions (whole French départements, Italian provinces, German and Austrian states). Kinds used for colour: 'burgundians' = Burgundian kingdom, 'france' = Frankish kingdom, 'burgundy' = Frankish part-kingdom of Burgundy (Ultrajurania), 'alemanni' = Alemanni, 'other' = Ostrogothic/Italian rule, 'noble' = Churrätien."
  },
  {
   "id": "church-lords",
@@ -5696,7 +5696,7 @@ window.MAP_STORIES = [
      }
     ],
     "uncertain": [
-     "Anna of Zähringen was Berchtold V's daughter or sister (HLS gives both).",
+     "Anna of Zähringen was Berchtold V's daughter or sister (the sources give both).",
      "The counts of Urach get the land north of the Rhine."
     ]
    },
@@ -6082,7 +6082,7 @@ window.MAP_STORIES = [
    "https://hls-dhs-dss.ch/de/articles/019520/2024-02-20/",
    "https://hls-dhs-dss.ch/de/articles/019506/"
   ],
-  "notes": "The Breisgau home of the Zähringen is shown only by points, because Germany can only be drawn by whole states. The Rectorate of Burgundy is a claim, drawn very roughly. HLS warns that older research overstates the Zähringen 'town-founding plan'; only Fribourg and Bern were clearly towns before 1218. Kyburg lands are drawn as whole districts or cantons (Thurgau, Winterthur, Pfäffikon, Glarus) and are approximate; Glarus is Säckingen abbey land with Kyburg as governors (1200–1264). Kyburg town dates are those in HLS (several only 'later' or 'about'). Hartmann IV's death year (1264) follows from HLS 'one year after' Hartmann V (1263). The Kyburg split of about 1250 is simplified."
+  "notes": "The Breisgau home of the Zähringen is shown only by points, because Germany can only be drawn by whole states. The Rectorate of Burgundy is a claim, drawn very roughly. Newer research warns that older research overstates the Zähringen 'town-founding plan'; only Fribourg and Bern were clearly towns before 1218. Kyburg lands are drawn as whole districts or cantons (Thurgau, Winterthur, Pfäffikon, Glarus) and are approximate; Glarus is Säckingen abbey land with Kyburg as governors (1200–1264). Kyburg town dates follow the sources (several only 'later' or 'about'). Hartmann IV's death year (1264) follows from 'one year after' Hartmann V in the source (1263). The Kyburg split of about 1250 is simplified."
  },
  {
   "id": "habsburg",
@@ -9954,7 +9954,7 @@ window.MAP_STORIES = [
      }
     ],
     "uncertain": [
-     "The battle took place on the Bramberg hill near Neuenegg (HLS names the place 'Wyden')."
+     "The battle took place on the Bramberg hill near Neuenegg (the place is called 'Wyden')."
     ]
    },
    {
@@ -10669,7 +10669,7 @@ window.MAP_STORIES = [
     "title": "St. Jakob an der Birs",
     "text": [
      "The Habsburg king Frederick III called in the 'Armagnacs', a large army of French mercenaries led by the Dauphin Louis (later King Louis XI).",
-     "On 26 August 1444 a Confederate force of about 1,500 men attacked them near Basel. After a long fight almost all the Confederates were killed. HLS gives about 1,200 Confederate dead and about 2,000 Armagnac dead.",
+     "On 26 August 1444 a Confederate force of about 1,500 men attacked them near Basel. After a long fight almost all the Confederates were killed. About 1,200 Confederates and about 2,000 Armagnacs died.",
      "But the French army did not march on. On 28 October 1444 the Dauphin made peace at Ensisheim. In 1450 the war ended, and Zurich had to leave its alliance with Habsburg."
     ],
     "view": "ch",
@@ -11757,7 +11757,7 @@ window.MAP_STORIES = [
    "https://hls-dhs-dss.ch/de/articles/008889/2006-03-15/",
    "https://hls-dhs-dss.ch/de/articles/008891/2004-04-14/"
   ],
-  "notes": "Areas are today's cantons; the Confederate territories were smaller, and many areas were subject lands or allies. Burgundy is drawn with French départements plus Belgium, the Netherlands and Luxembourg: very rough; Charles's lands also covered parts of northern France and Germany not shown. Savoy is shown as Vaud plus Savoie: rough. Swabian League shown as Baden-Württemberg and Bavaria: very rough. Grandson point is near Concise/Corcelles where the battle was fought. Calven point is approximate (gorge near Glurns/Taufers). Dead counts are from HLS and are estimates."
+  "notes": "Areas are today's cantons; the Confederate territories were smaller, and many areas were subject lands or allies. Burgundy is drawn with French départements plus Belgium, the Netherlands and Luxembourg: very rough; Charles's lands also covered parts of northern France and Germany not shown. Savoy is shown as Vaud plus Savoie: rough. Swabian League shown as Baden-Württemberg and Bavaria: very rough. Grandson point is near Concise/Corcelles where the battle was fought. Calven point is approximate (gorge near Glurns/Taufers). Numbers of dead are estimates."
  },
  {
   "id": "wars-italy",
@@ -12084,7 +12084,7 @@ window.MAP_STORIES = [
     "title": "Novara: the high point",
     "text": [
      "In 1513 King Louis XII of France sent an army to take Milan back. Swiss troops held Novara.",
-     "On 6 June 1513 the Swiss attacked the French army near Novara and beat it. HLS calls this the high point of Swiss military power.",
+     "On 6 June 1513 the Swiss attacked the French army near Novara and beat it. Historians call this the high point of Swiss military power.",
      "In the same year a Swiss army marched into France and laid siege to Dijon. The town gave up, and France promised to give up Milan and to pay money. The Swiss army went home early, and the king then broke the treaty."
     ],
     "view": [
@@ -12249,7 +12249,7 @@ window.MAP_STORIES = [
     "title": "Marignano: the turning point",
     "text": [
      "In 1515 the new King of France, Francis I, came with a strong army with cavalry and many cannons. Some Swiss captains, from Bern, Solothurn and Fribourg, made a treaty with the king at Gallarate that promised money. Others did not accept it and fought.",
-     "On 13 and 14 September 1515 the armies met at Marignano (today Melegnano), south-east of Milan. On the second morning Venetian troops came to help the French, and the Swiss lost. HLS gives 9,000 to 10,000 Swiss dead.",
+     "On 13 and 14 September 1515 the armies met at Marignano (today Melegnano), south-east of Milan. On the second morning Venetian troops came to help the French, and the Swiss lost. About 9,000 to 10,000 Swiss died.",
      "France took Milan. The Swiss lost to the French guns and to the help from Venice."
     ],
     "view": [
@@ -19405,7 +19405,7 @@ window.MAP_STORIES = [
    "https://hls-dhs-dss.ch/fr/articles/007592/",
    "https://kulturforschung.ch/storage/atlasgr/seiten/32_konfessionen.pdf"
   ],
-  "notes": "Areas are today's municipalities; many were merged, so one old village with another faith can colour a whole new municipality 'mixed' (e.g. Ilanz/Glion, Domleschg, Cazis, Breil/Brigels, Obersaxen Mundaun, Scuol shown Reformed although Tarasp was Catholic and Austrian). Graubünden communes follow the Atlas Graubünden map 'Konfessionsverhältnisse um 1640' read by eye; the exact commune shown mixed near Laax/Falera was not identified (both drawn Catholic); Trimmis drawn mixed. Thurgau, Rheintal and Glarus are drawn mixed as a whole (HLS: Thurgau mostly Reformed with 27 shared churches); only Oberriet is singled out as Catholic in the Rheintal. Toggenburg: HLS says upper part mostly Reformed, lower part mostly Catholic; the split by municipality (incl. Oberuzwil, Uzwil, Degersheim, Jonschwil) is an estimate. County of Baden: Zurzach, Würenlos, Dietikon as shared and Tegerfelden, Schlieren, Oetwil, Hüttikon as Reformed are from general knowledge, not checked one by one. 1529 step: extent of Reformed parishes in common lordships and abbey lands is approximate; Gaster/Weesen shown Reformed because they joined Zurich's 1531 blockade. Echallens group: Villars-le-Terroir, Bottens, Assens per HLS; Poliez-Pittet and Saint-Barthélemy assumed. Date for Orbe and Grandson becoming Reformed (here 1554) not checked. Laufen/Birseck: re-Catholicisation by bishop Blarer in the 1580s, drawn Catholic from 1597. Gex: rough (Bernese 1536–1564, tolerated Reformed later, Catholic by 1685). Nuncio in Lucerne 'from 1586' and Calvin's arrival month (HLS: June 1536) may differ in other sources. The Villmergen memorial is used for both battles. Europe step is very rough (whole countries, German federal states)."
+  "notes": "Areas are today's municipalities; many were merged, so one old village with another faith can colour a whole new municipality 'mixed' (e.g. Ilanz/Glion, Domleschg, Cazis, Breil/Brigels, Obersaxen Mundaun, Scuol shown Reformed although Tarasp was Catholic and Austrian). Graubünden communes follow the Atlas Graubünden map 'Konfessionsverhältnisse um 1640' read by eye; the exact commune shown mixed near Laax/Falera was not identified (both drawn Catholic); Trimmis drawn mixed. Thurgau, Rheintal and Glarus are drawn mixed as a whole (Thurgau was mostly Reformed, with 27 shared churches); only Oberriet is singled out as Catholic in the Rheintal. Toggenburg: the upper part was mostly Reformed, the lower part mostly Catholic; the split by municipality (incl. Oberuzwil, Uzwil, Degersheim, Jonschwil) is an estimate. County of Baden: Zurzach, Würenlos, Dietikon as shared and Tegerfelden, Schlieren, Oetwil, Hüttikon as Reformed are from general knowledge, not checked one by one. 1529 step: extent of Reformed parishes in common lordships and abbey lands is approximate; Gaster/Weesen shown Reformed because they joined Zurich's 1531 blockade. Echallens group: Villars-le-Terroir, Bottens, Assens according to the source; Poliez-Pittet and Saint-Barthélemy assumed. Date for Orbe and Grandson becoming Reformed (here 1554) not checked. Laufen/Birseck: re-Catholicisation by bishop Blarer in the 1580s, drawn Catholic from 1597. Gex: rough (Bernese 1536–1564, tolerated Reformed later, Catholic by 1685). Nuncio in Lucerne 'from 1586' and Calvin's arrival month (June 1536) may differ in other sources. The Villmergen memorial is used for both battles. Europe step is very rough (whole countries, German federal states)."
  },
  {
   "id": "wars-civil",
@@ -20296,7 +20296,7 @@ window.MAP_STORIES = [
    "https://hls-dhs-dss.ch/de/articles/008910/2014-01-22/",
    "https://hls-dhs-dss.ch/de/articles/008911/2013-02-28/"
   ],
-  "notes": "Religion areas are today's cantons and are rough: Glarus, Appenzell, Thurgau, St. Gallen, Graubünden and Aargau were mixed or split; the town of St. Gallen was Reformed. Areas of the 1653 rising are today's districts, rough. The Huttwil oath date differs (4 or 14 May 1653, old and new calendar). The 'milk soup' of 1529 is a traditional story. The exact day of Herzogenbuchsee (June 1653) was not checked in HLS, so the text says 'a few days later'."
+  "notes": "Religion areas are today's cantons and are rough: Glarus, Appenzell, Thurgau, St. Gallen, Graubünden and Aargau were mixed or split; the town of St. Gallen was Reformed. Areas of the 1653 rising are today's districts, rough. The Huttwil oath date differs (4 or 14 May 1653, old and new calendar). The 'milk soup' of 1529 is a traditional story. The exact day of Herzogenbuchsee (June 1653) was not checked, so the text says 'a few days later'."
  },
  {
   "id": "wars-1798",
@@ -20706,7 +20706,7 @@ window.MAP_STORIES = [
     "title": "Nidwalden: the days of terror",
     "text": [
      "In July 1798 every citizen had to swear an oath to the new state. Nidwalden refused and rose up. The Helvetic government asked the French army under General Schauenburg to put down the rising.",
-     "On 9 September 1798 the people of Nidwalden fought a hopeless battle against the French army. HLS gives about 100 dead fighters from Nidwalden and about as many French. More than 300 men, women and children were killed afterwards. Stans, Stansstad, Buochs and Ennetmoos were badly destroyed.",
+     "On 9 September 1798 the people of Nidwalden fought a hopeless battle against the French army. About 100 fighters from Nidwalden died, and about as many French. More than 300 men, women and children were killed afterwards. Stans, Stansstad, Buochs and Ennetmoos were badly destroyed.",
      "People in Nidwalden remembered these days of terror for a long time."
     ],
     "view": "ch",
@@ -21521,7 +21521,7 @@ window.MAP_STORIES = [
    "https://hls-dhs-dss.ch/articles/000762/2020-11-19/",
    "https://hls-dhs-dss.ch/en/articles/008796/2011-04-11/"
   ],
-  "notes": "Front lines of 1799 are drawn as today's cantons and Zurich districts: very rough; the real line ran along the Limmat, the Lake of Zurich and the Linth and moved during the year. The Helvetic Republic also first had different cantons than today. Dates of Suvorov's march after Altdorf (Muotathal fights about 30 Sept-1 Oct; Panix crossing 5-7 Oct) differ slightly between sources; HLS (Elm) gives 5 October for the Panix pass. Route points are main places on the way, not an exact track. Nidwalden numbers come from the HLS Nidwalden article. Neuenegg point: the 1798 fight was around the Sense bridge and the Bramberg; point placed near Neuenegg."
+  "notes": "Front lines of 1799 are drawn as today's cantons and Zurich districts: very rough; the real line ran along the Limmat, the Lake of Zurich and the Linth and moved during the year. The Helvetic Republic also first had different cantons than today. Dates of Suvorov's march after Altdorf (Muotathal fights about 30 Sept-1 Oct; Panix crossing 5-7 Oct) differ slightly between sources; one source gives 5 October for the Panix pass. Route points are main places on the way, not an exact track. Neuenegg point: the 1798 fight was around the Sense bridge and the Bramberg; point placed near Neuenegg."
  },
  {
   "id": "wars-sonderbund",
@@ -22086,7 +22086,7 @@ window.MAP_STORIES = [
     "title": "The war ends",
     "text": [
      "One after the other, the other Sonderbund cantons gave up: Zug on 21 November, then the inner cantons and Valais between 25 and 29 November.",
-     "The war lasted 25 days, and fairly few people died: HLS gives 93 dead soldiers. Dufour wanted to avoid deaths and hatred, so that the Confederation could stay together. This made peace easier."
+     "The war lasted 25 days, and fairly few people died: 93 soldiers died. Dufour wanted to avoid deaths and hatred, so that the Confederation could stay together. This made peace easier."
     ],
     "view": "ch",
     "layers": [
@@ -22338,7 +22338,7 @@ window.MAP_STORIES = [
    "https://hls-dhs-dss.ch/de/articles/000618/",
    "https://hls-dhs-dss.ch/de/articles/009800/"
   ],
-  "notes": "Areas are today's cantons (Jura was part of Bern in 1847; Basel was split into two half-cantons from 1833). No number of dead is given because I did not check one in HLS. The 1891 Federal Council seat (Josef Zemp) is from general knowledge, not checked in this research. Dufour's orders on humane treatment are widely documented but were not checked in HLS for this file."
+  "notes": "Areas are today's cantons (Jura was part of Bern in 1847; Basel was split into two half-cantons from 1833). No number of dead is given because none was checked in a source. The 1891 Federal Council seat (Josef Zemp) is from general knowledge, not checked in this research. Dufour's orders on humane treatment are widely documented but were not checked in a source for this file."
  },
  {
   "id": "languages",
@@ -22859,7 +22859,7 @@ window.MAP_STORIES = [
      }
     ],
     "uncertain": [
-     "The map borders of this step are only a rough picture by today's districts; HLS says the border formed over centuries. The Alemannic settlement of central Switzerland, Uri and Glarus is not dated in the sources used. The St. Gallen founding year 719 is from HLS 'Latein' (not quoted here)."
+     "The map borders of this step are only a rough picture by today's districts; the border formed over centuries. The Alemannic settlement of central Switzerland, Uri and Glarus is not dated in the sources used. The St. Gallen founding year 719 is from the article 'Latein' (not quoted here)."
     ]
    },
    {
@@ -23195,8 +23195,8 @@ window.MAP_STORIES = [
      }
     ],
     "uncertain": [
-     "'German-speaking newcomers rebuilt Chur after the fire' is common knowledge, not stated in the quoted HLS text.",
-     "Walser villages are shown by today's (often merged) municipalities: Arosa includes Langwies, Safiental and Obersaxen Mundaun include non-Walser villages, and Avers is only 'probably' Walser per HLS."
+     "'German-speaking newcomers rebuilt Chur after the fire' is common knowledge, not stated in the quoted source.",
+     "Walser villages are shown by today's (often merged) municipalities: Arosa includes Langwies, Safiental and Obersaxen Mundaun include non-Walser villages, and Avers is only 'probably' Walser according to the source."
     ]
    },
    {
@@ -23510,7 +23510,7 @@ window.MAP_STORIES = [
      }
     ],
     "uncertain": [
-     "Colours use today's districts, as described by HLS for today; they show the border after it settled, not exact 16th-century lines. Leuk district is shown wholly German."
+     "Colours use today's districts, as described for today; they show the border after it settled, not exact 16th-century lines. Leuk district is shown wholly German."
     ]
    },
    {

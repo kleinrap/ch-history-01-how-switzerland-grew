@@ -23,7 +23,7 @@ then open `http://localhost:8000`. Links like `index.html#bern-1798` or `index.h
 ## Files
 
 - `logic.js`: the rules. Every historical territory is a set of today's municipalities.
-- `content.js`: the side-panel text for each date (hand-written, from the HLS).
+- `content.js`: the side-panel text for each date (written in our own words; facts from the HLS and other works).
 - `research/*.json`: the researched history of each canton (5 files, by region). `python3 scripts/build_cantons.py research/central.json research/northeast.json research/northwest.json research/west.json research/south.json` turns them into `content-cantons.js`.
 - `app.js`: map, timeline, legend and chart (d3 + topojson-client from a CDN).
 - `data/`: borders and the municipality list, made by `scripts/fetch_data.py`.
