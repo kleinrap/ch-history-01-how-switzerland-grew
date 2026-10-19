@@ -32,8 +32,9 @@ Published on GitHub Pages from the `main` branch (18 Oct 2026). The repository n
 | 3 | Lords before 1291 on the main map (Habsburg, Kyburg, Zähringen, Savoy, bishops, abbeys) | **Done** (19 Oct 2026): main map steps 1000, 1150, 1218, 1264 with the lords' land; stories Habsburg, Savoy, Zähringen and Kyburg, Bishops and abbeys (with Europe zoom) |
 | 4 | Religion: the Reformation | **Done** (19 Oct 2026): story "Reformation: one Confederation, two faiths", 1519–1712 |
 | 5 | Wars and battles (Morgarten to the Sonderbund War) | **Done** (19 Oct 2026): 6 stories, 46 steps, battles abroad on the Europe map, foreign armies 1798–1799 |
-| 6 | Languages, and municipality mergers since 1850 | Next |
-| 7 | Romans and Celts | Planned |
+| 6 | Languages, and municipality mergers since 1850 | **Done** (20 Oct 2026): story "Languages" (15 BC–2022, BFS language regions 2000/2020 by municipality); story "Municipalities" (built by `scripts/build_municipalities.py` from the BFS register; counts before 1960 from HLS) |
+| 7 | Romans and Celts | **Done** (20 Oct 2026): stories "Celts and Romans" (12 steps) and "The early Middle Ages" (8 steps) |
+| S | Sources for every step | **Done** (20 Oct 2026): 376 steps, 2,325 sources, each with an exact short quote and what it supports; 166 statements shown as "Uncertain". Changes made while checking: `docs/SOURCE-CHANGES.md` |
 | – | Translations (DE, FR, IT) | When both sites have their main content |
 
 Work order across both sites: phase 1 of both together, then one phase at a time, on the site the owner chooses.
@@ -45,6 +46,13 @@ Work order across both sites: phase 1 of both together, then one phase at a time
 3. Items with no online source get a **visit sheet** in `docs/VISITS.md`: what to find, which archive or library, likely files or map numbers, and what to bring back (photo and reference). Sheets are grouped by place, so one visit answers many questions. Likely places: Swiss National Library and swisstopo library (Bern/Wabern), ETH Library map collection (Zurich), the canton archives.
 4. Answers go into `research/*.json` and the note is updated or removed.
 
+## Sources (decided 20 Oct 2026)
+
+- The user: "for certain elements, it is not clear where you found it and whether it's correct." So every step has `sources: [{url, title, quote, supports}]` (in the research JSON; for the steps in content.js in `research/sources-content.json`) and optional `uncertain: [...]`, shown in the panel under "Sources for this step".
+- High-trust sources only (HLS first, official and scholarly pages); Wikipedia is not a source. Quotes were checked word for word against saved page text.
+- `docs/OPEN-QUESTIONS.md` and `uncertain.html` are built from the data (`scripts/build_open_questions.py`, `scripts/build_uncertain.py`).
+
 ## Open next steps
 
-- Sort the open questions and write the first visit sheets.
+- Sort the 166 uncertain statements by impact and write the first archive visit sheets (`docs/VISITS.md`).
+- Translations (DE, FR, IT) when both sites are complete.

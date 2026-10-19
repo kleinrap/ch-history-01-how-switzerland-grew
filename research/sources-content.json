@@ -1,0 +1,1466 @@
+{
+ "cantons:1000": {
+  "sources": [
+   {
+    "url": "https://hls-dhs-dss.ch/de/articles/006620/",
+    "title": "HLS: Burgund (Zweites Königreich)",
+    "quote": "räumlich etwa die Westschweiz einschliesslich Basels, Solothurns, Berns und des Wallis",
+    "supports": "The west belongs to the Kingdom of Burgundy"
+   },
+   {
+    "url": "https://hls-dhs-dss.ch/de/articles/006642/",
+    "title": "HLS: Schwaben",
+    "quote": "Schwaben erstreckte sich in West-Ost-Richtung vom Oberrhein und von der Aare bis zum Lech",
+    "supports": "The east belongs to the Duchy of Swabia"
+   },
+   {
+    "url": "https://hls-dhs-dss.ch/de/articles/007394/",
+    "title": "HLS: Tessin (Kanton)",
+    "quote": "stand im Früh- und Hochmittelalter unter der Herrschaft von Como und Mailand",
+    "supports": "The south belongs to Como and Milan (Italy)"
+   },
+   {
+    "url": "https://hls-dhs-dss.ch/de/articles/008558/",
+    "title": "HLS: Basel (Fürstbistum)",
+    "quote": "Beim Tode König Rudolfs III. von Burgund (1032) fielen Basel und sein jurassisches Hinterland an das Reich.",
+    "supports": "In 1032 Burgundy comes to the Empire"
+   },
+   {
+    "url": "https://hls-dhs-dss.ch/de/articles/008560/",
+    "title": "HLS: Sitten (Fürstbistum)",
+    "quote": "Er stattete 996 die Tarentaise, 999 Basel und Sitten, 1011 Lausanne sowie 1023 Vienne mit Grafschaftsrechten aus",
+    "supports": "The bishops of Basel, Sion and Lausanne get counties (land and rights)"
+   },
+   {
+    "url": "https://hls-dhs-dss.ch/de/articles/011403/",
+    "title": "HLS: Chur (Diözese, Fürstbistum)",
+    "quote": "Zum weltlichen Herrschaftsgebiet des Churer Fürstbischofs gehörten die Stadt Chur",
+    "supports": "The bishop of Chur holds land"
+   },
+   {
+    "url": "https://hls-dhs-dss.ch/de/articles/006642/",
+    "title": "HLS: Schwaben",
+    "quote": "über Reichskirchen, d.h. die Bischofskirchen, die Reichsklöster (Zürich, Zurzach, Reichenau, St. Gallen) und deren Kirchengut",
+    "supports": "The abbey of St. Gallen"
+   },
+   {
+    "url": "https://hls-dhs-dss.ch/de/articles/007385/",
+    "title": "HLS: Schwyz (Kanton)",
+    "quote": "Über ausgedehnten Besitz verfügte das 934 gegründete, vor allem durch adlige Stifter reich begabte Benediktinerkloster Einsiedeln",
+    "supports": "The abbey of Einsiedeln holds much land"
+   }
+  ],
+  "changed": "old: Kings, bishops and abbeys — Around the year 1000 there is no Switzerland. The west belongs to the Kingdom of Burgundy, the east to the Duchy of Swabia, the south to Italy. In 1032 Burgundy also comes to the Emperor. Bishops and abbeys hold much land: the bishops of Basel, Lausanne, Sion, Chur, Constance and Geneva, and abbeys such as St. Gallen and Einsiedeln. Grey areas: the research has no clear ruler for them at this date. | new: Kings, bishops and abbeys — Around the year 1000 there is no Switzerland. The west belongs to the Kingdom of Burgundy, the east to the Duchy of Swabia, the south to Italy (Como and Milan). In 1032 Burgundy also comes to the Emperor. Bishops and abbeys hold much land: the bishops of Basel, Lausanne, Sion and Chur, and abbeys such as St. Gallen and Einsiedeln. Grey areas: the research has no clear ruler for them at this date."
+ },
+ "cantons:1150": {
+  "sources": [
+   {
+    "url": "https://hls-dhs-dss.ch/de/articles/007382/",
+    "title": "HLS: Luzern (Kanton)",
+    "quote": "Als bedeutendste Herren treten die Grafen von Lenzburg hervor, deren Besitz sich vom Limmattal ins Aare- und Seetal erstreckte",
+    "supports": "The counts of Lenzburg rule land in the centre"
+   },
+   {
+    "url": "https://hls-dhs-dss.ch/de/articles/019520/",
+    "title": "HLS: Kyburg, von",
+    "quote": "Grafengeschlecht des 12.-13. Jahrhunderts, deren Besitz sich von der Ostschweiz (Zürich und Thurgau) bis in die heutigen Kantone Aargau, Bern und Freiburg erstreckte.",
+    "supports": "The Kyburg rule land in the east"
+   },
+   {
+    "url": "https://hls-dhs-dss.ch/de/articles/007379/",
+    "title": "HLS: Freiburg (Kanton)",
+    "quote": "Mit der Gründung der Stadt Freiburg setzte Berchtold IV. von Zähringen auf den Saaneraum",
+    "supports": "The Zähringen found Fribourg (1157)"
+   },
+   {
+    "url": "https://hls-dhs-dss.ch/de/articles/007383/",
+    "title": "HLS: Bern (Kanton)",
+    "quote": "In diesem Zusammenhang erfolgten im Aareraum die Stadtgründungen von Burgdorf , Murten , Thun und Bern , vermutlich alle unter dem letzten Zähringer, Berchtold V.",
+    "supports": "The Zähringen found Bern"
+   },
+   {
+    "url": "https://hls-dhs-dss.ch/de/articles/029225/",
+    "title": "HLS: Zähringen, Berchtold V. von",
+    "quote": "vollendete Berchtold V. 1191 die Stadtgründung von Bern",
+    "supports": "Bern is founded about 1191"
+   },
+   {
+    "url": "https://hls-dhs-dss.ch/de/articles/007379/",
+    "title": "HLS: Freiburg (Kanton)",
+    "quote": "Von der Zähringerstadt zum eidgenössischen Ort (1157-1481)",
+    "supports": "Fribourg is founded in 1157"
+   },
+   {
+    "url": "https://hls-dhs-dss.ch/de/articles/019522/",
+    "title": "HLS: Lenzburg, von",
+    "quote": "starben beide Linien 1173 mit Ulrich IV. ( -> ) aus.",
+    "supports": "The Lenzburg family dies out in 1173"
+   },
+   {
+    "url": "https://hls-dhs-dss.ch/de/articles/019520/",
+    "title": "HLS: Kyburg, von",
+    "quote": "Nach dem Abgang der Lenzburger 1172/1173 erhielten neben den Staufern und Zähringern auch die Grafen von Kyburg einen Erbanteil.",
+    "supports": "Its land goes to the Staufer, the Zähringen and the Kyburg"
+   }
+  ],
+  "uncertain": [
+   "The noble families build many castles at this time."
+  ],
+  "changed": "old: Great noble families — Noble families now build castles and rule land: the counts of Lenzburg in the centre, the Kyburg in the east, and the dukes of Zähringen, who found towns such as Fribourg (1157) and Bern (about 1191). The Lenzburg family dies out in 1173. Its land goes to the Kyburg, the Zähringen and others. | new: Great noble families — Noble families now build castles and rule land: the counts of Lenzburg in the centre, the Kyburg in the east, and the dukes of Zähringen, who found towns such as Fribourg (1157) and Bern (about 1191). The Lenzburg family dies out in 1173. Its land goes to the Staufer emperors, the Zähringen and the Kyburg."
+ },
+ "cantons:1218": {
+  "sources": [
+   {
+    "url": "https://hls-dhs-dss.ch/de/articles/007383/",
+    "title": "HLS: Bern (Kanton)",
+    "quote": "Nach dem Tod Berchtolds V. ( 1218 ) zerfiel die Herrschaft in ihre Bestandteile – die Eigengüter gingen an die Kyburger",
+    "supports": "The last duke of Zähringen dies in 1218; the Kyburg take his own lands"
+   },
+   {
+    "url": "https://hls-dhs-dss.ch/de/articles/007383/",
+    "title": "HLS: Bern (Kanton)",
+    "quote": "das von 1218/1220 an dem deutschen König unmittelbar unterstellte Bern",
+    "supports": "Bern is under the king only from 1218"
+   },
+   {
+    "url": "https://hls-dhs-dss.ch/de/articles/007381/",
+    "title": "HLS: Zürich (Kanton)",
+    "quote": "Das seit dem Aussterben der Zähringer 1218 reichsunmittelbare Zürich",
+    "supports": "Zurich is a free imperial town from 1218"
+   },
+   {
+    "url": "https://hls-dhs-dss.ch/de/articles/019520/",
+    "title": "HLS: Kyburg, von",
+    "quote": "Einen weiteren wesentlichen Besitzzuwachs erfuhren die Kyburger als Erben der 1218 abgegangenen Zähringer.",
+    "supports": "The Kyburg take much Zähringen land"
+   }
+  ]
+ },
+ "cantons:1264": {
+  "sources": [
+   {
+    "url": "https://hls-dhs-dss.ch/de/articles/019520/",
+    "title": "HLS: Kyburg, von",
+    "quote": "Als Hartmann V. 1263 starb, übernahm Graf Rudolf von Habsburg als Vormund von dessen Tochter Anna die Verwaltung des Westteils",
+    "supports": "Rudolf of Habsburg takes the Kyburg land"
+   },
+   {
+    "url": "https://hls-dhs-dss.ch/de/articles/007382/",
+    "title": "HLS: Luzern (Kanton)",
+    "quote": "Nach dem Aussterben der kyburgischen Hauptlinie (1264) blieben die Habsburger als einzige Vormacht zurück; ihr weiterer Aufstieg (Wahl Rudolfs I. zum König 1273",
+    "supports": "The Kyburg die out in 1264; Habsburg is the strongest power; Rudolf becomes king in 1273"
+   },
+   {
+    "url": "https://hls-dhs-dss.ch/de/articles/029461/",
+    "title": "HLS: Rudolf I. (Heiliges Römisches Reich)",
+    "quote": "als er am 1. Oktober 1273 überraschend zum König des Heiligen Römischen Reichs gewählt wurde.",
+    "supports": "Rudolf becomes king in 1273"
+   },
+   {
+    "url": "https://hls-dhs-dss.ch/de/articles/007395/",
+    "title": "HLS: Waadt",
+    "quote": "Aber erst dessen Sohn Peter II. nahm die Waadt eigentlich in Besitz, indem er 1240-1260 systematisch Feudalrechte erwarb",
+    "supports": "In the west, Savoy rules most of Vaud"
+   }
+  ]
+ },
+ "cantons:1291": {
+  "sources": [
+   {
+    "url": "https://hls-dhs-dss.ch/de/articles/007385/",
+    "title": "HLS: Schwyz (Kanton)",
+    "quote": "Die jüngere Forschung deutet das Bündnis von 1291 dagegen als eine die Herrschaft bewahrende Landfriedensordnung, in welcher neben gegenseitigen Hilfsverpflichtungen",
+    "supports": "Uri, Schwyz and Unterwalden make an alliance in 1291 to help each other and keep the peace (not an alliance against the lords)"
+   },
+   {
+    "url": "https://hls-dhs-dss.ch/de/articles/009600/",
+    "title": "HLS: Bundesbriefe",
+    "quote": "Die Zuordnung der Partner variiert von Gleichberechtigung (z.B. Bundesbriefe der drei Waldstätte 1291 und 1315)",
+    "supports": "The Federal Charter of 1291 of the three valleys"
+   },
+   {
+    "url": "https://hls-dhs-dss.ch/de/articles/007411/",
+    "title": "HLS: Nidwalden",
+    "quote": "Im Bündnis von 1315 wie in allen folgenden eidgenössischen Bündnissen erscheinen Ob- und Nidwalden dann gemeinsam als \"Landleute von Unterwalden\"",
+    "supports": "Unterwalden is made of Obwalden and Nidwalden"
+   },
+   {
+    "url": "https://hls-dhs-dss.ch/de/articles/007410/",
+    "title": "HLS: Obwalden",
+    "quote": "1815 schlossen sich das Tal und das Kloster Engelberg wegen der restaurativen Politik Nidwaldens ihnen gegenüber Obwalden an",
+    "supports": "Engelberg joins Obwalden in 1815"
+   },
+   {
+    "url": "https://hls-dhs-dss.ch/de/articles/007467/",
+    "title": "HLS: Ursern",
+    "quote": "1410 schlossen die Ursner, deren Oberschicht ähnliche wirtschaftliche Interessen hatte wie die Urner, mit Uri ein Landrecht.",
+    "supports": "Uri gets the Urseren valley in 1410"
+   },
+   {
+    "url": "https://hls-dhs-dss.ch/de/articles/007385/",
+    "title": "HLS: Schwyz (Kanton)",
+    "quote": "In Küssnacht verfügte Schwyz seit 1383 über eine Zollstätte, 1402 kaufte es die Vogtei- und Gerichtsgewalt",
+    "supports": "Schwyz gets Küssnacht in the 1400s (1402)"
+   },
+   {
+    "url": "https://hls-dhs-dss.ch/de/articles/007385/",
+    "title": "HLS: Schwyz (Kanton)",
+    "quote": "1424 wurde die Schwyzer Kastvogtei über das Kloster errichtet.",
+    "supports": "Schwyz gets Einsiedeln in the 1400s (1424)"
+   },
+   {
+    "url": "https://hls-dhs-dss.ch/de/articles/007385/",
+    "title": "HLS: Schwyz (Kanton)",
+    "quote": "die am Zürichsee gelegenen, 1440 eroberten Höfe Wollerau und Pfäffikon",
+    "supports": "Schwyz gets the Höfe in the 1400s (1440)"
+   },
+   {
+    "url": "https://hls-dhs-dss.ch/de/articles/007385/",
+    "title": "HLS: Schwyz (Kanton)",
+    "quote": "die hohe Gerichtsbarkeit im Land Schwyz, in Einsiedeln, Küssnacht und in der March.",
+    "supports": "Schwyz gets the March in the 1400s (high justice from King Sigismund, 1415)"
+   }
+  ],
+  "changed": "old: Three valleys make a pact — Uri, Schwyz and Unterwalden promise to help each other against outside lords. The Federal Charter of 1291 is the oldest written record of this alliance. Unterwalden is today two cantons: Obwalden and Nidwalden. The abbey of Engelberg, in the south, joins Obwalden only in 1815. Uri and Schwyz are smaller than today. Uri gets the Urseren valley in 1410. Schwyz gets Küssnacht, Einsiedeln, the March and the Höfe in the 1400s. The tab \"Every canton\" shows each canton step by step. | new: Three valleys make a pact — Uri, Schwyz and Unterwalden promise to help each other and to keep the peace. The Federal Charter of 1291 records this alliance. Unterwalden is today two cantons: Obwalden and Nidwalden. The abbey of Engelberg, in the south, joins Obwalden only in 1815. Uri and Schwyz are smaller than today. Uri gets the Urseren valley in 1410. Schwyz gets Küssnacht, Einsiedeln, the March and the Höfe in the 1400s. The tab \"Every canton\" shows each canton step by step."
+ },
+ "cantons:1332": {
+  "sources": [
+   {
+    "url": "https://hls-dhs-dss.ch/de/articles/026413/",
+    "title": "HLS: Eidgenossenschaft",
+    "quote": "Die mittels Verschwörungen und Verfassungsänderungen an die Macht drängende Bürgerschaft der habsburgischen Landstadt Luzern suchte 1332 ebenso militärischen Rückhalt bei den Ländern",
+    "supports": "Lucerne, a Habsburg town, makes an alliance with the three valleys in 1332"
+   },
+   {
+    "url": "https://hls-dhs-dss.ch/de/articles/026413/",
+    "title": "HLS: Eidgenossenschaft",
+    "quote": "wie die Bürger der Reichsstadt Zürich 1351",
+    "supports": "Lucerne is the first town; Zurich follows in 1351"
+   },
+   {
+    "url": "https://hls-dhs-dss.ch/de/articles/007382/",
+    "title": "HLS: Luzern (Kanton)",
+    "quote": "Der gesamte Gotthardtransit wie auch die Versorgung der Märkte in den Urkantonen war auf den Seeweg angewiesen.",
+    "supports": "The lake connects Lucerne and the three valleys"
+   }
+  ],
+  "changed": "old: Lucerne joins — Lucerne is the first town to join. It controls the lake that connects the three valleys. | new: Lucerne joins — Lucerne, a town under Habsburg rule, makes an alliance with the three valleys. It is the first town to join. It lies on the lake that connects the three valleys."
+ },
+ "cantons:1351": {
+  "sources": [
+   {
+    "url": "https://hls-dhs-dss.ch/de/articles/007381/",
+    "title": "HLS: Zürich (Kanton)",
+    "quote": "verbündete sich 1351 mit den Waldstätten Uri, Schwyz und Unterwalden sowie Luzern",
+    "supports": "Zurich makes an alliance with Uri, Schwyz, Unterwalden and Lucerne in 1351"
+   },
+   {
+    "url": "https://hls-dhs-dss.ch/de/articles/007381/",
+    "title": "HLS: Zürich (Kanton)",
+    "quote": "Das seit dem Aussterben der Zähringer 1218 reichsunmittelbare Zürich",
+    "supports": "Zurich is a free imperial town"
+   }
+  ],
+  "changed": "old: Zurich joins — Zurich, a rich trading town, makes an alliance with the four lake cantons. | new: Zurich joins — Zurich, a free imperial town, makes an alliance with the four lake cantons."
+ },
+ "cantons:1352": {
+  "sources": [
+   {
+    "url": "https://hls-dhs-dss.ch/de/articles/007374/",
+    "title": "HLS: Glarus (Kanton)",
+    "quote": "Juni 1352 schlossen Zürich und die Waldstätte (ohne Luzern) einen Bund mit Ammann und Landleuten von Glarus, allerdings nicht auf gleichberechtigter Basis.",
+    "supports": "Glarus joins in 1352, with a weaker alliance"
+   },
+   {
+    "url": "https://hls-dhs-dss.ch/de/articles/007374/",
+    "title": "HLS: Glarus (Kanton)",
+    "quote": "Wohl erst 1473 kam Glarus zu einem «besseren Bund»",
+    "supports": "Glarus becomes a full member later"
+   },
+   {
+    "url": "https://hls-dhs-dss.ch/de/articles/007373/",
+    "title": "HLS: Zug (Kanton)",
+    "quote": "führte 1352 unter Führung Zürichs zur Belagerung der Stadt Zug und zum erzwungenen Bündnis",
+    "supports": "Zug joins in the same year, 1352"
+   }
+  ],
+  "uncertain": [
+   "The first alliance of Zug was weaker than the others, and Zug became a full member later."
+  ]
+ },
+ "cantons:1353": {
+  "sources": [
+   {
+    "url": "https://hls-dhs-dss.ch/de/articles/007383/",
+    "title": "HLS: Bern (Kanton)",
+    "quote": "Die eidgenössische Geschichtsschreibung hat das erste unbefristete Bündnis Berns mit Uri , Schwyz und Unterwalden von 1353 später als Beitritt zur Eidgenossenschaft interpretiert",
+    "supports": "Bern makes an alliance with Uri, Schwyz and Unterwalden in 1353"
+   },
+   {
+    "url": "https://hls-dhs-dss.ch/de/articles/026413/",
+    "title": "HLS: Eidgenossenschaft",
+    "quote": "Verschiedene der acht Orte waren nicht direkt miteinander verschworen (u.a. Bern nicht mit Luzern, Zürich, Zug und Glarus",
+    "supports": "The confederation now has eight members (the eight Orte); Bern is not directly allied with all of them"
+   },
+   {
+    "url": "https://hls-dhs-dss.ch/de/articles/007383/",
+    "title": "HLS: Bern (Kanton)",
+    "quote": "Die Stadt erwarb um 1300 die vier umliegenden Kirchspiele Bolligen , Vechigen , Stettlen und Muri",
+    "supports": "Bern holds a few parishes around the city"
+   },
+   {
+    "url": "https://hls-dhs-dss.ch/de/articles/007383/",
+    "title": "HLS: Bern (Kanton)",
+    "quote": "Nach der königlichen Bestätigung der Reichspfandschaften Laupen und Hasli 1348",
+    "supports": "Bern holds Laupen and the Hasli valley"
+   },
+   {
+    "url": "https://hls-dhs-dss.ch/de/articles/007381/",
+    "title": "HLS: Zürich (Kanton)",
+    "quote": "blieb aber bis zur Mitte des 14. Jahrhundert auf das Stadtgebiet beschränkt.",
+    "supports": "Zurich is only its city"
+   },
+   {
+    "url": "https://hls-dhs-dss.ch/de/articles/007382/",
+    "title": "HLS: Luzern (Kanton)",
+    "quote": "Der Erwerb von Herrschaftsrechten setzte 1380 mit dem Kauf der Vogtei Weggis ein.",
+    "supports": "Lucerne is only its city; it begins to buy land in 1380"
+   },
+   {
+    "url": "https://hls-dhs-dss.ch/de/articles/007381/",
+    "title": "HLS: Zürich (Kanton)",
+    "quote": "begann die Stadt Zürich vor allem durch Pfandschaft und Kauf ein Territorium zu erwerben",
+    "supports": "The towns grow by buying land"
+   }
+  ]
+ },
+ "cantons:1415": {
+  "sources": [
+   {
+    "url": "https://hls-dhs-dss.ch/de/articles/007383/",
+    "title": "HLS: Bern (Kanton)",
+    "quote": "wandte sich Bern 1415, durch König Sigismund und das Konstanzer Konzil dazu aufgefordert, gegen Herzog Friedrich IV. von Habsburg-Österreich",
+    "supports": "King Sigismund asks the Swiss to attack the Habsburg duke in 1415"
+   },
+   {
+    "url": "https://hls-dhs-dss.ch/de/articles/008298/",
+    "title": "HLS: Freie Ämter",
+    "quote": "Bern sicherte sich den Westteil des Aargaus.",
+    "supports": "Bern takes the west of the Aargau"
+   },
+   {
+    "url": "https://hls-dhs-dss.ch/de/articles/007392/",
+    "title": "HLS: Aargau",
+    "quote": "1415-1798 umfasste das heutige Kantonsgebiet den Berner oder Unteraargau, die Grafschaft Baden, die Freien Ämter",
+    "supports": "The Aargau is split into the Bernese Aargau, the County of Baden and the Freie Ämter"
+   },
+   {
+    "url": "https://hls-dhs-dss.ch/de/articles/008298/",
+    "title": "HLS: Freie Ämter",
+    "quote": "1435 wurde der erste nicht residierende Landvogt gewählt und die gemeine Herrschaft in 13 Ämter gegliedert",
+    "supports": "The Freie Ämter are a shared ruled land (gemeine Herrschaft)"
+   },
+   {
+    "url": "https://hls-dhs-dss.ch/de/articles/008298/",
+    "title": "HLS: Freie Ämter",
+    "quote": "Äusserungen der Landesherrschaft waren Setzung eines Landvogts im Zweijahresturnus",
+    "supports": "A governor every two years, in turn"
+   }
+  ],
+  "changed": "old: The Swiss take the Aargau — The Emperor asks the Swiss to attack the Habsburg duke. Bern takes the west of the Aargau for itself (red with stripes: ruled by Bern, no vote). The east, the County of Baden and the Freie Ämter, is shared: the cantons rule it together (purple). A governor comes from a different canton every two years. | new: The Swiss take the Aargau — King Sigismund asks the Swiss to attack the Habsburg duke. Bern takes the west of the Aargau for itself (red with stripes: ruled by Bern, no vote). The east, the County of Baden and the Freie Ämter, is shared: the cantons rule it together (purple). A governor comes from a different canton every two years."
+ },
+ "cantons:1460": {
+  "sources": [
+   {
+    "url": "https://hls-dhs-dss.ch/de/articles/007393/",
+    "title": "HLS: Thurgau",
+    "quote": "Da die eidgenössischen Orte den Rhein als Grenze anstrebten, liessen sie sich 1460 von Papst Pius II.",
+    "supports": "The cantons take Thurgau in 1460"
+   },
+   {
+    "url": "https://hls-dhs-dss.ch/de/articles/007393/",
+    "title": "HLS: Thurgau",
+    "quote": "Deren Nachkommen besetzten es mit wenigen Unterbrechungen bis zum Untergang der gemeinen Herrschaft 1798.",
+    "supports": "Thurgau is ruled together (shared ruled land) until 1798"
+   },
+   {
+    "url": "https://hls-dhs-dss.ch/de/articles/007390/",
+    "title": "HLS: St. Gallen (Kanton)",
+    "quote": "1451 wurden die Fürstabtei St. Gallen und 1454 die Stadt St. Gallen zugewandte Orte der Eidgenossenschaft.",
+    "supports": "The Abbey and the town of St. Gallen become allies"
+   },
+   {
+    "url": "https://hls-dhs-dss.ch/de/articles/009815/",
+    "title": "HLS: Zugewandte Orte",
+    "quote": "In der frühen Neuzeit lassen sich zugewandte Orte mit und ohne Sitz an der politischen Versammlung der Eidgenossen, der Tagsatzung , unterscheiden.",
+    "supports": "Allies are not full members"
+   },
+   {
+    "url": "https://hls-dhs-dss.ch/de/articles/009830/",
+    "title": "HLS: Schirmherrschaften",
+    "quote": "Sie konnten zwar mehr Selbstverwaltung praktizieren als die gemeinen Herrschaften, aber weniger als die zugewandten Orte",
+    "supports": "Allies have their own government"
+   }
+  ]
+ },
+ "cantons:1481": {
+  "sources": [
+   {
+    "url": "https://hls-dhs-dss.ch/de/articles/007379/",
+    "title": "HLS: Freiburg (Kanton)",
+    "quote": "1481 durch das Stanser Verkommnis – mit Berner Unterstützung und trotz des Widerstands der Länderorte – der Eidgenossenschaft beitreten konnte.",
+    "supports": "Fribourg joins through the Stans agreement of 1481, against the country cantons"
+   },
+   {
+    "url": "https://hls-dhs-dss.ch/de/articles/007386/",
+    "title": "HLS: Solothurn (Kanton)",
+    "quote": "Die Spannungen lösten sich erst 1481 mit dem Stanser Verkommnis und der allerdings mit einschränkenden Bedingungen verknüpften Aufnahme von Solothurn und Freiburg in den Bund.",
+    "supports": "Solothurn and Fribourg join in 1481 after a dispute"
+   },
+   {
+    "url": "https://hls-dhs-dss.ch/de/articles/026414/",
+    "title": "HLS: Kantone",
+    "quote": "leitete mit der gemeinsamen Aufnahme von Solothurn und Freiburg, allerdings in zurückgesetzter Stellung, die Erweiterung zur dreizehnörtigen Eidgenossenschaft ein.",
+    "supports": "The Stans agreement lets Fribourg and Solothurn in"
+   },
+   {
+    "url": "https://hls-dhs-dss.ch/de/articles/009805/",
+    "title": "HLS: Stanser Verkommnis",
+    "quote": "In den Verhandlungen zwischen den Städte- und Länderorten wurde die Krise durch zwei Verträge überwunden",
+    "supports": "A hard dispute between town and country cantons"
+   },
+   {
+    "url": "https://hls-dhs-dss.ch/de/articles/009805/",
+    "title": "HLS: Stanser Verkommnis",
+    "quote": "Ferner folgen aufgrund der Erfahrungen der Burgunderkriege Bestimmungen über die Teilung der Kriegsbeute",
+    "supports": "After the wars against Burgundy"
+   }
+  ],
+  "changed": "old: Fribourg and Solothurn join — After the wars against Burgundy, the two towns ask to join. The Stans agreement of 1481 lets them in, after a hard dispute between town and country cantons. | new: Fribourg and Solothurn join — After the wars against Burgundy, the two towns join. The Stans agreement of 1481 lets them in, after a hard dispute between town and country cantons."
+ },
+ "cantons:1501": {
+  "sources": [
+   {
+    "url": "https://hls-dhs-dss.ch/de/articles/007387/",
+    "title": "HLS: Basel (Kanton)",
+    "quote": "1501, beim Eintritt Basels in den Bund der Eidgenossen, war die Territorialbildung Basels noch nicht abgeschlossen.",
+    "supports": "Basel joins in 1501"
+   },
+   {
+    "url": "https://hls-dhs-dss.ch/de/articles/007388/",
+    "title": "HLS: Schaffhausen (Kanton)",
+    "quote": "1501 trat die Stadt als zwölfter Ort der Eidgenossenschaft bei.",
+    "supports": "Schaffhausen joins in 1501"
+   },
+   {
+    "url": "https://hls-dhs-dss.ch/de/articles/007387/",
+    "title": "HLS: Basel (Kanton)",
+    "quote": "1833 Trennung in die beiden Halbkantone Basel-Stadt und Basel-Landschaft .",
+    "supports": "Basel splits into Basel-Stadt and Basel-Landschaft in 1833"
+   }
+  ]
+ },
+ "cantons:1513": {
+  "sources": [
+   {
+    "url": "https://hls-dhs-dss.ch/de/articles/007389/",
+    "title": "HLS: Appenzell (Kanton)",
+    "quote": "Erst die Krise nach dem Dijonerzug von 1513 machte die Eidgenossen bereit, Appenzell am 17. Dezember 1513 in den Bund aufzunehmen.",
+    "supports": "Appenzell joins in 1513"
+   },
+   {
+    "url": "https://hls-dhs-dss.ch/de/articles/007389/",
+    "title": "HLS: Appenzell (Kanton)",
+    "quote": "Die Bestrebungen Appenzells zur Aufnahme in die Eidgenossenschaft als gleichberechtigter, dreizehnter Ort",
+    "supports": "Appenzell is the 13th member"
+   },
+   {
+    "url": "https://hls-dhs-dss.ch/de/articles/007389/",
+    "title": "HLS: Appenzell (Kanton)",
+    "quote": "1597 Trennung in Appenzell Ausserrhoden und Appenzell Innerrhoden .",
+    "supports": "Appenzell splits in 1597"
+   },
+   {
+    "url": "https://hls-dhs-dss.ch/de/articles/009815/",
+    "title": "HLS: Zugewandte Orte",
+    "quote": "Mit den sieben alten Orten waren der Graue Bund und der Gotteshausbund assoziiert",
+    "supports": "The Three Leagues are allies"
+   },
+   {
+    "url": "https://hls-dhs-dss.ch/de/articles/007394/",
+    "title": "HLS: Tessin (Kanton)",
+    "quote": "Die eidgenössischen Truppen bemächtigten sich der Festungen Lugano und Locarno, besetzten deren Umland und schufen im eroberten Gebiet die gemeinen Herrschaften der zwölf Orte.",
+    "supports": "Ruled lands in Ticino, taken in the wars for Milan"
+   }
+  ],
+  "uncertain": [
+   "For almost 300 years (until 1803), no new canton joins.",
+   "Appenzell splits into a Protestant part (Ausserrhoden) and a Catholic part (Innerrhoden)."
+  ]
+ },
+ "cantons:1536": {
+  "sources": [
+   {
+    "url": "https://hls-dhs-dss.ch/de/articles/007395/",
+    "title": "HLS: Waadt",
+    "quote": "Nachdem sowohl die savoyische als auch die bischöfliche Macht deutlich geschwächt war, nahmen Bern und Freiburg 1536 die Waadt ein.",
+    "supports": "Bern conquers Vaud from Savoy in 1536"
+   },
+   {
+    "url": "https://hls-dhs-dss.ch/de/articles/007383/",
+    "title": "HLS: Bern (Kanton)",
+    "quote": "die Position Berns – des grössten Stadtstaats nördlich der Alpen – im entstehenden europäischen Staatensystem",
+    "supports": "Bern is the largest city-state north of the Alps"
+   },
+   {
+    "url": "https://hls-dhs-dss.ch/de/articles/007383/",
+    "title": "HLS: Bern (Kanton)",
+    "quote": "Die Eroberung der Waadt, des Pays de Gex und von Teilen des Chablais 1536 führte zu wiederholten Waffengängen.",
+    "supports": "Bern takes Gex and the Chablais from Savoy"
+   },
+   {
+    "url": "https://hls-dhs-dss.ch/de/articles/007383/",
+    "title": "HLS: Bern (Kanton)",
+    "quote": "1564 verlor Bern im Lausanner Vertrag seinen Anteil am Chablais und die Vogtei Gex an Savoyen.",
+    "supports": "Bern holds Gex and the Chablais until 1564"
+   },
+   {
+    "url": "https://hls-dhs-dss.ch/de/articles/024650/",
+    "title": "HLS: Lausanner Vertrag",
+    "quote": "die Rückgabe der Herrschaften des Pays de Gex, des Chablais und der Vogteien von Ternier und Gaillard",
+    "supports": "Ternier and Gaillard are also given back (Treaty of Lausanne 1564)"
+   },
+   {
+    "url": "https://hls-dhs-dss.ch/de/articles/007396/",
+    "title": "HLS: Wallis",
+    "quote": "Im Vertrag von Thonon von 1569 zwischen Savoyen und dem Wallis gingen Evian und das Vallée d'Aulps an Savoyen zurück",
+    "supports": "Valais takes Évian in 1536 and holds it until 1569"
+   },
+   {
+    "url": "https://hls-dhs-dss.ch/de/articles/007396/",
+    "title": "HLS: Wallis",
+    "quote": "mit der Eroberung des Chablais 1536 die Landvogteien Monthey und Evian.",
+    "supports": "Valais takes Évian in 1536"
+   },
+   {
+    "url": "https://hls-dhs-dss.ch/de/articles/007391/",
+    "title": "HLS: Graubünden",
+    "quote": "1512-1797 gehörten das Veltlin , Chiavenna und Bormio als Untertanengebiete den Drei Bünden.",
+    "supports": "Graubünden rules the Valtellina from 1512"
+   },
+   {
+    "url": "https://hls-dhs-dss.ch/de/articles/009815/",
+    "title": "HLS: Zugewandte Orte",
+    "quote": "Zur ersten Gruppe gehörten Fürstabt und Stadt St. Gallen und Biel",
+    "supports": "Allies: St. Gallen and Biel"
+   },
+   {
+    "url": "https://hls-dhs-dss.ch/de/articles/009815/",
+    "title": "HLS: Zugewandte Orte",
+    "quote": "sowie Graubünden, Wallis, Mülhausen und Rottweil als sporadische Versammlungsteilnehmer.",
+    "supports": "Allies: Graubünden (Three Leagues), Valais, Mulhouse and Rottweil"
+   },
+   {
+    "url": "https://hls-dhs-dss.ch/de/articles/009815/",
+    "title": "HLS: Zugewandte Orte",
+    "quote": "Zur zweiten Gruppe zählten Stadt und Grafschaft Neuenburg, die Stadt Genf",
+    "supports": "Allies: Neuchâtel and Geneva"
+   },
+   {
+    "url": "https://hls-dhs-dss.ch/de/articles/007396/",
+    "title": "HLS: Wallis",
+    "quote": "Monthey und Saint-Maurice blieben bis 1798 Walliser Landvogteien.",
+    "supports": "Valais rules the Lower Valais"
+   },
+   {
+    "url": "https://hls-dhs-dss.ch/de/articles/009816/",
+    "title": "HLS: Untertanengebiete",
+    "quote": "Ihnen schworen die mündigen Männer Treue und Gehorsam bei der periodischen Huldigung.",
+    "supports": "People in ruled lands must obey and swear loyalty to the ruling cantons"
+   }
+  ],
+  "changed": "old: Bern takes Vaud — Bern conquers Vaud from the Duke of Savoy. Bern is now the largest city-state north of the Alps. Bern also takes land from Savoy that is in France today: Gex, the Chablais, Ternier and Gaillard (until 1564). Valais takes Évian (until 1569). Graubünden has ruled the Valtellina in Italy since 1512. Around the 13 cantons are allies with their own government (green): Valais, which rules the Lower Valais; Neuchâtel; Geneva; Biel; the Three Leagues; St. Gallen; Mulhouse and Rottweil far to the north. People in ruled lands have no vote. | new: Bern takes Vaud — Bern conquers Vaud from the Duke of Savoy. Bern is now the largest city-state north of the Alps. Bern also takes land from Savoy that is in France today: Gex, the Chablais, Ternier and Gaillard (until 1564). Valais takes Évian (until 1569). Graubünden has ruled the Valtellina in Italy since 1512. Around the 13 cantons are allies with their own government (green): Valais, which rules the Lower Valais; Neuchâtel; Geneva; Biel; the Three Leagues; St. Gallen; Mulhouse and Rottweil far to the north. People in ruled lands must obey the ruling cantons and swear loyalty to them."
+ },
+ "cantons:1798": {
+  "sources": [
+   {
+    "url": "https://hls-dhs-dss.ch/de/articles/009797/",
+    "title": "HLS: Helvetische Republik",
+    "quote": "Angefacht oder ausgelöst und zugleich auch abgesichert wurde die Umwälzung durch französische Truppen",
+    "supports": "In 1798 France invades"
+   },
+   {
+    "url": "https://hls-dhs-dss.ch/de/articles/009797/",
+    "title": "HLS: Helvetische Republik",
+    "quote": "In den Kampfhandlungen Anfang März 1798 ging die alte Eidgenossenschaft unter.",
+    "supports": "The old confederation ends"
+   },
+   {
+    "url": "https://hls-dhs-dss.ch/de/articles/009797/",
+    "title": "HLS: Helvetische Republik",
+    "quote": "Es gestaltete die erweiterte Eidgenossenschaft der Helvetischen Revolution in einen nationalen Einheitsstaat um",
+    "supports": "The Helvetic Republic is one central state"
+   },
+   {
+    "url": "https://hls-dhs-dss.ch/de/articles/026414/",
+    "title": "HLS: Kantone",
+    "quote": "die aber blosse Verwaltungs-, Gerichts- und Wahlbezirke unter je einem Regierungsstatthalter mit einer Verwaltungskammer waren.",
+    "supports": "The cantons become districts of this state"
+   },
+   {
+    "url": "https://hls-dhs-dss.ch/de/articles/009797/",
+    "title": "HLS: Helvetische Republik",
+    "quote": "am 4. April 1798 gab es in der Schweiz kein einziges Untertanengebiet mehr.",
+    "supports": "Ruled lands are now free"
+   },
+   {
+    "url": "https://hls-dhs-dss.ch/de/articles/008631/",
+    "title": "HLS: Léman (Kanton)",
+    "quote": "L. war eine der 18 nicht-souveränen Verwaltungs- und Wahleinheiten der einen und unteilbaren Helvet.",
+    "supports": "Léman is a new canton"
+   },
+   {
+    "url": "https://hls-dhs-dss.ch/de/articles/008633/",
+    "title": "HLS: Oberland",
+    "quote": "Nach der Kapitulation Freiburgs, Solothurns und Berns im März 1798 stand für den siegreichen franz.",
+    "supports": "Oberland is a new canton (1798)"
+   },
+   {
+    "url": "https://hls-dhs-dss.ch/de/articles/008635/",
+    "title": "HLS: Baden (AG, Kanton)",
+    "quote": "Die gemeinen Herrschaften, die Grafschaft Baden sowie Untere und Obere Freie Ämter",
+    "supports": "Baden is a new canton"
+   },
+   {
+    "url": "https://hls-dhs-dss.ch/de/articles/008637/",
+    "title": "HLS: Lugano (Kanton)",
+    "quote": "und gleichzeitig mit dem Kanton Bellinzona gebildet wurde.",
+    "supports": "Bellinzona and Lugano are new cantons"
+   }
+  ]
+ },
+ "cantons:1803": {
+  "sources": [
+   {
+    "url": "https://hls-dhs-dss.ch/de/articles/009797/",
+    "title": "HLS: Helvetische Republik",
+    "quote": "Die Mediationsakte vom 19. Februar 1803 besiegelte das Ende der Helvetischen Republik.",
+    "supports": "After five years the Helvetic Republic fails (1803)"
+   },
+   {
+    "url": "https://hls-dhs-dss.ch/de/articles/026414/",
+    "title": "HLS: Kantone",
+    "quote": "Die Mediationsakte stellte die Souveränität der Kantone wieder her, allerdings in modernisierter Gestalt.",
+    "supports": "In 1803 Napoleon brings back the cantons"
+   },
+   {
+    "url": "https://hls-dhs-dss.ch/de/articles/026414/",
+    "title": "HLS: Kantone",
+    "quote": "Die 13 alten und die 6 neuen Kantone erhielten, im Rahmen der Abhängigkeit von Frankreich, eigene Kantonsverfassungen",
+    "supports": "13 old and 6 new cantons"
+   },
+   {
+    "url": "https://hls-dhs-dss.ch/de/articles/007390/",
+    "title": "HLS: St. Gallen (Kanton)",
+    "quote": "Die Mediationsakte von 1803 schuf neu den Kanton St. Gallen.",
+    "supports": "St. Gallen is a new canton"
+   },
+   {
+    "url": "https://hls-dhs-dss.ch/de/articles/007391/",
+    "title": "HLS: Graubünden",
+    "quote": "Die föderalistische Mediationsverfassung von 1803, die aus Graubünden einen Kanton der Eidgenossenschaft machte",
+    "supports": "Graubünden is a new canton"
+   },
+   {
+    "url": "https://hls-dhs-dss.ch/de/articles/007392/",
+    "title": "HLS: Aargau",
+    "quote": "Doch erst die Mediationsakte 1803 liess durch den – ähnlich bereits in der Verfassung von Malmaison (1801) vorgesehenen – Zusammenschluss",
+    "supports": "Aargau is a new canton"
+   },
+   {
+    "url": "https://hls-dhs-dss.ch/de/articles/007395/",
+    "title": "HLS: Waadt",
+    "quote": "vom Erlass der Mediationsakte (1803) an Kanton Waadt.",
+    "supports": "Vaud is a new canton"
+   },
+   {
+    "url": "https://hls-dhs-dss.ch/de/articles/008637/",
+    "title": "HLS: Lugano (Kanton)",
+    "quote": "in der Helvetischen Republik beitrugen, setzte die Mediationsakte 1803 ein Ende.",
+    "supports": "Ticino (from Lugano and Bellinzona)"
+   },
+   {
+    "url": "https://hls-dhs-dss.ch/de/articles/007379/",
+    "title": "HLS: Freiburg (Kanton)",
+    "quote": "die Tagsatzung der 19 Kantone feierlich eröffnet.",
+    "supports": "19 cantons"
+   }
+  ]
+ },
+ "cantons:1815": {
+  "sources": [
+   {
+    "url": "https://hls-dhs-dss.ch/de/articles/008922/",
+    "title": "HLS: Wiener Kongress",
+    "quote": "Die ehemaligen zugewandten Orte Wallis, Genf (mit savoyischem Gebiet vergrössert) und das preussische Fürstentum Neuenburg wurden von Frankreich gelöst und als Kantone der Schweiz angegliedert.",
+    "supports": "Valais, Neuchâtel and Geneva join"
+   },
+   {
+    "url": "https://hls-dhs-dss.ch/de/articles/008922/",
+    "title": "HLS: Wiener Kongress",
+    "quote": "1815 wurden die bis heute gültige Landesgrenze sowie die Kantonsgrenzen festgelegt",
+    "supports": "The border of Switzerland is now almost the same as today"
+   },
+   {
+    "url": "https://hls-dhs-dss.ch/de/articles/008922/",
+    "title": "HLS: Wiener Kongress",
+    "quote": "Das französisch besetzte ehemalige Fürstbistum Basel einschliesslich der Stadt Biel fiel an den Kanton Bern",
+    "supports": "Bern gets the Jura, the old land of the Prince-Bishop"
+   },
+   {
+    "url": "https://hls-dhs-dss.ch/de/articles/007383/",
+    "title": "HLS: Bern (Kanton)",
+    "quote": "Dafür wies ihm der Wiener Kongress den grössten Teil des einstigen Fürstbistums Basel zu ( Berner Jura )",
+    "supports": "This replaces Vaud and Aargau"
+   }
+  ],
+  "uncertain": [
+   "The great powers of Europe meet in Vienna after Napoleon falls."
+  ]
+ },
+ "cantons:1848": {
+  "sources": [
+   {
+    "url": "https://hls-dhs-dss.ch/de/articles/017241/",
+    "title": "HLS: Sonderbund",
+    "quote": "Die Krise eskalierte und mündete 1847 in einen Bürgerkrieg.",
+    "supports": "Civil war in 1847"
+   },
+   {
+    "url": "https://hls-dhs-dss.ch/de/articles/017241/",
+    "title": "HLS: Sonderbund",
+    "quote": "Der kurze Sonderbundskrieg kostete weniger Opfer als der Zweite Freischarenzug von 1845.",
+    "supports": "The Sonderbund War was short"
+   },
+   {
+    "url": "https://hls-dhs-dss.ch/de/articles/009811/",
+    "title": "HLS: Bundesverfassung (BV)",
+    "quote": "Gedenkblatt, das anlässlich der Inkraftsetzung der Bundesverfassung am 12. September 1848 erschien.",
+    "supports": "Federal constitution of 1848"
+   },
+   {
+    "url": "https://hls-dhs-dss.ch/de/articles/009811/",
+    "title": "HLS: Bundesverfassung (BV)",
+    "quote": "Die Kantone behielten die Kompetenzen über das Zivilrecht, das Strafrecht , das Prozessrecht und die Polizei .",
+    "supports": "The cantons keep much power"
+   },
+   {
+    "url": "https://hls-dhs-dss.ch/de/articles/009811/",
+    "title": "HLS: Bundesverfassung (BV)",
+    "quote": "Die Abgeordneten beider Räte versammelten sich am 6. November 1848 in Bern",
+    "supports": "A parliament in Bern"
+   }
+  ]
+ },
+ "cantons:1979": {
+  "sources": [
+   {
+    "url": "https://hls-dhs-dss.ch/de/articles/007399/",
+    "title": "HLS: Jura (Kanton)",
+    "quote": "Am 23. Juni 1974 votierte er mit 74% Ja-Stimmen für die Schaffung des Kantons Jura.",
+    "supports": "The north of the Jura votes to leave Bern"
+   },
+   {
+    "url": "https://hls-dhs-dss.ch/de/articles/007399/",
+    "title": "HLS: Jura (Kanton)",
+    "quote": "den katholischen und französischsprachigen Teil des Leberbergs",
+    "supports": "The north of the Jura is French-speaking and Catholic"
+   },
+   {
+    "url": "https://hls-dhs-dss.ch/de/articles/007399/",
+    "title": "HLS: Jura (Kanton)",
+    "quote": "Am 1. Januar 1979 trat der Jura in den Kreis der souveränen schweizerischen Kantone ein.",
+    "supports": "Jura becomes a canton in 1979"
+   },
+   {
+    "url": "https://hls-dhs-dss.ch/de/articles/008922/",
+    "title": "HLS: Wiener Kongress",
+    "quote": "mit Ausnahme des schliesslich 1979 doch noch gebildeten Kanton Jura.",
+    "supports": "The first new canton since 1815"
+   },
+   {
+    "url": "https://hls-dhs-dss.ch/de/articles/007383/",
+    "title": "HLS: Bern (Kanton)",
+    "quote": "Nach langen politischen Auseinandersetzungen löste sich 1979 der Nordjura vom Kanton Bern",
+    "supports": "After a long conflict"
+   }
+  ],
+  "uncertain": [
+   "The conflict was sometimes violent."
+  ]
+ },
+ "cantons:1994": {
+  "sources": [
+   {
+    "url": "https://hls-dhs-dss.ch/de/articles/008482/",
+    "title": "HLS: Laufen (BL, Bezirk)",
+    "quote": "Bei der Abstimmung von 1983 überwog aber der Verbleib beim Kanton Bern.",
+    "supports": "Vote in 1983"
+   },
+   {
+    "url": "https://hls-dhs-dss.ch/de/articles/008482/",
+    "title": "HLS: Laufen (BL, Bezirk)",
+    "quote": "In der erneuten Abstimmung von 1989 entschied sich der Bezirk für den Kantonswechsel.",
+    "supports": "Vote in 1989"
+   },
+   {
+    "url": "https://hls-dhs-dss.ch/de/articles/008482/",
+    "title": "HLS: Laufen (BL, Bezirk)",
+    "quote": "Mit dem Beitritt am 1. Januar 1994 wurde Laufen zum fünften Bezirk des Kantons Basel-Landschaft.",
+    "supports": "It moves to Basel-Landschaft on 1 January 1994"
+   },
+   {
+    "url": "https://hls-dhs-dss.ch/de/articles/007399/",
+    "title": "HLS: Jura (Kanton)",
+    "quote": "Delsberg, zu dem bis 1846 auch das deutschsprachige und mehrheitlich katholische Laufental gehörte",
+    "supports": "The Laufental is German-speaking"
+   },
+   {
+    "url": "https://hls-dhs-dss.ch/de/articles/007399/",
+    "title": "HLS: Jura (Kanton)",
+    "quote": "nach der Gründung des Kantons Jura und dem Anschluss des Laufentals an Baselland 1994",
+    "supports": "The Laufental stayed with Bern in 1979"
+   }
+  ]
+ },
+ "cantons:2026": {
+  "sources": [
+   {
+    "url": "https://hls-dhs-dss.ch/de/articles/000414/",
+    "title": "HLS: Moutier (Gemeinde)",
+    "quote": "Nach einem entsprechenden Antrag Moutiers 2014 organisierte die Gemeinde für den 18. Juni 2017 eine Abstimmung",
+    "supports": "Vote in 2017"
+   },
+   {
+    "url": "https://hls-dhs-dss.ch/de/articles/000414/",
+    "title": "HLS: Moutier (Gemeinde)",
+    "quote": "Infolge von Einsprüchen wurde die Abstimmung jedoch für ungültig erklärt und am 28. März 2021 wiederholt.",
+    "supports": "Vote in 2021"
+   },
+   {
+    "url": "https://www.bfs.admin.ch/bfs/fr/home/actualites/quoi-de-neuf.gnpdetail.2026-0635.html",
+    "title": "BFS/OFS: Traitement statistique du transfert de Moutier au canton du Jura",
+    "quote": "Le 1er janvier 2026, la commune de Moutier a été transférée du canton de Berne à celui du Jura",
+    "supports": "Moutier joins Jura on 1 January 2026"
+   }
+  ]
+ },
+ "six:Before 1798": {
+  "sources": [
+   {
+    "url": "https://hls-dhs-dss.ch/de/articles/026414/",
+    "title": "HLS: Kantone",
+    "quote": "leitete mit der gemeinsamen Aufnahme von Solothurn und Freiburg, allerdings in zurückgesetzter Stellung, die Erweiterung zur dreizehnörtigen Eidgenossenschaft ein.",
+    "supports": "Before 1798 there are 13 full members"
+   },
+   {
+    "url": "https://hls-dhs-dss.ch/de/articles/009830/",
+    "title": "HLS: Schirmherrschaften",
+    "quote": "Sie konnten zwar mehr Selbstverwaltung praktizieren als die gemeinen Herrschaften, aber weniger als die zugewandten Orte",
+    "supports": "Allies have their own government; ruled lands do not"
+   },
+   {
+    "url": "https://hls-dhs-dss.ch/de/articles/008298/",
+    "title": "HLS: Freie Ämter",
+    "quote": "Äusserungen der Landesherrschaft waren Setzung eines Landvogts im Zweijahresturnus, Forderung des Beamten- und Untertaneneids",
+    "supports": "A governor from another canton rules them"
+   },
+   {
+    "url": "https://hls-dhs-dss.ch/de/articles/009816/",
+    "title": "HLS: Untertanengebiete",
+    "quote": "Ihnen schworen die mündigen Männer Treue und Gehorsam bei der periodischen Huldigung.",
+    "supports": "The people in ruled lands must swear loyalty to their rulers"
+   },
+   {
+    "url": "https://hls-dhs-dss.ch/de/articles/026414/",
+    "title": "HLS: Kantone",
+    "quote": "Die 13 alten und die 6 neuen Kantone erhielten",
+    "supports": "In 1803 six of these lands become equal cantons"
+   }
+  ],
+  "changed": "old: Who ruled the land of the six new cantons? — Before 1798 only the 13 cantons are full members. Around them is a mix. Allies (green) have their own government. Ruled lands (yellow and purple) are like colonies. A governor from another canton rules them, and the people have no vote. In 1803 six of these lands become equal cantons. Click a name below the map to see each story. | new: Who ruled the land of the six new cantons? — Before 1798 only the 13 cantons are full members. Around them is a mix. Allies (green) have their own government. Ruled lands (yellow and purple) are like colonies. A governor from another canton rules them, and the people must swear loyalty to their rulers. In 1803 six of these lands become equal cantons. Click a name below the map to see each story."
+ },
+ "six:Aargau": {
+  "sources": [
+   {
+    "url": "https://hls-dhs-dss.ch/de/articles/007392/",
+    "title": "HLS: Aargau",
+    "quote": "schritten die Eidgenossen (ohne Uri) im April 1415 zur Eroberung.",
+    "supports": "In 1415 the Swiss take the Aargau from the Habsburgs"
+   },
+   {
+    "url": "https://hls-dhs-dss.ch/de/articles/008298/",
+    "title": "HLS: Freie Ämter",
+    "quote": "Bern sicherte sich den Westteil des Aargaus.",
+    "supports": "Bern keeps the west"
+   },
+   {
+    "url": "https://hls-dhs-dss.ch/de/articles/007392/",
+    "title": "HLS: Aargau",
+    "quote": "1415-1798 umfasste das heutige Kantonsgebiet den Berner oder Unteraargau, die Grafschaft Baden, die Freien Ämter und das vorderösterreichische Fricktal",
+    "supports": "Baden and the Freie Ämter in the east; the Fricktal stays Austrian"
+   },
+   {
+    "url": "https://hls-dhs-dss.ch/de/articles/007392/",
+    "title": "HLS: Aargau",
+    "quote": "1798-1803 die helvetischen Kantone Baden und Aargau sowie nach wie vor das Fricktal (1802-1803 ebenfalls helvetischer Kanton).",
+    "supports": "In 1798 two cantons, Aargau and Baden; in 1802 the Fricktal canton"
+   },
+   {
+    "url": "https://hls-dhs-dss.ch/de/articles/008635/",
+    "title": "HLS: Baden (AG, Kanton)",
+    "quote": "Mit der am 19. Februar 1803 unterzeichneten Mediationsakte wurde der Kanton Baden aufgelöst und mit den Kantonen Aargau und Fricktal vereinigt.",
+    "supports": "In 1803 all three become one canton of Aargau"
+   }
+  ],
+  "uncertain": [
+   "The cantons of 1798 were made by the French."
+  ]
+ },
+ "six:Graubünden": {
+  "sources": [
+   {
+    "url": "https://hls-dhs-dss.ch/de/articles/007391/",
+    "title": "HLS: Graubünden",
+    "quote": "Durch mehrere Bündnisverträge integrierten sich ab 1450 der Graue Bund, der Gotteshausbund und die Zehn Gerichte zunehmend in einen als Drei Bünde bezeichneten Verband.",
+    "supports": "The three leagues form one state"
+   },
+   {
+    "url": "https://hls-dhs-dss.ch/de/articles/007391/",
+    "title": "HLS: Graubünden",
+    "quote": "die Bündnisbeziehungen zur Eidgenossenschaft , in die ab 1497 der Graue Bund und ab 1498 der Gotteshausbund einbezogen waren",
+    "supports": "Allies of the Swiss from 1497 and 1498"
+   },
+   {
+    "url": "https://hls-dhs-dss.ch/de/articles/009815/",
+    "title": "HLS: Zugewandte Orte",
+    "quote": "nur mit den reformierten Orten Zürich, Bern und Glarus der Zehngerichtenbund",
+    "supports": "The Ten Jurisdictions are allied only with Zurich, Bern and Glarus"
+   },
+   {
+    "url": "https://hls-dhs-dss.ch/de/articles/007391/",
+    "title": "HLS: Graubünden",
+    "quote": "1512-1797 gehörten das Veltlin , Chiavenna und Bormio als Untertanengebiete den Drei Bünden.",
+    "supports": "The leagues rule the Valtellina, Chiavenna and Bormio until 1797"
+   },
+   {
+    "url": "https://hls-dhs-dss.ch/de/articles/009797/",
+    "title": "HLS: Helvetische Republik",
+    "quote": "Schon am 10. Oktober erzwang Frankreich den Anschluss der Bündner Untertanengebiete an die Cisalpinische Republik",
+    "supports": "France takes these lands in 1797"
+   },
+   {
+    "url": "https://hls-dhs-dss.ch/de/articles/009797/",
+    "title": "HLS: Helvetische Republik",
+    "quote": "Rätien (Graubünden) schloss sich der Helvetischen Republik am 21. April 1799 an.",
+    "supports": "In 1799 the leagues join the Helvetic Republic"
+   },
+   {
+    "url": "https://hls-dhs-dss.ch/de/articles/007391/",
+    "title": "HLS: Graubünden",
+    "quote": "Die föderalistische Mediationsverfassung von 1803, die aus Graubünden einen Kanton der Eidgenossenschaft machte",
+    "supports": "In 1803 Graubünden becomes a canton"
+   },
+   {
+    "url": "https://hls-dhs-dss.ch/de/articles/007391/",
+    "title": "HLS: Graubünden",
+    "quote": "wobei die einstigen Fremdherrschaften Haldenstein , Rhäzüns und Tarasp sowie der bischöfliche Hof integriert wurden.",
+    "supports": "Tarasp joins Graubünden in 1803"
+   },
+   {
+    "url": "https://hls-dhs-dss.ch/de/articles/001524/",
+    "title": "HLS: Tarasp",
+    "quote": "1464-1803 war Tarasp im Besitz Österreichs.",
+    "supports": "Tarasp was Austrian until 1803"
+   }
+  ],
+  "changed": "old: Graubünden: the free state of the Three Leagues — The Grey League, the League of God's House and the League of the Ten Jurisdictions form a free state. From 1497–1499 they are allies of the Swiss, but not members. The leagues also rule the Valtellina, Chiavenna and Bormio, today in Italy. Napoleon takes these lands in 1797. In 1799 the leagues join the Helvetic Republic. In 1803 Graubünden becomes a canton. The small Austrian area of Tarasp joins it in 1803. | new: Graubünden: the free state of the Three Leagues — The Grey League, the League of God's House and the League of the Ten Jurisdictions form a free state. In 1497 and 1498 the Grey League and the League of God's House become allies of the Swiss, but not members. The leagues also rule the Valtellina, Chiavenna and Bormio, today in Italy. Napoleon takes these lands in 1797. In 1799 the leagues join the Helvetic Republic. In 1803 Graubünden becomes a canton. The small Austrian area of Tarasp joins it in 1803."
+ },
+ "six:St. Gallen": {
+  "sources": [
+   {
+    "url": "https://hls-dhs-dss.ch/de/articles/007390/",
+    "title": "HLS: St. Gallen (Kanton)",
+    "quote": "Die Mediationsakte von 1803 schuf neu den Kanton St. Gallen.",
+    "supports": "There was no canton of St. Gallen before 1803"
+   },
+   {
+    "url": "https://hls-dhs-dss.ch/de/articles/007390/",
+    "title": "HLS: St. Gallen (Kanton)",
+    "quote": "die Herrschaftsgebiete der Fürstabtei St. Gallen, nämlich die Alte Landschaft (Fürstenland) und die Grafschaft Toggenburg als sogenannte Neue Landschaft, zudem die freie Reichsstadt St. Gallen",
+    "supports": "The Prince-Abbot rules his abbey lands and the Toggenburg; the town is a free town"
+   },
+   {
+    "url": "https://hls-dhs-dss.ch/de/articles/007390/",
+    "title": "HLS: St. Gallen (Kanton)",
+    "quote": "1451 wurden die Fürstabtei St. Gallen und 1454 die Stadt St. Gallen zugewandte Orte der Eidgenossenschaft.",
+    "supports": "Both are allies"
+   },
+   {
+    "url": "https://hls-dhs-dss.ch/de/articles/007390/",
+    "title": "HLS: St. Gallen (Kanton)",
+    "quote": "diejenigen im südlichen Kantonsteil (ausser Sax-Forstegg) eidgenössische Untertanen in gemeinen oder einzelörtischen Vogteien.",
+    "supports": "The southern lands are ruled by other cantons"
+   },
+   {
+    "url": "https://hls-dhs-dss.ch/de/articles/007390/",
+    "title": "HLS: St. Gallen (Kanton)",
+    "quote": "die Landvogtei Rheintal , die Freiherrschaft Sax-Forstegg , die Herrschaft Gams , die Grafschaften Werdenberg und Sargans ( Sarganserland )",
+    "supports": "The Rheintal, Sax, Werdenberg and Sargans"
+   },
+   {
+    "url": "https://hls-dhs-dss.ch/de/articles/007390/",
+    "title": "HLS: St. Gallen (Kanton)",
+    "quote": "die Landvogtei Gaster und Weesen, die Grafschaft Uznach sowie den kleinen Stadtstaat Rapperswil .",
+    "supports": "Gaster and Uznach"
+   },
+   {
+    "url": "https://hls-dhs-dss.ch/de/articles/007646/",
+    "title": "HLS: Werdenberg",
+    "quote": "1517 erwarb Glarus die stark verschuldete Grafschaft für 21'500 rheinische Gulden und verwaltete sie bis 1798 als Landvogtei.",
+    "supports": "Werdenberg is ruled by Glarus"
+   },
+   {
+    "url": "https://hls-dhs-dss.ch/de/articles/007390/",
+    "title": "HLS: St. Gallen (Kanton)",
+    "quote": "bis 1615 die Herrschaft Forstegg (Verkauf an Zürich).",
+    "supports": "Sax (Forstegg) is ruled by Zurich"
+   },
+   {
+    "url": "https://hls-dhs-dss.ch/de/articles/007390/",
+    "title": "HLS: St. Gallen (Kanton)",
+    "quote": "acht kleine Freistaaten, die jedoch im April zu den Kantonen Säntis und Linth der Helvetischen Republik zusammengefasst wurden.",
+    "supports": "In 1798 the area is joined into the cantons of Säntis and Linth"
+   },
+   {
+    "url": "https://hls-dhs-dss.ch/de/articles/007390/",
+    "title": "HLS: St. Gallen (Kanton)",
+    "quote": "Der neue Kanton entstand 1803 aus der Verschmelzung der nach der Wiederherstellung der Kantone Glarus und Appenzell übrig gebliebenen Teile",
+    "supports": "In 1803 the pieces become one canton"
+   },
+   {
+    "url": "https://hls-dhs-dss.ch/de/articles/007390/",
+    "title": "HLS: St. Gallen (Kanton)",
+    "quote": "Der im Osten der Schweiz gelegene Kanton St. Gallen umschliesst die Kantone Appenzell Innerrhoden und Appenzell Ausserrhoden",
+    "supports": "The canton lies around Appenzell"
+   },
+   {
+    "url": "https://hls-dhs-dss.ch/de/articles/007390/",
+    "title": "HLS: St. Gallen (Kanton)",
+    "quote": "Der Grosse Rat folgte deshalb 1805 der Regierung und beschloss mit knappem Mehr die Aufhebung der Fürstabtei",
+    "supports": "The abbey is closed in 1805"
+   }
+  ],
+  "changed": "old: St. Gallen: a canton made from many pieces — There was no \"St. Gallen\" before 1803. The Prince-Abbot rules his abbey lands and the Toggenburg. The town of St. Gallen is a free town. Both are allies. Around them are lands ruled by other cantons: the Rheintal, Sargans, Gaster and Uznach, Werdenberg (Glarus), Sax (Zurich). In 1798 the French split the area into the cantons of Säntis and Linth. In 1803 Napoleon joins all the pieces into one canton around Appenzell. The abbey is closed in 1805. | new: St. Gallen: a canton made from many pieces — There was no \"St. Gallen\" before 1803. The Prince-Abbot rules his abbey lands and the Toggenburg. The town of St. Gallen is a free town. Both are allies. Around them are lands ruled by other cantons: the Rheintal, Sargans, Gaster and Uznach, Werdenberg (Glarus), Sax (Zurich). In 1798 the area is joined into the cantons of Säntis and Linth. In 1803 Napoleon joins all the pieces into one canton around Appenzell. The abbey is closed in 1805."
+ },
+ "six:Thurgau": {
+  "sources": [
+   {
+    "url": "https://hls-dhs-dss.ch/de/articles/007393/",
+    "title": "HLS: Thurgau",
+    "quote": "Der habsburgische Thurgau (1264-1460)",
+    "supports": "Thurgau is Habsburg land until 1460"
+   },
+   {
+    "url": "https://hls-dhs-dss.ch/de/articles/007393/",
+    "title": "HLS: Thurgau",
+    "quote": "Da die eidgenössischen Orte den Rhein als Grenze anstrebten, liessen sie sich 1460 von Papst Pius II.",
+    "supports": "The cantons take Thurgau in 1460"
+   },
+   {
+    "url": "https://hls-dhs-dss.ch/de/articles/007393/",
+    "title": "HLS: Thurgau",
+    "quote": "Deren Nachkommen besetzten es mit wenigen Unterbrechungen bis zum Untergang der gemeinen Herrschaft 1798.",
+    "supports": "Shared ruled land until 1798"
+   },
+   {
+    "url": "https://hls-dhs-dss.ch/de/articles/007393/",
+    "title": "HLS: Thurgau",
+    "quote": "Der für zwei Jahre nach einer Kehrordnung von einem der sieben regierenden Orte erwählte Landvogt wurde von der eidgenössischen Tagsatzung bestätigt.",
+    "supports": "Governors from the ruling cantons take turns, two years each"
+   },
+   {
+    "url": "https://hls-dhs-dss.ch/de/articles/007393/",
+    "title": "HLS: Thurgau",
+    "quote": "die Freilassungsurkunde der acht Orte, der Solothurn und Freiburg schriftlich zugestimmt hatten, wurde am 10. März ausgefertigt, jedoch auf den 3. März zurückdatiert.",
+    "supports": "In March 1798 the ruling cantons set Thurgau free"
+   },
+   {
+    "url": "https://hls-dhs-dss.ch/de/articles/026414/",
+    "title": "HLS: Kantone",
+    "quote": "Die 13 alten und die 6 neuen Kantone erhielten",
+    "supports": "In 1803 Thurgau becomes one of the six new cantons"
+   }
+  ],
+  "changed": "old: Thurgau: from ruled land to free canton — The cantons take Thurgau from the Habsburgs in 1460. For more than 300 years, governors from the ruling cantons take turns, two years each. In March 1798 Thurgau declares itself free. In 1803 it becomes a canton. | new: Thurgau: from ruled land to free canton — The cantons take Thurgau from the Habsburgs in 1460. For more than 300 years, governors from the ruling cantons take turns, two years each. In March 1798 the ruling cantons set Thurgau free. In 1803 it becomes a canton."
+ },
+ "six:Ticino": {
+  "sources": [
+   {
+    "url": "https://hls-dhs-dss.ch/de/articles/007394/",
+    "title": "HLS: Tessin (Kanton)",
+    "quote": "fiel die Leventina 1480 den Urnern, denen sie bereits 1439/1441 verpfändet worden war, als Herrschaft zu.",
+    "supports": "Uri takes the Leventina in the 1400s"
+   },
+   {
+    "url": "https://hls-dhs-dss.ch/de/articles/007394/",
+    "title": "HLS: Tessin (Kanton)",
+    "quote": "annektierten Uri, Schwyz und Unterwalden das Bleniotal und die Riviera und nahmen Bellinzona ein.",
+    "supports": "Uri, Schwyz and Unterwalden take Bellinzona, Riviera and Blenio (1499–1500)"
+   },
+   {
+    "url": "https://hls-dhs-dss.ch/de/articles/007394/",
+    "title": "HLS: Tessin (Kanton)",
+    "quote": "Die eidgenössischen Truppen bemächtigten sich der Festungen Lugano und Locarno, besetzten deren Umland und schufen im eroberten Gebiet die gemeinen Herrschaften der zwölf Orte.",
+    "supports": "Twelve cantons take Lugano and Locarno (1512–1513)"
+   },
+   {
+    "url": "https://hls-dhs-dss.ch/de/articles/007394/",
+    "title": "HLS: Tessin (Kanton)",
+    "quote": "die Landvogtei Mendrisio mit der Pieve Balerna , die den zwölf Orten erst 1521 zugesprochen wurde",
+    "supports": "Mendrisio goes to the twelve cantons only in 1521"
+   },
+   {
+    "url": "https://hls-dhs-dss.ch/de/articles/008637/",
+    "title": "HLS: Lugano (Kanton)",
+    "quote": "die vom 14. April 1798 bis 19. Februar 1803 bestand und die ehemaligen Vogteien Lugano, Locarno, Mendrisio und Vallemaggia umfasste",
+    "supports": "In 1798 the canton of Lugano, until 1803"
+   },
+   {
+    "url": "https://hls-dhs-dss.ch/de/articles/008636/",
+    "title": "HLS: Bellinzona (Kanton)",
+    "quote": "umfasste die ehemaligen Vogteien B., Leventina, Riviera und Blenio und bestand bis zum 19.2.1803.",
+    "supports": "In 1798 the canton of Bellinzona, until 1803"
+   },
+   {
+    "url": "https://hls-dhs-dss.ch/de/articles/007394/",
+    "title": "HLS: Tessin (Kanton)",
+    "quote": "Erst mit der Mediationsakte von 1803 erfolgte die Gründung des Kantons Tessin",
+    "supports": "In 1803 they become one canton, Ticino"
+   }
+  ],
+  "changed": "old: Ticino: the Italian bailiwicks — Uri takes the Leventina valley in the 1400s. In the wars for Milan, Uri, Schwyz and Nidwalden take Bellinzona, Riviera and Blenio (1500). Twelve cantons take Lugano, Locarno, Mendrisio and Vallemaggia (1512–1513). In 1798 the French make two cantons: Bellinzona and Lugano. In 1803 they become one canton, Ticino. | new: Ticino: the Italian bailiwicks — Uri takes the Leventina valley in the 1400s. In the wars for Milan, Uri, Schwyz and Unterwalden take Bellinzona, Riviera and Blenio (1500). Twelve cantons take Lugano, Locarno and Vallemaggia (1512–1513), and Mendrisio (1521). In 1798 the French make two cantons: Bellinzona and Lugano. In 1803 they become one canton, Ticino."
+ },
+ "six:Vaud": {
+  "sources": [
+   {
+    "url": "https://hls-dhs-dss.ch/de/articles/007395/",
+    "title": "HLS: Waadt",
+    "quote": "Im Frühling 1536 eroberten Berner Truppen, angeführt von Hans Franz Nägeli, unter Berufung auf den Vertrag von Saint-Julien (1530) die Waadt.",
+    "supports": "Bern conquers Vaud in 1536"
+   },
+   {
+    "url": "https://hls-dhs-dss.ch/de/articles/007395/",
+    "title": "HLS: Waadt",
+    "quote": "Die 16 für sechs, in den gemeinen Herrschaften für fünf Jahre ernannten Landvögte, denen die Verwaltung sowie das Justiz- und Wehrwesen oblagen",
+    "supports": "Bernese governors (Landvögte) rule Vaud"
+   },
+   {
+    "url": "https://hls-dhs-dss.ch/de/articles/007395/",
+    "title": "HLS: Waadt",
+    "quote": "von Bern und Freiburg in den gemeinen Herrschaften Orbe-Echallens und Grandson",
+    "supports": "Orbe-Echallens and Grandson are ruled by Bern and Fribourg together"
+   },
+   {
+    "url": "https://hls-dhs-dss.ch/de/articles/007395/",
+    "title": "HLS: Waadt",
+    "quote": "rief eine Handvoll Patrioten in Lausanne und Vevey in der Nacht vom 24. Januar 1798 die Lemanische Republik aus.",
+    "supports": "In January 1798 patriots declare the Lemanic Republic"
+   },
+   {
+    "url": "https://hls-dhs-dss.ch/de/articles/009797/",
+    "title": "HLS: Helvetische Republik",
+    "quote": "französische Truppen, die ab Ende Januar in einer Zangenbewegung von der Waadt und vom Jura her in das westliche Mittelland vorstiessen",
+    "supports": "The French army comes in through Vaud"
+   },
+   {
+    "url": "https://hls-dhs-dss.ch/de/articles/007395/",
+    "title": "HLS: Waadt",
+    "quote": "Während der Helvetischen Republik hiess die Waadt Kanton Léman, vom Erlass der Mediationsakte (1803) an Kanton Waadt.",
+    "supports": "In 1803 Vaud becomes a canton"
+   },
+   {
+    "url": "https://hls-dhs-dss.ch/de/articles/007383/",
+    "title": "HLS: Bern (Kanton)",
+    "quote": "1815 musste der Kanton Bern endgültig auf die Waadt und den Aargau verzichten.",
+    "supports": "Bern never gets Vaud back"
+   }
+  ],
+  "changed": "old: Vaud: free from Bern — Bern conquers Vaud from the Duke of Savoy in 1536. Bernese governors rule from castles. Orbe-Echallens and Grandson are ruled by Bern and Fribourg together. In January 1798 Vaud declares itself free, as the Lemanic Republic. The French army comes in. In 1803 Vaud becomes a canton. Bern never gets it back. | new: Vaud: free from Bern — Bern conquers Vaud from the Duke of Savoy in 1536. Bernese governors (Landvögte) rule it. Orbe-Echallens and Grandson are ruled by Bern and Fribourg together. In January 1798 patriots in Lausanne and Vevey declare Vaud free, as the Lemanic Republic. The French army comes in. In 1803 Vaud becomes a canton. Bern never gets it back."
+ },
+ "six:1803": {
+  "sources": [
+   {
+    "url": "https://hls-dhs-dss.ch/de/articles/009797/",
+    "title": "HLS: Helvetische Republik",
+    "quote": "Die Mediationsakte vom 19. Februar 1803 besiegelte das Ende der Helvetischen Republik.",
+    "supports": "Act of Mediation, 19 February 1803"
+   },
+   {
+    "url": "https://hls-dhs-dss.ch/de/articles/026414/",
+    "title": "HLS: Kantone",
+    "quote": "Die 13 alten und die 6 neuen Kantone erhielten, im Rahmen der Abhängigkeit von Frankreich, eigene Kantonsverfassungen",
+    "supports": "The six become full cantons"
+   },
+   {
+    "url": "https://hls-dhs-dss.ch/de/articles/007379/",
+    "title": "HLS: Freiburg (Kanton)",
+    "quote": "die Tagsatzung der 19 Kantone feierlich eröffnet.",
+    "supports": "Switzerland has 19 cantons"
+   },
+   {
+    "url": "https://hls-dhs-dss.ch/de/articles/008922/",
+    "title": "HLS: Wiener Kongress",
+    "quote": "Die ehemaligen zugewandten Orte Wallis, Genf (mit savoyischem Gebiet vergrössert) und das preussische Fürstentum Neuenburg wurden von Frankreich gelöst und als Kantone der Schweiz angegliedert.",
+    "supports": "Valais, Neuchâtel and Geneva join in 1815"
+   },
+   {
+    "url": "https://hls-dhs-dss.ch/de/articles/007390/",
+    "title": "HLS: St. Gallen (Kanton)",
+    "quote": "Der Schweiz verordnete Napoleon in der Eröffnungssitzung der Consulta Ende 1802 eine föderalistische Verfassung.",
+    "supports": "Napoleon gives the Act of Mediation"
+   }
+  ]
+ },
+ "bern:1555": {
+  "sources": [
+   {
+    "url": "https://hls-dhs-dss.ch/de/articles/007383/",
+    "title": "HLS: Bern (Kanton)",
+    "quote": "Zum Stadtstaat Bern gehörten ab 1415 Teile des heutigen Kantons Aargau ( Berner Aargau ) und ab 1536 der heutige Kanton Waadt .",
+    "supports": "Bern takes the Bernese Aargau in 1415 and Vaud in 1536"
+   },
+   {
+    "url": "https://hls-dhs-dss.ch/de/articles/007587/",
+    "title": "HLS: Pays-d'Enhaut",
+    "quote": "Das Pays-d'Enhaut fiel 1555 an Bern, als Bern und Freiburg den Besitz des Grafen Michael von Greyerz unter sich aufteilten.",
+    "supports": "Bern gets Saanen and the Pays-d'Enhaut in 1555"
+   },
+   {
+    "url": "https://hls-dhs-dss.ch/de/articles/001014/",
+    "title": "HLS: Murten (Gemeinde)",
+    "quote": "wurden Murten und Lugnorre bis zum Ende des Ancien Régime eine gemeinsame Vogtei der Städte Bern und Freiburg",
+    "supports": "Bern and Fribourg rule Murten together"
+   },
+   {
+    "url": "https://hls-dhs-dss.ch/de/articles/007383/",
+    "title": "HLS: Bern (Kanton)",
+    "quote": "die zuvor gemeinsam mit Freiburg verwaltete Herrschaft Schwarzenburg",
+    "supports": "Bern and Fribourg rule Schwarzenburg together"
+   },
+   {
+    "url": "https://hls-dhs-dss.ch/de/articles/007395/",
+    "title": "HLS: Waadt",
+    "quote": "von Bern und Freiburg in den gemeinen Herrschaften Orbe-Echallens und Grandson",
+    "supports": "Bern and Fribourg rule Orbe-Echallens and Grandson together"
+   },
+   {
+    "url": "https://hls-dhs-dss.ch/de/articles/007395/",
+    "title": "HLS: Waadt",
+    "quote": "Die 16 für sechs, in den gemeinen Herrschaften für fünf Jahre ernannten Landvögte",
+    "supports": "In the shared lordships the governor changes every five years (taking turns)"
+   },
+   {
+    "url": "https://hls-dhs-dss.ch/de/articles/007383/",
+    "title": "HLS: Bern (Kanton)",
+    "quote": "Die Eroberung der Waadt, des Pays de Gex und von Teilen des Chablais 1536 führte zu wiederholten Waffengängen.",
+    "supports": "Bern takes the Pays de Gex and the Chablais from Savoy in 1536"
+   },
+   {
+    "url": "https://hls-dhs-dss.ch/de/articles/024650/",
+    "title": "HLS: Lausanner Vertrag",
+    "quote": "die Rückgabe der Herrschaften des Pays de Gex, des Chablais und der Vogteien von Ternier und Gaillard",
+    "supports": "In the Treaty of Lausanne (1564) Bern agrees to give back Gex, the Chablais, Ternier and Gaillard"
+   },
+   {
+    "url": "https://hls-dhs-dss.ch/de/articles/007383/",
+    "title": "HLS: Bern (Kanton)",
+    "quote": "1564 verlor Bern im Lausanner Vertrag seinen Anteil am Chablais und die Vogtei Gex an Savoyen.",
+    "supports": "Bern gives back Gex and the Chablais in 1564"
+   },
+   {
+    "url": "https://hls-dhs-dss.ch/de/articles/007383/",
+    "title": "HLS: Bern (Kanton)",
+    "quote": "1815 stiess der grösste Teil des ehemaligen Fürstbistums Basel mit Biel zum sogenannten Alten Kantonsteil",
+    "supports": "The Jura belongs to the Prince-Bishop of Basel and becomes Bernese only in 1815"
+   }
+  ],
+  "changed": "old: Bern at its largest — Bern takes the Bernese Aargau in 1415 and Vaud in 1536. With Saanen in 1555 it reaches its largest size: from Geneva's lake almost to the Rhine. Some lordships Bern rules together with Fribourg, taking turns to send the governor: Murten, Schwarzenburg, Orbe-Echallens and Grandson. Bern also rules land south and west of Geneva, today in France: the Pays de Gex, the Chablais around Thonon, and Ternier and Gaillard. It took them from Savoy in 1536 and gives them back in 1564. The Jura in the north is not Bernese yet. It belongs to the Prince-Bishop of Basel. | new: Bern at its largest — Bern takes the Bernese Aargau in 1415 and Vaud in 1536. With Saanen in 1555 it reaches its largest size: from Lake Geneva to the Aargau. Some lordships Bern rules together with Fribourg, taking turns to send the governor: Murten, Schwarzenburg, Orbe-Echallens and Grandson. Bern also rules land south and west of Geneva, today in France: the Pays de Gex, the Chablais around Thonon, and Ternier and Gaillard. It took them from Savoy in 1536 and agrees to give them back in 1564. The Jura in the north is not Bernese yet. It belongs to the Prince-Bishop of Basel."
+ },
+ "bern:1798": {
+  "sources": [
+   {
+    "url": "https://hls-dhs-dss.ch/de/articles/007383/",
+    "title": "HLS: Bern (Kanton)",
+    "quote": "wurde die Stadt Bern nach den Schlachten bei Neuenegg und im Grauholz von französischen Truppen besetzt",
+    "supports": "The French army takes the city of Bern in March 1798"
+   },
+   {
+    "url": "https://hls-dhs-dss.ch/de/articles/007383/",
+    "title": "HLS: Bern (Kanton)",
+    "quote": "1798 verlor Bern diese beiden Untertanengebiete sowie für die Dauer der Helvetik das Berner Oberland",
+    "supports": "The Helvetic Republic cuts Bern into Bern, Oberland, Léman (Vaud) and Aargau"
+   },
+   {
+    "url": "https://hls-dhs-dss.ch/de/articles/007383/",
+    "title": "HLS: Bern (Kanton)",
+    "quote": "Dafür erhielt der helvetische Kanton Bern die zuvor gemeinsam mit Freiburg verwaltete Herrschaft Schwarzenburg zugeteilt.",
+    "supports": "Bern gets Schwarzenburg alone"
+   },
+   {
+    "url": "https://hls-dhs-dss.ch/de/articles/001014/",
+    "title": "HLS: Murten (Gemeinde)",
+    "quote": "Nach dem Einmarsch der Franzosen am 3. März 1798 gehörte Murten zum Kanton Freiburg.",
+    "supports": "Murten goes to the canton of Fribourg"
+   }
+  ]
+ },
+ "bern:1803": {
+  "sources": [
+   {
+    "url": "https://hls-dhs-dss.ch/de/articles/007383/",
+    "title": "HLS: Bern (Kanton)",
+    "quote": "den Verlust der Waadt und des Aargaus, vereinigte ihn aber wieder mit dem Oberland.",
+    "supports": "The Act of Mediation joins the Oberland back to Bern; Vaud and Aargau stay separate"
+   },
+   {
+    "url": "https://hls-dhs-dss.ch/de/articles/007383/",
+    "title": "HLS: Bern (Kanton)",
+    "quote": "323'008 Einwohnerinnen und Einwohner, wovon 112'346 in der Waadt und 40'276 im Berner Aargau .",
+    "supports": "Almost half of Bern's people lived in Vaud and Aargau (152,622 of 323,008 in 1764)"
+   }
+  ],
+  "changed": "old: Vaud and Aargau stay free — Napoleon's Act of Mediation joins the Oberland back to Bern. But Vaud and Aargau stay new cantons of their own. Bern has lost about 40% of its land. | new: Vaud and Aargau stay free — Napoleon's Act of Mediation joins the Oberland back to Bern. But Vaud and Aargau stay new cantons of their own. In 1764, almost half of Bern's people lived in Vaud and Aargau."
+ },
+ "bern:1815": {
+  "sources": [
+   {
+    "url": "https://hls-dhs-dss.ch/de/articles/007383/",
+    "title": "HLS: Bern (Kanton)",
+    "quote": "1815 stiess der grösste Teil des ehemaligen Fürstbistums Basel mit Biel zum sogenannten Alten Kantonsteil und bildete den Berner Jura .",
+    "supports": "In 1815 Bern gets most of the old Prince-Bishopric of Basel, with Biel"
+   },
+   {
+    "url": "https://hls-dhs-dss.ch/de/articles/007383/",
+    "title": "HLS: Bern (Kanton)",
+    "quote": "1815 musste der Kanton Bern endgültig auf die Waadt und den Aargau verzichten.",
+    "supports": "Bern does not get Vaud and Aargau back"
+   },
+   {
+    "url": "https://hls-dhs-dss.ch/de/articles/007383/",
+    "title": "HLS: Bern (Kanton)",
+    "quote": "Dafür wies ihm der Wiener Kongress den grössten Teil des einstigen Fürstbistums Basel zu ( Berner Jura ), den Bern nur widerstrebend annahm.",
+    "supports": "The Congress of Vienna gives the Jura to Bern instead; Bern does not want it"
+   },
+   {
+    "url": "https://hls-dhs-dss.ch/de/articles/008922/",
+    "title": "HLS: Wiener Kongress",
+    "quote": "Das französisch besetzte ehemalige Fürstbistum Basel einschliesslich der Stadt Biel fiel an den Kanton Bern",
+    "supports": "The old Prince-Bishopric, with Biel, goes to Bern"
+   }
+  ],
+  "uncertain": [
+   "The north of the Jura is French-speaking and Catholic, and this leads to 150 years of conflict."
+  ]
+ },
+ "bern:1979": {
+  "sources": [
+   {
+    "url": "https://hls-dhs-dss.ch/de/articles/007383/",
+    "title": "HLS: Bern (Kanton)",
+    "quote": "Nach langen politischen Auseinandersetzungen löste sich 1979 der Nordjura vom Kanton Bern und konstituierte sich neu als Kanton Jura .",
+    "supports": "The north of the Jura forms the canton of Jura in 1979"
+   },
+   {
+    "url": "https://hls-dhs-dss.ch/de/articles/007399/",
+    "title": "HLS: Jura (Kanton)",
+    "quote": "Am 23. Juni 1974 votierte er mit 74% Ja-Stimmen für die Schaffung des Kantons Jura.",
+    "supports": "Vote of 1974"
+   },
+   {
+    "url": "https://hls-dhs-dss.ch/de/articles/007399/",
+    "title": "HLS: Jura (Kanton)",
+    "quote": "die aufgrund der 1975 durchgeführten Plebiszite zum Kanton Jura wechselten",
+    "supports": "Votes of 1975"
+   },
+   {
+    "url": "https://hls-dhs-dss.ch/de/articles/007399/",
+    "title": "HLS: Jura (Kanton)",
+    "quote": "Der Südjura, der 1978 beim Kanton Bern verbleiben sollte",
+    "supports": "The south stays with Bern"
+   },
+   {
+    "url": "https://hls-dhs-dss.ch/de/articles/007399/",
+    "title": "HLS: Jura (Kanton)",
+    "quote": "jenen der Amtsbezirke Pruntrut , Delsberg und der Freiberge",
+    "supports": "The three northern districts form the canton of Jura"
+   }
+  ]
+ },
+ "bern:1994": {
+  "sources": [
+   {
+    "url": "https://hls-dhs-dss.ch/de/articles/007383/",
+    "title": "HLS: Bern (Kanton)",
+    "quote": "sodass der Amtsbezirk Laufen auf den 1. Januar 1994 aus dem Kanton Bern ausschied.",
+    "supports": "The Laufental leaves Bern in 1994"
+   },
+   {
+    "url": "https://hls-dhs-dss.ch/de/articles/007383/",
+    "title": "HLS: Bern (Kanton)",
+    "quote": "Der Amtsbezirk Laufen wechselte 1994 zum Kanton Basel-Landschaft , die Gemeinden Vellerat (1996) und Moutier (2026) zum Kanton Jura",
+    "supports": "The Laufental moves to Basel-Landschaft; Vellerat moves to Jura in 1996"
+   },
+   {
+    "url": "https://hls-dhs-dss.ch/de/articles/000427/",
+    "title": "HLS: Vellerat",
+    "quote": "Nach 20-jährigem Kampf wurde ihr Begehren, sich dem Kanton Jura anzuschliessen, in der eidgenössischen Abstimmung von 1996 gutgeheissen.",
+    "supports": "Vellerat moves to Jura in 1996"
+   },
+   {
+    "url": "https://www.jura.ch/DFI/COM/Fusion-de-communes/Fusion-de-communes-la-situation-actuelle.html",
+    "title": "République et Canton du Jura: Fusion de communes, la situation actuelle",
+    "quote": "Les communes de Courrendlin, Vellerat et Rebeuvelier fusionnent et forment la nouvelle commune de Courrendlin.",
+    "supports": "Vellerat is now part of Courrendlin (merger of 1 January 2019)"
+   }
+  ]
+ },
+ "bern:2026": {
+  "sources": [
+   {
+    "url": "https://hls-dhs-dss.ch/de/articles/007383/",
+    "title": "HLS: Bern (Kanton)",
+    "quote": "Der Amtsbezirk Laufen wechselte 1994 zum Kanton Basel-Landschaft , die Gemeinden Vellerat (1996) und Moutier (2026) zum Kanton Jura",
+    "supports": "Moutier joins Jura in 2026"
+   },
+   {
+    "url": "https://www.bfs.admin.ch/bfs/fr/home/actualites/quoi-de-neuf.gnpdetail.2026-0635.html",
+    "title": "BFS/OFS: Traitement statistique du transfert de Moutier au canton du Jura",
+    "quote": "Le 1er janvier 2026, la commune de Moutier a été transférée du canton de Berne à celui du Jura",
+    "supports": "Moutier joins Jura on 1 January 2026"
+   },
+   {
+    "url": "https://www.kultur.bkd.be.ch/de/start/aktuell/newsletter-amt-fuer-kultur/ausgabe-5-2025/geschichte-des-kantons-bern-von-der-eiszeit-bis-heute.html",
+    "title": "Kanton Bern, Amt für Kultur: Geschichte des Kantons Bern von der Eiszeit bis heute",
+    "quote": "Bern ist hinsichtlich seiner Bevölkerung und Fläche der zweitgrösste Kanton der Schweiz",
+    "supports": "Bern is the second-largest canton"
+   },
+   {
+    "url": "https://www.gr.ch/DE/kanton/Seiten/Geografie.aspx",
+    "title": "Kanton Graubünden: Geografie",
+    "quote": "Der flächenmässig grösste Kanton der Schweiz umfasst einen Sechstel des schweizerischen Territoriums.",
+    "supports": "Graubünden is the largest canton"
+   }
+  ]
+ }
+}

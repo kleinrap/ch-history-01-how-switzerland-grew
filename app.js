@@ -176,7 +176,8 @@
   var STORY_MODES = { six: 1, bern: 1, helvetic: 1, story: 1 };
   // Researched map stories: shown as cards; a planned card is removed once a story of its topic exists.
   var TOPIC_OF = { habsburg: "Lords before 1291", savoy: "Lords before 1291", "zahringen-kyburg": "Lords before 1291", "church-lords": "Lords before 1291",
-                   reformation: "The Reformation" };
+                   reformation: "The Reformation", languages: "Languages", municipalities: "Municipalities",
+                   "celts-romans": "Romans and Celts", "early-middle-ages": "Romans and Celts" };
   MAP_STORIES.forEach(function (st) {
     var topic = TOPIC_OF[st.id] || (st.id.indexOf("wars") === 0 ? "Wars and battles" : null);
     STORIES = STORIES.filter(function (c) { return !(c.later && c.title === topic); });
@@ -377,7 +378,10 @@
     savoy: "var(--lord-savoy)", bishop: "var(--lord-bishop)", abbey: "var(--lord-abbey)", empire: "var(--lord-empire)",
     milan: "var(--lord-milan)", noble: "var(--lord-noble)", burgundy: "var(--s-burgundy)", france: "var(--s-france)",
     confederates: "var(--w1353)", ally: "var(--k-ally)", enemy: "var(--s-enemy)",
-    reformed: "var(--s-reformed)", catholic: "var(--s-catholic)", mixed: "var(--s-mixed)", other: "var(--c-other)"
+    reformed: "var(--s-reformed)", catholic: "var(--s-catholic)", mixed: "var(--s-mixed)", other: "var(--c-other)",
+    german: "var(--l-german)", french: "var(--l-french)", italian: "var(--l-italian)", romansh: "var(--l-romansh)", bilingual: "var(--l-bilingual)",
+    merge1960: "var(--m-1960)", merge1980: "var(--m-1980)", merge2000: "var(--m-2000)", merge2010: "var(--m-2010)", merge2020: "var(--m-2020)",
+    roman: "var(--s-roman)", celtic: "var(--s-celtic)", alemanni: "var(--s-alemanni)", burgundians: "var(--s-burgundians)"
   };
   var EUROPE_BOX = { type: "MultiPoint", coordinates: [[-9.5, 36], [30, 57]] };
   function storyView(view) {
@@ -412,11 +416,17 @@
       return { key: "stl-" + n, text: n, at: largestPoint(best[n].f.geometry), cls: "minor" };
     });
     drawLabels(labels, k);
+    if (stop.route && stop.places) {
+      gFocus.append("path").attr("class", "route")
+        .datum({ type: "LineString", coordinates: stop.places.map(function (p) { return [p.lon, p.lat]; }) })
+        .attr("d", path);
+    }
     drawPlaces(stop.places || [], k);
     var seen = {};
     setLegend(stop.layers.filter(function (l) { if (seen[l.label]) return false; seen[l.label] = true; return true; })
       .map(function (l) { return { color: STORY_COLOR[l.kind] || "var(--c-other)", label: l.label }; })
-      .concat((stop.places || []).some(function (p) { return p.kind === "battle"; }) ? [{ color: "battle", label: "Battle" }] : []));
+      .concat((stop.places || []).some(function (p) { return p.kind === "battle"; }) ? [{ color: "battle", label: "Battle" }] : [])
+      .concat(stop.route ? [{ color: "dash", label: "Route of the march" }] : []));
     d3.select("#stat").html("");
     d3.select("#map-note").text(stop.view === "europe" || Array.isArray(stop.view)
       ? "Old territories drawn with today's regions of Europe, so borders are approximate (German and Austrian states are large units)."
@@ -466,6 +476,25 @@
     }));
     d3.select("#stat").html(feats.filter(function (f) { return f.properties.layer.kind !== "foreign"; }).length + " Helvetic cantons");
     d3.select("#map-note").text("Helvetic borders drawn with today's municipalities, so small details are approximate.");
+  }
+
+  // Sources for the step on show: from the step itself (research JSON) or, for the steps written in
+  // content.js, from content-sources.js (keyed "mode:tick"). Each source: url, title, quote, supports.
+  var SOURCES = window.STEP_SOURCES || {};
+  function stepKey(s) { return state.mode + ":" + tickText(s); }
+  function drawSources(s) {
+    var extra = SOURCES[stepKey(s)] || {};
+    var list = (s.sources && s.sources.length && typeof s.sources[0] === "object") ? s.sources : (extra.sources || []);
+    var unsure = (s.uncertain || []).concat(extra.uncertain || []);
+    d3.select("#sources-box").attr("hidden", list.length || unsure.length ? null : true);
+    d3.select("#sources-sum").text("Sources for this step (" + list.length + ")");
+    var li = d3.select("#sources-list").selectAll("li").data(list).join("li").html("");
+    li.append("a").attr("href", function (d) { return d.url; }).attr("target", "_blank").attr("rel", "noopener")
+      .text(function (d) { return d.title || d.url; });
+    li.append("span").attr("class", "src-supports").text(function (d) { return d.supports ? " — " + d.supports : ""; });
+    li.filter(function (d) { return d.quote; }).append("q").text(function (d) { return d.quote; });
+    d3.select("#uncertain-box").attr("hidden", unsure.length ? null : true);
+    d3.select("#uncertain-list").selectAll("li").data(unsure).join("li").text(function (d) { return d; });
   }
 
   function setLegend(items) {
@@ -537,6 +566,7 @@
     d3.select("#notes-text").text(h && h.notes ? h.notes : state.mode === "cantons"
       ? "Before 1798, each canton's land comes from its researched history (see \"Every canton\"). Most borders are drawn by today's districts, so small places can be on the wrong side."
       : "Old territories are drawn by joining today's municipalities, so small details are approximate.");
+    drawSources(s);
     renderTicks();
     var cur = document.querySelector('#ticks [aria-current="true"]');
     if (cur && cur.scrollIntoView) cur.scrollIntoView({ block: "nearest", inline: "nearest" });

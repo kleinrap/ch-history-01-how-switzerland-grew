@@ -1,6 +1,3394 @@
 // Map stories (lords, Reformation, wars). Built by scripts/build_stories.py from research/stories-*.json
 window.MAP_STORIES = [
  {
+  "id": "celts-romans",
+  "title": "Celts and Romans: from the Helvetii to the Rhine frontier",
+  "card": "How Celtic peoples lived in today's Switzerland, how Rome conquered them, and how Roman towns, roads and forts shaped the land.",
+  "stops": [
+   {
+    "year": -450,
+    "tick": "c. 450 BC",
+    "title": "The La Tène culture",
+    "text": [
+     "From about 480 BC, archaeologists speak of the La Tène period. It is the later Iron Age. It ends about 30 BC, when the Romans take over.",
+     "The name comes from La Tène, a site at the end of Lake Neuchâtel. From 1857, people found many iron weapons and other metal objects there. The 'La Tène culture' means the objects, art and graves of the Celts of this time.",
+     "In Switzerland, large cemeteries show how this culture changed. The best known is Münsingen-Rain near Bern, with more than 220 graves. The people of this culture were Celts. Their language belonged to the Celtic family."
+    ],
+    "view": "ch",
+    "layers": [
+     {
+      "name": "Celtic Iron Age (La Tène) area",
+      "kind": "celtic",
+      "label": "Area of the La Tène culture north of the Alps (very rough)",
+      "sel": {
+       "cantons": [
+        "VD",
+        "FR",
+        "NE",
+        "BE",
+        "SO",
+        "BS",
+        "BL",
+        "JU",
+        "AG",
+        "LU",
+        "ZG",
+        "ZH",
+        "SH",
+        "GE",
+        "TG",
+        "SG",
+        "AR",
+        "AI"
+       ]
+      },
+      "regions": [],
+      "countries": []
+     }
+    ],
+    "places": [
+     {
+      "name": "La Tène (find site)",
+      "lat": 47.008,
+      "lon": 7.02,
+      "kind": "place",
+      "note": "Name-giving site of the La Tène culture"
+     },
+     {
+      "name": "Münsingen-Rain (cemetery)",
+      "lat": 46.874,
+      "lon": 7.564,
+      "kind": "place",
+      "note": "More than 220 Celtic graves"
+     }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008016/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Kelten",
+      "quote": "die jüngere Eisenzeit als Latènezeit (480-30 v. Chr.) bezeichnet",
+      "supports": "La Tène period is the later Iron Age, 480–30 BC"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008015/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Latènezeit",
+      "quote": "Die Wahl des Toponyms Tène (Gemeinde Marin-Epagnier) drängte sich auf, nachdem an diesem Ort ab 1857 zahlreiche metallische Gegenstände, insbesondere Eisenwaffen, gefunden worden waren.",
+      "supports": "name from the site La Tène; finds of iron weapons from 1857"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008015/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Latènezeit",
+      "quote": "Die berühmteste Nekropole ist mit mehr als 220 Gräbern und ungefähr 1200 Objekten diejenige von Münsingen-Rain",
+      "supports": "Münsingen-Rain, more than 220 graves"
+     }
+    ],
+    "uncertain": [
+     "The coloured area is only a rough sign for 'Celtic Iron Age culture on the Swiss Plateau'; no borders are known for this time."
+    ]
+   },
+   {
+    "year": -100,
+    "tick": "c. 100 BC",
+    "title": "Celtic peoples and their oppida",
+    "text": [
+     "About 100 BC, several peoples lived in today's Switzerland. The Helvetii lived on the Swiss Plateau, between the Rhine, the Jura, Lake Geneva and the Rhone. The Raurici lived around Basel. Four Celtic tribes lived in the Valais. The Lepontii lived in the Ticino valleys; their language was Celtic. The Raetians lived further east; their core area was the Lower Engadine, South Tyrol and Trentino.",
+     "Rome already ruled Geneva (land of the Allobroges) and the south of Ticino (land of the Insubres around Milan).",
+     "From the late 2nd century BC, the Celts built oppida. An oppidum is a large place on a hill, protected by a strong wall. Bern-Engehalbinsel was the main oppidum of the Helvetii, with more than 140 hectares. Mont Vully above Lake Murten had a wall 600 m long."
+    ],
+    "view": [
+     [
+      45.3,
+      5.6
+     ],
+     [
+      48.1,
+      11.6
+     ]
+    ],
+    "layers": [
+     {
+      "name": "Raetians",
+      "kind": "other",
+      "label": "Raetians (core area, rough)",
+      "sel": {
+       "districts": [
+        1843
+       ]
+      },
+      "regions": [
+       "ITA-5459",
+       "ITA-5460",
+       "AUT-2329"
+      ],
+      "countries": []
+     },
+     {
+      "name": "Lepontii",
+      "kind": "milan",
+      "label": "Lepontii (Celtic, Golasecca culture)",
+      "sel": {
+       "districts": [
+        2101,
+        2102,
+        2103,
+        2104,
+        2107,
+        2108,
+        1847,
+        2304
+       ]
+      },
+      "regions": [
+       "ITA-5437"
+      ],
+      "countries": []
+     },
+     {
+      "name": "Roman land",
+      "kind": "roman",
+      "label": "Already Roman: Gallia Narbonensis (Allobroges) and Gallia Cisalpina (Insubres)",
+      "sel": {
+       "cantons": [
+        "GE"
+       ],
+       "districts": [
+        2105,
+        2106
+       ]
+      },
+      "regions": [
+       "FRA-5302",
+       "FRA-5341",
+       "FRA-5311",
+       "ITA-5452",
+       "ITA-5451",
+       "ITA-5450"
+      ],
+      "countries": []
+     },
+     {
+      "name": "Raurici",
+      "kind": "ally",
+      "label": "Raurici (Celtic)",
+      "sel": {
+       "cantons": [
+        "BS",
+        "BL",
+        "JU"
+       ],
+       "districts": [
+        1104,
+        1110
+       ]
+      },
+      "regions": [
+       "FRA-5296"
+      ],
+      "countries": []
+     },
+     {
+      "name": "Valais tribes",
+      "kind": "noble",
+      "label": "Celtic tribes of the Valais (Nantuates, Veragri, Seduni, Uberi)",
+      "sel": {
+       "cantons": [
+        "VS"
+       ]
+      },
+      "regions": [],
+      "countries": []
+     },
+     {
+      "name": "Helvetii",
+      "kind": "celtic",
+      "label": "Helvetii (Celtic)",
+      "sel": {
+       "cantons": [
+        "VD",
+        "FR",
+        "NE",
+        "BE",
+        "SO",
+        "AG",
+        "LU",
+        "ZG",
+        "ZH",
+        "SH",
+        "TG"
+       ]
+      },
+      "regions": [],
+      "countries": []
+     }
+    ],
+    "places": [
+     {
+      "name": "Bern-Engehalbinsel (Brenodurum)",
+      "lat": 46.973,
+      "lon": 7.443,
+      "kind": "place",
+      "note": "Main oppidum of the Helvetii, over 140 ha"
+     },
+     {
+      "name": "Mont Vully (oppidum)",
+      "lat": 46.958,
+      "lon": 7.081,
+      "kind": "place",
+      "note": "Oppidum of about 50 ha, about 120–80 BC"
+     },
+     {
+      "name": "Basel-Münsterhügel (oppidum)",
+      "lat": 47.5565,
+      "lon": 7.5925,
+      "kind": "place",
+      "note": "Oppidum of the Raurici"
+     },
+     {
+      "name": "Uetliberg (oppidum)",
+      "lat": 47.3497,
+      "lon": 8.4915,
+      "kind": "place"
+     },
+     {
+      "name": "Yverdon (Eburodunum)",
+      "lat": 46.778,
+      "lon": 6.641,
+      "kind": "town"
+     },
+     {
+      "name": "Jensberg (oppidum)",
+      "lat": 47.117,
+      "lon": 7.258,
+      "kind": "place"
+     },
+     {
+      "name": "Altenburg-Rheinau (oppida)",
+      "lat": 47.634,
+      "lon": 8.6,
+      "kind": "place"
+     },
+     {
+      "name": "Genava (Geneva)",
+      "lat": 46.2011,
+      "lon": 6.1484,
+      "kind": "town"
+     },
+     {
+      "name": "Mont Terri (oppidum)",
+      "lat": 47.395,
+      "lon": 7.153,
+      "kind": "place"
+     },
+     {
+      "name": "Giubiasco and Arbedo (Lepontic graves)",
+      "lat": 46.172,
+      "lon": 9.003,
+      "kind": "place"
+     }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008017/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Helvetier",
+      "quote": "vom Rhein, auf der anderen vom Jura und auf der dritten Seite vom Genfersee und von der Rhone begrenzt gewesen",
+      "supports": "land of the Helvetii"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008022/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Rauriker",
+      "quote": "dessen Ausdehnung in der Gegend um Basel (mit den anschliessenden Juraketten), im Oberelsass und in Südbaden aus der Verbreitung bestimmter Keramikformen zu erschliessen",
+      "supports": "land of the Raurici"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008018/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Lepontier",
+      "quote": "Die lepontische Sprache gehört zur keltischen Sprachfamilie.",
+      "supports": "Lepontii, Celtic language"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008019/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Räter",
+      "quote": "lag das Kerngebiet der Räter demnach im Südtirol, im Trentino, im Nordtirol und im Unterengadin",
+      "supports": "core area of the Raetians"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008248/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Römisches Reich",
+      "quote": "Die Allobroger , deren nördlichstes Oppidum das am linken Rhoneufer gelegene Genf war, wurden gegen Ende des 2. Jahrhunderts v.Chr. unterworfen",
+      "supports": "Geneva already Roman"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008248/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Römisches Reich",
+      "quote": "Insubrer , eines gallischen Stammes, dessen Hauptort Mediolanum (Mailand) war und der Anfang des 2. Jahrhunderts v.Chr. unterworfen",
+      "supports": "south Ticino already Roman"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008415/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Vallis Poenina",
+      "quote": "der Siedlungsraum der kelt. Stämme der Nantuaten , Veragrer , Seduner und Uberer",
+      "supports": "four Celtic tribes in the Valais"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007866/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Oppidum",
+      "quote": "Brenodurum auf der Engehalbinsel bei Bern, zweifellos das zentrale Oppidum des Gebiets der Helvetier",
+      "supports": "Bern-Engehalbinsel main oppidum"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007866/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Oppidum",
+      "quote": "zumal seine Fläche über 140 ha betrug",
+      "supports": "more than 140 ha"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008787/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Vully, Mont",
+      "quote": "erstreckte sich auf einer Länge von 600 m quer über den Hügel",
+      "supports": "Mont Vully wall 600 m"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007866/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Oppidum",
+      "quote": "ab Ende des 2. Jahrhunderts v.Chr. im gesamten keltischen Europa ( Kelten ) nördlich der Alpen Verbreitung fand",
+      "supports": "oppida from the late 2nd century BC"
+     }
+    ],
+    "uncertain": [
+     "All borders are rough: they are drawn with today's cantons, districts and foreign regions. The eastern Plateau (east of Zürich) and central Switzerland are drawn or left blank without exact evidence.",
+     "Most other valleys of Graubünden may have been Celtic, not Raetian (HLS Räter, opinion of R. Frei-Stolba); they are left blank."
+    ]
+   },
+   {
+    "year": -58,
+    "tick": "58 BC March",
+    "title": "The Helvetii leave",
+    "text": [
+     "Orgetorix, a Helvetian noble, convinced his people to move to the Saintonge, in south-west Gaul. In March 58 BC they set out. Caesar says that 368,000 people went, with the Raurici and other groups. Historians think this number is too high. Why they left is not clear. Caesar blames attacks by Germanic peoples.",
+     "Caesar says the Helvetii burned about twelve oppida and 400 villages, so that nobody would turn back. At the end of March they met near Geneva. Caesar broke the bridge over the Rhone and did not let them cross the Roman province. So they took the way over the Jura, through the land of the Sequani."
+    ],
+    "view": [
+     [
+      44.5,
+      -1.8
+     ],
+     [
+      48.6,
+      9.8
+     ]
+    ],
+    "layers": [
+     {
+      "name": "Gallia Narbonensis",
+      "kind": "noble",
+      "label": "Roman province (Gallia Narbonensis), rough",
+      "sel": {
+       "cantons": [
+        "GE"
+       ]
+      },
+      "regions": [
+       "FRA-5302",
+       "FRA-5341",
+       "FRA-5311",
+       "FRA-5288",
+       "FRA-5352",
+       "FRA-5338"
+      ],
+      "countries": []
+     },
+     {
+      "name": "Goal: Saintonge",
+      "kind": "other",
+      "label": "Goal of the migration: the Saintonge (shown as today's Charente-Maritime)",
+      "sel": {},
+      "regions": [
+       "FRA-5278"
+      ],
+      "countries": []
+     },
+     {
+      "name": "Helvetii",
+      "kind": "celtic",
+      "label": "Home land of the Helvetii",
+      "sel": {
+       "cantons": [
+        "VD",
+        "FR",
+        "NE",
+        "BE",
+        "SO",
+        "AG",
+        "LU",
+        "ZG",
+        "ZH",
+        "SH",
+        "TG"
+       ]
+      },
+      "regions": [],
+      "countries": []
+     }
+    ],
+    "places": [
+     {
+      "name": "Genava: Caesar breaks the Rhone bridge",
+      "lat": 46.204,
+      "lon": 6.143,
+      "kind": "place",
+      "note": "End of March 58 BC"
+     },
+     {
+      "name": "Bern-Engehalbinsel (Brenodurum)",
+      "lat": 46.973,
+      "lon": 7.443,
+      "kind": "place",
+      "note": "Main oppidum of the Helvetii, over 140 ha"
+     },
+     {
+      "name": "Mont Vully (oppidum)",
+      "lat": 46.958,
+      "lon": 7.081,
+      "kind": "place",
+      "note": "Oppidum of about 50 ha, about 120–80 BC"
+     },
+     {
+      "name": "Saintes (Saintonge)",
+      "lat": 45.746,
+      "lon": -0.633,
+      "kind": "place",
+      "note": "Planned goal"
+     }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008017/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Helvetier",
+      "quote": "Nachdem Orgetorix die Helvetier überzeugt hatte, in die Saintonge auszuwandern, setzten sich im März 58 v.Chr. nach zwei- bis dreijähriger Vorbereitungszeit",
+      "supports": "Orgetorix, Saintonge, March 58 BC"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008017/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Helvetier",
+      "quote": "also 368'000 Menschen, in Bewegung (diese Zahlen dürften übertrieben sein und werden von der Forschung angezweifelt)",
+      "supports": "368,000 people, number doubted"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008017/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Helvetier",
+      "quote": "Weshalb sich die Helvetier zur Auswanderung entschlossen, ist nicht geklärt. Caesar macht die wiederholten Germaneneinfälle dafür verantwortlich.",
+      "supports": "reasons unclear; Caesar blames Germanic attacks"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008017/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Helvetier",
+      "quote": "setzten sie ihre Städte (ein rundes Dutzend Oppida), Dörfer (ungefähr 400) und Einzelhöfe in Brand",
+      "supports": "burned oppida and villages"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008017/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Helvetier",
+      "quote": "Caesar eilte herbei, liess die Brücke über die Rhone abreissen und untersagte ihnen, durch die Narbonensis zu marschieren.",
+      "supports": "Rhone bridge, no passage through the province"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008017/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Helvetier",
+      "quote": "Gezwungen, ihren Weg über den Jura durch das Gebiet der Sequaner zu nehmen",
+      "supports": "route over the Jura"
+     }
+    ],
+    "uncertain": [
+     "The Mont Vully burn layer was once linked with 58 BC; HLS says this idea was given up (fire about 80 BC).",
+     "The extent of Gallia Narbonensis is drawn very roughly."
+    ]
+   },
+   {
+    "year": -58,
+    "tick": "58 BC June: Bibracte",
+    "title": "Defeat at Bibracte",
+    "text": [
+     "At the Saône river, Roman legions killed the Tigurini, one group of the Helvetii. Talks between the old leader Divico and Caesar failed.",
+     "About 20 June, Caesar turned towards Bibracte, a town of his allies the Aedui, to get food. The Helvetii turned and attacked. The battle began about noon and ended at night with their defeat. The battlefield was probably near Montmort, not at Bibracte itself.",
+     "Caesar sent the survivors home. He did not want Germanic peoples to settle on the empty Swiss Plateau. According to Caesar, only 110,000 people came back. The Helvetii now probably had a treaty with Rome."
+    ],
+    "view": [
+     [
+      45.0,
+      2.5
+     ],
+     [
+      48.3,
+      8.5
+     ]
+    ],
+    "layers": [
+     {
+      "name": "Gallia Narbonensis",
+      "kind": "noble",
+      "label": "Roman province (Gallia Narbonensis), rough",
+      "sel": {
+       "cantons": [
+        "GE"
+       ]
+      },
+      "regions": [
+       "FRA-5302",
+       "FRA-5341",
+       "FRA-5311",
+       "FRA-5338"
+      ],
+      "countries": []
+     },
+     {
+      "name": "Helvetii",
+      "kind": "celtic",
+      "label": "Home land of the Helvetii",
+      "sel": {
+       "cantons": [
+        "VD",
+        "FR",
+        "NE",
+        "BE",
+        "SO",
+        "AG",
+        "LU",
+        "ZG",
+        "ZH",
+        "SH",
+        "TG"
+       ]
+      },
+      "regions": [],
+      "countries": []
+     }
+    ],
+    "places": [
+     {
+      "name": "Battlefield, probably near Montmort",
+      "lat": 46.735,
+      "lon": 4.088,
+      "kind": "battle",
+      "year": -58,
+      "note": "Helvetii defeated by Caesar"
+     },
+     {
+      "name": "Bibracte (Mont Beuvray)",
+      "lat": 46.923,
+      "lon": 4.037,
+      "kind": "town",
+      "note": "Town of the Aedui, 27 km from the battle"
+     },
+     {
+      "name": "Genava (Geneva)",
+      "lat": 46.2011,
+      "lon": 6.1484,
+      "kind": "town"
+     }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008721/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Bibracte, Schlacht bei",
+      "quote": "Um den 20. Juni bog dieser nach dem 27 km entfernten B. ab, um dort Lebensmittel zu holen",
+      "supports": "Caesar turns to Bibracte for food"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008721/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Bibracte, Schlacht bei",
+      "quote": "Die Schlacht, die gegen Mittag begonnen hatte, endete in der Nacht mit der Niederlage der Auswanderer.",
+      "supports": "battle from noon to night, defeat"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008721/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Bibracte, Schlacht bei",
+      "quote": "Das Schlachtfeld liegt vermutlich bei Montmort (Dep. Saône-et-Loire)",
+      "supports": "battlefield near Montmort"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008017/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Helvetier",
+      "quote": "stiessen die Helvetier an die Saône vor, wo die Tiguriner durch die römischen Legionen niedergemetzelt wurden",
+      "supports": "Tigurini killed at the Saône"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008017/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Helvetier",
+      "quote": "Caesar schickte die besiegten Helvetier in ihr angestammtes Gebiet zurück, um, wie er sagte, zu verhindern, dass sich rechtsrheinische Germanen im schweizerischen Mittelland niederliessen",
+      "supports": "sent home; reason"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008017/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Helvetier",
+      "quote": "Laut Caesar kehrten nur noch 110'000 Auswanderer in ihre angestammten Gebiete zurück.",
+      "supports": "110,000 returned"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008017/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Helvetier",
+      "quote": "Sehr wahrscheinlich schlossen die Helvetier bei dieser Gelegenheit einen Vertrag (foedus) mit den Römern ab",
+      "supports": "probable treaty"
+     }
+    ],
+    "uncertain": [
+     "The place of the battle is not certain (HLS: 'vermutlich bei Montmort'). The point is set at the village of Montmort."
+    ]
+   },
+   {
+    "year": -44,
+    "tick": "45–44 BC",
+    "title": "Two Roman colonies",
+    "text": [
+     "Rome now planted colonies. A colony was a town of Roman settlers with its own land.",
+     "Between 46 and 44 BC, Caesar founded the Colonia Iulia Equestris at Nyon. The first settlers were old soldiers, mostly horsemen. They got land taken from the Helvetii. The colony controlled the way out of the Plateau towards the Rhone valley and Italy.",
+     "In 44 BC, the general Lucius Munatius Plancus founded the colony Raurica. Its first place is not known: maybe on the Basel Münsterhügel. Building at Augusta Raurica (Augst) began only about 15–10 BC, when Augustus refounded it. Both colonies spread the Roman way of life."
+    ],
+    "view": "ch",
+    "layers": [
+     {
+      "name": "Colonia Iulia Equestris",
+      "kind": "roman",
+      "label": "Land of the colony of Nyon (rough: today's Nyon district)",
+      "sel": {
+       "districts": [
+        2228
+       ]
+      },
+      "regions": [],
+      "countries": []
+     },
+     {
+      "name": "Gallia Narbonensis",
+      "kind": "noble",
+      "label": "Roman province Gallia Narbonensis (Geneva)",
+      "sel": {
+       "cantons": [
+        "GE"
+       ]
+      },
+      "regions": [],
+      "countries": []
+     },
+     {
+      "name": "Raurici",
+      "kind": "ally",
+      "label": "Raurici",
+      "sel": {
+       "cantons": [
+        "BS",
+        "BL",
+        "JU"
+       ],
+       "districts": [
+        1104,
+        1110
+       ]
+      },
+      "regions": [],
+      "countries": []
+     },
+     {
+      "name": "Helvetii",
+      "kind": "celtic",
+      "label": "Helvetii (allied to Rome by treaty?)",
+      "sel": {
+       "cantons": [
+        "VD",
+        "FR",
+        "NE",
+        "BE",
+        "SO",
+        "AG",
+        "LU",
+        "ZG",
+        "ZH",
+        "SH",
+        "TG"
+       ]
+      },
+      "regions": [],
+      "countries": []
+     }
+    ],
+    "places": [
+     {
+      "name": "Colonia Iulia Equestris (Nyon)",
+      "lat": 46.383,
+      "lon": 6.239,
+      "kind": "town"
+     },
+     {
+      "name": "Basel-Münsterhügel (first Raurica?)",
+      "lat": 47.5565,
+      "lon": 7.5925,
+      "kind": "place"
+     },
+     {
+      "name": "Augusta Raurica (Augst)",
+      "lat": 47.534,
+      "lon": 7.718,
+      "kind": "town"
+     },
+     {
+      "name": "Genava (Geneva)",
+      "lat": 46.2011,
+      "lon": 6.1484,
+      "kind": "town"
+     }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/012283/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Colonia Iulia Equestris",
+      "quote": "Julius Caesar gründete die Colonia Iulia Equestris wahrscheinlich zwischen 46 und 44 v.Chr.",
+      "supports": "Nyon founded 46–44 BC"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/012283/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Colonia Iulia Equestris",
+      "quote": "Die ersten Kolonisten waren Armeeveteranen, vor allem Kavalleristen. Sie erhielten Landlose, die von den Helvetiern beschlagnahmt",
+      "supports": "veterans, horsemen, Helvetian land"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/012283/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Colonia Iulia Equestris",
+      "quote": "zu kontrollieren und das Rhonetal und die Verkehrswege nach Italien zu sichern",
+      "supports": "purpose of the colony"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/012283/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Colonia Iulia Equestris",
+      "quote": "Das Territorium der Colonia Iulia Equestris erstreckte sich zwischen Jura, Rhone und Genfersee.",
+      "supports": "territory of the colony"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/012280/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Augusta Raurica",
+      "quote": "gründete Lucius Munatius Plancus (in Basel?) 44 v.Chr. die Colonia Raurica",
+      "supports": "Raurica 44 BC, place unsure"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/012280/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Augusta Raurica",
+      "quote": "Um 15-10 v.Chr. begann die Bau- und Siedlungstätigkeit in Augusta Raurica mit Holzbauten",
+      "supports": "building at Augst from 15–10 BC"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008248/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Römisches Reich",
+      "quote": "Diese beiden Kolonien wirkten als Triebfedern der Romanisierung.",
+      "supports": "colonies spread Roman ways"
+     }
+    ],
+    "uncertain": [
+     "The border of the Nyon colony is not exactly known (Aubonne, Venoge or Morge); here only today's Nyon district is coloured.",
+     "Whether the Helvetii had a formal treaty with Caesar is open."
+    ]
+   },
+   {
+    "year": -15,
+    "tick": "15 BC",
+    "title": "Rome conquers the Alps",
+    "text": [
+     "Emperor Augustus wanted safe roads over the Alps. His stepsons Tiberius and Drusus led the campaign of 15 BC. It was a pincer attack: Tiberius came from Lyon, Drusus marched up the Adige valley, and other troops entered the valleys of Graubünden.",
+     "Roman posts at Basel-Münsterhügel and Zürich-Lindenhof, and three watchtowers at Lake Walen, belong to this war. The Lepontii in Ticino and the four tribes of the Valais also surrendered.",
+     "A victory monument at La Turbie, above Monaco, built in 7–6 BC, lists the conquered Alpine tribes. Now all of today's Switzerland was under Rome."
+    ],
+    "view": [
+     [
+      43.4,
+      4.3
+     ],
+     [
+      48.4,
+      12.5
+     ]
+    ],
+    "layers": [
+     {
+      "name": "Conquered in 15 BC",
+      "kind": "roman",
+      "label": "Alpine land conquered in the campaign of 15 BC (rough)",
+      "sel": {
+       "cantons": [
+        "VS",
+        "GR",
+        "GL",
+        "UR",
+        "SG",
+        "AR",
+        "AI"
+       ],
+       "districts": [
+        2101,
+        2102,
+        2103,
+        2104,
+        2107,
+        2108
+       ]
+      },
+      "regions": [
+       "AUT-2329",
+       "ITA-5459",
+       "AUT-2320",
+       "DEU-1591"
+      ],
+      "countries": []
+     },
+     {
+      "name": "Already Roman",
+      "kind": "empire",
+      "label": "Already Roman before 15 BC (Italy, Gallia Narbonensis), rough",
+      "sel": {
+       "cantons": [
+        "GE"
+       ],
+       "districts": [
+        2105,
+        2106
+       ]
+      },
+      "regions": [
+       "ITA-5452",
+       "ITA-5451",
+       "ITA-5450",
+       "ITA-5453",
+       "ITA-5444",
+       "ITA-5438",
+       "ITA-5437",
+       "ITA-5442",
+       "ITA-5434",
+       "ITA-5443",
+       "ITA-5454",
+       "ITA-5436",
+       "ITA-5435",
+       "ITA-5449",
+       "ITA-5460",
+       "FRA-5302",
+       "FRA-5311",
+       "FRA-5338"
+      ],
+      "countries": []
+     },
+     {
+      "name": "Plateau",
+      "kind": "celtic",
+      "label": "Helvetii and Raurici, under Roman control",
+      "sel": {
+       "cantons": [
+        "VD",
+        "FR",
+        "NE",
+        "BE",
+        "SO",
+        "AG",
+        "LU",
+        "ZG",
+        "ZH",
+        "SH",
+        "TG",
+        "BS",
+        "BL",
+        "JU",
+        "SZ",
+        "OW",
+        "NW"
+       ]
+      },
+      "regions": [],
+      "countries": []
+     }
+    ],
+    "places": [
+     {
+      "name": "Lugdunum (Lyon)",
+      "lat": 45.764,
+      "lon": 4.8357,
+      "kind": "town"
+     },
+     {
+      "name": "Adige valley (Drusus)",
+      "lat": 46.498,
+      "lon": 11.354,
+      "kind": "place",
+      "note": "Drusus marches up the valley"
+     },
+     {
+      "name": "Basel-Münsterhügel (oppidum)",
+      "lat": 47.5565,
+      "lon": 7.5925,
+      "kind": "place",
+      "note": "Oppidum of the Raurici"
+     },
+     {
+      "name": "Zürich-Lindenhof (Turicum)",
+      "lat": 47.3729,
+      "lon": 8.5405,
+      "kind": "town"
+     },
+     {
+      "name": "Biberlikopf (Roman tower)",
+      "lat": 47.128,
+      "lon": 9.075,
+      "kind": "castle",
+      "note": "One of three towers at Lake Walen"
+     },
+     {
+      "name": "Tropaeum Alpium (La Turbie)",
+      "lat": 43.7486,
+      "lon": 7.3997,
+      "kind": "place",
+      "note": "Victory monument, 7–6 BC"
+     }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008248/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Römisches Reich",
+      "quote": "Augustus liess durch seine Adoptivsöhne Tiberius und Drusus die Alpen erobern.",
+      "supports": "Tiberius and Drusus"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008248/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Römisches Reich",
+      "quote": "begann 15 v.Chr. mit einem Zangenangriff, indem Tiberius von Lyon her anrückte, Drusus das Etschtal hochmarschierte und weitere Truppen in die Bündner Täler eindrangen",
+      "supports": "pincer attack"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008248/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Römisches Reich",
+      "quote": "Die militärischen Anlagen Basel-Münsterhügel und Zürich-Lindenhof sowie drei Wachtürme am Walensee",
+      "supports": "Basel, Zürich, Walensee towers"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008248/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Römisches Reich",
+      "quote": "Die Bewohner des Sopraceneri ( Lepontier ) und die vier Völker des Wallis",
+      "supports": "Lepontii and Valais tribes surrender"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008018/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Lepontier",
+      "quote": "deren Ziel die Unterwerfung der Alpenvölker zur Sicherung der Handelswege und des militärischen Durchgangs durch die Alpen war",
+      "supports": "aim: safe roads"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008248/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Römisches Reich",
+      "quote": "Vom 2. Jahrhundert v.Chr. bis 13 v.Chr. wurde das Gebiet der heutigen Schweiz etappenweise in das Römische Reich eingegliedert",
+      "supports": "all of Switzerland Roman"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/039116/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Tropaeum Alpium",
+      "quote": "Es wurde in den Jahren 7 und 6 v.Chr. zu Ehren des Kaisers Augustus errichtet und erinnerte an die Unterwerfung der Alpenstämme",
+      "supports": "Tropaeum Alpium"
+     }
+    ],
+    "uncertain": [
+     "The HLS gives 16–15 BC for Zürich and Chur and 15 BC for the main campaign; the step uses 15 BC.",
+     "Coloured areas are rough; Bavaria, Tyrol and Vorarlberg are whole modern states."
+    ]
+   },
+   {
+    "year": 17,
+    "tick": "AD 14–17",
+    "title": "Legion camp and first provinces",
+    "text": [
+     "After the conquest, Rome set up its first provinces. A province was a territory ruled by a Roman governor. The Helvetii, the Raurici and the two colonies first belonged to Gallia Lugdunensis, then to Gallia Belgica. The mountains – Valais, Leventina and Graubünden – formed one large 'pass province', later called Raetia.",
+     "In AD 9 the Romans lost a big battle in Germania. Under Emperor Tiberius they stopped attacking east of the Rhine and guarded the river. At Vindonissa (Windisch), where the Aare, Reuss and Limmat meet, they built a legion camp. About 6,000 soldiers lived there. The legion brought money and work to the region."
+    ],
+    "view": "ch",
+    "layers": [
+     {
+      "name": "Gallia Narbonensis",
+      "kind": "noble",
+      "label": "Gallia Narbonensis (Geneva)",
+      "sel": {
+       "cantons": [
+        "GE"
+       ]
+      },
+      "regions": [],
+      "countries": []
+     },
+     {
+      "name": "Italia",
+      "kind": "empire",
+      "label": "Italy (south Ticino)",
+      "sel": {
+       "districts": [
+        2105,
+        2106
+       ]
+      },
+      "regions": [],
+      "countries": []
+     },
+     {
+      "name": "Raetia",
+      "kind": "other",
+      "label": "Alpine 'pass province' (Raetia), with the Valais",
+      "sel": {
+       "cantons": [
+        "VS",
+        "GR"
+       ],
+       "districts": [
+        2101,
+        2102,
+        2103,
+        2104,
+        2107,
+        2108
+       ]
+      },
+      "regions": [],
+      "countries": []
+     },
+     {
+      "name": "Gallia Belgica",
+      "kind": "roman",
+      "label": "Gallia Belgica: Helvetii, Raurici, Nyon, Augst (rough)",
+      "sel": {
+       "cantons": [
+        "VD",
+        "FR",
+        "NE",
+        "BE",
+        "SO",
+        "BS",
+        "BL",
+        "JU",
+        "AG",
+        "LU",
+        "ZG",
+        "ZH",
+        "SH"
+       ]
+      },
+      "regions": [],
+      "countries": []
+     }
+    ],
+    "places": [
+     {
+      "name": "Vindonissa (Windisch)",
+      "lat": 47.4787,
+      "lon": 8.2215,
+      "kind": "town"
+     },
+     {
+      "name": "Augusta Raurica (Augst)",
+      "lat": 47.534,
+      "lon": 7.718,
+      "kind": "town"
+     },
+     {
+      "name": "Colonia Iulia Equestris (Nyon)",
+      "lat": 46.383,
+      "lon": 6.239,
+      "kind": "town"
+     },
+     {
+      "name": "Zurzach (fort)",
+      "lat": 47.585,
+      "lon": 8.29,
+      "kind": "castle"
+     }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008248/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Römisches Reich",
+      "quote": "Die Helvetier und die Rauracher sowie die beiden Kolonien Nyon und Augst wurden zunächst der Gallia Lugdunensis, später der kaiserlichen Provinz Gallia Belgica",
+      "supports": "Plateau in Lugdunensis, then Belgica"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008248/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Römisches Reich",
+      "quote": "Die Bergregionen im Wallis, in der Leventina und Graubünden wurden in einer grossen \"Passprovinz\" vereint",
+      "supports": "pass province"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/009813/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Provincia",
+      "quote": "Graubünden, die Leventina und das Wallis bildeten einen Teil der Provinz Raetia",
+      "supports": "Raetia"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008248/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Römisches Reich",
+      "quote": "Nachdem Varus 9 n.Chr. im Teutoburger Wald besiegt worden war, errichteten die Römer 14 n.Chr. das Legionslager Vindonissa",
+      "supports": "AD 9 defeat, camp"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/012287/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Vindonissa",
+      "quote": "welche den strategisch wichtigen Punkt am sogenannten Wasserschloss der Schweiz kontrollierten",
+      "supports": "where the rivers meet"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/024628/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Römisches Heer",
+      "quote": "Als Kaiser Tiberius Ende 16 n.Chr. die Kampfhandlungen im rechtsrheinischen Gebiet einstellen liess, wurde in Vindonissa ein festes Lager errichtet",
+      "supports": "camp after Tiberius stops attacks"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/012287/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Vindonissa",
+      "quote": "Das Trinkwasser für die ca. 6000 Mann starke Lagerbesatzung",
+      "supports": "about 6,000 soldiers"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008248/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Römisches Reich",
+      "quote": "Die Anwesenheit einer Legion und der diese begleitenden Hilfstruppen belebte die Wirtschaft im 1. Jahrhundert n.Chr.",
+      "supports": "legion helps the economy"
+     }
+    ],
+    "uncertain": [
+     "The start of the legion camp is dated differently in the HLS: 14 (Römisches Reich), about 16/17 (Aventicum), end of 16 (Römisches Heer).",
+     "Where exactly the border between Belgica and Raetia ran in the east is not known; central and eastern Switzerland are left blank or drawn roughly."
+    ]
+   },
+   {
+    "year": 47,
+    "tick": "AD 41–47",
+    "title": "Claudius: the Valais and its forum",
+    "text": [
+     "Emperor Claudius (41–54) finished the Roman organisation. He reorganised the road over the Great St Bernard. Near the old Celtic village of Octodurus he founded a new town: Forum Claudii Vallensium, today's Martigny.",
+     "The four tribes of the Valais were joined into one community, the civitas Vallensium. Its leaders could now become Roman citizens. The Valais left Raetia and, with the Tarentaise, formed the province of the Graian and Poenine Alps. Its governor lived partly in Martigny, partly in Aime in the Tarentaise.",
+     "The Great St Bernard was part of the shortest way from northern Italy to the legions on the Rhine. Claudius needed it for his conquest of Britain."
+    ],
+    "view": [
+     [
+      45.4,
+      5.8
+     ],
+     [
+      47.0,
+      8.3
+     ]
+    ],
+    "layers": [
+     {
+      "name": "Alpes Graiae et Poeninae",
+      "kind": "ally",
+      "label": "Province of the Graian and Poenine Alps (Valais + Tarentaise, rough)",
+      "sel": {
+       "cantons": [
+        "VS"
+       ]
+      },
+      "regions": [
+       "FRA-5341"
+      ],
+      "countries": []
+     },
+     {
+      "name": "Italia",
+      "kind": "empire",
+      "label": "Italy",
+      "sel": {},
+      "regions": [
+       "ITA-5442",
+       "ITA-5434",
+       "ITA-5437"
+      ],
+      "countries": []
+     },
+     {
+      "name": "Gallia Narbonensis",
+      "kind": "noble",
+      "label": "Gallia Narbonensis (rough)",
+      "sel": {
+       "cantons": [
+        "GE"
+       ]
+      },
+      "regions": [
+       "FRA-5302"
+      ],
+      "countries": []
+     },
+     {
+      "name": "Gallia Belgica",
+      "kind": "roman",
+      "label": "Gallia Belgica (Helvetii, Nyon)",
+      "sel": {
+       "cantons": [
+        "VD",
+        "FR",
+        "NE",
+        "BE"
+       ]
+      },
+      "regions": [],
+      "countries": []
+     }
+    ],
+    "places": [
+     {
+      "name": "Forum Claudii Vallensium (Martigny)",
+      "lat": 46.0985,
+      "lon": 7.0725,
+      "kind": "town"
+     },
+     {
+      "name": "Great St Bernard pass (Summus Poeninus)",
+      "lat": 45.869,
+      "lon": 7.17,
+      "kind": "place"
+     },
+     {
+      "name": "Acaunum (Saint-Maurice)",
+      "lat": 46.218,
+      "lon": 7.0036,
+      "kind": "town"
+     },
+     {
+      "name": "Aime-en-Tarentaise",
+      "lat": 45.556,
+      "lon": 6.65,
+      "kind": "town",
+      "note": "Second seat of the governor"
+     },
+     {
+      "name": "Augusta Praetoria (Aosta)",
+      "lat": 45.737,
+      "lon": 7.32,
+      "kind": "town"
+     }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008248/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Römisches Reich",
+      "quote": "Nachdem der Transit über den Grossen St. Bernhard neu organisiert worden war, gründete er in Octodurus (heute Martigny) das Forum Claudii Vallensium",
+      "supports": "Claudius founds Forum Claudii"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/037227/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Forum Claudii Vallensium",
+      "quote": "wurde im kaiserlichen Auftrag zwischen 41 und 47 n.Chr. am Beginn des Aufstiegs zum Summus Poeninus ( Grosser S t. Bernhard )",
+      "supports": "date 41–47"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008248/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Römisches Reich",
+      "quote": "fasste die vier Civitates des Wallis zu einer einzigen – der Civitas Vallensium – zusammen. Diese erhielt das latinische Bürgerrecht (ius Latii)",
+      "supports": "civitas Vallensium, Latin rights"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/009813/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Provincia",
+      "quote": "Das Wallis wurde unter Kaiser Claudius (41-54 n.Chr.) mit der Tarentaise zur Provincia Alpes Graiae et Poeninae vereint",
+      "supports": "new province"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/009813/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Provincia",
+      "quote": "der ritterliche Statthalter residierte abwechslungsweise in Martigny und in Aime-en-Tarentaise",
+      "supports": "governor's seats"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008852/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Grosser St. Bernhard (Pass)",
+      "quote": "Da der Pass ein Teilstück der kürzesten Verbindung zwischen Oberitalien und den Legionslagern längs der Rheingrenze bildete",
+      "supports": "shortest way to the Rhine"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/037227/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Forum Claudii Vallensium",
+      "quote": "Die Stadtgründung stand in Zusammenhang mit der Eroberung Grossbritanniens durch Kaiser Claudius",
+      "supports": "link to Britain"
+     }
+    ],
+    "uncertain": [
+     "'Latin rights' is simplified to 'leaders could become Roman citizens' (by holding an office)."
+    ]
+   },
+   {
+    "year": 47,
+    "tick": "Roads and passes",
+    "title": "Roads and Alpine passes",
+    "text": [
+     "Roman road lists and a Roman road map show the main roads. One road came from the Great St Bernard down the Rhone valley to Geneva. From Vevey a road went to Avenches; from Lausanne one went via Orbe to Besançon. From Avenches the main west–east road ran to Windisch. A branch crossed the Upper Hauenstein to Augst and on to Strasbourg.",
+     "In the east, a road came from Bregenz via Chur over two passes to Como and Milan. Roman remains on the Julier pass show that carts used it, but only small two-wheeled carts on steep tracks.",
+     "In Roman times the Great St Bernard, not the Gotthard, was the fastest way from the Rhine to Rome. Many visible 'Roman' road tracks are in fact medieval or later."
+    ],
+    "view": "ch",
+    "layers": [],
+    "places": [
+     {
+      "name": "Great St Bernard pass (Summus Poeninus)",
+      "lat": 45.869,
+      "lon": 7.17,
+      "kind": "place"
+     },
+     {
+      "name": "Forum Claudii Vallensium (Martigny)",
+      "lat": 46.0985,
+      "lon": 7.0725,
+      "kind": "town"
+     },
+     {
+      "name": "Acaunum (Saint-Maurice)",
+      "lat": 46.218,
+      "lon": 7.0036,
+      "kind": "town"
+     },
+     {
+      "name": "Vevey (Viviscus)",
+      "lat": 46.46,
+      "lon": 6.843,
+      "kind": "town"
+     },
+     {
+      "name": "Lousonna (Lausanne-Vidy)",
+      "lat": 46.517,
+      "lon": 6.596,
+      "kind": "town"
+     },
+     {
+      "name": "Genava (Geneva)",
+      "lat": 46.2011,
+      "lon": 6.1484,
+      "kind": "town"
+     },
+     {
+      "name": "Orbe (road station)",
+      "lat": 46.725,
+      "lon": 6.532,
+      "kind": "town"
+     },
+     {
+      "name": "Aventicum (Avenches)",
+      "lat": 46.881,
+      "lon": 7.042,
+      "kind": "town"
+     },
+     {
+      "name": "Petinesca (Studen)",
+      "lat": 47.114,
+      "lon": 7.297,
+      "kind": "town"
+     },
+     {
+      "name": "Pierre Pertuis",
+      "lat": 47.205,
+      "lon": 7.199,
+      "kind": "place"
+     },
+     {
+      "name": "Salodurum (Solothurn)",
+      "lat": 47.207,
+      "lon": 7.537,
+      "kind": "town"
+     },
+     {
+      "name": "Oberer Hauenstein",
+      "lat": 47.348,
+      "lon": 7.743,
+      "kind": "place"
+     },
+     {
+      "name": "Augusta Raurica (Augst)",
+      "lat": 47.534,
+      "lon": 7.718,
+      "kind": "town"
+     },
+     {
+      "name": "Vindonissa (Windisch)",
+      "lat": 47.4787,
+      "lon": 8.2215,
+      "kind": "town"
+     },
+     {
+      "name": "Zürich-Lindenhof (Turicum)",
+      "lat": 47.3729,
+      "lon": 8.5405,
+      "kind": "town"
+     },
+     {
+      "name": "Vitudurum (Oberwinterthur)",
+      "lat": 47.512,
+      "lon": 8.763,
+      "kind": "town"
+     },
+     {
+      "name": "Arbor Felix (Arbon)",
+      "lat": 47.517,
+      "lon": 9.433,
+      "kind": "town"
+     },
+     {
+      "name": "Brigantium (Bregenz)",
+      "lat": 47.503,
+      "lon": 9.747,
+      "kind": "town"
+     },
+     {
+      "name": "Curia (Chur)",
+      "lat": 46.847,
+      "lon": 9.528,
+      "kind": "town"
+     },
+     {
+      "name": "Tinnetione (Tinizong)",
+      "lat": 46.583,
+      "lon": 9.618,
+      "kind": "place"
+     },
+     {
+      "name": "Julier pass",
+      "lat": 46.472,
+      "lon": 9.7275,
+      "kind": "place"
+     },
+     {
+      "name": "Septimer pass",
+      "lat": 46.428,
+      "lon": 9.638,
+      "kind": "place"
+     },
+     {
+      "name": "Murus (Castelmur)",
+      "lat": 46.339,
+      "lon": 9.554,
+      "kind": "place"
+     }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007959/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Strassen",
+      "quote": "Die Quellen legen zunächst eine Verbindungslinie vom Grossen St. Bernhard nach Genf nahe und von dieser abzweigend eine Strasse zwischen Vevey und Avenches",
+      "supports": "St Bernard–Geneva, Vevey–Avenches"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007959/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Strassen",
+      "quote": "eine andere von Lausanne über Orbe nach Besançon",
+      "supports": "Lausanne–Orbe–Besançon"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007959/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Strassen",
+      "quote": "Diese führte weiter in Richtung Strassburg.",
+      "supports": "on to Strasbourg"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007959/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Strassen",
+      "quote": "Von Avenches aus führte eine West-Ost-Achse nach Windisch, von welcher die Passstrasse über den Oberen Hauenstein nach Augst abzweigte.",
+      "supports": "west–east road, Hauenstein"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007959/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Strassen",
+      "quote": "während von Bregenz eine Strasse über Chur und über zwei verschiedene Pässe Como und Mailand erreichte",
+      "supports": "Bregenz–Chur–Como/Milan"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008811/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Julierpass",
+      "quote": "der Julierpass einer der wenigen Alpenpässe war, der bereits in römischer Zeit intensiv befahren wurde, wenn auch nur mit zweirädrigen Karren",
+      "supports": "Julier pass with carts"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008811/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Julierpass",
+      "quote": "zeigt einen Strassenzug mit den Stationen Tinnetione (Tinizong im Oberhalbstein) und Murus (wohl Castelmur-Müraia, nahe Promontogno, im Bergell)",
+      "supports": "stations Tinizong and Castelmur"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008248/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Römisches Reich",
+      "quote": "war es in römischer Zeit der Grosse St. Bernhard und nicht der Gotthard, der die rascheste Verbindung vom Rhein nach Rom gewährleistete",
+      "supports": "Great St Bernard not Gotthard"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008852/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Grosser St. Bernhard (Pass)",
+      "quote": "Die von Bourg-Saint-Pierre aus sichtbaren Streckenabschnitte sind überkommene Reste mittelalterlicher oder im 19. Jahrhundert gebauter Strassen",
+      "supports": "visible tracks not Roman"
+     }
+    ],
+    "uncertain": [
+     "The road lists date from different times (the Itinerarium Antonini is 3rd century); this step is placed at AD 47 for the story only.",
+     "The exact line of many Roman roads is not known; the points mark towns and passes along the routes, not the roads themselves.",
+     "Whether the Septimer or the Julier was more important is unclear (HLS Julierpass)."
+    ]
+   },
+   {
+    "year": 85,
+    "tick": "c. AD 85",
+    "title": "Germania superior and the towns",
+    "text": [
+     "About AD 85, Emperor Domitian created the province of Germania superior (Upper Germany). The lands of the Helvetii and Raurici and the colonies of Nyon and Augst went to it. This lasted until the end of the 3rd century. Eastern Switzerland, Leventina and Graubünden stayed in Raetia. In AD 101 the legion left Vindonissa; the Plateau was now far from the frontier.",
+     "This was a time of peace and growing wealth. Aventicum (Avenches), capital of the Helvetii, became a colony about AD 70. Augusta Raurica had perhaps 20,000 people around AD 200. Smaller towns grew at Lousonna (Lausanne-Vidy), Turicum (Zürich, a customs post), Curia (Chur), Genava (Geneva) and Forum Claudii (Martigny)."
+    ],
+    "view": [
+     [
+      45.2,
+      5.0
+     ],
+     [
+      48.6,
+      11.0
+     ]
+    ],
+    "layers": [
+     {
+      "name": "Gallia Narbonensis",
+      "kind": "noble",
+      "label": "Gallia Narbonensis (rough)",
+      "sel": {
+       "cantons": [
+        "GE"
+       ]
+      },
+      "regions": [
+       "FRA-5302",
+       "FRA-5311"
+      ],
+      "countries": []
+     },
+     {
+      "name": "Alpes Graiae et Poeninae",
+      "kind": "ally",
+      "label": "Graian and Poenine Alps (rough)",
+      "sel": {
+       "cantons": [
+        "VS"
+       ]
+      },
+      "regions": [
+       "FRA-5341"
+      ],
+      "countries": []
+     },
+     {
+      "name": "Italia",
+      "kind": "empire",
+      "label": "Italy (rough)",
+      "sel": {
+       "districts": [
+        2105,
+        2106
+       ]
+      },
+      "regions": [
+       "ITA-5452",
+       "ITA-5451",
+       "ITA-5450",
+       "ITA-5453",
+       "ITA-5444",
+       "ITA-5438",
+       "ITA-5437",
+       "ITA-5442",
+       "ITA-5434",
+       "ITA-5443",
+       "ITA-5454",
+       "ITA-5436",
+       "ITA-5435",
+       "ITA-5449",
+       "ITA-5460"
+      ],
+      "countries": []
+     },
+     {
+      "name": "Raetia",
+      "kind": "other",
+      "label": "Raetia (rough; the western border is not known)",
+      "sel": {
+       "cantons": [
+        "TG",
+        "SG",
+        "AR",
+        "AI",
+        "GL",
+        "GR"
+       ],
+       "districts": [
+        2101,
+        2102,
+        2103,
+        2104,
+        2107,
+        2108
+       ]
+      },
+      "regions": [
+       "AUT-2320",
+       "AUT-2329",
+       "DEU-1591",
+       "ITA-5459"
+      ],
+      "countries": [
+       "LIE"
+      ]
+     },
+     {
+      "name": "Germania superior",
+      "kind": "roman",
+      "label": "Germania superior (rough)",
+      "sel": {
+       "cantons": [
+        "VD",
+        "FR",
+        "NE",
+        "BE",
+        "SO",
+        "BS",
+        "BL",
+        "JU",
+        "AG",
+        "LU",
+        "ZG",
+        "ZH",
+        "SH"
+       ]
+      },
+      "regions": [
+       "FRA-5296",
+       "FRA-5273",
+       "FRA-5348",
+       "FRA-5287",
+       "FRA-5312",
+       "FRA-5301",
+       "FRA-5300",
+       "DEU-1573",
+       "DEU-1580"
+      ],
+      "countries": []
+     }
+    ],
+    "places": [
+     {
+      "name": "Aventicum (Avenches)",
+      "lat": 46.881,
+      "lon": 7.042,
+      "kind": "town"
+     },
+     {
+      "name": "Augusta Raurica (Augst)",
+      "lat": 47.534,
+      "lon": 7.718,
+      "kind": "town"
+     },
+     {
+      "name": "Colonia Iulia Equestris (Nyon)",
+      "lat": 46.383,
+      "lon": 6.239,
+      "kind": "town"
+     },
+     {
+      "name": "Vindonissa (Windisch)",
+      "lat": 47.4787,
+      "lon": 8.2215,
+      "kind": "town"
+     },
+     {
+      "name": "Lousonna (Lausanne-Vidy)",
+      "lat": 46.517,
+      "lon": 6.596,
+      "kind": "town"
+     },
+     {
+      "name": "Zürich-Lindenhof (Turicum)",
+      "lat": 47.3729,
+      "lon": 8.5405,
+      "kind": "town"
+     },
+     {
+      "name": "Curia (Chur)",
+      "lat": 46.847,
+      "lon": 9.528,
+      "kind": "town"
+     },
+     {
+      "name": "Genava (Geneva)",
+      "lat": 46.2011,
+      "lon": 6.1484,
+      "kind": "town"
+     },
+     {
+      "name": "Forum Claudii Vallensium (Martigny)",
+      "lat": 46.0985,
+      "lon": 7.0725,
+      "kind": "town"
+     },
+     {
+      "name": "Yverdon (Eburodunum)",
+      "lat": 46.778,
+      "lon": 6.641,
+      "kind": "town"
+     }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/009813/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Provincia",
+      "quote": "die Gebiete der beiden Civitates der Rauraker und Helvetier sowie die Kolonien Nyon und Augst der neu geschaffenen Provinz Germania Superior zu.",
+      "supports": "Germania superior about 85"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/009813/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Provincia",
+      "quote": "Diese Zuteilung blieb bis Ende des 3. Jahrhunderts n.Chr. bestehen.",
+      "supports": "until end of 3rd century"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/009813/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Provincia",
+      "quote": "für die Ostschweiz, die Leventina und das Wallis bis Mitte des 1. Jahrhunderts der ritterliche praefectus der Raetia",
+      "supports": "east Switzerland in Raetia"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008248/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Römisches Reich",
+      "quote": "101 wurde die Legio XI Claudia Pia Fidelis in den Donauraum verschoben und das Legionslager Vindonissa aufgelöst",
+      "supports": "legion leaves 101"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/012281/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Aventicum",
+      "quote": "Um 70 n.Chr. wurde Aventicum zu einer Kolonie römischen Rechts.",
+      "supports": "Aventicum colony c. 70"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/012280/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Augusta Raurica",
+      "quote": "beherbergte gegen Ende ihrer Blütezeit um 200 n.Chr. an die 20'000 Einwohner",
+      "supports": "Augst about 20,000"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/000171/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Zürich (Gemeinde)",
+      "quote": "Ein um 200 datierter Grabstein nennt die Statio Turicensis , eine Zollstation des gallischen Zolls für den Warenverkehr im Grenzbereich zu Rätien.",
+      "supports": "Turicum customs post at the Raetian border"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/012290/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Lousonna",
+      "quote": "Lousonna hatte bis zu 2000 Einwohner.",
+      "supports": "Lousonna"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/001581/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Chur (Gemeinde)",
+      "quote": "begann die Blütezeit Churs erst um etwa 40 n.Chr.",
+      "supports": "Curia"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/002903/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Genf (Gemeinde)",
+      "quote": "Oppidum der Allobroger, römischer Vicus, später Civitas",
+      "supports": "Geneva a small town (vicus)"
+     }
+    ],
+    "uncertain": [
+     "Province borders are drawn with whole modern cantons and regions (for example all of Baden-Württemberg, Rhineland-Palatinate and Bavaria); the real borders were different.",
+     "Central Switzerland (UR, SZ, OW, NW) is left blank: the HLS gives no province for it here."
+    ]
+   },
+   {
+    "year": 260,
+    "tick": "c. 260–277",
+    "title": "Alemanni raids, the Rhine again",
+    "text": [
+     "In the 3rd century the empire was in crisis. About 259/260, groups of Alemanni broke through the frontier wall (limes) in south-west Germany and took the land behind it. Rome gave up this land. The Rhine was again the frontier, and the Swiss Plateau was now on the front line.",
+     "Emperor Gallienus strengthened Vindonissa. The raids of 260 probably did not reach the Plateau much. But about 275–277, Augusta Raurica and Aventicum were plundered and partly destroyed. Lousonna slowly emptied after the middle of the 3rd century."
+    ],
+    "view": [
+     [
+      45.8,
+      5.5
+     ],
+     [
+      49.2,
+      11.0
+     ]
+    ],
+    "layers": [
+     {
+      "name": "Alemanni",
+      "kind": "alemanni",
+      "label": "Land behind the old limes, now held by the Alemanni (rough: today's Baden-Württemberg)",
+      "sel": {},
+      "regions": [
+       "DEU-1573"
+      ],
+      "countries": []
+     },
+     {
+      "name": "Roman Empire",
+      "kind": "roman",
+      "label": "Roman provinces (Switzerland and neighbours)",
+      "sel": {
+       "cantons": [
+        "VD",
+        "FR",
+        "NE",
+        "BE",
+        "SO",
+        "BS",
+        "BL",
+        "JU",
+        "AG",
+        "LU",
+        "ZG",
+        "ZH",
+        "SH",
+        "TG",
+        "SG",
+        "AR",
+        "AI",
+        "GL",
+        "GR",
+        "GE",
+        "VS",
+        "TI",
+        "UR",
+        "SZ",
+        "OW",
+        "NW"
+       ]
+      },
+      "regions": [
+       "FRA-5296",
+       "FRA-5273",
+       "FRA-5287",
+       "FRA-5312",
+       "FRA-5348",
+       "AUT-2320"
+      ],
+      "countries": []
+     }
+    ],
+    "places": [
+     {
+      "name": "Augusta Raurica: plundered",
+      "lat": 47.534,
+      "lon": 7.718,
+      "kind": "town",
+      "note": "Destroyed about 273–277"
+     },
+     {
+      "name": "Aventicum: plundered",
+      "lat": 46.881,
+      "lon": 7.042,
+      "kind": "town",
+      "note": "Plundered about 275–277"
+     },
+     {
+      "name": "Vindonissa: walls rebuilt",
+      "lat": 47.4787,
+      "lon": 8.2215,
+      "kind": "castle",
+      "note": "Gallienus, 260"
+     },
+     {
+      "name": "Lousonna (Lausanne-Vidy)",
+      "lat": 46.517,
+      "lon": 6.596,
+      "kind": "town"
+     }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008027/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Alemannen",
+      "quote": "die nach der Überwindung des obergermanisch-rätischen Limes ca. 259/260 das Dekumatenland kontrollierten",
+      "supports": "Alemanni take the Dekumatland c. 259/260"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/017148/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Völkerwanderung",
+      "quote": "Die Reichsgrenze wurde an den Rhein zurückverlegt. Das schweizerische Mittelland und die Bündner Alpenpässe befanden sich fortan an vorderster Front.",
+      "supports": "Rhine frontier, Plateau on the front"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008248/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Römisches Reich",
+      "quote": "Der obergermanisch-rätische Limes wurde aufgegeben, sodass erneut der Rhein die Reichsgrenze bildete.",
+      "supports": "Rome gives up the land; Rhine frontier"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008248/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Römisches Reich",
+      "quote": "Gallienus befestigte Vindonissa, doch überfielen die Barbarenheere vermutlich damals das Mittelland nicht",
+      "supports": "Vindonissa fortified; Plateau probably spared"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008248/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Römisches Reich",
+      "quote": "Die Kolonien Augst und Avenches wurden wohl erst in den Jahren 275-277 geplündert und teilweise zerstört.",
+      "supports": "275–277 destruction"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/012290/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Lousonna",
+      "quote": "Infolge der Germaneneinfälle entleerte sich die Siedlung ab Mitte des 3. Jahrhunderts n.Chr. allmählich",
+      "supports": "Lousonna empties"
+     }
+    ],
+    "uncertain": [
+     "HLS Augusta Raurica dates the destruction of the civil town to 273/274; HLS Römisches Reich gives 275–277.",
+     "The Alemanni area is shown as all of Baden-Württemberg, which is only a rough picture of the Dekumatland."
+    ]
+   },
+   {
+    "year": 371,
+    "tick": "c. 294–401",
+    "title": "The late Roman Rhine frontier",
+    "text": [
+     "Emperors Diocletian (284–305) and Constantine (306–337) rebuilt the defence. They made the provinces smaller: the Plateau now belonged to Maxima Sequanorum; Raetia and Ticino were counted with Italy. New forts stood at Oberwinterthur, Burg near Stein am Rhein (about 294) and Kaiseraugst, where the legio I Martia was based. Inland, walls protected places like Zürich-Lindenhof, Olten, Solothurn and Yverdon.",
+     "The Alemanni still attacked; in 352 they burned Kaiseraugst. Under Valentinian I, a chain of stone watchtowers was built along the Rhine; inscriptions date two of them to 371.",
+     "About 401, the general Stilicho took the troops away from the Rhine to defend Italy. This did not end Roman rule at once: local Roman institutions went on."
+    ],
+    "view": "ch",
+    "layers": [
+     {
+      "name": "Italia",
+      "kind": "empire",
+      "label": "Italian diocese (Ticino)",
+      "sel": {
+       "cantons": [
+        "TI"
+       ]
+      },
+      "regions": [],
+      "countries": []
+     },
+     {
+      "name": "Alpes Graiae et Poeninae",
+      "kind": "ally",
+      "label": "Graian and Poenine Alps (Valais)",
+      "sel": {
+       "cantons": [
+        "VS"
+       ]
+      },
+      "regions": [],
+      "countries": []
+     },
+     {
+      "name": "Raetia",
+      "kind": "other",
+      "label": "Raetia (rough)",
+      "sel": {
+       "cantons": [
+        "TG",
+        "SG",
+        "AR",
+        "AI",
+        "GL",
+        "GR"
+       ]
+      },
+      "regions": [],
+      "countries": []
+     },
+     {
+      "name": "Maxima Sequanorum",
+      "kind": "roman",
+      "label": "Maxima Sequanorum (rough)",
+      "sel": {
+       "cantons": [
+        "VD",
+        "FR",
+        "NE",
+        "BE",
+        "SO",
+        "BS",
+        "BL",
+        "JU",
+        "AG",
+        "LU",
+        "ZG",
+        "ZH",
+        "SH"
+       ]
+      },
+      "regions": [],
+      "countries": []
+     }
+    ],
+    "places": [
+     {
+      "name": "Castrum Rauracense (Kaiseraugst)",
+      "lat": 47.54,
+      "lon": 7.725,
+      "kind": "castle"
+     },
+     {
+      "name": "Tasgaetium (Burg, Stein am Rhein)",
+      "lat": 47.657,
+      "lon": 8.861,
+      "kind": "castle"
+     },
+     {
+      "name": "Vitudurum (Oberwinterthur)",
+      "lat": 47.512,
+      "lon": 8.763,
+      "kind": "castle"
+     },
+     {
+      "name": "Tenedo (Zurzach)",
+      "lat": 47.585,
+      "lon": 8.29,
+      "kind": "castle"
+     },
+     {
+      "name": "Etzgen-Rote Waage (tower)",
+      "lat": 47.573,
+      "lon": 8.118,
+      "kind": "castle",
+      "note": "Watchtower, inscription of 371"
+     },
+     {
+      "name": "Koblenz-Kleiner Laufen (tower)",
+      "lat": 47.604,
+      "lon": 8.228,
+      "kind": "castle",
+      "note": "Watchtower, inscription of 371"
+     },
+     {
+      "name": "Zürich-Lindenhof (fort)",
+      "lat": 47.3729,
+      "lon": 8.5405,
+      "kind": "castle"
+     },
+     {
+      "name": "Irgenhausen (fort)",
+      "lat": 47.33,
+      "lon": 8.784,
+      "kind": "castle"
+     },
+     {
+      "name": "Arbon (fort)",
+      "lat": 47.517,
+      "lon": 9.433,
+      "kind": "castle"
+     },
+     {
+      "name": "Olten (fort)",
+      "lat": 47.35,
+      "lon": 7.904,
+      "kind": "castle"
+     },
+     {
+      "name": "Solothurn (fort)",
+      "lat": 47.207,
+      "lon": 7.537,
+      "kind": "castle"
+     },
+     {
+      "name": "Yverdon (fort)",
+      "lat": 46.778,
+      "lon": 6.641,
+      "kind": "castle"
+     }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008248/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Römisches Reich",
+      "quote": "Letztere wiederum zerfielen in Provinzen, deren territoriale Ausdehnung verkleinert wurde.",
+      "supports": "smaller provinces"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008248/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Römisches Reich",
+      "quote": "Diokletian und Konstantin (306-337) befestigten auch die Reichsgrenze durch den Bau von Kastellen",
+      "supports": "forts of Diocletian and Constantine"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008248/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Römisches Reich",
+      "quote": "insbesondere die grosse Festungsanlage des Castrum Rauracense (heute Kaiseraugst), in der die Legio I Martia stationiert war",
+      "supports": "Kaiseraugst, legio I Martia"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/009813/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Provincia",
+      "quote": "die aus der Aufteilung der Germania superior entstandene Provinz Maxima Sequanorum , zu der das Mittelland gehörte",
+      "supports": "Maxima Sequanorum"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/009813/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Provincia",
+      "quote": "Raetia und das Tessin an die Italia Annonaria",
+      "supports": "Raetia and Ticino in Italia annonaria"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/012289/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Limes",
+      "quote": "Kastellen in Zurzach, Kaiseraugst und Arbon und von Befestigungswerken an strategisch bedeutsamen Orten im Hinterland wie Altenburg, Olten, Solothurn, Zürich-Lindenhof, Irgenhausen und Yverdon",
+      "supports": "forts and inland fortifications"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008027/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Alemannen",
+      "quote": "wie 294 in Oberwinterthur und in Eschenz bei Stein am Rhein",
+      "supports": "forts of 294"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008248/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Römisches Reich",
+      "quote": "setzten sie 352, von Constantius II. im Kampf gegen den Usurpator Magnentius zum Einfall aufgefordert, das Castrum Rauracense in Brand",
+      "supports": "352 Kaiseraugst burned"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/012289/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Limes",
+      "quote": "Inschriften belegen den Bau der burgi in Etzgen-Rote Waage und Koblenz-Kleiner Laufen für 371",
+      "supports": "towers of 371"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/017148/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Völkerwanderung",
+      "quote": "das Gebiet der heutigen Schweiz war noch nach 401 Teil des römischen Imperiums",
+      "supports": "Roman rule did not end in 401"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008248/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Römisches Reich",
+      "quote": "zog jedoch 400 die Truppen von der Rheinfront ab",
+      "supports": "Stilicho withdraws the troops"
+     }
+    ],
+    "uncertain": [
+     "Year of the troop withdrawal: HLS Römisches Reich says 400, HLS Völkerwanderung 401, other HLS articles 401/402; the text says 'about 401'.",
+     "Geneva's late Roman province is not named in the HLS texts used; Geneva is left blank.",
+     "Whether late Roman Raetia included all of eastern Switzerland is not checked; drawn roughly."
+    ]
+   }
+  ],
+  "sources": [
+   "https://hls-dhs-dss.ch/de/articles/008017/",
+   "https://hls-dhs-dss.ch/de/articles/008248/",
+   "https://hls-dhs-dss.ch/de/articles/009813/",
+   "https://hls-dhs-dss.ch/de/articles/007866/",
+   "https://hls-dhs-dss.ch/de/articles/012289/"
+  ],
+  "notes": "All areas are built from today's cantons, districts and foreign regions (French départements, Italian provinces, whole German and Austrian states), so ancient borders are only rough. Kinds are used for colour: 'roman' = the main Gaulish province of the Plateau (Belgica, Germania superior, Maxima Sequanorum), 'other' = Raetia, 'ally' = Alpes Graiae et Poeninae, 'noble' = Gallia Narbonensis, 'empire' = Italy; in step 2 'ally' = Raurici, 'noble' = Valais tribes, 'milan' = Lepontii. Negative years are BC. Quotes were taken from Wayback Machine copies of the HLS articles (HLS itself blocked direct access)."
+ },
+ {
+  "id": "early-middle-ages",
+  "title": "After Rome: Burgundians, Alemanni and Franks",
+  "card": "How Burgundians, Alemanni and Franks took over from Rome between 443 and the 7th century, and how the west and east of Switzerland grew apart.",
+  "stops": [
+   {
+    "year": 443,
+    "tick": "443",
+    "title": "Burgundians in the Sapaudia",
+    "text": [
+     "In 436 the Huns, probably allied with the Roman general Aëtius, destroyed the first Burgundian kingdom on the middle Rhine. In 443 Aëtius settled the rest of the Burgundians in the Sapaudia as foederati. Foederati were foreign groups that got land and in return had to defend the empire.",
+     "Sapaudia means 'land of fir trees'. Later the name became Savoy, but the old Sapaudia was not the same place. Newer research puts it in the area of Geneva, Nyon and Avenches–Windisch, up to the Aare and the Rhine. Aëtius probably wanted to protect the Alpine passes and the Rhine–Rhone route.",
+     "The Burgundians were not many. They lived well with the local Gallo-Roman elite, so they left few traces of their own."
+    ],
+    "view": "ch",
+    "layers": [
+     {
+      "name": "Sapaudia",
+      "kind": "burgundians",
+      "label": "Sapaudia, where the Burgundians were settled (one modern reading, rough)",
+      "sel": {
+       "cantons": [
+        "GE",
+        "VD",
+        "FR",
+        "NE",
+        "SO",
+        "JU",
+        "AG"
+       ],
+       "districts": [
+        241,
+        242,
+        243,
+        244,
+        245,
+        246
+       ]
+      },
+      "regions": [],
+      "countries": []
+     }
+    ],
+    "places": [
+     {
+      "name": "Genava (Geneva)",
+      "lat": 46.2011,
+      "lon": 6.1484,
+      "kind": "town"
+     },
+     {
+      "name": "Eburodunum Sapaudiae (Yverdon)",
+      "lat": 46.778,
+      "lon": 6.641,
+      "kind": "town",
+      "note": "Base of a Roman lake fleet"
+     },
+     {
+      "name": "Colonia Iulia Equestris (Nyon)",
+      "lat": 46.383,
+      "lon": 6.239,
+      "kind": "town"
+     },
+     {
+      "name": "Aventicum (Avenches)",
+      "lat": 46.881,
+      "lon": 7.042,
+      "kind": "town"
+     },
+     {
+      "name": "Vindonissa (Windisch)",
+      "lat": 47.4787,
+      "lon": 8.2215,
+      "kind": "town"
+     }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008028/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Burgunder",
+      "quote": "Die Reste der Burgunder wurden 443 von Aëtius in der Sapaudia angesiedelt. Die Namenskontinuität zu Savoyen bedeutet nicht die geografische Identität.",
+      "supports": "443 settlement; Sapaudia is not Savoy"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008028/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Burgunder",
+      "quote": "436 bereiteten die wohl mit Flavius Aëtius verbündeten Hunnen dem Burgunderreich am Mittelrhein und seinem König Gundahar den Untergang",
+      "supports": "436 destruction"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/047784/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Sapaudia",
+      "quote": "den Raum der drei Civitates Genf (bis zum Zusammenfluss von Ain und Rhone), Nyon und Avenches-Windisch sowie das Gebiet zwischen Aare und Rhein",
+      "supports": "extent of the Sapaudia"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/047784/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Sapaudia",
+      "quote": "Gall. Name ( Sapa-uidia , \"Land der Tannen\")",
+      "supports": "meaning of the name"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008028/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Burgunder",
+      "quote": "als vielmehr die Alpenpässe und die Rhein-Rhone-Verbindung zu sichern",
+      "supports": "aim of Aëtius"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/017148/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Völkerwanderung",
+      "quote": "Sie waren nicht sehr zahlreich, verstanden es aber dank ihrer Politik, mit den lokalen Eliten in gutem Einvernehmen zu leben.",
+      "supports": "few, good relations with local elites"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/017148/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Völkerwanderung",
+      "quote": "indem es ihnen einen Vertrag (foedus) gewährte, der zu ihrer Bezeichnung als foederati führte",
+      "supports": "meaning of foederati"
+     }
+    ],
+    "uncertain": [
+     "The location of the Sapaudia is disputed (HLS Sapaudia). The coloured area follows the newer reading and is drawn with whole cantons and Bernese districts; the Bernese Oberland is left out without evidence either way."
+    ]
+   },
+   {
+    "year": 480,
+    "tick": "480",
+    "title": "The Burgundian kingdom at its largest",
+    "text": [
+     "The Burgundians soon grew stronger. In 457 they spread south-west into the Rhone–Saône area and in 461 they took Lyon. In 478 a treaty with the Visigoths set their southern border at the Durance river. In the north they pushed the Alemanni out of Langres and Besançon.",
+     "When King Chilperic died in 480, the kingdom was at its largest. His sons shared it: Gundobad ruled as high king from Lyon; Godegisel was sub-king in Geneva.",
+     "North of the Rhine, the Alemanni were a strong and growing power."
+    ],
+    "view": [
+     [
+      43.6,
+      3.0
+     ],
+     [
+      49.0,
+      10.8
+     ]
+    ],
+    "layers": [
+     {
+      "name": "Alemanni",
+      "kind": "alemanni",
+      "label": "Alemanni (rough: today's Baden-Württemberg)",
+      "sel": {},
+      "regions": [
+       "DEU-1573"
+      ],
+      "countries": []
+     },
+     {
+      "name": "Burgundian kingdom",
+      "kind": "burgundians",
+      "label": "Kingdom of the Burgundians about 480 (rough)",
+      "sel": {
+       "cantons": [
+        "GE",
+        "VD",
+        "FR",
+        "NE",
+        "SO",
+        "JU",
+        "AG"
+       ],
+       "districts": [
+        241,
+        242,
+        243,
+        244,
+        245,
+        246
+       ]
+      },
+      "regions": [
+       "FRA-5262",
+       "FRA-5338",
+       "FRA-5339",
+       "FRA-5282",
+       "FRA-5312",
+       "FRA-5287",
+       "FRA-5301",
+       "FRA-5300",
+       "FRA-5311",
+       "FRA-5288",
+       "FRA-5341",
+       "FRA-5302",
+       "FRA-5352",
+       "FRA-5304"
+      ],
+      "countries": []
+     }
+    ],
+    "places": [
+     {
+      "name": "Lugdunum (Lyon)",
+      "lat": 45.764,
+      "lon": 4.8357,
+      "kind": "town"
+     },
+     {
+      "name": "Genava (Geneva)",
+      "lat": 46.2011,
+      "lon": 6.1484,
+      "kind": "town"
+     },
+     {
+      "name": "Langres",
+      "lat": 47.8627,
+      "lon": 5.3336,
+      "kind": "town"
+     },
+     {
+      "name": "Besançon",
+      "lat": 47.2378,
+      "lon": 6.0241,
+      "kind": "town"
+     },
+     {
+      "name": "Vienne",
+      "lat": 45.525,
+      "lon": 4.874,
+      "kind": "town"
+     }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008028/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Burgunder",
+      "quote": "Sie erweiterten 457 ihr Herrschaftsgebiet nach Südwesten in den Rhone-Saône-Raum und besetzten 461 definitiv Lyon.",
+      "supports": "457 and 461"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008028/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Burgunder",
+      "quote": "478 wurde die Südgrenze des Reichs am südfranzösischen Fluss Durance durch Vertrag mit den Westgoten festgelegt.",
+      "supports": "478 Durance"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008028/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Burgunder",
+      "quote": "Im Norden verdrängte Chilperich die Alemannen aus Langres und Besançon. Bei seinem Tod (480) hatte das Burgunderreich seine grösste Ausdehnung erreicht.",
+      "supports": "Langres, Besançon, largest in 480"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008028/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Burgunder",
+      "quote": "dass Gundobad die Herrschaft als Oberkönig mit Sitz in Lyon erhielt, Godegisel, Chilperich II. und Godomar Unterkönige mit den Sitzen in Genf",
+      "supports": "sons share the kingdom"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008027/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Alemannen",
+      "quote": "In der Endphase des weströmischen Reiches entwickelten die Alemannen eine grosse Expansionskraft in alle Richtungen",
+      "supports": "Alemanni strong"
+     }
+    ],
+    "uncertain": [
+     "The kingdom is drawn with whole French départements; its real borders (especially in the north and west) were different. Whether the Valais already belonged to it in 480 is not clear; it is left blank here.",
+     "The Alemanni area is very rough."
+    ]
+   },
+   {
+    "year": 506,
+    "tick": "496–506",
+    "title": "Franks defeat the Alemanni",
+    "text": [
+     "Clovis, king of the Franks, united the Frankish kingdoms and conquered almost all of Gaul. He beat the Alemanni in 496/497 and again in 506. Their king died, and their independence ended.",
+     "The Ostrogothic king Theoderic, who ruled Italy, took the rest of the Alemanni under his protection. Some of them settled in Raetia: around Lake Constance, in the Thurgau and in the Alpine Rhine valley.",
+     "The Burgundian kingdom now stood between the Franks in the north and the Goths in the south."
+    ],
+    "view": [
+     [
+      43.6,
+      3.0
+     ],
+     [
+      49.0,
+      11.5
+     ]
+    ],
+    "layers": [
+     {
+      "name": "Ostrogothic kingdom",
+      "kind": "other",
+      "label": "Ostrogothic kingdom of Italy, with Raetia and protected Alemanni (rough)",
+      "sel": {
+       "cantons": [
+        "TI",
+        "GR",
+        "TG",
+        "SG",
+        "AR",
+        "AI",
+        "GL",
+        "ZH",
+        "SH",
+        "UR",
+        "SZ",
+        "OW",
+        "NW",
+        "ZG",
+        "LU"
+       ]
+      },
+      "regions": [
+       "ITA-5452",
+       "ITA-5451",
+       "ITA-5450",
+       "ITA-5453",
+       "ITA-5444",
+       "ITA-5438",
+       "ITA-5437",
+       "ITA-5442",
+       "ITA-5434",
+       "ITA-5443",
+       "ITA-5454",
+       "ITA-5436",
+       "ITA-5435",
+       "ITA-5449",
+       "ITA-5460",
+       "AUT-2320",
+       "AUT-2329",
+       "ITA-5459"
+      ],
+      "countries": []
+     },
+     {
+      "name": "Franks",
+      "kind": "france",
+      "label": "Frankish rule over the Alemanni north of the Rhine (rough)",
+      "sel": {},
+      "regions": [
+       "DEU-1573",
+       "FRA-5273",
+       "FRA-5296"
+      ],
+      "countries": []
+     },
+     {
+      "name": "Burgundian kingdom",
+      "kind": "burgundians",
+      "label": "Kingdom of the Burgundians (rough)",
+      "sel": {
+       "cantons": [
+        "GE",
+        "VD",
+        "FR",
+        "NE",
+        "SO",
+        "JU",
+        "AG"
+       ],
+       "districts": [
+        241,
+        242,
+        243,
+        244,
+        245,
+        246
+       ]
+      },
+      "regions": [
+       "FRA-5262",
+       "FRA-5338",
+       "FRA-5339",
+       "FRA-5282",
+       "FRA-5312",
+       "FRA-5287",
+       "FRA-5301",
+       "FRA-5300",
+       "FRA-5311",
+       "FRA-5288",
+       "FRA-5341",
+       "FRA-5302",
+       "FRA-5352",
+       "FRA-5304"
+      ],
+      "countries": []
+     }
+    ],
+    "places": [
+     {
+      "name": "Lugdunum (Lyon)",
+      "lat": 45.764,
+      "lon": 4.8357,
+      "kind": "town"
+     },
+     {
+      "name": "Genava (Geneva)",
+      "lat": 46.2011,
+      "lon": 6.1484,
+      "kind": "town"
+     },
+     {
+      "name": "Dijon (battle of 500)",
+      "lat": 47.322,
+      "lon": 5.041,
+      "kind": "battle",
+      "year": 500,
+      "note": "Burgundian kings fight each other"
+     }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008249/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Frankenreich",
+      "quote": "durch die Siege über die Alemannen (496/497 und 506) die Herrschaft der Franken über fast ganz Gallien",
+      "supports": "Clovis's victories"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008027/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Alemannen",
+      "quote": "Chlodwigs zweiter Sieg (506) und der Tod des rex Alamannorum beendeten abrupt die Phase der alemannischen Unabhängigkeit",
+      "supports": "end of Alemannic independence"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008249/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Frankenreich",
+      "quote": "dem Ostgotenkönig Theoderich dem Grossen, der 506 die Reste der geschlagenen Alemannen unter seinen Schutz genommen hatte",
+      "supports": "Theoderic protects the Alemanni"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008027/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Alemannen",
+      "quote": "Teile der Alemannen wurden in Oberitalien und offenbar im rätischen Gebiet des Bodenseeraumes, des Thurgaus und des Alpenrheintals angesiedelt",
+      "supports": "Alemanni settled in Raetia"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008028/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Burgunder",
+      "quote": "Ende des 5. Jahrhunderts gerieten die Burgunder zunehmend unter den Druck der Franken im Norden sowie der West- und Ostgoten im Süden.",
+      "supports": "Burgundians between Franks and Goths"
+     }
+    ],
+    "uncertain": [
+     "Which parts of today's eastern and central Switzerland were under Ostrogothic control is not clear; the coloured area is a rough guess based on 'Raetia' and the protected Alemanni.",
+     "Frankish rule north of the Rhine is drawn as whole Baden-Württemberg and Alsace."
+    ]
+   },
+   {
+    "year": 515,
+    "tick": "515",
+    "title": "Monastery of Saint-Maurice",
+    "text": [
+     "About 380–390, Theodul, the first bishop of the Valais, brought the bones of the soldiers of the Theban Legion to Acaunum. The place became a popular goal for pilgrims.",
+     "Between May and June 515, the Burgundian prince Sigismund founded a monastery there. It was consecrated on 22 September. Sigismund had changed from the Arian to the Catholic faith. Monks sang in turns, day and night ('laus perennis'). From the start the abbey was rich in land.",
+     "After 515 the cult of Saint Maurice spread far into Gaul. In 516 Sigismund became king."
+    ],
+    "view": "ch",
+    "layers": [
+     {
+      "name": "Burgundian kingdom",
+      "kind": "burgundians",
+      "label": "Kingdom of the Burgundians (Swiss part, rough)",
+      "sel": {
+       "cantons": [
+        "GE",
+        "VD",
+        "FR",
+        "NE",
+        "SO",
+        "JU",
+        "AG",
+        "VS"
+       ],
+       "districts": [
+        241,
+        242,
+        243,
+        244,
+        245,
+        246
+       ]
+      },
+      "regions": [],
+      "countries": []
+     }
+    ],
+    "places": [
+     {
+      "name": "Abbey of Saint-Maurice (Acaunum)",
+      "lat": 46.2183,
+      "lon": 7.0037,
+      "kind": "place",
+      "year": 515,
+      "note": "Founded 515"
+     },
+     {
+      "name": "Genava (Geneva)",
+      "lat": 46.2011,
+      "lon": 6.1484,
+      "kind": "town"
+     },
+     {
+      "name": "Forum Claudii Vallensium (Martigny)",
+      "lat": 46.0985,
+      "lon": 7.0725,
+      "kind": "town"
+     }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/011411/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Saint-Maurice (Kloster)",
+      "quote": "Zwischen Mai und Juni 515 gründete Sigismund, der spätere Burgunderkönig, die Abtei. Die Weihe fand am 22. September",
+      "supports": "foundation 515"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/011411/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Saint-Maurice (Kloster)",
+      "quote": "Gegen 380-390 exhumierte Theodul, erster Bischof des Wallis, bei Vérolliez die Gebeine der Soldaten der Thebäischen Legion",
+      "supports": "Theodul and the Theban Legion"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/011411/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Saint-Maurice (Kloster)",
+      "quote": "Mit der laus perennis führte Sigismund einen liturgischen Brauch der Ostkirche ein",
+      "supports": "laus perennis"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008028/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Burgunder",
+      "quote": "Dieser war zwischen 501/502 und 507 vom Arianismus zum Katholizismus übergetreten",
+      "supports": "Sigismund Catholic"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/011411/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Saint-Maurice (Kloster)",
+      "quote": "Von Anfang an war sie reich ausgestattet.",
+      "supports": "rich lands"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/011411/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Saint-Maurice (Kloster)",
+      "quote": "Nach 515 ist der Kult vielerorts zwischen dem Massif central und der Maas nachweisbar.",
+      "supports": "cult spreads"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008028/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Burgunder",
+      "quote": "Als Gundobad 516 starb, folgte ihm sein ältester Sohn Sigismund.",
+      "supports": "king in 516"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008415/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Vallis Poenina",
+      "quote": "Die in der Sapaudia angesiedelten Burgunder dehnten 457 ihre Herrschaft aus und gründeten 515 das einflussreiche Kloster St. Maurice.",
+      "supports": "Valais under the Burgundians"
+     }
+    ],
+    "uncertain": [
+     "Saint-Maurice is often called the oldest monastery in Switzerland still in existence; this is not stated in the quoted HLS text and is left out."
+    ]
+   },
+   {
+    "year": 534,
+    "tick": "532–534",
+    "title": "The Franks take Burgundy",
+    "text": [
+     "In 522 Sigismund had his own son killed. The Frankish kings used this as a reason to attack. Sigismund was handed over to the Franks and killed.",
+     "King Godomar beat the Franks in 524, but in 532 the Franks won near Autun. This was the end of the old Burgundian kingdom. In 534 the Frankish kings shared it. Theudebert of Reims got the north, with Avenches–Windisch and Octodurus (the Valais).",
+     "From now on, Burgundy shared the fate of the Frankish kingdom."
+    ],
+    "view": [
+     [
+      43.6,
+      3.0
+     ],
+     [
+      49.0,
+      11.5
+     ]
+    ],
+    "layers": [
+     {
+      "name": "Ostrogothic kingdom",
+      "kind": "other",
+      "label": "Ostrogothic kingdom with Raetia and protected Alemanni (rough)",
+      "sel": {
+       "cantons": [
+        "TI",
+        "GR",
+        "TG",
+        "SG",
+        "AR",
+        "AI",
+        "GL",
+        "ZH",
+        "SH",
+        "UR",
+        "SZ",
+        "OW",
+        "NW",
+        "ZG",
+        "LU"
+       ]
+      },
+      "regions": [
+       "ITA-5452",
+       "ITA-5451",
+       "ITA-5450",
+       "ITA-5453",
+       "ITA-5444",
+       "ITA-5438",
+       "ITA-5437",
+       "ITA-5442",
+       "ITA-5434",
+       "ITA-5443",
+       "ITA-5454",
+       "ITA-5436",
+       "ITA-5435",
+       "ITA-5449",
+       "ITA-5460",
+       "AUT-2320",
+       "AUT-2329",
+       "ITA-5459"
+      ],
+      "countries": []
+     },
+     {
+      "name": "Frankish kingdom",
+      "kind": "france",
+      "label": "Frankish kingdom, now with former Burgundy (rough)",
+      "sel": {
+       "cantons": [
+        "GE",
+        "VD",
+        "FR",
+        "NE",
+        "SO",
+        "JU",
+        "AG",
+        "VS"
+       ],
+       "districts": [
+        241,
+        242,
+        243,
+        244,
+        245,
+        246
+       ]
+      },
+      "regions": [
+       "FRA-5262",
+       "FRA-5338",
+       "FRA-5339",
+       "FRA-5282",
+       "FRA-5312",
+       "FRA-5287",
+       "FRA-5301",
+       "FRA-5300",
+       "FRA-5311",
+       "FRA-5288",
+       "FRA-5341",
+       "FRA-5302",
+       "FRA-5352",
+       "FRA-5304",
+       "DEU-1573",
+       "FRA-5273",
+       "FRA-5296"
+      ],
+      "countries": []
+     }
+    ],
+    "places": [
+     {
+      "name": "Autun",
+      "lat": 46.951,
+      "lon": 4.2986,
+      "kind": "battle",
+      "year": 532,
+      "note": "Franks defeat the Burgundians"
+     },
+     {
+      "name": "Lugdunum (Lyon)",
+      "lat": 45.764,
+      "lon": 4.8357,
+      "kind": "town"
+     },
+     {
+      "name": "Genava (Geneva)",
+      "lat": 46.2011,
+      "lon": 6.1484,
+      "kind": "town"
+     },
+     {
+      "name": "Abbey of Saint-Maurice",
+      "lat": 46.2183,
+      "lon": 7.0037,
+      "kind": "place"
+     }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008028/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Burgunder",
+      "quote": "dass Sigismund 522 seinen Sohn Sigerich, den Enkel Theoderichs des Grossen, ermordete",
+      "supports": "522 murder"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008028/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Burgunder",
+      "quote": "Sigismund, der in dem von ihm gegründeten Kloster Saint-Maurice Zuflucht suchen wollte, wurde den Franken ausgeliefert und von König Chlodomer getötet.",
+      "supports": "Sigismund killed"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008028/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Burgunder",
+      "quote": "doch unterlag er 532 den erneut angreifenden Franken bei Autun. Dies bedeutete das Ende des altburgundischen Reichs.",
+      "supports": "532 Autun, end of the kingdom"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008028/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Burgunder",
+      "quote": "dass Theudebert, der Reimser König, ganz Nordburgund mit Langres, Besançon, Autun und Chalon sowie in der Schweiz Aventicum-Vindonissa und Octodurus erhielt",
+      "supports": "534 division"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008028/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Burgunder",
+      "quote": "In der Folge teilte Burgund das Geschick des Frankenreichs",
+      "supports": "Burgundy part of the Frankish kingdom"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008415/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Vallis Poenina",
+      "quote": "Nach ihrer Niederlage wurde die V. 534 Teil des Frankenreichs.",
+      "supports": "Valais Frankish 534"
+     }
+    ],
+    "uncertain": [
+     "The battle point is set at the town of Autun; HLS only says 'bei Autun'."
+    ]
+   },
+   {
+    "year": 537,
+    "tick": "536–537",
+    "title": "All north of the Alps is Frankish",
+    "text": [
+     "In 536/537 the Ostrogothic king Witigis gave Alemannia and Raetia (Churrätien) to the Franks. Now all the lands north of the Alps in today's Switzerland were under the Frankish Merovingian kings.",
+     "The Alemanni kept their name, law and territory. They were ruled by Frankish officials (duces). Raetia also got a Frankish duke later; it protected the passes towards Italy.",
+     "Ticino stayed with Italy. From the 6th century, the first Germanic graves south of the Rhine, for example at Basel-Bernerring, Zürich, Bülach and Elgg, are thought to be those of Frankish officials."
+    ],
+    "view": "ch",
+    "layers": [
+     {
+      "name": "Italy",
+      "kind": "other",
+      "label": "Italy (Ostrogothic, then East Roman)",
+      "sel": {
+       "cantons": [
+        "TI"
+       ]
+      },
+      "regions": [],
+      "countries": []
+     },
+     {
+      "name": "Frankish kingdom",
+      "kind": "france",
+      "label": "Frankish kingdom",
+      "sel": {
+       "cantons": [
+        "VD",
+        "FR",
+        "NE",
+        "BE",
+        "SO",
+        "BS",
+        "BL",
+        "JU",
+        "AG",
+        "LU",
+        "ZG",
+        "ZH",
+        "SH",
+        "TG",
+        "SG",
+        "AR",
+        "AI",
+        "GL",
+        "GR",
+        "GE",
+        "VS",
+        "UR",
+        "SZ",
+        "OW",
+        "NW"
+       ]
+      },
+      "regions": [],
+      "countries": []
+     }
+    ],
+    "places": [
+     {
+      "name": "Basel-Bernerring (graves)",
+      "lat": 47.548,
+      "lon": 7.575,
+      "kind": "place"
+     },
+     {
+      "name": "Zürich-Bäckerstrasse (graves)",
+      "lat": 47.376,
+      "lon": 8.527,
+      "kind": "place"
+     },
+     {
+      "name": "Bülach (graves)",
+      "lat": 47.52,
+      "lon": 8.54,
+      "kind": "place"
+     },
+     {
+      "name": "Elgg (graves)",
+      "lat": 47.497,
+      "lon": 8.866,
+      "kind": "place"
+     },
+     {
+      "name": "Curia (Chur)",
+      "lat": 46.847,
+      "lon": 9.528,
+      "kind": "town"
+     },
+     {
+      "name": "Abbey of Saint-Maurice",
+      "lat": 46.2183,
+      "lon": 7.0037,
+      "kind": "place"
+     }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008027/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Alemannen",
+      "quote": "schliesslich wurde das gotische Alemannien 536/537 vom ostgotischen König Witigis den Franken abgetreten",
+      "supports": "536/537 Alemannia to the Franks"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008249/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Frankenreich",
+      "quote": "die Herrschaft über Alemannien, d.h. über die bisher unter ostgotischem Schutz stehenden Alemannen der Raetia Prima sowie über Churrätien selbst, abtraten",
+      "supports": "Raetia also ceded"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008027/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Alemannen",
+      "quote": "Die Eingliederung Alemanniens in das Frankenreich beliess den Alemannen den Status einer gens mit eigenem Namen, Recht und Territorium.",
+      "supports": "Alemanni keep name, law, land"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008249/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Frankenreich",
+      "quote": "Nach der Eingliederung in das Frankenreich (spätestens um 539) scheint auch in der Raetia ein dux als fränkischer Amtsträger eingesetzt worden zu sein.",
+      "supports": "Frankish duke in Raetia"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008027/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Alemannen",
+      "quote": "Die entsprechenden Gräber in Basel-Bernerring, Zürich-Bäckerstrasse, Bülach und Elgg werden fränkischen Amtsträgern zugeschrieben",
+      "supports": "graves of Frankish officials"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/017148/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Völkerwanderung",
+      "quote": "Die Provinz Liguria, zu der die Tessiner Täler gehörten, war schon gegen Ende des 5. Jahrhunderts ins ostgotische Reich integriert worden.",
+      "supports": "Ticino with Italy"
+     }
+    ],
+    "uncertain": [
+     "Who exactly ruled Ticino between 537 and 568 (Ostrogoths, then East Rome) is only summarised."
+    ]
+   },
+   {
+    "year": 561,
+    "tick": "561",
+    "title": "Two duchies: Burgundy and Alemannia",
+    "text": [
+     "In 561 the Frankish kingdom was divided again. 'Ultrajurania', the Roman-speaking west of Switzerland, went to the Frankish part-kingdom of Burgundy. Alemannia went to Austrasia, the eastern part-kingdom.",
+     "The centre of the Alemannic duchy lay south of the High Rhine, in the old Roman settled land. Roman life went on in places like Windisch, Arbon, Oberwinterthur and Zürich.",
+     "This line between a Roman-speaking west and an Alemannic east is an early root of the later language border. Its exact course in the 6th century is not known."
+    ],
+    "view": "ch",
+    "layers": [
+     {
+      "name": "Italy",
+      "kind": "other",
+      "label": "Italy (Lombards from 568)",
+      "sel": {
+       "cantons": [
+        "TI"
+       ]
+      },
+      "regions": [],
+      "countries": []
+     },
+     {
+      "name": "Churrätien",
+      "kind": "noble",
+      "label": "Churrätien (Raetia), under a Frankish duke",
+      "sel": {
+       "cantons": [
+        "GR"
+       ],
+       "districts": [
+        1724,
+        1725
+       ]
+      },
+      "regions": [],
+      "countries": []
+     },
+     {
+      "name": "Ultrajurania",
+      "kind": "burgundy",
+      "label": "Ultrajurania – duchy in Frankish Burgundy (rough)",
+      "sel": {
+       "cantons": [
+        "GE",
+        "VD",
+        "FR",
+        "NE",
+        "VS",
+        "JU"
+       ],
+       "districts": [
+        241,
+        242,
+        243
+       ]
+      },
+      "regions": [],
+      "countries": []
+     },
+     {
+      "name": "Alemannia",
+      "kind": "alemanni",
+      "label": "Duchy of Alemannia (Austrasia) (rough)",
+      "sel": {
+       "cantons": [
+        "BE",
+        "SO",
+        "BS",
+        "BL",
+        "AG",
+        "LU",
+        "ZG",
+        "ZH",
+        "SH",
+        "TG",
+        "SG",
+        "AR",
+        "AI",
+        "GL",
+        "UR",
+        "SZ",
+        "OW",
+        "NW"
+       ]
+      },
+      "regions": [],
+      "countries": []
+     }
+    ],
+    "places": [
+     {
+      "name": "Vindonissa (Windisch)",
+      "lat": 47.4787,
+      "lon": 8.2215,
+      "kind": "town"
+     },
+     {
+      "name": "Arbon",
+      "lat": 47.517,
+      "lon": 9.433,
+      "kind": "town"
+     },
+     {
+      "name": "Oberwinterthur",
+      "lat": 47.512,
+      "lon": 8.763,
+      "kind": "town"
+     },
+     {
+      "name": "Zürich-Lindenhof (Turicum)",
+      "lat": 47.3729,
+      "lon": 8.5405,
+      "kind": "town"
+     },
+     {
+      "name": "Curia (Chur)",
+      "lat": 46.847,
+      "lon": 9.528,
+      "kind": "town"
+     },
+     {
+      "name": "Genava (Geneva)",
+      "lat": 46.2011,
+      "lon": 6.1484,
+      "kind": "town"
+     },
+     {
+      "name": "Aventicum (Avenches)",
+      "lat": 46.881,
+      "lon": 7.042,
+      "kind": "town"
+     }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008249/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Frankenreich",
+      "quote": "Ultrajuranien, d.h. die romanisch geprägte Westschweiz, fiel an Burgund, Alemannien ( Schwaben ) mit den östlichen Alpenvorlanden an Austrasien",
+      "supports": "561 division"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008027/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Alemannen",
+      "quote": "Bis ins 7. Jahrhundert lag der Machtschwerpunkt der von den Merowingern ein- oder abgesetzten alemannischen Herzöge südlich des Hochrheins",
+      "supports": "centre of the duchy"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008027/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Alemannen",
+      "quote": "romanische Kontinuitätsinseln vorhanden waren, wie zum Beispiel in Windisch, Eschenz, Arbon, Bregenz, Oberwinterthur oder Zürich",
+      "supports": "Roman islands"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008249/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Frankenreich",
+      "quote": "Als Grenzschutz gegen die Langobarden erlangte Churrätien für die fränkische Italienpolitik erhöhte Bedeutung.",
+      "supports": "Churrätien"
+     }
+    ],
+    "uncertain": [
+     "The border between Ultrajurania and Alemannia is drawn with today's cantons and Bernese districts; the real 6th-century border is not known.",
+     "The link to the later language border is an interpretation, not a quote."
+    ]
+   },
+   {
+    "year": 650,
+    "tick": "7th century",
+    "title": "Alemanni settle south of the Rhine",
+    "text": [
+     "Before the 6th century, Germanic groups south of the Rhine were few and isolated. Larger Alemannic settlement came late, under the Frankish kingdom. From the second quarter of the 7th century, finds show stronger links with the Alemannic lands north of the Rhine. More settlements appear, also because Alemanni moved in.",
+     "Place names show the steps. Older names end in -ingen; later ones in -ikon or -inghofen; the latest in -wil or -wiler.",
+     "In the Roman-speaking west, people kept their Latin-based (Romance) speech."
+    ],
+    "view": "ch",
+    "layers": [
+     {
+      "name": "Romance west",
+      "kind": "burgundy",
+      "label": "West: Roman-speaking (Frankish Burgundy) (rough)",
+      "sel": {
+       "cantons": [
+        "GE",
+        "VD",
+        "FR",
+        "NE",
+        "VS",
+        "JU"
+       ],
+       "districts": [
+        241,
+        242,
+        243
+       ]
+      },
+      "regions": [],
+      "countries": []
+     },
+     {
+      "name": "Churrätien",
+      "kind": "noble",
+      "label": "Churrätien: Romance-speaking (rough)",
+      "sel": {
+       "cantons": [
+        "GR"
+       ],
+       "districts": [
+        1724,
+        1725
+       ]
+      },
+      "regions": [],
+      "countries": []
+     },
+     {
+      "name": "Alemannic settlement",
+      "kind": "alemanni",
+      "label": "Growing Alemannic settlement (rough)",
+      "sel": {
+       "cantons": [
+        "BE",
+        "SO",
+        "BS",
+        "BL",
+        "AG",
+        "LU",
+        "ZG",
+        "ZH",
+        "SH",
+        "TG",
+        "SG",
+        "AR",
+        "AI",
+        "GL",
+        "UR",
+        "SZ",
+        "OW",
+        "NW"
+       ]
+      },
+      "regions": [],
+      "countries": []
+     }
+    ],
+    "places": [
+     {
+      "name": "Bülach",
+      "lat": 47.52,
+      "lon": 8.54,
+      "kind": "place"
+     },
+     {
+      "name": "Elgg",
+      "lat": 47.497,
+      "lon": 8.866,
+      "kind": "place"
+     },
+     {
+      "name": "Zürich-Lindenhof (Turicum)",
+      "lat": 47.3729,
+      "lon": 8.5405,
+      "kind": "town"
+     },
+     {
+      "name": "Vindonissa (Windisch)",
+      "lat": 47.4787,
+      "lon": 8.2215,
+      "kind": "town"
+     }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008027/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Alemannen",
+      "quote": "Erst vom zweiten Viertel des 7. Jahrhunderts an werden die Einflüsse aus dem rechtsrheinischen alemannischen Kernland stärker.",
+      "supports": "7th-century links"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008027/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Alemannen",
+      "quote": "Die globale Zunahme von Fundstellen bezeugt einen Siedlungsausbau im 7. Jahrhundert, der nicht nur auf Bevölkerungswachstum, sondern auch auf Zuwanderung von Alemannen",
+      "supports": "more settlements, immigration"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008027/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Alemannen",
+      "quote": "eine alemannische Siedlungsbewegung grösseren Ausmasses relativ spät anzusetzen, jedenfalls erst im politischen Rahmen des merowingischen Frankenreichs",
+      "supports": "late settlement under the Franks"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008027/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Alemannen",
+      "quote": "ist eine ältere Namenschicht (Formen: -ingen-, -heim- und -dorf) von den Namen eines ersten frühmittelalterlichen Ausbauraums (Haupttyp: -inghofen bzw. -ighofen, ikofen sowie -ikon)",
+      "supports": "place-name layers"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008027/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Alemannen",
+      "quote": "und denjenigen eines zweiten Ausbauraums (Formen: -wil und -wiler) zu unterscheiden",
+      "supports": "-wil names"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008249/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Frankenreich",
+      "quote": "Ultrajuranien, d.h. die romanisch geprägte Westschweiz",
+      "supports": "west Roman-speaking"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008027/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Alemannen",
+      "quote": "Germanische/alemannische Einsprengsel hat es als isolierte Erscheinungen links des Rheins vom 4./5. Jahrhundert an gegeben",
+      "supports": "earlier isolated groups"
+     }
+    ],
+    "uncertain": [
+     "The coloured areas only show the rough political frame; Alemannic settlement in the 7th century did not yet cover all of it (especially the Alps).",
+     "That the west kept its Romance speech is supported only by the HLS phrase 'romanisch geprägte Westschweiz' (for 561)."
+    ]
+   }
+  ],
+  "sources": [
+   "https://hls-dhs-dss.ch/de/articles/008028/",
+   "https://hls-dhs-dss.ch/de/articles/008027/",
+   "https://hls-dhs-dss.ch/de/articles/008249/",
+   "https://hls-dhs-dss.ch/de/articles/047784/",
+   "https://hls-dhs-dss.ch/de/articles/011411/"
+  ],
+  "notes": "All areas are rough and built from today's cantons, districts and foreign regions (whole French départements, Italian provinces, German and Austrian states). Kinds used for colour: 'burgundians' = Burgundian kingdom, 'france' = Frankish kingdom, 'burgundy' = Frankish part-kingdom of Burgundy (Ultrajurania), 'alemanni' = Alemanni, 'other' = Ostrogothic/Italian rule, 'noble' = Churrätien. Quotes were taken from Wayback Machine copies of the HLS articles."
+ },
+ {
   "id": "church-lords",
   "title": "Bishops and abbeys as lords",
   "card": "Between 950 and 1300, kings gave counties to bishops and abbeys, who ruled much of today's Switzerland before Savoy and Habsburg pushed them back.",
@@ -21,7 +3409,7 @@ window.MAP_STORIES = [
      ],
      [
       49.4,
-      12.0
+      12
      ]
     ],
     "layers": [
@@ -152,6 +3540,42 @@ window.MAP_STORIES = [
       "year": 919,
       "note": "Swabia beats Burgundy"
      }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/fr/articles/006620/",
+      "title": "HLS: Bourgogne, second royaume de",
+      "quote": "par élection (tenue au plus tard en janvier 888 à Saint-Maurice)",
+      "supports": "Rudolf I was chosen king at Saint-Maurice in 888; start of the Rudolfing kings of Burgundy."
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/006642/",
+      "title": "HLS: Schwaben",
+      "quote": "Schwaben erstreckte sich in West-Ost-Richtung vom Oberrhein und von der Aare bis zum Lech",
+      "supports": "Swabia reaches from the Upper Rhine and the Aare to the Lech; Aare as the rough western edge."
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/006642/",
+      "title": "HLS: Schwaben",
+      "quote": "im Süden reichte es unter Einschluss von Churrätien in die Alpen hinein",
+      "supports": "Swabia includes Rhaetia (Grisons)."
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/006642/",
+      "title": "HLS: Schwaben",
+      "quote": "In der Folge wurde zunächst Zürich neben dem Hohentwiel zum wichtigsten Herzogsvorort",
+      "supports": "Zurich is one of the dukes' main seats (place note Zurich)."
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/006642/",
+      "title": "HLS: Schwaben",
+      "quote": "mit seinem Sieg über König Rudolf II. von Hochburgund bei Winterthur 919 konsolidierte",
+      "supports": "Place note Winterthur (919): Swabia beats Burgundy."
+     }
+    ],
+    "uncertain": [
+     "The south (today's Ticino) belongs to the Kingdom of Italy about 950.",
+     "The border between Burgundy and Swabia runs roughly along the Aare."
     ]
    },
    {
@@ -160,7 +3584,7 @@ window.MAP_STORIES = [
     "title": "The bishop of Chur",
     "text": [
      "Kings like to give power to bishops. A bishop cannot pass land to a son, so the land stays with the church, and the king can choose the next bishop.",
-     "Between 951 and 960 King Otto I gives Bishop Hartbert of Chur income from the county, the tolls of Chur, the right to make coins (958) and rights in the Bergell. This is the start of the bishop's rule over Chur and the roads to the Alpine passes.",
+     "Between 951 and 960 King Otto I gives Bishop Hartpert of Chur income from the county, the tolls of Chur, the right to make coins (958) and rights in the Bergell. This is the start of the bishop's rule over Chur and the roads to the Alpine passes.",
      "The abbey of Disentis, founded in the 700s, holds the upper Rhine valley below the Lukmanier and Oberalp passes."
     ],
     "view": "ch",
@@ -232,6 +3656,53 @@ window.MAP_STORIES = [
       "year": 960,
       "note": "Bergell rights to the bishop"
      }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/011403/",
+      "title": "HLS: Chur (Diözese, Fürstbistum)",
+      "quote": "Kaiser Otto I. privilegierte Bischof Hartpert insbesondere in der Stadt Chur und im Bergell reich",
+      "supports": "Otto I gives Bishop Hartbert (Hartpert) rights in Chur and in the Bergell; start of the bishop's rule."
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/011403/",
+      "title": "HLS: Chur (Diözese, Fürstbistum)",
+      "quote": "schuf die Voraussetzung für die bedeutende Stellung der Churer Bischöfe als Feudalherren und Reichsfürsten im Hoch- und Spätmittelalter",
+      "supports": "This is the start of the bishop's rule as a lord."
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007391/",
+      "title": "HLS: Graubünden",
+      "quote": "951 erhielt Hartpert die Fiskaleinkünfte der Grafschaft Chur, 952 die Zollrechte (Zölle) in Chur, 955 den Königshof Zizers, 958 das Münz- und Zollrecht",
+      "supports": "Between 951 and 958 Otto I gives Bishop Hartpert county income, the tolls of Chur and the right to make coins (958)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007391/",
+      "title": "HLS: Graubünden",
+      "quote": "960 den Königshof in Chur mit den dazugehörenden fiskalisch nutzbaren Rechten sowie die Zolleinkünfte und die Grafenrechte im Bergell.",
+      "supports": "In 960 rights in the Bergell (place Vicosoprano)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007391/",
+      "title": "HLS: Graubünden",
+      "quote": "Die beiden Männerklöster Disentis und Pfäfers, gegründet im 8. Jahrhundert",
+      "supports": "Disentis is founded in the 700s"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007391/",
+      "title": "HLS: Graubünden",
+      "quote": "stützten sich auf umfassenden Grundbesitz, so Disentis im Vorderrheintal (Tellotestament von 765)",
+      "supports": "Disentis holds land in the upper Rhine (Vorderrhein) valley"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007391/",
+      "title": "HLS: Graubünden",
+      "quote": "Friedrich I. förderte das Kloster Disentis zur Sicherung der Lukmanierstrasse.",
+      "supports": "Disentis lies on the road to the Lukmanier pass"
+     }
+    ],
+    "uncertain": [
+     "Kings like to give power to bishops, because a bishop cannot pass land to a son and the king can choose the next bishop."
     ]
    },
    {
@@ -366,6 +3837,56 @@ window.MAP_STORIES = [
       "lon": 7.5925,
       "kind": "place"
      }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008560/",
+      "title": "HLS: Sitten (Fürstbistum)",
+      "quote": "999 schenkte König Rudolf III. von Burgund Hugo, Bischof von Sitten, und dessen Nachfolgern die Grafschaft Wallis mit allen Rechten.",
+      "supports": "In 999 Rudolf III gives the bishop of Sion the County of Valais with all its rights."
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008560/",
+      "title": "HLS: Sitten (Fürstbistum)",
+      "quote": "Um sein schwaches Königtum gegenüber den erstarkenden regionalen Feudalgewalten zu festigen, zog er die Bistümer stärker zum Königsdienst heran.",
+      "supports": "Rudolf III is weak against his nobles and builds a counterweight with the church."
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008560/",
+      "title": "HLS: Sitten (Fürstbistum)",
+      "quote": "Er stattete 996 die Tarentaise, 999 Basel und Sitten, 1011 Lausanne sowie 1023 Vienne mit Grafschaftsrechten aus",
+      "supports": "Basel also gets rights from Rudolf III in 999 (same year as Sion)."
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/fr/articles/006620/",
+      "title": "HLS: Bourgogne, second royaume de",
+      "quote": "(la Tarentaise en 996, Sion en 999, Lausanne en 1011, Vienne en 1023)",
+      "supports": "Rudolf III gives counties to the church; Sion 999."
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008558/",
+      "title": "HLS: Basel (Fürstbistum)",
+      "quote": "999 schenkte der letzte König von Burgund, Rudolf III., dem Bischof von Basel die Abtei Moutier-Grandval mit all ihrem Besitz.",
+      "supports": "In 999 Rudolf III gives Moutier-Grandval to the bishop of Basel"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008558/",
+      "title": "HLS: Basel (Fürstbistum)",
+      "quote": "verfügte daneben noch über viel Streubesitz zwischen dem Bielersee und dem Elsass.",
+      "supports": "The bishop now holds land from Lake Biel to Alsace"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008558/",
+      "title": "HLS: Basel (Fürstbistum)",
+      "quote": "Der Basler Bischof, dessen weltliche Macht bis dahin nicht über die Stadt Basel hinausgereicht hatte, war nun mit einem Mal Herr bedeutender Gebiete.",
+      "supports": "Before this the bishop ruled little outside his city"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/012011/",
+      "title": "HLS: Moutier-Grandval",
+      "quote": "sein Nachfolger Rudolf III. schenkte es 999 dem Bischof von Basel. Diese Schenkung bildete den Grundstock des späteren Bischofsstaats.",
+      "supports": "This is the start of the Prince-Bishopric of Basel"
+     }
     ]
    },
    {
@@ -373,8 +3894,8 @@ window.MAP_STORIES = [
     "tick": "1011",
     "title": "Lausanne gets the Vaud",
     "text": [
-     "In 1011 Rudolf III gives the County of Vaud to Bishop Henry of Lausanne. The bishop already ruled the city of Lausanne itself.",
-     "So by 1011 three bishops in the west — Sion, Basel and Lausanne — are also counts. They judge, collect taxes and call men to arms, like a noble lord."
+     "In 1011 Rudolf III gives the County of Vaud to the bishop of Lausanne. With it the bishop gets rights over the city of Lausanne and the land around it.",
+     "So by 1011 three bishops in the west — Sion, Basel and Lausanne — are also counts. They judge, collect taxes and hold other rights of a ruler, like a noble lord."
     ],
     "view": "ch",
     "layers": [
@@ -487,6 +4008,32 @@ window.MAP_STORIES = [
       "year": 1011,
       "note": "Bishop gets the county"
      }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008560/",
+      "title": "HLS: Sitten (Fürstbistum)",
+      "quote": "Er stattete 996 die Tarentaise, 999 Basel und Sitten, 1011 Lausanne sowie 1023 Vienne mit Grafschaftsrechten aus",
+      "supports": "In 1011 Rudolf III gives county rights to Lausanne; by 1011 Sion, Basel and Lausanne hold county rights."
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008560/",
+      "title": "HLS: Sitten (Fürstbistum)",
+      "quote": "die hohe und niedere Gerichtsbarkeit, Kanzlei-, Strassen-, Zoll-, Steuer-, Münz- und Marktrecht",
+      "supports": "Bishop-counts judge and collect taxes and tolls (example of Sion; the list describes the prince-bishops' regalia in general, not only in 1011)."
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007395/",
+      "title": "HLS: Waadt",
+      "quote": "1011 erhielt der Bischof von Lausanne vom König von Burgund die comté de Vaud, faktisch die Regalien über das Gebiet.",
+      "supports": "In 1011 the King of Burgundy gives the County of Vaud to the bishop of Lausanne"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007395/",
+      "title": "HLS: Waadt",
+      "quote": "gab diesem mehr als ein Territorium, nämlich ein Bündel von Rechten über die Stadt und ihr Umland",
+      "supports": "The bishop gets rights over the city of Lausanne and the land around it"
+     }
     ]
    },
    {
@@ -494,7 +4041,7 @@ window.MAP_STORIES = [
     "tick": "1033",
     "title": "Burgundy joins the Empire",
     "text": [
-     "Rudolf III dies in 1032 without a son. Emperor Conrad II takes over the kingdom. He is crowned king of Burgundy at Payerne in 1033. By 1038 Burgundy is joined with Germany and Italy.",
+     "Rudolf III, the last king of Burgundy, dies in 1032. Emperor Conrad II takes over the kingdom. He is crowned king of Burgundy at Payerne in 1033. By 1038 Burgundy is joined with Germany and Italy.",
      "Now all of today's Switzerland is part of the Holy Roman Empire. The bishops who hold counties now hold them from the emperor. The bishop of Sion, for example, becomes a prince of the Empire."
     ],
     "view": [
@@ -504,7 +4051,7 @@ window.MAP_STORIES = [
      ],
      [
       49.4,
-      12.0
+      12
      ]
     ],
     "layers": [
@@ -626,7 +4173,39 @@ window.MAP_STORIES = [
       "lon": 7.5323,
       "kind": "place",
       "year": 1038,
-      "note": "Henry III chosen king of Burgundy"
+      "note": "Conrad II holds a royal diet"
+     }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/029195/",
+      "title": "HLS: Konrad II.",
+      "quote": "Am 2.2.1033 wurde K. in Payerne zum Kg. von Burgund gewählt und gekrönt.",
+      "supports": "Conrad II is crowned king of Burgundy at Payerne in 1033 (place note Payerne)."
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008560/",
+      "title": "HLS: Sitten (Fürstbistum)",
+      "quote": "nach dem Tod von Rudolf III. 1032 vereinigten die Bischöfe von Sitten als Reichsfürsten die geistliche und weltliche Gewalt",
+      "supports": "Rudolf III dies 1032; Burgundy joins the Empire; the bishop of Sion becomes a prince of the Empire."
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/fr/articles/006620/",
+      "title": "HLS: Bourgogne, second royaume de",
+      "quote": "projet mené à chef entre 1032 et 1038 par l'empereur Conrad II",
+      "supports": "By 1038 Conrad II has joined Burgundy to the Empire."
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/029195/",
+      "title": "HLS: Konrad II.",
+      "quote": "1038 hielt er einen Hoftag in Solothurn.",
+      "supports": "Place note Solothurn (1038): Conrad II holds a royal diet there."
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008558/",
+      "title": "HLS: Basel (Fürstbistum)",
+      "quote": "999 schenkte der letzte König von Burgund, Rudolf III.",
+      "supports": "Rudolf III is the last king of Burgundy"
      }
     ]
    },
@@ -807,6 +4386,49 @@ window.MAP_STORIES = [
       "lon": 7.5925,
       "kind": "place"
      }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/011399/",
+      "title": "HLS: Genf (Diözese, Fürstbistum)",
+      "quote": "Im Vertrag von Seyssel von 1124 wurde Humbert von Grammont als alleiniger Herr der ganzen Stadt Genf anerkannt, zum Nachteil des Grafen von Genf.",
+      "supports": "Treaty of Seyssel (1124) makes the bishop the only lord of Geneva (place note Geneva cathedral 1124)."
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/011403/",
+      "title": "HLS: Chur (Diözese, Fürstbistum)",
+      "quote": "Zum weltlichen Herrschaftsgebiet des Churer Fürstbischofs gehörten die Stadt Chur, die Vier Dörfer ( Fünf Dörfer ), Bergell, Oberhalbstein, Engadin",
+      "supports": "Layer Bishop of Chur: Chur, the Vier Dörfer (Zizers area), the Bergell."
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008560/",
+      "title": "HLS: Sitten (Fürstbistum)",
+      "quote": "Jahrhundert die Grafen von Maurienne-Savoyen die Kastvögte stellten",
+      "supports": "Bishops need lay protectors (Vögte), and these nobles (here Savoy in the Valais) gain power."
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008540/",
+      "title": "HLS: Bellinzona (Pieve, Vogtei, Bezirk)",
+      "quote": "wonach die Pieve Bellinzona zusammen mit den Pieven Locarno und Agno zwischen 1002 und 1004 dem Bischof von Como übergeben wurde.",
+      "supports": "The bishop of Como rules Bellinzona"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007393/",
+      "title": "HLS: Thurgau",
+      "quote": "über den zentralen Seerücken und Bischofszell mit seinem Hinterland als Zentren bischöflichen Grundbesitzes",
+      "supports": "The bishop of Constance holds Bischofszell"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007395/",
+      "title": "HLS: Waadt",
+      "quote": "ein Bündel von Rechten über die Stadt und ihr Umland sowie im Lavaux, in Curtilles, Lucens, Albeuve, Bulle, La Roche",
+      "supports": "Layer: lands of the bishop of Lausanne (Lausanne, Lavaux, Lucens, Bulle, La Roche)"
+     }
+    ],
+    "uncertain": [
+     "After 1124 the count of Geneva is only the bishop's protector.",
+     "The bishop of Constance rules Arbon.",
+     "Map: the lands of the bishop of Basel about 1200 (Jura lands)."
     ]
    },
    {
@@ -815,7 +4437,7 @@ window.MAP_STORIES = [
     "title": "Abbeys as lords",
     "text": [
      "Abbeys also rule land and people. St. Gallen (founded in the 700s) holds land around the town and in Appenzell. Einsiedeln (934) owns much of the valley around it. Engelberg (1120) owns its own valley. Disentis holds the upper Rhine valley and Urseren.",
-     "Other abbeys own manors far away. The Fraumünster in Zurich owned land in Uri and at Cham. Murbach abbey in Alsace owned the town of Lucerne.",
+     "Other abbeys own manors far away. The Fraumünster in Zurich owned land in Uri and at Cham. Lucerne depends on Murbach abbey in Alsace.",
      "Like bishops, abbeys need protectors. Kyburg, Habsburg and others take these posts and use them to build their own power."
     ],
     "view": "ch",
@@ -991,6 +4613,78 @@ window.MAP_STORIES = [
       "lon": 7.0034,
       "kind": "place"
      }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/006642/",
+      "title": "HLS: Schwaben",
+      "quote": "die Reichsklöster (Zürich, Zurzach, Reichenau, St. Gallen) und deren Kirchengut",
+      "supports": "St. Gallen and the Zurich abbey (Fraumünster) are royal abbeys with their own church lands."
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/006642/",
+      "title": "HLS: Schwaben",
+      "quote": "Hermann I. förderte sein Eigenkloster Einsiedeln entscheidend",
+      "supports": "Einsiedeln is an important abbey from the 10th century."
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008394/",
+      "title": "HLS: St. Gallen (Fürstabtei)",
+      "quote": "Das 719 am Ort des Gallus-Grabes gegründete Kloster",
+      "supports": "St. Gallen is founded in the 700s"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008394/",
+      "title": "HLS: St. Gallen (Fürstabtei)",
+      "quote": "Die Besitzungen lagen vor allem im Gebiet zwischen Rorschach und Wil, im Unterrheintal, im Untertoggenburg, im Appenzellerland und im östlichen Thurgau.",
+      "supports": "St. Gallen holds land around the town and in Appenzell"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007385/",
+      "title": "HLS: Schwyz (Kanton)",
+      "quote": "Über ausgedehnten Besitz verfügte das 934 gegründete, vor allem durch adlige Stifter reich begabte Benediktinerkloster Einsiedeln",
+      "supports": "Einsiedeln (934) owns much land"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008557/",
+      "title": "HLS: Engelberg (Kloster)",
+      "quote": "1120 setzte (so der Eintrag in den Annalen) das monastische Leben in dem vom Edlen Konrad von Sellenbüren gestifteten Kloster ein.",
+      "supports": "Engelberg is founded in 1120"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007467/",
+      "title": "HLS: Ursern",
+      "quote": "Im Hochmittelalter Vogtei des Klosters Disentis",
+      "supports": "Disentis holds Urseren"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007384/",
+      "title": "HLS: Uri",
+      "quote": "mit welcher der ostfränkische König Ludwig der Deutsche seine Güter sowie seine Herrschaftsrechte im pagellus Uroniae dem Fraumünster vermachte.",
+      "supports": "The Fraumünster owned land in Uri"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007373/",
+      "title": "HLS: Zug (Kanton)",
+      "quote": "eine 858 von König Ludwig dem Deutschen für das Fraumünster in Zürich ausgestellte Schenkungsurkunde, nennt einen grundherrlichen Hof in Cham.",
+      "supports": "The Fraumünster owned a manor at Cham"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007382/",
+      "title": "HLS: Luzern (Kanton)",
+      "quote": "Das Kloster St. Leodegar zu Luzern [...] war mittlerweile in die Abhängigkeit der Abtei Murbach und unter habsburgische Vogtei geraten.",
+      "supports": "Lucerne depends on Murbach abbey; Habsburg are protectors (Vögte) and use this for their power"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/019520/",
+      "title": "HLS: Kyburg, von",
+      "quote": "Nach dem Tod Ottos 1200 ging die Vogtei an die Kyburger über",
+      "supports": "Kyburg take protector posts (Glarus, land of Säckingen abbey)"
+     }
+    ],
+    "uncertain": [
+     "Engelberg owns its own valley.",
+     "Map: Pfäfers abbey and the abbey of Saint-Maurice as land-owning abbeys."
     ]
    },
    {
@@ -998,8 +4692,8 @@ window.MAP_STORIES = [
     "tick": "1300",
     "title": "Church land under pressure",
     "text": [
-     "By 1300 big lay lords press the church lords. Savoy takes most of the Vaud from the bishop of Lausanne and the Lower Valais from the bishop of Sion. Habsburg protects Einsiedeln (1283) and Engelberg (1274) and buys Lucerne from Murbach (1291).",
-     "Some church lords stay strong. The bishop of Basel buys land in today's Baselland (about 1305), the abbey of St. Gallen rules Appenzell, and the bishop of Chur is the biggest lord in the Grisons. Several of these church states last until 1798."
+     "By 1300 big lay lords press the church lords. Savoy takes most of the Vaud from the bishop of Lausanne. In the Valais, Savoy pushes into the bishop of Sion's lands. Habsburg protects Engelberg (1274) and Einsiedeln, and in 1291 buys Murbach's rights in Lucerne.",
+     "Some church lords stay strong. About 1300 the bishop of Basel is at the height of his power; in 1305 he buys Liestal and Waldenburg in today's Baselland, but soon loses them. The abbey of St. Gallen holds land in Appenzell, and the bishop of Chur rules wide lands in the Grisons. Several of these church states last until 1798."
     ],
     "view": "ch",
     "layers": [
@@ -1018,7 +4712,7 @@ window.MAP_STORIES = [
      {
       "name": "Einsiedeln",
       "kind": "abbey",
-      "label": "Einsiedeln abbey (Habsburg protectors since 1283)",
+      "label": "Einsiedeln abbey (Habsburg protectors)",
       "sel": {
        "districts": [
         501,
@@ -1101,7 +4795,7 @@ window.MAP_STORIES = [
      {
       "name": "Bishop of Basel",
       "kind": "bishop",
-      "label": "Prince-Bishop of Basel (about 1305)",
+      "label": "Prince-Bishop of Basel (about 1305; Liestal and Waldenburg soon lost)",
       "sel": {
        "cantons": [
         "JU"
@@ -1157,7 +4851,7 @@ window.MAP_STORIES = [
      {
       "name": "Bishop of Chur",
       "kind": "bishop",
-      "label": "Bishop of Chur: biggest lord in the Grisons (about)",
+      "label": "Bishop of Chur: wide lands in the Grisons (about)",
       "sel": {
        "cantons": [
         "GR"
@@ -1200,7 +4894,7 @@ window.MAP_STORIES = [
      {
       "name": "Lucerne",
       "kind": "habsburg",
-      "label": "Lucerne: bought by Habsburg from Murbach in 1291",
+      "label": "Lucerne: Murbach's rights bought by Habsburg in 1291",
       "sel": {
        "munis": [
         1061
@@ -1217,7 +4911,7 @@ window.MAP_STORIES = [
       "lon": 8.3093,
       "kind": "town",
       "year": 1291,
-      "note": "Sold to Habsburg"
+      "note": "Murbach sells its rights to Habsburg"
      },
      {
       "name": "Chillon castle",
@@ -1226,6 +4920,95 @@ window.MAP_STORIES = [
       "kind": "castle",
       "note": "Savoy power on the lake"
      }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008560/",
+      "title": "HLS: Sitten (Fürstbistum)",
+      "quote": "Jahrhundert expandierte Savoyen in bischöfliche Territorien, was zu ineinandergreifenden Besitzlagen im westlichen Teil des Fürstbistums und zu andauerndem Zwist führte.",
+      "supports": "Savoy presses the bishop of Sion and takes some of his lands (13th century)."
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008560/",
+      "title": "HLS: Sitten (Fürstbistum)",
+      "quote": "Das Fürstbistum erstreckte sich zunächst über das Gebiet von den Rhonequellen bis zum Trient bei Martigny",
+      "supports": "The Lower Valais below Saint-Maurice was Savoyard land, not taken from the bishop; the bishop's land reached west to the Trient at Martigny."
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008560/",
+      "title": "HLS: Sitten (Fürstbistum)",
+      "quote": "juristisch bis 1798 unter der weltlichen Herrschaft des Bischofs von Sitten stand",
+      "supports": "Some church states last until 1798 (Sion)."
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/011399/",
+      "title": "HLS: Genf (Diözese, Fürstbistum)",
+      "quote": "der nicht so sehr von den Grafen von Genf als vom Haus Savoyen ausgeübt wurde",
+      "supports": "Savoy also presses the bishop of Geneva about 1300."
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/011403/",
+      "title": "HLS: Chur (Diözese, Fürstbistum)",
+      "quote": "Zu den Vasallen und Ministerialen des Fürstbischofs gehörten die mächtigsten rätischen Familien.",
+      "supports": "The bishop of Chur is a leading lord in the Grisons (his lands: Chur, Bergell, Oberhalbstein, Engadin, Domleschg...)."
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007395/",
+      "title": "HLS: Waadt",
+      "quote": "Aber erst dessen Sohn Peter II. nahm die Waadt eigentlich in Besitz, indem er 1240-1260 systematisch Feudalrechte erwarb",
+      "supports": "Savoy takes most of the Vaud from the bishop of Lausanne"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008557/",
+      "title": "HLS: Engelberg (Kloster)",
+      "quote": "nahm König Rudolf I. von Habsburg 1274 das Kloster in seinen Schutz.",
+      "supports": "Habsburg protects Engelberg from 1274"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008726/",
+      "title": "HLS: Morgartenkrieg",
+      "quote": "dem schwyzerischen Überfall auf das unter österreichischer Schirmvogtei stehende Kloster",
+      "supports": "Habsburg (Austria) protects Einsiedeln"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/019506/",
+      "title": "HLS: Habsburg, von",
+      "quote": "kaufte 1291 die Grundherrschaft über die Höfe des Klosters Murbach-Luzern.",
+      "supports": "In 1291 Habsburg buys Murbach's rights in Lucerne"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008558/",
+      "title": "HLS: Basel (Fürstbistum)",
+      "quote": "durch den Kauf der Herrschaften Liestal, Neu-Homberg und Waldenburg für 2100 Mark Silber im Jahr 1305.",
+      "supports": "In 1305 the bishop of Basel buys Liestal and Waldenburg"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008558/",
+      "title": "HLS: Basel (Fürstbistum)",
+      "quote": "so entgingen diese Herrschaften schliesslich dem Fürstbistum Basel.",
+      "supports": "He soon loses them (corrects the old text)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008558/",
+      "title": "HLS: Basel (Fürstbistum)",
+      "quote": "Zu Beginn des 14. Jahrhunderts stand das Fürstbistum Basel auf dem Höhepunkt seiner Macht.",
+      "supports": "About 1300 the bishop of Basel is at the height of his power"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008394/",
+      "title": "HLS: St. Gallen (Fürstabtei)",
+      "quote": "Zusammen bildeten sie auch das Kerngebiet der Klosterherrschaft um 1300.",
+      "supports": "St. Gallen holds land in Appenzell about 1300"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007391/",
+      "title": "HLS: Graubünden",
+      "quote": "Chur die ausgedehnteste; sie umfasste seit ottonischer Zeit, neben Stadt und Umland Chur, das Bergell",
+      "supports": "The bishop of Chur rules wide lands in the Grisons"
+     }
+    ],
+    "uncertain": [
+     "Map: the bishop of Constance holds Neunkirch and Hallau (from 1302)."
     ]
    }
   ],
@@ -1250,9 +5033,9 @@ window.MAP_STORIES = [
     "tick": "1098",
     "title": "Dukes from the Breisgau",
     "text": [
-     "The Zähringen family are counts in the Breisgau, the land around today's Freiburg in Germany. From 1092 to 1098 they fight the Staufer family for the Duchy of Swabia.",
-     "In 1098 they make peace. Berchtold II gives up Swabia. In return he keeps the castle of Zähringen and gets the king's rights in Zurich. From now on the family calls itself dukes of Zähringen.",
-     "Around this time the counts of Dillingen, from the Danube, gain land in the Thurgau and around Winterthur. They will later call themselves counts of Kyburg."
+     "The Zähringen family are counts in the Breisgau, the land around today's Freiburg in Germany. From 1092 to 1098 they are rival dukes of Swabia.",
+     "In 1098 they make peace. Berchtold II gives up Swabia. In return he gets the castle of Zähringen and the king's rights in Zurich. From now on the family calls itself dukes of Zähringen.",
+     "Around 1065–1070 the counts of Dillingen, from the Danube, get a foothold in northern Switzerland. By a marriage they get large lands in the Thurgau and claims around Winterthur. From 1180 a branch of the family calls itself counts of Kyburg."
     ],
     "view": [
      [
@@ -1319,13 +5102,57 @@ window.MAP_STORIES = [
       "lon": 7.8522,
       "kind": "town",
       "year": 1120,
-      "note": "Market town founded 1120"
+      "note": "Founded about 1091; market rights 1120"
      },
      {
       "name": "Kyburg castle",
       "lat": 47.4578,
       "lon": 8.7436,
       "kind": "castle"
+     }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/019504/2020-06-03/",
+      "title": "HLS: Zähringen, von",
+      "quote": "1092-1098 (Gegen-)Herzöge von Schwaben, ab 1098/1100 Herzöge von Zähringen",
+      "supports": "Rival dukes of Swabia 1092–1098; dukes of Zähringen from 1098"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/019504/2020-06-03/",
+      "title": "HLS: Zähringen, von",
+      "quote": "Er verzichtete 1098 auf das Herzogtum Schwaben und erhielt dafür als Reichsfürstenlehen die Namen gebende Burg Zähringen sowie die Reichsrechte in Zürich.",
+      "supports": "Berchtold II gives up Swabia in 1098, gets Zähringen castle and imperial rights in Zurich (layer Zurich)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/019504/2020-06-03/",
+      "title": "HLS: Zähringen, von",
+      "quote": "die formelle Anerkennung der Ansprüche der Zähringer auf das Rheinfelder Erbe im Raum Rheinfelden und Burgdorf sowie in der Westschweiz",
+      "supports": "Layer: Rheinfelden inherited by the Zähringen (about 1098, 'wahrscheinlich')"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/006617/2014-01-24/",
+      "title": "HLS: Freiburg im Breisgau",
+      "quote": "liess Herzog Berthold II. um 1091 Burg und Siedlung Freiburg anlegen, die 1120 Marktrecht erhielt",
+      "supports": "Place Freiburg im Breisgau: founded about 1091, market rights 1120"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/019520/2024-02-20/",
+      "title": "HLS: Kyburg, von",
+      "quote": "fassten die Grafen von Dillingen hier erst um 1065/1070 Fuss",
+      "supports": "Counts of Dillingen get a foothold in northern Switzerland about 1065–1070"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/019520/2024-02-20/",
+      "title": "HLS: Kyburg, von",
+      "quote": "erhielt die Familie umfangreichen Besitz im alten Thurgau und zumindest Ansprüche auf solchen in der Umgebung von Winterthur und der Burg Kyburg",
+      "supports": "Lands in the Thurgau, claims around Winterthur and Kyburg castle (layer Dillingen)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/019520/2024-02-20/",
+      "title": "HLS: Kyburg, von",
+      "quote": "1180 lösten sich die Kyburg als selbstständiger Zweig von den sich ab 1111 nach ihrer östlich von Ulm an der Donau gelegenen Burg",
+      "supports": "Kyburg a separate branch of the Dillingen counts from 1180; their castle on the Danube"
      }
     ]
    },
@@ -1334,8 +5161,8 @@ window.MAP_STORIES = [
     "tick": "1127",
     "title": "Rectors of Burgundy",
     "text": [
-     "In 1127 King Lothar III makes Duke Konrad rector of Burgundy. A rector rules a land in the king's name. The area lies between the Jura, Lake Geneva and the Alps.",
-     "In practice the dukes are strong only in parts of it. The local nobles and bishops often resist. In 1156 the emperor lets the duke invest (formally install) the bishops of Geneva, Lausanne and Sion, but the duke can enforce this only in Lausanne."
+     "In 1127 King Lothar III makes Duke Konrad rector of Burgundy. A rector rules a land in the king's name. In practice Konrad can enforce this only between the Jura, Lake Geneva and the Alps.",
+     "Even there the dukes are strong only in parts of it. The local nobles avoid serving them. In 1156 Duke Berchtold IV must give up his hopes for the rest of Burgundy. Instead the emperor gives him the right to give the bishops of Geneva, Lausanne and Sion their worldly rights. The duke can enforce this only in Lausanne."
     ],
     "view": "ch",
     "layers": [
@@ -1396,7 +5223,45 @@ window.MAP_STORIES = [
       "lon": 6.6355,
       "kind": "town",
       "year": 1156,
-      "note": "The duke installs the bishop"
+      "note": "The duke gives the bishop his worldly rights"
+     }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/019504/2020-06-03/",
+      "title": "HLS: Zähringen, von",
+      "quote": "König Lothar III. übertrug ihm das Rektorat Burgund",
+      "supports": "Lothar III makes Konrad rector of Burgundy (from 1127, per the same paragraph 'Ab 1127')"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/019504/2020-06-03/",
+      "title": "HLS: Zähringen, von",
+      "quote": "das Rektorat zwischen Jura, Genfersee und Alpen durchzusetzen (Ostburgund)",
+      "supports": "Area between Jura, Lake Geneva and Alps (layer Rectorate of Burgundy)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/019504/2020-06-03/",
+      "title": "HLS: Zähringen, von",
+      "quote": "Das Rektorat bot die Chance, im Namen des Königs die zähringische Position im Burgund zur eigentlichen Herzogsstellung auszubauen",
+      "supports": "A rector acts in the king's name"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/019504/2020-06-03/",
+      "title": "HLS: Zähringen, von",
+      "quote": "Die Grafengeschlechter südlich des Rheins haben vielmehr Gefolgschaftsbeziehungen zu den Zähringern in auffälliger Weise gemieden.",
+      "supports": "Local nobles avoid serving the dukes"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/019504/2020-06-03/",
+      "title": "HLS: Zähringen, von",
+      "quote": "Konrads Sohn Berchtold IV. musste 1156 definitiv auf alle Ambitionen in der Provence und im übrigen Burgund verzichten.",
+      "supports": "1156: Berchtold IV gives up hopes for the rest of Burgundy"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/019504/2020-06-03/",
+      "title": "HLS: Zähringen, von",
+      "quote": "Er erhielt stattdessen von Kaiser Friedrich I. die Regalieninvestitur in den Bistümern Genf, Sitten und Lausanne, welche er aber nur im Falle Lausannes durchzusetzen vermochte.",
+      "supports": "Regalia investiture of bishops of Geneva, Sion, Lausanne; enforced only in Lausanne (place Lausanne 1156)"
      }
     ]
    },
@@ -1406,7 +5271,7 @@ window.MAP_STORIES = [
     "title": "Fribourg is founded",
     "text": [
      "In 1157 Duke Berchtold IV founds the town of Fribourg on the Saane river. It has the same name as the family's town in the Breisgau.",
-     "A new town gives a lord a safe base, markets and taxes. It also gives him soldiers in a region where nobles do not obey him. Fribourg lies on the language border and close to the bishop of Lausanne."
+     "In 1156 the duke lost much of his power in western Switzerland. With the new town he tries to build his own power base between the Aare and the Saane. The site is easy to defend and lies on good roads."
     ],
     "view": "ch",
     "layers": [
@@ -1471,6 +5336,38 @@ window.MAP_STORIES = [
       "year": 1157,
       "note": "Founded by Berchtold IV"
      }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/000953/2010-02-04/",
+      "title": "HLS: Freiburg (Gemeinde)",
+      "quote": "Freiburg wurde 1157 von Berchtold IV. von Zähringen auf einem von der Saane umflossenen Felsengrat, dem heutigen Burgquartier, gegründet.",
+      "supports": "Fribourg founded 1157 by Berchtold IV on the Saane (layer and place Fribourg)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/000953/2010-02-04/",
+      "title": "HLS: Freiburg (Gemeinde)",
+      "quote": "Mit der Gründung der Stadt Freiburg 1157 versuchte er, im Raum Aare-Saane eine Hausmacht zu etablieren.",
+      "supports": "Purpose: own power base between Aare and Saane"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/000953/2010-02-04/",
+      "title": "HLS: Freiburg (Gemeinde)",
+      "quote": "Der gewählte Standort konnte leicht befestigt werden und lag verkehrsstrategisch günstig.",
+      "supports": "Site easy to defend, good roads"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/000953/2010-02-04/",
+      "title": "HLS: Freiburg (Gemeinde)",
+      "quote": "1156 verlor Herzog Berchtold IV. von Zähringen das Rektorat über Burgund und büsste damit einen wichtigen Teil seines Einflusses in der Westschweiz ein.",
+      "supports": "1156 loss of power in western Switzerland"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007379/2023-03-09/",
+      "title": "HLS: Freiburg (Kanton)",
+      "quote": "1537 folgten La Roche, Riaz, Bulle und Albeuve, ehemalige Besitzungen des Bischofs von Lausanne",
+      "supports": "Layer: Bulle, Riaz, La Roche were lands of the bishop of Lausanne"
+     }
     ]
    },
    {
@@ -1479,7 +5376,7 @@ window.MAP_STORIES = [
     "title": "Bern and a ring of towns",
     "text": [
      "In 1173 the counts of Lenzburg die out. The Zähringen, the Kyburg and the Habsburg all gain from it. The Kyburg get land near Baden and around the Walensee.",
-     "In 1190–1191 Duke Berchtold V beats nobles who rise against him, at Payerne and Grindelwald. In 1191 he finishes the founding of Bern. He also builds up Burgdorf, Thun and Murten, and holds Moudon and castles such as Laupen. From 1198 he is protector of Schaffhausen.",
+     "In 1190–1191 Duke Berchtold V beats the nobles and the bishop of Lausanne, who rise against him. There are fights at Payerne and Grindelwald. In 1191 he finishes the founding of Bern and builds up the town of Thun. The Zähringen also build up Burgdorf, Murten and Moudon, and castle settlements such as Laupen. In 1198 King Philip gives the duke the imperial rights over Schaffhausen.",
      "Historians think that only Fribourg and Bern were real towns before 1218."
     ],
     "view": "ch",
@@ -1523,11 +5420,10 @@ window.MAP_STORIES = [
      {
       "name": "Kyburg",
       "kind": "kyburg",
-      "label": "Counts of Kyburg: Thurgau, Winterthur area, Baden, Gaster, Glarus (about)",
+      "label": "Counts of Kyburg: Thurgau, Winterthur area, Baden, Gaster (about)",
       "sel": {
        "cantons": [
-        "TG",
-        "GL"
+        "TG"
        ],
        "districts": [
         110,
@@ -1583,6 +5479,71 @@ window.MAP_STORIES = [
       "year": 1191,
       "note": "Duke beats rebel nobles"
      }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/019520/2024-02-20/",
+      "title": "HLS: Kyburg, von",
+      "quote": "Nach dem Abgang der Lenzburger 1172/1173 erhielten neben den Staufern und Zähringern auch die Grafen von Kyburg einen Erbanteil.",
+      "supports": "Lenzburg extinction 1173; Zähringen and Kyburg gain"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/019506/2023-09-06/",
+      "title": "HLS: Habsburg, von",
+      "quote": "1172-1173 die Grafschaft im westlichen Zürichgau mit Schwyz und Unterwalden, die Grafschaft im Aargau und die Vogtei über das Kloster Säckingen",
+      "supports": "Habsburg also gain from the Lenzburg inheritance"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/019520/2024-02-20/",
+      "title": "HLS: Kyburg, von",
+      "quote": "Als einigermassen gesichert gelten Anteile an den Allodien Arnolds von Lenzburg im Raum Walensee-Gaster und in der Umgebung von Baden.",
+      "supports": "Kyburg get land near Baden and Walensee-Gaster (layer Kyburg: Baden, Gaster)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/029225/2014-11-18/",
+      "title": "HLS: Zähringen, Berchtold V. von",
+      "quote": "Nach dem Sieg über den sich erhebenden burgundischen Adel und den Bischof von Lausanne 1190-1191 (Gefechte bei Payerne und Grindelwald)",
+      "supports": "1190–1191 victory over rising nobles and bishop; fights at Payerne and Grindelwald (places)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/029225/2014-11-18/",
+      "title": "HLS: Zähringen, Berchtold V. von",
+      "quote": "vollendete Berchtold V. 1191 die Stadtgründung von Bern und baute die Stadt Thun aus",
+      "supports": "Bern founding completed 1191; Thun built up (places Bern, Thun)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/019504/2020-06-03/",
+      "title": "HLS: Zähringen, von",
+      "quote": "der Ausbau der älteren Herrschaftszentren Burgdorf und Murten, der Herrschaftsanlagen in Thun und Moudon sowie einiger Burgsiedlungen wie Laupen, Gümmenen und Oltigen",
+      "supports": "Burgdorf, Murten, Thun, Moudon, Laupen (layer towns and castles)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/029225/2014-11-18/",
+      "title": "HLS: Zähringen, Berchtold V. von",
+      "quote": "König Philipp von Schwaben verlieh Zähringen 1198 die Reichsvogtei über Schaffhausen und das Kloster Allerheiligen.",
+      "supports": "Schaffhausen from 1198 (layer)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/019504/2020-06-03/",
+      "title": "HLS: Zähringen, von",
+      "quote": "Wahrscheinlich hat aber ausser den «Gründungsstädten» keiner dieser Orte vor 1218 städtische Strukturen erhalten.",
+      "supports": "Only the founded towns (Freiburg, Bern) were real towns before 1218"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/019504/2020-06-03/",
+      "title": "HLS: Zähringen, von",
+      "quote": "Die Zähringer bauten des Weiteren die Reichsrechte in Solothurn aus",
+      "supports": "Layer: Zähringen as king's officers in Solothurn"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/019506/2023-09-06/",
+      "title": "HLS: Habsburg, von",
+      "quote": "aus der zähringischen Erbschaft die Reichsvogtei über Uri 1218-1231",
+      "supports": "Layer: Zähringen held the imperial rights over Uri (shown indirectly: Habsburg got them from the Zähringen inheritance)"
+     }
+    ],
+    "uncertain": [
+     "Map: the exact extent of Kyburg land in 1191."
     ]
    },
    {
@@ -1590,7 +5551,7 @@ window.MAP_STORIES = [
     "tick": "1218",
     "title": "The Zähringen die out",
     "text": [
-     "Duke Berchtold V dies in 1218 without a son. Emperor Frederick II takes back the title of duke and most of the imperial rights.",
+     "Duke Berchtold V dies in 1218 without a son. King Frederick II takes back the title of duke and most of the imperial rights.",
      "Bern, Zurich, Solothurn and Schaffhausen now stand directly under the Empire. The family's own lands are split. The counts of Urach get the land north of the Rhine. The counts of Kyburg get Fribourg, Burgdorf, Thun and land in the Aargau and around Zurich. Count Ulrich III of Kyburg had married Anna of Zähringen, of the duke's family."
     ],
     "view": [
@@ -1669,7 +5630,7 @@ window.MAP_STORIES = [
       "lon": 7.8522,
       "kind": "town",
       "year": 1218,
-      "note": "Berchtold V dies; to the counts of Urach"
+      "note": "Berchtold V is buried here; to the counts of Urach"
      },
      {
       "name": "Kyburg castle",
@@ -1677,6 +5638,66 @@ window.MAP_STORIES = [
       "lon": 8.7436,
       "kind": "castle"
      }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/029225/2014-11-18/",
+      "title": "HLS: Zähringen, Berchtold V. von",
+      "quote": "Mit Berchtold V. starb die Hauptlinie der Zähringer aus.",
+      "supports": "Berchtold V the last of the main line; life dates in the same article: 18.2.1218"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/019504/2020-06-03/",
+      "title": "HLS: Zähringen, von",
+      "quote": "König Friedrich II. zog die Herzogs- und die meisten Reichsrechte ein; Rektorat und Herzogstitel verlieh er nicht mehr.",
+      "supports": "Frederick II (then king) takes back the ducal and most imperial rights"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/029225/2014-11-18/",
+      "title": "HLS: Zähringen, Berchtold V. von",
+      "quote": "Zürich, Solothurn, Bern, Schaffhausen und zahlreiche burgundische Dynasten wurden reichsfrei",
+      "supports": "Bern, Zurich, Solothurn, Schaffhausen directly under the Empire (layer imperial towns)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/029200/2003-05-19/",
+      "title": "HLS: Friedrich II.",
+      "quote": "Reichsrechte und -güter, darunter die Städte Zürich, Bern, Solothurn, Murten und Rheinfelden, an das Reich zurück.",
+      "supports": "Layer: Murten and Rheinfelden also back to the Empire in 1218"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008447/2010-09-16/",
+      "title": "HLS: Laupen",
+      "quote": "in und nach zähringischer Zeit Reichsfestung und Amtssitz eines Grafen (1130-1133 comes de Loupa), bis die Grafen von Kyburg sie 1253 einnahmen",
+      "supports": "Layer: Laupen an imperial fortress after 1218 (until Kyburg take it in 1253)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/019504/2020-06-03/",
+      "title": "HLS: Zähringen, von",
+      "quote": "mit den Zähringern verschwägerten Grafen von Urach bzw. Kyburg vermochten nur Teile der Allode nördlich bzw. südlich des Rheins zu übernehmen",
+      "supports": "Urach get land north of the Rhine, Kyburg south of it"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/019520/2024-02-20/",
+      "title": "HLS: Kyburg, von",
+      "quote": "gelangten die Kyburger zu den linksrheinischen Besitzungen im Burgund mit den Städten Freiburg, Thun und Burgdorf, im Aargau und im heutigen Kanton Zürich",
+      "supports": "Kyburg get Fribourg, Thun, Burgdorf, Aargau and Zurich land (layer inheritance to Kyburg)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/019520/2024-02-20/",
+      "title": "HLS: Kyburg, von",
+      "quote": "hatte Berchtold V. von Zähringen, der Letzte seines Geschlechts, seine Tochter Anna mit Ulrich III. (->), Sohn Hartmanns III., verheiratet",
+      "supports": "Ulrich III of Kyburg married Anna of Zähringen"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/006617/2014-01-24/",
+      "title": "HLS: Freiburg im Breisgau",
+      "quote": "Im 13. Jahrhundert und in der ersten Hälfte des 14. Jahrhunderts übten die Grafen von Freiburg die Stadtherrschaft aus",
+      "supports": "Place Freiburg im Breisgau: after 1218 under the counts of Freiburg (the Urach line)"
+     }
+    ],
+    "uncertain": [
+     "Anna of Zähringen was Berchtold V's daughter or sister (HLS gives both).",
+     "The counts of Urach get the land north of the Rhine."
     ]
    },
    {
@@ -1684,8 +5705,8 @@ window.MAP_STORIES = [
     "tick": "1250",
     "title": "Kyburg at its height",
     "text": [
-     "The counts of Kyburg now rule a broad belt of land from Lake Constance to Fribourg. Like the Zähringen, they found towns to hold it: Winterthur and Diessenhofen about 1180, Zug and Baden about 1230, later Frauenfeld, Aarau, Mellingen and Lenzburg, and about 1250 Sursee and Weesen.",
-     "About 1250 the family splits its land. Hartmann IV keeps the east. His nephew Hartmann V gets the west, with Burgdorf, Thun and Fribourg. Neither has a son."
+     "The counts of Kyburg now rule a broad belt of land from Zurich and the Thurgau to Fribourg. Like the Zähringen, they found towns to hold it: Winterthur and Diessenhofen about 1180, Zug and Baden about 1230, later Frauenfeld, Aarau, Mellingen and Lenzburg, and about 1250 Sursee and Weesen.",
+     "In 1250–1251 the family splits its land. Hartmann IV keeps the east. His nephew Hartmann V gets the west, with Burgdorf as its centre, and Thun and Fribourg. Neither has a son."
     ],
     "view": "ch",
     "layers": [
@@ -1824,6 +5845,41 @@ window.MAP_STORIES = [
       "year": 1250,
       "note": "Kyburg town"
      }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/019520/2024-02-20/",
+      "title": "HLS: Kyburg, von",
+      "quote": "deren Besitz sich von der Ostschweiz (Zürich und Thurgau) bis in die heutigen Kantone Aargau, Bern und Freiburg erstreckte",
+      "supports": "Extent from Zurich and Thurgau to Fribourg"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/019520/2024-02-20/",
+      "title": "HLS: Kyburg, von",
+      "quote": "In dieser Zeit gründeten die Grafen von Kyburg die Städte Diessenhofen und Winterthur",
+      "supports": "Winterthur and Diessenhofen about 1180 ('um 1180' in the previous sentence)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/019520/2024-02-20/",
+      "title": "HLS: Kyburg, von",
+      "quote": "um 1230 die Städte Zug und Baden, danach Frauenfeld, Aarau, Mellingen und Lenzburg sowie um 1250 Sursee, Weesen",
+      "supports": "Town dates: Zug, Baden 1230; later Frauenfeld, Aarau, Mellingen, Lenzburg; Sursee, Weesen 1250 (layer and places)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/019520/2024-02-20/",
+      "title": "HLS: Kyburg, von",
+      "quote": "1250/1251 übergab der kinderlose Hartmann IV. den Westteil des Besitzes mit Burgdorf als Zentrum seinem Neffen Hartmann V.",
+      "supports": "Split 1250/1251; Hartmann IV childless; nephew Hartmann V gets the west with Burgdorf (layers Hartmann IV/V)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007374/2017-05-30/",
+      "title": "HLS: Glarus (Kanton)",
+      "quote": "Nach dem Tod Ottos 1200 ging die Vogtei an die Kyburger über; Hartmann der Ältere besass sie 1264 als Reichslehen.",
+      "supports": "Layer: Glarus under Kyburg from 1200, held by Hartmann IV (the elder)"
+     }
+    ],
+    "uncertain": [
+     "Thun and Fribourg belong to Hartmann V's western part."
     ]
    },
    {
@@ -1831,8 +5887,8 @@ window.MAP_STORIES = [
     "tick": "1264",
     "title": "Habsburg takes the Kyburg land",
     "text": [
-     "Hartmann V dies in 1263 and Hartmann IV about a year later. Count Rudolf of Habsburg is a nephew of Hartmann IV. He becomes guardian of Hartmann V's young daughter Anna and takes over all Kyburg land.",
-     "About 1273 Anna marries Eberhard of Habsburg-Laufenburg. Their line, called Neu-Kyburg, holds Burgdorf and Thun. It sells them to Bern in 1384 and dies out in 1417. Rudolf buys Fribourg in 1277. The rest of the Kyburg land becomes the base of Habsburg power in Switzerland."
+     "Hartmann V dies in 1263 and Hartmann IV one year later. Count Rudolf of Habsburg is a nephew of Hartmann IV. As guardian of Hartmann V's young daughter Anna he runs the western lands. From 1264 to 1273 he also runs the rest of the Kyburg land.",
+     "About 1273 Anna marries Eberhard of Habsburg-Laufenburg. Their line, called Neu-Kyburg, holds Burgdorf and Thun. It sells them to Bern in 1384 and dies out in 1417. In 1277 Rudolf, now king, makes the Kyburg heirs sell Fribourg to his sons. The rest of the Kyburg land becomes the base of Habsburg power in eastern Switzerland."
     ],
     "view": "ch",
     "layers": [
@@ -1852,7 +5908,7 @@ window.MAP_STORIES = [
      {
       "name": "Fribourg",
       "kind": "habsburg",
-      "label": "Fribourg: Rudolf as guardian, bought by Habsburg in 1277",
+      "label": "Fribourg: Rudolf as guardian, sold to Rudolf's sons in 1277",
       "sel": {
        "districts": [
         1004,
@@ -1937,7 +5993,7 @@ window.MAP_STORIES = [
       "lon": 8.7436,
       "kind": "castle",
       "year": 1264,
-      "note": "Last Kyburg count dies"
+      "note": "The Kyburg family dies out"
      },
      {
       "name": "Habsburg castle",
@@ -1953,6 +6009,71 @@ window.MAP_STORIES = [
       "year": 1384,
       "note": "Sold to Bern"
      }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/019520/2024-02-20/",
+      "title": "HLS: Kyburg, von",
+      "quote": "Als Hartmann V. 1263 starb, übernahm Graf Rudolf von Habsburg als Vormund von dessen Tochter Anna die Verwaltung des Westteils",
+      "supports": "Hartmann V dies 1263; Rudolf guardian of Anna, runs the west"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/019520/2024-02-20/",
+      "title": "HLS: Kyburg, von",
+      "quote": "nach dem Tod Hartmanns IV. nur ein Jahr später auch bis 1273 diejenige der übrigen Teile der kyburgischen Herrschaft",
+      "supports": "Hartmann IV dies one year later; Rudolf runs the rest until 1273"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007374/2017-05-30/",
+      "title": "HLS: Glarus (Kanton)",
+      "quote": "Nach dem Erlöschen der Kyburger im gleichen Jahr kam sie an Rudolf von Habsburg",
+      "supports": "Kyburg die out in 1264 (place Kyburg castle 1264)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/019520/2024-02-20/",
+      "title": "HLS: Kyburg, von",
+      "quote": "dessen Schwester Heilwig, die spätere Königsmutter von Rudolf I. von Habsburg, Albrecht von Habsburg",
+      "supports": "Rudolf's mother Heilwig was Hartmann IV's sister, so Rudolf is his nephew"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/019520/2024-02-20/",
+      "title": "HLS: Kyburg, von",
+      "quote": "Sie heiratete um 1273 Eberhard I. von Habsburg-Laufenburg.",
+      "supports": "Anna marries Eberhard about 1273"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/019520/2024-02-20/",
+      "title": "HLS: Kyburg, von",
+      "quote": "den Oberaargau mit den Zentren Burgdorf, Wangen an der Aare und Landshut sowie Burg und Stadt Thun samt Äusserem Amt Thun",
+      "supports": "Neu-Kyburg holds Burgdorf and Thun (layer)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/019520/2024-02-20/",
+      "title": "HLS: Kyburg, von",
+      "quote": "endete 1384 mit dem Verkauf von Thun – dessen Mitherr Bern ab 1375 war – und Burgdorf an Bern",
+      "supports": "Burgdorf and Thun sold to Bern 1384 (place Burgdorf 1384)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/019520/2024-02-20/",
+      "title": "HLS: Kyburg, von",
+      "quote": "Der Tod Berchtolds I., Onkels von Rudolf II., im Jahr 1417 bedeutete das physische Ende der Dynastie Neu-Kyburg",
+      "supports": "Neu-Kyburg dies out 1417"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007379/2023-03-09/",
+      "title": "HLS: Freiburg (Kanton)",
+      "quote": "drängte Rudolf von Habsburg die überschuldeten kyburgischen Erben 1277 zum Verkauf von Freiburg an seine Söhne",
+      "supports": "1277: Kyburg heirs sell Fribourg to Rudolf's sons (layer Fribourg)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/019506/2023-09-06/",
+      "title": "HLS: Habsburg, von",
+      "quote": "der Besitz im Gebiet der nachmaligen Ost- und Nordostschweiz, so unter anderem die Landgrafschaft über den Thurgau sowie Glarus, Gaster",
+      "supports": "Rest of Kyburg land becomes Habsburg land in eastern Switzerland (layer former Kyburg land)"
+     }
+    ],
+    "uncertain": [
+     "Map: the old Habsburg land in the Aargau."
     ]
    }
   ],
@@ -1973,7 +6094,7 @@ window.MAP_STORIES = [
     "tick": "1020",
     "title": "A castle above the Aare",
     "text": [
-     "About 1020 a noble family builds a castle on a hill above the Aare river, in today's Aargau. The builder was Radbot or his brother Werner. The castle is called Habsburg, and the family takes its name.",
+     "About 1020 a noble family builds a castle on a hill above the Aare river, in today's Aargau. The builder was Radbot or Werner. The castle is called Habsburg, and the family takes its name.",
      "Soon after, Radbot founds the abbey of Muri. The family owns farms and rights around the castle and Muri. At first it is one noble family among many in the region."
     ],
     "view": "ch",
@@ -2013,6 +6134,32 @@ window.MAP_STORIES = [
       "lon": 8.3389,
       "kind": "place",
       "note": "Founded by Radbot after 1020"
+     }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/019506/",
+      "title": "HLS: Habsburg, von",
+      "quote": "Die Habsburg als Herrschaftsmittelpunkt wurde ebenfalls um 1020 von Radbot oder Wernher errichtet.",
+      "supports": "Castle built about 1020 by Radbot or Werner."
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/019506/",
+      "title": "HLS: Habsburg, von",
+      "quote": "Guntrams Enkel Radbot gründete nach 1020 das Benediktinerkloster Muri",
+      "supports": "Radbot founds Muri abbey after 1020."
+     },
+     {
+      "url": "https://www.ag.ch/de/themen/kultur-sport/kultur/museum-aargau/schloss-habsburg/geschichte",
+      "title": "Museum Aargau: Schloss Habsburg, Geschichte",
+      "quote": "Auf dem Wülpelsberg erbaute Radbot um 1020/30 die Habsburg.",
+      "supports": "Castle on a hill in today's Aargau, built about 1020 by Radbot."
+     },
+     {
+      "url": "https://www.ag.ch/staatsarchiv/suche/detail.aspx?ID=1477",
+      "title": "Staatsarchiv Aargau: Kloster Muri",
+      "quote": "die Benediktinerabtei 1027 zur Sühne für Vergehen ihres Schwiegervaters Kanzelin von Altenburg gestiftet haben",
+      "supports": "Muri abbey founded soon after the castle (1027, by Radbot's wife Ita, according to the Acta Murensia)."
      }
     ]
    },
@@ -2115,6 +6262,44 @@ window.MAP_STORIES = [
       "year": 1173,
       "note": "Lenzburg counts die out"
      }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/019506/",
+      "title": "HLS: Habsburg, von",
+      "quote": "1172-1173 die Grafschaft im westlichen Zürichgau mit Schwyz und Unterwalden",
+      "supports": "In 1172–1173 Habsburg gets the county in the western Zürichgau with Schwyz and Unterwalden."
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/019506/",
+      "title": "HLS: Habsburg, von",
+      "quote": "die Grafschaft im Aargau und die Vogtei über das Kloster Säckingen",
+      "supports": "County in the Aargau and protection (Vogtei) of Säckingen abbey."
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/019520/2024-02-20/",
+      "title": "HLS: Kyburg, von",
+      "quote": "Nach dem Abgang der Lenzburger 1172/1173 erhielten neben den Staufern und Zähringern auch die Grafen von Kyburg einen Erbanteil.",
+      "supports": "The counts of Kyburg get another part of the Lenzburg inheritance"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/019504/2020-06-03/",
+      "title": "HLS: Zähringen, von",
+      "quote": "Er verzichtete 1098 auf das Herzogtum Schwaben und erhielt dafür als Reichsfürstenlehen die Namen gebende Burg Zähringen sowie die Reichsrechte in Zürich.",
+      "supports": "Layer: Zurich, imperial rights held by the dukes of Zähringen"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/019520/2024-02-20/",
+      "title": "HLS: Kyburg, von",
+      "quote": "erhielt die Familie umfangreichen Besitz im alten Thurgau und zumindest Ansprüche auf solchen in der Umgebung von Winterthur und der Burg Kyburg",
+      "supports": "Layer: Kyburg land in the Thurgau"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/019520/2024-02-20/",
+      "title": "HLS: Kyburg, von",
+      "quote": "In dieser Zeit gründeten die Grafen von Kyburg die Städte Diessenhofen und Winterthur",
+      "supports": "Layer: Kyburg land around Winterthur"
+     }
     ]
    },
    {
@@ -2122,8 +6307,8 @@ window.MAP_STORIES = [
     "tick": "1264",
     "title": "The Kyburg inheritance",
     "text": [
-     "In 1263 and 1264 the last two counts of Kyburg die. Count Rudolf of Habsburg is their nearest heir. He takes over their lands: the Winterthur area, the Thurgau, Baden, Glarus and Zug, and in the west Burgdorf and Thun.",
-     "Rudolf is now the strongest lord between the Rhine and the Alps. Only a few towns and valleys stand directly under the king: for example Zurich, Bern, Uri and Schwyz."
+     "In 1263 and 1264 the last two counts of Kyburg die. Count Rudolf of Habsburg is their nearest heir. He takes over their lands in the east: the Winterthur area, the Thurgau, Baden, Glarus and Zug.",
+     "In the west, Burgdorf and Thun go to Anna, the young daughter of the last count. Rudolf rules these lands for her. Rudolf is now the strongest lord between the Rhine and the Alps. Only a few towns and valleys stand directly under the king: for example Zurich, Bern, Uri and Schwyz."
     ],
     "view": "ch",
     "layers": [
@@ -2226,6 +6411,89 @@ window.MAP_STORIES = [
       "year": 1264,
       "note": "Last Kyburg count dies"
      }
+    ],
+    "sources": [
+     {
+      "url": "https://www.deutsche-biographie.de/sfz74667.html",
+      "title": "NDB: Rudolf I., römisch-deutscher König",
+      "quote": "Als 1264 die Linie der Grafen von Kiburg ohne direkten männlichen Erben auslief,",
+      "supports": "Kyburg line dies out in 1264 without a male heir."
+     },
+     {
+      "url": "https://www.deutsche-biographie.de/sfz27117.html",
+      "title": "NDB: Habsburg (Dynastie)",
+      "quote": "Rudolf (IV.) erweiterte seinen Besitz durch die Erwerbung des Erbes der Grafen von Kiburg bei Zürich",
+      "supports": "Rudolf of Habsburg takes over the Kyburg inheritance."
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/019506/",
+      "title": "HLS: Habsburg, von",
+      "quote": "die Landgrafschaft über den Thurgau sowie Glarus, Gaster und die Kastvogtei über das Kloster Schänis",
+      "supports": "Habsburg rights over the Thurgau and Glarus."
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/019506/",
+      "title": "HLS: Habsburg, von",
+      "quote": "Um 1269 wurde von Eberhard, der die Erbtochter des Hauses Kyburg ehelichte",
+      "supports": "There was a Kyburg heiress (Anna), who married Eberhard of Habsburg(-Laufenburg) — the western Kyburg lands (later Neu-Kyburg)."
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/019520/2024-02-20/",
+      "title": "HLS: Kyburg, von",
+      "quote": "Als Hartmann V. 1263 starb, übernahm Graf Rudolf von Habsburg als Vormund von dessen Tochter Anna die Verwaltung des Westteils",
+      "supports": "Rudolf rules the western Kyburg lands for the young heiress Anna"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/019520/2024-02-20/",
+      "title": "HLS: Kyburg, von",
+      "quote": "nach dem Tod Hartmanns IV. nur ein Jahr später auch bis 1273 diejenige der übrigen Teile der kyburgischen Herrschaft",
+      "supports": "After the last count dies (1264), Rudolf also takes over the rest of the Kyburg land"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/019520/2024-02-20/",
+      "title": "HLS: Kyburg, von",
+      "quote": "gelangten die Kyburger zu den linksrheinischen Besitzungen im Burgund mit den Städten Freiburg, Thun und Burgdorf, im Aargau und im heutigen Kanton Zürich",
+      "supports": "Kyburg lands included Fribourg, Thun, Burgdorf and land in the Aargau and Zurich area"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/019520/2024-02-20/",
+      "title": "HLS: Kyburg, von",
+      "quote": "um 1230 die Städte Zug und Baden, danach Frauenfeld, Aarau, Mellingen und Lenzburg sowie um 1250 Sursee, Weesen",
+      "supports": "Kyburg lands included Zug and Baden"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/019520/2024-02-20/",
+      "title": "HLS: Kyburg, von",
+      "quote": "In dieser Zeit gründeten die Grafen von Kyburg die Städte Diessenhofen und Winterthur",
+      "supports": "Kyburg lands included the Winterthur area"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/029225/2014-11-18/",
+      "title": "HLS: Zähringen, Berchtold V. von",
+      "quote": "Zürich, Solothurn, Bern, Schaffhausen und zahlreiche burgundische Dynasten wurden reichsfrei",
+      "supports": "Zurich, Bern, Solothurn and Schaffhausen stand directly under the king"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007385/",
+      "title": "HLS: Schwyz (Kanton)",
+      "quote": "der Kaiser Friedrich II. 1240 aufgrund erwiesener Dienste die Reichsfreiheit zugestand",
+      "supports": "Schwyz stands directly under the king"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007384/",
+      "title": "HLS: Uri",
+      "quote": "verlieh König Heinrich (VII.), der Sohn Kaiser Friedrichs II., den in Uri lebenden Leuten die Reichsunmittelbarkeit.",
+      "supports": "Uri stands directly under the king"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007393/",
+      "title": "HLS: Thurgau",
+      "quote": "über den zentralen Seerücken und Bischofszell mit seinem Hinterland als Zentren bischöflichen Grundbesitzes",
+      "supports": "Layer: Bischofszell belongs to the bishop of Constance"
+     }
+    ],
+    "uncertain": [
+     "Map: Arbon belongs to the bishop of Constance."
     ]
    },
    {
@@ -2233,7 +6501,7 @@ window.MAP_STORIES = [
     "tick": "1282",
     "title": "A king and a duchy",
     "text": [
-     "In 1273 the princes elect Count Rudolf as king of the Romans (the German king). In 1278 he defeats King Ottokar of Bohemia at Dürnkrut, near Vienna.",
+     "In 1273 the princes elect Count Rudolf as king of the Romans (the German king). In 1278 he defeats King Ottokar of Bohemia at Dürnkrut, north-east of Vienna. Ottokar dies in the battle.",
      "In 1282 Rudolf gives the duchies of Austria and Styria to his sons. From now on the Habsburgs are dukes of Austria. Their centre of power moves east to Vienna, but they keep their old lands in Switzerland and in Alsace."
     ],
     "view": "europe",
@@ -2324,6 +6592,41 @@ window.MAP_STORIES = [
       "lon": 8.1856,
       "kind": "castle"
      }
+    ],
+    "sources": [
+     {
+      "url": "https://www.deutsche-biographie.de/sfz74667.html",
+      "title": "NDB: Rudolf I., römisch-deutscher König",
+      "quote": "Einen Monat später wurde R. von den Wahlfürsten einmütig zum röm.-dt. König gewählt,",
+      "supports": "1273: the princes elect Rudolf king."
+     },
+     {
+      "url": "https://www.deutsche-biographie.de/sfz74667.html",
+      "title": "NDB/ADB: Rudolf I.",
+      "quote": "am 24.10.1273 wurde er von Ebf. Engelbert v. Köln in Aachen gekrönt.",
+      "supports": "Place label: Aachen (1273), Rudolf crowned king."
+     },
+     {
+      "url": "https://www.deutsche-biographie.de/sfz74667.html",
+      "title": "NDB/ADB: Rudolf I.",
+      "quote": "kam es am 26.8.1278 bei Dürnkrut zur Entscheidungsschlacht, in der Ottokar unterlag und getötet wurde.",
+      "supports": "1278: Rudolf defeats Ottokar at Dürnkrut; Ottokar is killed."
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/019506/",
+      "title": "HLS: Habsburg, von",
+      "quote": "verlieh er 1282 an seine Söhne Albrecht I. und Rudolf II. zu gesamter Hand",
+      "supports": "1282: Rudolf gives the duchies to his sons."
+     },
+     {
+      "url": "https://www.deutsche-biographie.de/sfz27117.html",
+      "title": "NDB: Habsburg (Dynastie)",
+      "quote": "1282 mit Österreich und Steiermark.",
+      "supports": "The duchies given in 1282 are Austria and Styria."
+     }
+    ],
+    "uncertain": [
+     "Map: the Habsburgs are landgraves in Upper Alsace."
     ]
    },
    {
@@ -2331,8 +6634,8 @@ window.MAP_STORIES = [
     "tick": "1291",
     "title": "Habsburg and the forest valleys",
     "text": [
-     "Rudolf and his sons want to join their Swiss lands into one territory. In 1291 they buy the town of Lucerne from Murbach abbey. They also protect the abbeys of Engelberg and Einsiedeln.",
-     "Uri and Schwyz have letters from earlier kings that put them directly under the Empire. They fear Habsburg rule. After Rudolf dies in July 1291, Uri, Schwyz and Unterwalden renew their alliance."
+     "Rudolf and his sons want to join their Swiss lands into one territory. In 1291 they buy the rights of Murbach abbey over Lucerne. They also protect the abbeys of Engelberg and Einsiedeln.",
+     "Uri and Schwyz have letters from earlier kings that put them directly under the Empire. They fear Habsburg rule. After Rudolf dies in July 1291, Uri, Schwyz and Unterwalden (Nidwalden) renew their alliance."
     ],
     "view": "ch",
     "layers": [
@@ -2353,7 +6656,7 @@ window.MAP_STORIES = [
      {
       "name": "Lucerne",
       "kind": "habsburg",
-      "label": "Lucerne: bought by Habsburg in 1291",
+      "label": "Lucerne: Murbach abbey's rights bought by Habsburg in 1291",
       "sel": {
        "munis": [
         1061
@@ -2467,7 +6770,7 @@ window.MAP_STORIES = [
       "lon": 8.3093,
       "kind": "town",
       "year": 1291,
-      "note": "Bought by Habsburg"
+      "note": "Habsburg buys Murbach's rights"
      },
      {
       "name": "Schwyz",
@@ -2476,6 +6779,80 @@ window.MAP_STORIES = [
       "kind": "town",
       "year": 1291,
       "note": "Alliance renewed"
+     }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/019506/",
+      "title": "HLS: Habsburg, von",
+      "quote": "kaufte 1291 die Grundherrschaft über die Höfe des Klosters Murbach-Luzern.",
+      "supports": "1291: Habsburg buys Murbach abbey's lordship in Lucerne (not the town as such)."
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/019506/",
+      "title": "HLS: Habsburg, von",
+      "quote": "Die Habsburger waren auch Kastvögte des Klosters Murbach im Elsass mit seinem Tochterkloster St. Leodegar in Luzern.",
+      "supports": "Habsburg link with Murbach abbey and Lucerne."
+     },
+     {
+      "url": "https://www.deutsche-biographie.de/sfz74667.html",
+      "title": "NDB/ADB: Rudolf I.",
+      "quote": "starb er am 15. Juli 1291 im 18. Jahre seines Reichs.",
+      "supports": "Rudolf dies in July 1291."
+     },
+     {
+      "url": "https://www.admin.ch/de/bundesbrief-von-1291",
+      "title": "Schweizerische Bundeskanzlei: Bundesbrief von 1291",
+      "quote": "Darin sichern sich die innerschweizerischen Talgemeinschaften Uri, Schwyz und Nidwalden gegenseitige Hilfe zu",
+      "supports": "Uri, Schwyz and Nidwalden make an alliance (early August 1291)."
+     },
+     {
+      "url": "https://www.admin.ch/de/bundesbrief-von-1291",
+      "title": "Schweizerische Bundeskanzlei: Bundesbrief von 1291",
+      "quote": "bekräftigt diese Vereinbarung eidlich in Bestätigung und Erneuerung einer älteren Übereinkunft.",
+      "supports": "The alliance renews an older one."
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008557/",
+      "title": "HLS: Engelberg (Kloster)",
+      "quote": "nahm König Rudolf I. von Habsburg 1274 das Kloster in seinen Schutz.",
+      "supports": "Habsburg protects the abbey of Engelberg"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008726/",
+      "title": "HLS: Morgartenkrieg",
+      "quote": "dem schwyzerischen Überfall auf das unter österreichischer Schirmvogtei stehende Kloster",
+      "supports": "Habsburg protects the abbey of Einsiedeln"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007385/",
+      "title": "HLS: Schwyz (Kanton)",
+      "quote": "der Kaiser Friedrich II. 1240 aufgrund erwiesener Dienste die Reichsfreiheit zugestand",
+      "supports": "Schwyz has a royal letter that puts it directly under the Empire (1240)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007384/",
+      "title": "HLS: Uri",
+      "quote": "verlieh König Heinrich (VII.), der Sohn Kaiser Friedrichs II., den in Uri lebenden Leuten die Reichsunmittelbarkeit.",
+      "supports": "Uri has a royal letter that puts it directly under the Empire"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007467/",
+      "title": "HLS: Ursern",
+      "quote": "die von den Grafen von Rapperswil und ab 1283 von denen von Habsburg eingenommen wurde",
+      "supports": "Layer: Urseren under Habsburg as governors since 1283"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/019520/2024-02-20/",
+      "title": "HLS: Kyburg, von",
+      "quote": "Sie heiratete um 1273 Eberhard I. von Habsburg-Laufenburg.",
+      "supports": "Layer: Neu-Kyburg, a Habsburg side line, from about 1273"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/019520/2024-02-20/",
+      "title": "HLS: Kyburg, von",
+      "quote": "den Oberaargau mit den Zentren Burgdorf, Wangen an der Aare und Landshut sowie Burg und Stadt Thun samt Äusserem Amt Thun",
+      "supports": "Layer: Neu-Kyburg holds Burgdorf and Thun"
      }
     ]
    },
@@ -2595,6 +6972,98 @@ window.MAP_STORIES = [
       "year": 1388,
       "note": "Glarus wins"
      }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/019506/",
+      "title": "HLS: Habsburg, von",
+      "quote": "Die Bedeutung des Morgartenkriegs 1315 innerhalb dieser Auseinandersetzungen ist heute allerdings umstritten.",
+      "supports": "Morgarten 1315; historians argue about its importance."
+     },
+     {
+      "url": "https://www.deutsche-biographie.de/sfz57436.html",
+      "title": "NDB: Leopold III., Herzog von Österreich",
+      "quote": "das am 9.7.1386 von den Luzernern, Urnern, Schwyzern und Unterwaldnern bei Sempach geschlagen wurde;",
+      "supports": "1386: the Confederates beat Leopold's army at Sempach."
+     },
+     {
+      "url": "https://www.deutsche-biographie.de/sfz27117.html",
+      "title": "NDB: Habsburg (Dynastie)",
+      "quote": "gegen die Leopold III. 1386 bei Sempach Schlacht und Leben verlor.",
+      "supports": "Leopold III dies at Sempach."
+     },
+     {
+      "url": "https://www.gl.ch/portrait/geschichte.html/202",
+      "title": "Kanton Glarus: Geschichte",
+      "quote": "Am 9. April 1388 schlagen sie in der Schlacht bei Näfels ein mehrfach überlegenes habsburgisches Heer",
+      "supports": "1388: Glarus wins at Näfels against Habsburg."
+     },
+     {
+      "url": "https://www.gl.ch/portrait/geschichte.html/202",
+      "title": "Kanton Glarus: Geschichte",
+      "quote": "Im 13. Jahrhundert kommt es unter habsburgische Vormacht, die die Glarner abzuschütteln versuchen.",
+      "supports": "Glarus was under Habsburg and tried to free itself (Habsburg loses Glarus)."
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/019506/",
+      "title": "HLS: Habsburg, von",
+      "quote": "wegen des zürcherischen Zugriffs auf habsburgische Herrschaftsgebiete im Aargau, in Zug und Glarus",
+      "supports": "Zug and Glarus were Habsburg lands taken over by the Confederates."
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008726/",
+      "title": "HLS: Morgartenkrieg",
+      "quote": "Sicher ist, dass die Schwyzer das anrückende Heer Leopolds im Raum Schornen am oberen Ende des Ägerisees (Hauptsee) überfielen",
+      "supports": "In 1315 the men of Schwyz beat a Habsburg army at Morgarten"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/026413/",
+      "title": "HLS: Eidgenossenschaft",
+      "quote": "Luzern suchte 1332 ebenso militärischen Rückhalt bei den Ländern, wie die Bürger der Reichsstadt Zürich 1351",
+      "supports": "Lucerne (1332) and Zurich (1351) join the alliance"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/026413/",
+      "title": "HLS: Eidgenossenschaft",
+      "quote": "Durch die gewaltsam entstandenen Bündnisse mit Zug (1352, 1365) und Glarus (1352, 1393)",
+      "supports": "Glarus and Zug join in 1352"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007383/",
+      "title": "HLS: Bern (Kanton)",
+      "quote": "Seit 1353 Ort der Eidgenossenschaft",
+      "supports": "Bern joins in 1353 (table of the alliances)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008871/",
+      "title": "HLS: Sempacherkrieg",
+      "quote": "Glarus befreite sich dank des Siegs in der Schlacht bei Näfels am 9. April 1388 von der österreichischen Herrschaft.",
+      "supports": "In 1388 Glarus wins at Näfels; Habsburg loses Glarus"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008871/",
+      "title": "HLS: Sempacherkrieg",
+      "quote": "Luzern konnte die eroberten Territorien behalten und diese ab 1389 zu einer dauerhaften Herrschaft ausbauen.",
+      "supports": "Habsburg loses Lucerne and its land"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007388/",
+      "title": "HLS: Schaffhausen (Kanton)",
+      "quote": "verpfändete Schaffhausen 1330 an die österreichischen Herzöge",
+      "supports": "Layer: Schaffhausen pledged to Habsburg from 1330"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007393/",
+      "title": "HLS: Thurgau",
+      "quote": "Der habsburgische Thurgau (1264-1460)",
+      "supports": "Habsburg keeps the Thurgau"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007392/",
+      "title": "HLS: Aargau",
+      "quote": "Die latenten Spannungen zwischen dem deutschen König Sigismund und Friedrich IV. von Habsburg",
+      "supports": "Habsburg keeps the Aargau until 1415"
+     }
     ]
    },
    {
@@ -2603,8 +7072,8 @@ window.MAP_STORIES = [
     "title": "The Aargau is lost",
     "text": [
      "In 1415 Duke Frederick IV of Austria helps Pope John XXIII flee from the Council of Constance. King Sigismund puts the duke under the ban of the Empire and asks his neighbours to take his lands.",
-     "The Confederates conquer the Aargau in a few weeks. Bern, Lucerne and Zurich each take a part. Baden and the Free Offices become common lordships (land ruled jointly by several cantons). The old Habsburg castle is now Swiss.",
-     "Habsburg keeps the Fricktal, the Thurgau, Rapperswil and Fribourg."
+     "The Confederates conquer the Aargau in about a month. Bern, Lucerne and Zurich each take a part. Baden and the Free Offices become common lordships (land ruled jointly by several cantons). The old Habsburg castle is now Swiss.",
+     "Habsburg keeps the Fricktal, the Thurgau and Fribourg. Rapperswil becomes a free imperial town in 1415, but is Habsburg again from 1442 to 1458."
     ],
     "view": "ch",
     "layers": [
@@ -2657,7 +7126,7 @@ window.MAP_STORIES = [
      {
       "name": "Habsburg",
       "kind": "habsburg",
-      "label": "Habsburg still: Thurgau, Rapperswil, Fribourg, Gaster",
+      "label": "Habsburg still: Thurgau, Fribourg, Gaster; Rapperswil (free 1415–1442)",
       "sel": {
        "cantons": [
         "TG"
@@ -2745,6 +7214,110 @@ window.MAP_STORIES = [
       "year": 1415,
       "note": "Council of Constance"
      }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/019506/",
+      "title": "HLS: Habsburg, von",
+      "quote": "nach dem Verlust des Aargaus durch Friedrich IV. 1415",
+      "supports": "Frederick IV loses the Aargau in 1415."
+     },
+     {
+      "url": "https://www.deutsche-biographie.de/sfz69835.html",
+      "title": "ADB: Friedrich IV., Herzog von Österreich",
+      "quote": "flüchtet der Papst als Reitknecht vermummt aus der Concilstadt",
+      "supports": "The pope flees from the Council of Constance (with Frederick's help)."
+     },
+     {
+      "url": "https://www.deutsche-biographie.de/sfz69835.html",
+      "title": "ADB: Friedrich IV., Herzog von Österreich",
+      "quote": "bald erscheinen die Eidgenossen, vom Könige aufgemahnt, um sich ihre Beute im Aargau zu holen",
+      "supports": "The king calls on the Confederates, who take the Aargau."
+     },
+     {
+      "url": "https://www.ag.ch/de/themen/kultur-sport/kultur/museum-aargau/schloss-habsburg/geschichte",
+      "title": "Museum Aargau: Schloss Habsburg, Geschichte",
+      "quote": "ging kampflos an Bern",
+      "supports": "1415: Habsburg castle passes to Bern without a fight (place label 'Taken by Bern')."
+     },
+     {
+      "url": "https://www.ag.ch/staatsarchiv/suche/detail.aspx?ID=1477",
+      "title": "Staatsarchiv Aargau: Kloster Muri",
+      "quote": "bis 1415 blieb es eine Kastvogtei der Grafen von Habsburg",
+      "supports": "Habsburg loses its rights over Muri in 1415."
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007392/",
+      "title": "HLS: Aargau",
+      "quote": "König Sigismund setzte den Herzog in die Acht und forderte alle Nachbarn auf, dessen Besitzungen im Namen des Reichs zu besetzen.",
+      "supports": "Sigismund puts the duke under the ban of the Empire and asks his neighbours to take his lands"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007392/",
+      "title": "HLS: Aargau",
+      "quote": "Damit war der Feldzug innert Monatsfrist abgeschlossen.",
+      "supports": "The conquest takes about a month (corrects \"a few weeks\")"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007392/",
+      "title": "HLS: Aargau",
+      "quote": "Seine Truppen nahmen innert zweier Wochen die Städte Aarburg, Aarau, Zofingen, Lenzburg und Brugg",
+      "supports": "Bern takes its part of the Aargau"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007392/",
+      "title": "HLS: Aargau",
+      "quote": "Die Luzerner eroberten die Stadt Sursee und die Ämter Meienberg und Richensee",
+      "supports": "Lucerne takes its part"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007392/",
+      "title": "HLS: Aargau",
+      "quote": "Durch einen Waffenstillstandsvertrag gingen Bremgarten und der Rest des Freiamts an die Eidgenossen über",
+      "supports": "The Free Offices go to the Confederates"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007392/",
+      "title": "HLS: Aargau",
+      "quote": "Am 18. Dezember 1415 nahm Zürich die fünf Orte Luzern, Schwyz, Unterwalden, Zug und Glarus in diese Pfandschaft",
+      "supports": "Baden becomes a lordship shared by several cantons (Zurich takes part)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007392/",
+      "title": "HLS: Aargau",
+      "quote": "Die Stadt ergab sich schliesslich am 3. Mai, die Festung Stein am 18. Mai",
+      "supports": "Place: Stein castle at Baden taken"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007388/",
+      "title": "HLS: Schaffhausen (Kanton)",
+      "quote": "erlangte die Stadt Schaffhausen 1415 wiederum die Reichsfreiheit.",
+      "supports": "Layer: Schaffhausen an imperial town again from 1415"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007379/",
+      "title": "HLS: Freiburg (Kanton)",
+      "quote": "Während der langen Zeit der habsburgischen Stadtherrschaft (1277-1452)",
+      "supports": "Habsburg keeps Fribourg after 1415"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007393/",
+      "title": "HLS: Thurgau",
+      "quote": "Der habsburgische Thurgau (1264-1460)",
+      "supports": "Habsburg keeps the Thurgau"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/001371/",
+      "title": "HLS: Rapperswil (SG)",
+      "quote": "1415 erfolgte die Erhebung zur freien Reichsstadt durch König Sigismund. 1442-1458 erneut unter habsburgischer Landesherrschaft",
+      "supports": "Rapperswil is a free imperial town from 1415, Habsburg again 1442–1458 (corrects \"Habsburg keeps Rapperswil\")"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007644/",
+      "title": "HLS: Gaster",
+      "quote": "dann unterstand es bis 1438 den Habsburgern.",
+      "supports": "Layer: the Gaster stays Habsburg until 1438"
+     }
     ]
    },
    {
@@ -2752,8 +7325,8 @@ window.MAP_STORIES = [
     "tick": "1460",
     "title": "The Thurgau is lost",
     "text": [
-     "Duke Sigismund of Tyrol quarrels with the pope, who puts him under the ban of the church. In 1460 the Confederates use this and take the Thurgau. It becomes a common lordship of seven cantons.",
-     "Fribourg leaves Habsburg in 1452, Rapperswil in 1458, and Winterthur is pledged to Zurich in 1467. South of the Rhine, only the Fricktal stays with Austria."
+     "Duke Sigismund of Tyrol quarrels with Nicholas of Cusa, the bishop of Brixen. In 1460 the pope puts Sigismund under the ban of the church. The Confederates use this and take the Thurgau. It becomes a common lordship of seven cantons.",
+     "Fribourg leaves Habsburg in 1452, and Rapperswil in 1458–1460. Winterthur goes to Zurich in 1467. South of the Rhine, only the Fricktal stays with Austria."
     ],
     "view": "ch",
     "layers": [
@@ -2869,6 +7442,56 @@ window.MAP_STORIES = [
       "year": 1460,
       "note": "Taken after a siege"
      }
+    ],
+    "sources": [
+     {
+      "url": "https://www.deutsche-biographie.de/sfz22660.html",
+      "title": "NDB: Sigmund, Erzherzog von Österreich, Graf von Tirol",
+      "quote": "und S. am 8.8.1460 den Kirchenbann einbrachten.",
+      "supports": "The quarrel with Cusanus brings Sigismund the ban of the church in 1460."
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/019506/",
+      "title": "HLS: Habsburg, von",
+      "quote": "Sigismund musste nach dem Verlust des Thurgaus 1460",
+      "supports": "Sigismund loses the Thurgau in 1460."
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/019506/",
+      "title": "HLS: Habsburg, von",
+      "quote": "Ihr Territorialbesitz in der Schweiz beschränkte sich in der Neuzeit auf das zu Vorderösterreich gehörende Fricktal",
+      "supports": "Only the Fricktal (with Tarasp and Rhäzüns in the Grisons) stays Austrian in today's Switzerland."
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007393/",
+      "title": "HLS: Thurgau",
+      "quote": "1460-1798 gemeine Herrschaft der sieben bzw. acht alten Orte Zürich, Luzern, Uri, Schwyz, Unterwalden, Zug, Glarus",
+      "supports": "The Thurgau becomes a common lordship of seven cantons in 1460"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007379/",
+      "title": "HLS: Freiburg (Kanton)",
+      "quote": "1452 sagte sich Freiburg von Österreich los und unterwarf sich Savoyen",
+      "supports": "Fribourg leaves Habsburg in 1452"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/001371/",
+      "title": "HLS: Rapperswil (SG)",
+      "quote": "1458 marschierten eidgenössische Truppen in die Stadt ein. 1460 sagte sich Rapperswil von Österreich los",
+      "supports": "Rapperswil leaves Habsburg in 1458–1460 (corrects \"in 1458\")"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007381/",
+      "title": "HLS: Zürich (Kanton)",
+      "quote": "Habsburg (1460 Eroberung des Thurgaus, 1467 Kauf von Winterthur)",
+      "supports": "Winterthur goes to Zurich in 1467 (HLS says bought, not pledged)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/001891/",
+      "title": "HLS: Diessenhofen",
+      "quote": "1460 wurde Diessenhofen im Zuge der Eroberung des Thurgaus von den Eidgenossen nach zehntägiger Belagerung eingenommen",
+      "supports": "Place: Diessenhofen taken after a siege in 1460"
+     }
     ]
    },
    {
@@ -2877,11 +7500,11 @@ window.MAP_STORIES = [
     "title": "Peace: the Ewige Richtung",
     "text": [
      "In 1469 Sigismund pledges his lands in Alsace and on the Upper Rhine to Charles the Bold, Duke of Burgundy. Soon Charles becomes a danger to both Austria and the Swiss.",
-     "In 1474 Sigismund and the Confederates make the Ewige Richtung (perpetual settlement) at Constance. Austria accepts that the Aargau and Thurgau belong to the Swiss. Old enemies become partners against Burgundy."
+     "In 1474 Sigismund and the Confederates make the Ewige Richtung (perpetual settlement) at Constance. Each side keeps the land it holds, so the Aargau and Thurgau stay Swiss. Old enemies become partners against Burgundy."
     ],
     "view": [
      [
-      46.0,
+      46,
       5.5
      ],
      [
@@ -2982,6 +7605,47 @@ window.MAP_STORIES = [
       "year": 1477,
       "note": "Charles the Bold killed"
      }
+    ],
+    "sources": [
+     {
+      "url": "https://www.deutsche-biographie.de/pnd118719882.html",
+      "title": "ADB: Peter von Hagenbach",
+      "quote": "Im Mai 1469 hatte Karl zu St. Omer den bekannten Vertrag mit Herzog Sigmund von Oesterreich abgeschlossen",
+      "supports": "1469 treaty of Saint-Omer between Charles the Bold and Sigismund (the pledge of Upper Alsace, Pfirt, Breisach and the Forest Towns)."
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/019506/",
+      "title": "HLS: Habsburg, von",
+      "quote": "schliesslich 1474 in der Ewigen Richtung einen Friedensschluss mit den Eidgenossen eingehen",
+      "supports": "1474: Sigismund makes peace with the Confederates in the Ewige Richtung."
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008886/",
+      "title": "HLS: Ewige Richtung",
+      "quote": "Herzog Sigismund von Tirol und die Eidgenossen beschlossen am 30. März 1474 in Konstanz, die jahrzehntelangen Auseinandersetzungen zu beenden.",
+      "supports": "In 1474 Sigismund and the Confederates make the Ewige Richtung at Constance"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008886/",
+      "title": "HLS: Ewige Richtung",
+      "quote": "Der Besitzstand an Ländern und Herrschaften wurde beiden Parteien garantiert.",
+      "supports": "Each side keeps its land (so the Aargau and Thurgau stay Swiss)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008886/",
+      "title": "HLS: Ewige Richtung",
+      "quote": "Die Ewige Richtung bildete einen Wendepunkt in den Beziehungen zwischen der Eidgenossenschaft und dem Hause Habsburg",
+      "supports": "Old enemies become partners"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008881/",
+      "title": "HLS: Burgunderkriege",
+      "quote": "Unbekannte erschlugen ihn nach der Schlacht bei Nancy (5. Januar 1477)",
+      "supports": "Place: Charles the Bold is killed at Nancy in 1477"
+     }
+    ],
+    "uncertain": [
+     "Map: Upper Alsace goes back to Austria in 1474."
     ]
    },
    {
@@ -2989,13 +7653,13 @@ window.MAP_STORIES = [
     "tick": "1499",
     "title": "The Swabian War",
     "text": [
-     "King Maximilian I wants the Swiss to accept new imperial taxes and courts. The Swiss refuse. In 1499 war breaks out between the Confederates with the Grisons on one side, and Maximilian with the Swabian League (an alliance of south German lords and towns) on the other.",
-     "The Swiss win at Calven and at Dornach. In the Peace of Basel (September 1499) the borders do not change. But after 1499 the Empire's courts and taxes no longer reach the Swiss in practice.",
+     "King Maximilian I wants the Empire to have a common tax and a new imperial court. The Swiss do not accept them, and there are border quarrels. In 1499 war breaks out between the Confederates with the Grisons on one side, and Maximilian with the Swabian League (an alliance of south German lords and towns) on the other.",
+     "The Swiss win at Calven and at Dornach. In the Peace of Basel (22 September 1499) the Swiss gain only the Thurgau high court. But after 1499 the Empire's courts and taxes no longer reach the Swiss in practice.",
      "In 1511 Austria and the Swiss sign a hereditary union (Erbeinung). They promise to respect each other's land."
     ],
     "view": [
      [
-      46.0,
+      46,
       5.5
      ],
      [
@@ -3127,6 +7791,86 @@ window.MAP_STORIES = [
       "year": 1499,
       "note": "Peace of Basel"
      }
+    ],
+    "sources": [
+     {
+      "url": "https://www.deutsche-biographie.de/pnd118579371.html",
+      "title": "NDB: Maximilian I.",
+      "quote": "nicht zuletzt wegen der Unnachgiebigkeit Bertholds und des Kammergerichts zum Schweizer Krieg (1499).",
+      "supports": "War of 1499; the imperial court (Kammergericht) is one cause, besides border quarrels."
+     },
+     {
+      "url": "https://www.deutsche-biographie.de/pnd118579371.html",
+      "title": "NDB: Maximilian I.",
+      "quote": "Die Serie von Niederlagen des Königs und des Reiches im Schweizer Krieg",
+      "supports": "The Swiss win the battles of the war."
+     },
+     {
+      "url": "https://www.deutsche-biographie.de/pnd118579371.html",
+      "title": "NDB: Maximilian I.",
+      "quote": "im Baseler Frieden (22.9.1499) die Eidgenossen aus der Reichsgemeinschaft praktisch entlassen.",
+      "supports": "Peace of Basel, September 1499; in practice the Swiss leave the Empire's institutions."
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/019506/",
+      "title": "HLS: Habsburg, von",
+      "quote": "Grundlage war die Erbeinung von 1511",
+      "supports": "Erbeinung of 1511 between Habsburg-Austria and the Swiss."
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007391/",
+      "title": "HLS: Graubünden",
+      "quote": "nahmen eidgenössische und bündnerische Truppen in der Schlacht an der Calven am 22. Mai 1499 eine Talsperre und besiegten ein tirolisches Heer.",
+      "supports": "The Swiss and the Grisons win at Calven in 1499"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007391/",
+      "title": "HLS: Graubünden",
+      "quote": "bis sie die Herrschaft 1497 König Maximilian von Österreich abtraten.",
+      "supports": "Layer: Rhäzüns Austrian since 1497"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/017158/",
+      "title": "HLS: Grauer Bund",
+      "quote": "1497 Bündnis mit der Eidgenossenschaft",
+      "supports": "The Grisons (Grey League) are allies of the Swiss"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008888/",
+      "title": "HLS: Schwabenkrieg",
+      "quote": "der zehnörtigen Eidgenossenschaft und ihrer Zugewandten mit dem Haus Habsburg-Österreich und dem Schwäbischen Bund als dessen massgeblichen Verbündeten im Jahr 1499.",
+      "supports": "In 1499 war between the Confederates and their allies and Habsburg-Austria with the Swabian League"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008888/",
+      "title": "HLS: Schwabenkrieg",
+      "quote": "Auf die Nachricht von der Niederlage in der Schlacht bei Dornach (22. Juli) stoppte Maximilian seine Kriegsbemühungen",
+      "supports": "The Swiss win at Dornach"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008888/",
+      "title": "HLS: Schwabenkrieg",
+      "quote": "am 25. August Waffenstillstand und am 22. September Frieden geschlossen",
+      "supports": "Peace of Basel, 22 September 1499"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008888/",
+      "title": "HLS: Schwabenkrieg",
+      "quote": "Deren einziger territorialer Gewinn war das Thurgauer Landgericht",
+      "supports": "In the peace the Swiss gain only the Thurgau high court (corrects \"the borders do not change\")"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008886/",
+      "title": "HLS: Ewige Richtung (section Erbeinungen)",
+      "quote": "Die Verträge enthielten eine Nichtangriffsklausel und implizit auch eine Garantie des territorialen Status quo",
+      "supports": "In 1511 Austria and the Swiss sign a hereditary union and promise to respect each other's land"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008886/",
+      "title": "HLS: Ewige Richtung (section Erbeinungen)",
+      "quote": "Erst am 7. Februar 1511 wurde die zweite Erbeinung zwischen Maximilian einerseits",
+      "supports": "The hereditary union of 1511"
+     }
     ]
    },
    {
@@ -3205,7 +7949,7 @@ window.MAP_STORIES = [
       "lat": 47.2692,
       "lon": 11.4041,
       "kind": "town",
-      "note": "Maximilian's favourite seat"
+      "note": "Centre of Maximilian's government"
      },
      {
       "name": "Brussels",
@@ -3214,6 +7958,47 @@ window.MAP_STORIES = [
       "kind": "town",
       "note": "Centre of the Netherlands"
      }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/019506/",
+      "title": "HLS: Habsburg, von",
+      "quote": "Durch die seit 1462 betriebene und 1477 geschlossene Heirat",
+      "supports": "The Burgundian marriage of 1477 makes Habsburg a great power."
+     },
+     {
+      "url": "https://www.deutsche-biographie.de/pnd118579371.html",
+      "title": "NDB: Maximilian I.",
+      "quote": "heiratete er Maria von Burgund, wodurch die Habsburger zu führender Stellung im Reich und in Europa aufstiegen.",
+      "supports": "Maximilian marries Mary of Burgundy; growth by marriage."
+     },
+     {
+      "url": "https://www.deutsche-biographie.de/pnd118579371.html",
+      "title": "NDB: Maximilian I.",
+      "quote": "Die Kinder Philipp und Margarethe sicherten die Erbfolge der habsburg. Dynastie in den Niederlanden.",
+      "supports": "Habsburg gets the Netherlands."
+     },
+     {
+      "url": "https://www.deutsche-biographie.de/pnd118579371.html",
+      "title": "NDB: Maximilian I.",
+      "quote": "gab M. die Freigfsch. Burgund, ein wertvolles Grenzland des Reiches, wieder zurück.",
+      "supports": "Later (Peace of Senlis 1493) Habsburg gets the Franche-Comté."
+     },
+     {
+      "url": "https://www.deutsche-biographie.de/pnd118579371.html",
+      "title": "NDB: Maximilian I.",
+      "quote": "zur sofortigen Abtretung Tirols und der Vorlande (16.3.1490).",
+      "supports": "From 1490 Maximilian rules Tyrol."
+     },
+     {
+      "url": "https://www.deutsche-biographie.de/pnd118579371.html",
+      "title": "NDB: Maximilian I.",
+      "quote": "Innsbruck wurde Hauptstadt der Regierung und Verwaltung, Standplatz der Rüstungswerkstätten und eines großen Zeughauses.",
+      "supports": "Place label for Innsbruck (seat of Maximilian's government)."
+     }
+    ],
+    "uncertain": [
+     "Map: Artois is part of the Burgundian inheritance."
     ]
    },
    {
@@ -3221,7 +8006,7 @@ window.MAP_STORIES = [
     "tick": "1550",
     "title": "An empire around Switzerland",
     "text": [
-     "Maximilian's grandson Charles V becomes king of Spain in 1516 and emperor in 1519. With Spain come Naples, Sicily, Sardinia and lands in America. In 1535 he also takes the Duchy of Milan. In 1526 his brother Ferdinand becomes king of Bohemia and Hungary.",
+     "Maximilian's grandson Charles V becomes king of Spain in 1516 and emperor in 1519. With Spain come Naples, Sicily, Sardinia and lands in America. In 1535 he also takes the Duchy of Milan. In 1526 his brother Ferdinand becomes king of Bohemia and Hungary, but the Ottomans soon hold most of Hungary.",
      "About 1550 Habsburg land lies north, east and south of the Swiss. In 1556 the family splits into a Spanish line and an Austrian line. The family that began at a small castle in the Aargau is now one of the great powers of Europe."
     ],
     "view": "europe",
@@ -3355,6 +8140,65 @@ window.MAP_STORIES = [
       "year": 1535,
       "note": "Habsburg from 1535"
      }
+    ],
+    "sources": [
+     {
+      "url": "https://www.deutsche-biographie.de/sfz27117.html",
+      "title": "NDB: Habsburg (Dynastie)",
+      "quote": "Maximilians Enkel Karl V. († 1558) trat zuerst nach seinem spanischen Großvater Ferndinand das spanische Erbe an",
+      "supports": "Charles V, Maximilian's grandson, inherits Spain."
+     },
+     {
+      "url": "https://www.deutsche-biographie.de/sfz57292.html",
+      "title": "NDB: Karl V.",
+      "quote": "Mit dem Tod Ferdinands des Katholischen (1516) wurde die Nachfolge K. in Kastilien und Aragon aktuell.",
+      "supports": "Charles becomes king of Spain in 1516."
+     },
+     {
+      "url": "https://www.deutsche-biographie.de/sfz57292.html",
+      "title": "NDB: Karl V.",
+      "quote": "Als seine Nachfolge in Spanien und Neapel-Sizilien feststand",
+      "supports": "With Spain come Naples and Sicily."
+     },
+     {
+      "url": "https://www.deutsche-biographie.de/sfz57292.html",
+      "title": "NDB: Karl V.",
+      "quote": "Die Entscheidung zugunsten Habsburgs in der Kaiserwahl von 1519 zog einen Dauerkonflikt mit Frankreich nach sich.",
+      "supports": "Charles elected emperor in 1519."
+     },
+     {
+      "url": "https://www.deutsche-biographie.de/sfz57292.html",
+      "title": "NDB: Karl V.",
+      "quote": "Der Tod des Herzogs von Mailand, Francesco Sforza (1.11.1535), veränderte die Situation in Italien schlagartig",
+      "supports": "1535: the duke of Milan dies and Charles takes Milan."
+     },
+     {
+      "url": "https://www.deutsche-biographie.de/sfz27117.html",
+      "title": "NDB: Habsburg (Dynastie)",
+      "quote": "obwohl Ferdinand I. nach der Schlacht von Mohács (1526) die böhmische und die ungarische Krone gewinnen konnte",
+      "supports": "1526: Ferdinand becomes king of Bohemia and Hungary."
+     },
+     {
+      "url": "https://www.deutsche-biographie.de/pnd118532502.html",
+      "title": "NDB: Ferdinand I.",
+      "quote": "während der größte Teil Ungarns nach Mohács von den 1529 bis vor Wien vorstoßenden Türken besetzt wurde",
+      "supports": "Most of Hungary is held by the Ottomans (layer: only part of Hungary)."
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/019506/",
+      "title": "HLS: Habsburg, von",
+      "quote": "vor allem nach der habsburgischen Hausteilung von 1556",
+      "supports": "1556: the family splits."
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/019506/",
+      "title": "HLS: Habsburg, von",
+      "quote": "das Fricktal und Tarasp 1803, Rhäzüns 1819 als Folge des Wiener Kongresses",
+      "supports": "Layer: Fricktal Austrian until 1802/1803."
+     }
+    ],
+    "uncertain": [
+     "With Spain come Sardinia and lands in America."
     ]
    }
   ],
@@ -3376,9 +8220,9 @@ window.MAP_STORIES = [
     "tick": "about 1050",
     "title": "Counts of the Alpine passes",
     "text": [
-     "The house of Savoy begins in the early 1000s with Count Humbert. His lands lie south-west of Lake Geneva, around Bugey and the Isère valley.",
-     "His son Odo marries Adelaide of Turin. This brings the Susa valley and Piedmont. Now Savoy holds both sides of the passes, for example Mont-Cenis and the Great St Bernard. Tolls and travellers on these roads bring money and power.",
-     "In the 1000s the counts also gain influence in the Chablais, around the old abbey of Saint-Maurice."
+     "The house of Savoy begins in the early 1000s with Count Humbert. His family lands lie mostly in the Bugey and the Grésivaudan (the Isère valley).",
+     "His son Odo marries Adelaide, daughter of the margrave of Turin. This brings the Susa valley and Piedmont. Now Savoy holds both sides of the passes, for example Mont-Cenis and the Great St Bernard. Tolls and travellers on these roads bring money and power.",
+     "Early on the family also gains the Chablais, the land around the old abbey of Saint-Maurice."
     ],
     "view": [
      [
@@ -3387,7 +8231,7 @@ window.MAP_STORIES = [
      ],
      [
       47.2,
-      9.0
+      9
      ]
     ],
     "layers": [
@@ -3445,6 +8289,42 @@ window.MAP_STORIES = [
       "lon": 7.0486,
       "kind": "town"
      }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/006641/",
+      "title": "HLS: Savoyen",
+      "quote": "Das Geschlecht und die Herrschaft der Savoyer wurde zu Beginn des 11. Jahrhunderts von Graf Humbert begründet.",
+      "supports": "Savoy begins in the early 1000s with Count Humbert."
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/006641/",
+      "title": "HLS: Savoyen",
+      "quote": "Das Territorium der Grafschaft entstand rund um die Ländereien der Familie, die vorwiegend im Bugey und im Grésivaudan lagen.",
+      "supports": "Humbert's lands lie in the Bugey and the Grésivaudan (Isère valley)."
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/006641/",
+      "title": "HLS: Savoyen",
+      "quote": "Die Heirat eines weiteren Sohns, Odon, mit Adelheid, der Tochter des Markgrafen von Turin, brachte ihm das Susatal sowie das Piemont ein,",
+      "supports": "Odo marries Adelaide of Turin; this brings the Susa valley and Piedmont."
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/006641/",
+      "title": "HLS: Savoyen",
+      "quote": "wodurch sich das Haus Savoyen am südlichen Alpenhang festsetzte und sich die Herrschaft über die Alpenpässe (Mont-Cenis, Grosser St. Bernhard) sicherte.",
+      "supports": "Savoy holds both sides of the passes, Mont-Cenis and Great St Bernard."
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/006641/",
+      "title": "HLS: Savoyen",
+      "quote": "Die Dynastie erwarb das Chablais und im 12. Jahrhundert die Tarentaise.",
+      "supports": "The family gains the Chablais (no exact date given; before the Tarentaise in the 1100s)."
+     }
+    ],
+    "uncertain": [
+     "Tolls and travellers on the pass roads bring money and power.",
+     "Savoy gains influence in the Chablais in the 1000s."
     ]
    },
    {
@@ -3452,9 +8332,9 @@ window.MAP_STORIES = [
     "tick": "1260",
     "title": "Peter II and the Vaud",
     "text": [
-     "Peter of Savoy (about 1203–1268) is a younger son. He gets little land at home, so he builds his own power north of Lake Geneva. Between 1240 and 1260 he forces many nobles of the Vaud to hold their land from him as a fief (land held in return for loyalty).",
-     "He beats the count of Geneva and pushes back the bishop of Lausanne. In 1260 the bishop of Sion lets him have the Valais down to the Morge stream near Conthey. Bern and Murten seek his protection in the 1250s.",
-     "Peter becomes count of Savoy in 1263. People later call him the 'little Charlemagne'."
+     "Peter of Savoy (about 1203–1268) is the seventh son of Count Thomas I. At first he is meant for a career in the Church. Later he builds his own power north of Lake Geneva. Between 1240 and 1260 he forces many nobles of the Vaud to hold their land from him as a fief (land held in return for loyalty).",
+     "He beats the count of Geneva and pushes back the bishop of Lausanne. In 1260 a treaty with the bishop of Sion gives him the land down to the Morge stream near Conthey. Bern and Murten seek his protection in the 1250s.",
+     "Peter becomes count of Savoy in 1263. A chronicle of 1419 calls him the 'little Charlemagne'."
     ],
     "view": "ch",
     "layers": [
@@ -3623,6 +8503,84 @@ window.MAP_STORIES = [
       "kind": "town",
       "note": "Under Savoy protection for some years"
      }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/017867/",
+      "title": "HLS: Savoyen, Peter II. von",
+      "quote": "Als siebter Sohn war Peter II. von Savoyen anfänglich für die Kirchenlaufbahn vorgesehen",
+      "supports": "Peter is a younger (seventh) son, first meant for the Church."
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/017867/",
+      "title": "HLS: Savoyen, Peter II. von",
+      "quote": "um 1203 vermutlich Susa (Piemont), 14./15.5.1268 Pierre-Châtel (Bugey)",
+      "supports": "Life dates about 1203–1268."
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/017867/",
+      "title": "HLS: Savoyen, Peter II. von",
+      "quote": "wodurch er zwischen 1240 und 1260 zahlreiche Waadtländer Adlige unterwarf und ihnen ihre Herrschaften als Lehen wieder ausgab.",
+      "supports": "1240–1260 he makes many Vaud nobles hold their land from him as fiefs."
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/017867/",
+      "title": "HLS: Savoyen, Peter II. von",
+      "quote": "Er besiegte den Grafen von Genf, drängte den Einfluss des Bischofs von Lausanne zurück",
+      "supports": "He beats the count of Geneva and pushes back the bishop of Lausanne."
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/006641/",
+      "title": "HLS: Savoyen",
+      "quote": "Bereits 1260 hatte er mit dem Vertrag von Conthey das gesamte Territorium bis zur Morge bei Conthey erhalten.",
+      "supports": "1260: land down to the Morge near Conthey; Conthey border place note."
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/017867/",
+      "title": "HLS: Savoyen, Peter II. von",
+      "quote": "verstärkte sie besonders im Chablais (1260 Vertrag mit dem Bischof von Sitten) und in der Waadt.",
+      "supports": "The 1260 treaty was with the bishop of Sion."
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/017867/",
+      "title": "HLS: Savoyen, Peter II. von",
+      "quote": "Gesandte der Stadt Bern werden im Mai 1255 am savoyischen Hof empfangen.",
+      "supports": "Contacts between Bern and Savoy in the 1250s (image caption; supports Bern's link only in part)."
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/017867/",
+      "title": "HLS: Savoyen, Peter II. von",
+      "quote": "1263 wurde Peter II. nach dem Tod seines Neffen Bonifazius Graf von Savoyen.",
+      "supports": "Peter becomes count in 1263."
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/017867/",
+      "title": "HLS: Savoyen, Peter II. von",
+      "quote": "In der Savoyer Chronik von 1419 wurde ihm der Beiname Kleiner Karl der Grosse verliehen.",
+      "supports": "The name 'little Charlemagne' (from a chronicle of 1419)."
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/006641/",
+      "title": "HLS: Savoyen",
+      "quote": "Ab der Mitte des 12. Jahrhunderts kontrollierten die Savoyer von ihrem Sitz Chillon aus den Handel über den Haut-Lac",
+      "supports": "Chillon as a Savoy castle on the lake (place note)."
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007379/",
+      "title": "HLS: Freiburg (Kanton)",
+      "quote": "Während der langen Zeit der habsburgischen Stadtherrschaft (1277-1452)",
+      "supports": "Layer: Fribourg Habsburg from 1277"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/019520/2024-02-20/",
+      "title": "HLS: Kyburg, von",
+      "quote": "gelangten die Kyburger zu den linksrheinischen Besitzungen im Burgund mit den Städten Freiburg, Thun und Burgdorf, im Aargau und im heutigen Kanton Zürich",
+      "supports": "Layer: Fribourg under Kyburg before 1277"
+     }
+    ],
+    "uncertain": [
+     "Bern and Murten seek Peter's protection in the 1250s (a source confirms only Bern's envoys at the Savoy court in 1255).",
+     "Moudon is the Savoy centre in the Vaud; Peter II builds the castle of Yverdon."
     ]
    },
    {
@@ -3630,8 +8588,8 @@ window.MAP_STORIES = [
     "tick": "1416",
     "title": "The Duchy of Savoy",
     "text": [
-     "From 1285 to 1359 a side line of the family rules the Vaud as a barony. In 1359 Count Amadeus VI takes it back.",
-     "Savoy keeps growing. It gets Nice and access to the sea in 1388 and the Genevois (the land around Geneva) in 1401–1402. In 1416 the emperor makes Amadeus VIII a duke. The city of Geneva itself stays under its bishop.",
+     "From 1285 a side line of the family holds the Vaud. In 1359 Count Amadeus VI takes it back.",
+     "Savoy keeps growing. It gets Nice and access to the sea in 1388 and the Genevois (the land around Geneva) in 1401. In 1416 the emperor makes Amadeus VIII a duke. The city of Geneva itself stays under its bishop.",
      "The duchy now reaches from the Swiss plateau to the Mediterranean."
     ],
     "view": [
@@ -3641,7 +8599,7 @@ window.MAP_STORIES = [
      ],
      [
       47.3,
-      9.0
+      9
      ]
     ],
     "layers": [
@@ -3756,7 +8714,7 @@ window.MAP_STORIES = [
      {
       "name": "Duchy of Savoy",
       "kind": "savoy",
-      "label": "Duchy of Savoy: Savoy, Bresse and Bugey, Aosta, Piedmont, Nice (borders rough)",
+      "label": "Duchy of Savoy: Savoy, Bresse and Bugey, Aosta, Nice; Piedmont (side line until 1418) (borders rough)",
       "sel": {},
       "regions": [
        "FRA-5341",
@@ -3800,6 +8758,56 @@ window.MAP_STORIES = [
       "lon": 6.1486,
       "kind": "town"
      }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/006641/",
+      "title": "HLS: Savoyen",
+      "quote": "Er gab jedoch dem Druck der jüngeren Zweige nach und trat ihnen das Waadtland und das Piemont als Apanage ab.",
+      "supports": "From the time of Amadeus V (1285–1323) a younger branch holds the Vaud."
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/006641/",
+      "title": "HLS: Savoyen",
+      "quote": "Zudem integrierte er 1359 das Waadtland wieder in den gräflichen Herrschaftsbereich.",
+      "supports": "In 1359 Amadeus VI takes the Vaud back."
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/006641/",
+      "title": "HLS: Savoyen",
+      "quote": "Unter Amadeus VII. (1383-1391) erhielt das Haus Savoyen 1388 durch die Angliederung Nizzas einen Zugang zum Mittelmeer.",
+      "supports": "Nice and access to the sea in 1388."
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/006641/",
+      "title": "HLS: Savoyen",
+      "quote": "Amadeus VIII. (1391-1439) erwarb 1401 das Genevois und holte 1418 das Piemont zurück.",
+      "supports": "Genevois in 1401; Piedmont only back in the main line in 1418."
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/006641/",
+      "title": "HLS: Savoyen",
+      "quote": "1416 erhob der Kaiser Savoyen zum Herzogtum.",
+      "supports": "1416: the emperor makes Savoy a duchy."
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/006641/",
+      "title": "HLS: Savoyen",
+      "quote": "einen Rat mit festem Sitz in Chambéry (Conseil résident)",
+      "supports": "Chambéry as the seat of government (place note)."
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/011399/",
+      "title": "HLS: Genf (Diözese, Fürstbistum)",
+      "quote": "Im Vertrag von Seyssel von 1124 wurde Humbert von Grammont als alleiniger Herr der ganzen Stadt Genf anerkannt, zum Nachteil des Grafen von Genf.",
+      "supports": "The city of Geneva stays under its bishop"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007379/",
+      "title": "HLS: Freiburg (Kanton)",
+      "quote": "Während der langen Zeit der habsburgischen Stadtherrschaft (1277-1452)",
+      "supports": "Layer: Fribourg a Habsburg town until 1452"
+     }
     ]
    },
    {
@@ -3807,7 +8815,7 @@ window.MAP_STORIES = [
     "tick": "1476",
     "title": "Losses in the Burgundian Wars",
     "text": [
-     "In 1475 Duchess Yolande of Savoy sides with Charles the Bold of Burgundy. Bern and the Valais attack Savoy land. The Swiss beat Charles at Grandson and Murten in 1476.",
+     "In 1475 Yolande, regent of Savoy, sides with Charles the Bold of Burgundy. Bern and the Valais attack Savoy land. The Swiss beat Charles at Grandson and Murten in 1476.",
      "In the Treaty of Fribourg (1476) Bern gets Aigle. The Valais gets the Lower Valais down to Massongex. Bern and Fribourg together take Murten, Grandson, Orbe and Echallens as shared lordships (1476 and 1484).",
      "Savoy keeps most of the Vaud, but it is weaker now."
     ],
@@ -4005,6 +9013,59 @@ window.MAP_STORIES = [
       "kind": "place",
       "note": "New border in the Valais"
      }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/006641/",
+      "title": "HLS: Savoyen",
+      "quote": "Während der Burgunderkriege stellte sich die Regentin Jolanda 1475 auf die Seite Karls des Kühnen.",
+      "supports": "1475: Yolande (regent) sides with Charles the Bold."
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/006641/",
+      "title": "HLS: Savoyen",
+      "quote": "Darauf besetzten die Berner das Waadtland und die Walliser das savoyische Wallis.",
+      "supports": "Bern and the Valais attack Savoy land."
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/006641/",
+      "title": "HLS: Savoyen",
+      "quote": "1476 musste Jolanda im Vertrag von Freiburg das Gouvernement Aigle an Bern und das Unterwallis bis Massongex an die Zenden abtreten.",
+      "supports": "Treaty of Fribourg 1476: Aigle to Bern, Lower Valais to Massongex to the Zenden."
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008881/",
+      "title": "HLS: Burgunderkriege",
+      "quote": "Karl der Kühne wurde zuerst nach der Belagerung von Grandson in der Schlacht bei Grandson (2. März 1476) in die Flucht geschlagen",
+      "supports": "The Swiss beat Charles at Grandson in 1476"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008881/",
+      "title": "HLS: Burgunderkriege",
+      "quote": "sein Söldnerheer wurde in der Schlacht bei Murten (22. Juni 1476) aufgerieben.",
+      "supports": "The Swiss beat Charles at Murten in 1476"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008881/",
+      "title": "HLS: Burgunderkriege",
+      "quote": "Bern und Freiburg behielten einzig Murten, Echallens, Grandson und Orbe (ehemalige Lehen der von Chalon) als gemeine Herrschaften",
+      "supports": "Bern and Fribourg share Murten, Grandson, Orbe and Echallens"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008881/",
+      "title": "HLS: Burgunderkriege",
+      "quote": "Das Unterwallis stand fortan unter der Herrschaft des Bischofs von Sitten und der sieben Oberwalliser Zenden.",
+      "supports": "The Valais gets the Lower Valais"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007379/",
+      "title": "HLS: Freiburg (Kanton)",
+      "quote": "Ab 1481 Ort",
+      "supports": "Layer: Fribourg a Swiss member from 1481"
+     }
+    ],
+    "uncertain": [
+     "The shared lordships date from 1476 and 1484."
     ]
    },
    {
@@ -4012,8 +9073,8 @@ window.MAP_STORIES = [
     "tick": "1536",
     "title": "Bern takes the Vaud",
     "text": [
-     "Geneva wants to be free from the duke and the bishop. Bern helps the city. In 1536 Bern conquers the Vaud, the Pays de Gex and land south of Lake Geneva. Fribourg takes Romont and other places. The Valais takes the Chablais east of the Dranse river.",
-     "At the same time France occupies Savoy and most of Piedmont. In spring 1536 the duke holds only Nice, Vercelli and Aosta. Geneva becomes an independent city."
+     "For a long time the dukes want to rule Geneva. Bern helps the city. In 1536 Bern conquers the Vaud, the Pays de Gex and the Genevois south of Lake Geneva. Fribourg takes Romont and other places. The Valais takes the Chablais east of the Dranse river.",
+     "At the same time France occupies Savoy and Piedmont. In spring 1536 the duke holds only Nice, Vercelli and Aosta. Geneva is now free from the duke and the bishop."
     ],
     "view": [
      [
@@ -4022,7 +9083,7 @@ window.MAP_STORIES = [
      ],
      [
       47.6,
-      9.0
+      9
      ]
     ],
     "layers": [
@@ -4171,6 +9232,74 @@ window.MAP_STORIES = [
       "kind": "town",
       "note": "Still Savoy"
      }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/006641/",
+      "title": "HLS: Savoyen",
+      "quote": "Jahrhundertelang verfolgte Savoyen den Plan, Genf unter seine Herrschaft zu bringen (Löffelbund).",
+      "supports": "The dukes want to rule Geneva."
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/006641/",
+      "title": "HLS: Savoyen",
+      "quote": "Die Belagerung Genfs im Oktober 1530 führte zur Intervention Berns und Freiburgs.",
+      "supports": "Bern helps Geneva."
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/006641/",
+      "title": "HLS: Savoyen",
+      "quote": "Als Karl II. 1536 versuchte, Genf einzunehmen, reagierte Bern mit einem erneuten Einmarsch ins Waadtland sowie ins Pays de Gex und das Genevois.",
+      "supports": "1536: Bern conquers the Vaud, the Pays de Gex and the Genevois."
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/006641/",
+      "title": "HLS: Savoyen",
+      "quote": "Die Walliser taten es ihnen gleich und eroberten im Chablais bis zum östlichen Ufer der Dranse alle übrigen Besitzungen Savoyens.",
+      "supports": "The Valais takes the Chablais east of the Dranse."
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/006641/",
+      "title": "HLS: Savoyen",
+      "quote": "Freiburg, das befürchtete, seine Eroberungen von 1536 ebenfalls zurückgeben zu müssen,",
+      "supports": "Fribourg also conquers land in 1536."
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/006641/",
+      "title": "HLS: Savoyen",
+      "quote": "nachdem der Herzog formell auf Romont verzichtet hatte.",
+      "supports": "Romont is among Fribourg's gains."
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/006641/",
+      "title": "HLS: Savoyen",
+      "quote": "Als der französische König noch eine dritte Front eröffnete, verlor das Herzogtum auch Savoyen und das Piemont.",
+      "supports": "France occupies Savoy and Piedmont."
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/006641/",
+      "title": "HLS: Savoyen",
+      "quote": "Im Frühjahr 1536 bestand das Herzogtum nur noch aus Nizza, Vercelli und dem Aostatal.",
+      "supports": "Spring 1536: the duke holds only Nice, Vercelli and Aosta."
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/006641/",
+      "title": "HLS: Savoyen",
+      "quote": "Nachdem der Bischof von Genf 1535 verjagt worden war, wurde der Bischofssitz nach Annecy verlegt.",
+      "supports": "Geneva is free from its bishop (from 1535)."
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/006641/",
+      "title": "HLS: Savoyen",
+      "quote": "1567 auch die bernischen und 1569 die Walliser Vogteien.",
+      "supports": "Layer: land around Geneva held by Bern until 1567."
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008148/",
+      "title": "HLS: Greyerz (Grafschaft, Bezirk)",
+      "quote": "Die vom 12. Jahrhundert an bezeugte Grafschaft Greyerz wurde 1555 zwischen Bern und Freiburg aufgeteilt.",
+      "supports": "Layer: County of Gruyère until 1555"
+     }
     ]
    },
    {
@@ -4188,7 +9317,7 @@ window.MAP_STORIES = [
      ],
      [
       47.6,
-      9.0
+      9
      ]
     ],
     "layers": [
@@ -4296,6 +9425,42 @@ window.MAP_STORIES = [
       "year": 1569,
       "note": "Treaty with the Valais"
      }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/006641/",
+      "title": "HLS: Savoyen",
+      "quote": "Erst 1559, in den Verträgen von Cateau-Cambrésis, erreichte sein Sohn Emmanuel Philibert die Rückgabe der von Frankreich eroberten Provinzen.",
+      "supports": "1559: Emmanuel Philibert gets his lands back."
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/006641/",
+      "title": "HLS: Savoyen",
+      "quote": "1563 auch das Piemont zurückerlangte, bestimmte er Turin zur Hauptstadt.",
+      "supports": "1563: Turin becomes the capital."
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/006641/",
+      "title": "HLS: Savoyen",
+      "quote": "Durch den Lausanner Vertrag von 1564 und den Vertrag von Thonon von 1569 erhielt Emanuel Philibert das Südufer des Genfersees zurück,",
+      "supports": "Treaties of Lausanne 1564 and Thonon 1569; he gets the south shore back."
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/006641/",
+      "title": "HLS: Savoyen",
+      "quote": "Dafür trat er Bern das von diesem 1536 eroberte Waadtland und den Walliser Zenden das Vieux-Chablais ab.",
+      "supports": "The Vaud stays Bernese; the Valais keeps the old Chablais (Monthey area)."
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/006641/",
+      "title": "HLS: Savoyen",
+      "quote": "Der Krieg zwischen Karl Emmanuel und Frankreich wurde 1601 mit dem Vertrag von Lyon beendet. Der Herzog verlor das Pays de Gex",
+      "supports": "Layer: Gex Savoy until 1601."
+     }
+    ],
+    "uncertain": [
+     "These borders still hold today.",
+     "The duchy now looks south, to Italy."
     ]
    },
    {
@@ -4417,6 +9582,36 @@ window.MAP_STORIES = [
       "year": 1720,
       "note": "Sardinia to Savoy"
      }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/006641/",
+      "title": "HLS: Savoyen",
+      "quote": "Der Krieg zwischen Karl Emmanuel und Frankreich wurde 1601 mit dem Vertrag von Lyon beendet. Der Herzog verlor das Pays de Gex",
+      "supports": "1601: Savoy loses Gex to France."
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/006641/",
+      "title": "HLS: Savoyen",
+      "quote": "Als Savoyen 1601 das Bugey verlor, sahen die Spanier diese Verbindung bedroht.",
+      "supports": "1601: Savoy loses the Bugey."
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/006641/",
+      "title": "HLS: Savoyen",
+      "quote": "Im Frieden von Saint-Julien von 1603 anerkannte der Herzog schliesslich Genfs Unabhängigkeit.",
+      "supports": "1603: Savoy accepts Geneva's independence."
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/006641/",
+      "title": "HLS: Savoyen",
+      "quote": "Der Vertrag von Utrecht von 1713 sprach dem Herzog die Krone Siziliens zu, die er 1720 gegen das Königreich Sardinien eintauschte,",
+      "supports": "1713 Sicily; 1720 swapped for Sardinia."
+     }
+    ],
+    "uncertain": [
+     "Bresse also goes to France in 1601.",
+     "The attack on Geneva in 1602 fails."
     ]
    },
    {
@@ -4424,8 +9619,8 @@ window.MAP_STORIES = [
     "tick": "1860",
     "title": "Savoy becomes French",
     "text": [
-     "In 1815 and 1816 the treaties of Paris and Turin give Geneva several Savoy villages, for example Carouge. Now Geneva's land touches the rest of Switzerland.",
-     "In 1860 Savoy and Nice become French. In return, France helps the House of Savoy unite Italy. From 1861 the family rules the Kingdom of Italy, until 1946."
+     "In 1815 the Treaty of Paris gives Geneva the town of Carouge. In 1816 the Treaty of Turin gives Geneva more Savoy villages. Now Geneva's land south of the Rhône is one closed area.",
+     "In 1860 Savoy and Nice become French. This is France's reward for helping the king of Sardinia in the war to unite Italy. From 1861 the family rules the Kingdom of Italy, until 1946."
     ],
     "view": "europe",
     "layers": [
@@ -4454,7 +9649,7 @@ window.MAP_STORIES = [
      {
       "name": "Geneva",
       "kind": "confederates",
-      "label": "Geneva with the former Savoy villages (Swiss since 1815)",
+      "label": "Geneva with the former Savoy villages (to Geneva 1815/1816)",
       "sel": {
        "cantons": [
         "GE"
@@ -4470,7 +9665,7 @@ window.MAP_STORIES = [
       "lat": 46.1814,
       "lon": 6.1392,
       "kind": "town",
-      "year": 1816,
+      "year": 1815,
       "note": "To Geneva"
      },
      {
@@ -4489,6 +9684,42 @@ window.MAP_STORIES = [
       "year": 1861,
       "note": "First capital of Italy"
      }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/006641/",
+      "title": "HLS: Savoyen",
+      "quote": "Der Zweite Pariser Frieden vom 20. November 1815 teilte der Republik Genf die Stadt Carouge zu.",
+      "supports": "1815: Carouge to Geneva."
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/006641/",
+      "title": "HLS: Savoyen",
+      "quote": "Im Turiner Vertrag von 1816 wurden vierzehn savoyische Gemeinden ganz oder teilweise dem Kanton Genf angegliedert.",
+      "supports": "1816: more Savoy villages to Geneva."
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/006641/",
+      "title": "HLS: Savoyen",
+      "quote": "um auf der linken Rhoneseite die 1754 begonnene Verbindung zwischen der Stadt und ihren Exklaven durch die Schaffung eines geschlossenen Territoriums herzustellen",
+      "supports": "Geneva's land on the left bank becomes one closed area."
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/006641/",
+      "title": "HLS: Savoyen",
+      "quote": "Gemäss einer geheimen Vereinbarung sollte Napoleon III. für seine Hilfe im italienischen Einigungskrieg mit der Abtretung Savoyens und Nizzas belohnt werden.",
+      "supports": "Savoy and Nice go to France as a reward for its help in the Italian war."
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/006641/",
+      "title": "HLS: Savoyen",
+      "quote": "1860 wurde Savoyen ein Teil Frankreichs.",
+      "supports": "1860: Savoy becomes French (also Chambéry place note)."
+     }
+    ],
+    "uncertain": [
+     "From 1861 the House of Savoy rules the Kingdom of Italy, until 1946.",
+     "Turin is the first capital of Italy (1861)."
     ]
    }
   ],
@@ -4559,6 +9790,53 @@ window.MAP_STORIES = [
       "year": 1315,
       "note": "Pact of Brunnen, 9 December 1315"
      }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008726/",
+      "title": "HLS: Morgartenkrieg",
+      "quote": "der Marchenstreit zwischen dem Kloster Einsiedeln und den durch den Kirchenbann verbitterten Schwyzern um die Nutzung von Alp- und Waldgebieten",
+      "supports": "The long fight between Schwyz and the abbey of Einsiedeln over pasture land"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008726/",
+      "title": "HLS: Morgartenkrieg",
+      "quote": "dem schwyzerischen Überfall auf das unter österreichischer Schirmvogtei stehende Kloster",
+      "supports": "Habsburg (Austria) protected the abbey of Einsiedeln"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008726/",
+      "title": "HLS: Morgartenkrieg",
+      "quote": "zog am Morgen des 15. November 1315 durch das Ägerital gegen Sattel",
+      "supports": "In November 1315 Duke Leopold led an army towards Schwyz"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008726/",
+      "title": "HLS: Morgartenkrieg",
+      "quote": "die Schwyzer das anrückende Heer Leopolds im Raum Schornen am oberen Ende des Ägerisees (Hauptsee) überfielen",
+      "supports": "Men from Schwyz attacked and beat the army near the upper end of Lake Ägeri (place Morgarten/Schornen)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008726/",
+      "title": "HLS: Morgartenkrieg",
+      "quote": "nach kurzem, aber blutigem Nahkampf in die Flucht schlugen",
+      "supports": "The men of Schwyz beat the army"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008726/",
+      "title": "HLS: Morgartenkrieg",
+      "quote": "Am 9. Dezember 1315 kamen die Vertreter der drei Länder in Brunnen zusammen und besiegelten einen neuen Bund",
+      "supports": "Uri, Schwyz and Unterwalden made a new alliance at Brunnen on 9 December 1315 (place Brunnen)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008726/",
+      "title": "HLS: Morgartenkrieg",
+      "quote": "Der Bund von 1315 galt in der Chronistik und bis ins späte 19. Jahrhundert als das Gründungsdokument der Eidgenossenschaft",
+      "supports": "For centuries people saw the pact of 1315 as the start of the Confederation"
+     }
+    ],
+    "uncertain": [
+     "The attack took place on a narrow path."
     ]
    },
    {
@@ -4566,9 +9844,9 @@ window.MAP_STORIES = [
     "tick": "1339",
     "title": "Laupen: Bern against the nobles",
     "text": [
-     "Bern grew fast and took land from noble families. The nobles and the town of Fribourg joined forces and laid siege to the small town of Laupen, which belonged to Bern.",
-     "On 21 June 1339 Bern, helped by troops from the forest valleys (Uri, Schwyz, Unterwalden), beat the nobles' army on the Bramberg hill near Neuenegg.",
-     "The victory made Bern the strongest power in the western Swiss plateau. In 1353 Bern made a lasting alliance with the forest valleys."
+     "Bern grew fast and took land and people from the nobles. The nobles, the town of Fribourg and the bishops of Basel and Lausanne joined forces against Bern. Bern held the small town of Laupen, and from 10 June 1339 their army laid siege to it.",
+     "On 21 June 1339 Bern, helped by troops from Uri, Schwyz, Unterwalden and Solothurn, beat the nobles' army near Laupen.",
+     "The peace of 1340 made Bern the strongest power in the region. In 1353 Bern made a lasting alliance with the forest valleys."
     ],
     "view": "ch",
     "layers": [
@@ -4618,6 +9896,65 @@ window.MAP_STORIES = [
       "lon": 7.239,
       "kind": "town"
      }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008728/",
+      "title": "HLS: Laupenkrieg",
+      "quote": "Bern hatte sich diese Opposition durch bedeutende Territorialisierungserfolge, die Verburgrechtung sogenannter Ausburger, die Konkurrenz zur Stadt Freiburg",
+      "supports": "Bern grew and took land and people from the nobles; rivalry with Fribourg"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008728/",
+      "title": "HLS: Laupenkrieg",
+      "quote": "Zu den besagten Gegnern zählten neben Freiburg eine Vielzahl Adliger",
+      "supports": "The nobles and Fribourg joined forces against Bern (layer Fribourg and nobles)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008728/",
+      "title": "HLS: Laupenkrieg",
+      "quote": "sowie die Bischöfe von Basel und Lausanne",
+      "supports": "The bishops of Basel and Lausanne were also against Bern"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008728/",
+      "title": "HLS: Laupenkrieg",
+      "quote": "Bern besetzte Laupen, das ab dem 10. Juni belagert wurde.",
+      "supports": "Bern held Laupen, which was besieged from 10 June 1339 (place Laupen town)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008447/",
+      "title": "HLS: Laupen",
+      "quote": "da das Reich sein Pfand nie auslöste, blieb Laupen im faktischen Besitz Berns als dessen erste Landvogtei",
+      "supports": "Laupen belonged to Bern"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008728/",
+      "title": "HLS: Laupenkrieg",
+      "quote": "Am 21. Juni zog das von Rudolf von Erlach angeführte bernische Heer mit Urner, Schwyzer, Unterwaldner und Solothurner Verstärkung von Bern nach Laupen.",
+      "supports": "On 21 June 1339 Bern was helped by troops from Uri, Schwyz, Unterwalden and Solothurn (layer Bern and its helpers)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008728/",
+      "title": "HLS: Laupenkrieg",
+      "quote": "Mit gewissem Geländevorteil besiegten die Berner ihre Gegner und rieben deren Reiterei fast vollständig auf",
+      "supports": "Bern beat the nobles' army"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008728/",
+      "title": "HLS: Laupenkrieg",
+      "quote": "in Königsfelden den Frieden, der die Vorherrschaft Berns in der Region festigte",
+      "supports": "The peace of 1340 made Bern the strongest power in the region"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008728/",
+      "title": "HLS: Laupenkrieg",
+      "quote": "Die Bündnisleistungen, welche die Eidgenossen im Laupenkrieg erbrachten, ebneten den Weg Berns in den eidgenössischen Bund (1353).",
+      "supports": "In 1353 Bern made a lasting alliance with the forest valleys"
+     }
+    ],
+    "uncertain": [
+     "The battle took place on the Bramberg hill near Neuenegg (HLS names the place 'Wyden')."
     ]
    },
    {
@@ -4675,6 +10012,56 @@ window.MAP_STORIES = [
       "kind": "battle",
       "year": 1386,
       "note": "Confederates win; Duke Leopold III killed"
+     }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/026413/",
+      "title": "HLS: Eidgenossenschaft",
+      "quote": "Die alte Eidgenossenschaft bestand ab 1353 aus acht",
+      "supports": "By 1353 eight places were allied (layer Eight places)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/026413/",
+      "title": "HLS: Eidgenossenschaft",
+      "quote": "im Bund der Orte Uri, Schwyz, Unterwalden und Luzern mit Zürich",
+      "supports": "The eight places include Uri, Schwyz, Unterwalden, Lucerne and Zurich"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/026413/",
+      "title": "HLS: Eidgenossenschaft",
+      "quote": "Dieser Bund wurde zum Muster für die folgenden mit Zug und Glarus (1352) sowie mit Bern (1353).",
+      "supports": "Zug, Glarus and Bern joined by 1353"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008871/",
+      "title": "HLS: Sempacherkrieg",
+      "quote": "Im Januar 1386 nahm Luzern zuerst das Entlebuch und die Kleinstadt Sempach in sein Burgrecht auf, danach die Städtchen Meienberg, Richensee und Willisau.",
+      "supports": "Lucerne took Habsburg towns and land around it"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008871/",
+      "title": "HLS: Sempacherkrieg",
+      "quote": "wohl in der Absicht eines gegen Luzern und dessen Landschaft gerichteten Schädigungskriegs",
+      "supports": "Duke Leopold III marched against Lucerne"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008871/",
+      "title": "HLS: Sempacherkrieg",
+      "quote": "Am 9. Juli 1386 traf es oberhalb von Sempach unverhofft auf die von Zürich abgezogenen Truppen der Orte Luzern, Uri, Schwyz und Unterwalden",
+      "supports": "On 9 July 1386 the Confederates met his army near Sempach (place Sempach)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008871/",
+      "title": "HLS: Sempacherkrieg",
+      "quote": "Mit Herzog Leopold III. fiel eine grosse Zahl regionaler Adliger",
+      "supports": "The duke died in the battle, with many nobles"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008871/",
+      "title": "HLS: Sempacherkrieg",
+      "quote": "schwächte Habsburg-Österreich so sehr, dass es seine Herrschaftspositionen in den Gebieten südlich des Hochrheins langfristig nicht halten konnte",
+      "supports": "Habsburg lost its strength and, step by step, its land south of the Rhine"
      }
     ]
    },
@@ -4753,6 +10140,56 @@ window.MAP_STORIES = [
       "year": 1386,
       "note": "Confederates win"
      }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008873/",
+      "title": "HLS: Näfels, Schlacht bei",
+      "quote": "den österreichischen Überfall ( Mordnacht vom 21./22. Februar 1388) auf das von den Glarnern und Eidgenossen ab 1386 besetzte Städtchen Weesen",
+      "supports": "In February 1388 Habsburg troops took Weesen by surprise"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008873/",
+      "title": "HLS: Näfels, Schlacht bei",
+      "quote": "am 9. April 1388 der Hauptangriff gegen das als abtrünnig geltende Glarnerland",
+      "supports": "On 9 April 1388 a Habsburg army broke into the valley of Glarus (place Näfels)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008873/",
+      "title": "HLS: Näfels, Schlacht bei",
+      "quote": "Die etwa 400 Glarner, verstärkt durch einige Dutzend Schwyzer und Urner",
+      "supports": "About 400 men from Glarus with a few dozen from Schwyz and Uri"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008873/",
+      "title": "HLS: Näfels, Schlacht bei",
+      "quote": "griffen von hier aus, begünstigt durch Nebel und Schneetreiben, das plündernde Ritterheer an",
+      "supports": "They attacked the army while it plundered"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008873/",
+      "title": "HLS: Näfels, Schlacht bei",
+      "quote": "die beim Zusammenbruch der Brücke bei Weesen in grosser Zahl in der Maag ertranken",
+      "supports": "The army fled and the bridge at Weesen broke"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008871/",
+      "title": "HLS: Sempacherkrieg",
+      "quote": "Glarus befreite sich dank des Siegs in der Schlacht bei Näfels am 9. April 1388 von der österreichischen Herrschaft.",
+      "supports": "Glarus was now free of Habsburg rule (layer Glarus)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008873/",
+      "title": "HLS: Näfels, Schlacht bei",
+      "quote": "Daraus entwickelte sich die Näfelser Fahrt, die bis heute jedes Jahr in der Regel am ersten Donnerstag im April",
+      "supports": "People in Glarus still walk to the battle site each year (Näfelser Fahrt)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008871/",
+      "title": "HLS: Sempacherkrieg",
+      "quote": "Der Sieg der Eidgenossen in der Schlacht bei Sempach am 9. Juli 1386",
+      "supports": "Place Sempach: the Confederates won in 1386"
+     }
     ]
    },
    {
@@ -4760,8 +10197,8 @@ window.MAP_STORIES = [
     "tick": "1393",
     "title": "The Sempach Letter",
     "text": [
-     "In 1393 the eight places agreed on common rules for war, the 'Sempacherbrief' (Sempach Letter). For example, soldiers must not attack churches, and they must not run away from a battle.",
-     "In this letter Glarus is named for the first time as an equal partner. The letter was one of the few laws that all places shared."
+     "In 1393 the eight places and Solothurn agreed on common rules for war, the 'Sempacherbrief' (Sempach Letter). For example, soldiers must not attack churches, monasteries and women, they may plunder only after a victory, and deserters are judged.",
+     "The letter also forbade all violence among the Confederates. It was one of the first agreements that all eight places signed together."
     ],
     "view": "ch",
     "layers": [
@@ -4818,6 +10255,47 @@ window.MAP_STORIES = [
       "year": 1388,
       "note": "Glarus wins"
      }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/009804/",
+      "title": "HLS: Sempacherbrief",
+      "quote": "Abkommen zwischen Zürich, Luzern, Bern, Solothurn, Zug, Uri, Schwyz, Unterwalden und Glarus vom 10.7.1393.",
+      "supports": "In 1393 the eight places and Solothurn made the Sempach Letter (layer Eight places)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/009804/",
+      "title": "HLS: Sempacherbrief",
+      "quote": "Geplündert werden durfte erst nach erfochtenem Sieg, dabei sollten Kirchen, Klöster und Frauen geschont werden",
+      "supports": "Rules for war: plunder only after victory; spare churches, monasteries and women"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/009804/",
+      "title": "HLS: Sempacherbrief",
+      "quote": "Fahnenflüchtige und Marodeure wurden abgeurteilt.",
+      "supports": "Deserters are judged"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/009804/",
+      "title": "HLS: Sempacherbrief",
+      "quote": "Jegl. Gewalttat unter Eidgenossen wurde verboten.",
+      "supports": "The letter forbade all violence among the Confederates"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/026413/",
+      "title": "HLS: Eidgenossenschaft",
+      "quote": "wiewohl die acht Partner 1353 nicht durch einen, sondern durch sechs Bünde liiert waren",
+      "supports": "Before this, the eight places were joined by separate alliances, not one common treaty"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008873/",
+      "title": "HLS: Näfels, Schlacht bei",
+      "quote": "Von hier aus erfolgte am 9. April 1388 der Hauptangriff gegen das als abtrünnig geltende Glarnerland",
+      "supports": "Place Näfels: battle of 1388"
+     }
+    ],
+    "uncertain": [
+     "The Sempach Letter was one of the first agreements that all eight places signed together."
     ]
    },
    {
@@ -4897,6 +10375,38 @@ window.MAP_STORIES = [
       "year": 1403,
       "note": "Appenzell beats the abbot of St. Gallen"
      }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008874/",
+      "title": "HLS: Appenzeller Kriege (1401-1429)",
+      "quote": "Streitigkeiten um Fallrechte, Zinsen und Zehnten zwischen den Appenzellern und dem Abt von St. Gallen",
+      "supports": "The farmers of Appenzell had to pay dues to the abbot of St. Gallen (layer Abbey of St. Gallen)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008874/",
+      "title": "HLS: Appenzeller Kriege (1401-1429)",
+      "quote": "setzte Appenzell – anders als die Stadt St. Gallen – seinen Widerstand fort und trat 1403 in ein Landrecht mit Schwyz",
+      "supports": "Appenzell refused and made an alliance with Schwyz (layer Appenzell, ally of Schwyz)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008875/",
+      "title": "HLS: Vögelinsegg, Schlacht bei",
+      "quote": "am 15. Mai 1403 zwischen Speicher und St. Gallen die Schlacht bei Vögelinsegg statt",
+      "supports": "On 15 May 1403 near Speicher (place Vögelinsegg)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008875/",
+      "title": "HLS: Vögelinsegg, Schlacht bei",
+      "quote": "Die Appenzeller unter Schwyzer Hauptleuten fügten dem Abt von St. Gallen und den Bodenseestädten, darunter St. Gallen, eine schwere Niederlage zu.",
+      "supports": "Appenzell, led by captains from Schwyz, beat the abbot and the towns around Lake Constance"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008875/",
+      "title": "HLS: Vögelinsegg, Schlacht bei",
+      "quote": "In der Folge schloss sich die Stadt St. Gallen den Appenzellern an.",
+      "supports": "After this, the town of St. Gallen took the side of Appenzell"
+     }
     ]
    },
    {
@@ -4904,9 +10414,9 @@ window.MAP_STORIES = [
     "tick": "1405",
     "title": "Stoss: Habsburg is beaten again",
     "text": [
-     "The abbot asked Duke Frederick IV of Habsburg for help. On 17 June 1405 an Austrian army climbed towards Appenzell over the Stoss pass above Altstätten.",
-     "The men of Appenzell waited above the path. They threw stones and attacked with halberds, and the army fled. The story of the hero Uli Rotach comes from later times and is probably not true.",
-     "After the victory Appenzell and its friends founded the 'League above the Lake' (Bund ob dem See). It broke up in 1408. In 1411 Appenzell made a treaty of protection with the Confederates."
+     "Then Austria (Habsburg) joined the war. On 17 June 1405 an Austrian army of about 1,200 men climbed towards Appenzell over the Stoss pass above Altstätten.",
+     "About 400 men of Appenzell waited above the path. They threw stones and attacked with halberds, and the army fled. The story of the hero Uli Rotach comes from later legend.",
+     "After the victory Appenzell and the town of St. Gallen founded the 'League above the Lake' (Bund ob dem See). It broke up in 1408. In 1411 Appenzell made an alliance with the Confederates (without Bern)."
     ],
     "view": "ch",
     "layers": [
@@ -4985,6 +10495,68 @@ window.MAP_STORIES = [
       "year": 1403,
       "note": "Appenzell wins"
      }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008874/",
+      "title": "HLS: Appenzeller Kriege (1401-1429)",
+      "quote": "Nachdem die Stadt St. Gallen sich Appenzell wieder angenähert hatte, griff Österreich ein.",
+      "supports": "Austria (Habsburg) joined the war (layer Habsburg land)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008876/",
+      "title": "HLS: Stoss, Schlacht am",
+      "quote": "Am Stoss in der Gemeinde Gais AR standen sich am 17. Juni 1405 ein ins Land eindringendes österreichisches Heer und rund 400 Appenzeller gegenüber",
+      "supports": "On 17 June 1405 an Austrian army entered Appenzell at the Stoss; about 400 men of Appenzell (place Stoss)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008876/",
+      "title": "HLS: Stoss, Schlacht am",
+      "quote": "Letztere hatten sich beim Herannahen des gegnerischen Heers von der Belagerung von Altstätten über die unterhalb der Passhöhe gelegene Letzi zurückgezogen",
+      "supports": "The pass above Altstätten; the men of Appenzell waited above"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008876/",
+      "title": "HLS: Stoss, Schlacht am",
+      "quote": "Das rund 1200 Mann zählende österreichische Heer",
+      "supports": "The Austrian army had about 1,200 men"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008876/",
+      "title": "HLS: Stoss, Schlacht am",
+      "quote": "Die Österreicher wurden von einem Steinhagel und dem Angriff mit Hellebarden überrascht, ihr Heer aufgelöst und in die Flucht geschlagen.",
+      "supports": "They threw stones and attacked with halberds, and the army fled"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008876/",
+      "title": "HLS: Stoss, Schlacht am",
+      "quote": "An die Schlacht am Stoss knüpfen die sagenhaften Überlieferungen von Uli Rotach",
+      "supports": "Uli Rotach is a legend linked to the battle"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008874/",
+      "title": "HLS: Appenzeller Kriege (1401-1429)",
+      "quote": "Das kurz nach der Schlacht geschlossene Bündnis zwischen Appenzell und der Stadt St. Gallen wurde zur Keimzelle des Bundes ob dem See .",
+      "supports": "After the victory Appenzell and St. Gallen founded the League above the Lake"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008874/",
+      "title": "HLS: Appenzeller Kriege (1401-1429)",
+      "quote": "König Ruprecht löste den Bund durch den Konstanzer Schiedsspruch vom 4. April 1408 auf",
+      "supports": "The League broke up in 1408"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008874/",
+      "title": "HLS: Appenzeller Kriege (1401-1429)",
+      "quote": "das 1411 in ein Burg- und Landrecht mit den Eidgenossen (ohne Bern) trat",
+      "supports": "In 1411 Appenzell made an alliance with the Confederates, without Bern (layer Eight places)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008875/",
+      "title": "HLS: Vögelinsegg, Schlacht bei",
+      "quote": "am 15. Mai 1403 zwischen Speicher und St. Gallen die Schlacht bei Vögelinsegg statt",
+      "supports": "Place Vögelinsegg: Appenzell won in 1403"
+     }
     ]
    }
   ],
@@ -5010,7 +10582,7 @@ window.MAP_STORIES = [
     "title": "Old Zurich War: St. Jakob an der Sihl",
     "text": [
      "In 1436 the last Count of Toggenburg died without heirs. Zurich and Schwyz both wanted his land. The quarrel became a war between the Confederates.",
-     "Zurich made an alliance with Habsburg against the others. On 22 July 1443 the Confederates beat the Zurich troops at St. Jakob an der Sihl, just outside the town. The mayor of Zurich, Rudolf Stüssi, was killed."
+     "In 1442 Zurich made an alliance with the Habsburg king Frederick III. On 22 July 1443 the Confederates beat the Zurich troops at St. Jakob an der Sihl, just outside the town. The mayor of Zurich, Rudolf Stüssi, was killed."
     ],
     "view": "ch",
     "layers": [
@@ -5051,6 +10623,44 @@ window.MAP_STORIES = [
       "year": 1443,
       "note": "Confederates beat Zurich"
      }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/fr/articles/008877/",
+      "title": "HLS: Zurich, guerre de",
+      "quote": "La succession du comte Frédéric VII de Toggenbourg, mort sans héritier en 1436, fut la cause directe de la guerre.",
+      "supports": "In 1436 the last Count of Toggenburg died without heirs; this caused the war"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/fr/articles/008877/",
+      "title": "HLS: Zurich, guerre de",
+      "quote": "Zurich et Schwytz dont il était combourgeois, les Habsbourg, dont il détenait des gages",
+      "supports": "Zurich and Schwyz both claimed his land"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/fr/articles/008877/",
+      "title": "HLS: Zurich, guerre de",
+      "quote": "Les autres Confédérés (les Uranais et les Unterwaldiens à la dernière minute seulement) s'étaient rangés au côté de Schwytz.",
+      "supports": "The quarrel became a war between Zurich and the other Confederates (layer Confederates)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/fr/articles/008877/",
+      "title": "HLS: Zurich, guerre de",
+      "quote": "à conclure une alliance avec lui le 17 juin 1442",
+      "supports": "In 1442 Zurich made an alliance with Frederick III of Habsburg (layer Zurich, allied with Habsburg)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008878/",
+      "title": "HLS: St. Jakob an der Sihl, Schlacht bei",
+      "quote": "Am 22. Juli kam es zur Schlacht.",
+      "supports": "The battle took place on 22 July 1443 (place St. Jakob an der Sihl)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008878/",
+      "title": "HLS: St. Jakob an der Sihl, Schlacht bei",
+      "quote": "Die Zürcher zogen sich in die Stadt zurück. Sie verloren 300 Mann, unter ihnen Bürgermeister Rudolf Stüssi.",
+      "supports": "The Confederates beat the Zurich troops outside the town; mayor Rudolf Stüssi was killed"
+     }
     ]
    },
    {
@@ -5058,9 +10668,9 @@ window.MAP_STORIES = [
     "tick": "1444 Birs",
     "title": "St. Jakob an der Birs",
     "text": [
-     "Habsburg asked the King of France for help. He sent a large army of mercenaries, the 'Armagnacs', led by the Dauphin Louis.",
-     "On 26 August 1444 a small Confederate force attacked them near Basel. After a long fight almost all the Confederates were killed. HLS gives about 1,200 Confederate dead and about 2,000 Armagnac dead.",
-     "But the French army did not march on. In October 1444 the Dauphin made peace at Ensisheim. In 1450 Zurich left the alliance with Habsburg and returned to the Confederates."
+     "The Habsburg king Frederick III called in the 'Armagnacs', a large army of French mercenaries led by the Dauphin Louis (later King Louis XI).",
+     "On 26 August 1444 a Confederate force of about 1,500 men attacked them near Basel. After a long fight almost all the Confederates were killed. HLS gives about 1,200 Confederate dead and about 2,000 Armagnac dead.",
+     "But the French army did not march on. On 28 October 1444 the Dauphin made peace at Ensisheim. In 1450 the war ended, and Zurich had to leave its alliance with Habsburg."
     ],
     "view": "ch",
     "layers": [
@@ -5118,6 +10728,50 @@ window.MAP_STORIES = [
       "year": 1443,
       "note": "Confederates win"
      }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008879/",
+      "title": "HLS: St. Jakob an der Birs, Schlacht bei",
+      "quote": "Von Kg. Friedrich III. herbeigerufen, aber ohne förml. Bündnisvertrag, rückte im Sommer 1444 das franz. Söldnerheer der im Hundertjährigen Krieg auftragslos gewordenen Armagnaken",
+      "supports": "King Frederick III called in the Armagnacs, a French mercenary army (layer France and Armagnacs)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008879/",
+      "title": "HLS: St. Jakob an der Birs, Schlacht bei",
+      "quote": "unter der Führung des Dauphins (später Kg. Ludwig XI.) ins Elsass ein und legte sich vor Basel",
+      "supports": "The army was led by the Dauphin Louis and came near Basel"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008879/",
+      "title": "HLS: St. Jakob an der Birs, Schlacht bei",
+      "quote": "Eine eidg. Schar von ca. 1'500 Mann, die gerade die Farnsburg belagerte, zog ihnen in der Frühe des 26. August ohne Auftrag entgegen.",
+      "supports": "On 26 August 1444 about 1,500 Confederates attacked them (place St. Jakob an der Birs)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008879/",
+      "title": "HLS: St. Jakob an der Birs, Schlacht bei",
+      "quote": "Auf der Seite der Armagnaken fielen ca. 2'000, auf eidg. Seite 1'200 Mann.",
+      "supports": "About 1,200 Confederate dead and about 2,000 Armagnac dead"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008879/",
+      "title": "HLS: St. Jakob an der Birs, Schlacht bei",
+      "quote": "Der Dauphin schloss in Ensisheim am 28.10.1444 mit Basel und den Eidgenossen Frieden.",
+      "supports": "Peace at Ensisheim on 28 October 1444"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/fr/articles/008877/",
+      "title": "HLS: Zurich, guerre de",
+      "quote": "un accord de paix définitif en 1450. Zurich rentra en possession de son territoire à l'exception des Höfe, mais dut rompre son alliance avec l'Autriche",
+      "supports": "In 1450 the war ended and Zurich had to leave the alliance with Habsburg (layer Zurich)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008878/",
+      "title": "HLS: St. Jakob an der Sihl, Schlacht bei",
+      "quote": "Die Zürcher zogen sich in die Stadt zurück.",
+      "supports": "Place St. Jakob an der Sihl: Confederates won in 1443"
+     }
     ]
    },
    {
@@ -5125,8 +10779,8 @@ window.MAP_STORIES = [
     "tick": "1474",
     "title": "Charles the Bold of Burgundy",
     "text": [
-     "Duke Charles the Bold of Burgundy ruled a rich state from the Netherlands to the Jura. He wanted to join his lands into one kingdom. In 1469 Habsburg gave him land in Alsace as a pledge.",
-     "Bern and the King of France, Louis XI, feared him. In 1474 the Confederates and Austria made peace, and the Confederates declared war on Burgundy. The fighting started at Héricourt, west of Basel."
+     "Duke Charles the Bold of Burgundy ruled lands in Burgundy and in the Netherlands. He wanted to join these two parts into one state. In 1469 Habsburg gave him its land in Alsace as a pledge.",
+     "Now Burgundy was a direct neighbour of the Confederates. Bern feared that Charles could close its trade roads, and King Louis XI of France was his enemy. In 1474 the Confederates and Austria made peace, and the Confederates declared war on Burgundy. On 13 November 1474 they and their allies won at Héricourt, west of Basel."
     ],
     "view": [
      [
@@ -5200,6 +10854,56 @@ window.MAP_STORIES = [
       "year": 1474,
       "note": "Confederates and allies win"
      }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007281/",
+      "title": "HLS: Burgund (Herzogtum)",
+      "quote": "Seine beiden Schwerpunkte waren das feudal geprägte Alt-Burgund und die eher städtisch-bürgerlich bestimmten Niederlande",
+      "supports": "Burgundy had two parts: Burgundy and the Netherlands (layer Duchy of Burgundy)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007281/",
+      "title": "HLS: Burgund (Herzogtum)",
+      "quote": "war es das Ziel der expansiven Politik Karls des Kühnen, die beiden Territorialkomplexe zu vereinigen",
+      "supports": "Charles wanted to join his two groups of lands"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008881/",
+      "title": "HLS: Burgunderkriege",
+      "quote": "erhielt als Gegenleistung die vorderösterreichischen Besitzungen ( Vorderösterreich ) im Elsass als Pfand (Vertrag von Saint-Omer, 9. Mai 1469)",
+      "supports": "In 1469 Habsburg gave Charles land in Alsace as a pledge"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008881/",
+      "title": "HLS: Burgunderkriege",
+      "quote": "Zugleich fürchtete Bern, dass der neue Nachbar Burgund die Handelsstrassen durch das schweizerische Mittelland zu den Genfer Messen sperren könnte.",
+      "supports": "Burgundy became a neighbour; Bern feared for its trade roads"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008881/",
+      "title": "HLS: Burgunderkriege",
+      "quote": "Der mit Burgund verfeindete Ludwig XI.",
+      "supports": "King Louis XI of France was an enemy of Burgundy (layer France)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008881/",
+      "title": "HLS: Burgunderkriege",
+      "quote": "einen Vertragsentwurf, der die langjährigen Feindseligkeiten zwischen Habsburg und den Eidgenossen beendigen sollte",
+      "supports": "In 1474 the Confederates and Austria made peace"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008882/",
+      "title": "HLS: Héricourt, Schlacht von",
+      "quote": "Die Eidgenossen und ihre Verbündeten (Niedere Vereinigung, österr. Städte des Elsass, schwäb. Reichsstädte) brachen unmittelbar nach der Kriegserklärung an Karl den Kühnen",
+      "supports": "The Confederates and allies declared war on Charles (layer Confederates and allies)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008881/",
+      "title": "HLS: Burgunderkriege",
+      "quote": "seinen Abschluss am 13. November 1474 mit einem Sieg über die Burgunder in der Schlacht von Héricourt fand",
+      "supports": "Victory at Héricourt on 13 November 1474 (place Héricourt)"
+     }
     ]
    },
    {
@@ -5208,7 +10912,7 @@ window.MAP_STORIES = [
     "title": "Grandson: the duke flees",
     "text": [
      "In February 1476 Charles took the town and castle of Grandson. He had the Bernese garrison hanged or drowned in the lake.",
-     "On 2 March 1476 the Confederate army met his army near Concise. The Burgundian troops panicked and ran away. The Confederates took his camp with a huge booty: tents, cannons, gold and tapestries."
+     "On 2 March 1476 the Confederate army met his army near Concise. The Burgundian troops panicked and ran away. The Confederates plundered his camp and took a rich booty."
     ],
     "view": "ch",
     "layers": [
@@ -5273,6 +10977,50 @@ window.MAP_STORIES = [
       "year": 1476,
       "note": "Confederates win; Charles flees"
      }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008883/",
+      "title": "HLS: Grandson, Schlacht bei",
+      "quote": "nahm zuerst Yverdon, dann die Stadt G. (21.2.) und das Schloss (am 28.2.) ein",
+      "supports": "In February 1476 Charles took the town and castle of Grandson (place Grandson)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008883/",
+      "title": "HLS: Grandson, Schlacht bei",
+      "quote": "Die Berner Garnison liess er erhängen oder im See ertränken.",
+      "supports": "He had the Bernese garrison hanged or drowned"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008883/",
+      "title": "HLS: Grandson, Schlacht bei",
+      "quote": "Am 2. März verlegte Karl rund 20'000 Mann von G. in die Nähe von Concise in ein ungünstiges Gelände.",
+      "supports": "On 2 March 1476 the armies met near Concise"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008883/",
+      "title": "HLS: Grandson, Schlacht bei",
+      "quote": "Unter den Burgundern kam Panik auf und sie flohen.",
+      "supports": "The Burgundian troops panicked and ran away"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008883/",
+      "title": "HLS: Grandson, Schlacht bei",
+      "quote": "plünderten das Lager des Hzg. von Burgund und machten reiche Beute",
+      "supports": "The Confederates plundered his camp and took a rich booty"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008881/",
+      "title": "HLS: Burgunderkriege",
+      "quote": "das Waadtland ziehen, das zum grössten Teil dem mit Burgund verbündeten Savoyen gehörte",
+      "supports": "Layer Savoy: Savoy was an ally of Burgundy"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008883/",
+      "title": "HLS: Grandson, Schlacht bei",
+      "quote": "Das Heer der Eidgenossen mit seinen 18'000 Mann aus Kontingenten der acht Orte und zahlreichen Verbündeten",
+      "supports": "Layer Confederates and allies"
+     }
     ]
    },
    {
@@ -5280,8 +11028,8 @@ window.MAP_STORIES = [
     "tick": "1476 Murten",
     "title": "Murten: the great victory",
     "text": [
-     "Charles came back with a new army. He laid siege to Murten. Soldiers from Bern and Fribourg held the town.",
-     "On 22 June 1476 the Confederates and their allies attacked his camp. Many Burgundian soldiers were driven into the lake. HLS gives 8,000 to 20,000 Burgundian dead, and a few hundred Confederate dead or wounded."
+     "Charles came back with a new army. He laid siege to Murten, and Bern called the Confederates to help.",
+     "On 22 June 1476 the Confederates and their allies attacked his camp by surprise. The Burgundian army panicked and was completely destroyed."
     ],
     "view": "ch",
     "layers": [
@@ -5354,6 +11102,42 @@ window.MAP_STORIES = [
       "year": 1476,
       "note": "Confederates win"
      }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008884/",
+      "title": "HLS: Murten, Schlacht bei",
+      "quote": "Als Revanche für die Niederlage in der Schlacht bei Grandson belagerte Karl M., worauf Bern die Eidgenossen erneut zur Verteidigung aufrief.",
+      "supports": "Charles came back and besieged Murten; Bern called the Confederates (place Murten)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008884/",
+      "title": "HLS: Murten, Schlacht bei",
+      "quote": "Am 22. Juni 1476 besiegten die Eidgenossen und ihre Bündnispartner Karl den Kühnen",
+      "supports": "On 22 June 1476 the Confederates and allies beat Charles (layer Confederates and allies)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008884/",
+      "title": "HLS: Murten, Schlacht bei",
+      "quote": "Das in Panik versetzte burgund. Heer wurde vollständig zerschlagen.",
+      "supports": "The Burgundian army panicked and was completely destroyed"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008884/",
+      "title": "HLS: Murten, Schlacht bei",
+      "quote": "Das - vielleicht in takt. Hinsicht unterlegene - burgund. Heer wurde durch den Angriff im Lager überrascht",
+      "supports": "They attacked his camp by surprise"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008883/",
+      "title": "HLS: Grandson, Schlacht bei",
+      "quote": "Unter den Burgundern kam Panik auf und sie flohen.",
+      "supports": "Place Grandson: Confederates won"
+     }
+    ],
+    "uncertain": [
+     "Soldiers from Bern and Fribourg held the town of Murten.",
+     "Many Burgundian soldiers were driven into the lake."
     ]
    },
    {
@@ -5361,8 +11145,8 @@ window.MAP_STORIES = [
     "tick": "1477",
     "title": "Nancy: the end of Charles",
     "text": [
-     "Charles now tried to take Lorraine. Duke René II of Lorraine hired more than 8,000 Confederate soldiers.",
-     "On 5 January 1477 René's army beat Charles near Nancy. Charles was killed after the battle. His lands were split: France took the Duchy of Burgundy, and Habsburg won the Netherlands by marriage.",
+     "René II of Lorraine took back Nancy, and Charles laid siege to it from October 1476. René hired more than 8,000 Confederate soldiers.",
+     "On 5 January 1477 René's army beat Charles near Nancy. Charles was killed after the battle. His lands were split: the King of France took the Duchy of Burgundy, and Habsburg got the largest part of his other lands.",
      "After these wars the princes of Europe wanted Swiss soldiers. Hiring out soldiers (mercenary service) became a big business for the Confederates."
     ],
     "view": [
@@ -5456,6 +11240,59 @@ window.MAP_STORIES = [
       "year": 1476,
       "note": "Confederates win"
      }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008885/",
+      "title": "HLS: Nancy, Schlacht bei",
+      "quote": "der Rückeroberung Ns. durch Hzg. René von Lothringen belagerte Karl der Kühne ab dem 22. Okt. 1476 mit 12'000 Mann N.",
+      "supports": "René took back Nancy; Charles besieged it from October 1476 (layer Lorraine)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008885/",
+      "title": "HLS: Nancy, Schlacht bei",
+      "quote": "René führte Anfang Jan. 1477 ein Entsatzheer von rund 20'000 Mann, zu dem auch über 8'000 eidg. Söldner zählten",
+      "supports": "René had more than 8,000 Confederate soldiers"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008881/",
+      "title": "HLS: Burgunderkriege",
+      "quote": "Unbekannte erschlugen ihn nach der Schlacht bei Nancy (5. Januar 1477)",
+      "supports": "On 5 January 1477 at Nancy; Charles was killed after the battle (place Nancy)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008885/",
+      "title": "HLS: Nancy, Schlacht bei",
+      "quote": "Nach kurzem Widerstand floh das Heer Karls.",
+      "supports": "René's army beat Charles"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007281/",
+      "title": "HLS: Burgund (Herzogtum)",
+      "quote": "gingen die bedeutendsten Besitzungen des Hauses Burgund-Valois an das Haus Habsburg über",
+      "supports": "France took the Duchy of Burgundy; Habsburg got the most important other lands"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007281/",
+      "title": "HLS: Burgund (Herzogtum)",
+      "quote": "Während der französische König Ludwig XI. das eigentliche Herzogtum Burgund als erledigtes Lehen in den Kronbesitz überführte",
+      "supports": "The King of France took the Duchy of Burgundy"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008881/",
+      "title": "HLS: Burgunderkriege",
+      "quote": "Die Siege von Grandson und Murten veranlassten die Fürsten Europas, die erfolgreichen Eidgenossen als Söldner für sich zu gewinnen",
+      "supports": "After these wars the princes of Europe wanted Swiss soldiers"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008884/",
+      "title": "HLS: Murten, Schlacht bei",
+      "quote": "Am 22. Juni 1476 besiegten die Eidgenossen und ihre Bündnispartner Karl den Kühnen",
+      "supports": "Place Murten"
+     }
+    ],
+    "uncertain": [
+     "Habsburg got the Netherlands through the marriage of Maximilian with Charles's daughter Mary."
     ]
    },
    {
@@ -5463,9 +11300,9 @@ window.MAP_STORIES = [
     "tick": "1478",
     "title": "Giornico: Uri in the south",
     "text": [
-     "Uri wanted the Leventina valley south of the Gotthard pass. Milan refused to give it up. In November 1478 the Confederates crossed the Gotthard.",
-     "On 28 December 1478 a small force stayed behind at Giornico. With a trick, it beat a much larger army from Milan. People there call it the 'battle of the big stones'.",
-     "Milan gave up the Leventina, and Uri ruled it. Bellinzona stayed with Milan for now."
+     "Uri had held the Leventina valley south of the Gotthard pass since about 1440. In 1466 Milan gave it to Uri for good, but later the Duke of Milan refused to hand it over. In November 1478 Uri, and then the other Confederates, crossed the Gotthard.",
+     "On 28 December 1478 a small force of about 175 men and 400 men from the Leventina stayed behind at Giornico. With a trick, it beat a much larger army from Milan. People in Ticino call it the 'battle of the big stones'.",
+     "Milan gave up the Leventina, and Uri ruled it again. Bellinzona stayed with Milan for now."
     ],
     "view": [
      [
@@ -5551,6 +11388,68 @@ window.MAP_STORIES = [
       "lon": 8.5617,
       "kind": "place"
      }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008893/",
+      "title": "HLS: Mailänderkriege",
+      "quote": "die Leventina, die seit 1439/1441 Uri unterstand",
+      "supports": "Uri had held the Leventina since about 1440 (layer Leventina, ruled by Uri)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/024649/",
+      "title": "HLS: Ennetbirgische Feldzüge",
+      "quote": "1441 wurde die Leventina an Uri verpfändet.",
+      "supports": "Uri held the Leventina from 1441"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/024649/",
+      "title": "HLS: Ennetbirgische Feldzüge",
+      "quote": "sprach Mailand 1466 das Livinental dauerhaft den Urnern zu",
+      "supports": "In 1466 Milan gave the Leventina to Uri for good"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008900/",
+      "title": "HLS: Giornico, Schlacht bei",
+      "quote": "die Weigerung des Hzg. Galeazzo Maria Sforza von Mailand, die 1466 den Urnern zugesprochene Leventina abzutreten",
+      "supports": "The Duke of Milan refused to hand it over (layer Milan)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008900/",
+      "title": "HLS: Giornico, Schlacht bei",
+      "quote": "zogen die Urner im Nov. 1478 über den Gotthard und rückten in die Leventina ein",
+      "supports": "In November 1478 Uri crossed the Gotthard (place Gotthard Pass)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008900/",
+      "title": "HLS: Giornico, Schlacht bei",
+      "quote": "denen sich inzwischen die anderen eidg. Orte angeschlossen hatten",
+      "supports": "The other Confederates joined (layer Confederates)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008900/",
+      "title": "HLS: Giornico, Schlacht bei",
+      "quote": "Lediglich ein 175 Mann starkes Ersatzheer, verstärkt durch ca. 400 Leventiner, war zurückgeblieben und hatte bei G. Stellung bezogen.",
+      "supports": "A small force of 175 men and about 400 Leventina men stayed at Giornico (place Giornico)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008900/",
+      "title": "HLS: Giornico, Schlacht bei",
+      "quote": "Durch eine List gelang es diesem am 28.12.1478, die Übermacht in die Flucht zu schlagen.",
+      "supports": "On 28 December 1478 it beat a much larger army with a trick"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008900/",
+      "title": "HLS: Giornico, Schlacht bei",
+      "quote": "Diese Schlacht ist im Tessin unter dem Namen battaglia dei Sassi grossi bekannt.",
+      "supports": "Battle of the big stones"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008900/",
+      "title": "HLS: Giornico, Schlacht bei",
+      "quote": "verzichtete Mailand auf die Leventina, die wieder unter Urner Herrschaft kam, während Bellinzona bei Mailand verblieb",
+      "supports": "Milan gave up the Leventina, Uri ruled it again; Bellinzona stayed with Milan"
+     }
     ]
    },
    {
@@ -5558,8 +11457,8 @@ window.MAP_STORIES = [
     "tick": "1499 Calven",
     "title": "Swabian War: Calven",
     "text": [
-     "Emperor Maximilian I wanted the Confederates to pay imperial taxes and obey the imperial court. They refused. In 1499 war broke out with Habsburg and the Swabian League, an alliance of south German princes and towns.",
-     "The Three Leagues of Graubünden were allies of the Confederates. On 22 May 1499 their army beat a Tyrolean army at the Calven gorge near Glurns. Their captain Benedikt Fontana was killed."
+     "King Maximilian I wanted the Confederates to pay a new imperial tax and to accept the new imperial court. They refused. In 1499 war broke out with Habsburg and the Swabian League, an alliance founded in 1488.",
+     "The Three Leagues of Graubünden were allies of the Confederates. On 22 May 1499 their army beat a Tyrolean army at the Calven, at the entrance of the Val Müstair. Their captain Benedikt Fontana was killed."
     ],
     "view": "ch",
     "layers": [
@@ -5629,6 +11528,62 @@ window.MAP_STORIES = [
       "year": 1499,
       "note": "Graubünden beats Tyrol"
      }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008892/",
+      "title": "HLS: Basel, Frieden von (1499)",
+      "quote": "nämlich die Verordnung des Gemeinen Pfennigs und die Einrichtung des Reichskammergerichts am Wormser Reichstag von 1495",
+      "supports": "The causes of the war: the new imperial tax and the imperial court of 1495"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008892/",
+      "title": "HLS: Basel, Frieden von (1499)",
+      "quote": "noch die Weigerung der Eidgenossen, diesen nachzukommen",
+      "supports": "The Confederates refused"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008888/",
+      "title": "HLS: Schwabenkrieg",
+      "quote": "mit dem Haus Habsburg-Österreich und dem Schwäbischen Bund als dessen massgeblichen Verbündeten im Jahr 1499",
+      "supports": "In 1499 war with Habsburg and the Swabian League (layers Habsburg, Swabian League)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008888/",
+      "title": "HLS: Schwabenkrieg",
+      "quote": "das Vorgehen des 1488 gegründeten Schwäbischen Bunds",
+      "supports": "The Swabian League was founded in 1488"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008888/",
+      "title": "HLS: Schwabenkrieg",
+      "quote": "auf Graubünden, Tirol und Vorarlberg",
+      "supports": "Layer Habsburg: Tyrol and Vorarlberg were a front of the war"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008889/",
+      "title": "HLS: Calven, Schlacht an der",
+      "quote": "in dem die Eidgenossen mit ihren Bündnispartnern des Grauen und des Gotteshausbunds gegen den Schwäb. Bund und Kg. Maximilian I. kämpften",
+      "supports": "The leagues of Graubünden were allies of the Confederates; King Maximilian I (layer Three Leagues)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008889/",
+      "title": "HLS: Calven, Schlacht an der",
+      "quote": "An der C., der engsten Stelle des Eingangs ins Münstertal",
+      "supports": "The Calven is at the entrance of the Val Müstair (place Calven)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008889/",
+      "title": "HLS: Calven, Schlacht an der",
+      "quote": "Hier schlugen die Bündner am 22.5. mittels eines Umgehungsmanövers das gegner. Heer vernichtend.",
+      "supports": "On 22 May 1499 the Graubünden army beat the Tyrolean army"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008889/",
+      "title": "HLS: Calven, Schlacht an der",
+      "quote": "Benedikt Fontana, Hauptmann der Gotteshausleute, verlor auf der Schanze sein Leben.",
+      "supports": "Their captain Benedikt Fontana was killed"
+     }
     ]
    },
    {
@@ -5637,7 +11592,7 @@ window.MAP_STORIES = [
     "title": "Dornach and the Peace of Basel",
     "text": [
      "On 22 July 1499 troops from Bern, Zurich, Lucerne, Zug and Solothurn attacked an imperial army at Dornach. They won, and the army's commander, Heinrich von Fürstenberg, was killed.",
-     "Maximilian had to make peace. The Peace of Basel (September 1499) ended the war. The Confederates did not leave the Empire on paper, but in practice imperial law no longer applied to them.",
+     "Maximilian had to make peace. The Peace of Basel (22 September 1499) ended the war. The Confederates stayed in the Empire, but in practice the new imperial court no longer had power over them.",
      "Basel and Schaffhausen joined the Confederation in 1501, and Appenzell in 1513."
     ],
     "view": "ch",
@@ -5724,6 +11679,68 @@ window.MAP_STORIES = [
       "year": 1499,
       "note": "Graubünden wins"
      }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008891/",
+      "title": "HLS: Dornach, Schlacht bei",
+      "quote": "Die Schlacht bei D. brachte am 22.7.1499 die endgültige Entscheidung im Schweizer- bzw. Schwabenkrieg .",
+      "supports": "Battle of Dornach on 22 July 1499 (place Dornach)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008891/",
+      "title": "HLS: Dornach, Schlacht bei",
+      "quote": "Ein Heer aus Berner, Zürcher, Luzerner, Zuger und Solothurner Truppen schlug in einem Überraschungsangriff das österr. Heer vernichtend.",
+      "supports": "Troops from Bern, Zurich, Lucerne, Zug and Solothurn won"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008891/",
+      "title": "HLS: Dornach, Schlacht bei",
+      "quote": "Heinrich von Fürstenberg fand dabei den Tod. Maximilian I. war gezwungen, mit den Eidgenossen noch im gleichen Jahr Frieden zu schliessen",
+      "supports": "Fürstenberg was killed; Maximilian had to make peace"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008892/",
+      "title": "HLS: Basel, Frieden von (1499)",
+      "quote": "wurde er am 22. September 1499",
+      "supports": "Peace of Basel, 22 September 1499 (place Basel)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008892/",
+      "title": "HLS: Basel, Frieden von (1499)",
+      "quote": "Das Reichskammergericht als oberste Gerichtsinstanz fiel damit ausser Betracht",
+      "supports": "In practice the imperial court no longer had power over them"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008892/",
+      "title": "HLS: Basel, Frieden von (1499)",
+      "quote": "Bis ins 17. Jahrhundert hielten die eidgenössischen Orte an ihrer Zugehörigkeit zum Reich fest",
+      "supports": "The Confederates stayed in the Empire"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/026413/",
+      "title": "HLS: Eidgenossenschaft",
+      "quote": "1501 UR SZ UW LU ZH GL ZG BE FR SO mit BS",
+      "supports": "Basel joined in 1501 (table of alliances)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/026413/",
+      "title": "HLS: Eidgenossenschaft",
+      "quote": "1501 UR SZ UW LU ZH GL ZG BE FR SO BS mit SH",
+      "supports": "Schaffhausen joined in 1501"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/026413/",
+      "title": "HLS: Eidgenossenschaft",
+      "quote": "1513 UR SZ UW LU ZH GL ZG BE FR SO BS SH mit AP",
+      "supports": "Appenzell joined in 1513"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008889/",
+      "title": "HLS: Calven, Schlacht an der",
+      "quote": "Hier schlugen die Bündner am 22.5. mittels eines Umgehungsmanövers das gegner. Heer vernichtend.",
+      "supports": "Place Calven: Graubünden won"
+     }
     ]
    }
   ],
@@ -5752,8 +11769,8 @@ window.MAP_STORIES = [
     "tick": "1500",
     "title": "Milan, France and Swiss soldiers",
     "text": [
-     "Around 1500 the Kings of France and the Dukes of Milan fought over Milan. Both sides hired Swiss soldiers.",
-     "In April 1500, at Novara, Swiss soldiers stood on both sides and refused to fight each other. Duke Ludovico Sforza fell into French hands. France ruled Milan.",
+     "Around 1500 the King of France and the Duke of Milan fought over Milan. Both sides hired Swiss soldiers.",
+     "In April 1500, at Novara, Swiss soldiers stood on both sides. The Swiss of Duke Ludovico Sforza refused to fight. The duke fell into French hands. France ruled Milan.",
      "In the same year Uri, Schwyz and Nidwalden took Bellinzona. France accepted this in 1503."
     ],
     "view": [
@@ -5858,6 +11875,50 @@ window.MAP_STORIES = [
       "year": 1500,
       "note": "Taken by Uri, Schwyz, Nidwalden"
      }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008894/",
+      "title": "HLS: Novara, Schlachten bei",
+      "quote": "versuchte der Mailänder Hzg. Ludovico Sforza mit einem Söldnerheer, in dem sich viele Tausend Schweizer befanden, die Lombardei zurückzugewinnen",
+      "supports": "The Duke of Milan hired Swiss soldiers to win back Milan"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008894/",
+      "title": "HLS: Novara, Schlachten bei",
+      "quote": "Das franz. Heer, in dem ebenfalls Tausende von Schweizern standen, schloss den Herzog in N. ein",
+      "supports": "The French also had Swiss soldiers; Swiss on both sides at Novara (place Novara)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008894/",
+      "title": "HLS: Novara, Schlachten bei",
+      "quote": "Sforzas Schweizern, die den Kampf verweigerten, gewährten die Franzosen nach der am 9. April ausgehandelten Kapitulation freien Abzug",
+      "supports": "In April 1500 Sforza's Swiss refused to fight"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008893/",
+      "title": "HLS: Mailänderkriege",
+      "quote": "Im September 1499 eroberte Frankreich Mailand und im April 1500 wurde Ludovico Sforza nach dem \"Verrat von Novara\" gefangengenommen.",
+      "supports": "France ruled Milan; Ludovico Sforza was captured in April 1500 (layer Milan under France)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/024649/",
+      "title": "HLS: Ennetbirgische Feldzüge",
+      "quote": "1495 das Bleniotal und die Riviera und übernahmen 1500 die Herrschaft in Bellinzona",
+      "supports": "In 1500 the Confederates took Bellinzona; Blenio and Riviera (layer Bellinzona and valleys; place Bellinzona)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/024649/",
+      "title": "HLS: Ennetbirgische Feldzüge",
+      "quote": "Der französische König Ludwig XII. musste im Frieden von Arona 1503 diese Gebiete den eidgenössischen Ständen Uri, Schwyz und Nidwalden zusprechen.",
+      "supports": "France accepted this in 1503; the lands went to Uri, Schwyz and Nidwalden"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/024649/",
+      "title": "HLS: Ennetbirgische Feldzüge",
+      "quote": "Veltlin, Chiavenna und Bormio lagen im Blickfeld Graubündens.",
+      "supports": "Layer Three Leagues of Graubünden: ally with its own aims in the south"
+     }
     ]
    },
    {
@@ -5865,7 +11926,7 @@ window.MAP_STORIES = [
     "tick": "1512",
     "title": "The Pavia campaign",
     "text": [
-     "In 1512 the Confederates joined the Pope and his allies (the Holy League). A large Swiss army marched into Lombardy and drove the French out of Milan.",
+     "In 1510 the Confederates made an alliance with Pope Julius II. They did not formally join his Holy League, but in 1512 a large Swiss army marched into Lombardy and drove the French out of Milan.",
      "The Confederates made Massimiliano Sforza Duke of Milan and protected him. In return they took Lugano, Locarno, Mendrisio and the Ossola valley. Graubünden took the Valtellina, Chiavenna and Bormio."
     ],
     "view": [
@@ -5971,6 +12032,50 @@ window.MAP_STORIES = [
       "year": 1512,
       "note": "Ossola under the Confederates"
      }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008893/",
+      "title": "HLS: Mailänderkriege",
+      "quote": "schloss die Eidgenossenschaft vielmehr im März 1510 ein Bündnis mit Papst Julius II.",
+      "supports": "In 1510 the Confederates made an alliance with Pope Julius II"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008893/",
+      "title": "HLS: Mailänderkriege",
+      "quote": "Die Eidgenossenschaft trat zwar der vom Papst 1511 gegründeten Heiligen Liga nicht bei",
+      "supports": "They did not formally join the Holy League"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008893/",
+      "title": "HLS: Mailänderkriege",
+      "quote": "den Pavierzug, der zur Kapitulation von Cremona, Pavia und Mailand sowie zur Vertreibung der Franzosen aus der Lombardei führte",
+      "supports": "In 1512 a Swiss army drove the French out of Milan and Lombardy (place Pavia)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008893/",
+      "title": "HLS: Mailänderkriege",
+      "quote": "die Einsetzung Massimiliano Sforzas, des Sohnes Ludovico Sforzas, als Herzog von Mailand zu erwirken",
+      "supports": "The Confederates made Massimiliano Sforza Duke of Milan"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008894/",
+      "title": "HLS: Novara, Schlachten bei",
+      "quote": "Nach dem Pavierzug 1512 waren die Schweizer die Schutzherren des Herzogtums Mailand.",
+      "supports": "The Confederates protected Milan (layer Milan under Swiss protection)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/024649/",
+      "title": "HLS: Ennetbirgische Feldzüge",
+      "quote": "dehnten sie ihre Herrschaft im Tessin auf Locarno mit Maggia- und Verzascatal, Lugano und das Mendrisiotto aus. Das Eschental wurde erneut unterworfen.",
+      "supports": "They took Lugano, Locarno, Mendrisio and the Ossola (layer New Swiss lands; place Domodossola)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/024649/",
+      "title": "HLS: Ennetbirgische Feldzüge",
+      "quote": "Die Bündner eroberten 1512 das Veltlin, Bormio und Chiavenna.",
+      "supports": "Graubünden took the Valtellina, Chiavenna and Bormio (layer Graubünden)"
+     }
     ]
    },
    {
@@ -5980,7 +12085,7 @@ window.MAP_STORIES = [
     "text": [
      "In 1513 King Louis XII of France sent an army to take Milan back. Swiss troops held Novara.",
      "On 6 June 1513 the Swiss attacked the French army near Novara and beat it. HLS calls this the high point of Swiss military power.",
-     "In the same year a Swiss army marched into France as far as Dijon. The town paid money, and the army went home."
+     "In the same year a Swiss army marched into France and laid siege to Dijon. The town gave up, and France promised to give up Milan and to pay money. The Swiss army went home early, and the king then broke the treaty."
     ],
     "view": [
      [
@@ -6086,6 +12191,56 @@ window.MAP_STORIES = [
       "year": 1513,
       "note": "Swiss beat the French"
      }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008894/",
+      "title": "HLS: Novara, Schlachten bei",
+      "quote": "Der franz. König Ludwig XII. sammelte 1513 erneut ein 14'000 Mann starkes Heer mit viel Reiterei und Artillerie und fiel in die Lombardei ein.",
+      "supports": "In 1513 Louis XII sent an army to take Milan back (layer France)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008894/",
+      "title": "HLS: Novara, Schlachten bei",
+      "quote": "Ein erstes Schweizer Aufgebot von 4'000 Mann trotzte dem Aufmarsch in N.",
+      "supports": "Swiss troops held Novara (place Novara)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008894/",
+      "title": "HLS: Novara, Schlachten bei",
+      "quote": "Hier wurden sie von den Eidgenossen am frühen Morgen des 6. Juni angegriffen und durch zweiseitige Umgehung eingekesselt.",
+      "supports": "On 6 June 1513 the Swiss attacked and beat the French"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008893/",
+      "title": "HLS: Mailänderkriege",
+      "quote": "Den Höhepunkt an militärischer Macht erreichten die Eidgenossen 1513 mit dem Sieg in der Schlacht bei Novara",
+      "supports": "HLS calls Novara the high point of Swiss military power; Swiss rule over Milan (layer Milan)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008895/",
+      "title": "HLS: Dijonerzug",
+      "quote": "begannen am 7.9.1513 - unterstützt durch den Stellvertreter des Kaisers, Hzg. Ulrich von Württemberg - mit der Belagerung Dijons",
+      "supports": "In 1513 a Swiss army laid siege to Dijon"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008895/",
+      "title": "HLS: Dijonerzug",
+      "quote": "der Verzicht Frankreichs auf Mailand und die Städte und Herrschaften Cremona und Asti sowie eine finanzielle Kriegsentschädigung von 400'000 Kronen",
+      "supports": "France promised to give up Milan and to pay money"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008895/",
+      "title": "HLS: Dijonerzug",
+      "quote": "Nachdem sich jedoch die uneinigen und undisziplinierten eidg. Truppen vorzeitig zurückgezogen hatten, brach Kg. Ludwig XII. den Vertrag",
+      "supports": "The Swiss army went home early, and the king broke the treaty"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008893/",
+      "title": "HLS: Mailänderkriege",
+      "quote": "Mit der 1516 erfolgten Anerkennung der eidgenössischen Herrschaft über Locarno, das Maggiatal, Lugano und Mendrisio",
+      "supports": "Layer New Swiss lands south of the Alps"
+     }
     ]
    },
    {
@@ -6093,9 +12248,9 @@ window.MAP_STORIES = [
     "tick": "1515",
     "title": "Marignano: the turning point",
     "text": [
-     "In 1515 the new King of France, Francis I, came with a strong army with cavalry and many cannons. Some Swiss troops went home after an offer of money. The others fought.",
+     "In 1515 the new King of France, Francis I, came with a strong army with cavalry and many cannons. Some Swiss captains, from Bern, Solothurn and Fribourg, made a treaty with the king at Gallarate that promised money. Others did not accept it and fought.",
      "On 13 and 14 September 1515 the armies met at Marignano (today Melegnano), south-east of Milan. On the second morning Venetian troops came to help the French, and the Swiss lost. HLS gives 9,000 to 10,000 Swiss dead.",
-     "France took Milan. The defeat showed that pikes alone could not beat cavalry and guns."
+     "France took Milan. The Swiss lost to the French guns and to the help from Venice."
     ],
     "view": [
      [
@@ -6202,6 +12357,80 @@ window.MAP_STORIES = [
       "kind": "battle",
       "year": 1513,
       "note": "Swiss win"
+     }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008896/",
+      "title": "HLS: Marignano, Schlacht von",
+      "quote": "Franz I. überquerte die Alpen mit 30'000 Fusssoldaten und Bogenschützen, mit Reiterei und einer starken Artillerie",
+      "supports": "Francis I came with a strong army with cavalry and many cannons (layer France)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008896/",
+      "title": "HLS: Marignano, Schlacht von",
+      "quote": "den Vertrag von Gallarate, der Frieden und die Zahlung einer Million Kronen an die Eidgenossen in Aussicht stellte",
+      "supports": "Some captains made the treaty of Gallarate that promised money"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008896/",
+      "title": "HLS: Marignano, Schlacht von",
+      "quote": "ein Teil der eidgenössischen Hauptleute, namentlich die Berner, Solothurner und Freiburger, zu Verhandlungen bereit",
+      "supports": "The captains from Bern, Solothurn and Fribourg"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008896/",
+      "title": "HLS: Marignano, Schlacht von",
+      "quote": "Der Vertrag wurde jedoch nicht von allen anerkannt, insbesondere die Urner, Schwyzer und Glarner waren dagegen.",
+      "supports": "Others did not accept it and fought"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008896/",
+      "title": "HLS: Marignano, Schlacht von",
+      "quote": "Die Schlacht von Marignano (heute Melegnano)",
+      "supports": "Marignano is today Melegnano (place Marignano)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008896/",
+      "title": "HLS: Marignano, Schlacht von",
+      "quote": "Am 13. und 14. September 1515 standen sich die Truppen des französischen Königs Franz I. und die das Herzogtum Mailand verteidigenden Eidgenossen gegenüber.",
+      "supports": "The armies met on 13 and 14 September 1515"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008896/",
+      "title": "HLS: Marignano, Schlacht von",
+      "quote": "traf 16 km südöstlich der Stadt auf die mit ihm verbündete Armee Venedigs",
+      "supports": "South-east of Milan"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008896/",
+      "title": "HLS: Marignano, Schlacht von",
+      "quote": "wenn nicht im Verlaufe des Morgens 12'000 Mann Verstärkung der Republik Venedig angekommen wären",
+      "supports": "On the second morning Venetian troops came"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008896/",
+      "title": "HLS: Marignano, Schlacht von",
+      "quote": "von 9000-10'000 eidgenössischen Söldnern",
+      "supports": "9,000 to 10,000 Swiss dead"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008896/",
+      "title": "HLS: Marignano, Schlacht von",
+      "quote": "Die Eidgenossen, die vorzugsweise im Schlachthaufen kämpften, wurden durch die Artillerie und die Ankunft der Venezianer besiegt.",
+      "supports": "The Swiss lost to the French guns and the Venetians"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008898/",
+      "title": "HLS: Ewiger Frieden",
+      "quote": "Franz I. als König von Frankreich und Herzog von Mailand",
+      "supports": "France took Milan"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008894/",
+      "title": "HLS: Novara, Schlachten bei",
+      "quote": "Hier wurden sie von den Eidgenossen am frühen Morgen des 6. Juni angegriffen",
+      "supports": "Place Novara 1513: Swiss win"
      }
     ]
    },
@@ -6318,6 +12547,50 @@ window.MAP_STORIES = [
       "year": 1515,
       "note": "French win"
      }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008898/",
+      "title": "HLS: Ewiger Frieden",
+      "quote": "bis in Freiburg am 29.11.1516 nach längeren Verhandlungen der E. abgeschlossen wurde",
+      "supports": "On 29 November 1516 the Perpetual Peace was signed at Fribourg (place Fribourg)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008898/",
+      "title": "HLS: Ewiger Frieden",
+      "quote": "Faktisch gaben die Eidgenossen mit dem E. ihre Ansprüche auf das Protektorat über Mailand auf.",
+      "supports": "The Swiss gave up their protection of Milan"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008898/",
+      "title": "HLS: Ewiger Frieden",
+      "quote": "Auf diese Weise gelangte das Gebiet des späteren Kt. Tessin definitiv, Mendrisio ab 1521, an die Eidgenossenschaft.",
+      "supports": "They kept the lands that are today Ticino (layer Swiss lands in the south)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008893/",
+      "title": "HLS: Mailänderkriege",
+      "quote": "Mit der 1516 erfolgten Anerkennung der eidgenössischen Herrschaft über Locarno, das Maggiatal, Lugano und Mendrisio (1521 endgültig erworben)",
+      "supports": "They kept Lugano, Locarno, Mendrisio and the Maggia valley"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/024649/",
+      "title": "HLS: Ennetbirgische Feldzüge",
+      "quote": "Im Ewigen Frieden von 1516 gestand König Franz I. den Eidgenossen und den Bündnern ihre Eroberungen zu, das Eschental kam wieder zu Mailand.",
+      "supports": "Graubünden kept the Valtellina; the Ossola went back to Milan (layers Graubünden, France)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008893/",
+      "title": "HLS: Mailänderkriege",
+      "quote": "Diesem folgte 1521 ein Bündnisvertrag mit Frankreich, der auch die Stellung von Schweizer Truppen vorsah.",
+      "supports": "In 1521 an alliance with France that provided Swiss soldiers"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008896/",
+      "title": "HLS: Marignano, Schlacht von",
+      "quote": "Die Eidgenossen, die vorzugsweise im Schlachthaufen kämpften, wurden durch die Artillerie und die Ankunft der Venezianer besiegt.",
+      "supports": "Place Marignano: the French won"
+     }
     ]
    },
    {
@@ -6325,8 +12598,8 @@ window.MAP_STORIES = [
     "tick": "1522",
     "title": "Bicocca: guns beat pikes",
     "text": [
-     "Now the Swiss fought for France against Emperor Charles V, who wanted Milan.",
-     "On 27 April 1522 the Swiss attacked the imperial army at Bicocca, north of Milan. The enemy waited behind a ditch and a wall and fired with handguns (arquebuses). The Swiss lost many men and did not win."
+     "Now the Swiss fought for France against Emperor Charles V. Both wanted Milan.",
+     "On 27 April 1522 the Swiss and the French fought the imperial army at Bicocca, north of Milan. The enemy waited behind a ditch and a wall and fired with handguns (arquebuses). France and the Swiss lost the battle."
     ],
     "view": [
      [
@@ -6430,6 +12703,35 @@ window.MAP_STORIES = [
       "year": 1522,
       "note": "Imperial army beats French and Swiss"
      }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008902/",
+      "title": "HLS: Bicocca, Schlacht bei",
+      "quote": "1521 schlossen die eidg. Orte mit dem franz. Kg. Franz I. in Luzern eine Allianz",
+      "supports": "Now the Swiss fought for France (layer France)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008902/",
+      "title": "HLS: Bicocca, Schlacht bei",
+      "quote": "einem Ort nördlich Mailands, bei der sich die Heere des franz. Königs, der im Begriff stand, Mailand zurückzuerobern, und Ks. Karls V. gegenüberstanden",
+      "supports": "Bicocca is north of Milan; France fought Emperor Charles V over Milan (place Bicocca; layer Milan)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008902/",
+      "title": "HLS: Bicocca, Schlacht bei",
+      "quote": "Der Kampf gegen die kaiserl. Truppen unter der Leitung von Prospero Colonna fand am 27.4.1522 statt. Frankreich und die Eidgenossen verloren die Schlacht.",
+      "supports": "On 27 April 1522 France and the Swiss lost"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008898/",
+      "title": "HLS: Ewiger Frieden",
+      "quote": "Auf diese Weise gelangte das Gebiet des späteren Kt. Tessin definitiv, Mendrisio ab 1521, an die Eidgenossenschaft.",
+      "supports": "Layer Swiss lands in the south"
+     }
+    ],
+    "uncertain": [
+     "At Bicocca the imperial army waited behind a ditch and a wall and fired with arquebuses."
     ]
    },
    {
@@ -6567,6 +12869,56 @@ window.MAP_STORIES = [
       "year": 1513,
       "note": "Swiss win"
      }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008897/",
+      "title": "HLS: Pavia, Schlacht bei",
+      "quote": "Kg. Franz I. von Frankreich belagerte ab dem 28.10.1524 P. mit 29'000 Mann, darunter 8'000 Schweizern unter Hans von Diesbach.",
+      "supports": "From October 1524 Francis I laid siege to Pavia; about 8,000 Swiss in his army (place Pavia)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008897/",
+      "title": "HLS: Pavia, Schlacht bei",
+      "quote": "Am 24.2.1525 griff das Entsatzheer Ks. Karl V.",
+      "supports": "On 24 February 1525 an imperial army attacked"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008897/",
+      "title": "HLS: Pavia, Schlacht bei",
+      "quote": "gegen 10'000 wurden gefangen genommen, darunter auch Kg. Franz I.",
+      "supports": "The imperial army won; the king was taken prisoner"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008902/",
+      "title": "HLS: Bicocca, Schlacht bei",
+      "quote": "Diese Niederlage und diejenige von Pavia 1525 bedeuteten das Ende der eidg. Expansionspolitik in Norditalien.",
+      "supports": "Bicocca and Pavia ended Swiss plans in northern Italy (place Bicocca)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008896/",
+      "title": "HLS: Marignano, Schlacht von",
+      "quote": "vor allem auf innere Spaltungen, die wegen der Reformation entstanden waren",
+      "supports": "The Reformation divided the Confederates"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008896/",
+      "title": "HLS: Marignano, Schlacht von",
+      "quote": "der ein Bündnis sowie die Bereitstellung von eidgenössischen Regimentern für Frankreich vorsah. Dieses politisch-militärische System hatte bis zur Französischen Revolution Bestand.",
+      "supports": "Many Swiss still served as mercenaries (for France)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008896/",
+      "title": "HLS: Marignano, Schlacht von",
+      "quote": "Nach Marignano gaben die eidgenössischen Orte ihre Expansionspolitik auf.",
+      "supports": "They no longer made war to win land abroad (place Marignano)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008894/",
+      "title": "HLS: Novara, Schlachten bei",
+      "quote": "Hier wurden sie von den Eidgenossen am frühen Morgen des 6. Juni angegriffen",
+      "supports": "Place Novara: Swiss win"
+     }
     ]
    }
   ],
@@ -6592,8 +12944,8 @@ window.MAP_STORIES = [
     "tick": "1519–1525",
     "title": "Zwingli changes Zurich",
     "text": [
-     "On 1 January 1519 Huldrych Zwingli starts to preach at the Grossmünster in Zurich. He says that only the Bible is the rule for faith. In 1522 friends of Zwingli eat sausages in Lent, which the Church forbids. This becomes a public dispute.",
-     "The city council supports Zwingli against the bishop of Constance. After public debates (disputations) in 1523, the council removes the images from the churches in June 1524 and closes the monasteries. In April 1525 Zurich stops the Catholic Mass.",
+     "On 1 January 1519 Huldrych Zwingli starts as priest at the Grossmünster in Zurich. He teaches that only the Bible is the rule for faith. In 1522 friends of Zwingli eat sausages in Lent, which the Church forbids. This becomes a public dispute.",
+     "The city council supports Zwingli against the bishop of Constance. After public debates (disputations) in 1523, the council removes the images from the churches in June 1524 and takes over the monasteries in December. In April 1525 Zurich stops the Catholic Mass.",
      "The five inner cantons (Lucerne, Uri, Schwyz, Unterwalden, Zug) promise in 1524 to keep the old faith. In Appenzell, the Landsgemeinde (assembly of all men) decides in 1525 that each parish chooses its own faith."
     ],
     "view": "ch",
@@ -6651,6 +13003,74 @@ window.MAP_STORIES = [
       "year": 1519,
       "note": "Zwingli preaches here from 1519"
      }
+    ],
+    "sources": [
+     {
+      "url": "https://www.chronos-verlag.ch/sites/default/files/ihv_978-3-0340-1498-4_niederhauser.pdf",
+      "title": "P. Niederhäuser, R. Schmid (eds.), Querblicke (183. Neujahrsblatt der Antiquarischen Gesellschaft in Zürich, Chronos 2019), introduction",
+      "quote": "Die «Querblicke» erscheinen zur fünfhundertsten Wiederkehr des Amtsantritts von Zwingli am 1. Januar 1519.",
+      "supports": "Zwingli starts his post in Zurich on 1 January 1519 (place Zurich, Grossmünster)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/013328/",
+      "title": "HLS: Reformation",
+      "quote": "Ende 1518 war Huldrych Zwingli dort zum Leutpriester am Grossmünster gewählt worden.",
+      "supports": "Zwingli became the priest of the Grossmünster"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/013328/",
+      "title": "HLS: Reformation",
+      "quote": "der alleinigen Autorität der Heiligen Schrift in Glaubensdingen",
+      "supports": "Only the Bible is the rule for faith"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/013328/",
+      "title": "HLS: Reformation",
+      "quote": "Der demonstrative Bruch des Fastengebots durch ein Wurstessen führte 1522 zum Eklat.",
+      "supports": "In 1522 the sausage eating in Lent became a public dispute"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/013328/",
+      "title": "HLS: Reformation",
+      "quote": "dass sich der Rat hinter Zwingli und gegen den Bischof von Konstanz stellte",
+      "supports": "The council supported Zwingli against the bishop of Constance"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/017172/",
+      "title": "HLS: Disputationen",
+      "quote": "Als Vorbild dienten die beiden Zürcher Disputationen",
+      "supports": "The public debates (disputations) in Zurich"
+     },
+     {
+      "url": "https://www.chronos-verlag.ch/sites/default/files/ihv_978-3-0340-1498-4_niederhauser.pdf",
+      "title": "P. Niederhäuser, R. Schmid (eds.), Querblicke (183. Neujahrsblatt der Antiquarischen Gesellschaft in Zürich, Chronos 2019), introduction",
+      "quote": "Zwei grosse Disputationen im Januar und Oktober 1523 verschafften Zwingli die endgültige Unterstützung des städtischen Rats.",
+      "supports": "Two disputations in 1523"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/013328/",
+      "title": "HLS: Reformation",
+      "quote": "Im Juni 1524 liess der Rat die Bilder aus den Zürcher Kirchen entfernen, im Dezember die religiösen Einrichtungen säkularisieren",
+      "supports": "Images removed in June 1524; monasteries and church houses taken over in December"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/013328/",
+      "title": "HLS: Reformation",
+      "quote": "Im April 1525 wurde in Zürich die Messe abgeschafft",
+      "supports": "In April 1525 Zurich stops the Mass (layer Zurich)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/013328/",
+      "title": "HLS: Reformation",
+      "quote": "1524 bekräftigten die fünf Innerschweizer Orte in Beckenried, beim alten Glauben zu bleiben",
+      "supports": "The five inner cantons promise in 1524 at Beckenried to keep the old faith (layer Five inner cantons)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/013328/",
+      "title": "HLS: Reformation",
+      "quote": "Die Appenzeller Landsgemeinde entschied 1525, jede Kirchhöre solle selbst über ihren Glauben entscheiden.",
+      "supports": "In 1525 the Appenzell Landsgemeinde lets each parish choose (layer Appenzell)"
+     }
     ]
    },
    {
@@ -6658,9 +13078,9 @@ window.MAP_STORIES = [
     "tick": "1528",
     "title": "Bern joins the Reformation",
     "text": [
-     "In January 1528 Bern holds a large public debate. A few days later the council decides to introduce the Reformation. Bern is the largest city-state north of the Alps, so this decision is a turning point.",
-     "Bern's lands follow, from the Aargau to the Oberland. In the Hasli valley people rebel, but Bern stops the revolt. Biel also becomes Reformed in 1528. The French preacher Guillaume Farel works in Aigle, a Bernese land.",
-     "In the east the town of St. Gallen under Vadian and the Toggenburg are already Reformed. In Thurgau a Landsgemeinde declares freedom of faith in December 1528. In Graubünden the Ilanz Articles (1524, 1526) let each commune choose its pastor."
+     "In January 1528 Bern holds a large public debate. A few days later the council decides to introduce the Reformation. Bern is a powerful city-state, so this decision is a turning point.",
+     "Bern brings the Reformation into its lands, by force where needed. In the Hasli valley about half of the people rebel, but Bern stops the revolt. Biel also becomes Reformed in 1528. The French preacher Guillaume Farel works in Aigle, a Bernese land.",
+     "In the east the town of St. Gallen under Vadian is already Reformed, and the Toggenburg follows. In Thurgau a Landsgemeinde declares freedom of faith in December 1528. In Graubünden the Ilanz Articles (1524, 1526) let each commune choose its pastor."
     ],
     "view": "ch",
     "layers": [
@@ -6728,7 +13148,7 @@ window.MAP_STORIES = [
      {
       "name": "Bern",
       "kind": "reformed",
-      "label": "Bern and its lands: Reformed (February 1528); Biel too",
+      "label": "Bern and its lands: Reformed (1528); Biel too",
       "sel": {
        "cantons": [
         "BE"
@@ -6823,6 +13243,103 @@ window.MAP_STORIES = [
       "year": 1519,
       "note": "Zwingli preaches here from 1519"
      }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/017172/",
+      "title": "HLS: Disputationen",
+      "quote": "Die Berner Disputation (6.-26. Januar 1528)",
+      "supports": "The Bern disputation in January 1528 (place Bern Minster)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/013328/",
+      "title": "HLS: Reformation",
+      "quote": "Der Berner Rat lud im Januar 1528 nun seinerseits zu einer Disputation nach Bern ein. Wenige Tage später beschloss er die Einführung der Reformation",
+      "supports": "A few days later the council introduced the Reformation (layer Bern)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/013328/",
+      "title": "HLS: Reformation",
+      "quote": "zumal nun weitere Gebiete und Orte dem Beispiel des mächtigen Stadtstaats folgten, wie noch gleichenjahrs die Stadt Biel",
+      "supports": "Bern is a powerful city-state; others follow; Biel becomes Reformed in 1528 (place Biel)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008451/",
+      "title": "HLS: Oberhasli (BE)",
+      "quote": "Ungefähr die Hälfte der Einwohner beteiligte sich 1528 am Aufstand gegen die von Bern mit Waffengewalt durchgesetzte Einführung der Reformation.",
+      "supports": "Bern enforced the Reformation by force; about half of the Hasli people rebelled"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/011113/",
+      "title": "HLS: Farel, Guillaume",
+      "quote": "predigte er den neuen Glauben in Aigle, Lausanne, Orbe, Grandson, Yverdon und Genf",
+      "supports": "Farel preached in Aigle (place Aigle)"
+     },
+     {
+      "url": "https://antipodes.ch/wp-content/uploads/2016/06/bruening_le-premier-champ-de-bataille-du-calvinisme_9782889010615_10.33056-ANTIPODES.10615.pdf",
+      "title": "M. W. Bruening, Le premier champ de bataille du calvinisme (Antipodes, 2011)",
+      "quote": "Guillaume Farel et les autres missionnaires protestants n’étaient présents que dans quelques régions: d’abord, dans le gouvernement d’Aigle directement soumis à Berne",
+      "supports": "Aigle was directly under Bern"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/013328/",
+      "title": "HLS: Reformation",
+      "quote": "Nachdem Vadian Ende 1525 zum Bürgermeister gewählt worden war, wurden 1526 in den Stadtkirchen evangelische Gottesdienste gefeiert",
+      "supports": "St. Gallen under Vadian was Reformed (layer Town of St. Gallen; place St. Gallen)"
+     },
+     {
+      "url": "https://www.hist.uzh.ch/dam/jcr:60c4df2c-e2cd-496a-a722-0c45e451621c/Sonderegger_Vadian_Kirchenbote.pdf",
+      "title": "S. Sonderegger (Stadtarchiv St. Gallen), article on Vadian in Kirchenbote SG, hosted by Univ. Zürich",
+      "quote": "Ab Ostern 1527 feierte man anstelle der Messe das evangelische Abendmahl.",
+      "supports": "From Easter 1527 St. Gallen held the Reformed Lord's Supper"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/013328/",
+      "title": "HLS: Reformation",
+      "quote": "Zürich förderte nach wie vor die Reformation im Thurgau, im Toggenburg, unter den St. Galler Untertanen",
+      "supports": "Zurich spread the Reformation in Thurgau and the Toggenburg (layers Thurgau, Toggenburg)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007374/",
+      "title": "HLS: Glarus (Kanton)",
+      "quote": "Trotzdem fanden 1528 in den Sernftaler Gotteshäusern sowie in den Kirchen von Schwanden und Betschwanden Bilderstürme statt.",
+      "supports": "Glarus: images destroyed in some churches in 1528 (layer Glarus)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/017173/",
+      "title": "HLS: Ilanzer Artikel",
+      "quote": "Die Ilanzer Artikel von 1524 und 1526 stellten das Landesrecht (Kirchen-, Staats- und Zivilrecht) der Drei Bünde dar.",
+      "supports": "The Ilanz Articles of 1524 and 1526 (layer Three Leagues)"
+     },
+     {
+      "url": "https://kulturforschung.ch/storage/atlasgr/seiten/32_konfessionen.pdf",
+      "title": "Institut für Kulturforschung Graubünden, Atlas Graubünden, Thema 32: Konfessionen",
+      "quote": "Die Gemeinden konnten ihre Pfarrer, und damit auch ihre Konfession, nun eigenständig wählen.",
+      "supports": "Each commune chooses its pastor"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/013328/",
+      "title": "HLS: Reformation",
+      "quote": "Die Appenzeller Landsgemeinde entschied 1525, jede Kirchhöre solle selbst über ihren Glauben entscheiden.",
+      "supports": "Layer Appenzell"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/013328/",
+      "title": "HLS: Reformation",
+      "quote": "In der Stadt Freiburg unterdrückte der Rat die Reformation energisch.",
+      "supports": "Layer Catholic: Fribourg stays Catholic"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008903/",
+      "title": "HLS: Kappelerkriege",
+      "quote": "den altgläubigen fünf inneren Orten der Eidgenossenschaft (Luzern, Uri, Schwyz, Unterwalden und Zug)",
+      "supports": "Layer Catholic: the five inner cantons"
+     }
+    ],
+    "uncertain": [
+     "The Toggenburg became Reformed from 1524.",
+     "In December 1528 a Landsgemeinde in Thurgau declared freedom of faith.",
+     "Valais and the Ticino bailiwicks stayed Catholic (map layer)."
     ]
    },
    {
@@ -7082,6 +13599,103 @@ window.MAP_STORIES = [
       "year": 1528,
       "note": "Disputation of Bern, January 1528"
      }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/013328/",
+      "title": "HLS: Reformation",
+      "quote": "1529 traten auch die Städte Basel und Schaffhausen endgültig zur Reformation über",
+      "supports": "In 1529 Basel and Schaffhausen become Reformed (layers Basel, Schaffhausen; places Basel Minster, Schaffhausen)"
+     },
+     {
+      "url": "https://www.chronos-verlag.ch/sites/default/files/vorwort_978-3-0340-1595-0.pdf",
+      "title": "Schaffhauser Beiträge zur Geschichte (Chronos), volume on J. C. Ulmer, foreword 'Zum Geleit'",
+      "quote": "1529 beschliesst der Rat der Stadt Schaffhausen die Einführung der von Sebastian Hofmeister (um 1494–1533) initiierten Reformation.",
+      "supports": "Schaffhausen 1529"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/013328/",
+      "title": "HLS: Reformation",
+      "quote": "in Glarus beschloss im Mai 1529 die Landsgemeinde, jede Gemeinde solle selbst über die Form ihres Gottesdienstes bestimmen",
+      "supports": "In Glarus (May 1529) each commune decides (layer Glarus)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008903/",
+      "title": "HLS: Kappelerkriege",
+      "quote": "Der Durchbruch der Reformation in Bern, Basel und Schaffhausen 1528-1529 führte zu einer Stärkung der im Christlichen Burgrecht organisierten Reformierten",
+      "supports": "The Reformed towns' alliance (Christian Burgrecht)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008903/",
+      "title": "HLS: Kappelerkriege",
+      "quote": "das Bündnis der fünf Orte mit König Ferdinand I. aus dem Hause Habsburg",
+      "supports": "The five Catholic cantons ally with King Ferdinand"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008903/",
+      "title": "HLS: Kappelerkriege",
+      "quote": "Zum Auslöser des Ersten Kappelerkriegs wurde die Verbrennung des reformierten Pfarrers Jakob Kaiser in Schwyz.",
+      "supports": "Schwyz burns Jakob Kaiser"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008903/",
+      "title": "HLS: Kappelerkriege",
+      "quote": "Zürich erklärte den fünf Orten am 8. Juni 1529 den Krieg und zog mit seiner Hauptmacht nach Kappel an der Zuger Grenze",
+      "supports": "8 June 1529 war; march to Kappel (place Kappel milk soup stone)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008903/",
+      "title": "HLS: Kappelerkriege",
+      "quote": "Die Vermittlungstätigkeit der Vertreter der neutral gebliebenen Orte unter der Leitung des Glarner Landammanns Hans Aebli verhinderte den Übergang zum blutigen Kampf",
+      "supports": "Neutral cantons found a compromise; no battle"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008903/",
+      "title": "HLS: Kappelerkriege",
+      "quote": "Kriegsleute aus beiden Lagern hätten demnach aus einem grossen Eimer an der Grenze gemeinsam eine Suppe aus Milch und Brot gegessen",
+      "supports": "The milk soup story"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008903/",
+      "title": "HLS: Kappelerkriege",
+      "quote": "Dieser fiel am 26. Juni 1529 in Form des Ersten Kappeler Landfriedens eher zugunsten der reformierten Wünsche aus",
+      "supports": "The First Land Peace (26 June 1529) helps the Reformed side"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/009807/",
+      "title": "HLS: Landfriedensbünde",
+      "quote": "die Glaubensfrage dem kommunalen Mehrheitsprinzip unterstellt",
+      "supports": "In the common lordships each parish decides by majority"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/013328/",
+      "title": "HLS: Reformation",
+      "quote": "Zürich förderte nach wie vor die Reformation im Thurgau, im Toggenburg, unter den St. Galler Untertanen, im aargauischen Bremgarten und in den Freien Ämtern",
+      "supports": "Many parishes in Thurgau, Toggenburg, the abbot's lands, Bremgarten and the Freie Ämter turn Reformed (layers)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/009807/",
+      "title": "HLS: Landfriedensbünde",
+      "quote": "Die aargauischen Freien Ämter sowie die Städte Bremgarten (AG) und Mellingen",
+      "supports": "Layer Bremgarten and Mellingen (Reformed until 1531)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/009807/",
+      "title": "HLS: Landfriedensbünde",
+      "quote": "nachdem sich Solothurn 1532 für den Katholizismus entschieden hatte",
+      "supports": "Layer Solothurn: undecided until 1532"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/017172/",
+      "title": "HLS: Disputationen",
+      "quote": "Die Berner Disputation (6.-26. Januar 1528)",
+      "supports": "Place Bern Minster"
+     }
+    ],
+    "uncertain": [
+     "Basel became Reformed in February 1529 (the month).",
+     "Gaster and Weesen sided with Zurich.",
+     "A Thurgau synod under Zwingli met in December 1529."
     ]
    },
    {
@@ -7089,9 +13703,9 @@ window.MAP_STORIES = [
     "tick": "1531",
     "title": "Second Kappel War",
     "text": [
-     "Zurich wants Reformed preaching in the five inner cantons too. In May 1531 Zurich and Bern stop the sale of grain and salt to them. The five cantons answer with war. On 11 October 1531 they defeat Zurich at Kappel. Zwingli dies in the battle. A second Catholic victory follows at the Gubel on 24 October.",
+     "Zurich wants Reformed preaching in the five inner cantons too. In May 1531 Zurich and Bern stop the sale of grain and salt to them. The five cantons answer with war. On 11 October 1531 they defeat Zurich at Kappel. Zwingli dies in the battle. A second Catholic victory follows at the Gubel in the night of 23 to 24 October.",
      "The Second Land Peace (20 November 1531) fixes faith by place: each canton keeps its own faith. In the common lordships, parishes may go back to the Catholic faith, but not the other way. The Freie Ämter, Bremgarten and Mellingen become Catholic again at once; so do Sargans and most of the abbot's lands.",
-     "Thurgau, the Rheintal and the County of Baden get mixed parishes, often with one church for both faiths. Solothurn decides for the Catholic side in 1532–1533. This map shows the order that lasts, with small changes, until 1712."
+     "Thurgau, the Rheintal and the County of Baden get mixed parishes, often with one church for both faiths. Solothurn decides for the Catholic side in 1532. This map shows the order that lasts, with small changes, until 1712."
     ],
     "view": "ch",
     "layers": [
@@ -7474,7 +14088,7 @@ window.MAP_STORIES = [
       "lon": 8.5745,
       "kind": "battle",
       "year": 1531,
-      "note": "24 Oct 1531: second Catholic victory"
+      "note": "Night of 23 to 24 Oct 1531: second Catholic victory"
      },
      {
       "name": "Solothurn",
@@ -7482,8 +14096,158 @@ window.MAP_STORIES = [
       "lon": 7.5323,
       "kind": "town",
       "year": 1533,
-      "note": "Stays Catholic after 1531"
+      "note": "Decides for the Catholic faith in 1532"
      }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008903/",
+      "title": "HLS: Kappelerkriege",
+      "quote": "Ab Anfang 1531 forderte Zürich die fünf Orte auf, die reformierte Predigt auch auf ihrem eigenen Territorium zuzulassen",
+      "supports": "Zurich wants Reformed preaching in the five cantons"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008903/",
+      "title": "HLS: Kappelerkriege",
+      "quote": "im Mai entschlossen, gegen die fünf Orte eine Proviantsperre (Unterbindung der Zufuhr von Getreide und Salz) zu erlassen",
+      "supports": "May 1531 grain and salt blockade"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008903/",
+      "title": "HLS: Kappelerkriege",
+      "quote": "Im Oktober 1531 entschlossen sich die fünf inneren Orte, in welchen sich die Lebensmittelblockade immer stärker bemerkbar machte, zum Angriff",
+      "supports": "The five cantons answer with war"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008903/",
+      "title": "HLS: Kappelerkriege",
+      "quote": "Am Mittag des 11. Oktober 1531 stand den etwa 7000 Mann der fünf Orte nur ein Zürcher Fähnlein mit etwa 2000 Mann gegenüber.",
+      "supports": "11 October 1531 at Kappel (place Kappel)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008903/",
+      "title": "HLS: Kappelerkriege",
+      "quote": "Unter den etwa 500 gefallenen Zürchern befand sich auch Zwingli",
+      "supports": "Zwingli dies"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008903/",
+      "title": "HLS: Kappelerkriege",
+      "quote": "bis zur Nacht vom 23. auf den 24. Okotber 1531 nur den Gubel bei Menzingen",
+      "supports": "The Gubel, night of 23 to 24 October (place Gubel)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/009807/",
+      "title": "HLS: Landfriedensbünde",
+      "quote": "Der Zweite Landfrieden oder Zweite Kappeler Landfrieden der fünf Orte mit Zürich vom 20. November 1531",
+      "supports": "Second Land Peace, 20 November 1531"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008903/",
+      "title": "HLS: Kappelerkriege",
+      "quote": "jedem einzelnen Ort, die Konfession seiner Bürger und Untertanen selbst zu bestimmen",
+      "supports": "Each canton keeps its own faith"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/013328/",
+      "title": "HLS: Reformation",
+      "quote": "In den gemeinen Herrschaften konnten die reformierten Gemeinden beim neuen Glauben bleiben oder aber zum alten zurückkehren; ein umgekehrter Wechsel war dagegen nicht vorgesehen.",
+      "supports": "Parishes may go back to the Catholic faith but not the other way"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/009807/",
+      "title": "HLS: Landfriedensbünde",
+      "quote": "Die aargauischen Freien Ämter sowie die Städte Bremgarten (AG) und Mellingen, die vom Friedensvertrag ausgeschlossen waren, wurden sofort rekatholisiert.",
+      "supports": "Freie Ämter, Bremgarten and Mellingen Catholic again at once"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/009807/",
+      "title": "HLS: Landfriedensbünde",
+      "quote": "nachdem sich Solothurn 1532 für den Katholizismus entschieden hatte",
+      "supports": "Solothurn decides for the Catholic side in 1532 (place Solothurn)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008910/",
+      "title": "HLS: Villmergerkrieg, Erster",
+      "quote": "Der Ausgang des Ersten Villmergerkriegs fixierte bis 1712 das militärische und politische Verhältnis zwischen den reformierten und den katholischen Orten.",
+      "supports": "The order lasts, with small changes, until 1712"
+     },
+     {
+      "url": "https://www.staatsarchiv.sta.be.ch/content/dam/staatsarchiv_sta/dokumente/fr/bestände/guide-sources-vaud-berne.pdf",
+      "title": "N. Furrer, Guide des sources du Pays de Vaud à l'époque bernoise (1536-1798), Staatsarchiv Bern / ACV",
+      "quote": "le Pays-d’Enhaut appartenait au bailliage « allemand » de Saanen (Gessenay)",
+      "supports": "Layer Pays-d'Enhaut: later part of Bern's bailiwick of Saanen"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/009807/",
+      "title": "HLS: Landfriedensbünde",
+      "quote": "entstanden in den Gemeinden der Landvogtei Thurgau, der Grafschaft Baden und des Rheintals paritätische Verhältnisse",
+      "supports": "Layers Thurgau, Rheintal, County of Baden: mixed parishes"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/013328/",
+      "title": "HLS: Reformation",
+      "quote": "In Glarus, Teilen Graubündens und im Thurgau teilten sich Katholiken und Evangelische an vielen Orten eine Kirche",
+      "supports": "Layers Glarus, Thurgau, Three Leagues: shared churches"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/009807/",
+      "title": "HLS: Landfriedensbünde",
+      "quote": "Im Sarganserland (ohne die Herrschaft Wartau) und im Territorium des Abtes von St. Gallen (ohne das Toggenburg) setzte sich der Katholizismus wieder durch.",
+      "supports": "Layers: Sargans and abbey lands Catholic again; Wartau and the Toggenburg not"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/013328/",
+      "title": "HLS: Reformation",
+      "quote": "Die äusseren Rhoden (ohne Herisau) schlossen sich dem neuen Glauben an, die Bewohner der inneren Rhoden (ohne Gais) verblieben mehrheitlich beim alten Glauben.",
+      "supports": "Layer Appenzell: outer parts Reformed, inner parts Catholic"
+     },
+     {
+      "url": "https://www.utbm.fr/wp-content/uploads/2015/04/Arg_CoeditionAlphil_UneResistanceAlaReforme.pdf",
+      "title": "L. Bartolini, Une résistance à la réforme dans le pays de Neuchâtel. Le Landeron et sa région (1530-1562), UTBM/Alphil 2006 (publisher sheet)",
+      "quote": "Seules de tout le Pays de Neuchâtel, les communes du Landeron et de Cressier ne passèrent pas à la Réforme",
+      "supports": "Layer Le Landeron and Cressier: stay Catholic inside Reformed Neuchâtel"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/013328/",
+      "title": "HLS: Reformation",
+      "quote": "in der Westschweiz führte Neuenburg mit Berner Unterstützung 1530 die Reformation ein",
+      "supports": "Layer Neuchâtel: Reformed 1530"
+     },
+     {
+      "url": "https://antipodes.ch/wp-content/uploads/2016/06/bruening_le-premier-champ-de-bataille-du-calvinisme_9782889010615_10.33056-ANTIPODES.10615.pdf",
+      "title": "M. W. Bruening, Le premier champ de bataille du calvinisme (Antipodes, 2011)",
+      "quote": "les villes et alentours d’Orbe, Échallens, Grandson et Morat seraient des bailliages communs de Berne et Fribourg",
+      "supports": "Layers Orbe, Grandson, Echallens: ruled together by Bern and Fribourg"
+     },
+     {
+      "url": "https://antipodes.ch/wp-content/uploads/2016/06/bruening_le-premier-champ-de-bataille-du-calvinisme_9782889010615_10.33056-ANTIPODES.10615.pdf",
+      "title": "M. W. Bruening, Le premier champ de bataille du calvinisme (Antipodes, 2011)",
+      "quote": "D’autres n’abolirent la messe que bien plus tard, comme Mex (1570) et Goumoëns (1575) ; d’autres, comme Échallens, jamais.",
+      "supports": "Layer Echallens villages: Echallens never gave up the Mass"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/017178/",
+      "title": "HLS: Gegenreformation",
+      "quote": "Es gelang ihm zwar, das Laufental, das Birseck und Delsberg zum Katholizismus zurückzuführen",
+      "supports": "Layer Laufen and Birseck (bishop of Basel)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/013328/",
+      "title": "HLS: Reformation",
+      "quote": "Unter dem Einfluss der Reformation in den Städten Bern, Biel und Basel schloss sich der Süden des Fürstbistums Basel der Reformation an.",
+      "supports": "Layer Other lands: the south of the bishopric of Basel became Reformed"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/013328/",
+      "title": "HLS: Reformation",
+      "quote": "Solothurn blieb katholisch, der Thurgau dagegen weitgehend reformiert.",
+      "supports": "Layers Thurgau (mostly Reformed) and Catholic cantons (Solothurn)"
+     }
+    ],
+    "uncertain": [
+     "Map details for which no source was found: Rheinau abbey and Ramsen Catholic; Werdenberg and Sax Reformed; Bucheggberg Reformed; the upper Rheintal (Oberriet) Catholic; the exact split of the Toggenburg into a mostly Reformed upper part and a mostly Catholic lower part; 27 shared churches in Thurgau; Näfels and Oberurnen as the Catholic places of Glarus.",
+     "The Pays-d'Enhaut (county of Gruyère) stayed Catholic until Bern took it in 1555."
     ]
    },
    {
@@ -7492,8 +14256,8 @@ window.MAP_STORIES = [
     "title": "Farel, Vaud and Geneva",
     "text": [
      "After 1531 the Reformation grows in the west. Guillaume Farel preaches in French-speaking lands with Bern's support. Neuchâtel becomes Reformed in 1530; only Le Landeron and Cressier stay Catholic.",
-     "Geneva has fought for its freedom from Savoy and its bishop. On 21 May 1536 its citizens vote to live by the Gospel. In the same year Bern conquers Vaud from Savoy. After a debate in Lausanne in October 1536, Bern orders the Reformation in all of Vaud.",
-     "In the lands that Bern and Fribourg rule together (Orbe, Echallens, Grandson) each parish votes on the Mass. Some villages around Echallens stay Catholic until today. Fribourg's own new lands stay Catholic."
+     "Geneva has fought for its freedom from Savoy and its bishop. On 21 May 1536 it introduces the Reformation. In the same year Bern conquers Vaud from Savoy. After a debate in Lausanne in October 1536, Bern orders the Reformation in all of Vaud.",
+     "In the lands that Bern and Fribourg rule together (Orbe, Echallens, Grandson) each parish votes on the Mass. Echallens never gives up the Mass."
     ],
     "view": "ch",
     "layers": [
@@ -7934,6 +14698,162 @@ window.MAP_STORIES = [
       "year": 1528,
       "note": "Disputation of Bern, January 1528"
      }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/013328/",
+      "title": "HLS: Reformation",
+      "quote": "Grosse Zugewinne machte die Reformation dagegen nach 1531 in der Westschweiz",
+      "supports": "After 1531 the Reformation grows in the west"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/013328/",
+      "title": "HLS: Reformation",
+      "quote": "in der Westschweiz führte Neuenburg mit Berner Unterstützung 1530 die Reformation ein",
+      "supports": "Farel's work with Bern's support; Neuchâtel Reformed in 1530 (place Neuchâtel)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/011113/",
+      "title": "HLS: Farel, Guillaume",
+      "quote": "Dank seinen Anstrengungen ging die Stadt Neuenburg 1530 zur Reformation über.",
+      "supports": "Farel; Neuchâtel 1530"
+     },
+     {
+      "url": "https://www.utbm.fr/wp-content/uploads/2015/04/Arg_CoeditionAlphil_UneResistanceAlaReforme.pdf",
+      "title": "L. Bartolini, Une résistance à la réforme dans le pays de Neuchâtel. Le Landeron et sa région (1530-1562), UTBM/Alphil 2006 (publisher sheet)",
+      "quote": "Seules de tout le Pays de Neuchâtel, les communes du Landeron et de Cressier ne passèrent pas à la Réforme",
+      "supports": "Only Le Landeron and Cressier stay Catholic"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/013328/",
+      "title": "HLS: Reformation",
+      "quote": "Genf hatte kurz zuvor eine prekäre politische Unabhängigkeit von Savoyen erkämpft, den Bischof aus der Stadt vertrieben",
+      "supports": "Geneva fought for freedom from Savoy and its bishop (layer Geneva)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/017172/",
+      "title": "HLS: Disputationen",
+      "quote": "führten die Reformation per 21. Mai 1536 ein",
+      "supports": "Geneva introduces the Reformation on 21 May 1536 (place Geneva, St-Pierre)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/013328/",
+      "title": "HLS: Reformation",
+      "quote": "wo sich 1536 die Stadt Genf zu ihr bekannte bzw. Bern sie in der 1536 eroberten Waadt durchsetzte",
+      "supports": "In 1536 Bern conquers Vaud and imposes the Reformation (layer Vaud and Bernese lands)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/017172/",
+      "title": "HLS: Disputationen",
+      "quote": "Nach der Eroberung der katholisch gebliebenen Waadt berief Bern in Lausanne eine Disputation ein (1.-8. Oktober 1536).",
+      "supports": "Debate in Lausanne in October 1536 (place Lausanne Cathedral)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/011113/",
+      "title": "HLS: Farel, Guillaume",
+      "quote": "in deren Gefolge die Reformation auch im Waadtland eingeführt wurde",
+      "supports": "After the debate the Reformation is introduced in Vaud"
+     },
+     {
+      "url": "https://antipodes.ch/wp-content/uploads/2016/06/bruening_le-premier-champ-de-bataille-du-calvinisme_9782889010615_10.33056-ANTIPODES.10615.pdf",
+      "title": "M. W. Bruening, Le premier champ de bataille du calvinisme (Antipodes, 2011)",
+      "quote": "les villes et alentours d’Orbe, Échallens, Grandson et Morat seraient des bailliages communs de Berne et Fribourg",
+      "supports": "Orbe, Echallens, Grandson ruled by Bern and Fribourg"
+     },
+     {
+      "url": "https://antipodes.ch/wp-content/uploads/2016/06/bruening_le-premier-champ-de-bataille-du-calvinisme_9782889010615_10.33056-ANTIPODES.10615.pdf",
+      "title": "M. W. Bruening, Le premier champ de bataille du calvinisme (Antipodes, 2011)",
+      "quote": "sauf si un vote majoritaire, « le plus», faisait passer la région au protestantisme, auquel cas la messe serait définitivement abolie",
+      "supports": "Parishes vote on the Mass"
+     },
+     {
+      "url": "https://antipodes.ch/wp-content/uploads/2016/06/bruening_le-premier-champ-de-bataille-du-calvinisme_9782889010615_10.33056-ANTIPODES.10615.pdf",
+      "title": "M. W. Bruening, Le premier champ de bataille du calvinisme (Antipodes, 2011)",
+      "quote": "D’autres n’abolirent la messe que bien plus tard, comme Mex (1570) et Goumoëns (1575) ; d’autres, comme Échallens, jamais.",
+      "supports": "Echallens never gives up the Mass (layer Echallens villages)"
+     },
+     {
+      "url": "https://www.staatsarchiv.sta.be.ch/content/dam/staatsarchiv_sta/dokumente/fr/bestände/guide-sources-vaud-berne.pdf",
+      "title": "N. Furrer, Guide des sources du Pays de Vaud à l'époque bernoise (1536-1798), Staatsarchiv Bern / ACV",
+      "quote": "les trois bailliages bernois Gex, Ternier et Thonon, territoires conquis en 1536 et rendus à la Savoie en 1564.",
+      "supports": "Layer Gex: Bernese 1536-1564"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/017172/",
+      "title": "HLS: Disputationen",
+      "quote": "Die Berner Disputation (6.-26. Januar 1528)",
+      "supports": "Place Bern Minster"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/009807/",
+      "title": "HLS: Landfriedensbünde",
+      "quote": "entstanden in den Gemeinden der Landvogtei Thurgau, der Grafschaft Baden und des Rheintals paritätische Verhältnisse",
+      "supports": "Layers Thurgau, Rheintal, County of Baden: mixed parishes"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/013328/",
+      "title": "HLS: Reformation",
+      "quote": "In Glarus, Teilen Graubündens und im Thurgau teilten sich Katholiken und Evangelische an vielen Orten eine Kirche",
+      "supports": "Layers Glarus, Thurgau, Three Leagues: shared churches"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/009807/",
+      "title": "HLS: Landfriedensbünde",
+      "quote": "Im Sarganserland (ohne die Herrschaft Wartau) und im Territorium des Abtes von St. Gallen (ohne das Toggenburg) setzte sich der Katholizismus wieder durch.",
+      "supports": "Layers: Sargans and abbey lands Catholic again; Wartau and the Toggenburg not"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/013328/",
+      "title": "HLS: Reformation",
+      "quote": "Die äusseren Rhoden (ohne Herisau) schlossen sich dem neuen Glauben an, die Bewohner der inneren Rhoden (ohne Gais) verblieben mehrheitlich beim alten Glauben.",
+      "supports": "Layer Appenzell: outer parts Reformed, inner parts Catholic"
+     },
+     {
+      "url": "https://www.utbm.fr/wp-content/uploads/2015/04/Arg_CoeditionAlphil_UneResistanceAlaReforme.pdf",
+      "title": "L. Bartolini, Une résistance à la réforme dans le pays de Neuchâtel. Le Landeron et sa région (1530-1562), UTBM/Alphil 2006 (publisher sheet)",
+      "quote": "Seules de tout le Pays de Neuchâtel, les communes du Landeron et de Cressier ne passèrent pas à la Réforme",
+      "supports": "Layer Le Landeron and Cressier: stay Catholic inside Reformed Neuchâtel"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/013328/",
+      "title": "HLS: Reformation",
+      "quote": "in der Westschweiz führte Neuenburg mit Berner Unterstützung 1530 die Reformation ein",
+      "supports": "Layer Neuchâtel: Reformed 1530"
+     },
+     {
+      "url": "https://antipodes.ch/wp-content/uploads/2016/06/bruening_le-premier-champ-de-bataille-du-calvinisme_9782889010615_10.33056-ANTIPODES.10615.pdf",
+      "title": "M. W. Bruening, Le premier champ de bataille du calvinisme (Antipodes, 2011)",
+      "quote": "les villes et alentours d’Orbe, Échallens, Grandson et Morat seraient des bailliages communs de Berne et Fribourg",
+      "supports": "Layers Orbe, Grandson, Echallens: ruled together by Bern and Fribourg"
+     },
+     {
+      "url": "https://antipodes.ch/wp-content/uploads/2016/06/bruening_le-premier-champ-de-bataille-du-calvinisme_9782889010615_10.33056-ANTIPODES.10615.pdf",
+      "title": "M. W. Bruening, Le premier champ de bataille du calvinisme (Antipodes, 2011)",
+      "quote": "D’autres n’abolirent la messe que bien plus tard, comme Mex (1570) et Goumoëns (1575) ; d’autres, comme Échallens, jamais.",
+      "supports": "Layer Echallens villages: Echallens never gave up the Mass"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/017178/",
+      "title": "HLS: Gegenreformation",
+      "quote": "Es gelang ihm zwar, das Laufental, das Birseck und Delsberg zum Katholizismus zurückzuführen",
+      "supports": "Layer Laufen and Birseck (bishop of Basel)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/013328/",
+      "title": "HLS: Reformation",
+      "quote": "Unter dem Einfluss der Reformation in den Städten Bern, Biel und Basel schloss sich der Süden des Fürstbistums Basel der Reformation an.",
+      "supports": "Layer Other lands: the south of the bishopric of Basel became Reformed"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/013328/",
+      "title": "HLS: Reformation",
+      "quote": "Solothurn blieb katholisch, der Thurgau dagegen weitgehend reformiert.",
+      "supports": "Layers Thurgau (mostly Reformed) and Catholic cantons (Solothurn)"
+     }
+    ],
+    "uncertain": [
+     "Map details for which no source was found: Rheinau abbey and Ramsen Catholic; Werdenberg and Sax Reformed; Bucheggberg Reformed; the upper Rheintal (Oberriet) Catholic; the exact split of the Toggenburg into a mostly Reformed upper part and a mostly Catholic lower part; 27 shared churches in Thurgau; Näfels and Oberurnen as the Catholic places of Glarus.",
+     "Fribourg's own new lands in Vaud stayed Catholic."
     ]
    },
    {
@@ -7942,8 +14862,8 @@ window.MAP_STORIES = [
     "title": "Calvin's Geneva",
     "text": [
      "The French lawyer John Calvin flees France. In 1536 he comes to Geneva, and Farel asks him to stay. The council does not support them, and in 1538 both must leave. Calvin works in Strasbourg with Martin Bucer.",
-     "In September 1541 the council asks Calvin to return. In November it accepts his church order (Ordonnances ecclésiastiques). Pastors and a church court (consistory) teach and control how people live.",
-     "Bern rules Vaud and, until the 1560s, lands south and west of the lake (Chablais, Gex). In 1549 Zurich and Geneva agree on the Lord's Supper (Consensus Tigurinus). This joins the Zwingli and Calvin lines into one Reformed church family."
+     "At the council's request Calvin comes back in September 1541. In November the council accepts his church order (Ordonnances ecclésiastiques). Pastors and a church court (consistory) teach and control how people live.",
+     "Bern rules Vaud and, until 1564, lands south and west of the lake (Chablais, Gex). In 1549 Zurich and Geneva agree on the Lord's Supper (Consensus Tigurinus). This joins the Zwingli and Calvin lines into one Reformed church family."
     ],
     "view": [
      [
@@ -8383,7 +15303,7 @@ window.MAP_STORIES = [
       "lon": 6.4793,
       "kind": "town",
       "year": 1536,
-      "note": "Bernese 1536 until the late 1560s"
+      "note": "Bernese 1536–1564"
      },
      {
       "name": "Gex",
@@ -8401,6 +15321,155 @@ window.MAP_STORIES = [
       "year": 1530,
       "note": "Reformed 1530 (Farel)"
      }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/013328/",
+      "title": "HLS: Reformation",
+      "quote": "Aus Frankreich geflüchtet, gelangte Calvin über Basel im Juni 1536 nach Genf, wo ihn Guillaume Farel zum Bleiben überredete.",
+      "supports": "Calvin flees France, comes to Geneva in 1536; Farel asks him to stay"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/013328/",
+      "title": "HLS: Reformation",
+      "quote": "Der französische Jurist und Humanist Johannes Calvin",
+      "supports": "Calvin was a French lawyer"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/013328/",
+      "title": "HLS: Reformation",
+      "quote": "Farel und Calvin fühlten sich jedoch vom Rat nicht unterstützt, im Frühjahr 1538 mussten die beiden Genf verlassen.",
+      "supports": "In 1538 both must leave"
+     },
+     {
+      "url": "https://www.musee-reforme.ch/content/2files/ok-figure-de-calvin-informations.pdf",
+      "title": "Musée international de la Réforme: La figure de Calvin (includes DHS article 'Calvin, Jean' by F. Higman)",
+      "quote": "Calvin partit pour Strasbourg où Martin Bucer lui confia la communauté des réfugiés français.",
+      "supports": "Calvin works in Strasbourg with Bucer"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/013328/",
+      "title": "HLS: Reformation",
+      "quote": "Im September 1541 kehrte Calvin auf Bitte des Rats nach Genf zurück.",
+      "supports": "Calvin returns in September 1541 at the council's request"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/013328/",
+      "title": "HLS: Reformation",
+      "quote": "Noch im November genehmigte der Rat die hauptsächlich von Calvin ausgearbeiteten \"Ordonnances ecclésiastiques\", die Genfer Kirchenordnung.",
+      "supports": "In November the council accepts the church order"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/013328/",
+      "title": "HLS: Reformation",
+      "quote": "Durch Predigt, Katechese und sittengerichtliche Kontrolle versuchte er zusammen mit der Compagnie des pasteurs , die Stadtbewohner zur christlichen Lebensführung zu erziehen.",
+      "supports": "Pastors and church court teach and control how people live"
+     },
+     {
+      "url": "https://www.musee-reforme.ch/content/2files/ok-figure-de-calvin-informations.pdf",
+      "title": "Musée international de la Réforme: La figure de Calvin (includes DHS article 'Calvin, Jean' by F. Higman)",
+      "quote": "Consistoire, organisme formé de pasteurs et de laïcs choisis parmi les magistrats, qui maintient parmi les fidèles un comportement conforme",
+      "supports": "The consistory"
+     },
+     {
+      "url": "https://www.staatsarchiv.sta.be.ch/content/dam/staatsarchiv_sta/dokumente/fr/bestände/guide-sources-vaud-berne.pdf",
+      "title": "N. Furrer, Guide des sources du Pays de Vaud à l'époque bernoise (1536-1798), Staatsarchiv Bern / ACV",
+      "quote": "les trois bailliages bernois Gex, Ternier et Thonon, territoires conquis en 1536 et rendus à la Savoie en 1564.",
+      "supports": "Bern rules Gex, Ternier and Thonon until 1564 (places Thonon, Gex)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/013328/",
+      "title": "HLS: Reformation",
+      "quote": "Ein wichtiger Schritt war diesbezüglich das im Consensus tigurinus (1549) formulierte gemeinsame Abendmahlsverständnis.",
+      "supports": "Consensus Tigurinus 1549"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/013328/",
+      "title": "HLS: Reformation",
+      "quote": "Auch der Schweizer Protestantismus festigte sich, insbesondere durch das Zusammengehen der Kirchen Genfer und Zürcher Prägung.",
+      "supports": "This joins the Zurich and Geneva lines"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/017172/",
+      "title": "HLS: Disputationen",
+      "quote": "führten die Reformation per 21. Mai 1536 ein",
+      "supports": "Place Geneva, St-Pierre"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/017172/",
+      "title": "HLS: Disputationen",
+      "quote": "Nach der Eroberung der katholisch gebliebenen Waadt berief Bern in Lausanne eine Disputation ein (1.-8. Oktober 1536).",
+      "supports": "Place Lausanne Cathedral"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/009807/",
+      "title": "HLS: Landfriedensbünde",
+      "quote": "entstanden in den Gemeinden der Landvogtei Thurgau, der Grafschaft Baden und des Rheintals paritätische Verhältnisse",
+      "supports": "Layers Thurgau, Rheintal, County of Baden: mixed parishes"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/013328/",
+      "title": "HLS: Reformation",
+      "quote": "In Glarus, Teilen Graubündens und im Thurgau teilten sich Katholiken und Evangelische an vielen Orten eine Kirche",
+      "supports": "Layers Glarus, Thurgau, Three Leagues: shared churches"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/009807/",
+      "title": "HLS: Landfriedensbünde",
+      "quote": "Im Sarganserland (ohne die Herrschaft Wartau) und im Territorium des Abtes von St. Gallen (ohne das Toggenburg) setzte sich der Katholizismus wieder durch.",
+      "supports": "Layers: Sargans and abbey lands Catholic again; Wartau and the Toggenburg not"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/013328/",
+      "title": "HLS: Reformation",
+      "quote": "Die äusseren Rhoden (ohne Herisau) schlossen sich dem neuen Glauben an, die Bewohner der inneren Rhoden (ohne Gais) verblieben mehrheitlich beim alten Glauben.",
+      "supports": "Layer Appenzell: outer parts Reformed, inner parts Catholic"
+     },
+     {
+      "url": "https://www.utbm.fr/wp-content/uploads/2015/04/Arg_CoeditionAlphil_UneResistanceAlaReforme.pdf",
+      "title": "L. Bartolini, Une résistance à la réforme dans le pays de Neuchâtel. Le Landeron et sa région (1530-1562), UTBM/Alphil 2006 (publisher sheet)",
+      "quote": "Seules de tout le Pays de Neuchâtel, les communes du Landeron et de Cressier ne passèrent pas à la Réforme",
+      "supports": "Layer Le Landeron and Cressier: stay Catholic inside Reformed Neuchâtel"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/013328/",
+      "title": "HLS: Reformation",
+      "quote": "in der Westschweiz führte Neuenburg mit Berner Unterstützung 1530 die Reformation ein",
+      "supports": "Layer Neuchâtel: Reformed 1530"
+     },
+     {
+      "url": "https://antipodes.ch/wp-content/uploads/2016/06/bruening_le-premier-champ-de-bataille-du-calvinisme_9782889010615_10.33056-ANTIPODES.10615.pdf",
+      "title": "M. W. Bruening, Le premier champ de bataille du calvinisme (Antipodes, 2011)",
+      "quote": "les villes et alentours d’Orbe, Échallens, Grandson et Morat seraient des bailliages communs de Berne et Fribourg",
+      "supports": "Layers Orbe, Grandson, Echallens: ruled together by Bern and Fribourg"
+     },
+     {
+      "url": "https://antipodes.ch/wp-content/uploads/2016/06/bruening_le-premier-champ-de-bataille-du-calvinisme_9782889010615_10.33056-ANTIPODES.10615.pdf",
+      "title": "M. W. Bruening, Le premier champ de bataille du calvinisme (Antipodes, 2011)",
+      "quote": "D’autres n’abolirent la messe que bien plus tard, comme Mex (1570) et Goumoëns (1575) ; d’autres, comme Échallens, jamais.",
+      "supports": "Layer Echallens villages: Echallens never gave up the Mass"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/017178/",
+      "title": "HLS: Gegenreformation",
+      "quote": "Es gelang ihm zwar, das Laufental, das Birseck und Delsberg zum Katholizismus zurückzuführen",
+      "supports": "Layer Laufen and Birseck (bishop of Basel)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/013328/",
+      "title": "HLS: Reformation",
+      "quote": "Unter dem Einfluss der Reformation in den Städten Bern, Biel und Basel schloss sich der Süden des Fürstbistums Basel der Reformation an.",
+      "supports": "Layer Other lands: the south of the bishopric of Basel became Reformed"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/013328/",
+      "title": "HLS: Reformation",
+      "quote": "Solothurn blieb katholisch, der Thurgau dagegen weitgehend reformiert.",
+      "supports": "Layers Thurgau (mostly Reformed) and Catholic cantons (Solothurn)"
+     }
+    ],
+    "uncertain": [
+     "Map details for which no source was found: Rheinau abbey and Ramsen Catholic; Werdenberg and Sax Reformed; Bucheggberg Reformed; the upper Rheintal (Oberriet) Catholic; the exact split of the Toggenburg into a mostly Reformed upper part and a mostly Catholic lower part; 27 shared churches in Thurgau; Näfels and Oberurnen as the Catholic places of Glarus."
     ]
    },
    {
@@ -8408,8 +15477,8 @@ window.MAP_STORIES = [
     "tick": "1559 Europe",
     "title": "The Swiss Reformation in Europe",
     "text": [
-     "The Reformation starts in 1517 with Martin Luther in Wittenberg. Zwingli in Zurich and Calvin in Geneva start a second line, the Reformed churches. Strasbourg, with Martin Bucer, links both lines.",
-     "In 1559 Geneva opens its Academy, a school for pastors from all of Europe. About 30 printers in Geneva print Reformed books, many for France. Reformed churches grow in France, the Netherlands, Scotland, Hungary and Poland. In 1559 the French Reformed churches hold their first national synod in Paris.",
+     "The Reformation starts in 1517 with Martin Luther in Wittenberg. Zwingli in Zurich and Calvin in Geneva start a second line, the Reformed churches. Martin Bucer of Strasbourg also shapes these churches.",
+     "In 1559 Geneva opens its Academy, a school for pastors from all of Europe. In the 1550s about 30 printers in Geneva print Reformed books, many for France. Reformed churches grow in France, the Netherlands, Scotland, Hungary and Poland. In 1559 the French Reformed churches hold their first national synod in Paris.",
      "The Peace of Augsburg (1555) protects only Lutherans in the Empire, not the Reformed. The map shows Europe about 1560 only roughly: German states and whole countries are coloured as one."
     ],
     "view": "europe",
@@ -8923,6 +15992,139 @@ window.MAP_STORIES = [
       "year": 1560,
       "note": "Knox, back from Geneva, leads the Scottish Reformation"
      }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/013328/",
+      "title": "HLS: Reformation",
+      "quote": "Als Auftakt zur Reformation gilt die Veröffentlichung von Martin Luthers Thesen über das Ablasswesen vom 31. Oktober 1517.",
+      "supports": "The Reformation starts in 1517 with Luther (place Wittenberg)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/013328/",
+      "title": "HLS: Reformation",
+      "quote": "Neben Martin Luther im kursächsischen Wittenberg haben vor allem Huldrych Zwingli von Zürich und Johannes Calvin von Genf aus die Reformation und den Protestantismus geprägt.",
+      "supports": "Zwingli in Zurich and Calvin in Geneva (places Zurich, Geneva)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/013328/",
+      "title": "HLS: Reformation",
+      "quote": "die allerdings nicht nur von Calvin, sondern auch von anderen Theologen wie Zwingli, Bullinger und Martin Bucer geprägt waren",
+      "supports": "Bucer also shaped the Reformed churches (place Strasbourg)"
+     },
+     {
+      "url": "https://www.musee-reforme.ch/content/2files/ok-figure-de-calvin-informations.pdf",
+      "title": "Musée international de la Réforme: La figure de Calvin (includes DHS article 'Calvin, Jean' by F. Higman)",
+      "quote": "Calvin partit pour Strasbourg où Martin Bucer lui confia la communauté des réfugiés français.",
+      "supports": "Calvin lived in Strasbourg with Bucer (place Strasbourg)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/013328/",
+      "title": "HLS: Reformation",
+      "quote": "1559 wurde eine Akademie gegründet, die Ausbildungsstätte zahlreicher Pfarrer und Lehrer des calvinistischen Europas wurde",
+      "supports": "In 1559 Geneva opens its Academy"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/013328/",
+      "title": "HLS: Reformation",
+      "quote": "In den 1550er Jahren produzierten in Genf rund 30 Druckereien antikatholische Propaganda und reformierte Schriften, besonders für den französischen Markt.",
+      "supports": "About 30 printers in the 1550s, many books for France"
+     },
+     {
+      "url": "https://www.dhm.de/archiv/ausstellungen/calvinismus/diziplin_und_republik.html",
+      "title": "Deutsches Historisches Museum: Calvinismus (exhibition)",
+      "quote": "in die Niederlande, nach England und Schottland, ebenso erreichten sie Ungarn, Siebenbürgen und Polen",
+      "supports": "Reformed churches grow in the Netherlands, Scotland, Hungary and Poland (layers Protestant / Divided Europe)"
+     },
+     {
+      "url": "https://museeprotestant.org/en/notice/historical-context/",
+      "title": "Musée protestant: Historical context",
+      "quote": "1st national synod, which was held in Paris on 25th May 1559",
+      "supports": "First national synod in Paris, 1559 (place Paris)"
+     },
+     {
+      "url": "https://museeprotestant.org/en/notice/historical-context/",
+      "title": "Musée protestant: Historical context",
+      "quote": "which brought together representatives from about thirty established Churches all over France.",
+      "supports": "The French Reformed churches (layer Catholic Europe: France with a Reformed minority)"
+     },
+     {
+      "url": "https://germanhistorydocs.org/en/from-the-reformations-to-the-thirty-years-war-1500-1648/the-religious-peace-of-augsburg-september-25-1555",
+      "title": "German History in Documents and Images (GHI): The Religious Peace of Augsburg, 25 September 1555",
+      "quote": "it actually decreed the toleration only of those who accepted the Confession of Augsburg (1530)",
+      "supports": "The Peace of Augsburg (1555) protects only Lutherans (place Augsburg)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/009807/",
+      "title": "HLS: Landfriedensbünde",
+      "quote": "entstanden in den Gemeinden der Landvogtei Thurgau, der Grafschaft Baden und des Rheintals paritätische Verhältnisse",
+      "supports": "Layers Thurgau, Rheintal, County of Baden: mixed parishes"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/013328/",
+      "title": "HLS: Reformation",
+      "quote": "In Glarus, Teilen Graubündens und im Thurgau teilten sich Katholiken und Evangelische an vielen Orten eine Kirche",
+      "supports": "Layers Glarus, Thurgau, Three Leagues: shared churches"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/009807/",
+      "title": "HLS: Landfriedensbünde",
+      "quote": "Im Sarganserland (ohne die Herrschaft Wartau) und im Territorium des Abtes von St. Gallen (ohne das Toggenburg) setzte sich der Katholizismus wieder durch.",
+      "supports": "Layers: Sargans and abbey lands Catholic again; Wartau and the Toggenburg not"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/013328/",
+      "title": "HLS: Reformation",
+      "quote": "Die äusseren Rhoden (ohne Herisau) schlossen sich dem neuen Glauben an, die Bewohner der inneren Rhoden (ohne Gais) verblieben mehrheitlich beim alten Glauben.",
+      "supports": "Layer Appenzell: outer parts Reformed, inner parts Catholic"
+     },
+     {
+      "url": "https://www.utbm.fr/wp-content/uploads/2015/04/Arg_CoeditionAlphil_UneResistanceAlaReforme.pdf",
+      "title": "L. Bartolini, Une résistance à la réforme dans le pays de Neuchâtel. Le Landeron et sa région (1530-1562), UTBM/Alphil 2006 (publisher sheet)",
+      "quote": "Seules de tout le Pays de Neuchâtel, les communes du Landeron et de Cressier ne passèrent pas à la Réforme",
+      "supports": "Layer Le Landeron and Cressier: stay Catholic inside Reformed Neuchâtel"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/013328/",
+      "title": "HLS: Reformation",
+      "quote": "in der Westschweiz führte Neuenburg mit Berner Unterstützung 1530 die Reformation ein",
+      "supports": "Layer Neuchâtel: Reformed 1530"
+     },
+     {
+      "url": "https://antipodes.ch/wp-content/uploads/2016/06/bruening_le-premier-champ-de-bataille-du-calvinisme_9782889010615_10.33056-ANTIPODES.10615.pdf",
+      "title": "M. W. Bruening, Le premier champ de bataille du calvinisme (Antipodes, 2011)",
+      "quote": "les villes et alentours d’Orbe, Échallens, Grandson et Morat seraient des bailliages communs de Berne et Fribourg",
+      "supports": "Layers Orbe, Grandson, Echallens: ruled together by Bern and Fribourg"
+     },
+     {
+      "url": "https://antipodes.ch/wp-content/uploads/2016/06/bruening_le-premier-champ-de-bataille-du-calvinisme_9782889010615_10.33056-ANTIPODES.10615.pdf",
+      "title": "M. W. Bruening, Le premier champ de bataille du calvinisme (Antipodes, 2011)",
+      "quote": "D’autres n’abolirent la messe que bien plus tard, comme Mex (1570) et Goumoëns (1575) ; d’autres, comme Échallens, jamais.",
+      "supports": "Layer Echallens villages: Echallens never gave up the Mass"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/017178/",
+      "title": "HLS: Gegenreformation",
+      "quote": "Es gelang ihm zwar, das Laufental, das Birseck und Delsberg zum Katholizismus zurückzuführen",
+      "supports": "Layer Laufen and Birseck (bishop of Basel)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/013328/",
+      "title": "HLS: Reformation",
+      "quote": "Unter dem Einfluss der Reformation in den Städten Bern, Biel und Basel schloss sich der Süden des Fürstbistums Basel der Reformation an.",
+      "supports": "Layer Other lands: the south of the bishopric of Basel became Reformed"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/013328/",
+      "title": "HLS: Reformation",
+      "quote": "Solothurn blieb katholisch, der Thurgau dagegen weitgehend reformiert.",
+      "supports": "Layers Thurgau (mostly Reformed) and Catholic cantons (Solothurn)"
+     }
+    ],
+    "uncertain": [
+     "Map details for which no source was found: Rheinau abbey and Ramsen Catholic; Werdenberg and Sax Reformed; Bucheggberg Reformed; the upper Rheintal (Oberriet) Catholic; the exact split of the Toggenburg into a mostly Reformed upper part and a mostly Catholic lower part; 27 shared churches in Thurgau; Näfels and Oberurnen as the Catholic places of Glarus.",
+     "John Knox came back from Geneva and led the Scottish Reformation (place Edinburgh, 1560).",
+     "The map's sorting of European countries into Protestant, divided and Catholic about 1560."
     ]
    },
    {
@@ -8930,8 +16132,8 @@ window.MAP_STORIES = [
     "tick": "1586",
     "title": "Catholic reform, Golden League",
     "text": [
-     "After the Council of Trent (1545–1563) the Catholic Church reforms itself. Cardinal Charles Borromeo, archbishop of Milan, is protector of the Swiss Catholics. In 1579 he founds the Collegium Helveticum in Milan to train Swiss priests.",
-     "Jesuits open colleges in Lucerne (1577) and Fribourg (1582), where Petrus Canisius works. Capuchin friars settle in Altdorf (1581) and many other towns. From 1586 a papal envoy (nuncio) lives in Lucerne.",
+     "After the Council of Trent (1545–1563) the Catholic Church reforms itself. Cardinal Charles Borromeo, archbishop of Milan, is protector of the Swiss Catholics. In 1579 his Collegium Helveticum in Milan opens to train Swiss priests.",
+     "Jesuits open colleges in Lucerne (1577) and Fribourg (1582); Petrus Canisius comes to Fribourg in 1580. Capuchin friars settle in Altdorf (1581) and many other towns. From 1586 a papal envoy (nuncio) lives in Lucerne.",
      "On 5 October 1586 the seven Catholic cantons sign the Golden League in Lucerne. They promise to keep the Catholic faith and to help each other. The bishop of Basel brings Laufen and Birseck back to the Catholic faith. Bern now rules the Pays-d'Enhaut (1555), which becomes Reformed."
     ],
     "view": [
@@ -9359,6 +16561,157 @@ window.MAP_STORIES = [
       "year": 1581,
       "note": "First Capuchin friary north of the Alps in Switzerland, 1581"
      }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/017178/",
+      "title": "HLS: Gegenreformation",
+      "quote": "Zudem hatte das Konzil von Trient (1545-1563) Fragen der Glaubenslehre geklärt",
+      "supports": "Council of Trent 1545-1563"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/017177/",
+      "title": "HLS: Katholische Reform",
+      "quote": "Kardinal Karl Borromäus, Staatssekretär des Papstes, dann Erzbischof von Mailand, wurde zum Protector Helvetiae ernannt.",
+      "supports": "Borromeo, archbishop of Milan, protector of the Swiss"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/017177/",
+      "title": "HLS: Katholische Reform",
+      "quote": "Zur Ausbildung der Priester aus der Eidgenossenschaft gründete er in Mailand das Collegium Helveticum .",
+      "supports": "He founded the Collegium Helveticum to train Swiss priests"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/010430/",
+      "title": "HLS: Collegium Helveticum",
+      "quote": "1579 wurde das Collegium Helveticum unter der Leitung und Verwaltung des Erzbischofs in einem eigenen Gebäude eröffnet.",
+      "supports": "It opened in 1579 (place Milan, Collegium Helveticum)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/017177/",
+      "title": "HLS: Katholische Reform",
+      "quote": "in Luzern (1577), Freiburg (1582)",
+      "supports": "Jesuit colleges in Lucerne (1577) and Fribourg (1582) (places Lucerne, Fribourg)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/017177/",
+      "title": "HLS: Katholische Reform",
+      "quote": "In diesem Zusammenhang kam Petrus Canisius 1580 nach Freiburg.",
+      "supports": "Canisius came to Fribourg in 1580"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/017177/",
+      "title": "HLS: Katholische Reform",
+      "quote": "gründeten 1581 ein Kloster in Altdorf (UR) und eines in Stans",
+      "supports": "Capuchins in Altdorf 1581 (place Altdorf)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/011742/",
+      "title": "HLS: Nuntiatur",
+      "quote": "1586 wurde auf Wunsch der Fünf Orte (Uri, Schwyz, Unterwalden, Luzern und Zug) in Luzern, dem katholischen Vorort, die ständige Nuntiatur errichtet",
+      "supports": "From 1586 a nuncio in Lucerne"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/017187/",
+      "title": "HLS: Goldener Bund",
+      "quote": "ist ein am 5. Oktober 1586 in Luzern abgeschlossenes Bündnis der sieben katholischen Orte (fünf innere Orte zusätzlich Freiburg und Solothurn)",
+      "supports": "Golden League of the seven Catholic cantons, 5 October 1586 (layer Golden League; place Lucerne)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/017187/",
+      "title": "HLS: Goldener Bund",
+      "quote": "Die Kontrahenten verpflichteten sich, beim alten Glauben zu bleiben, und versprachen sich gegenseitige Hilfe",
+      "supports": "They promise to keep the faith and help each other"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/017178/",
+      "title": "HLS: Gegenreformation",
+      "quote": "Es gelang ihm zwar, das Laufental, das Birseck und Delsberg zum Katholizismus zurückzuführen",
+      "supports": "The bishop of Basel brings Laufen and Birseck back (layer Laufen and Birseck)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/017178/",
+      "title": "HLS: Gegenreformation",
+      "quote": "bis auf das Pays de Gex, das an Frankreich fiel",
+      "supports": "Layer Gex: France from 1601"
+     },
+     {
+      "url": "https://www.staatsarchiv.sta.be.ch/content/dam/staatsarchiv_sta/dokumente/fr/bestände/guide-sources-vaud-berne.pdf",
+      "title": "N. Furrer, Guide des sources du Pays de Vaud à l'époque bernoise (1536-1798), Staatsarchiv Bern / ACV",
+      "quote": "le Pays-d’Enhaut appartenait au bailliage « allemand » de Saanen (Gessenay)",
+      "supports": "Bern rules the Pays-d'Enhaut (bailiwick of Saanen)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/009807/",
+      "title": "HLS: Landfriedensbünde",
+      "quote": "entstanden in den Gemeinden der Landvogtei Thurgau, der Grafschaft Baden und des Rheintals paritätische Verhältnisse",
+      "supports": "Layers Thurgau, Rheintal, County of Baden: mixed parishes"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/013328/",
+      "title": "HLS: Reformation",
+      "quote": "In Glarus, Teilen Graubündens und im Thurgau teilten sich Katholiken und Evangelische an vielen Orten eine Kirche",
+      "supports": "Layers Glarus, Thurgau, Three Leagues: shared churches"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/009807/",
+      "title": "HLS: Landfriedensbünde",
+      "quote": "Im Sarganserland (ohne die Herrschaft Wartau) und im Territorium des Abtes von St. Gallen (ohne das Toggenburg) setzte sich der Katholizismus wieder durch.",
+      "supports": "Layers: Sargans and abbey lands Catholic again; Wartau and the Toggenburg not"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/013328/",
+      "title": "HLS: Reformation",
+      "quote": "Die äusseren Rhoden (ohne Herisau) schlossen sich dem neuen Glauben an, die Bewohner der inneren Rhoden (ohne Gais) verblieben mehrheitlich beim alten Glauben.",
+      "supports": "Layer Appenzell: outer parts Reformed, inner parts Catholic"
+     },
+     {
+      "url": "https://www.utbm.fr/wp-content/uploads/2015/04/Arg_CoeditionAlphil_UneResistanceAlaReforme.pdf",
+      "title": "L. Bartolini, Une résistance à la réforme dans le pays de Neuchâtel. Le Landeron et sa région (1530-1562), UTBM/Alphil 2006 (publisher sheet)",
+      "quote": "Seules de tout le Pays de Neuchâtel, les communes du Landeron et de Cressier ne passèrent pas à la Réforme",
+      "supports": "Layer Le Landeron and Cressier: stay Catholic inside Reformed Neuchâtel"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/013328/",
+      "title": "HLS: Reformation",
+      "quote": "in der Westschweiz führte Neuenburg mit Berner Unterstützung 1530 die Reformation ein",
+      "supports": "Layer Neuchâtel: Reformed 1530"
+     },
+     {
+      "url": "https://antipodes.ch/wp-content/uploads/2016/06/bruening_le-premier-champ-de-bataille-du-calvinisme_9782889010615_10.33056-ANTIPODES.10615.pdf",
+      "title": "M. W. Bruening, Le premier champ de bataille du calvinisme (Antipodes, 2011)",
+      "quote": "les villes et alentours d’Orbe, Échallens, Grandson et Morat seraient des bailliages communs de Berne et Fribourg",
+      "supports": "Layers Orbe, Grandson, Echallens: ruled together by Bern and Fribourg"
+     },
+     {
+      "url": "https://antipodes.ch/wp-content/uploads/2016/06/bruening_le-premier-champ-de-bataille-du-calvinisme_9782889010615_10.33056-ANTIPODES.10615.pdf",
+      "title": "M. W. Bruening, Le premier champ de bataille du calvinisme (Antipodes, 2011)",
+      "quote": "D’autres n’abolirent la messe que bien plus tard, comme Mex (1570) et Goumoëns (1575) ; d’autres, comme Échallens, jamais.",
+      "supports": "Layer Echallens villages: Echallens never gave up the Mass"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/017178/",
+      "title": "HLS: Gegenreformation",
+      "quote": "Es gelang ihm zwar, das Laufental, das Birseck und Delsberg zum Katholizismus zurückzuführen",
+      "supports": "Layer Laufen and Birseck (bishop of Basel)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/013328/",
+      "title": "HLS: Reformation",
+      "quote": "Unter dem Einfluss der Reformation in den Städten Bern, Biel und Basel schloss sich der Süden des Fürstbistums Basel der Reformation an.",
+      "supports": "Layer Other lands: the south of the bishopric of Basel became Reformed"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/013328/",
+      "title": "HLS: Reformation",
+      "quote": "Solothurn blieb katholisch, der Thurgau dagegen weitgehend reformiert.",
+      "supports": "Layers Thurgau (mostly Reformed) and Catholic cantons (Solothurn)"
+     }
+    ],
+    "uncertain": [
+     "Map details for which no source was found: Rheinau abbey and Ramsen Catholic; Werdenberg and Sax Reformed; Bucheggberg Reformed; the upper Rheintal (Oberriet) Catholic; the exact split of the Toggenburg into a mostly Reformed upper part and a mostly Catholic lower part; 27 shared churches in Thurgau; Näfels and Oberurnen as the Catholic places of Glarus.",
+     "Bern took the Pays-d'Enhaut in 1555, and it then became Reformed.",
+     "Reformed worship was still tolerated in the Pays de Gex after 1601."
     ]
    },
    {
@@ -9366,9 +16719,9 @@ window.MAP_STORIES = [
     "tick": "1597",
     "title": "Appenzell splits in two",
     "text": [
-     "Since 1525 Appenzell has two faiths: the outer parishes are Reformed, the inner parishes Catholic. After 1580 the conflict grows, for example about the Capuchins and a Catholic alliance with Spain.",
+     "Since 1525 Appenzell has two faiths: the outer parishes are Reformed, the inner parishes Catholic. After 1580 the conflict grows, for example about a Catholic alliance with Spain.",
      "In 1597 the land splits. Catholic Innerrhoden has its seat in Appenzell; Reformed Ausserrhoden meets in Trogen and Hundwil. Each half has its own Landsgemeinde. Innerrhoden joins the Golden League in 1600.",
-     "Glarus does not split. Its Catholics and Reformed share some offices and the church in Glarus. From 1623 each side holds its own Landsgemeinde, the Reformed in Schwanden and the Catholics in Näfels."
+     "Glarus does not split. Its Catholics and Reformed share some offices and the church in Glarus. From 1623 each side holds its own Landsgemeinde, and there is also a common one."
     ],
     "view": "ch",
     "layers": [
@@ -9803,6 +17156,146 @@ window.MAP_STORIES = [
       "year": 1623,
       "note": "Reformed Landsgemeinde of Glarus from 1623"
      }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/013328/",
+      "title": "HLS: Reformation",
+      "quote": "Die äusseren Rhoden (ohne Herisau) schlossen sich dem neuen Glauben an, die Bewohner der inneren Rhoden (ohne Gais) verblieben mehrheitlich beim alten Glauben.",
+      "supports": "Since 1525: outer parishes Reformed, inner Catholic"
+     },
+     {
+      "url": "https://www.ai.ch/land-und-leute/geschichte/1597-die-landteilung",
+      "title": "Kanton Appenzell Innerrhoden (ai.ch): 1597 – die Landteilung",
+      "quote": "dem kurz zuvor abgeschlossene Soldbündnis mit dem habsburgischen Spanien",
+      "supports": "The conflict about the alliance with Spain"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/013328/",
+      "title": "HLS: Reformation",
+      "quote": "führten die Auseinandersetzungen in Appenzell 1597 zur Landesteilung",
+      "supports": "In 1597 the land splits"
+     },
+     {
+      "url": "https://www.ai.ch/land-und-leute/geschichte/1597-die-landteilung",
+      "title": "Kanton Appenzell Innerrhoden (ai.ch): 1597 – die Landteilung",
+      "quote": "den katholischen inneren Rhoden und den reformierten äusseren Rhoden",
+      "supports": "Catholic Innerrhoden and Reformed Ausserrhoden (layers)"
+     },
+     {
+      "url": "https://www.ai.ch/land-und-leute/geschichte/1597-die-landteilung",
+      "title": "Kanton Appenzell Innerrhoden (ai.ch): 1597 – die Landteilung",
+      "quote": "Im Juni 1597 stimmten Inner- und Ausserrhoder auf separaten Landsgemeinden",
+      "supports": "Each half has its own Landsgemeinde"
+     },
+     {
+      "url": "https://www.ar.ch/fileadmin/user_upload/Regierungsrat/Kantonsverfassung/Themenblaetter/Arbeitsgruppe_1/Themenblatt_112_Hauptort_des_Kantons_Weiterverwendung_nach_Plenum_25042019.pdf",
+      "title": "Kanton Appenzell Ausserrhoden, Verfassungsrevision, Themenblatt 112: Hauptort des Kantons (quoting Schläpfer, Appenzeller Geschichte)",
+      "quote": "Eine Landsgemeinde, die am 22. November 1597 in Hundwil zusammentrat, entschied mit knapper Mehrheit, dass Rathaus, Stock und Galgen in Trogen errichtet werden sollten.",
+      "supports": "Ausserrhoden Landsgemeinde in Hundwil; seat in Trogen (places Hundwil, Trogen)"
+     },
+     {
+      "url": "https://www.ar.ch/fileadmin/user_upload/Regierungsrat/Kantonsverfassung/Themenblaetter/Arbeitsgruppe_1/Themenblatt_112_Hauptort_des_Kantons_Weiterverwendung_nach_Plenum_25042019.pdf",
+      "title": "Kanton Appenzell Ausserrhoden, Verfassungsrevision, Themenblatt 112: Hauptort des Kantons (quoting HLS)",
+      "quote": "Nach der Landteilung 1597 wurde T. Hauptort des Landes Appenzell Ausserrhoden und war fortan Landsgemeindeort",
+      "supports": "Trogen became the seat of Ausserrhoden"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/017187/",
+      "title": "HLS: Goldener Bund",
+      "quote": "1600 wurde Appenzell Innerrhoden in den Goldenen Bund aufgenommen",
+      "supports": "Innerrhoden joins the Golden League in 1600"
+     },
+     {
+      "url": "https://landsgemeinde.gl.ch/storage/c7ff04afdc5bf6ce95cf5ea71324f55ff5222c392834a269a44e81be31624b63",
+      "title": "Kanton Glarus: Jürg Davatz, Die Landsgemeinde des Kantons Glarus – Geschichte und Gegenwart",
+      "quote": "Die Reformation spaltete das Land Glarus in eine reformierte Mehrheit und eine katholische Minderheit.",
+      "supports": "Glarus: Reformed majority, Catholic minority"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/013328/",
+      "title": "HLS: Reformation",
+      "quote": "In Glarus, Teilen Graubündens und im Thurgau teilten sich Katholiken und Evangelische an vielen Orten eine Kirche",
+      "supports": "Glarus shared churches"
+     },
+     {
+      "url": "https://landsgemeinde.gl.ch/storage/c7ff04afdc5bf6ce95cf5ea71324f55ff5222c392834a269a44e81be31624b63",
+      "title": "Kanton Glarus: Jürg Davatz, Die Landsgemeinde des Kantons Glarus – Geschichte und Gegenwart",
+      "quote": "Der dritte Landesvertrag von 1623 führte drei Landsgemeinden ein: eine katholische, eine reformierte und eine gemeinsame.",
+      "supports": "From 1623 separate Catholic and Reformed Landsgemeinden, plus a common one"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/009807/",
+      "title": "HLS: Landfriedensbünde",
+      "quote": "entstanden in den Gemeinden der Landvogtei Thurgau, der Grafschaft Baden und des Rheintals paritätische Verhältnisse",
+      "supports": "Layers Thurgau, Rheintal, County of Baden: mixed parishes"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/013328/",
+      "title": "HLS: Reformation",
+      "quote": "In Glarus, Teilen Graubündens und im Thurgau teilten sich Katholiken und Evangelische an vielen Orten eine Kirche",
+      "supports": "Layers Glarus, Thurgau, Three Leagues: shared churches"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/009807/",
+      "title": "HLS: Landfriedensbünde",
+      "quote": "Im Sarganserland (ohne die Herrschaft Wartau) und im Territorium des Abtes von St. Gallen (ohne das Toggenburg) setzte sich der Katholizismus wieder durch.",
+      "supports": "Layers: Sargans and abbey lands Catholic again; Wartau and the Toggenburg not"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/013328/",
+      "title": "HLS: Reformation",
+      "quote": "Die äusseren Rhoden (ohne Herisau) schlossen sich dem neuen Glauben an, die Bewohner der inneren Rhoden (ohne Gais) verblieben mehrheitlich beim alten Glauben.",
+      "supports": "Layer Appenzell: outer parts Reformed, inner parts Catholic"
+     },
+     {
+      "url": "https://www.utbm.fr/wp-content/uploads/2015/04/Arg_CoeditionAlphil_UneResistanceAlaReforme.pdf",
+      "title": "L. Bartolini, Une résistance à la réforme dans le pays de Neuchâtel. Le Landeron et sa région (1530-1562), UTBM/Alphil 2006 (publisher sheet)",
+      "quote": "Seules de tout le Pays de Neuchâtel, les communes du Landeron et de Cressier ne passèrent pas à la Réforme",
+      "supports": "Layer Le Landeron and Cressier: stay Catholic inside Reformed Neuchâtel"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/013328/",
+      "title": "HLS: Reformation",
+      "quote": "in der Westschweiz führte Neuenburg mit Berner Unterstützung 1530 die Reformation ein",
+      "supports": "Layer Neuchâtel: Reformed 1530"
+     },
+     {
+      "url": "https://antipodes.ch/wp-content/uploads/2016/06/bruening_le-premier-champ-de-bataille-du-calvinisme_9782889010615_10.33056-ANTIPODES.10615.pdf",
+      "title": "M. W. Bruening, Le premier champ de bataille du calvinisme (Antipodes, 2011)",
+      "quote": "les villes et alentours d’Orbe, Échallens, Grandson et Morat seraient des bailliages communs de Berne et Fribourg",
+      "supports": "Layers Orbe, Grandson, Echallens: ruled together by Bern and Fribourg"
+     },
+     {
+      "url": "https://antipodes.ch/wp-content/uploads/2016/06/bruening_le-premier-champ-de-bataille-du-calvinisme_9782889010615_10.33056-ANTIPODES.10615.pdf",
+      "title": "M. W. Bruening, Le premier champ de bataille du calvinisme (Antipodes, 2011)",
+      "quote": "D’autres n’abolirent la messe que bien plus tard, comme Mex (1570) et Goumoëns (1575) ; d’autres, comme Échallens, jamais.",
+      "supports": "Layer Echallens villages: Echallens never gave up the Mass"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/017178/",
+      "title": "HLS: Gegenreformation",
+      "quote": "Es gelang ihm zwar, das Laufental, das Birseck und Delsberg zum Katholizismus zurückzuführen",
+      "supports": "Layer Laufen and Birseck (bishop of Basel)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/013328/",
+      "title": "HLS: Reformation",
+      "quote": "Unter dem Einfluss der Reformation in den Städten Bern, Biel und Basel schloss sich der Süden des Fürstbistums Basel der Reformation an.",
+      "supports": "Layer Other lands: the south of the bishopric of Basel became Reformed"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/013328/",
+      "title": "HLS: Reformation",
+      "quote": "Solothurn blieb katholisch, der Thurgau dagegen weitgehend reformiert.",
+      "supports": "Layers Thurgau (mostly Reformed) and Catholic cantons (Solothurn)"
+     }
+    ],
+    "uncertain": [
+     "Map details for which no source was found: Rheinau abbey and Ramsen Catholic; Werdenberg and Sax Reformed; Bucheggberg Reformed; the upper Rheintal (Oberriet) Catholic; the exact split of the Toggenburg into a mostly Reformed upper part and a mostly Catholic lower part; 27 shared churches in Thurgau; Näfels and Oberurnen as the Catholic places of Glarus.",
+     "The seat of Innerrhoden was the village of Appenzell (place).",
+     "The Capuchins were one cause of the conflict in Appenzell.",
+     "From 1623 the Reformed of Glarus met in Schwanden and the Catholics in Näfels."
     ]
    },
    {
@@ -9810,8 +17303,8 @@ window.MAP_STORIES = [
     "tick": "1620–1639",
     "title": "Graubünden: faith by commune",
     "text": [
-     "In the Three Leagues there is no ruler who decides the faith. Since the Ilanz Articles (1526) each commune elects its pastor and so chooses its faith. Chur, the Prättigau, the Schams and the Heinzenberg turn Reformed first; the Engadine follows after 1550.",
-     "In the Thirty Years' War (1618–1648) Graubünden is fought over by Spain, Austria and France. In July 1620 Catholics in the Valtellina kill hundreds of Reformed. Austrian troops try to make the Prättigau and the Lower Engadine Catholic again, without success.",
+     "In the Three Leagues there is no ruler who decides the faith. Since the Ilanz Articles (1524, 1526) each commune elects its pastor and so chooses its faith. Chur turns Reformed by 1527; by about 1530 many communes of the Ten Jurisdictions, the Heinzenberg and the Schams follow. The Engadine follows after 1550.",
+     "In the Thirty Years' War (1618–1648) Graubünden is fought over by Spain, Austria and France. In July 1620 Catholics in the Valtellina kill about 600 Reformed. Austrian troops try to make the Prättigau and the Lower Engadine Catholic again, without success.",
      "By about 1640 the map is fixed and stays almost the same until 1803. The Surselva, the Oberhalbstein and the Misox are Catholic. Some communes have both faiths, for example Poschiavo, Brusio, the Vier Dörfer near Chur and Val Müstair."
     ],
     "view": [
@@ -10357,6 +17850,157 @@ window.MAP_STORIES = [
       "year": 1620,
       "note": "Valtellina massacre, July 1620"
      }
+    ],
+    "sources": [
+     {
+      "url": "https://kulturforschung.ch/storage/atlasgr/seiten/32_konfessionen.pdf",
+      "title": "Institut für Kulturforschung Graubünden, Atlas Graubünden, Thema 32: Konfessionen",
+      "quote": "Die Gemeinden konnten ihre Pfarrer, und damit auch ihre Konfession, nun eigenständig wählen.",
+      "supports": "Each commune elects its pastor and so its faith (layers Graubünden)"
+     },
+     {
+      "url": "https://kulturforschung.ch/storage/atlasgr/seiten/32_konfessionen.pdf",
+      "title": "Institut für Kulturforschung Graubünden, Atlas: Konfessionen (page 32)",
+      "quote": "Mit den Ilanzer Artikelbriefen von 1524 und 1526 wurden die herrschaftlichen und kirchlichen Verhältnisse der Drei Bünde neu geordnet.",
+      "supports": "Ilanz Articles 1524, 1526 (place Ilanz)"
+     },
+     {
+      "url": "https://kulturforschung.ch/storage/atlasgr/seiten/32_konfessionen.pdf",
+      "title": "Institut für Kulturforschung Graubünden, Atlas Graubünden, Thema 32: Konfessionen",
+      "quote": "In Chur setzte sich durch die Predigttätigkeit des Stadtpfarrers Johannes Comander (1485–1557) von 1523 bis 1527 die Reformation durch.",
+      "supports": "Chur Reformed 1523-1527 under Comander (place Chur)"
+     },
+     {
+      "url": "https://kulturforschung.ch/storage/atlasgr/seiten/32_konfessionen.pdf",
+      "title": "Institut für Kulturforschung Graubünden, Atlas Graubünden: Konfessionen",
+      "quote": "In der Folge entschieden sich bis um 1530 ein Grossteil der Gemeinden im Zehngerichtebund, am Heinzenberg",
+      "supports": "By about 1530 many communes of the Ten Jurisdictions and the Heinzenberg turned Reformed"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/013328/",
+      "title": "HLS: Reformation",
+      "quote": "Die Gemeinden des Engadins entschieden sich zum Beispiel erst in der zweiten Hälfte des 16. Jahrhunderts für den neuen Glauben.",
+      "supports": "The Engadine follows after 1550"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/028698/",
+      "title": "HLS: Bündner Wirren",
+      "quote": "Zwei weitere österreichische Invasionen folgten 1623-1624 und 1629-1631.",
+      "supports": "Graubünden fought over by Austria"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/028698/",
+      "title": "HLS: Bündner Wirren",
+      "quote": "betrachtete das Veltlin als geeigneten Ansatzpunkt, um Spanien zu schwächen",
+      "supports": "France and Spain fought over the Valtellina (layer Valtellina)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/024652/",
+      "title": "HLS: Veltliner Mord",
+      "quote": "Ermordung von ca. 600 Protestanten des Veltlins vom 19. bis am 23. Juli 1620",
+      "supports": "In July 1620 about 600 Reformed killed in the Valtellina (place Tirano)"
+     },
+     {
+      "url": "https://kulturforschung.ch/storage/atlasgr/seiten/32_konfessionen.pdf",
+      "title": "Institut für Kulturforschung Graubünden, Atlas Graubünden, Thema 32: Konfessionen",
+      "quote": "Versuche in den 1620er-Jahren, unter dem Schutz der Besatzungsmacht Österreich das Prättigau und das Unterengadin mithilfe von Kapuzinermissionaren zu rekatholisieren, blieben erfolglos.",
+      "supports": "Austrian attempts to make the Prättigau and Lower Engadine Catholic failed"
+     },
+     {
+      "url": "https://kulturforschung.ch/storage/atlasgr/seiten/32_konfessionen.pdf",
+      "title": "Institut für Kulturforschung Graubünden, Atlas Graubünden, Thema 32: Konfessionen",
+      "quote": "Im Veltlin hingegen verbot das Mailänder Kapitulat von 1639 den Reformierten endgültig die Niederlassung",
+      "supports": "Valtellina Catholic only from 1639 (layer Valtellina)"
+     },
+     {
+      "url": "https://kulturforschung.ch/storage/atlasgr/seiten/32_konfessionen.pdf",
+      "title": "Institut für Kulturforschung Graubünden, Atlas Graubünden, Thema 32: Konfessionen",
+      "quote": "Damit war bis um 1640 eine Ausprägung der Konfessionslandschaft erreicht, wie sie auch 1803 bei der Kantonsgründung noch bestand.",
+      "supports": "The map was fixed by about 1640 and stayed until 1803"
+     },
+     {
+      "url": "https://kulturforschung.ch/storage/atlasgr/seiten/32_konfessionen.pdf",
+      "title": "Institut für Kulturforschung Graubünden, Atlas Graubünden, Thema 32: Konfessionen",
+      "quote": "katholischen Reformbemühungen war die Vertreibung der Reformierten aus dem Misox",
+      "supports": "Misox Catholic"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/013328/",
+      "title": "HLS: Reformation",
+      "quote": "In Glarus, Teilen Graubündens und im Thurgau teilten sich Katholiken und Evangelische an vielen Orten eine Kirche",
+      "supports": "Mixed communes with shared churches in Graubünden (layer mixed communes)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/009807/",
+      "title": "HLS: Landfriedensbünde",
+      "quote": "entstanden in den Gemeinden der Landvogtei Thurgau, der Grafschaft Baden und des Rheintals paritätische Verhältnisse",
+      "supports": "Layers Thurgau, Rheintal, County of Baden: mixed parishes"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/013328/",
+      "title": "HLS: Reformation",
+      "quote": "In Glarus, Teilen Graubündens und im Thurgau teilten sich Katholiken und Evangelische an vielen Orten eine Kirche",
+      "supports": "Layers Glarus, Thurgau, Three Leagues: shared churches"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/009807/",
+      "title": "HLS: Landfriedensbünde",
+      "quote": "Im Sarganserland (ohne die Herrschaft Wartau) und im Territorium des Abtes von St. Gallen (ohne das Toggenburg) setzte sich der Katholizismus wieder durch.",
+      "supports": "Layers: Sargans and abbey lands Catholic again; Wartau and the Toggenburg not"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/013328/",
+      "title": "HLS: Reformation",
+      "quote": "Die äusseren Rhoden (ohne Herisau) schlossen sich dem neuen Glauben an, die Bewohner der inneren Rhoden (ohne Gais) verblieben mehrheitlich beim alten Glauben.",
+      "supports": "Layer Appenzell: outer parts Reformed, inner parts Catholic"
+     },
+     {
+      "url": "https://www.utbm.fr/wp-content/uploads/2015/04/Arg_CoeditionAlphil_UneResistanceAlaReforme.pdf",
+      "title": "L. Bartolini, Une résistance à la réforme dans le pays de Neuchâtel. Le Landeron et sa région (1530-1562), UTBM/Alphil 2006 (publisher sheet)",
+      "quote": "Seules de tout le Pays de Neuchâtel, les communes du Landeron et de Cressier ne passèrent pas à la Réforme",
+      "supports": "Layer Le Landeron and Cressier: stay Catholic inside Reformed Neuchâtel"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/013328/",
+      "title": "HLS: Reformation",
+      "quote": "in der Westschweiz führte Neuenburg mit Berner Unterstützung 1530 die Reformation ein",
+      "supports": "Layer Neuchâtel: Reformed 1530"
+     },
+     {
+      "url": "https://antipodes.ch/wp-content/uploads/2016/06/bruening_le-premier-champ-de-bataille-du-calvinisme_9782889010615_10.33056-ANTIPODES.10615.pdf",
+      "title": "M. W. Bruening, Le premier champ de bataille du calvinisme (Antipodes, 2011)",
+      "quote": "les villes et alentours d’Orbe, Échallens, Grandson et Morat seraient des bailliages communs de Berne et Fribourg",
+      "supports": "Layers Orbe, Grandson, Echallens: ruled together by Bern and Fribourg"
+     },
+     {
+      "url": "https://antipodes.ch/wp-content/uploads/2016/06/bruening_le-premier-champ-de-bataille-du-calvinisme_9782889010615_10.33056-ANTIPODES.10615.pdf",
+      "title": "M. W. Bruening, Le premier champ de bataille du calvinisme (Antipodes, 2011)",
+      "quote": "D’autres n’abolirent la messe que bien plus tard, comme Mex (1570) et Goumoëns (1575) ; d’autres, comme Échallens, jamais.",
+      "supports": "Layer Echallens villages: Echallens never gave up the Mass"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/017178/",
+      "title": "HLS: Gegenreformation",
+      "quote": "Es gelang ihm zwar, das Laufental, das Birseck und Delsberg zum Katholizismus zurückzuführen",
+      "supports": "Layer Laufen and Birseck (bishop of Basel)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/013328/",
+      "title": "HLS: Reformation",
+      "quote": "Unter dem Einfluss der Reformation in den Städten Bern, Biel und Basel schloss sich der Süden des Fürstbistums Basel der Reformation an.",
+      "supports": "Layer Other lands: the south of the bishopric of Basel became Reformed"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/013328/",
+      "title": "HLS: Reformation",
+      "quote": "Solothurn blieb katholisch, der Thurgau dagegen weitgehend reformiert.",
+      "supports": "Layers Thurgau (mostly Reformed) and Catholic cantons (Solothurn)"
+     }
+    ],
+    "uncertain": [
+     "Map details for which no source was found: Rheinau abbey and Ramsen Catholic; Werdenberg and Sax Reformed; Bucheggberg Reformed; the upper Rheintal (Oberriet) Catholic; the exact split of the Toggenburg into a mostly Reformed upper part and a mostly Catholic lower part; 27 shared churches in Thurgau; Näfels and Oberurnen as the Catholic places of Glarus.",
+     "The Surselva and the Oberhalbstein were Catholic about 1640.",
+     "Brusio, the Vier Dörfer and Val Müstair had both faiths."
     ]
    },
    {
@@ -10893,6 +18537,149 @@ window.MAP_STORIES = [
       "year": 1656,
       "note": "Zurich besieges it in vain"
      }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008910/",
+      "title": "HLS: Villmergerkrieg, Erster",
+      "quote": "Im September 1655 traf eine Gruppe von reformierten Flüchtlingen (Nikodemiten) aus Arth in Zürich ein.",
+      "supports": "Secret Reformed of Arth flee to Zurich in September 1655 (place Arth)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008910/",
+      "title": "HLS: Villmergerkrieg, Erster",
+      "quote": "Entgegen Berner Warnungen wurden vier in Schwyz verbliebene Reformierte hingerichtet.",
+      "supports": "Schwyz executes four Reformed"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008910/",
+      "title": "HLS: Villmergerkrieg, Erster",
+      "quote": "Der Erste Villmergerkrieg begann mit dem Kriegsmanifest Berns und Zürichs am 6. Januar 1656",
+      "supports": "War declared on 6 January 1656"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008910/",
+      "title": "HLS: Villmergerkrieg, Erster",
+      "quote": "Eine Vereinigung beider Truppen scheiterte am schleppenden Verlauf der Belagerung der Stadt Rapperswil durch Zürcher Truppen.",
+      "supports": "Zurich besieges Rapperswil (place Rapperswil)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008910/",
+      "title": "HLS: Villmergerkrieg, Erster",
+      "quote": "Als sein Sturmangriff auf Rapperswil am 3. Februar misslang",
+      "supports": "Zurich cannot take Rapperswil"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008910/",
+      "title": "HLS: Villmergerkrieg, Erster",
+      "quote": "In einem Überraschungsangriff schlugen Luzerner und Zuger Truppen unter Christoph Pfyffer das Berner Heer bei Villmergen.",
+      "supports": "Lucerne and Zug surprise and beat Bern at Villmergen (place Villmergen)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008910/",
+      "title": "HLS: Villmergerkrieg, Erster",
+      "quote": "Die Entscheidung zugunsten der katholischen Orte – Freiburg und Solothurn waren neutral geblieben – fiel am 24. Januar 1656.",
+      "supports": "24 January 1656"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008910/",
+      "title": "HLS: Villmergerkrieg, Erster",
+      "quote": "Der reformierte Versuch, die Freien Ämter, die das Zürcher und Berner Territorium trennten, zu besetzen, war damit gescheitert.",
+      "supports": "The plan to take the Freie Ämter fails"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008910/",
+      "title": "HLS: Villmergerkrieg, Erster",
+      "quote": "endete mit dem Abschluss des Dritten Landfriedens zu Baden am 7. März 1656",
+      "supports": "Third Land Peace, 7 March 1656"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008910/",
+      "title": "HLS: Villmergerkrieg, Erster",
+      "quote": "eine Erneuerung des Status quo ante, indem der Zweite Landfrieden von 1531 bestätigt wurde",
+      "supports": "It restores the order of 1531"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/009807/",
+      "title": "HLS: Landfriedensbünde",
+      "quote": "wurde die Religionshoheit der Orte gestärkt",
+      "supports": "Each canton stays master of the faith in its land"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/009807/",
+      "title": "HLS: Landfriedensbünde",
+      "quote": "Die Begünstigung der Katholiken in den gemischtkonfessionellen Gebieten durch die Mehrheitsbeschlüsse der regierenden Orte",
+      "supports": "The Catholic lead in the common lordships"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/009807/",
+      "title": "HLS: Landfriedensbünde",
+      "quote": "entstanden in den Gemeinden der Landvogtei Thurgau, der Grafschaft Baden und des Rheintals paritätische Verhältnisse",
+      "supports": "Layers Thurgau, Rheintal, County of Baden: mixed parishes"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/013328/",
+      "title": "HLS: Reformation",
+      "quote": "In Glarus, Teilen Graubündens und im Thurgau teilten sich Katholiken und Evangelische an vielen Orten eine Kirche",
+      "supports": "Layers Glarus, Thurgau, Three Leagues: shared churches"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/009807/",
+      "title": "HLS: Landfriedensbünde",
+      "quote": "Im Sarganserland (ohne die Herrschaft Wartau) und im Territorium des Abtes von St. Gallen (ohne das Toggenburg) setzte sich der Katholizismus wieder durch.",
+      "supports": "Layers: Sargans and abbey lands Catholic again; Wartau and the Toggenburg not"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/013328/",
+      "title": "HLS: Reformation",
+      "quote": "Die äusseren Rhoden (ohne Herisau) schlossen sich dem neuen Glauben an, die Bewohner der inneren Rhoden (ohne Gais) verblieben mehrheitlich beim alten Glauben.",
+      "supports": "Layer Appenzell: outer parts Reformed, inner parts Catholic"
+     },
+     {
+      "url": "https://www.utbm.fr/wp-content/uploads/2015/04/Arg_CoeditionAlphil_UneResistanceAlaReforme.pdf",
+      "title": "L. Bartolini, Une résistance à la réforme dans le pays de Neuchâtel. Le Landeron et sa région (1530-1562), UTBM/Alphil 2006 (publisher sheet)",
+      "quote": "Seules de tout le Pays de Neuchâtel, les communes du Landeron et de Cressier ne passèrent pas à la Réforme",
+      "supports": "Layer Le Landeron and Cressier: stay Catholic inside Reformed Neuchâtel"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/013328/",
+      "title": "HLS: Reformation",
+      "quote": "in der Westschweiz führte Neuenburg mit Berner Unterstützung 1530 die Reformation ein",
+      "supports": "Layer Neuchâtel: Reformed 1530"
+     },
+     {
+      "url": "https://antipodes.ch/wp-content/uploads/2016/06/bruening_le-premier-champ-de-bataille-du-calvinisme_9782889010615_10.33056-ANTIPODES.10615.pdf",
+      "title": "M. W. Bruening, Le premier champ de bataille du calvinisme (Antipodes, 2011)",
+      "quote": "les villes et alentours d’Orbe, Échallens, Grandson et Morat seraient des bailliages communs de Berne et Fribourg",
+      "supports": "Layers Orbe, Grandson, Echallens: ruled together by Bern and Fribourg"
+     },
+     {
+      "url": "https://antipodes.ch/wp-content/uploads/2016/06/bruening_le-premier-champ-de-bataille-du-calvinisme_9782889010615_10.33056-ANTIPODES.10615.pdf",
+      "title": "M. W. Bruening, Le premier champ de bataille du calvinisme (Antipodes, 2011)",
+      "quote": "D’autres n’abolirent la messe que bien plus tard, comme Mex (1570) et Goumoëns (1575) ; d’autres, comme Échallens, jamais.",
+      "supports": "Layer Echallens villages: Echallens never gave up the Mass"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/017178/",
+      "title": "HLS: Gegenreformation",
+      "quote": "Es gelang ihm zwar, das Laufental, das Birseck und Delsberg zum Katholizismus zurückzuführen",
+      "supports": "Layer Laufen and Birseck (bishop of Basel)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/013328/",
+      "title": "HLS: Reformation",
+      "quote": "Unter dem Einfluss der Reformation in den Städten Bern, Biel und Basel schloss sich der Süden des Fürstbistums Basel der Reformation an.",
+      "supports": "Layer Other lands: the south of the bishopric of Basel became Reformed"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/013328/",
+      "title": "HLS: Reformation",
+      "quote": "Solothurn blieb katholisch, der Thurgau dagegen weitgehend reformiert.",
+      "supports": "Layers Thurgau (mostly Reformed) and Catholic cantons (Solothurn)"
+     }
+    ],
+    "uncertain": [
+     "Map details for which no source was found: Rheinau abbey and Ramsen Catholic; Werdenberg and Sax Reformed; Bucheggberg Reformed; the upper Rheintal (Oberriet) Catholic; the exact split of the Toggenburg into a mostly Reformed upper part and a mostly Catholic lower part; 27 shared churches in Thurgau; Näfels and Oberurnen as the Catholic places of Glarus."
     ]
    },
    {
@@ -11437,6 +19224,168 @@ window.MAP_STORIES = [
       "year": 1712,
       "note": "Zurich takes the abbot's town"
      }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008911/",
+      "title": "HLS: Villmergerkrieg, Zweiter",
+      "quote": "der als überkonfessioneller Untertanenaufstand der Toggenburger gegen ihren Landesherrn begann",
+      "supports": "The Toggenburg rises against its lord"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008911/",
+      "title": "HLS: Villmergerkrieg, Zweiter",
+      "quote": "zwischen dem Fürstabt und seinen mehrheitlich reformierten Toggenburger Untertanen",
+      "supports": "The Toggenburg was mostly Reformed; the lord was the abbot of St. Gallen"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008911/",
+      "title": "HLS: Villmergerkrieg, Zweiter",
+      "quote": "Zürich und Bern unterstützten dieses Vorgehen und richteten am 13. April 1712 ein Manifest gegen den Fürstabt",
+      "supports": "Zurich and Bern support the Toggenburg"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008911/",
+      "title": "HLS: Villmergerkrieg, Zweiter",
+      "quote": "worauf die fünf inneren Orte auf die Seite des Fürstabts traten",
+      "supports": "The five inner cantons support the abbot"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008911/",
+      "title": "HLS: Villmergerkrieg, Zweiter",
+      "quote": "Die reformierten Streitkräfte besetzten den Thurgau.",
+      "supports": "They occupy Thurgau"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008911/",
+      "title": "HLS: Villmergerkrieg, Zweiter",
+      "quote": "Zürcher Truppen belagerten und beschossen Wil (SG)",
+      "supports": "Zurich takes Wil (place Wil)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008911/",
+      "title": "HLS: Villmergerkrieg, Zweiter",
+      "quote": "In einem Gefecht bei Bremgarten (AG) am 26. Mai, der sogenannte Staudenschlacht, siegten die reformierten Streitkräfte.",
+      "supports": "Win near Bremgarten on 26 May (place Bremgarten)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008911/",
+      "title": "HLS: Villmergerkrieg, Zweiter",
+      "quote": "Am 25. Juli kam es zum entscheidenden Treffen der Innerschweizer und Berner Truppen bei Villmergen",
+      "supports": "25 July 1712 at Villmergen (place Villmergen)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008911/",
+      "title": "HLS: Villmergerkrieg, Zweiter",
+      "quote": "Die Schlacht forderte über 3000 Tote.",
+      "supports": "More than 3000 dead"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008911/",
+      "title": "HLS: Villmergerkrieg, Zweiter",
+      "quote": "dem am 11. August 1712 in Aarau abgeschlossenen Vierten Landfrieden",
+      "supports": "Fourth Land Peace, Aarau, 11 August 1712 (place Aarau)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008911/",
+      "title": "HLS: Villmergerkrieg, Zweiter",
+      "quote": "Der Friedensschluss legte die Rechtsgleichheit der beiden Konfessionen in Religionsfragen fest",
+      "supports": "Both faiths are now equal"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/009807/",
+      "title": "HLS: Landfriedensbünde",
+      "quote": "die paritätische Nutzung von Kirchengebäuden (simultaneum)",
+      "supports": "Clear rules for shared churches"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008911/",
+      "title": "HLS: Villmergerkrieg, Zweiter",
+      "quote": "entzog den katholischen Orten die Herrschaftsrechte über Baden und die Unteren Freien Ämter",
+      "supports": "The Catholic cantons lose Baden and the lower Freie Ämter"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008911/",
+      "title": "HLS: Villmergerkrieg, Zweiter",
+      "quote": "Bern in die Mitregierung des Thurgaus, von Sargans, des Rheintals und der Oberen Freien Ämter aufnahm",
+      "supports": "Bern joins the rule of Thurgau, Sargans, the Rheintal and the upper Freie Ämter"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008911/",
+      "title": "HLS: Villmergerkrieg, Zweiter",
+      "quote": "beendete die seit dem Zweiten Landfrieden von 1531 bestehende Vorherrschaft der katholischen Orte",
+      "supports": "The Catholic lead ends"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/009807/",
+      "title": "HLS: Landfriedensbünde",
+      "quote": "entstanden in den Gemeinden der Landvogtei Thurgau, der Grafschaft Baden und des Rheintals paritätische Verhältnisse",
+      "supports": "Layers Thurgau, Rheintal, County of Baden: mixed parishes"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/013328/",
+      "title": "HLS: Reformation",
+      "quote": "In Glarus, Teilen Graubündens und im Thurgau teilten sich Katholiken und Evangelische an vielen Orten eine Kirche",
+      "supports": "Layers Glarus, Thurgau, Three Leagues: shared churches"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/009807/",
+      "title": "HLS: Landfriedensbünde",
+      "quote": "Im Sarganserland (ohne die Herrschaft Wartau) und im Territorium des Abtes von St. Gallen (ohne das Toggenburg) setzte sich der Katholizismus wieder durch.",
+      "supports": "Layers: Sargans and abbey lands Catholic again; Wartau and the Toggenburg not"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/013328/",
+      "title": "HLS: Reformation",
+      "quote": "Die äusseren Rhoden (ohne Herisau) schlossen sich dem neuen Glauben an, die Bewohner der inneren Rhoden (ohne Gais) verblieben mehrheitlich beim alten Glauben.",
+      "supports": "Layer Appenzell: outer parts Reformed, inner parts Catholic"
+     },
+     {
+      "url": "https://www.utbm.fr/wp-content/uploads/2015/04/Arg_CoeditionAlphil_UneResistanceAlaReforme.pdf",
+      "title": "L. Bartolini, Une résistance à la réforme dans le pays de Neuchâtel. Le Landeron et sa région (1530-1562), UTBM/Alphil 2006 (publisher sheet)",
+      "quote": "Seules de tout le Pays de Neuchâtel, les communes du Landeron et de Cressier ne passèrent pas à la Réforme",
+      "supports": "Layer Le Landeron and Cressier: stay Catholic inside Reformed Neuchâtel"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/013328/",
+      "title": "HLS: Reformation",
+      "quote": "in der Westschweiz führte Neuenburg mit Berner Unterstützung 1530 die Reformation ein",
+      "supports": "Layer Neuchâtel: Reformed 1530"
+     },
+     {
+      "url": "https://antipodes.ch/wp-content/uploads/2016/06/bruening_le-premier-champ-de-bataille-du-calvinisme_9782889010615_10.33056-ANTIPODES.10615.pdf",
+      "title": "M. W. Bruening, Le premier champ de bataille du calvinisme (Antipodes, 2011)",
+      "quote": "les villes et alentours d’Orbe, Échallens, Grandson et Morat seraient des bailliages communs de Berne et Fribourg",
+      "supports": "Layers Orbe, Grandson, Echallens: ruled together by Bern and Fribourg"
+     },
+     {
+      "url": "https://antipodes.ch/wp-content/uploads/2016/06/bruening_le-premier-champ-de-bataille-du-calvinisme_9782889010615_10.33056-ANTIPODES.10615.pdf",
+      "title": "M. W. Bruening, Le premier champ de bataille du calvinisme (Antipodes, 2011)",
+      "quote": "D’autres n’abolirent la messe que bien plus tard, comme Mex (1570) et Goumoëns (1575) ; d’autres, comme Échallens, jamais.",
+      "supports": "Layer Echallens villages: Echallens never gave up the Mass"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/017178/",
+      "title": "HLS: Gegenreformation",
+      "quote": "Es gelang ihm zwar, das Laufental, das Birseck und Delsberg zum Katholizismus zurückzuführen",
+      "supports": "Layer Laufen and Birseck (bishop of Basel)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/013328/",
+      "title": "HLS: Reformation",
+      "quote": "Unter dem Einfluss der Reformation in den Städten Bern, Biel und Basel schloss sich der Süden des Fürstbistums Basel der Reformation an.",
+      "supports": "Layer Other lands: the south of the bishopric of Basel became Reformed"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/013328/",
+      "title": "HLS: Reformation",
+      "quote": "Solothurn blieb katholisch, der Thurgau dagegen weitgehend reformiert.",
+      "supports": "Layers Thurgau (mostly Reformed) and Catholic cantons (Solothurn)"
+     }
+    ],
+    "uncertain": [
+     "Map details for which no source was found: Rheinau abbey and Ramsen Catholic; Werdenberg and Sax Reformed; Bucheggberg Reformed; the upper Rheintal (Oberriet) Catholic; the exact split of the Toggenburg into a mostly Reformed upper part and a mostly Catholic lower part; 27 shared churches in Thurgau; Näfels and Oberurnen as the Catholic places of Glarus.",
+     "Reformed worship was forbidden in the Pays de Gex by 1685."
     ]
    }
   ],
@@ -11534,6 +19483,56 @@ window.MAP_STORIES = [
       "year": 1529,
       "note": "First Peace of Kappel, no battle"
      }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008903/",
+      "title": "HLS: Kappelerkriege",
+      "quote": "zwischen den reformierten Städten – insbesondere Zürich und Bern – und den altgläubigen fünf inneren Orten der Eidgenossenschaft (Luzern, Uri, Schwyz, Unterwalden und Zug)",
+      "supports": "The Reformation split the Confederates; the five inner places stayed Catholic (layers Reformed, Catholic)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008903/",
+      "title": "HLS: Kappelerkriege",
+      "quote": "Der Durchbruch der Reformation in Bern, Basel und Schaffhausen 1528-1529",
+      "supports": "Bern, Basel and Schaffhausen became Reformed"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008903/",
+      "title": "HLS: Kappelerkriege",
+      "quote": "Zum Auslöser des Ersten Kappelerkriegs wurde die Verbrennung des reformierten Pfarrers Jakob Kaiser in Schwyz.",
+      "supports": "In 1529 Schwyz burned the Reformed pastor Jakob Kaiser"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008903/",
+      "title": "HLS: Kappelerkriege",
+      "quote": "Zürich erklärte den fünf Orten am 8. Juni 1529 den Krieg und zog mit seiner Hauptmacht nach Kappel an der Zuger Grenze",
+      "supports": "Zurich went to war; the armies met near Kappel (place Kappel am Albis)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008903/",
+      "title": "HLS: Kappelerkriege",
+      "quote": "Im Ersten Kappelerkrieg von 1529 konnten Kriegshandlungen auf diplomatischem Weg verhindert werden.",
+      "supports": "They did not fight"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008903/",
+      "title": "HLS: Kappelerkriege",
+      "quote": "Kriegsleute aus beiden Lagern hätten demnach aus einem grossen Eimer an der Grenze gemeinsam eine Suppe aus Milch und Brot gegessen",
+      "supports": "The story of the milk soup"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008903/",
+      "title": "HLS: Kappelerkriege",
+      "quote": "Dieser fiel am 26. Juni 1529 in Form des Ersten Kappeler Landfriedens eher zugunsten der reformierten Wünsche aus",
+      "supports": "The First Peace of Kappel (26 June 1529) favoured the Reformed side"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008903/",
+      "title": "HLS: Kappelerkriege",
+      "quote": "Die Frage, ob in den gemeinen Herrschaften die einzelnen Gemeinden oder die regierenden Orte",
+      "supports": "Layer Mixed: in the common lordships the faith was disputed"
+     }
     ]
    },
    {
@@ -11541,9 +19540,9 @@ window.MAP_STORIES = [
     "tick": "1531 Kappel",
     "title": "Kappel: Zwingli is killed",
     "text": [
-     "Zurich and Bern blocked food supplies to the Catholic places. In October 1531 the five Catholic places attacked.",
+     "In May 1531 Zurich and Bern blocked grain and salt supplies to the Catholic places. In October 1531 the five Catholic places attacked.",
      "On 11 October 1531 they beat the Zurich army at Kappel. About 500 men from Zurich died, among them the reformer Huldrych Zwingli, who went with the army as a preacher.",
-     "On 24 October the Catholics beat Zurich troops again at the Gubel, near Menzingen."
+     "In the night of 23 to 24 October the Catholics beat Reformed troops again at the Gubel, near Menzingen."
     ],
     "view": "ch",
     "layers": [
@@ -11615,6 +19614,44 @@ window.MAP_STORIES = [
       "year": 1531,
       "note": "Catholics win"
      }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008903/",
+      "title": "HLS: Kappelerkriege",
+      "quote": "im Mai entschlossen, gegen die fünf Orte eine Proviantsperre (Unterbindung der Zufuhr von Getreide und Salz) zu erlassen",
+      "supports": "In May 1531 Zurich and Bern blocked grain and salt"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008903/",
+      "title": "HLS: Kappelerkriege",
+      "quote": "Im Oktober 1531 entschlossen sich die fünf inneren Orte, in welchen sich die Lebensmittelblockade immer stärker bemerkbar machte, zum Angriff",
+      "supports": "In October 1531 the five Catholic places attacked (layer Catholic)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008903/",
+      "title": "HLS: Kappelerkriege",
+      "quote": "Der um 16 Uhr ausgelöste Angriff der fünf Orte führte nach kurzem Widerstand zur Flucht des in Panik geratenen Zürcher Heeres.",
+      "supports": "On 11 October 1531 they beat the Zurich army at Kappel (place Kappel am Albis)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008903/",
+      "title": "HLS: Kappelerkriege",
+      "quote": "Unter den etwa 500 gefallenen Zürchern befand sich auch Zwingli, der das Banner als Feldprediger begleitet hatte",
+      "supports": "About 500 men from Zurich died, among them Zwingli, who went with the army as a preacher"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008903/",
+      "title": "HLS: Kappelerkriege",
+      "quote": "nur den Gubel bei Menzingen, wo es während des Nachtlagers von einer kleinen Truppe der fünf Orte überfallen und in die Flucht geschlagen wurde",
+      "supports": "The Catholics beat Reformed troops at the Gubel near Menzingen (place Gubel)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008903/",
+      "title": "HLS: Kappelerkriege",
+      "quote": "bis zur Nacht vom 23. auf den 24. Okotber 1531",
+      "supports": "The night of 23 to 24 October 1531"
+     }
     ]
    },
    {
@@ -11622,8 +19659,8 @@ window.MAP_STORIES = [
     "tick": "1531 Peace",
     "title": "Second Peace of Kappel",
     "text": [
-     "The Second Peace of Kappel (November 1531) said that each place keeps its own faith. In the common subject lands, the Catholic side gained.",
-     "The Catholic places now had more power in the Confederation. The border between the faiths stayed almost the same until 1798."
+     "The Second Peace of Kappel (20 November 1531) said that each place keeps its own faith. In the common subject lands, the Catholic side gained.",
+     "The Catholic places now had more power in the Confederation. The peace shaped the map of the two faiths for a long time."
     ],
     "view": "ch",
     "layers": [
@@ -11695,6 +19732,32 @@ window.MAP_STORIES = [
       "year": 1531,
       "note": "Catholics win"
      }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008903/",
+      "title": "HLS: Kappelerkriege",
+      "quote": "jedem einzelnen Ort, die Konfession seiner Bürger und Untertanen selbst zu bestimmen, begünstigte jedoch in den gemeinen Herrschaften den Katholizismus",
+      "supports": "Each place keeps its own faith; in the common lands the Catholic side gained (layer Mixed)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008903/",
+      "title": "HLS: Kappelerkriege",
+      "quote": "der am 20. November 1531 im Weiler Deinikon bei Baar abgeschlossene Zweite Kappeler Landfrieden",
+      "supports": "The Second Peace of Kappel, 20 November 1531 (place Kappel am Albis)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/009807/",
+      "title": "HLS: Landfriedensbünde",
+      "quote": "Die Niederlagen der Reformierten bei Kappel und am Gubel ermöglichten es den fünf Orten, nun einen Frieden nach ihren Bedingungen zu diktieren.",
+      "supports": "The Catholic places now had more power (place Gubel)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008903/",
+      "title": "HLS: Kappelerkriege",
+      "quote": "Der Ausgang des Zweiten Kappelerkriegs prägte die konfessionelle Landkarte der Eidgenossenschaft – mit Ausnahme der Westschweiz.",
+      "supports": "The peace shaped the map of the two faiths"
+     }
     ]
    },
    {
@@ -11702,9 +19765,9 @@ window.MAP_STORIES = [
     "tick": "1653 Rising",
     "title": "The Peasants' War",
     "text": [
-     "After the Thirty Years' War, prices for farm products fell. Lucerne and Bern also made their coins worth less. The farmers lost money and were angry.",
-     "In February 1653 the farmers of the Entlebuch rose against Lucerne. Farmers in the Emmental and in the lands of Solothurn and Basel joined them. In May 1653 they swore an alliance at Huttwil. They wanted to speak to the town governments as equals.",
-     "This time Catholic and Reformed farmers fought together, against the town lords."
+     "After the Thirty Years' War, prices for farm products fell. In December 1652 Bern, Solothurn and Fribourg also made their coins worth less. The farmers lost money and were angry.",
+     "In February 1653 the farmers of the Entlebuch rose against Lucerne. Farmers in the Emmental and in the lands of Solothurn and Basel joined them. In May 1653 they swore an alliance at Huttwil. They wanted their own assemblies and a say in the laws.",
+     "This time Catholic and Reformed farmers worked together, against the town lords."
     ],
     "view": "ch",
     "layers": [
@@ -11767,6 +19830,56 @@ window.MAP_STORIES = [
       "year": 1653,
       "note": "Start of the rising"
      }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008909/",
+      "title": "HLS: Bauernkrieg (1653)",
+      "quote": "Mit der Beendigung des Dreissigjährigen Kriegs folgte auf die ausgeprägte, mehr als zwei Jahrzehnte dauernde Export- und Preiskonjunktur eine tiefe Nachkriegs- und Friedensdepression.",
+      "supports": "After the Thirty Years' War, prices fell"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008909/",
+      "title": "HLS: Bauernkrieg (1653)",
+      "quote": "Die nach dem Dreissigjährigen Krieg verfügte Abwertung der Berner, Solothurner und Freiburger Handmünzen (Batzen, deshalb auch «Batzenkrieg») im Dezember 1652",
+      "supports": "Bern, Solothurn and Fribourg made their coins worth less in December 1652"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008909/",
+      "title": "HLS: Bauernkrieg (1653)",
+      "quote": "Die Untertanen der Luzerner Talschaft Entlebuch waren von der Massnahme besonders stark betroffen",
+      "supports": "The farmers lost money (Entlebuch)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008909/",
+      "title": "HLS: Bauernkrieg (1653)",
+      "quote": "Am 10. Februar veranstalteten sämtliche Bewohner der Talschaft eine Prozession zur Wallfahrtskirche Heiligkreuz",
+      "supports": "In February 1653 the Entlebuch rose against Lucerne (place Entlebuch)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008909/",
+      "title": "HLS: Bauernkrieg (1653)",
+      "quote": "den Aufstand ländlicher Untertanen der eidgenössischen Stände Luzern, Bern, Solothurn und Basel im Entlebuch, Emmental, in Teilen der Solothurner und Basler Landschaft",
+      "supports": "Farmers in the Emmental, Solothurn and Basel lands joined (layers Rising farmers, Town governments)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008909/",
+      "title": "HLS: Bauernkrieg (1653)",
+      "quote": "besammelten sich Vertreter der Untertanen von Luzern, Bern, Solothurn und Basel in Huttwil zu einer weiteren Landsgemeinde und schlossen einen dritten «Bauernbund»",
+      "supports": "In May 1653 (14 May) they swore an alliance at Huttwil (place Huttwil)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008909/",
+      "title": "HLS: Bauernkrieg (1653)",
+      "quote": "das seit dem Stanser Verkommnis (1481) verweigerte Recht auf eigene politische «Landsgemeinden» und Versammlungen sowie die institutionalisierte Mitsprache an der herrschaftlichen Gesetzgebung",
+      "supports": "They wanted their own assemblies and a say in the laws"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008909/",
+      "title": "HLS: Bauernkrieg (1653)",
+      "quote": "intensive Markt- und Austauschbeziehungen, welche über die territorialherrschaftlichen und konfessionellen Grenzen hinwegschritten",
+      "supports": "Catholic and Reformed farmers worked together across borders"
+     }
     ]
    },
    {
@@ -11774,8 +19887,8 @@ window.MAP_STORIES = [
     "tick": "1653 Defeat",
     "title": "Wohlenschwil and Herzogenbuchsee",
     "text": [
-     "The Diet (the meeting of the Confederate places) sent an army. On 3 June 1653 it beat the farmers at Wohlenschwil. A few days later Bernese troops beat the rest of the farmers' army at Herzogenbuchsee, and the village burned.",
-     "The farmers' leader, Niklaus Leuenberger, was betrayed and executed in Bern with other leaders. The town lords won, but after this they were more careful with new taxes."
+     "The Diet (the meeting of the Confederate places) sent an army. On 3 June 1653 it fought the farmers at Wohlenschwil, and the church and part of the village burned. Then Bernese troops under General Sigmund von Erlach beat the rest of the farmers' army at Herzogenbuchsee, and that village burned too.",
+     "The farmers' leader, Niklaus Leuenberger, was betrayed and executed in Bern with 20 other leaders. The town lords won, but after this they could not make their power absolute."
     ],
     "view": "ch",
     "layers": [
@@ -11846,6 +19959,50 @@ window.MAP_STORIES = [
       "year": 1653,
       "note": "Farmers' alliance"
      }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/001657/",
+      "title": "HLS: Wohlenschwil",
+      "quote": "am 3.6.1653 zwischen dem Tagsatzungsheer und den aufständ. Bauern bei W. zum Gefecht. Die Kirche und ein Teil des Dorfs gingen dabei in Flammen auf.",
+      "supports": "On 3 June 1653 the Diet army fought the farmers at Wohlenschwil; the church and part of the village burned (place Wohlenschwil)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/018844/",
+      "title": "HLS: Leuenberger, Niklaus",
+      "quote": "nach dem Zusammenbruch der Aufstandsbewegung infolge der Niederlagen der Bauern bei Wohlenschwil und Herzogenbuchsee",
+      "supports": "The farmers were beaten at Wohlenschwil and Herzogenbuchsee"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/000565/",
+      "title": "HLS: Herzogenbuchsee",
+      "quote": "Bei Herzogenbuchsee besiegten dann bernische Truppen unter General Sigmund von Erlach Reste von Niklaus Leuenbergers Bauernheer",
+      "supports": "Bernese troops under Sigmund von Erlach beat the rest of the farmers' army at Herzogenbuchsee (place Herzogenbuchsee)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/000565/",
+      "title": "HLS: Herzogenbuchsee",
+      "quote": "das Dorf ging in Flammen auf",
+      "supports": "The village of Herzogenbuchsee burned"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/018844/",
+      "title": "HLS: Leuenberger, Niklaus",
+      "quote": "von einem ehem. Mitstreiter verraten, nach Bern abgeführt und mit 20 weiteren Anführern hingerichtet",
+      "supports": "Leuenberger was betrayed and executed in Bern with 20 other leaders"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/018844/",
+      "title": "HLS: Leuenberger, Niklaus",
+      "quote": "Nachdem er auch die beiden folgenden Landsgemeinden von Huttwil geleitet hatte",
+      "supports": "Place Huttwil: farmers' alliance"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008909/",
+      "title": "HLS: Bauernkrieg (1653)",
+      "quote": "dass die städtischen Obrigkeiten in der Alten Eidgenossenschaft die Entwicklung zum Absolutismus nicht weitertreiben konnten",
+      "supports": "After this the town lords could not make their power absolute (layer Town governments)"
+     }
     ]
    },
    {
@@ -11853,8 +20010,8 @@ window.MAP_STORIES = [
     "tick": "1656",
     "title": "First Villmergen War",
     "text": [
-     "In 1655 Schwyz punished Reformed people in Arth, and some fled to Zurich. Zurich and Bern wanted to change the Peace of Kappel by force.",
-     "Zurich laid siege to Rapperswil but could not take it. On 24 January 1656 the army of Lucerne and the inner places beat the Bernese army at Villmergen.",
+     "In 1655 Reformed people from Arth fled to Zurich, and Schwyz executed four Reformed people who had stayed. Zurich and Bern wanted to change the Peace of Kappel by force.",
+     "Zurich laid siege to Rapperswil but could not take it. On 24 January 1656 troops from Lucerne and Zug beat the Bernese army at Villmergen.",
      "The Third Peace of Baden (March 1656) kept the old rules. The Catholic places kept their stronger position."
     ],
     "view": "ch",
@@ -11923,6 +20080,68 @@ window.MAP_STORIES = [
       "kind": "town",
       "year": 1656,
       "note": "Zurich siege fails"
+     }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008910/",
+      "title": "HLS: Villmergerkrieg, Erster",
+      "quote": "Im September 1655 traf eine Gruppe von reformierten Flüchtlingen (Nikodemiten) aus Arth in Zürich ein.",
+      "supports": "In 1655 Reformed people from Arth fled to Zurich"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008910/",
+      "title": "HLS: Villmergerkrieg, Erster",
+      "quote": "Entgegen Berner Warnungen wurden vier in Schwyz verbliebene Reformierte hingerichtet.",
+      "supports": "Schwyz executed four Reformed people"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008910/",
+      "title": "HLS: Villmergerkrieg, Erster",
+      "quote": "Die beiden reformierten Orte schickten sich damit an, die Rechtsordnung des Zweiten Landfriedens von 1531 umzugestalten und kriegerische Wege zu beschreiten.",
+      "supports": "Zurich and Bern wanted to change the Peace of Kappel by force"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008910/",
+      "title": "HLS: Villmergerkrieg, Erster",
+      "quote": "Militärischer Konflikt zwischen den reformierten Orten Zürich, Bern und Schaffhausen und den fünf katholischen Orten",
+      "supports": "Layers: Reformed side Zurich, Bern, Schaffhausen; Catholic side the five inner places"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008910/",
+      "title": "HLS: Villmergerkrieg, Erster",
+      "quote": "Als sein Sturmangriff auf Rapperswil am 3. Februar misslang",
+      "supports": "Zurich could not take Rapperswil (place Rapperswil)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008910/",
+      "title": "HLS: Villmergerkrieg, Erster",
+      "quote": "In einem Überraschungsangriff schlugen Luzerner und Zuger Truppen unter Christoph Pfyffer das Berner Heer bei Villmergen.",
+      "supports": "Troops from Lucerne and Zug beat the Bernese army at Villmergen (place Villmergen)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008910/",
+      "title": "HLS: Villmergerkrieg, Erster",
+      "quote": "Die Entscheidung zugunsten der katholischen Orte – Freiburg und Solothurn waren neutral geblieben – fiel am 24. Januar 1656.",
+      "supports": "On 24 January 1656; other places were neutral (layer Others)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008910/",
+      "title": "HLS: Villmergerkrieg, Erster",
+      "quote": "endete mit dem Abschluss des Dritten Landfriedens zu Baden am 7. März 1656",
+      "supports": "The Third Peace of Baden, March 1656"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008910/",
+      "title": "HLS: Villmergerkrieg, Erster",
+      "quote": "eine Erneuerung des Status quo ante, indem der Zweite Landfrieden von 1531 bestätigt wurde",
+      "supports": "The peace kept the old rules"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008910/",
+      "title": "HLS: Villmergerkrieg, Erster",
+      "quote": "Die Stellung der inneren Orte, die eine Kompetenzvermehrung eidgenössischer Institutionen vor allem in konfessionellen Streitigkeiten ablehnten, wurde gestärkt.",
+      "supports": "The Catholic places kept their stronger position"
      }
     ]
    },
@@ -12002,6 +20221,65 @@ window.MAP_STORIES = [
       "year": 1712,
       "note": "Peace of Aarau"
      }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008911/",
+      "title": "HLS: Villmergerkrieg, Zweiter",
+      "quote": "der als überkonfessioneller Untertanenaufstand der Toggenburger gegen ihren Landesherrn begann",
+      "supports": "The war started in the Toggenburg with a rising against the abbot (layer Toggenburg)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008911/",
+      "title": "HLS: Villmergerkrieg, Zweiter",
+      "quote": "Zürich und Bern unterstützten dieses Vorgehen und richteten am 13. April 1712 ein Manifest gegen den Fürstabt",
+      "supports": "Zurich and Bern supported them; the five Catholic places took the abbot's side (layers Reformed, Catholic)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008911/",
+      "title": "HLS: Villmergerkrieg, Zweiter",
+      "quote": "worauf die fünf inneren Orte auf die Seite des Fürstabts traten",
+      "supports": "The five Catholic places took the abbot's side"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008911/",
+      "title": "HLS: Villmergerkrieg, Zweiter",
+      "quote": "Am 25. Juli kam es zum entscheidenden Treffen der Innerschweizer und Berner Truppen bei Villmergen",
+      "supports": "On 25 July 1712 Bern beat the Catholic army at Villmergen (place Villmergen)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008911/",
+      "title": "HLS: Villmergerkrieg, Zweiter",
+      "quote": "der mit dem Sieg der besser ausgerüsteten und ausgebildeten Berner endete",
+      "supports": "Bern won"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008911/",
+      "title": "HLS: Villmergerkrieg, Zweiter",
+      "quote": "dem am 11. August 1712 in Aarau abgeschlossenen Vierten Landfrieden",
+      "supports": "The Peace of Aarau, 11 August 1712 (place Aarau)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/009807/",
+      "title": "HLS: Landfriedensbünde",
+      "quote": "Die fünf Orte wurden von der Mitherrschaft in der Grafschaft Baden (mit Bremgarten) und in den Unteren Freien Ämtern ausgeschlossen",
+      "supports": "The Catholics lost their share in Baden and the lower Freie Ämter (layer Baden and lower Freie Ämter)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008911/",
+      "title": "HLS: Villmergerkrieg, Zweiter",
+      "quote": "Der Vierte Landfrieden war ein Machtfrieden der Berner und Zürcher.",
+      "supports": "Zurich and Bern were now the strongest powers"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008911/",
+      "title": "HLS: Villmergerkrieg, Zweiter",
+      "quote": "Der Friedensschluss legte die Rechtsgleichheit der beiden Konfessionen in Religionsfragen fest",
+      "supports": "Both faiths had equal rights"
+     }
+    ],
+    "uncertain": [
+     "After 1712 Glarus shared with Zurich and Bern in ruling Baden and the lower Freie Ämter (map label)."
     ]
    }
   ],
@@ -12030,8 +20308,8 @@ window.MAP_STORIES = [
     "tick": "1798 Jan",
     "title": "French troops in Vaud",
     "text": [
-     "France had become a republic after the revolution of 1789. In 1797 it took the south of the Bishopric of Basel. Many people in Vaud wanted to be free of Bern's rule.",
-     "In January 1798 Vaud declared itself free (the 'Lemanic Republic'). French troops marched in. Other places also freed their subjects. The old order of the Confederation broke down."
+     "After the revolution of 1789, France became a strong and aggressive power. At the end of 1797 it took the south of the Bishopric of Basel. Many people in the subject lands, such as Vaud, were unhappy with their rulers.",
+     "In January 1798 a revolution broke out in Vaud, and on 24 January the 'Lemanic Republic' was declared. French troops marched in. Other places also freed their subjects. The old order of the Confederation broke down."
     ],
     "view": "ch",
     "layers": [
@@ -12104,6 +20382,44 @@ window.MAP_STORIES = [
       "year": 1798,
       "note": "Vaud declares itself free"
      }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008915/",
+      "title": "HLS: Franzoseneinfall",
+      "quote": "Frankreich , das im Laufe der 1790er Jahre immer mehr in eine durch die Französische Revolution ausgelöste Dynamik geriet",
+      "supports": "France changed after the revolution (layer France)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008915/",
+      "title": "HLS: Franzoseneinfall",
+      "quote": "Ende 1797 besetzten französische Truppen den südlichen, in die eidgenössische Neutralität eingeschlossenen Teil des Fürstbistums Basel.",
+      "supports": "At the end of 1797 France took the south of the Bishopric of Basel"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/009797/",
+      "title": "HLS: Helvetische Republik",
+      "quote": "Frankreich nutzte die bestehende Unzufriedenheit der ländlichen Eliten in den Untertanengebieten",
+      "supports": "Many people in the subject lands were unhappy"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008915/",
+      "title": "HLS: Franzoseneinfall",
+      "quote": "Nach dem Ausbruch der Helvetischen Revolution in der Waadt und aufgrund eines Hilfegesuches der am 24. Januar 1798 proklamierten Lemanischen Republik marschierten die Franzosen ein.",
+      "supports": "Revolution in Vaud; Lemanic Republic on 24 January 1798; French troops marched in (layer Vaud; place Lausanne)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/009797/",
+      "title": "HLS: Helvetische Republik",
+      "quote": "griff die Helvetische Revolution rasch auf andere Orte über",
+      "supports": "Other places followed"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/009797/",
+      "title": "HLS: Helvetische Republik",
+      "quote": "April 1798 gab es in der Schweiz kein einziges Untertanengebiet mehr",
+      "supports": "The subjects were freed; the old order broke down (layer Confederates)"
+     }
     ]
    },
    {
@@ -12111,9 +20427,9 @@ window.MAP_STORIES = [
     "tick": "1798 March",
     "title": "Grauholz and Neuenegg: Bern falls",
     "text": [
-     "Bern decided to fight. French armies attacked from the west and the north.",
-     "On 5 March 1798 the French beat the Bernese at Fraubrunnen and then at the Grauholz, north of Bern. On the same day, in the south, Bernese troops beat the French at Neuenegg. But this victory came too late.",
-     "Bern gave up, and French troops occupied the town. They took the Bernese state treasure to France."
+     "Bern decided to fight. French armies attacked from the south-west (Vaud) and from the north (the former Bishopric of Basel).",
+     "On 4 March 1798 the Bernese government resigned. Its troops still fought: in early March the French beat them at Fraubrunnen and then at the Grauholz, north of Bern. In the south, Bernese troops stopped the French at Neuenegg. But this came too late.",
+     "Bern gave up, and French troops occupied the town. They took the Bernese state treasure."
     ],
     "view": "ch",
     "layers": [
@@ -12192,6 +20508,50 @@ window.MAP_STORIES = [
       "year": 1798,
       "note": "Occupied by France"
      }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008915/",
+      "title": "HLS: Franzoseneinfall",
+      "quote": "Das aristokratische Bern und die mit ihm verbündeten Patriziate von Solothurn und Freiburg sahen sich dadurch von Norden und Süden bedroht.",
+      "supports": "French armies attacked from the north and the south (layer France)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/009797/",
+      "title": "HLS: Helvetische Republik",
+      "quote": "in einer Zangenbewegung von der Waadt und vom Jura her in das westliche Mittelland vorstiessen",
+      "supports": "From Vaud and from the Jura (layer French-held)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008915/",
+      "title": "HLS: Franzoseneinfall",
+      "quote": "Am 4. März 1798 dankte die Berner Regierung ab.",
+      "supports": "On 4 March 1798 the Bernese government resigned"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008915/",
+      "title": "HLS: Franzoseneinfall",
+      "quote": "Dennoch versuchten die Berner Truppen, den französischen Vorstoss zu stoppen; auf der Nordachse unterlagen sie bei Fraubrunnen und entscheidend beim Grauholz.",
+      "supports": "The French beat the Bernese at Fraubrunnen and at the Grauholz (places Fraubrunnen, Grauholz)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008915/",
+      "title": "HLS: Franzoseneinfall",
+      "quote": "der französische Vorstoss aus dem Süden, der mit der Einnahme von Murten und Freiburg begonnen hatte und durch die Berner bei Neuenegg gestoppt wurde",
+      "supports": "In the south the Bernese stopped the French at Neuenegg, too late (place Neuenegg)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/009797/",
+      "title": "HLS: Helvetische Republik",
+      "quote": "Die Kantone Freiburg, Solothurn und Bern wurden besetzt",
+      "supports": "French troops occupied Bern (place Bern; layer Bern)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008915/",
+      "title": "HLS: Franzoseneinfall",
+      "quote": "Die Franzosen beschlagnahmten unter anderem die Berner und Zürcher Staatskasse und brachten Berns Bären als Trophäe nach Paris.",
+      "supports": "They took the Bernese state treasure"
+     }
     ]
    },
    {
@@ -12199,8 +20559,8 @@ window.MAP_STORIES = [
     "tick": "1798 April",
     "title": "The Helvetic Republic",
     "text": [
-     "On 12 April 1798 the Helvetic Republic was proclaimed in Aarau. It was one state with one constitution, made after the French model. All people now had the same rights; there were no more subject lands.",
-     "Schwyz, Uri and Nidwalden refused the new constitution. Their troops, led by Alois Reding of Schwyz, won some fights, for example at Rothenthurm on 2 May 1798. But the French army was too strong, and Schwyz had to accept the constitution."
+     "On 12 April 1798 the Helvetic Republic replaced the old Confederation. Its first capital was Aarau. It was one state with one constitution, made after the French model. All people now had the same rights; there were no more subject lands.",
+     "Schwyz, Uri and Nidwalden refused the new constitution. Their troops, led by Alois Reding of Schwyz, won some fights, for example at Rothenthurm. But the French army was too strong, and on 4 May 1798 Schwyz gave up."
     ],
     "view": "ch",
     "layers": [
@@ -12288,6 +20648,56 @@ window.MAP_STORIES = [
       "year": 1798,
       "note": "French win"
      }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/009797/",
+      "title": "HLS: Helvetische Republik",
+      "quote": "Das am 12. April 1798 in Kraft getretene, von Frankreich aufoktroyierte Grundgesetz war eine Adaptation der französischen Direktorialverfassung von 1795.",
+      "supports": "On 12 April 1798 the new constitution, on the French model, came into force (layer Helvetic Republic)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/009797/",
+      "title": "HLS: Helvetische Republik",
+      "quote": "in einen nationalen Einheitsstaat um, der auf den Prinzipien der Rechtsgleichheit, der Volkssouveränität und der Gewaltentrennung beruhte",
+      "supports": "One state; all people had the same rights"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/009797/",
+      "title": "HLS: Helvetische Republik",
+      "quote": "April 1798 gab es in der Schweiz kein einziges Untertanengebiet mehr",
+      "supports": "There were no more subject lands"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/001620/",
+      "title": "HLS: Aarau",
+      "quote": "die am 26. März 1798 zur Hauptstadt der Helvetischen Republik ernannt wurde",
+      "supports": "Aarau was the first capital (place Aarau)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008915/",
+      "title": "HLS: Franzoseneinfall",
+      "quote": "Im April 1798 lehnten Schwyz, Nidwalden und Uri die helvetische Verfassung ab. Unter Alois Reding konnten sie rund 10'000 Mann aufbieten.",
+      "supports": "Schwyz, Uri and Nidwalden refused; troops led by Alois Reding (layer Resisting)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008915/",
+      "title": "HLS: Franzoseneinfall",
+      "quote": "Hingegen gewannen sie je ein Gefecht bei Rothenthurm und Morgarten.",
+      "supports": "They won fights at Rothenthurm (place Rothenthurm)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008915/",
+      "title": "HLS: Franzoseneinfall",
+      "quote": "Doch die Lage war hoffnungslos; am 4. Mai 1798 gab die Schwyzer Landsgemeinde den Kampf auf.",
+      "supports": "On 4 May 1798 Schwyz gave up"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008915/",
+      "title": "HLS: Franzoseneinfall",
+      "quote": "auf der Nordachse unterlagen sie bei Fraubrunnen und entscheidend beim Grauholz",
+      "supports": "Place Grauholz: French win"
+     }
     ]
    },
    {
@@ -12295,8 +20705,8 @@ window.MAP_STORIES = [
     "tick": "1798 Sept",
     "title": "Nidwalden: the days of terror",
     "text": [
-     "Nidwalden refused to swear an oath to the new state. In September 1798 French troops attacked from the lake and over the Allweg pass.",
-     "On 9 September the people of Nidwalden fought hard, but around midday they had to give way. HLS gives about 100 dead fighters from Nidwalden and about as many French. About 300 more men, women and children were killed afterwards. Stans, Stansstad, Buochs and Ennetmoos were burned and destroyed.",
+     "In July 1798 every citizen had to swear an oath to the new state. Nidwalden refused and rose up. The Helvetic government asked the French army under General Schauenburg to put down the rising.",
+     "On 9 September 1798 the people of Nidwalden fought a hopeless battle against the French army. HLS gives about 100 dead fighters from Nidwalden and about as many French. More than 300 men, women and children were killed afterwards. Stans, Stansstad, Buochs and Ennetmoos were badly destroyed.",
      "People in Nidwalden remembered these days of terror for a long time."
     ],
     "view": "ch",
@@ -12393,6 +20803,53 @@ window.MAP_STORIES = [
       "year": 1798,
       "note": "Burned"
      }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/009797/",
+      "title": "HLS: Helvetische Republik",
+      "quote": "Am 12. Juli 1798 dekretierten die helvetischen Räte, dass alle Bürger den in der Verfassung vorgesehenen Eid auf die Helvetische Republik abzulegen hätten.",
+      "supports": "In July 1798 every citizen had to swear an oath"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/009797/",
+      "title": "HLS: Helvetische Republik",
+      "quote": "Dieser Beschluss löste offenen Aufruhr in Nidwalden und Schwyz aus",
+      "supports": "Nidwalden refused and rose up (layer Nidwalden)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007411/",
+      "title": "HLS: Nidwalden",
+      "quote": "die Nidwaldner Truppen in eine aussichtslose Schlacht gegen die französische Armee unter General Alexis Balthasar Henri Antoine von Schauenburg",
+      "supports": "On 9 September 1798 Nidwalden fought a hopeless battle against the French under Schauenburg (layer France; place Allweg)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007411/",
+      "title": "HLS: Nidwalden",
+      "quote": "dem die helvetischen Behörden den Auftrag zur Niederschlagung des Aufstandes erteilt hatten",
+      "supports": "The Helvetic government asked the French to put down the rising (layer Helvetic Republic)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007411/",
+      "title": "HLS: Nidwalden",
+      "quote": "Rund 100 Nidwaldner und ebenso viele Franzosen fielen im Kampf, weitere gut 300 Männer, Frauen und Kinder kamen bei den anschliessenden Massakern um.",
+      "supports": "About 100 dead from Nidwalden and as many French; more than 300 killed afterwards"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007411/",
+      "title": "HLS: Nidwalden",
+      "quote": "Die Dörfer Ennetmoos, Stansstad, Buochs und Stans wurden stark verwüstet.",
+      "supports": "Stans, Stansstad, Buochs and Ennetmoos were badly destroyed (places Stans, Stansstad, Buochs)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007411/",
+      "title": "HLS: Nidwalden",
+      "quote": "Die \"Nidwaldner Schreckenstage\" erzeugten ein kollektives Trauma, das lange nachwirkte",
+      "supports": "People remembered the days of terror for a long time"
+     }
+    ],
+    "uncertain": [
+     "The French attacked from the lake and over the Allweg pass, and the people of Nidwalden gave way around midday."
     ]
    },
    {
@@ -12401,7 +20858,7 @@ window.MAP_STORIES = [
     "title": "First Battle of Zurich",
     "text": [
      "In 1799 Austria and Russia went to war against France again (the Second Coalition War). Switzerland became a battlefield of foreign armies.",
-     "Austrian troops under Archduke Charles came from the east. In early June 1799 they attacked the French under General Masséna at Zurich. The French gave up the town and moved back to a line west of Zurich.",
+     "Austrian troops came from the north under Archduke Charles and from the east under Friedrich von Hotze. In early June 1799 they attacked the French under General Masséna at Zurich. The French gave up the town and moved back to a line west of Zurich.",
      "The armies took food, animals and wood from the people. Many villages suffered badly."
     ],
     "view": "ch",
@@ -12471,6 +20928,44 @@ window.MAP_STORIES = [
       "year": 1799,
       "note": "Austrians beat the French"
      }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008917/",
+      "title": "HLS: Zürich, Schlachten bei",
+      "quote": "Die beiden Schlachten um Zürich spielten sich 1799 während des Zweiten Koalitionskriegs zwischen französischen und österreichisch-russischen Truppen ab.",
+      "supports": "In 1799 Austria and Russia fought France (Second Coalition War) in Switzerland"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008917/",
+      "title": "HLS: Zürich, Schlachten bei",
+      "quote": "drangen österreichische Truppen von Norden unter Erzherzog Karl und von Osten unter dem aus Richterswil stammenden Feldmarschall Johann Konrad Hotz in die Schweiz ein",
+      "supports": "Austrian troops came from the north under Archduke Charles and from the east under Hotze (layer Austrian-held)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008917/",
+      "title": "HLS: Zürich, Schlachten bei",
+      "quote": "Als am 2.-4. Juni der französische Brückenkopf bei Zürich",
+      "supports": "In early June 1799 they attacked the French at Zurich (place Zurich)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008917/",
+      "title": "HLS: Zürich, Schlachten bei",
+      "quote": "entschloss sich Masséna, Zürich zu räumen und die Stadt den Österreichern zu überlassen",
+      "supports": "Masséna gave up the town"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008917/",
+      "title": "HLS: Zürich, Schlachten bei",
+      "quote": "Rund drei Monate lagen sich die beiden Heere westlich von Zürich gegenüber.",
+      "supports": "The French held a line west of Zurich (layer French-held)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008914/",
+      "title": "HLS: Koalitionskriege",
+      "quote": "vor allem als Durchmarschgebiet wichtig und litt dementsprechend unter den Requisitionslasten",
+      "supports": "The armies took supplies from the people; the country suffered"
+     }
     ]
    },
    {
@@ -12478,8 +20973,8 @@ window.MAP_STORIES = [
     "tick": "1799 Zurich II",
     "title": "Second Battle of Zurich",
     "text": [
-     "In late summer most Austrian troops left. A Russian army under General Korsakov took their place at Zurich.",
-     "On 25 and 26 September 1799 Masséna attacked and beat the Russians at Zurich. On the same days French troops under General Soult beat the Austrians on the Linth river. The Austrian general Hotze was killed near Schänis.",
+     "In late August most Austrian troops left. A Russian army of about 20,000 men under General Korsakov took their place at Zurich.",
+     "On 25 and 26 September 1799 Masséna attacked and beat the Russians at Zurich. On the same days French troops beat the Austrians at the Linth river near Schänis.",
      "The plan of the allies was to attack the French together with a second Russian army coming from Italy. That army, under General Suvorov, was still in the mountains."
     ],
     "view": "ch",
@@ -12557,6 +21052,42 @@ window.MAP_STORIES = [
       "year": 1799,
       "note": "French beat the Austrians"
      }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008917/",
+      "title": "HLS: Zürich, Schlachten bei",
+      "quote": "Am 28. August überliessen die Österreicher den Russen mit ca. 20'000 Mann die Stellungen von Rapperswil (SG) bis Koblenz.",
+      "supports": "In late August Russians (about 20,000) took over from the Austrians (layer Allied-held)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008914/",
+      "title": "HLS: Koalitionskriege",
+      "quote": "Masséna besiegte in der zweiten Schlacht bei Zürich am 25. und 26. September Korsakow",
+      "supports": "On 25 and 26 September 1799 Masséna beat Korsakov at Zurich (place Zurich; layer French-held)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008917/",
+      "title": "HLS: Zürich, Schlachten bei",
+      "quote": "sowohl über den Linthkanal bei Schänis als auch über die Limmat bei Dietikon an. An beiden Orten wurden die Österreicher und Russen entscheidend zurückgeworfen",
+      "supports": "The French beat the Austrians at the Linth near Schänis (place Schänis)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008917/",
+      "title": "HLS: Zürich, Schlachten bei",
+      "quote": "Der auf den 26. September geplante koordinierte Angriff der Alliierten gegen die Franzosen",
+      "supports": "The allies planned a joint attack"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008917/",
+      "title": "HLS: Zürich, Schlachten bei",
+      "quote": "wegen Zeitverzögerungen des 2. russischen Heeres unter Alexander Suworow im Tessin und am Gotthard verunmöglicht",
+      "supports": "Suvorov's second Russian army was delayed in the mountains"
+     }
+    ],
+    "uncertain": [
+     "The Austrian general Hotze was killed near Schänis.",
+     "The French at the Linth were led by General Soult."
     ]
    },
    {
@@ -12565,7 +21096,7 @@ window.MAP_STORIES = [
     "title": "Suvorov crosses the Gotthard",
     "text": [
      "The Russian general Alexander Suvorov had driven the French out of northern Italy. Now he was to join Korsakov at Zurich. His army had about 20,000 men.",
-     "On 24 September 1799 he fought his way over the Gotthard pass. On 25 September his troops fought the French at the Devil's Bridge in the Schöllenen gorge. On 26 September he reached Altdorf.",
+     "After fights at Faido and Airolo he reached the Gotthard pass on 24 September 1799. Then his troops fought hard against the French in the Schöllenen gorge, at the Devil's Bridge. On 26 September he reached Altdorf.",
      "There was no road along Lake Lucerne, and the French held the boats. So Suvorov had to go over the mountains."
     ],
     "view": [
@@ -12612,15 +21143,64 @@ window.MAP_STORIES = [
       "year": 1799,
       "note": "Suvorov's route"
      }
-    ]
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/041517/",
+      "title": "HLS: Suworow, Alexander",
+      "quote": "verdrängte Alexander Suworow mit seinem russischen Korps im Sommer 1799 die französischen Truppen aus Oberitalien",
+      "supports": "Suvorov drove the French out of northern Italy"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/041517/",
+      "title": "HLS: Suworow, Alexander",
+      "quote": "Anschliessend sollte er im Raum Zürich mit der Armee von General Alexander Korsakow gegen die französische Helvetienarmee von General André Masséna antreten.",
+      "supports": "He was to join Korsakov at Zurich"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008914/",
+      "title": "HLS: Koalitionskriege",
+      "quote": "Suworow, der mit seiner Armee (20'000 Mann) den Weg über den Gotthard erkämpft hatte",
+      "supports": "His army had about 20,000 men and fought its way over the Gotthard"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/041517/",
+      "title": "HLS: Suworow, Alexander",
+      "quote": "Nach Gefechten bei Faido und Airolo gegen die Franzosen erreichte er mit seiner Truppe am 24. September den Gotthardpass",
+      "supports": "Fights at Airolo; Gotthard pass on 24 September 1799 (places Airolo, Gotthard Pass)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/041517/",
+      "title": "HLS: Suworow, Alexander",
+      "quote": "nach harten Kämpfen in der Schöllenen gegen den französischen General Claude-Jacques Lecourbe",
+      "supports": "Hard fighting against the French in the Schöllenen"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008796/",
+      "title": "HLS: Schöllenen",
+      "quote": "1799 lieferten sich Russen und Franzosen in der Schöllenen ein Gefecht, woran das 1895-1898 erbaute Suworowdenkmal erinnert.",
+      "supports": "Russians and French fought in the Schöllenen gorge (place Devil's Bridge)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008914/",
+      "title": "HLS: Koalitionskriege",
+      "quote": "Er gelangte am 26. September nach Altdorf (UR",
+      "supports": "On 26 September he reached Altdorf (place Altdorf)"
+     }
+    ],
+    "uncertain": [
+     "The fight at the Devil's Bridge was on 25 September 1799.",
+     "There was no road along Lake Lucerne, and the French held the boats."
+    ],
+    "route": true
    },
    {
     "year": 1799,
     "tick": "1799 Muotathal",
     "title": "Trapped in the Muota valley",
     "text": [
-     "Suvorov led his army over the Kinzig pass into the Muota valley. There he learned that Korsakov had lost at Zurich. He was now cut off.",
-     "At the end of September and early October his rear guard fought the French in the Muota valley. The main army crossed the Pragel pass to Glarus, in snow and rain, with little food."
+     "Suvorov led his army over the Kinzig pass into the Muota valley. Korsakov had lost at Zurich, so the plan to join the two Russian armies failed. He was now cut off.",
+     "The French attacked his army in the Muota valley. The army crossed the Pragel pass to Glarus, in bad weather and snow, under constant fighting."
     ],
     "view": [
      [
@@ -12698,15 +21278,57 @@ window.MAP_STORIES = [
       "year": 1799,
       "note": "Suvorov's route"
      }
-    ]
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008914/",
+      "title": "HLS: Koalitionskriege",
+      "quote": "über den Kinzigpass nach Muotathal, um nach Schwyz und Einsiedeln vorzustossen",
+      "supports": "Over the Kinzig pass into the Muota valley (places Kinzig Pass, Muotathal)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/041517/",
+      "title": "HLS: Suworow, Alexander",
+      "quote": "sodass der strategische Plan scheiterte, die beiden russischen Heere miteinander zu vereinen",
+      "supports": "Korsakov had lost, so the plan to join the armies failed"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008914/",
+      "title": "HLS: Koalitionskriege",
+      "quote": "Von den Franzosen angegriffen, schlug er sich über den Pragelpass nach Linthal",
+      "supports": "The French attacked; he crossed the Pragel pass into the Glarus land (places Pragel Pass, Glarus)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/041517/",
+      "title": "HLS: Suworow, Alexander",
+      "quote": "Der von Unwettern, Schnee und ständigen Gefechten begleitete Alpenzug forderte hohe Verluste.",
+      "supports": "Bad weather, snow and constant fighting"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/041517/",
+      "title": "HLS: Suworow, Alexander",
+      "quote": "erreichte er mit seiner Truppe am 24. September den Gotthardpass",
+      "supports": "Earlier places on the route: Gotthard Pass"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008914/",
+      "title": "HLS: Koalitionskriege",
+      "quote": "Er gelangte am 26. September nach Altdorf (UR",
+      "supports": "Earlier place on the route: Altdorf"
+     }
+    ],
+    "uncertain": [
+     "His rear guard fought the French in the Muota valley at the end of September and early October, while the army had little food."
+    ],
+    "route": true
    },
    {
     "year": 1799,
     "tick": "1799 Panix",
     "title": "Over the Panix pass",
     "text": [
-     "The way north was blocked. Suvorov turned south. In early October (HLS: 5 October) his army crossed the Panix pass, about 2,400 metres high, in deep snow. Many soldiers and horses fell to their death.",
-     "The army reached Ilanz and Chur and then left Switzerland for the east. The march cost Suvorov many men, but it did not change the war.",
+     "The way north was blocked, because the Austrians had also lost at Schänis. Suvorov turned south. On 6 and 7 October 1799 his army crossed the Panix pass, about 2,400 metres high, in deep snow. Snow and cold cost him many men and much material.",
+     "The army reached the Vorderrhein valley at Ilanz. On 12 October it left Graubünden over the St. Luzisteig and marched back to Russia. The march did not change the war.",
      "For the local people, the march brought hunger and loss. French troops stayed in Switzerland. In 1803 Napoleon gave the country a new order, the Act of Mediation."
     ],
     "view": [
@@ -12817,7 +21439,74 @@ window.MAP_STORIES = [
       "year": 1799,
       "note": "Suvorov's route"
      }
-    ]
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/041517/",
+      "title": "HLS: Suworow, Alexander",
+      "quote": "da der österreichische General Johann Konrad Hotz bei Schänis ebenfalls geschlagen worden war",
+      "supports": "The way north was blocked because the Austrians had also lost at Schänis"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/041517/",
+      "title": "HLS: Suworow, Alexander",
+      "quote": "am 6. und 7. Oktober über den verschneiten Panixerpass ins Vorderrheintal absetzen",
+      "supports": "The way was blocked after Schänis; on 6 and 7 October 1799 over the snowy Panix pass into the Vorderrhein valley (places Panix Pass, Ilanz)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008868/",
+      "title": "HLS: Panixerpass",
+      "quote": "2407 m hoher Übergang von Elm im Glarner Sernftal nach Pigniu (deutsch Panix)",
+      "supports": "The pass is about 2,400 m high, from Elm (place Elm)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008868/",
+      "title": "HLS: Panixerpass",
+      "quote": "Am 6. und 7. Oktober 1799 überquerte der russische General Alexander Suworow mit seiner Armee den Pass",
+      "supports": "Crossing on 6 and 7 October 1799"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008868/",
+      "title": "HLS: Panixerpass",
+      "quote": "dabei erlitt er infolge Schnee und Kälte grosse Verluste an Menschen und Material",
+      "supports": "Crossing on 6 and 7 October; great losses of men and material from snow and cold"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/041517/",
+      "title": "HLS: Suworow, Alexander",
+      "quote": "Am 12. Oktober verliess seine Truppe Bünden über den St. Luzisteig und marschierte über München nach Russland zurück.",
+      "supports": "On 12 October the army left Graubünden and marched back to Russia (place Chur area)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008914/",
+      "title": "HLS: Koalitionskriege",
+      "quote": "vermochte keine Wende mehr herbeizuführen",
+      "supports": "The march did not change the war"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/041517/",
+      "title": "HLS: Suworow, Alexander",
+      "quote": "weisen auf das Elend der vom Alpenzug betroffenen Bevölkerung hin",
+      "supports": "For the local people the march brought misery"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/009797/",
+      "title": "HLS: Helvetische Republik",
+      "quote": "Februar 1803 besiegelte das Ende der Helvetischen Republik.",
+      "supports": "In 1803 the Act of Mediation ended the Helvetic Republic"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008914/",
+      "title": "HLS: Koalitionskriege",
+      "quote": "Von den Franzosen angegriffen, schlug er sich über den Pragelpass nach Linthal",
+      "supports": "Earlier places on the route: Pragel Pass, Glarus"
+     }
+    ],
+    "uncertain": [
+     "The army passed through Chur.",
+     "French troops stayed in Switzerland after the march."
+    ],
+    "route": true
    }
   ],
   "sources": [
@@ -12844,9 +21533,9 @@ window.MAP_STORIES = [
     "tick": "1845",
     "title": "The Sonderbund",
     "text": [
-     "In the 1840s liberals and Catholic conservatives fought over the future of Switzerland. The liberals wanted a stronger central state. The conservatives wanted the cantons to stay free, and they defended the Catholic Church.",
-     "In 1844 Lucerne called the Jesuits to its schools. Armed groups of radicals (the 'Freischaren') attacked Lucerne twice, in 1844 and 1845, but failed.",
-     "In December 1845 seven Catholic conservative cantons formed a defence league in Lucerne: Lucerne, Uri, Schwyz, Unterwalden (Obwalden and Nidwalden), Zug, Fribourg and Valais. Its opponents called it the 'Sonderbund' (separate league)."
+     "In the 1840s liberals and Catholic conservatives fought over the future of Switzerland. The liberals wanted a federal state. The conservatives wanted the cantons to stay free, and they defended the Catholic religion.",
+     "Lucerne decided to call the Jesuits, and they came to Lucerne in 1845. Armed groups of radicals (the 'Freischaren') attacked Lucerne twice, in 1844 and 1845, but failed.",
+     "On 11 December 1845 seven Catholic conservative cantons formed a defence league in Lucerne: Lucerne, Uri, Schwyz, Unterwalden (Obwalden and Nidwalden), Zug, Fribourg and Valais. Its opponents called it the 'Sonderbund' (separate league)."
     ],
     "view": "ch",
     "layers": [
@@ -12870,9 +21559,10 @@ window.MAP_STORIES = [
      {
       "name": "Neutral",
       "kind": "other",
-      "label": "Neutral: Neuchâtel and Appenzell Innerrhoden",
+      "label": "Neutral: Basel-Stadt, Neuchâtel and Appenzell Innerrhoden",
       "sel": {
        "cantons": [
+        "BS",
         "NE",
         "AI"
        ]
@@ -12888,7 +21578,6 @@ window.MAP_STORIES = [
         "BE",
         "GL",
         "SO",
-        "BS",
         "BL",
         "SH",
         "AR",
@@ -12913,6 +21602,68 @@ window.MAP_STORIES = [
       "year": 1845,
       "note": "Sonderbund founded"
      }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/017241/",
+      "title": "HLS: Sonderbund",
+      "quote": "Die Liberal-Radikalen wollten keinen Einheitsstaat wie zu Zeiten der Helvetik, sondern einen Bundesstaat.",
+      "supports": "The liberals wanted a federal state"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/017241/",
+      "title": "HLS: Sonderbund",
+      "quote": "Es gehe um die Verteidigung der katholischen Religion und den Schutz der alten Freiheiten.",
+      "supports": "The conservatives defended the Catholic religion and the old freedoms"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/017241/",
+      "title": "HLS: Sonderbund",
+      "quote": "In Luzern setzten nach dem konservativ-demokratischen Umschwung von 1841 Kreise um den Grossbauern Josef Leu die Jesuitenberufung durch.",
+      "supports": "Lucerne decided to call the Jesuits"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/011718/",
+      "title": "HLS: Jesuiten",
+      "quote": "1845 kehrten die Jesuiten auf Betreiben der Luzerner Regierung nach Luzern zurück.",
+      "supports": "The Jesuits came to Lucerne in 1845"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/017241/",
+      "title": "HLS: Sonderbund",
+      "quote": "Die Feindseligkeiten gipfelten in den beiden Freischarenzügen (1844-1845)",
+      "supports": "Two Freischaren attacks in 1844 and 1845"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/017241/",
+      "title": "HLS: Sonderbund",
+      "quote": "Am 11. Dezember 1845 gründeten sieben katholisch-konservative Kantone in Luzern eine sogenannte Schutzvereinigung.",
+      "supports": "On 11 December 1845 seven cantons formed a defence league in Lucerne (place Lucerne)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/017241/",
+      "title": "HLS: Sonderbund",
+      "quote": "Als die sieben katholisch-konservativen Kantone Luzern, Uri, Schwyz, Unterwalden, Zug, Freiburg und Wallis 1845 ein Separatbündnis schlossen",
+      "supports": "Layer Sonderbund: the seven Catholic conservative cantons"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/017241/",
+      "title": "HLS: Sonderbund",
+      "quote": "sahen die Liberalen darin nichts anderes als einen Sonderbund, eine Bezeichnung, die sich in der Folge durchsetzte",
+      "supports": "Its opponents called it the Sonderbund"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/017241/",
+      "title": "HLS: Sonderbund",
+      "quote": "Die reformiert-konservativen Kantone Basel-Stadt und Neuenburg sowie das katholisch-konservative Appenzell Innerrhoden blieben neutral.",
+      "supports": "Layer Neutral: Basel-Stadt, Neuchâtel and Appenzell Innerrhoden"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/017241/",
+      "title": "HLS: Sonderbund",
+      "quote": "Alle liberal-radikalen Kantone, darunter auch die liberalen katholischen bzw. mehrheitlich liberal katholisch gesinnten Orte Solothurn, Tessin und St. Gallen",
+      "supports": "Layer Diet majority: the liberal-radical cantons, with Solothurn, Ticino and St. Gallen"
+     }
     ]
    },
    {
@@ -12920,8 +21671,8 @@ window.MAP_STORIES = [
     "tick": "1847 July",
     "title": "The Diet decides",
     "text": [
-     "The federal treaty did not allow such separate leagues. In 1847 the liberals won a majority in the Diet, the meeting of the cantons.",
-     "In July 1847 the Diet ordered the Sonderbund to break up. The Sonderbund refused and called up its troops in October. The Diet made Guillaume-Henri Dufour of Geneva general of the federal army."
+     "The federal treaty did not allow such separate leagues. In May 1847 the liberals won the elections in St. Gallen, and so they had a majority in the Diet, the meeting of the cantons.",
+     "On 20 July 1847 the Diet ordered the Sonderbund to break up. The Sonderbund refused and called up its troops on 16 October. On 21 October the Diet made Guillaume-Henri Dufour of Geneva general of the federal army."
     ],
     "view": "ch",
     "layers": [
@@ -12945,9 +21696,10 @@ window.MAP_STORIES = [
      {
       "name": "Neutral",
       "kind": "other",
-      "label": "Neutral: Neuchâtel and Appenzell Innerrhoden",
+      "label": "Neutral: Basel-Stadt, Neuchâtel and Appenzell Innerrhoden",
       "sel": {
        "cantons": [
+        "BS",
         "NE",
         "AI"
        ]
@@ -12963,7 +21715,6 @@ window.MAP_STORIES = [
         "BE",
         "GL",
         "SO",
-        "BS",
         "BL",
         "SH",
         "AR",
@@ -12995,6 +21746,68 @@ window.MAP_STORIES = [
       "kind": "town",
       "year": 1845,
       "note": "Centre of the Sonderbund"
+     }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/017241/",
+      "title": "HLS: Sonderbund",
+      "quote": "Der Sonderbund hatte einen defensiven Charakter, doch die ausserordentlichen Vollmachten des Kriegsrats verstiessen gegen den Bundesvertrag.",
+      "supports": "The federal treaty did not allow such a league"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/017241/",
+      "title": "HLS: Sonderbund",
+      "quote": "Dadurch rückten die Wahlen im «Schicksalskanton» St. Gallen vom Mai 1847 ins Rampenlicht, denn bei einem Sieg der Liberal-Radikalen wäre die Mehrheit Tatsache geworden.",
+      "supports": "In May 1847 the St. Gallen elections gave the liberals a majority in the Diet"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/017241/",
+      "title": "HLS: Sonderbund",
+      "quote": "Am 20. Juli 1847 beschloss die Tagsatzung die Auflösung des Sonderbunds",
+      "supports": "On 20 July 1847 the Diet ordered the Sonderbund to break up (place Bern)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/017241/",
+      "title": "HLS: Sonderbund",
+      "quote": "An der Sommertagsatzung 1847 in Bern",
+      "supports": "The Diet met in Bern in 1847"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/017241/",
+      "title": "HLS: Sonderbund",
+      "quote": "Am 16. Oktober 1847 mobilisierte der Kriegsrat des Sonderbunds seine Milizen.",
+      "supports": "The Sonderbund called up its troops on 16 October"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/017241/",
+      "title": "HLS: Sonderbund",
+      "quote": "Bereits am 21. Oktober hatte sie den reformierten Genfer Guillaume-Henri Dufour, der als gemässigter Konservativer galt, zum General der eidgenössischen Truppen ernannt.",
+      "supports": "On 21 October the Diet made Dufour of Geneva general"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/017241/",
+      "title": "HLS: Sonderbund",
+      "quote": "Die Abgeordneten des Kriegsrats wählten den Luzerner Regierungsrat Konstantin Siegwart-Müller zu ihrem Präsidenten",
+      "supports": "Place Lucerne: centre of the Sonderbund"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/017241/",
+      "title": "HLS: Sonderbund",
+      "quote": "Als die sieben katholisch-konservativen Kantone Luzern, Uri, Schwyz, Unterwalden, Zug, Freiburg und Wallis 1845 ein Separatbündnis schlossen",
+      "supports": "Layer Sonderbund: the seven Catholic conservative cantons"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/017241/",
+      "title": "HLS: Sonderbund",
+      "quote": "Die reformiert-konservativen Kantone Basel-Stadt und Neuenburg sowie das katholisch-konservative Appenzell Innerrhoden blieben neutral.",
+      "supports": "Layer Neutral: Basel-Stadt, Neuchâtel and Appenzell Innerrhoden"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/017241/",
+      "title": "HLS: Sonderbund",
+      "quote": "Alle liberal-radikalen Kantone, darunter auch die liberalen katholischen bzw. mehrheitlich liberal katholisch gesinnten Orte Solothurn, Tessin und St. Gallen",
+      "supports": "Layer Diet majority: the liberal-radical cantons, with Solothurn, Ticino and St. Gallen"
      }
     ]
    },
@@ -13028,9 +21841,10 @@ window.MAP_STORIES = [
      {
       "name": "Neutral",
       "kind": "other",
-      "label": "Neutral: Neuchâtel and Appenzell Innerrhoden",
+      "label": "Neutral: Basel-Stadt, Neuchâtel and Appenzell Innerrhoden",
       "sel": {
        "cantons": [
+        "BS",
         "NE",
         "AI"
        ]
@@ -13046,7 +21860,6 @@ window.MAP_STORIES = [
         "BE",
         "GL",
         "SO",
-        "BS",
         "BL",
         "SH",
         "AR",
@@ -13071,6 +21884,47 @@ window.MAP_STORIES = [
       "year": 1847,
       "note": "Fribourg gives up to the federal army"
      }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/017241/",
+      "title": "HLS: Sonderbund",
+      "quote": "Dufour beabsichtigte zuerst einen Schlag gegen das isolierte Freiburg",
+      "supports": "Dufour attacked first Fribourg, which was cut off"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/017241/",
+      "title": "HLS: Sonderbund",
+      "quote": "Sie planten, die Stadt möglichst schnell einzuschliessen, um sie wie Freiburg zur Kapitulation zu bewegen.",
+      "supports": "His army surrounded the town and made it give up"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/017241/",
+      "title": "HLS: Sonderbund",
+      "quote": "Seine Offensive gegen den isolierten Kanton Freiburg glückte und bereits am 14. November kapitulierte dieser.",
+      "supports": "On 14 November 1847 Fribourg gave up (place Fribourg)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/017241/",
+      "title": "HLS: Sonderbund",
+      "quote": "Als die sieben katholisch-konservativen Kantone Luzern, Uri, Schwyz, Unterwalden, Zug, Freiburg und Wallis 1845 ein Separatbündnis schlossen",
+      "supports": "Layer Sonderbund: the seven Catholic conservative cantons"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/017241/",
+      "title": "HLS: Sonderbund",
+      "quote": "Die reformiert-konservativen Kantone Basel-Stadt und Neuenburg sowie das katholisch-konservative Appenzell Innerrhoden blieben neutral.",
+      "supports": "Layer Neutral: Basel-Stadt, Neuchâtel and Appenzell Innerrhoden"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/017241/",
+      "title": "HLS: Sonderbund",
+      "quote": "Alle liberal-radikalen Kantone, darunter auch die liberalen katholischen bzw. mehrheitlich liberal katholisch gesinnten Orte Solothurn, Tessin und St. Gallen",
+      "supports": "Layer Diet majority: the liberal-radical cantons, with Solothurn, Ticino and St. Gallen"
+     }
+    ],
+    "uncertain": [
+     "Fribourg gave up almost without a fight."
     ]
    },
    {
@@ -13078,8 +21932,8 @@ window.MAP_STORIES = [
     "tick": "1847 Gisikon",
     "title": "Gisikon and Lucerne",
     "text": [
-     "Then Dufour turned against Lucerne. On 23 November 1847 the federal army fought the Sonderbund troops at Gisikon on the Reuss bridge and at Meierskappel. The federal army won.",
-     "On 24 November federal troops entered Lucerne. The leaders of the Sonderbund fled."
+     "Then Dufour turned against Lucerne. On 23 November 1847 the federal army fought the Sonderbund troops at Gisikon and at Meierskappel. The federal army won.",
+     "The leaders of the Sonderbund fled to Uri. The town council of Lucerne decided to give up the town, and federal troops entered it."
     ],
     "view": "ch",
     "layers": [
@@ -13103,9 +21957,10 @@ window.MAP_STORIES = [
      {
       "name": "Neutral",
       "kind": "other",
-      "label": "Neutral: Neuchâtel and Appenzell Innerrhoden",
+      "label": "Neutral: Basel-Stadt, Neuchâtel and Appenzell Innerrhoden",
       "sel": {
        "cantons": [
+        "BS",
         "NE",
         "AI"
        ]
@@ -13121,7 +21976,6 @@ window.MAP_STORIES = [
         "BE",
         "GL",
         "SO",
-        "BS",
         "BL",
         "SH",
         "AR",
@@ -13170,6 +22024,60 @@ window.MAP_STORIES = [
       "year": 1847,
       "note": "Gave up"
      }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/017241/",
+      "title": "HLS: Sonderbund",
+      "quote": "Mit ihrer zweiten Offensive richteten die eidgenössischen Truppen ihr Augenmerk auf Luzern.",
+      "supports": "Then Dufour turned against Lucerne"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/017241/",
+      "title": "HLS: Sonderbund",
+      "quote": "Am selben Tag brachten die Gefechte von Gisikon und Meierskappel die Entscheidung zugunsten der Tagsatzungsarmee.",
+      "supports": "On 23 November 1847 the federal army won at Gisikon and Meierskappel (places Gisikon, Meierskappel)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/017241/",
+      "title": "HLS: Sonderbund",
+      "quote": "zogen sich der sonderbündische Kriegsrat und die Luzerner Regierung in den Kanton Uri zurück",
+      "supports": "The Sonderbund leaders fled to Uri"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/017241/",
+      "title": "HLS: Sonderbund",
+      "quote": "sodass sich der Luzerner Stadtrat bald für die Übergabe der Stadt entschloss, in der es dann zu einzelnen Plünderungen durch Tagsatzungstruppen kam",
+      "supports": "Lucerne gave up and federal troops entered it (place Lucerne)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/017241/",
+      "title": "HLS: Sonderbund",
+      "quote": "Seine Offensive gegen den isolierten Kanton Freiburg glückte und bereits am 14. November kapitulierte dieser.",
+      "supports": "Place Fribourg: gave up"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/017241/",
+      "title": "HLS: Sonderbund",
+      "quote": "Als die sieben katholisch-konservativen Kantone Luzern, Uri, Schwyz, Unterwalden, Zug, Freiburg und Wallis 1845 ein Separatbündnis schlossen",
+      "supports": "Layer Sonderbund: the seven Catholic conservative cantons"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/017241/",
+      "title": "HLS: Sonderbund",
+      "quote": "Die reformiert-konservativen Kantone Basel-Stadt und Neuenburg sowie das katholisch-konservative Appenzell Innerrhoden blieben neutral.",
+      "supports": "Layer Neutral: Basel-Stadt, Neuchâtel and Appenzell Innerrhoden"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/017241/",
+      "title": "HLS: Sonderbund",
+      "quote": "Alle liberal-radikalen Kantone, darunter auch die liberalen katholischen bzw. mehrheitlich liberal katholisch gesinnten Orte Solothurn, Tessin und St. Gallen",
+      "supports": "Layer Diet majority: the liberal-radical cantons, with Solothurn, Ticino and St. Gallen"
+     }
+    ],
+    "uncertain": [
+     "The fight at Gisikon was at the Reuss bridge.",
+     "Federal troops entered Lucerne on 24 November 1847."
     ]
    },
    {
@@ -13177,8 +22085,8 @@ window.MAP_STORIES = [
     "tick": "1847 End",
     "title": "The war ends",
     "text": [
-     "One after the other, the other Sonderbund cantons gave up. Valais was the last, at the end of November.",
-     "The war lasted less than a month, and fairly few people died. Dufour had ordered his troops to treat prisoners and people well. This made peace easier."
+     "One after the other, the other Sonderbund cantons gave up: Zug on 21 November, then the inner cantons and Valais between 25 and 29 November.",
+     "The war lasted 25 days, and fairly few people died: HLS gives 93 dead soldiers. Dufour wanted to avoid deaths and hatred, so that the Confederation could stay together. This made peace easier."
     ],
     "view": "ch",
     "layers": [
@@ -13252,6 +22160,56 @@ window.MAP_STORIES = [
       "year": 1847,
       "note": "Gave up"
      }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/017241/",
+      "title": "HLS: Sonderbund",
+      "quote": "unterzeichneten dessen Gesandte am 21. November eine Kapitulationsurkunde",
+      "supports": "Zug gave up on 21 November"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/017241/",
+      "title": "HLS: Sonderbund",
+      "quote": "Zwischen dem 25. und 29. November folgte die kampflose Unterwerfung der Urkantone und des Wallis und damit das Ende des Sonderbunds.",
+      "supports": "The inner cantons and Valais gave up between 25 and 29 November (place Sion; layer Former Sonderbund)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/017241/",
+      "title": "HLS: Sonderbund",
+      "quote": "Die neuesten Untersuchungen gehen bei einer Kriegsdauer von 25 Tagen von 60 Toten und 386 Verwundeten bei den Tagsatzungstruppen",
+      "supports": "The war lasted 25 days"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/017241/",
+      "title": "HLS: Sonderbund",
+      "quote": "also insgesamt von 93 gefallenen und 510 verwundeten Soldaten aus",
+      "supports": "93 dead soldiers"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/017241/",
+      "title": "HLS: Sonderbund",
+      "quote": "Dufour war bestrebt, Hassgefühle gegen die Sonderbundskantone, wo immer sie auftraten, zu unterbinden. Er wollte den künftigen Zusammenhalt der Eidgenossenschaft nicht gefährden.",
+      "supports": "Dufour wanted to avoid hatred so that the Confederation could stay together"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/017241/",
+      "title": "HLS: Sonderbund",
+      "quote": "Seine Strategie bestand darin, rasch zu handeln und Opfer zu vermeiden.",
+      "supports": "Dufour wanted to avoid deaths"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/017241/",
+      "title": "HLS: Sonderbund",
+      "quote": "Die Tagsatzungsmehrheit schickte in die besiegten Kantone eidgenössische Repräsentanten, die für neue Regierungen und die Ausweisung der Jesuiten zu sorgen hatten.",
+      "supports": "Layer Former Sonderbund cantons, now under federal control"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/017241/",
+      "title": "HLS: Sonderbund",
+      "quote": "Am selben Tag brachten die Gefechte von Gisikon und Meierskappel die Entscheidung zugunsten der Tagsatzungsarmee.",
+      "supports": "Place Gisikon: federal army wins"
+     }
     ]
    },
    {
@@ -13259,8 +22217,8 @@ window.MAP_STORIES = [
     "tick": "1848",
     "title": "The federal state",
     "text": [
-     "The winners wrote a new constitution. In September 1848 it came into force. Switzerland was now a federal state with a government (the Federal Council), and a parliament with two chambers. Customs, post and money became federal matters.",
-     "Bern became the federal city. The cantons kept many rights. The Catholic conservatives were the losers for a long time; they got a seat in the Federal Council only in 1891.",
+     "The winners wrote a new constitution. On 12 September 1848 it came into force. Switzerland was now a federal state with a government (the Federal Council) and a parliament with two equal chambers. Customs inside Switzerland were abolished, and money became a federal matter.",
+     "On 28 November 1848 parliament chose Bern as the federal city. The cantons kept many rights. The Catholic conservatives were the losers for a long time; they got a seat in the Federal Council only in 1891.",
      "The Sonderbund War was the last war between Swiss cantons."
     ],
     "view": "ch",
@@ -13310,6 +22268,66 @@ window.MAP_STORIES = [
       "year": 1848,
       "note": "Federal city"
      }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/009811/",
+      "title": "HLS: Bundesverfassung",
+      "quote": "Am 12. September 1848 erklärte die Tagsatzung, dass die Bundesverfassung «damit angenommen [sei] und als Grundgesetz der Eidgenossenschaft» gelte.",
+      "supports": "On 12 September 1848 the constitution came into force (layer Switzerland 1848)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/009811/",
+      "title": "HLS: Bundesverfassung",
+      "quote": "wählten als Vereinigte Bundesversammlung am 16. November die sieben ersten Bundesräte",
+      "supports": "The Federal Council"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/009801/",
+      "title": "HLS: Bundesstaat",
+      "quote": "Die Einführung des Zweikammersystems mit zwei gleichgestellten Räten ( Bundesversammlung ) analog dem amerikanischen Vorbild",
+      "supports": "A parliament with two equal chambers"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/009811/",
+      "title": "HLS: Bundesverfassung",
+      "quote": "Die Zölle im Innern der Eidgenossenschaft wurden abgeschafft",
+      "supports": "Customs inside Switzerland were abolished"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/009811/",
+      "title": "HLS: Bundesverfassung",
+      "quote": "nur das Münzregal ( Münzen ), die Festlegung der Masse und Gewichte sowie die Errichtung öffentlicher Werke",
+      "supports": "Money became a federal matter"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/010102/",
+      "title": "HLS: Bundesstadt",
+      "quote": "Für die Wahl zur Bundesstadt vom 28. November 1848 blieben letztlich die drei ehemaligen Vororte Zürich, Bern und Luzern als ernsthafte Konkurrenten übrig",
+      "supports": "On 28 November 1848 the federal city was chosen"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/010102/",
+      "title": "HLS: Bundesstadt",
+      "quote": "Bereits im ersten Wahlgang entschieden sich 58 National- und 21 Ständeräte für Bern",
+      "supports": "Parliament chose Bern (place Bern)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/009811/",
+      "title": "HLS: Bundesverfassung",
+      "quote": "Die Kantone behielten die Kompetenzen über das Zivilrecht, das Strafrecht , das Prozessrecht und die Polizei .",
+      "supports": "The cantons kept many rights"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/009801/",
+      "title": "HLS: Bundesstaat",
+      "quote": "die Katholisch-Konservativen, die ab 1891 einen Bundesrat stellten",
+      "supports": "Catholic conservatives had a Federal Councillor from 1891"
+     }
+    ],
+    "uncertain": [
+     "The Sonderbund War was the last war between Swiss cantons.",
+     "The post became a federal matter in 1848."
     ]
    }
   ],
@@ -13321,5 +22339,7267 @@ window.MAP_STORIES = [
    "https://hls-dhs-dss.ch/de/articles/009800/"
   ],
   "notes": "Areas are today's cantons (Jura was part of Bern in 1847; Basel was split into two half-cantons from 1833). No number of dead is given because I did not check one in HLS. The 1891 Federal Council seat (Josef Zemp) is from general knowledge, not checked in this research. Dufour's orders on humane treatment are widely documented but were not checked in HLS for this file."
+ },
+ {
+  "id": "languages",
+  "title": "Four languages: how the language regions formed and moved",
+  "card": "From Celtic and Latin to the Alemanni, the Walser and today's census maps: how German, French, Italian and Romansh got their regions, and how Romansh shrank.",
+  "stops": [
+   {
+    "year": -15,
+    "tick": "15 BC",
+    "title": "Rome brings Latin",
+    "text": [
+     "Before the Romans came, people in the area of today's Switzerland spoke Celtic languages, for example the Helvetii on the Plateau. Older, non-Indo-European languages lay under them. The Raetians in the eastern Alps spoke a language that we know very little about.",
+     "Rome took the land step by step: the south from the 2nd century BC, the rest by the end of the 1st century BC. In 15 BC the generals Drusus and Tiberius conquered the Alps, which later became the province of Raetia.",
+     "Latin became the language of the army, the officials and all writing. North of the Alps many people probably still spoke Celtic for a long time. But this Latin is the root of French, Italian and Romansh in Switzerland today."
+    ],
+    "view": [
+     [
+      43.6,
+      2.0
+     ],
+     [
+      49.8,
+      15.0
+     ]
+    ],
+    "layers": [
+     {
+      "name": "Roman Switzerland",
+      "kind": "roman",
+      "label": "Under Roman rule by 15 BC: Latin for army, officials and writing",
+      "sel": {
+       "cantons": [
+        "ZH",
+        "BE",
+        "LU",
+        "UR",
+        "SZ",
+        "OW",
+        "NW",
+        "GL",
+        "ZG",
+        "FR",
+        "SO",
+        "BS",
+        "BL",
+        "SH",
+        "AR",
+        "AI",
+        "SG",
+        "GR",
+        "AG",
+        "TG",
+        "TI",
+        "VD",
+        "VS",
+        "NE",
+        "GE",
+        "JU"
+       ]
+      }
+     },
+     {
+      "name": "Roman Gaul and Italy",
+      "kind": "roman",
+      "label": "Roman Gaul and Italy (today's France and Italy, shown roughly)",
+      "sel": {},
+      "countries": [
+       "FRA",
+       "ITA"
+      ]
+     }
+    ],
+    "places": [
+     {
+      "name": "Aventicum (Avenches)",
+      "lat": 46.8817,
+      "lon": 7.0436,
+      "kind": "town",
+      "note": "Capital of the Helvetii in Roman times"
+     },
+     {
+      "name": "Colonia Iulia Equestris (Nyon)",
+      "lat": 46.3833,
+      "lon": 6.2398,
+      "kind": "town"
+     },
+     {
+      "name": "Augusta Raurica (Augst)",
+      "lat": 47.534,
+      "lon": 7.7215,
+      "kind": "town"
+     },
+     {
+      "name": "Vindonissa (Windisch)",
+      "lat": 47.479,
+      "lon": 8.222,
+      "kind": "town",
+      "note": "Legion camp"
+     },
+     {
+      "name": "Curia (Chur)",
+      "lat": 46.8499,
+      "lon": 9.5329,
+      "kind": "town",
+      "note": "Later capital of Raetia"
+     }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/024596/2013-07-18/",
+      "title": "HLS: Mehrsprachigkeit (Georges Lüdi)",
+      "quote": "Verschiedene vorindogermanische Sprachen wurden zunächst von keltischen Varietäten überlagert.",
+      "supports": "Older languages covered by Celtic ones"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/011197/2008-11-18/",
+      "title": "HLS: Latein (Peter Stotz)",
+      "quote": "vom Anfang des 2. (Südschweiz) bis zum Ende des 1. vorchristlichen Jahrhunderts schrittweise in das Römische Reich einbezogen",
+      "supports": "Step-by-step Roman conquest, south first"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/024594/2012-06-19/",
+      "title": "HLS: Rätoromanisch (Ricarda Liver)",
+      "quote": "Die Eroberung der alpinen Gebiete, die später die römische Provinz Raetia bildeten, durch Drusus und Tiberius 15 v.Chr.",
+      "supports": "Conquest of the Alps in 15 BC; province of Raetia"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/011197/2008-11-18/",
+      "title": "HLS: Latein (Peter Stotz)",
+      "quote": "Nördlich der Alpen hat sich, wie in Gallien allgemein, die keltische Sprache der einheimischen Bevölkerung wohl noch während der ganzen Dauer des Altertums erhalten",
+      "supports": "Celtic still spoken north of the Alps"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/011197/2008-11-18/",
+      "title": "HLS: Latein (Peter Stotz)",
+      "quote": "Aus dem Latein sind die romanischen Sprachen und Dialekte des schweizerischen Raums hervorgegangen (Französisch, Italienisch, Rätoromanisch).",
+      "supports": "Latin is the root of French, Italian, Romansh"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/024594/2012-06-19/",
+      "title": "HLS: Rätoromanisch (Ricarda Liver)",
+      "quote": "Wahrscheinlich gehörten die indoeuropäischen Kelten und wohl nicht-indoeuropäischen Räter zu den wichtigsten dort angesiedelten Völkern.",
+      "supports": "Celts and Raetians in the Alps"
+     }
+    ],
+    "uncertain": [
+     "'Helvetii on the Plateau' and 'Aventicum as their capital' are general knowledge, not quoted from the step sources."
+    ]
+   },
+   {
+    "year": 443,
+    "tick": "443",
+    "title": "Burgundians settle in the west",
+    "text": [
+     "In 443 the Roman general Aëtius settled what was left of the Burgundians, a Germanic people, in the 'Sapaudia'. Historians today place this area between the Ain, the Rhône, Lake Geneva, the Jura and the Aare.",
+     "The Burgundians were few compared with the local people. They mixed very quickly with the Latin-speaking population and took over its language. Their kingdom grew as far as Lyon, but the Franks conquered it in 532–534.",
+     "So the Burgundians did not change the language of the west. They left some place names, for example names ending in -ens. Experts say that the later German–French language border does not come directly from them."
+    ],
+    "view": [
+     [
+      45.4,
+      4.4
+     ],
+     [
+      48.0,
+      10.6
+     ]
+    ],
+    "layers": [
+     {
+      "name": "Sapaudia (approx.)",
+      "kind": "burgundians",
+      "label": "Burgundian settlement area from 443 (approx., by today's cantons)",
+      "sel": {
+       "cantons": [
+        "GE",
+        "VD",
+        "FR",
+        "NE"
+       ]
+      },
+      "regions": [
+       "FRA-5262"
+      ]
+     },
+     {
+      "name": "Romanised population",
+      "kind": "roman",
+      "label": "Latin-speaking (Romanised) population",
+      "sel": {
+       "cantons": [
+        "ZH",
+        "BE",
+        "LU",
+        "UR",
+        "SZ",
+        "OW",
+        "NW",
+        "GL",
+        "ZG",
+        "FR",
+        "SO",
+        "BS",
+        "BL",
+        "SH",
+        "AR",
+        "AI",
+        "SG",
+        "GR",
+        "AG",
+        "TG",
+        "TI",
+        "VD",
+        "VS",
+        "NE",
+        "GE",
+        "JU"
+       ]
+      }
+     }
+    ],
+    "places": [
+     {
+      "name": "Geneva",
+      "lat": 46.2044,
+      "lon": 6.1432,
+      "kind": "town",
+      "note": "Seat of Burgundian kings"
+     },
+     {
+      "name": "Lyon",
+      "lat": 45.764,
+      "lon": 4.8357,
+      "kind": "town",
+      "year": 461,
+      "note": "Main royal seat from about 461"
+     },
+     {
+      "name": "Saint-Maurice abbey",
+      "lat": 46.2183,
+      "lon": 7.0033,
+      "kind": "place",
+      "year": 515,
+      "note": "Founded by King Sigismund in 515"
+     }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008028/2006-10-09/",
+      "title": "HLS: Burgunder (Reinhold Kaiser)",
+      "quote": "Die Reste der Burgunder wurden 443 von Aëtius in der Sapaudia angesiedelt.",
+      "supports": "Settlement in 443 by Aëtius"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008028/2006-10-09/",
+      "title": "HLS: Burgunder (Reinhold Kaiser)",
+      "quote": "Nach neueren Forschungen ist an den Raum zwischen Ain, Rhone, Genfersee, Jura und Aare",
+      "supports": "Location of the Sapaudia"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008028/2006-10-09/",
+      "title": "HLS: Burgunder (Reinhold Kaiser)",
+      "quote": "Da die Burgunder äusserst rasch mit der romanischen Grundbevölkerung verschmolzen",
+      "supports": "Burgundians quickly merged with the Latin speakers"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008028/2006-10-09/",
+      "title": "HLS: Burgunder (Reinhold Kaiser)",
+      "quote": "Dies bedeutete das Ende des altburgundischen Reichs.",
+      "supports": "End of the kingdom (after defeat by the Franks in 532)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008028/2006-10-09/",
+      "title": "HLS: Burgunder (Reinhold Kaiser)",
+      "quote": "dann ist auch daraus kein unmittelbarer Einfluss der Burgunder auf die Ausbildung der deutsch-französischen Sprachgrenze in der Westschweiz abzuleiten",
+      "supports": "No direct influence on the language border"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/011195/2007-05-08/",
+      "title": "HLS: Französisch (Andres Kristol)",
+      "quote": "Die burgundische Ansiedlung im 5. Jahrhundert hinterliess, abgesehen von einigen Ortsnamen",
+      "supports": "Only some place names (-ens) remain"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008028/2006-10-09/",
+      "title": "HLS: Burgunder (Reinhold Kaiser)",
+      "quote": "doch unterlag er 532 den erneut angreifenden Franken bei Autun",
+      "supports": "Frankish conquest 532"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008028/2006-10-09/",
+      "title": "HLS: Burgunder (Reinhold Kaiser)",
+      "quote": "Die Verlegung der Residenz von Genf nach Lyon unter Gundowech um 461",
+      "supports": "Lyon royal seat from about 461; Geneva seat"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008028/2006-10-09/",
+      "title": "HLS: Burgunder (Reinhold Kaiser)",
+      "quote": "gründete 515 am Grab des heiligen Mauritius in Acaunum die Abtei Saint-Maurice",
+      "supports": "Saint-Maurice 515"
+     }
+    ]
+   },
+   {
+    "year": 800,
+    "tick": "550–800",
+    "title": "Alemanni settle north and centre",
+    "text": [
+     "From the second half of the 6th century and in the 7th century, groups of Alemanni crossed the High Rhine under Frankish rule. They settled on the Swiss Plateau. They spoke a Germanic language, the ancestor of Swiss German.",
+     "The change of language was slow. In many places the Latin-speaking (Romance) people lived on for a long time next to the newcomers. By the end of the 8th century Alemannic speech reached Lake Biel and the Saane valley. In the 8th and 9th centuries German speakers moved into the Upper Valais, and a first language border formed near Gampel and Steg.",
+     "In the west, the Romance speech became Franco-Provençal, a group of dialects also found in south-east France and the Aosta valley. Only the Jura dialects belong to the northern French group (langue d'oïl). In the east the Romance speech of Raetia lived on, and in the south the Lombard dialects."
+    ],
+    "view": "ch",
+    "layers": [
+     {
+      "name": "Upper Valais",
+      "kind": "alemanni",
+      "label": "Upper Valais: German speakers arrive in the 8th–9th centuries",
+      "sel": {
+       "districts": [
+        2304,
+        2301,
+        2313,
+        2309
+       ]
+      }
+     },
+     {
+      "name": "Raetia",
+      "kind": "romansh",
+      "label": "Raetian Romance (later Romansh) – shown by today's units, roughly",
+      "sel": {
+       "cantons": [
+        "GR",
+        "GL"
+       ],
+       "districts": [
+        1723,
+        1724,
+        1725
+       ],
+       "except": [
+        3804,
+        3837,
+        3831,
+        3805,
+        3832,
+        3821,
+        3822,
+        3808,
+        3834,
+        3835,
+        3810,
+        3823,
+        3792,
+        3561,
+        3551
+       ]
+      }
+     },
+     {
+      "name": "Lombard south",
+      "kind": "italian",
+      "label": "Lombard Romance (later Italian)",
+      "sel": {
+       "cantons": [
+        "TI"
+       ],
+       "districts": [
+        1847
+       ],
+       "munis": [
+        3792,
+        3561,
+        3551
+       ]
+      }
+     },
+     {
+      "name": "Western Romance",
+      "kind": "french",
+      "label": "Gallo-Romance (Franco-Provençal; in the Jura langue d'oïl)",
+      "sel": {
+       "cantons": [
+        "GE",
+        "VD",
+        "NE",
+        "JU",
+        "VS"
+       ],
+       "districts": [
+        241,
+        1001,
+        1002,
+        1003,
+        1004,
+        1007,
+        1005
+       ]
+      }
+     },
+     {
+      "name": "Alemannic area",
+      "kind": "alemanni",
+      "label": "Main Alemannic settlement by about 800 (very rough)",
+      "sel": {
+       "cantons": [
+        "ZH",
+        "BE",
+        "LU",
+        "UR",
+        "SZ",
+        "OW",
+        "NW",
+        "GL",
+        "ZG",
+        "FR",
+        "SO",
+        "BS",
+        "BL",
+        "SH",
+        "AR",
+        "AI",
+        "SG",
+        "GR",
+        "AG",
+        "TG",
+        "TI",
+        "VD",
+        "VS",
+        "NE",
+        "GE",
+        "JU"
+       ]
+      }
+     }
+    ],
+    "places": [
+     {
+      "name": "Gampel/Steg",
+      "lat": 46.3155,
+      "lon": 7.7419,
+      "kind": "place",
+      "note": "First language border in the Valais"
+     },
+     {
+      "name": "Lake Biel",
+      "lat": 47.085,
+      "lon": 7.17,
+      "kind": "place",
+      "year": 800,
+      "note": "Alemannic reaches it by about 800"
+     },
+     {
+      "name": "Bülach",
+      "lat": 47.5206,
+      "lon": 8.54,
+      "kind": "place",
+      "note": "Early Frankish graves (6th c.)"
+     },
+     {
+      "name": "St. Gallen",
+      "lat": 47.4245,
+      "lon": 9.3767,
+      "kind": "town",
+      "year": 719,
+      "note": "Monastery founded 719"
+     }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008027/2018-01-18/",
+      "title": "HLS: Alemannen (Reinhold Kaiser)",
+      "quote": "In der zweite Hälfte des 6. und im 7. Jahrhundert stiessen die Alemannen unter fränkischer Führung über den Hochrhein vor und siedelten im Schweizer Mittelland.",
+      "supports": "Alemanni cross the Rhine and settle on the Plateau"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008027/2018-01-18/",
+      "title": "HLS: Alemannen (Reinhold Kaiser)",
+      "quote": "Innerhalb dieses Siedlungsraums finden sich Orte und Zonen, in denen das Romanische noch lange weiterlebte",
+      "supports": "Romance speech survives for a long time"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/011195/2007-05-08/",
+      "title": "HLS: Französisch (Andres Kristol)",
+      "quote": "Ende des 8. Jahrhunderts erreichte das Alemannische den Bielersee und das Saanetal",
+      "supports": "Lake Biel and Saane valley by about 800"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007396/2022-04-04/",
+      "title": "HLS: Wallis (Kanton)",
+      "quote": "Erst als im 8. und 9. Jahrhundert deutschsprachige Volksgruppen im weniger dicht besiedelten und später christianisierten Oberwallis einwanderten",
+      "supports": "German speakers in the Upper Valais"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007396/2022-04-04/",
+      "title": "HLS: Wallis (Kanton)",
+      "quote": "bildete sich bei Gampel und Steg eine erste Sprachgrenze zwischen der romanischen und der germanischen Bevölkerung",
+      "supports": "First language border near Gampel and Steg"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/011195/2007-05-08/",
+      "title": "HLS: Französisch (Andres Kristol)",
+      "quote": "Sprachlich gehören die meisten Westschweizer Mundarten wie diejenigen im Südosten Frankreichs und im Aostatal zum Frankoprovenzalischen.",
+      "supports": "Franco-Provençal in the west"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/011195/2007-05-08/",
+      "title": "HLS: Französisch (Andres Kristol)",
+      "quote": "Einzig die Mundarten des Jura lassen sich der nordfranzösischen Sprachgruppe, der Langue d'oïl, zuordnen.",
+      "supports": "Jura dialects are langue d'oïl"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008027/2018-01-18/",
+      "title": "HLS: Alemannen (Reinhold Kaiser)",
+      "quote": "Die entsprechenden Gräber in Basel-Bernerring, Zürich-Bäckerstrasse, Bülach und Elgg werden fränkischen Amtsträgern zugeschrieben",
+      "supports": "Bülach graves (place on map)"
+     }
+    ],
+    "uncertain": [
+     "The map borders of this step are only a rough picture by today's districts; HLS says the border formed over centuries. The Alemannic settlement of central Switzerland, Uri and Glarus is not dated in the sources used. The St. Gallen founding year 719 is from HLS 'Latein' (not quoted here)."
+    ]
+   },
+   {
+    "year": 843,
+    "tick": "806–843",
+    "title": "Romance Raetia turns north",
+    "text": [
+     "After Roman times the Latin of the eastern Alps covered a much bigger area than Romansh does today: Chur and the Rhine valley down to Lake Constance, the Walensee, Glarus and the Sarganserland, Liechtenstein, Vorarlberg and the Vinschgau (Val Venosta).",
+     "Raetia kept much self-rule under the Ostrogoths and the Franks. This changed when Charlemagne reorganised it in 806. From then on the count was a German speaker, and German-speaking followers came with him.",
+     "In 843 the Treaty of Verdun gave Raetia to the East Frankish kingdom. The bishopric of Chur moved from the church province of Milan to that of Mainz. After that, almost all bishops of Chur spoke German. Romansh never got a cultural centre of its own."
+    ],
+    "view": [
+     [
+      45.9,
+      8.4
+     ],
+     [
+      47.8,
+      11.2
+     ]
+    ],
+    "layers": [
+     {
+      "name": "Lombard valleys",
+      "kind": "italian",
+      "label": "Lombard Romance valleys (later Italian)",
+      "sel": {
+       "districts": [
+        1847
+       ],
+       "munis": [
+        3792,
+        3561,
+        3551
+       ]
+      }
+     },
+     {
+      "name": "Raetian Romance",
+      "kind": "romansh",
+      "label": "Raetian Romance after Roman times (approx.; Vorarlberg and Bozen province shown whole)",
+      "sel": {
+       "cantons": [
+        "GR",
+        "GL"
+       ],
+       "districts": [
+        1723,
+        1724,
+        1725
+       ]
+      },
+      "regions": [
+       "AUT-2320",
+       "ITA-5459"
+      ],
+      "countries": [
+       "LIE"
+      ]
+     }
+    ],
+    "places": [
+     {
+      "name": "Chur",
+      "lat": 46.8499,
+      "lon": 9.5329,
+      "kind": "town",
+      "note": "Bishops German-speaking after 843"
+     },
+     {
+      "name": "Walensee (Walenstadt)",
+      "lat": 47.1236,
+      "lon": 9.3122,
+      "kind": "place"
+     },
+     {
+      "name": "Glarus",
+      "lat": 47.0404,
+      "lon": 9.068,
+      "kind": "town"
+     },
+     {
+      "name": "Bregenz",
+      "lat": 47.505,
+      "lon": 9.749,
+      "kind": "town"
+     },
+     {
+      "name": "Vinschgau (Mals)",
+      "lat": 46.687,
+      "lon": 10.547,
+      "kind": "place",
+      "note": "Romance bridge to the Dolomites until the 16th c."
+     }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/024594/2012-06-19/",
+      "title": "HLS: Rätoromanisch (Ricarda Liver)",
+      "quote": "den Walensee, das Glarner- und Sarganserland, das St. Galler Rheintal bis zum Bodensee, ferner Liechtenstein, Vorarlberg",
+      "supports": "Former extent of Romance in the eastern Alps"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/024594/2012-06-19/",
+      "title": "HLS: Rätoromanisch (Ricarda Liver)",
+      "quote": "Teile Bayerns und Tirols und den Vinschgau, der bis zum 16. Jahrhundert die Brücke zwischen Bünderromanisch und Dolomitenladinisch bildete.",
+      "supports": "Vinschgau"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/024594/2012-06-19/",
+      "title": "HLS: Rätoromanisch (Ricarda Liver)",
+      "quote": "genoss Rätien eine weitgehende politische Selbstbestimmung",
+      "supports": "Self-rule under Romans, Ostrogoths and Franks"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/024594/2012-06-19/",
+      "title": "HLS: Rätoromanisch (Ricarda Liver)",
+      "quote": "indem er mit der Grafschaftsverfassung von 806 die beiden Bereiche voneinander trennte",
+      "supports": "Charlemagne's reform of 806"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/024594/2012-06-19/",
+      "title": "HLS: Rätoromanisch (Ricarda Liver)",
+      "quote": "Der Graf war von da an ein Deutschsprachiger",
+      "supports": "German-speaking count after 806"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/024594/2012-06-19/",
+      "title": "HLS: Rätoromanisch (Ricarda Liver)",
+      "quote": "Im Vertrag von Verdun 843 wurde Rätien dem ostfränkischen Reich Ludwigs des Deutschen zugeteilt.",
+      "supports": "Treaty of Verdun 843"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/024594/2012-06-19/",
+      "title": "HLS: Rätoromanisch (Ricarda Liver)",
+      "quote": "Von da an sassen fast ausschliesslich Deutschsprachige auf dem Churer Bischofsstuhl.",
+      "supports": "German-speaking bishops; move from Milan to Mainz"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/024594/2012-06-19/",
+      "title": "HLS: Rätoromanisch (Ricarda Liver)",
+      "quote": "dass sich im rätischen Mittelalter kein kulturelles Zentrum rätoromanischer Prägung bilden konnte",
+      "supports": "No Romansh cultural centre"
+     }
+    ],
+    "uncertain": [
+     "The map shows all of Glarus, Vorarlberg and Bozen province; the Romance area covered only parts of them, and it was not the same everywhere at the same time."
+    ]
+   },
+   {
+    "year": 1464,
+    "tick": "1280–1500",
+    "title": "Walser and Chur turn German",
+    "text": [
+     "German also came from the north, up the Rhine valley. Place names show that the area north of Chur was bilingual for a long time. It changed to German only in the 12th century.",
+     "From about 1280 local lords invited the Walser into Graubünden. The Walser were German-speaking mountain farmers from the Upper Valais ('Walser' means 'Valaisan'). Their first colonies were the Rheinwald and Davos. From there they went to Vals, Safien, Tschappina, Avers, Klosters, the Schanfigg and Arosa. Between the 14th and 16th centuries Davos, the Schanfigg and the Prättigau became German-speaking.",
+     "In Chur the upper class spoke German early, but most people spoke Romansh until the great fire of 1464. After the fire many German-speaking newcomers rebuilt the town. In the 15th century Romansh was still the spoken language of most of the Three Leagues, except Chur, the Rhine valley north of it and the Walser areas."
+    ],
+    "view": [
+     [
+      46.15,
+      8.6
+     ],
+     [
+      47.15,
+      10.55
+     ]
+    ],
+    "layers": [
+     {
+      "name": "Walser colonies",
+      "kind": "german",
+      "label": "Walser settlements from about 1280 (German)",
+      "sel": {
+       "munis": [
+        3851,
+        3871,
+        3714,
+        3603,
+        3672,
+        3669,
+        3681,
+        3988,
+        3921
+       ]
+      }
+     },
+     {
+      "name": "Prättigau",
+      "kind": "german",
+      "label": "Prättigau: German between the 14th and 16th centuries",
+      "sel": {
+       "munis": [
+        3881,
+        3861,
+        3862,
+        3961,
+        3863,
+        3882,
+        3891,
+        3962,
+        3972
+       ]
+      }
+     },
+     {
+      "name": "Chur and Rhine valley",
+      "kind": "german",
+      "label": "Chur and the Rhine valley north of it (German)",
+      "sel": {
+       "munis": [
+        3901
+       ],
+       "districts": [
+        1845
+       ]
+      }
+     },
+     {
+      "name": "Italian valleys",
+      "kind": "italian",
+      "label": "Italian-speaking southern valleys",
+      "sel": {
+       "districts": [
+        1847
+       ],
+       "munis": [
+        3792,
+        3561,
+        3551
+       ]
+      }
+     },
+     {
+      "name": "Romansh",
+      "kind": "romansh",
+      "label": "Romansh still spoken by most people (15th century)",
+      "sel": {
+       "cantons": [
+        "GR"
+       ]
+      }
+     }
+    ],
+    "places": [
+     {
+      "name": "Chur",
+      "lat": 46.8499,
+      "lon": 9.5329,
+      "kind": "town",
+      "year": 1464,
+      "note": "Romansh common speech until the fire of 1464"
+     },
+     {
+      "name": "Davos",
+      "lat": 46.8027,
+      "lon": 9.836,
+      "kind": "town",
+      "year": 1280,
+      "note": "Walser colony about 1280"
+     },
+     {
+      "name": "Hinterrhein (Rheinwald)",
+      "lat": 46.5333,
+      "lon": 9.2,
+      "kind": "place",
+      "year": 1280,
+      "note": "Walser colony about 1280"
+     },
+     {
+      "name": "Obersaxen",
+      "lat": 46.746,
+      "lon": 9.09,
+      "kind": "place",
+      "note": "Walser village in the Surselva"
+     },
+     {
+      "name": "Langwies",
+      "lat": 46.8186,
+      "lon": 9.7097,
+      "kind": "place",
+      "note": "Walser, Schanfigg"
+     }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/024594/2012-06-19/",
+      "title": "HLS: Rätoromanisch (Ricarda Liver)",
+      "quote": "Die Ortsnamenforschung zeigt im Gebiet nördlich von Chur eine lange Phase der Zweisprachigkeit, die erst im 12. Jahrhundert mit dem Sprachwechsel zum Deutschen endete.",
+      "supports": "North of Chur bilingual, German by the 12th century"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007950/2013-08-20/",
+      "title": "HLS: Walser (Max Waibel)",
+      "quote": "Das Wort Walser bedeutet Walliser",
+      "supports": "Meaning of 'Walser'"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007950/2013-08-20/",
+      "title": "HLS: Walser (Max Waibel)",
+      "quote": "das Rheinwald im Gebiet des Hinterrheins und die Landschaft Davos, die beide um 1280 besiedelt wurden",
+      "supports": "First colonies about 1280"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007950/2013-08-20/",
+      "title": "HLS: Walser (Max Waibel)",
+      "quote": "von Hinterrhein nach Vals, Safien, Tschappina und vermutlich ins Aversertal, von Davos nach Klosters und Schlappin",
+      "supports": "Further Walser villages"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007950/2013-08-20/",
+      "title": "HLS: Walser (Max Waibel)",
+      "quote": "dass vor allem die Territorialherren mit Grundbesitz beidseits des Alpenkamms Walser zur Sicherung ihrer Hoheitsrechte ansiedelten",
+      "supports": "Lords invited the Walser"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/024594/2012-06-19/",
+      "title": "HLS: Rätoromanisch (Ricarda Liver)",
+      "quote": "Zwischen dem 14. und dem 16. Jahrhundert wurden Davos, das Schanfigg und das Prättigau germanisiert.",
+      "supports": "Davos, Schanfigg, Prättigau become German"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/024594/2012-06-19/",
+      "title": "HLS: Rätoromanisch (Ricarda Liver)",
+      "quote": "obschon Rätoromanisch bis zum Stadtbrand von 1464 die allgemeine Umgangssprache war",
+      "supports": "Chur Romansh until the fire of 1464"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/024594/2012-06-19/",
+      "title": "HLS: Rätoromanisch (Ricarda Liver)",
+      "quote": "mit Ausnahme des Rheintals nördlich von Chur, der Hauptstadt Chur und den Walsergebieten",
+      "supports": "15th-century picture"
+     }
+    ],
+    "uncertain": [
+     "'German-speaking newcomers rebuilt Chur after the fire' is common knowledge, not stated in the quoted HLS text.",
+     "Walser villages are shown by today's (often merged) municipalities: Arosa includes Langwies, Safiental and Obersaxen Mundaun include non-Walser villages, and Avers is only 'probably' Walser per HLS."
+    ]
+   },
+   {
+    "year": 1550,
+    "tick": "1426–1600",
+    "title": "Italian in the south",
+    "text": [
+     "Ticino belonged to the Duchy of Milan in the 15th century. From 1426 the chancery of Milan wrote its letters in Italian, and local schools copied this model. People spoke Lombard dialects.",
+     "After the Confederates took the Ticino bailiwicks, they kept the local rights and used Italian with their subjects. From the middle of the 16th century written and spoken Italian spread to ordinary people in Ticino and Italian Graubünden. The Catholic Church after the Council of Trent, schools and emigration helped.",
+     "Since then people in Italian Switzerland write in Italian and often speak a dialect at home. Bosco/Gurin is an exception: Walser settlers made it a German-speaking village."
+    ],
+    "view": [
+     [
+      45.55,
+      8.0
+     ],
+     [
+      46.75,
+      10.5
+     ]
+    ],
+    "layers": [
+     {
+      "name": "Bosco/Gurin",
+      "kind": "german",
+      "label": "Bosco/Gurin: Walser (German-speaking) village",
+      "sel": {
+       "munis": [
+        5304
+       ]
+      }
+     },
+     {
+      "name": "Italian Switzerland",
+      "kind": "italian",
+      "label": "Italian as written language; Lombard dialects spoken",
+      "sel": {
+       "cantons": [
+        "TI"
+       ],
+       "districts": [
+        1847
+       ],
+       "munis": [
+        3792,
+        3561,
+        3551
+       ]
+      }
+     },
+     {
+      "name": "Lombardy",
+      "kind": "italian",
+      "label": "Neighbouring Lombardy and Piedmont (Italian)",
+      "sel": {},
+      "regions": [
+       "ITA-5452",
+       "ITA-5451",
+       "ITA-5444",
+       "ITA-5437"
+      ]
+     }
+    ],
+    "places": [
+     {
+      "name": "Bellinzona",
+      "lat": 46.1955,
+      "lon": 9.0234,
+      "kind": "town"
+     },
+     {
+      "name": "Lugano",
+      "lat": 46.0037,
+      "lon": 8.9511,
+      "kind": "town"
+     },
+     {
+      "name": "Bosco/Gurin",
+      "lat": 46.3167,
+      "lon": 8.4917,
+      "kind": "place",
+      "note": "Walser village"
+     },
+     {
+      "name": "Poschiavo",
+      "lat": 46.324,
+      "lon": 10.0583,
+      "kind": "town"
+     }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/011196/2009-04-21/",
+      "title": "HLS: Italienisch (Sandro Bianconi)",
+      "quote": "Die Zugehörigkeit der tessinischen Gebiete zum Herzogtum Mailand im 15. Jahrhundert hatte zur Folge, dass herzogliche Beamte in der Gegend wirkten.",
+      "supports": "Ticino under Milan"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/011196/2009-04-21/",
+      "title": "HLS: Italienisch (Sandro Bianconi)",
+      "quote": "Nach dem Vorbild der Mailänder Kanzlei, die ab 1426 auf Italienisch korrespondierte",
+      "supports": "Milan chancery writes Italian from 1426"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/011196/2009-04-21/",
+      "title": "HLS: Italienisch (Sandro Bianconi)",
+      "quote": "respektierten Italienisch als Sprache für den Verkehr mit den Untertanen",
+      "supports": "Confederates used Italian with their subjects"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/011196/2009-04-21/",
+      "title": "HLS: Italienisch (Sandro Bianconi)",
+      "quote": "Um die Mitte des 16. Jahrhunderts begann sich Italienisch als Schrift- und gesprochene Sprache in der breiteren Bevölkerung der Tessiner Landvogteien und Italienischbündens durchzusetzen.",
+      "supports": "Spread of Italian from the mid-16th century"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/011196/2009-04-21/",
+      "title": "HLS: Italienisch (Sandro Bianconi)",
+      "quote": "An erster Stelle ist das Wirken der durch das Konzil von Trient erneuerten katholischen Kirche zu erwähnen.",
+      "supports": "Role of the Church"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/011196/2009-04-21/",
+      "title": "HLS: Italienisch (Sandro Bianconi)",
+      "quote": "In Graubünden (im Misox, Calancatal, Bergell, Puschlav und in Bivio)",
+      "supports": "Italian valleys of Graubünden"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007950/2013-08-20/",
+      "title": "HLS: Walser (Max Waibel)",
+      "quote": "Formazza und, von dort aus besiedelt, Bosco/Gurin im Tessin",
+      "supports": "Bosco/Gurin is a Walser village"
+     }
+    ]
+   },
+   {
+    "year": 1600,
+    "tick": "1481–1600",
+    "title": "The western border settles",
+    "text": [
+     "The border between French and German formed over many centuries. Fribourg was always bilingual. When it joined the Confederation in 1481, it made German its official written language. But the French-speaking country people did not become German speakers.",
+     "Murten turned to Bern after it took the Reformation in 1530. During the 16th century the town changed to German. This was the last big loss of French along the border. In Ligerz on Lake Biel, German won slowly between the 17th and the mid-19th century.",
+     "In the Valais, settlers from the Upper Valais pushed the border west. In the 16th century it became fixed above Sierre. This ended the slow Germanisation that had started with the Alemanni."
+    ],
+    "view": "ch",
+    "layers": [
+     {
+      "name": "Jaun",
+      "kind": "german",
+      "label": "Jaun: German-speaking village in the Gruyère",
+      "sel": {
+       "munis": [
+        2138
+       ]
+      }
+     },
+     {
+      "name": "Lake district (FR)",
+      "kind": "bilingual",
+      "label": "Lake (See) district of Fribourg: bilingual; Murten German",
+      "sel": {
+       "districts": [
+        1005
+       ]
+      }
+     },
+     {
+      "name": "Sense",
+      "kind": "german",
+      "label": "Sense district: German",
+      "sel": {
+       "districts": [
+        1006
+       ]
+      }
+     },
+     {
+      "name": "Biel/Bienne",
+      "kind": "bilingual",
+      "label": "Biel/Bienne: bilingual today (see 1900)",
+      "sel": {
+       "munis": [
+        371
+       ]
+      }
+     },
+     {
+      "name": "Upper Valais",
+      "kind": "german",
+      "label": "Upper Valais: German (border above Sierre)",
+      "sel": {
+       "districts": [
+        2304,
+        2301,
+        2313,
+        2309,
+        2306
+       ]
+      }
+     },
+     {
+      "name": "French west",
+      "kind": "french",
+      "label": "French-speaking (Franco-Provençal dialects)",
+      "sel": {
+       "cantons": [
+        "GE",
+        "VD",
+        "NE",
+        "JU",
+        "FR",
+        "VS"
+       ],
+       "districts": [
+        241
+       ]
+      }
+     },
+     {
+      "name": "German Bern",
+      "kind": "german",
+      "label": "German-speaking Bern and Solothurn",
+      "sel": {
+       "cantons": [
+        "BE",
+        "SO"
+       ]
+      }
+     }
+    ],
+    "places": [
+     {
+      "name": "Fribourg",
+      "lat": 46.8065,
+      "lon": 7.162,
+      "kind": "town",
+      "year": 1481,
+      "note": "German official language from 1481"
+     },
+     {
+      "name": "Murten",
+      "lat": 46.9283,
+      "lon": 7.1172,
+      "kind": "town",
+      "year": 1530,
+      "note": "Reformation 1530, then German"
+     },
+     {
+      "name": "Ligerz",
+      "lat": 47.0844,
+      "lon": 7.1361,
+      "kind": "place",
+      "note": "German between 17th and 19th c."
+     },
+     {
+      "name": "Sierre",
+      "lat": 46.2919,
+      "lon": 7.5356,
+      "kind": "town",
+      "note": "Border fixed above it in the 16th c."
+     }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/011195/2007-05-08/",
+      "title": "HLS: Französisch (Andres Kristol)",
+      "quote": "Die Sprachgrenze zwischen der französischen und der deutschen Schweiz hat sich in einem jahrhundertelangen Prozess ausgebildet.",
+      "supports": "Border formed over centuries"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/011195/2007-05-08/",
+      "title": "HLS: Französisch (Andres Kristol)",
+      "quote": "1481, im Jahr seines Beitritts zur Eidgenossenschaft, erhob Freiburg, das stets zweisprachig gewesen war, das Deutsche zur offiziellen Kanzleisprache.",
+      "supports": "Fribourg 1481"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/011195/2007-05-08/",
+      "title": "HLS: Französisch (Andres Kristol)",
+      "quote": "doch die romanische Bevölkerung des Kantons germanisierte sich nicht.",
+      "supports": "Country people stayed French"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/011195/2007-05-08/",
+      "title": "HLS: Französisch (Andres Kristol)",
+      "quote": "Die letzten grösseren Verluste entlang der Sprachgrenze verzeichnete das Galloromanische in Murten, das sich nach der Annahme der Reformation 1530 Bern zuwandte",
+      "supports": "Murten, Reformation 1530"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/011195/2007-05-08/",
+      "title": "HLS: Französisch (Andres Kristol)",
+      "quote": "im Laufe des 16. Jahrhunderts zur deutschen Sprache wechselte, und Ligerz am Nordufer des Bielersees",
+      "supports": "Murten German in 16th c.; Ligerz"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007396/2022-04-04/",
+      "title": "HLS: Wallis (Kanton)",
+      "quote": "ihre Fixierung oberhalb Siders im 16. Jahrhundert beendete die progressive Germanisierung der romanischen Bevölkerung",
+      "supports": "Valais border fixed above Sierre"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007379/2023-03-09/",
+      "title": "HLS: Freiburg (Kanton)",
+      "quote": "den zweisprachigen See- und den deutschsprachigen Sensebezirk",
+      "supports": "See district bilingual, Sense German (today)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007379/2023-03-09/",
+      "title": "HLS: Freiburg (Kanton)",
+      "quote": "(mit der deutschsprachigen Gemeinde Jaun, französisch Bellegarde)",
+      "supports": "Jaun German"
+     }
+    ],
+    "uncertain": [
+     "Colours use today's districts, as described by HLS for today; they show the border after it settled, not exact 16th-century lines. Leuk district is shown wholly German."
+    ]
+   },
+   {
+    "year": 1900,
+    "tick": "1880–1900",
+    "title": "Census: mother tongue by canton",
+    "text": [
+     "From 1880 the federal census asked every person for their mother tongue. In 1880 about 71% of people in Switzerland gave German, 21% French, 6% Italian and 1.4% Romansh. In 1900 the shares were about 70%, 22%, 7% and 1.2%.",
+     "Graubünden had a German majority for the first time in the census of 1860. In 1900 no language had half of its people: about 47% German, 35% Romansh and 17% Italian. Tourism and industry in the 19th century made Romansh weaker.",
+     "Along the border, towns changed. Many French-speaking watchmakers moved to Biel from the 1840s; in 1900 about a third of its people spoke French. Sierre had a German majority of 66% in 1880, but in 1910 66% spoke French. The map shows only canton results."
+    ],
+    "view": "ch",
+    "layers": [
+     {
+      "name": "Graubünden",
+      "kind": "bilingual",
+      "label": "Graubünden 1900: no majority (German 47%, Romansh 35%, Italian 17%)",
+      "sel": {
+       "cantons": [
+        "GR"
+       ]
+      }
+     },
+     {
+      "name": "Ticino",
+      "kind": "italian",
+      "label": "Italian majority (Ticino 1900: 97%)",
+      "sel": {
+       "cantons": [
+        "TI"
+       ]
+      }
+     },
+     {
+      "name": "Fribourg and Valais",
+      "kind": "french",
+      "label": "French majority with a large German minority (FR 1900: 68% / 30%; VS: 65% / 30%)",
+      "sel": {
+       "cantons": [
+        "FR",
+        "VS"
+       ]
+      }
+     },
+     {
+      "name": "French cantons",
+      "kind": "french",
+      "label": "French majority (canton level)",
+      "sel": {
+       "cantons": [
+        "GE",
+        "VD",
+        "NE",
+        "JU"
+       ]
+      }
+     },
+     {
+      "name": "German cantons",
+      "kind": "german",
+      "label": "German majority (canton level; Bern without Jura 1900: 90%)",
+      "sel": {
+       "cantons": [
+        "ZH",
+        "BE",
+        "LU",
+        "UR",
+        "SZ",
+        "OW",
+        "NW",
+        "GL",
+        "ZG",
+        "FR",
+        "SO",
+        "BS",
+        "BL",
+        "SH",
+        "AR",
+        "AI",
+        "SG",
+        "GR",
+        "AG",
+        "TG",
+        "TI",
+        "VD",
+        "VS",
+        "NE",
+        "GE",
+        "JU"
+       ]
+      }
+     }
+    ],
+    "places": [
+     {
+      "name": "Biel/Bienne",
+      "lat": 47.1368,
+      "lon": 7.2468,
+      "kind": "town",
+      "year": 1900,
+      "note": "1900: about 33% French"
+     },
+     {
+      "name": "Sierre",
+      "lat": 46.2919,
+      "lon": 7.5356,
+      "kind": "town",
+      "year": 1880,
+      "note": "1880: 66% German; 1910: 66% French"
+     },
+     {
+      "name": "Delémont",
+      "lat": 47.3649,
+      "lon": 7.3445,
+      "kind": "town",
+      "year": 1880,
+      "note": "1880: bilingual (1654 French, 1228 German)"
+     }
+    ],
+    "sources": [
+     {
+      "url": "https://hsso.ch/de/2012/b/32",
+      "title": "HSSO table B.32: Wohnbevölkerung der Kantone nach der Muttersprache 1880-1990",
+      "quote": "Wohnbevölkerung der Kantone nach der Muttersprache 1880-1990",
+      "supports": "Canton numbers 1880 and 1900 (shares computed from the table; 1880 = population present)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/024594/2012-06-19/",
+      "title": "HLS: Rätoromanisch (Ricarda Liver)",
+      "quote": "1860 wies die Volkszählung erstmals eine deutschsprachige Mehrheit im Kanton Graubünden aus.",
+      "supports": "German majority in Graubünden from 1860"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/024594/2012-06-19/",
+      "title": "HLS: Rätoromanisch (Ricarda Liver)",
+      "quote": "Im mündlichen Gebrauch setzte im 19. Jahrhundert mit Tourismus und Industrialisierung der bis heute andauernde Schwund des Rätoromanischen ein.",
+      "supports": "Tourism and industry weaken Romansh"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/000222/2018-01-23/",
+      "title": "HLS: Biel (BE, Gemeinde)",
+      "quote": "In den 1840er Jahren stieg die Zahl der Zuzüger stark an; viele französischsprachige Uhrmacher siedelten sich in der ursprünglich deutschsprachigen Stadt an.",
+      "supports": "French-speaking watchmakers in Biel"
+     },
+     {
+      "url": "https://hsso.ch/de/2012/b/41a",
+      "title": "HSSO table B.41a: Wohnbevölkerung von 10 grossen und mittleren Städten nach Muttersprache 1888-1990",
+      "quote": "Wohnbevölkerung von 10 grossen und mittleren Städten nach Muttersprache und Heimat 1888-1990",
+      "supports": "Biel 1900: 7351 French of about 22,000 (computed)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/011195/2007-05-08/",
+      "title": "HLS: Französisch (Andres Kristol)",
+      "quote": "In Siders, in dem 1880 noch eine Mehrheit von 66% deutschsprachig war, überwogen 1910 die Französischsprachigen mit 66%.",
+      "supports": "Sierre 1880 and 1910"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/011195/2007-05-08/",
+      "title": "HLS: Französisch (Andres Kristol)",
+      "quote": "1880 noch zweisprachig gewesen war (französisch 1654, deutsch 1228 Personen)",
+      "supports": "Delémont 1880"
+     }
+    ],
+    "uncertain": [
+     "Percentages are computed by me from HSSO tables B.32 and B.41a and rounded."
+    ]
+   },
+   {
+    "year": 2000,
+    "tick": "2000",
+    "title": "Census 2000 by municipality",
+    "text": [
+     "The census of 2000 asked for the 'main language', the language a person thinks in and knows best. The Federal Statistical Office (BFS) puts each municipality into the language region of its majority. This map shows these BFS language regions of 2000, drawn on today's municipalities.",
+     "The border between French and German has hardly moved since the early 20th century. Fribourg (64% French, 21% German) and Biel/Bienne (28% French, 55% German) are officially bilingual towns.",
+     "Romansh kept shrinking. In 2000 only 27,038 people in Graubünden (14.5%) named it as their best language. It no longer formed one connected area with a majority. Some later mergers joined Romansh and German villages into one municipality (shown as mixed)."
+    ],
+    "view": "ch",
+    "layers": [
+     {
+      "name": "Merged later, mixed",
+      "kind": "bilingual",
+      "label": "Today's municipality made of 2000 municipalities with different majority languages",
+      "sel": {
+       "munis": [
+        716,
+        3542,
+        3543,
+        3619,
+        3715,
+        3762,
+        3988
+       ]
+      }
+     },
+     {
+      "name": "Romansh",
+      "kind": "romansh",
+      "label": "Romansh is the main language of the majority (census 2000)",
+      "sel": {
+       "munis": [
+        3572,
+        3581,
+        3582,
+        3618,
+        3746,
+        3764,
+        3788,
+        3847,
+        3981,
+        3982,
+        3983,
+        3985,
+        3986,
+        3987
+       ]
+      }
+     },
+     {
+      "name": "Italian",
+      "kind": "italian",
+      "label": "Italian is the main language of the majority (census 2000)",
+      "sel": {
+       "munis": [
+        3551,
+        3561,
+        3792,
+        3804,
+        3805,
+        3808,
+        3810,
+        3821,
+        3822,
+        3823,
+        3831,
+        3832,
+        3834,
+        3835,
+        3837,
+        5001,
+        5002,
+        5003,
+        5009,
+        5010,
+        5017,
+        5048,
+        5049,
+        5050,
+        5061,
+        5063,
+        5071,
+        5072,
+        5073,
+        5076,
+        5077,
+        5079,
+        5091,
+        5096,
+        5097,
+        5108,
+        5112,
+        5113,
+        5115,
+        5117,
+        5118,
+        5120,
+        5121,
+        5125,
+        5131,
+        5136,
+        5138,
+        5141,
+        5143,
+        5144,
+        5148,
+        5151,
+        5154,
+        5160,
+        5161,
+        5162,
+        5167,
+        5171,
+        5176,
+        5180,
+        5186,
+        5187,
+        5189,
+        5192,
+        5193,
+        5194,
+        5196,
+        5198,
+        5199,
+        5203,
+        5205,
+        5206,
+        5208,
+        5210,
+        5212,
+        5214,
+        5216,
+        5221,
+        5225,
+        5226,
+        5227,
+        5230,
+        5231,
+        5233,
+        5236,
+        5237,
+        5238,
+        5239,
+        5240,
+        5242,
+        5249,
+        5250,
+        5251,
+        5254,
+        5257,
+        5260,
+        5263,
+        5266,
+        5268,
+        5269,
+        5281,
+        5287,
+        5304,
+        5307,
+        5309,
+        5310,
+        5315,
+        5317,
+        5323,
+        5324,
+        5395,
+        5396,
+        5397,
+        5398,
+        5399
+       ]
+      }
+     },
+     {
+      "name": "French",
+      "kind": "french",
+      "label": "French is the main language of the majority (census 2000)",
+      "sel": {
+       "munis": [
+        431,
+        432,
+        433,
+        434,
+        435,
+        438,
+        441,
+        442,
+        443,
+        444,
+        445,
+        446,
+        448,
+        449,
+        450,
+        681,
+        683,
+        687,
+        690,
+        691,
+        692,
+        694,
+        696,
+        701,
+        703,
+        704,
+        706,
+        707,
+        711,
+        713,
+        717,
+        723,
+        724,
+        726,
+        2008,
+        2011,
+        2022,
+        2025,
+        2029,
+        2035,
+        2038,
+        2041,
+        2043,
+        2044,
+        2045,
+        2050,
+        2051,
+        2053,
+        2054,
+        2055,
+        2056,
+        2063,
+        2067,
+        2068,
+        2079,
+        2086,
+        2087,
+        2096,
+        2097,
+        2099,
+        2102,
+        2113,
+        2114,
+        2115,
+        2117,
+        2121,
+        2122,
+        2123,
+        2124,
+        2125,
+        2128,
+        2129,
+        2130,
+        2131,
+        2134,
+        2135,
+        2137,
+        2140,
+        2143,
+        2145,
+        2147,
+        2148,
+        2149,
+        2152,
+        2153,
+        2155,
+        2160,
+        2162,
+        2163,
+        2173,
+        2174,
+        2175,
+        2177,
+        2183,
+        2186,
+        2194,
+        2196,
+        2197,
+        2198,
+        2206,
+        2208,
+        2211,
+        2216,
+        2220,
+        2226,
+        2228,
+        2230,
+        2233,
+        2234,
+        2235,
+        2236,
+        2237,
+        2238,
+        2239,
+        2254,
+        2257,
+        2272,
+        2284,
+        2321,
+        2323,
+        2325,
+        2328,
+        2333,
+        2335,
+        2336,
+        2337,
+        2338,
+        5401,
+        5402,
+        5403,
+        5404,
+        5405,
+        5406,
+        5407,
+        5408,
+        5409,
+        5410,
+        5411,
+        5412,
+        5413,
+        5414,
+        5415,
+        5422,
+        5423,
+        5424,
+        5425,
+        5426,
+        5427,
+        5428,
+        5429,
+        5430,
+        5431,
+        5434,
+        5435,
+        5436,
+        5437,
+        5451,
+        5456,
+        5458,
+        5464,
+        5471,
+        5472,
+        5473,
+        5474,
+        5475,
+        5476,
+        5477,
+        5479,
+        5480,
+        5481,
+        5482,
+        5483,
+        5484,
+        5485,
+        5486,
+        5487,
+        5488,
+        5489,
+        5490,
+        5491,
+        5492,
+        5493,
+        5495,
+        5496,
+        5497,
+        5498,
+        5499,
+        5501,
+        5503,
+        5511,
+        5512,
+        5514,
+        5515,
+        5516,
+        5518,
+        5520,
+        5521,
+        5522,
+        5523,
+        5527,
+        5529,
+        5530,
+        5531,
+        5533,
+        5534,
+        5535,
+        5537,
+        5539,
+        5540,
+        5541,
+        5551,
+        5552,
+        5553,
+        5554,
+        5555,
+        5556,
+        5557,
+        5559,
+        5560,
+        5561,
+        5562,
+        5563,
+        5564,
+        5565,
+        5566,
+        5568,
+        5571,
+        5581,
+        5582,
+        5583,
+        5584,
+        5585,
+        5586,
+        5587,
+        5588,
+        5589,
+        5590,
+        5591,
+        5592,
+        5601,
+        5604,
+        5606,
+        5607,
+        5609,
+        5610,
+        5611,
+        5613,
+        5621,
+        5622,
+        5623,
+        5624,
+        5627,
+        5628,
+        5629,
+        5631,
+        5632,
+        5633,
+        5634,
+        5635,
+        5636,
+        5637,
+        5638,
+        5639,
+        5640,
+        5642,
+        5643,
+        5645,
+        5646,
+        5648,
+        5649,
+        5650,
+        5651,
+        5652,
+        5653,
+        5654,
+        5655,
+        5656,
+        5661,
+        5663,
+        5665,
+        5669,
+        5671,
+        5673,
+        5674,
+        5675,
+        5678,
+        5680,
+        5683,
+        5684,
+        5688,
+        5690,
+        5692,
+        5693,
+        5701,
+        5702,
+        5703,
+        5704,
+        5705,
+        5706,
+        5707,
+        5708,
+        5709,
+        5710,
+        5711,
+        5712,
+        5713,
+        5714,
+        5715,
+        5716,
+        5717,
+        5718,
+        5719,
+        5720,
+        5721,
+        5722,
+        5723,
+        5724,
+        5725,
+        5726,
+        5727,
+        5728,
+        5729,
+        5730,
+        5731,
+        5732,
+        5741,
+        5742,
+        5743,
+        5744,
+        5745,
+        5746,
+        5747,
+        5748,
+        5749,
+        5750,
+        5752,
+        5754,
+        5755,
+        5756,
+        5757,
+        5758,
+        5759,
+        5760,
+        5761,
+        5762,
+        5763,
+        5764,
+        5765,
+        5766,
+        5785,
+        5790,
+        5792,
+        5798,
+        5799,
+        5803,
+        5804,
+        5805,
+        5806,
+        5812,
+        5813,
+        5816,
+        5817,
+        5819,
+        5821,
+        5822,
+        5827,
+        5828,
+        5830,
+        5831,
+        5841,
+        5842,
+        5843,
+        5851,
+        5852,
+        5853,
+        5854,
+        5855,
+        5856,
+        5857,
+        5858,
+        5859,
+        5860,
+        5861,
+        5862,
+        5863,
+        5871,
+        5872,
+        5873,
+        5882,
+        5883,
+        5884,
+        5885,
+        5886,
+        5889,
+        5890,
+        5891,
+        5892,
+        5902,
+        5903,
+        5904,
+        5905,
+        5907,
+        5908,
+        5909,
+        5910,
+        5911,
+        5912,
+        5913,
+        5914,
+        5919,
+        5921,
+        5922,
+        5923,
+        5924,
+        5925,
+        5926,
+        5928,
+        5929,
+        5930,
+        5931,
+        5932,
+        5933,
+        5934,
+        5935,
+        5937,
+        5938,
+        5939,
+        6021,
+        6022,
+        6023,
+        6024,
+        6025,
+        6032,
+        6033,
+        6034,
+        6035,
+        6037,
+        6082,
+        6083,
+        6084,
+        6087,
+        6089,
+        6090,
+        6131,
+        6133,
+        6134,
+        6135,
+        6136,
+        6137,
+        6139,
+        6140,
+        6141,
+        6142,
+        6151,
+        6152,
+        6153,
+        6154,
+        6155,
+        6156,
+        6157,
+        6158,
+        6159,
+        6211,
+        6212,
+        6213,
+        6214,
+        6215,
+        6217,
+        6218,
+        6219,
+        6220,
+        6232,
+        6235,
+        6238,
+        6239,
+        6240,
+        6246,
+        6248,
+        6252,
+        6253,
+        6254,
+        6261,
+        6263,
+        6265,
+        6266,
+        6267,
+        6404,
+        6408,
+        6413,
+        6416,
+        6417,
+        6421,
+        6422,
+        6423,
+        6432,
+        6433,
+        6434,
+        6435,
+        6436,
+        6437,
+        6451,
+        6452,
+        6455,
+        6456,
+        6458,
+        6487,
+        6504,
+        6511,
+        6512,
+        6513,
+        6601,
+        6602,
+        6603,
+        6604,
+        6605,
+        6606,
+        6607,
+        6608,
+        6609,
+        6610,
+        6611,
+        6612,
+        6613,
+        6614,
+        6615,
+        6616,
+        6617,
+        6618,
+        6619,
+        6620,
+        6621,
+        6622,
+        6623,
+        6624,
+        6625,
+        6626,
+        6627,
+        6628,
+        6629,
+        6630,
+        6631,
+        6632,
+        6633,
+        6634,
+        6635,
+        6636,
+        6637,
+        6638,
+        6639,
+        6640,
+        6641,
+        6642,
+        6643,
+        6644,
+        6645,
+        6702,
+        6703,
+        6704,
+        6706,
+        6708,
+        6709,
+        6710,
+        6711,
+        6712,
+        6715,
+        6716,
+        6718,
+        6719,
+        6721,
+        6722,
+        6724,
+        6729,
+        6730,
+        6741,
+        6742,
+        6743,
+        6745,
+        6748,
+        6750,
+        6751,
+        6753,
+        6754,
+        6757,
+        6758,
+        6759,
+        6771,
+        6774,
+        6778,
+        6781,
+        6782,
+        6783,
+        6784,
+        6785,
+        6789,
+        6790,
+        6792,
+        6800,
+        6806,
+        6807,
+        6808,
+        6809,
+        6810,
+        6811,
+        6812,
+        6831
+       ]
+      }
+     },
+     {
+      "name": "German",
+      "kind": "german",
+      "label": "German is the main language of the majority (census 2000)",
+      "sel": {
+       "munis": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        31,
+        33,
+        34,
+        35,
+        37,
+        38,
+        39,
+        40,
+        41,
+        43,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90,
+        91,
+        92,
+        93,
+        94,
+        95,
+        96,
+        97,
+        98,
+        99,
+        100,
+        101,
+        102,
+        111,
+        112,
+        113,
+        114,
+        115,
+        116,
+        117,
+        118,
+        119,
+        120,
+        121,
+        131,
+        135,
+        136,
+        137,
+        138,
+        139,
+        141,
+        151,
+        152,
+        153,
+        154,
+        155,
+        156,
+        157,
+        158,
+        159,
+        160,
+        161,
+        172,
+        173,
+        176,
+        177,
+        178,
+        180,
+        181,
+        182,
+        191,
+        192,
+        193,
+        194,
+        195,
+        196,
+        197,
+        198,
+        199,
+        200,
+        211,
+        213,
+        214,
+        215,
+        216,
+        218,
+        219,
+        220,
+        221,
+        223,
+        224,
+        225,
+        226,
+        227,
+        228,
+        230,
+        231,
+        241,
+        242,
+        243,
+        244,
+        245,
+        246,
+        247,
+        248,
+        249,
+        250,
+        251,
+        261,
+        291,
+        292,
+        293,
+        294,
+        295,
+        296,
+        297,
+        298,
+        301,
+        302,
+        303,
+        304,
+        305,
+        306,
+        307,
+        309,
+        310,
+        311,
+        312,
+        321,
+        322,
+        323,
+        324,
+        325,
+        326,
+        329,
+        331,
+        332,
+        333,
+        335,
+        336,
+        337,
+        338,
+        339,
+        340,
+        341,
+        342,
+        344,
+        345,
+        351,
+        352,
+        353,
+        354,
+        355,
+        356,
+        357,
+        358,
+        359,
+        360,
+        361,
+        362,
+        363,
+        371,
+        372,
+        381,
+        382,
+        383,
+        385,
+        386,
+        387,
+        388,
+        389,
+        390,
+        391,
+        392,
+        393,
+        394,
+        401,
+        402,
+        403,
+        404,
+        405,
+        406,
+        407,
+        408,
+        409,
+        410,
+        411,
+        412,
+        413,
+        414,
+        415,
+        418,
+        420,
+        421,
+        422,
+        423,
+        424,
+        437,
+        491,
+        492,
+        493,
+        494,
+        495,
+        496,
+        497,
+        498,
+        499,
+        500,
+        501,
+        502,
+        533,
+        535,
+        538,
+        540,
+        541,
+        543,
+        544,
+        546,
+        551,
+        552,
+        553,
+        554,
+        556,
+        557,
+        561,
+        562,
+        563,
+        564,
+        565,
+        566,
+        567,
+        571,
+        572,
+        573,
+        574,
+        575,
+        576,
+        577,
+        578,
+        579,
+        580,
+        581,
+        582,
+        584,
+        585,
+        586,
+        587,
+        588,
+        589,
+        590,
+        591,
+        592,
+        593,
+        594,
+        602,
+        603,
+        605,
+        606,
+        607,
+        608,
+        609,
+        610,
+        611,
+        612,
+        613,
+        614,
+        615,
+        616,
+        617,
+        619,
+        620,
+        622,
+        623,
+        626,
+        627,
+        628,
+        629,
+        630,
+        632,
+        662,
+        663,
+        665,
+        666,
+        667,
+        668,
+        669,
+        670,
+        671,
+        708,
+        709,
+        715,
+        731,
+        732,
+        733,
+        734,
+        735,
+        736,
+        737,
+        738,
+        739,
+        740,
+        741,
+        742,
+        743,
+        744,
+        745,
+        746,
+        747,
+        748,
+        749,
+        750,
+        751,
+        754,
+        755,
+        756,
+        761,
+        762,
+        763,
+        766,
+        767,
+        768,
+        769,
+        770,
+        782,
+        783,
+        784,
+        785,
+        786,
+        791,
+        792,
+        793,
+        794,
+        841,
+        842,
+        843,
+        852,
+        853,
+        855,
+        861,
+        863,
+        866,
+        867,
+        868,
+        869,
+        870,
+        872,
+        877,
+        879,
+        880,
+        883,
+        884,
+        885,
+        886,
+        888,
+        889,
+        901,
+        902,
+        903,
+        904,
+        905,
+        906,
+        907,
+        908,
+        909,
+        921,
+        922,
+        923,
+        924,
+        925,
+        927,
+        928,
+        929,
+        931,
+        932,
+        934,
+        935,
+        936,
+        938,
+        939,
+        940,
+        941,
+        942,
+        943,
+        944,
+        945,
+        946,
+        948,
+        951,
+        952,
+        953,
+        954,
+        955,
+        956,
+        957,
+        958,
+        959,
+        960,
+        971,
+        972,
+        973,
+        975,
+        976,
+        977,
+        979,
+        980,
+        981,
+        982,
+        983,
+        985,
+        987,
+        988,
+        989,
+        990,
+        991,
+        992,
+        995,
+        1001,
+        1002,
+        1004,
+        1005,
+        1007,
+        1008,
+        1009,
+        1010,
+        1021,
+        1023,
+        1024,
+        1025,
+        1026,
+        1030,
+        1031,
+        1032,
+        1033,
+        1037,
+        1039,
+        1040,
+        1041,
+        1051,
+        1052,
+        1053,
+        1054,
+        1055,
+        1056,
+        1058,
+        1059,
+        1061,
+        1062,
+        1063,
+        1064,
+        1065,
+        1066,
+        1067,
+        1068,
+        1069,
+        1081,
+        1082,
+        1083,
+        1084,
+        1085,
+        1086,
+        1088,
+        1089,
+        1091,
+        1093,
+        1094,
+        1095,
+        1097,
+        1098,
+        1099,
+        1100,
+        1102,
+        1103,
+        1104,
+        1107,
+        1121,
+        1122,
+        1123,
+        1125,
+        1127,
+        1128,
+        1129,
+        1131,
+        1132,
+        1135,
+        1136,
+        1137,
+        1139,
+        1140,
+        1142,
+        1143,
+        1145,
+        1146,
+        1147,
+        1150,
+        1151,
+        1201,
+        1202,
+        1203,
+        1205,
+        1206,
+        1207,
+        1208,
+        1209,
+        1210,
+        1211,
+        1212,
+        1213,
+        1214,
+        1215,
+        1216,
+        1217,
+        1218,
+        1219,
+        1220,
+        1301,
+        1311,
+        1321,
+        1322,
+        1323,
+        1331,
+        1341,
+        1342,
+        1343,
+        1344,
+        1345,
+        1346,
+        1347,
+        1348,
+        1349,
+        1361,
+        1362,
+        1363,
+        1364,
+        1365,
+        1366,
+        1367,
+        1368,
+        1369,
+        1370,
+        1371,
+        1372,
+        1373,
+        1374,
+        1375,
+        1401,
+        1402,
+        1403,
+        1404,
+        1405,
+        1406,
+        1407,
+        1501,
+        1502,
+        1503,
+        1504,
+        1505,
+        1506,
+        1507,
+        1508,
+        1509,
+        1510,
+        1511,
+        1630,
+        1631,
+        1632,
+        1701,
+        1702,
+        1703,
+        1704,
+        1705,
+        1706,
+        1707,
+        1708,
+        1709,
+        1710,
+        1711,
+        2138,
+        2250,
+        2258,
+        2261,
+        2262,
+        2265,
+        2266,
+        2271,
+        2274,
+        2275,
+        2276,
+        2292,
+        2293,
+        2294,
+        2295,
+        2296,
+        2299,
+        2300,
+        2301,
+        2303,
+        2304,
+        2305,
+        2306,
+        2307,
+        2308,
+        2309,
+        2401,
+        2402,
+        2403,
+        2404,
+        2405,
+        2406,
+        2407,
+        2408,
+        2421,
+        2422,
+        2424,
+        2425,
+        2426,
+        2427,
+        2428,
+        2430,
+        2445,
+        2455,
+        2457,
+        2461,
+        2463,
+        2464,
+        2465,
+        2471,
+        2472,
+        2473,
+        2474,
+        2475,
+        2476,
+        2477,
+        2478,
+        2479,
+        2480,
+        2481,
+        2491,
+        2492,
+        2493,
+        2495,
+        2497,
+        2499,
+        2500,
+        2501,
+        2502,
+        2503,
+        2511,
+        2513,
+        2514,
+        2516,
+        2517,
+        2518,
+        2519,
+        2523,
+        2524,
+        2525,
+        2526,
+        2527,
+        2528,
+        2530,
+        2532,
+        2534,
+        2535,
+        2541,
+        2542,
+        2543,
+        2544,
+        2545,
+        2546,
+        2547,
+        2548,
+        2549,
+        2550,
+        2551,
+        2553,
+        2554,
+        2555,
+        2556,
+        2571,
+        2572,
+        2573,
+        2574,
+        2575,
+        2576,
+        2578,
+        2579,
+        2580,
+        2581,
+        2582,
+        2583,
+        2584,
+        2585,
+        2586,
+        2601,
+        2611,
+        2612,
+        2613,
+        2614,
+        2615,
+        2616,
+        2617,
+        2618,
+        2619,
+        2620,
+        2621,
+        2622,
+        2701,
+        2702,
+        2703,
+        2761,
+        2762,
+        2763,
+        2764,
+        2765,
+        2766,
+        2767,
+        2768,
+        2769,
+        2770,
+        2771,
+        2772,
+        2773,
+        2774,
+        2775,
+        2781,
+        2782,
+        2783,
+        2784,
+        2785,
+        2786,
+        2787,
+        2788,
+        2789,
+        2790,
+        2791,
+        2792,
+        2793,
+        2821,
+        2822,
+        2823,
+        2824,
+        2825,
+        2826,
+        2827,
+        2828,
+        2829,
+        2830,
+        2831,
+        2832,
+        2833,
+        2834,
+        2841,
+        2842,
+        2843,
+        2844,
+        2845,
+        2846,
+        2847,
+        2848,
+        2849,
+        2850,
+        2851,
+        2852,
+        2853,
+        2854,
+        2855,
+        2856,
+        2857,
+        2858,
+        2859,
+        2860,
+        2861,
+        2862,
+        2863,
+        2864,
+        2865,
+        2866,
+        2867,
+        2868,
+        2869,
+        2881,
+        2882,
+        2883,
+        2884,
+        2885,
+        2886,
+        2887,
+        2888,
+        2889,
+        2890,
+        2891,
+        2892,
+        2893,
+        2894,
+        2895,
+        2901,
+        2903,
+        2904,
+        2914,
+        2915,
+        2917,
+        2919,
+        2920,
+        2931,
+        2932,
+        2933,
+        2936,
+        2937,
+        2938,
+        2939,
+        2951,
+        2952,
+        2953,
+        2961,
+        2962,
+        2963,
+        2964,
+        2971,
+        2972,
+        2973,
+        2974,
+        3001,
+        3002,
+        3003,
+        3004,
+        3005,
+        3006,
+        3007,
+        3021,
+        3022,
+        3023,
+        3024,
+        3025,
+        3031,
+        3032,
+        3033,
+        3034,
+        3035,
+        3036,
+        3037,
+        3038,
+        3101,
+        3102,
+        3104,
+        3111,
+        3112,
+        3201,
+        3202,
+        3203,
+        3204,
+        3211,
+        3212,
+        3213,
+        3214,
+        3215,
+        3216,
+        3217,
+        3218,
+        3219,
+        3231,
+        3232,
+        3233,
+        3234,
+        3235,
+        3236,
+        3237,
+        3238,
+        3251,
+        3252,
+        3253,
+        3254,
+        3255,
+        3256,
+        3271,
+        3272,
+        3273,
+        3274,
+        3275,
+        3276,
+        3291,
+        3292,
+        3293,
+        3294,
+        3295,
+        3296,
+        3297,
+        3298,
+        3311,
+        3312,
+        3313,
+        3315,
+        3316,
+        3338,
+        3339,
+        3340,
+        3341,
+        3342,
+        3352,
+        3359,
+        3360,
+        3374,
+        3379,
+        3392,
+        3393,
+        3394,
+        3395,
+        3396,
+        3401,
+        3402,
+        3405,
+        3407,
+        3408,
+        3422,
+        3423,
+        3424,
+        3426,
+        3427,
+        3441,
+        3442,
+        3443,
+        3444,
+        3506,
+        3513,
+        3514,
+        3544,
+        3575,
+        3603,
+        3633,
+        3637,
+        3638,
+        3640,
+        3661,
+        3662,
+        3663,
+        3668,
+        3669,
+        3670,
+        3672,
+        3673,
+        3681,
+        3695,
+        3701,
+        3711,
+        3712,
+        3713,
+        3714,
+        3721,
+        3722,
+        3723,
+        3731,
+        3732,
+        3733,
+        3734,
+        3752,
+        3781,
+        3782,
+        3783,
+        3784,
+        3785,
+        3786,
+        3787,
+        3789,
+        3790,
+        3791,
+        3851,
+        3861,
+        3862,
+        3863,
+        3871,
+        3881,
+        3882,
+        3891,
+        3901,
+        3911,
+        3921,
+        3945,
+        3946,
+        3947,
+        3951,
+        3952,
+        3953,
+        3954,
+        3955,
+        3961,
+        3962,
+        3972,
+        4001,
+        4002,
+        4003,
+        4004,
+        4005,
+        4006,
+        4007,
+        4008,
+        4009,
+        4010,
+        4012,
+        4013,
+        4021,
+        4022,
+        4023,
+        4024,
+        4026,
+        4027,
+        4028,
+        4029,
+        4030,
+        4031,
+        4032,
+        4033,
+        4034,
+        4035,
+        4037,
+        4038,
+        4039,
+        4040,
+        4041,
+        4044,
+        4045,
+        4046,
+        4047,
+        4048,
+        4049,
+        4061,
+        4062,
+        4063,
+        4064,
+        4065,
+        4066,
+        4067,
+        4068,
+        4071,
+        4072,
+        4073,
+        4074,
+        4075,
+        4076,
+        4077,
+        4078,
+        4079,
+        4080,
+        4081,
+        4082,
+        4083,
+        4084,
+        4091,
+        4092,
+        4093,
+        4095,
+        4099,
+        4100,
+        4104,
+        4105,
+        4106,
+        4107,
+        4110,
+        4111,
+        4112,
+        4117,
+        4120,
+        4121,
+        4123,
+        4124,
+        4125,
+        4131,
+        4132,
+        4134,
+        4135,
+        4136,
+        4137,
+        4138,
+        4139,
+        4140,
+        4141,
+        4142,
+        4143,
+        4144,
+        4145,
+        4146,
+        4147,
+        4161,
+        4163,
+        4164,
+        4165,
+        4169,
+        4170,
+        4172,
+        4173,
+        4175,
+        4176,
+        4177,
+        4181,
+        4182,
+        4183,
+        4184,
+        4185,
+        4186,
+        4191,
+        4192,
+        4193,
+        4194,
+        4195,
+        4196,
+        4197,
+        4198,
+        4199,
+        4200,
+        4201,
+        4202,
+        4203,
+        4204,
+        4205,
+        4206,
+        4207,
+        4208,
+        4209,
+        4210,
+        4221,
+        4222,
+        4223,
+        4224,
+        4226,
+        4227,
+        4228,
+        4229,
+        4230,
+        4231,
+        4232,
+        4233,
+        4234,
+        4235,
+        4236,
+        4237,
+        4238,
+        4239,
+        4240,
+        4251,
+        4252,
+        4253,
+        4254,
+        4255,
+        4256,
+        4257,
+        4258,
+        4259,
+        4260,
+        4261,
+        4262,
+        4263,
+        4264,
+        4271,
+        4273,
+        4274,
+        4275,
+        4276,
+        4277,
+        4279,
+        4280,
+        4281,
+        4282,
+        4283,
+        4284,
+        4285,
+        4286,
+        4287,
+        4288,
+        4289,
+        4303,
+        4304,
+        4305,
+        4306,
+        4307,
+        4309,
+        4310,
+        4311,
+        4312,
+        4313,
+        4314,
+        4318,
+        4319,
+        4320,
+        4324,
+        4401,
+        4406,
+        4411,
+        4416,
+        4421,
+        4426,
+        4431,
+        4436,
+        4441,
+        4446,
+        4451,
+        4461,
+        4471,
+        4476,
+        4486,
+        4495,
+        4501,
+        4506,
+        4511,
+        4536,
+        4545,
+        4546,
+        4551,
+        4561,
+        4566,
+        4571,
+        4590,
+        4591,
+        4601,
+        4606,
+        4611,
+        4616,
+        4621,
+        4641,
+        4643,
+        4646,
+        4651,
+        4656,
+        4666,
+        4671,
+        4681,
+        4683,
+        4691,
+        4696,
+        4701,
+        4711,
+        4716,
+        4721,
+        4723,
+        4724,
+        4726,
+        4741,
+        4746,
+        4751,
+        4756,
+        4761,
+        4776,
+        4781,
+        4786,
+        4791,
+        4801,
+        4806,
+        4811,
+        4816,
+        4821,
+        4826,
+        4831,
+        4841,
+        4846,
+        4851,
+        4864,
+        4871,
+        4881,
+        4891,
+        4901,
+        4911,
+        4921,
+        4941,
+        4946,
+        4951,
+        6002,
+        6004,
+        6007,
+        6008,
+        6009,
+        6010,
+        6011,
+        6052,
+        6054,
+        6056,
+        6057,
+        6058,
+        6061,
+        6076,
+        6077,
+        6101,
+        6102,
+        6104,
+        6109,
+        6110,
+        6111,
+        6112,
+        6113,
+        6116,
+        6117,
+        6118,
+        6119,
+        6172,
+        6173,
+        6177,
+        6181,
+        6191,
+        6192,
+        6193,
+        6194,
+        6195,
+        6197,
+        6198,
+        6199,
+        6201,
+        6202,
+        6203,
+        6204,
+        6205,
+        6281,
+        6282,
+        6283,
+        6285,
+        6286,
+        6287,
+        6288,
+        6289,
+        6290,
+        6291,
+        6292,
+        6293,
+        6294,
+        6295,
+        6296,
+        6297,
+        6298,
+        6299,
+        6300,
+        6713
+       ]
+      }
+     }
+    ],
+    "places": [
+     {
+      "name": "Biel/Bienne",
+      "lat": 47.1368,
+      "lon": 7.2468,
+      "kind": "town",
+      "year": 2000,
+      "note": "Bilingual: 55% German, 28% French"
+     },
+     {
+      "name": "Fribourg",
+      "lat": 46.8065,
+      "lon": 7.162,
+      "kind": "town",
+      "year": 2000,
+      "note": "Bilingual: 64% French, 21% German"
+     },
+     {
+      "name": "Chur",
+      "lat": 46.8499,
+      "lon": 9.5329,
+      "kind": "town"
+     }
+    ],
+    "sources": [
+     {
+      "url": "https://www.agvchapp.bfs.admin.ch/api/communes/levels?date=01-01-2001&labelLanguages=de",
+      "title": "BFS, Applikation der Schweizer Gemeinden: typology SPRGEB2000 (Sprachgebiete, census 2000), municipalities of 1.1.2001",
+      "quote": "SPRGEB2000_de",
+      "supports": "Language region of each municipality (1 Deutsch, 2 Französisch, 3 Italienisch, 4 Rätoromanisch), mapped to today's municipalities via BFS correspondence table"
+     },
+     {
+      "url": "https://dam-api.bfs.admin.ch/hub/api/dam/assets/24267134/master",
+      "title": "BFS, Stellungnahme: Revision der statistischen Sprachgebiete (9.1.2023)",
+      "quote": "stützt sich das BFS bei der Festlegung der statistischen Sprachgebiete seit 1860 auf die Mehrheitsverhältnisse in den Gemeinden",
+      "supports": "Regions follow the municipal majority"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/024594/2012-06-19/",
+      "title": "HLS: Rätoromanisch (Ricarda Liver)",
+      "quote": "Die Volkszählungen von 1990 und 2000 fragten nicht mehr nach der Muttersprache, sondern einerseits nach der am besten beherrschten Sprache",
+      "supports": "Census question changed (main language)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/011195/2007-05-08/",
+      "title": "HLS: Französisch (Andres Kristol)",
+      "quote": "Seit Anfang des 20. Jahrhunderts ist die Grenze zwischen Französisch und Deutsch weitgehend stabil.",
+      "supports": "Stable French-German border"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/011195/2007-05-08/",
+      "title": "HLS: Französisch (Andres Kristol)",
+      "quote": "Einen zweisprachigen Status haben Freiburg (2000: französisch 64%, deutsch 21%) und Biel (2000: französisch 28%, deutsch 55% ).",
+      "supports": "Fribourg and Biel figures"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/024594/2012-06-19/",
+      "title": "HLS: Rätoromanisch (Ricarda Liver)",
+      "quote": "2000 waren es noch 27'038 (14,5%)",
+      "supports": "Romansh in Graubünden 2000"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/024596/2013-07-18/",
+      "title": "HLS: Mehrsprachigkeit (Georges Lüdi)",
+      "quote": "Dort war es zu Beginn des 21. Jahrhunderts in keinem zusammenhängenden Territorium mehr Mehrheitssprache",
+      "supports": "No connected Romansh-majority area"
+     }
+    ]
+   },
+   {
+    "year": 2022,
+    "tick": "2022",
+    "title": "Language regions today",
+    "text": [
+     "In December 2022 the BFS published a revision of its statistical language regions. This map shows them on today's municipalities.",
+     "Only a few municipalities in the Surselva, the Engadine and the Val Müstair still count as Romansh. After new calculations, Surses and Muntogna da Schons moved to the German region.",
+     "These regions are only for statistics. In Graubünden the cantonal language law decides the official and school languages of each municipality, so Surses and Muntogna da Schons remain Romansh in law. Romansh has been a national language since the vote of 1938."
+    ],
+    "view": "ch",
+    "layers": [
+     {
+      "name": "Bilingual towns",
+      "kind": "bilingual",
+      "label": "Officially bilingual towns (Biel/Bienne, Fribourg)",
+      "sel": {
+       "munis": [
+        371,
+        2196
+       ]
+      }
+     },
+     {
+      "name": "Romansh",
+      "kind": "romansh",
+      "label": "Romansh is the main language of the majority (BFS language regions, 2022 revision)",
+      "sel": {
+       "munis": [
+        3572,
+        3581,
+        3582,
+        3618,
+        3746,
+        3762,
+        3764,
+        3788,
+        3847,
+        3981,
+        3982,
+        3983,
+        3985,
+        3986,
+        3987
+       ]
+      }
+     },
+     {
+      "name": "Italian",
+      "kind": "italian",
+      "label": "Italian is the main language of the majority (BFS language regions, 2022 revision)",
+      "sel": {
+       "munis": [
+        3551,
+        3561,
+        3792,
+        3804,
+        3805,
+        3808,
+        3810,
+        3821,
+        3822,
+        3823,
+        3831,
+        3832,
+        3834,
+        3835,
+        3837,
+        5001,
+        5002,
+        5003,
+        5009,
+        5010,
+        5017,
+        5048,
+        5049,
+        5050,
+        5061,
+        5063,
+        5071,
+        5072,
+        5073,
+        5076,
+        5077,
+        5079,
+        5091,
+        5096,
+        5097,
+        5108,
+        5112,
+        5113,
+        5115,
+        5117,
+        5118,
+        5120,
+        5121,
+        5125,
+        5131,
+        5136,
+        5138,
+        5141,
+        5143,
+        5144,
+        5148,
+        5151,
+        5154,
+        5160,
+        5161,
+        5162,
+        5167,
+        5171,
+        5176,
+        5180,
+        5186,
+        5187,
+        5189,
+        5192,
+        5193,
+        5194,
+        5196,
+        5198,
+        5199,
+        5203,
+        5205,
+        5206,
+        5208,
+        5210,
+        5212,
+        5214,
+        5216,
+        5221,
+        5225,
+        5226,
+        5227,
+        5230,
+        5231,
+        5233,
+        5236,
+        5237,
+        5238,
+        5239,
+        5240,
+        5242,
+        5249,
+        5250,
+        5251,
+        5254,
+        5257,
+        5260,
+        5263,
+        5266,
+        5268,
+        5269,
+        5281,
+        5287,
+        5304,
+        5307,
+        5309,
+        5310,
+        5315,
+        5317,
+        5323,
+        5324,
+        5395,
+        5396,
+        5397,
+        5398,
+        5399
+       ]
+      }
+     },
+     {
+      "name": "French",
+      "kind": "french",
+      "label": "French is the main language of the majority (BFS language regions, 2022 revision)",
+      "sel": {
+       "munis": [
+        431,
+        432,
+        433,
+        434,
+        435,
+        438,
+        441,
+        442,
+        443,
+        444,
+        445,
+        446,
+        448,
+        449,
+        450,
+        681,
+        683,
+        687,
+        690,
+        691,
+        692,
+        694,
+        696,
+        701,
+        703,
+        704,
+        706,
+        707,
+        711,
+        713,
+        716,
+        717,
+        723,
+        724,
+        726,
+        2008,
+        2011,
+        2022,
+        2025,
+        2029,
+        2035,
+        2038,
+        2041,
+        2043,
+        2044,
+        2045,
+        2050,
+        2051,
+        2053,
+        2054,
+        2055,
+        2056,
+        2063,
+        2067,
+        2068,
+        2079,
+        2086,
+        2087,
+        2096,
+        2097,
+        2099,
+        2102,
+        2113,
+        2114,
+        2115,
+        2117,
+        2121,
+        2122,
+        2123,
+        2124,
+        2125,
+        2128,
+        2129,
+        2130,
+        2131,
+        2134,
+        2135,
+        2137,
+        2140,
+        2143,
+        2145,
+        2147,
+        2148,
+        2149,
+        2152,
+        2153,
+        2155,
+        2160,
+        2162,
+        2163,
+        2173,
+        2174,
+        2175,
+        2177,
+        2183,
+        2186,
+        2194,
+        2196,
+        2197,
+        2198,
+        2206,
+        2208,
+        2211,
+        2216,
+        2220,
+        2226,
+        2228,
+        2230,
+        2233,
+        2234,
+        2235,
+        2236,
+        2237,
+        2238,
+        2239,
+        2254,
+        2257,
+        2272,
+        2284,
+        2321,
+        2323,
+        2325,
+        2328,
+        2333,
+        2335,
+        2336,
+        2337,
+        2338,
+        5401,
+        5402,
+        5403,
+        5404,
+        5405,
+        5406,
+        5407,
+        5408,
+        5409,
+        5410,
+        5411,
+        5412,
+        5413,
+        5414,
+        5415,
+        5422,
+        5423,
+        5424,
+        5425,
+        5426,
+        5427,
+        5428,
+        5429,
+        5430,
+        5431,
+        5434,
+        5435,
+        5436,
+        5437,
+        5451,
+        5456,
+        5458,
+        5464,
+        5471,
+        5472,
+        5473,
+        5474,
+        5475,
+        5476,
+        5477,
+        5479,
+        5480,
+        5481,
+        5482,
+        5483,
+        5484,
+        5485,
+        5486,
+        5487,
+        5488,
+        5489,
+        5490,
+        5491,
+        5492,
+        5493,
+        5495,
+        5496,
+        5497,
+        5498,
+        5499,
+        5501,
+        5503,
+        5511,
+        5512,
+        5514,
+        5515,
+        5516,
+        5518,
+        5520,
+        5521,
+        5522,
+        5523,
+        5527,
+        5529,
+        5530,
+        5531,
+        5533,
+        5534,
+        5535,
+        5537,
+        5539,
+        5540,
+        5541,
+        5551,
+        5552,
+        5553,
+        5554,
+        5555,
+        5556,
+        5557,
+        5559,
+        5560,
+        5561,
+        5562,
+        5563,
+        5564,
+        5565,
+        5566,
+        5568,
+        5571,
+        5581,
+        5582,
+        5583,
+        5584,
+        5585,
+        5586,
+        5587,
+        5588,
+        5589,
+        5590,
+        5591,
+        5592,
+        5601,
+        5604,
+        5606,
+        5607,
+        5609,
+        5610,
+        5611,
+        5613,
+        5621,
+        5622,
+        5623,
+        5624,
+        5627,
+        5628,
+        5629,
+        5631,
+        5632,
+        5633,
+        5634,
+        5635,
+        5636,
+        5637,
+        5638,
+        5639,
+        5640,
+        5642,
+        5643,
+        5645,
+        5646,
+        5648,
+        5649,
+        5650,
+        5651,
+        5652,
+        5653,
+        5654,
+        5655,
+        5656,
+        5661,
+        5663,
+        5665,
+        5669,
+        5671,
+        5673,
+        5674,
+        5675,
+        5678,
+        5680,
+        5683,
+        5684,
+        5688,
+        5690,
+        5692,
+        5693,
+        5701,
+        5702,
+        5703,
+        5704,
+        5705,
+        5706,
+        5707,
+        5708,
+        5709,
+        5710,
+        5711,
+        5712,
+        5713,
+        5714,
+        5715,
+        5716,
+        5717,
+        5718,
+        5719,
+        5720,
+        5721,
+        5722,
+        5723,
+        5724,
+        5725,
+        5726,
+        5727,
+        5728,
+        5729,
+        5730,
+        5731,
+        5732,
+        5741,
+        5742,
+        5743,
+        5744,
+        5745,
+        5746,
+        5747,
+        5748,
+        5749,
+        5750,
+        5752,
+        5754,
+        5755,
+        5756,
+        5757,
+        5758,
+        5759,
+        5760,
+        5761,
+        5762,
+        5763,
+        5764,
+        5765,
+        5766,
+        5785,
+        5790,
+        5792,
+        5798,
+        5799,
+        5803,
+        5804,
+        5805,
+        5806,
+        5812,
+        5813,
+        5816,
+        5817,
+        5819,
+        5821,
+        5822,
+        5827,
+        5828,
+        5830,
+        5831,
+        5841,
+        5842,
+        5843,
+        5851,
+        5852,
+        5853,
+        5854,
+        5855,
+        5856,
+        5857,
+        5858,
+        5859,
+        5860,
+        5861,
+        5862,
+        5863,
+        5871,
+        5872,
+        5873,
+        5882,
+        5883,
+        5884,
+        5885,
+        5886,
+        5889,
+        5890,
+        5891,
+        5892,
+        5902,
+        5903,
+        5904,
+        5905,
+        5907,
+        5908,
+        5909,
+        5910,
+        5911,
+        5912,
+        5913,
+        5914,
+        5919,
+        5921,
+        5922,
+        5923,
+        5924,
+        5925,
+        5926,
+        5928,
+        5929,
+        5930,
+        5931,
+        5932,
+        5933,
+        5934,
+        5935,
+        5937,
+        5938,
+        5939,
+        6021,
+        6022,
+        6023,
+        6024,
+        6025,
+        6032,
+        6033,
+        6034,
+        6035,
+        6037,
+        6082,
+        6083,
+        6084,
+        6087,
+        6089,
+        6090,
+        6131,
+        6133,
+        6134,
+        6135,
+        6136,
+        6137,
+        6139,
+        6140,
+        6141,
+        6142,
+        6151,
+        6152,
+        6153,
+        6154,
+        6155,
+        6156,
+        6157,
+        6158,
+        6159,
+        6211,
+        6212,
+        6213,
+        6214,
+        6215,
+        6217,
+        6218,
+        6219,
+        6220,
+        6232,
+        6235,
+        6238,
+        6239,
+        6240,
+        6246,
+        6248,
+        6252,
+        6253,
+        6254,
+        6261,
+        6263,
+        6265,
+        6266,
+        6267,
+        6404,
+        6408,
+        6413,
+        6416,
+        6417,
+        6421,
+        6422,
+        6423,
+        6432,
+        6433,
+        6434,
+        6435,
+        6436,
+        6437,
+        6451,
+        6452,
+        6455,
+        6456,
+        6458,
+        6487,
+        6504,
+        6511,
+        6512,
+        6513,
+        6601,
+        6602,
+        6603,
+        6604,
+        6605,
+        6606,
+        6607,
+        6608,
+        6609,
+        6610,
+        6611,
+        6612,
+        6613,
+        6614,
+        6615,
+        6616,
+        6617,
+        6618,
+        6619,
+        6620,
+        6621,
+        6622,
+        6623,
+        6624,
+        6625,
+        6626,
+        6627,
+        6628,
+        6629,
+        6630,
+        6631,
+        6632,
+        6633,
+        6634,
+        6635,
+        6636,
+        6637,
+        6638,
+        6639,
+        6640,
+        6641,
+        6642,
+        6643,
+        6644,
+        6645,
+        6702,
+        6703,
+        6704,
+        6706,
+        6708,
+        6709,
+        6710,
+        6711,
+        6712,
+        6715,
+        6716,
+        6718,
+        6719,
+        6721,
+        6722,
+        6724,
+        6729,
+        6730,
+        6741,
+        6742,
+        6743,
+        6745,
+        6748,
+        6750,
+        6751,
+        6753,
+        6754,
+        6757,
+        6758,
+        6759,
+        6771,
+        6774,
+        6778,
+        6781,
+        6782,
+        6783,
+        6784,
+        6785,
+        6789,
+        6790,
+        6792,
+        6800,
+        6806,
+        6807,
+        6808,
+        6809,
+        6810,
+        6811,
+        6812,
+        6831
+       ]
+      }
+     },
+     {
+      "name": "German",
+      "kind": "german",
+      "label": "German is the main language of the majority (BFS language regions, 2022 revision)",
+      "sel": {
+       "munis": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        31,
+        33,
+        34,
+        35,
+        37,
+        38,
+        39,
+        40,
+        41,
+        43,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90,
+        91,
+        92,
+        93,
+        94,
+        95,
+        96,
+        97,
+        98,
+        99,
+        100,
+        101,
+        102,
+        111,
+        112,
+        113,
+        114,
+        115,
+        116,
+        117,
+        118,
+        119,
+        120,
+        121,
+        131,
+        135,
+        136,
+        137,
+        138,
+        139,
+        141,
+        151,
+        152,
+        153,
+        154,
+        155,
+        156,
+        157,
+        158,
+        159,
+        160,
+        161,
+        172,
+        173,
+        176,
+        177,
+        178,
+        180,
+        181,
+        182,
+        191,
+        192,
+        193,
+        194,
+        195,
+        196,
+        197,
+        198,
+        199,
+        200,
+        211,
+        213,
+        214,
+        215,
+        216,
+        218,
+        219,
+        220,
+        221,
+        223,
+        224,
+        225,
+        226,
+        227,
+        228,
+        230,
+        231,
+        241,
+        242,
+        243,
+        244,
+        245,
+        246,
+        247,
+        248,
+        249,
+        250,
+        251,
+        261,
+        291,
+        292,
+        293,
+        294,
+        295,
+        296,
+        297,
+        298,
+        301,
+        302,
+        303,
+        304,
+        305,
+        306,
+        307,
+        309,
+        310,
+        311,
+        312,
+        321,
+        322,
+        323,
+        324,
+        325,
+        326,
+        329,
+        331,
+        332,
+        333,
+        335,
+        336,
+        337,
+        338,
+        339,
+        340,
+        341,
+        342,
+        344,
+        345,
+        351,
+        352,
+        353,
+        354,
+        355,
+        356,
+        357,
+        358,
+        359,
+        360,
+        361,
+        362,
+        363,
+        371,
+        372,
+        381,
+        382,
+        383,
+        385,
+        386,
+        387,
+        388,
+        389,
+        390,
+        391,
+        392,
+        393,
+        394,
+        401,
+        402,
+        403,
+        404,
+        405,
+        406,
+        407,
+        408,
+        409,
+        410,
+        411,
+        412,
+        413,
+        414,
+        415,
+        418,
+        420,
+        421,
+        422,
+        423,
+        424,
+        437,
+        491,
+        492,
+        493,
+        494,
+        495,
+        496,
+        497,
+        498,
+        499,
+        500,
+        501,
+        502,
+        533,
+        535,
+        538,
+        540,
+        541,
+        543,
+        544,
+        546,
+        551,
+        552,
+        553,
+        554,
+        556,
+        557,
+        561,
+        562,
+        563,
+        564,
+        565,
+        566,
+        567,
+        571,
+        572,
+        573,
+        574,
+        575,
+        576,
+        577,
+        578,
+        579,
+        580,
+        581,
+        582,
+        584,
+        585,
+        586,
+        587,
+        588,
+        589,
+        590,
+        591,
+        592,
+        593,
+        594,
+        602,
+        603,
+        605,
+        606,
+        607,
+        608,
+        609,
+        610,
+        611,
+        612,
+        613,
+        614,
+        615,
+        616,
+        617,
+        619,
+        620,
+        622,
+        623,
+        626,
+        627,
+        628,
+        629,
+        630,
+        632,
+        662,
+        663,
+        665,
+        666,
+        667,
+        668,
+        669,
+        670,
+        671,
+        708,
+        709,
+        715,
+        731,
+        732,
+        733,
+        734,
+        735,
+        736,
+        737,
+        738,
+        739,
+        740,
+        741,
+        742,
+        743,
+        744,
+        745,
+        746,
+        747,
+        748,
+        749,
+        750,
+        751,
+        754,
+        755,
+        756,
+        761,
+        762,
+        763,
+        766,
+        767,
+        768,
+        769,
+        770,
+        782,
+        783,
+        784,
+        785,
+        786,
+        791,
+        792,
+        793,
+        794,
+        841,
+        842,
+        843,
+        852,
+        853,
+        855,
+        861,
+        863,
+        866,
+        867,
+        868,
+        869,
+        870,
+        872,
+        877,
+        879,
+        880,
+        883,
+        884,
+        885,
+        886,
+        888,
+        889,
+        901,
+        902,
+        903,
+        904,
+        905,
+        906,
+        907,
+        908,
+        909,
+        921,
+        922,
+        923,
+        924,
+        925,
+        927,
+        928,
+        929,
+        931,
+        932,
+        934,
+        935,
+        936,
+        938,
+        939,
+        940,
+        941,
+        942,
+        943,
+        944,
+        945,
+        946,
+        948,
+        951,
+        952,
+        953,
+        954,
+        955,
+        956,
+        957,
+        958,
+        959,
+        960,
+        971,
+        972,
+        973,
+        975,
+        976,
+        977,
+        979,
+        980,
+        981,
+        982,
+        983,
+        985,
+        987,
+        988,
+        989,
+        990,
+        991,
+        992,
+        995,
+        1001,
+        1002,
+        1004,
+        1005,
+        1007,
+        1008,
+        1009,
+        1010,
+        1021,
+        1023,
+        1024,
+        1025,
+        1026,
+        1030,
+        1031,
+        1032,
+        1033,
+        1037,
+        1039,
+        1040,
+        1041,
+        1051,
+        1052,
+        1053,
+        1054,
+        1055,
+        1056,
+        1058,
+        1059,
+        1061,
+        1062,
+        1063,
+        1064,
+        1065,
+        1066,
+        1067,
+        1068,
+        1069,
+        1081,
+        1082,
+        1083,
+        1084,
+        1085,
+        1086,
+        1088,
+        1089,
+        1091,
+        1093,
+        1094,
+        1095,
+        1097,
+        1098,
+        1099,
+        1100,
+        1102,
+        1103,
+        1104,
+        1107,
+        1121,
+        1122,
+        1123,
+        1125,
+        1127,
+        1128,
+        1129,
+        1131,
+        1132,
+        1135,
+        1136,
+        1137,
+        1139,
+        1140,
+        1142,
+        1143,
+        1145,
+        1146,
+        1147,
+        1150,
+        1151,
+        1201,
+        1202,
+        1203,
+        1205,
+        1206,
+        1207,
+        1208,
+        1209,
+        1210,
+        1211,
+        1212,
+        1213,
+        1214,
+        1215,
+        1216,
+        1217,
+        1218,
+        1219,
+        1220,
+        1301,
+        1311,
+        1321,
+        1322,
+        1323,
+        1331,
+        1341,
+        1342,
+        1343,
+        1344,
+        1345,
+        1346,
+        1347,
+        1348,
+        1349,
+        1361,
+        1362,
+        1363,
+        1364,
+        1365,
+        1366,
+        1367,
+        1368,
+        1369,
+        1370,
+        1371,
+        1372,
+        1373,
+        1374,
+        1375,
+        1401,
+        1402,
+        1403,
+        1404,
+        1405,
+        1406,
+        1407,
+        1501,
+        1502,
+        1503,
+        1504,
+        1505,
+        1506,
+        1507,
+        1508,
+        1509,
+        1510,
+        1511,
+        1630,
+        1631,
+        1632,
+        1701,
+        1702,
+        1703,
+        1704,
+        1705,
+        1706,
+        1707,
+        1708,
+        1709,
+        1710,
+        1711,
+        2138,
+        2250,
+        2258,
+        2261,
+        2262,
+        2265,
+        2266,
+        2271,
+        2274,
+        2275,
+        2276,
+        2292,
+        2293,
+        2294,
+        2295,
+        2296,
+        2299,
+        2300,
+        2301,
+        2303,
+        2304,
+        2305,
+        2306,
+        2307,
+        2308,
+        2309,
+        2401,
+        2402,
+        2403,
+        2404,
+        2405,
+        2406,
+        2407,
+        2408,
+        2421,
+        2422,
+        2424,
+        2425,
+        2426,
+        2427,
+        2428,
+        2430,
+        2445,
+        2455,
+        2457,
+        2461,
+        2463,
+        2464,
+        2465,
+        2471,
+        2472,
+        2473,
+        2474,
+        2475,
+        2476,
+        2477,
+        2478,
+        2479,
+        2480,
+        2481,
+        2491,
+        2492,
+        2493,
+        2495,
+        2497,
+        2499,
+        2500,
+        2501,
+        2502,
+        2503,
+        2511,
+        2513,
+        2514,
+        2516,
+        2517,
+        2518,
+        2519,
+        2523,
+        2524,
+        2525,
+        2526,
+        2527,
+        2528,
+        2530,
+        2532,
+        2534,
+        2535,
+        2541,
+        2542,
+        2543,
+        2544,
+        2545,
+        2546,
+        2547,
+        2548,
+        2549,
+        2550,
+        2551,
+        2553,
+        2554,
+        2555,
+        2556,
+        2571,
+        2572,
+        2573,
+        2574,
+        2575,
+        2576,
+        2578,
+        2579,
+        2580,
+        2581,
+        2582,
+        2583,
+        2584,
+        2585,
+        2586,
+        2601,
+        2611,
+        2612,
+        2613,
+        2614,
+        2615,
+        2616,
+        2617,
+        2618,
+        2619,
+        2620,
+        2621,
+        2622,
+        2701,
+        2702,
+        2703,
+        2761,
+        2762,
+        2763,
+        2764,
+        2765,
+        2766,
+        2767,
+        2768,
+        2769,
+        2770,
+        2771,
+        2772,
+        2773,
+        2774,
+        2775,
+        2781,
+        2782,
+        2783,
+        2784,
+        2785,
+        2786,
+        2787,
+        2788,
+        2789,
+        2790,
+        2791,
+        2792,
+        2793,
+        2821,
+        2822,
+        2823,
+        2824,
+        2825,
+        2826,
+        2827,
+        2828,
+        2829,
+        2830,
+        2831,
+        2832,
+        2833,
+        2834,
+        2841,
+        2842,
+        2843,
+        2844,
+        2845,
+        2846,
+        2847,
+        2848,
+        2849,
+        2850,
+        2851,
+        2852,
+        2853,
+        2854,
+        2855,
+        2856,
+        2857,
+        2858,
+        2859,
+        2860,
+        2861,
+        2862,
+        2863,
+        2864,
+        2865,
+        2866,
+        2867,
+        2868,
+        2869,
+        2881,
+        2882,
+        2883,
+        2884,
+        2885,
+        2886,
+        2887,
+        2888,
+        2889,
+        2890,
+        2891,
+        2892,
+        2893,
+        2894,
+        2895,
+        2901,
+        2903,
+        2904,
+        2914,
+        2915,
+        2917,
+        2919,
+        2920,
+        2931,
+        2932,
+        2933,
+        2936,
+        2937,
+        2938,
+        2939,
+        2951,
+        2952,
+        2953,
+        2961,
+        2962,
+        2963,
+        2964,
+        2971,
+        2972,
+        2973,
+        2974,
+        3001,
+        3002,
+        3003,
+        3004,
+        3005,
+        3006,
+        3007,
+        3021,
+        3022,
+        3023,
+        3024,
+        3025,
+        3031,
+        3032,
+        3033,
+        3034,
+        3035,
+        3036,
+        3037,
+        3038,
+        3101,
+        3102,
+        3104,
+        3111,
+        3112,
+        3201,
+        3202,
+        3203,
+        3204,
+        3211,
+        3212,
+        3213,
+        3214,
+        3215,
+        3216,
+        3217,
+        3218,
+        3219,
+        3231,
+        3232,
+        3233,
+        3234,
+        3235,
+        3236,
+        3237,
+        3238,
+        3251,
+        3252,
+        3253,
+        3254,
+        3255,
+        3256,
+        3271,
+        3272,
+        3273,
+        3274,
+        3275,
+        3276,
+        3291,
+        3292,
+        3293,
+        3294,
+        3295,
+        3296,
+        3297,
+        3298,
+        3311,
+        3312,
+        3313,
+        3315,
+        3316,
+        3338,
+        3339,
+        3340,
+        3341,
+        3342,
+        3352,
+        3359,
+        3360,
+        3374,
+        3379,
+        3392,
+        3393,
+        3394,
+        3395,
+        3396,
+        3401,
+        3402,
+        3405,
+        3407,
+        3408,
+        3422,
+        3423,
+        3424,
+        3426,
+        3427,
+        3441,
+        3442,
+        3443,
+        3444,
+        3506,
+        3513,
+        3514,
+        3542,
+        3543,
+        3544,
+        3575,
+        3603,
+        3619,
+        3633,
+        3637,
+        3638,
+        3640,
+        3661,
+        3662,
+        3663,
+        3668,
+        3669,
+        3670,
+        3672,
+        3673,
+        3681,
+        3695,
+        3701,
+        3711,
+        3712,
+        3713,
+        3714,
+        3715,
+        3721,
+        3722,
+        3723,
+        3731,
+        3732,
+        3733,
+        3734,
+        3752,
+        3781,
+        3782,
+        3783,
+        3784,
+        3785,
+        3786,
+        3787,
+        3789,
+        3790,
+        3791,
+        3851,
+        3861,
+        3862,
+        3863,
+        3871,
+        3881,
+        3882,
+        3891,
+        3901,
+        3911,
+        3921,
+        3945,
+        3946,
+        3947,
+        3951,
+        3952,
+        3953,
+        3954,
+        3955,
+        3961,
+        3962,
+        3972,
+        3988,
+        4001,
+        4002,
+        4003,
+        4004,
+        4005,
+        4006,
+        4007,
+        4008,
+        4009,
+        4010,
+        4012,
+        4013,
+        4021,
+        4022,
+        4023,
+        4024,
+        4026,
+        4027,
+        4028,
+        4029,
+        4030,
+        4031,
+        4032,
+        4033,
+        4034,
+        4035,
+        4037,
+        4038,
+        4039,
+        4040,
+        4041,
+        4044,
+        4045,
+        4046,
+        4047,
+        4048,
+        4049,
+        4061,
+        4062,
+        4063,
+        4064,
+        4065,
+        4066,
+        4067,
+        4068,
+        4071,
+        4072,
+        4073,
+        4074,
+        4075,
+        4076,
+        4077,
+        4078,
+        4079,
+        4080,
+        4081,
+        4082,
+        4083,
+        4084,
+        4091,
+        4092,
+        4093,
+        4095,
+        4099,
+        4100,
+        4104,
+        4105,
+        4106,
+        4107,
+        4110,
+        4111,
+        4112,
+        4117,
+        4120,
+        4121,
+        4123,
+        4124,
+        4125,
+        4131,
+        4132,
+        4134,
+        4135,
+        4136,
+        4137,
+        4138,
+        4139,
+        4140,
+        4141,
+        4142,
+        4143,
+        4144,
+        4145,
+        4146,
+        4147,
+        4161,
+        4163,
+        4164,
+        4165,
+        4169,
+        4170,
+        4172,
+        4173,
+        4175,
+        4176,
+        4177,
+        4181,
+        4182,
+        4183,
+        4184,
+        4185,
+        4186,
+        4191,
+        4192,
+        4193,
+        4194,
+        4195,
+        4196,
+        4197,
+        4198,
+        4199,
+        4200,
+        4201,
+        4202,
+        4203,
+        4204,
+        4205,
+        4206,
+        4207,
+        4208,
+        4209,
+        4210,
+        4221,
+        4222,
+        4223,
+        4224,
+        4226,
+        4227,
+        4228,
+        4229,
+        4230,
+        4231,
+        4232,
+        4233,
+        4234,
+        4235,
+        4236,
+        4237,
+        4238,
+        4239,
+        4240,
+        4251,
+        4252,
+        4253,
+        4254,
+        4255,
+        4256,
+        4257,
+        4258,
+        4259,
+        4260,
+        4261,
+        4262,
+        4263,
+        4264,
+        4271,
+        4273,
+        4274,
+        4275,
+        4276,
+        4277,
+        4279,
+        4280,
+        4281,
+        4282,
+        4283,
+        4284,
+        4285,
+        4286,
+        4287,
+        4288,
+        4289,
+        4303,
+        4304,
+        4305,
+        4306,
+        4307,
+        4309,
+        4310,
+        4311,
+        4312,
+        4313,
+        4314,
+        4318,
+        4319,
+        4320,
+        4324,
+        4401,
+        4406,
+        4411,
+        4416,
+        4421,
+        4426,
+        4431,
+        4436,
+        4441,
+        4446,
+        4451,
+        4461,
+        4471,
+        4476,
+        4486,
+        4495,
+        4501,
+        4506,
+        4511,
+        4536,
+        4545,
+        4546,
+        4551,
+        4561,
+        4566,
+        4571,
+        4590,
+        4591,
+        4601,
+        4606,
+        4611,
+        4616,
+        4621,
+        4641,
+        4643,
+        4646,
+        4651,
+        4656,
+        4666,
+        4671,
+        4681,
+        4683,
+        4691,
+        4696,
+        4701,
+        4711,
+        4716,
+        4721,
+        4723,
+        4724,
+        4726,
+        4741,
+        4746,
+        4751,
+        4756,
+        4761,
+        4776,
+        4781,
+        4786,
+        4791,
+        4801,
+        4806,
+        4811,
+        4816,
+        4821,
+        4826,
+        4831,
+        4841,
+        4846,
+        4851,
+        4864,
+        4871,
+        4881,
+        4891,
+        4901,
+        4911,
+        4921,
+        4941,
+        4946,
+        4951,
+        6002,
+        6004,
+        6007,
+        6008,
+        6009,
+        6010,
+        6011,
+        6052,
+        6054,
+        6056,
+        6057,
+        6058,
+        6061,
+        6076,
+        6077,
+        6101,
+        6102,
+        6104,
+        6109,
+        6110,
+        6111,
+        6112,
+        6113,
+        6116,
+        6117,
+        6118,
+        6119,
+        6172,
+        6173,
+        6177,
+        6181,
+        6191,
+        6192,
+        6193,
+        6194,
+        6195,
+        6197,
+        6198,
+        6199,
+        6201,
+        6202,
+        6203,
+        6204,
+        6205,
+        6281,
+        6282,
+        6283,
+        6285,
+        6286,
+        6287,
+        6288,
+        6289,
+        6290,
+        6291,
+        6292,
+        6293,
+        6294,
+        6295,
+        6296,
+        6297,
+        6298,
+        6299,
+        6300,
+        6713
+       ]
+      }
+     }
+    ],
+    "places": [
+     {
+      "name": "Surses (Savognin)",
+      "lat": 46.5966,
+      "lon": 9.5995,
+      "kind": "place",
+      "year": 2022,
+      "note": "Now in the German statistical region"
+     },
+     {
+      "name": "Muntogna da Schons",
+      "lat": 46.636,
+      "lon": 9.42,
+      "kind": "place",
+      "year": 2022,
+      "note": "Now in the German statistical region"
+     },
+     {
+      "name": "Scuol",
+      "lat": 46.7965,
+      "lon": 10.2983,
+      "kind": "town",
+      "note": "Romansh region"
+     },
+     {
+      "name": "Disentis/Mustér",
+      "lat": 46.7036,
+      "lon": 8.853,
+      "kind": "town",
+      "note": "Romansh region"
+     }
+    ],
+    "sources": [
+     {
+      "url": "https://dam-api.bfs.admin.ch/hub/api/dam/assets/24267134/master",
+      "title": "BFS, Stellungnahme: Revision der statistischen Sprachgebiete (9.1.2023)",
+      "quote": "Am 27. Dezember 2022 hat das BFS die Revision der statistischen Sprachgebiete für die Schweiz veröffentlicht.",
+      "supports": "Revision of December 2022"
+     },
+     {
+      "url": "https://dam-api.bfs.admin.ch/hub/api/dam/assets/24267134/master",
+      "title": "BFS, Stellungnahme: Revision der statistischen Sprachgebiete (9.1.2023)",
+      "quote": "werden die beiden romanischsprachigen Gemeinden Surses und Muntogna da Schons neu der deutschsprachigen Analyseregion zugerechnet.",
+      "supports": "Surses and Muntogna da Schons now German region"
+     },
+     {
+      "url": "https://dam-api.bfs.admin.ch/hub/api/dam/assets/24267134/master",
+      "title": "BFS, Stellungnahme: Revision der statistischen Sprachgebiete (9.1.2023)",
+      "quote": "Auf Grund der letzten Neuberechnungen",
+      "supports": "Change based on new calculations"
+     },
+     {
+      "url": "https://dam-api.bfs.admin.ch/hub/api/dam/assets/24267134/master",
+      "title": "BFS, Stellungnahme: Revision der statistischen Sprachgebiete (9.1.2023)",
+      "quote": "keinen Einfluss auf die Festlegung der Amts- und Schulsprache(n) in den Bündner Gemeinden",
+      "supports": "No effect on official and school languages"
+     },
+     {
+      "url": "https://dam-api.bfs.admin.ch/hub/api/dam/assets/24267134/master",
+      "title": "BFS, Stellungnahme: Revision der statistischen Sprachgebiete (9.1.2023)",
+      "quote": "Im dreisprachigen Graubünden regelt das Bündner Sprachengesetz, das 2008 in Kraft trat, den Gebrauch der kantonalen Amtssprachen",
+      "supports": "Cantonal language law"
+     },
+     {
+      "url": "https://www.agvchapp.bfs.admin.ch/api/communes/levels?date=01-01-2026&labelLanguages=de",
+      "title": "BFS, Applikation der Schweizer Gemeinden: typology SPRGEB2020 (Sprachgebiete, revision of Dec. 2022), municipalities of 1.1.2026",
+      "quote": "SPRGEB2020_de",
+      "supports": "Language region of each municipality today (1 Deutsch, 2 Französisch, 3 Italienisch, 4 Rätoromanisch)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/024596/2013-07-18/",
+      "title": "HLS: Mehrsprachigkeit (Georges Lüdi)",
+      "quote": "Erst 1938 wurde auch das Rätoromanische in die Liste der \"Nationalsprachen\" aufgenommen.",
+      "supports": "Romansh national language 1938"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/011195/2007-05-08/",
+      "title": "HLS: Französisch (Andres Kristol)",
+      "quote": "Einen zweisprachigen Status haben Freiburg",
+      "supports": "Bilingual towns"
+     }
+    ],
+    "uncertain": [
+     "Coordinates of Muntogna da Schons are approximate (village area of Donat/Mathon).",
+     "SPRGEB2020 is taken to be the revised (Dec. 2022) typology because it puts Surses and Muntogna da Schons in the German region, as the BFS statement says."
+    ]
+   }
+  ],
+  "sources": [
+   "https://dam-api.bfs.admin.ch/hub/api/dam/assets/24267134/master",
+   "https://hls-dhs-dss.ch/de/articles/000222/2018-01-23/",
+   "https://hls-dhs-dss.ch/de/articles/007379/2023-03-09/",
+   "https://hls-dhs-dss.ch/de/articles/007396/2022-04-04/",
+   "https://hls-dhs-dss.ch/de/articles/007950/2013-08-20/",
+   "https://hls-dhs-dss.ch/de/articles/008027/2018-01-18/",
+   "https://hls-dhs-dss.ch/de/articles/008028/2006-10-09/",
+   "https://hls-dhs-dss.ch/de/articles/011195/2007-05-08/",
+   "https://hls-dhs-dss.ch/de/articles/011196/2009-04-21/",
+   "https://hls-dhs-dss.ch/de/articles/011197/2008-11-18/",
+   "https://hls-dhs-dss.ch/de/articles/024594/2012-06-19/",
+   "https://hls-dhs-dss.ch/de/articles/024596/2013-07-18/",
+   "https://hsso.ch/de/2012/b/32",
+   "https://hsso.ch/de/2012/b/41a",
+   "https://www.agvchapp.bfs.admin.ch/api/communes/levels?date=01-01-2001&labelLanguages=de",
+   "https://www.agvchapp.bfs.admin.ch/api/communes/levels?date=01-01-2026&labelLanguages=de"
+  ],
+  "notes": "Early-medieval maps (443–843) are rough and drawn on today's cantons/districts; Europe regions are whole units (Vorarlberg, Bozen province, Ain). 1900 map is by canton (HSSO B.32), so minorities inside cantons (e.g. French Jura bernois, German Upper Valais) are hidden. 2000 map: BFS typology SPRGEB2000 on 2001 municipalities, mapped to 2026 municipalities with the BFS correspondence table; 7 merged municipalities have mixed predecessors. 2022 map: BFS SPRGEB2020 (revised Dec. 2022). Three non-municipal areas (Staatswald Galm, two TI comunanze) have no data and are not coloured. No official municipality-level language data for 1880/1900 was used."
+ },
+ {
+  "id": "municipalities",
+  "title": "Municipalities: fewer and larger",
+  "card": "From 3,205 municipalities in 1850 to about 2,100 today: where and when they merged.",
+  "stops": [
+   {
+    "year": 1850,
+    "tick": "1850",
+    "title": "About 3,200 municipalities",
+    "view": "ch",
+    "layers": [],
+    "text": [
+     "In 1850 Switzerland has 3,205 municipalities. Many are very small villages.",
+     "From 1850 to 1990 only 250 municipalities disappear through mergers. The register of all changes starts in 1960, so the map starts then."
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007971/",
+      "title": "HLS: Gemeindezusammenschluss (Peter Steiner)",
+      "quote": "1850 gab es in der Schweiz 3205 Gemeinden, 1900 3164, 1950 3101, 1990 2955, 2003 2840.",
+      "supports": "The number of municipalities in 1850, 1900, 1950, 1990 and 2003"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007971/",
+      "title": "HLS: Gemeindezusammenschluss (Peter Steiner)",
+      "quote": "1850-1990 verschwanden durch Fusion 250 Gemeinden",
+      "supports": "250 municipalities disappeared through mergers between 1850 and 1990"
+     }
+    ]
+   },
+   {
+    "year": 1960,
+    "tick": "1960",
+    "title": "The register starts",
+    "text": [
+     "On 1 January 1960 there are 3095 municipalities.",
+     "Coloured areas on the next maps are today's municipalities that were made by merging two or more municipalities of 1960."
+    ],
+    "view": "ch",
+    "layers": [],
+    "sources": [
+     {
+      "url": "https://www.agvchapp.bfs.admin.ch/",
+      "title": "BFS: Official register of Swiss municipalities (snapshot 1 January 1960, mutations since 1960)",
+      "supports": "The number of municipalities on 1 January 1960 (3095, counted from the register) and the mergers shown on the map"
+     }
+    ]
+   },
+   {
+    "year": 1980,
+    "tick": "1980",
+    "title": "Slow change",
+    "text": [
+     "By 1980 there are 3029 municipalities. Only a few small villages have merged.",
+     "The canton of Jura (1979) renumbered its municipalities, but this is not a merger and is not shown."
+    ],
+    "view": "ch",
+    "layers": [
+     {
+      "name": "Merged 1960–1979",
+      "kind": "merge1960",
+      "label": "Merged 1960–1979 (municipalities made of two or more of 1960)",
+      "sel": {
+       "munis": [
+        584,
+        2097,
+        2099,
+        2117,
+        2122,
+        2175,
+        2206,
+        2236,
+        2238,
+        2262,
+        2275,
+        2300,
+        2336,
+        2455,
+        2576,
+        2764,
+        2939,
+        3352,
+        3543,
+        3618,
+        3619,
+        3792,
+        3891,
+        3951,
+        4021,
+        4095,
+        4446,
+        4461,
+        4506,
+        4646,
+        4726,
+        4756,
+        4781,
+        4791,
+        4831,
+        4851,
+        4941,
+        5192,
+        5226,
+        5239,
+        5250,
+        5397,
+        5656,
+        5761,
+        5886,
+        6002,
+        6136,
+        6248,
+        6266,
+        6297
+       ]
+      }
+     },
+     {
+      "name": "Merged 1980–1999",
+      "kind": "merge1980",
+      "label": "Merged 1980–1999 (municipalities made of two or more of 1960)",
+      "sel": {
+       "munis": [
+        3837
+       ]
+      }
+     }
+    ],
+    "sources": [
+     {
+      "url": "https://www.agvchapp.bfs.admin.ch/",
+      "title": "BFS: Official register of Swiss municipalities (snapshot 1 January 1980, mutations since 1960)",
+      "supports": "The number of municipalities on 1 January 1980 (3029, counted from the register) and the mergers shown on the map"
+     }
+    ]
+   },
+   {
+    "year": 2000,
+    "tick": "2000",
+    "title": "Mergers speed up",
+    "text": [
+     "By 2000 there are 2899 municipalities."
+    ],
+    "view": "ch",
+    "layers": [
+     {
+      "name": "Merged 1960–1979",
+      "kind": "merge1960",
+      "label": "Merged 1960–1979 (municipalities made of two or more of 1960)",
+      "sel": {
+       "munis": [
+        584,
+        2097,
+        2099,
+        2117,
+        2122,
+        2175,
+        2206,
+        2236,
+        2238,
+        2262,
+        2275,
+        2300,
+        2336,
+        2455,
+        2576,
+        2764,
+        2939,
+        3352,
+        3543,
+        3618,
+        3619,
+        3792,
+        3891,
+        3951,
+        4021,
+        4095,
+        4446,
+        4461,
+        4506,
+        4646,
+        4726,
+        4756,
+        4781,
+        4791,
+        4831,
+        4851,
+        4941,
+        5192,
+        5226,
+        5239,
+        5250,
+        5397,
+        5656,
+        5761,
+        5886,
+        6002,
+        6136,
+        6248,
+        6266,
+        6297
+       ]
+      }
+     },
+     {
+      "name": "Merged 1980–1999",
+      "kind": "merge1980",
+      "label": "Merged 1980–1999 (municipalities made of two or more of 1960)",
+      "sel": {
+       "munis": [
+        2041,
+        2053,
+        2054,
+        2063,
+        2096,
+        2102,
+        2220,
+        2235,
+        2239,
+        2254,
+        2272,
+        2465,
+        2511,
+        2526,
+        2535,
+        3808,
+        3837,
+        4401,
+        4471,
+        4476,
+        4486,
+        4495,
+        4501,
+        4511,
+        4536,
+        4546,
+        4551,
+        4561,
+        4566,
+        4571,
+        4590,
+        4601,
+        4611,
+        4616,
+        4621,
+        4666,
+        4681,
+        4683,
+        4691,
+        4701,
+        4711,
+        4721,
+        4724,
+        4741,
+        4761,
+        4776,
+        4811,
+        4816,
+        4821,
+        4841,
+        4871,
+        4881,
+        4891,
+        4901,
+        4911,
+        4921,
+        4946,
+        4951,
+        5136,
+        5487
+       ]
+      }
+     },
+     {
+      "name": "Merged 2000–2009",
+      "kind": "merge2000",
+      "label": "Merged 2000–2009 (municipalities made of two or more of 1960)",
+      "sel": {
+       "munis": [
+        2029,
+        4545,
+        6077,
+        6117
+       ]
+      }
+     }
+    ],
+    "sources": [
+     {
+      "url": "https://www.agvchapp.bfs.admin.ch/",
+      "title": "BFS: Official register of Swiss municipalities (snapshot 1 January 2000, mutations since 1960)",
+      "supports": "The number of municipalities on 1 January 2000 (2899, counted from the register) and the mergers shown on the map"
+     }
+    ]
+   },
+   {
+    "year": 2010,
+    "tick": "2010",
+    "title": "Many mergers",
+    "text": [
+     "By 2010 there are 2596 municipalities."
+    ],
+    "view": "ch",
+    "layers": [
+     {
+      "name": "Merged 1960–1979",
+      "kind": "merge1960",
+      "label": "Merged 1960–1979 (municipalities made of two or more of 1960)",
+      "sel": {
+       "munis": [
+        584,
+        2097,
+        2099,
+        2117,
+        2122,
+        2175,
+        2206,
+        2236,
+        2238,
+        2262,
+        2275,
+        2300,
+        2336,
+        2455,
+        2576,
+        2764,
+        2939,
+        3352,
+        3543,
+        3618,
+        3619,
+        3792,
+        3891,
+        3951,
+        4021,
+        4095,
+        4446,
+        4461,
+        4506,
+        4646,
+        4726,
+        4756,
+        4781,
+        4791,
+        4831,
+        4851,
+        4941,
+        5192,
+        5226,
+        5239,
+        5250,
+        5397,
+        5656,
+        5761,
+        5886,
+        6002,
+        6136,
+        6248,
+        6266,
+        6297
+       ]
+      }
+     },
+     {
+      "name": "Merged 1980–1999",
+      "kind": "merge1980",
+      "label": "Merged 1980–1999 (municipalities made of two or more of 1960)",
+      "sel": {
+       "munis": [
+        2041,
+        2053,
+        2054,
+        2063,
+        2096,
+        2102,
+        2220,
+        2235,
+        2239,
+        2254,
+        2272,
+        2465,
+        2511,
+        2526,
+        2535,
+        3808,
+        3837,
+        4401,
+        4471,
+        4476,
+        4486,
+        4495,
+        4501,
+        4511,
+        4536,
+        4546,
+        4551,
+        4561,
+        4566,
+        4571,
+        4590,
+        4601,
+        4611,
+        4616,
+        4621,
+        4666,
+        4681,
+        4683,
+        4691,
+        4701,
+        4711,
+        4721,
+        4724,
+        4741,
+        4761,
+        4776,
+        4811,
+        4816,
+        4821,
+        4841,
+        4871,
+        4881,
+        4891,
+        4901,
+        4911,
+        4921,
+        4946,
+        4951,
+        5136,
+        5487
+       ]
+      }
+     },
+     {
+      "name": "Merged 2000–2009",
+      "kind": "merge2000",
+      "label": "Merged 2000–2009 (municipalities made of two or more of 1960)",
+      "sel": {
+       "munis": [
+        332,
+        632,
+        879,
+        888,
+        948,
+        977,
+        979,
+        1030,
+        1032,
+        1039,
+        1081,
+        1104,
+        1125,
+        1128,
+        1140,
+        1151,
+        1631,
+        2011,
+        2025,
+        2029,
+        2044,
+        2050,
+        2051,
+        2087,
+        2113,
+        2114,
+        2115,
+        2121,
+        2123,
+        2125,
+        2140,
+        2152,
+        2162,
+        2174,
+        2233,
+        2234,
+        2276,
+        2335,
+        2337,
+        2338,
+        2503,
+        2920,
+        2974,
+        3340,
+        3360,
+        3396,
+        3673,
+        3701,
+        3713,
+        3714,
+        3715,
+        3847,
+        3851,
+        3901,
+        3921,
+        3945,
+        3988,
+        4049,
+        4121,
+        4289,
+        4545,
+        5003,
+        5048,
+        5049,
+        5072,
+        5138,
+        5151,
+        5236,
+        5237,
+        5249,
+        5254,
+        5269,
+        5310,
+        5317,
+        5323,
+        5324,
+        5451,
+        5456,
+        5511,
+        5790,
+        5830,
+        5913,
+        5928,
+        6056,
+        6076,
+        6077,
+        6117,
+        6118,
+        6181,
+        6203,
+        6204,
+        6252,
+        6512,
+        6513,
+        6751,
+        6753,
+        6757,
+        6807,
+        6808,
+        6809,
+        6810
+       ]
+      }
+     },
+     {
+      "name": "Merged 2010–2019",
+      "kind": "merge2010",
+      "label": "Merged 2010–2019 (municipalities made of two or more of 1960)",
+      "sel": {
+       "munis": [
+        329,
+        540,
+        619,
+        756,
+        1061,
+        2457,
+        3359,
+        3661,
+        3911,
+        4001,
+        4080,
+        4169,
+        4170,
+        4184,
+        5238,
+        5398
+       ]
+      }
+     }
+    ],
+    "sources": [
+     {
+      "url": "https://www.agvchapp.bfs.admin.ch/",
+      "title": "BFS: Official register of Swiss municipalities (snapshot 1 January 2010, mutations since 1960)",
+      "supports": "The number of municipalities on 1 January 2010 (2596, counted from the register) and the mergers shown on the map"
+     }
+    ]
+   },
+   {
+    "year": 2020,
+    "tick": "2020",
+    "title": "Whole valleys merge",
+    "text": [
+     "By 2020 there are 2202 municipalities. Some cantons now have only a few large municipalities: Glarus merged its municipalities into three in 2011."
+    ],
+    "view": "ch",
+    "layers": [
+     {
+      "name": "Merged 1960–1979",
+      "kind": "merge1960",
+      "label": "Merged 1960–1979 (municipalities made of two or more of 1960)",
+      "sel": {
+       "munis": [
+        584,
+        2097,
+        2099,
+        2117,
+        2122,
+        2175,
+        2206,
+        2236,
+        2238,
+        2262,
+        2275,
+        2300,
+        2336,
+        2455,
+        2576,
+        2764,
+        2939,
+        3352,
+        3543,
+        3618,
+        3619,
+        3792,
+        3891,
+        3951,
+        4021,
+        4095,
+        4446,
+        4461,
+        4506,
+        4646,
+        4726,
+        4756,
+        4781,
+        4791,
+        4831,
+        4851,
+        4941,
+        5192,
+        5226,
+        5239,
+        5250,
+        5397,
+        5656,
+        5761,
+        5886,
+        6002,
+        6136,
+        6248,
+        6266,
+        6297
+       ]
+      }
+     },
+     {
+      "name": "Merged 1980–1999",
+      "kind": "merge1980",
+      "label": "Merged 1980–1999 (municipalities made of two or more of 1960)",
+      "sel": {
+       "munis": [
+        2041,
+        2053,
+        2054,
+        2063,
+        2096,
+        2102,
+        2220,
+        2235,
+        2239,
+        2254,
+        2272,
+        2465,
+        2511,
+        2526,
+        2535,
+        3808,
+        3837,
+        4401,
+        4471,
+        4476,
+        4486,
+        4495,
+        4501,
+        4511,
+        4536,
+        4546,
+        4551,
+        4561,
+        4566,
+        4571,
+        4590,
+        4601,
+        4611,
+        4616,
+        4621,
+        4666,
+        4681,
+        4683,
+        4691,
+        4701,
+        4711,
+        4721,
+        4724,
+        4741,
+        4761,
+        4776,
+        4811,
+        4816,
+        4821,
+        4841,
+        4871,
+        4881,
+        4891,
+        4901,
+        4911,
+        4921,
+        4946,
+        4951,
+        5136,
+        5487
+       ]
+      }
+     },
+     {
+      "name": "Merged 2000–2009",
+      "kind": "merge2000",
+      "label": "Merged 2000–2009 (municipalities made of two or more of 1960)",
+      "sel": {
+       "munis": [
+        332,
+        632,
+        879,
+        888,
+        948,
+        977,
+        979,
+        1030,
+        1032,
+        1039,
+        1081,
+        1104,
+        1125,
+        1128,
+        1140,
+        1151,
+        1631,
+        2011,
+        2025,
+        2029,
+        2044,
+        2050,
+        2051,
+        2087,
+        2113,
+        2114,
+        2115,
+        2121,
+        2123,
+        2125,
+        2140,
+        2152,
+        2162,
+        2174,
+        2233,
+        2234,
+        2276,
+        2335,
+        2337,
+        2338,
+        2503,
+        2920,
+        2974,
+        3340,
+        3360,
+        3396,
+        3673,
+        3701,
+        3713,
+        3714,
+        3715,
+        3847,
+        3851,
+        3901,
+        3921,
+        3945,
+        3988,
+        4049,
+        4121,
+        4289,
+        4545,
+        5003,
+        5048,
+        5049,
+        5072,
+        5138,
+        5151,
+        5236,
+        5237,
+        5249,
+        5254,
+        5269,
+        5310,
+        5317,
+        5323,
+        5324,
+        5451,
+        5456,
+        5511,
+        5790,
+        5830,
+        5913,
+        5928,
+        6056,
+        6076,
+        6077,
+        6117,
+        6118,
+        6181,
+        6203,
+        6204,
+        6252,
+        6512,
+        6513,
+        6751,
+        6753,
+        6757,
+        6807,
+        6808,
+        6809,
+        6810
+       ]
+      }
+     },
+     {
+      "name": "Merged 2010–2019",
+      "kind": "merge2010",
+      "label": "Merged 2010–2019 (municipalities made of two or more of 1960)",
+      "sel": {
+       "munis": [
+        292,
+        293,
+        294,
+        295,
+        296,
+        297,
+        298,
+        304,
+        306,
+        310,
+        329,
+        405,
+        449,
+        450,
+        538,
+        540,
+        608,
+        616,
+        619,
+        716,
+        717,
+        726,
+        756,
+        770,
+        784,
+        855,
+        861,
+        872,
+        885,
+        973,
+        988,
+        1010,
+        1061,
+        1097,
+        1143,
+        1630,
+        1632,
+        2055,
+        2129,
+        2163,
+        2183,
+        2284,
+        2299,
+        2457,
+        2464,
+        2554,
+        2932,
+        3341,
+        3342,
+        3359,
+        3379,
+        3395,
+        3427,
+        3542,
+        3544,
+        3603,
+        3661,
+        3668,
+        3672,
+        3746,
+        3762,
+        3764,
+        3832,
+        3871,
+        3911,
+        3955,
+        3961,
+        3981,
+        3987,
+        4001,
+        4063,
+        4080,
+        4104,
+        4124,
+        4125,
+        4169,
+        4170,
+        4184,
+        4234,
+        4281,
+        4305,
+        5002,
+        5050,
+        5238,
+        5287,
+        5396,
+        5398,
+        5422,
+        5464,
+        5540,
+        5541,
+        5571,
+        5613,
+        5634,
+        5675,
+        5693,
+        5749,
+        5799,
+        5804,
+        5805,
+        5806,
+        5831,
+        5905,
+        5938,
+        6007,
+        6090,
+        6110,
+        6119,
+        6205,
+        6217,
+        6253,
+        6413,
+        6416,
+        6417,
+        6487,
+        6708,
+        6729,
+        6730,
+        6790
+       ]
+      }
+     },
+     {
+      "name": "Merged 2020–2026",
+      "kind": "merge2020",
+      "label": "Merged 2020–2026 (municipalities made of two or more of 1960)",
+      "sel": {
+       "munis": [
+        889,
+        939,
+        981,
+        1123,
+        2237,
+        5399
+       ]
+      }
+     }
+    ],
+    "sources": [
+     {
+      "url": "https://www.agvchapp.bfs.admin.ch/",
+      "title": "BFS: Official register of Swiss municipalities (snapshot 1 January 2020, mutations since 1960)",
+      "supports": "The number of municipalities on 1 January 2020 (2202, counted from the register) and the mergers shown on the map"
+     }
+    ]
+   },
+   {
+    "year": 2026,
+    "tick": "2026",
+    "title": "About 2,100 municipalities today",
+    "text": [
+     "On 1 January 2026 there are 2110 municipalities.",
+     "The largest mergers: Lugano (21 municipalities of 1960); Glarus Süd (17 municipalities of 1960); Val-de-Ruz (15 municipalities of 1960); Ilanz/Glion (14 municipalities of 1960); Gibloux (13 municipalities of 1960); Estavayer (13 municipalities of 1960)."
+    ],
+    "view": "ch",
+    "layers": [
+     {
+      "name": "Merged 1960–1979",
+      "kind": "merge1960",
+      "label": "Merged 1960–1979 (municipalities made of two or more of 1960)",
+      "sel": {
+       "munis": [
+        584,
+        2097,
+        2099,
+        2117,
+        2122,
+        2175,
+        2206,
+        2236,
+        2238,
+        2262,
+        2275,
+        2300,
+        2336,
+        2455,
+        2576,
+        2764,
+        2939,
+        3352,
+        3543,
+        3618,
+        3619,
+        3792,
+        3891,
+        3951,
+        4021,
+        4095,
+        4446,
+        4461,
+        4506,
+        4646,
+        4726,
+        4756,
+        4781,
+        4791,
+        4831,
+        4851,
+        4941,
+        5192,
+        5226,
+        5239,
+        5250,
+        5397,
+        5656,
+        5761,
+        5886,
+        6002,
+        6136,
+        6248,
+        6266,
+        6297
+       ]
+      }
+     },
+     {
+      "name": "Merged 1980–1999",
+      "kind": "merge1980",
+      "label": "Merged 1980–1999 (municipalities made of two or more of 1960)",
+      "sel": {
+       "munis": [
+        2041,
+        2053,
+        2054,
+        2063,
+        2096,
+        2102,
+        2220,
+        2235,
+        2239,
+        2254,
+        2272,
+        2465,
+        2511,
+        2526,
+        2535,
+        3808,
+        3837,
+        4401,
+        4471,
+        4476,
+        4486,
+        4495,
+        4501,
+        4511,
+        4536,
+        4546,
+        4551,
+        4561,
+        4566,
+        4571,
+        4590,
+        4601,
+        4611,
+        4616,
+        4621,
+        4666,
+        4681,
+        4683,
+        4691,
+        4701,
+        4711,
+        4721,
+        4724,
+        4741,
+        4761,
+        4776,
+        4811,
+        4816,
+        4821,
+        4841,
+        4871,
+        4881,
+        4891,
+        4901,
+        4911,
+        4921,
+        4946,
+        4951,
+        5136,
+        5487
+       ]
+      }
+     },
+     {
+      "name": "Merged 2000–2009",
+      "kind": "merge2000",
+      "label": "Merged 2000–2009 (municipalities made of two or more of 1960)",
+      "sel": {
+       "munis": [
+        332,
+        632,
+        879,
+        888,
+        948,
+        977,
+        979,
+        1030,
+        1032,
+        1039,
+        1081,
+        1104,
+        1125,
+        1128,
+        1140,
+        1151,
+        1631,
+        2011,
+        2025,
+        2029,
+        2044,
+        2050,
+        2051,
+        2087,
+        2113,
+        2114,
+        2115,
+        2121,
+        2123,
+        2125,
+        2140,
+        2152,
+        2162,
+        2174,
+        2233,
+        2234,
+        2276,
+        2335,
+        2337,
+        2338,
+        2503,
+        2920,
+        2974,
+        3340,
+        3360,
+        3396,
+        3673,
+        3701,
+        3713,
+        3714,
+        3715,
+        3847,
+        3851,
+        3901,
+        3921,
+        3945,
+        3988,
+        4049,
+        4121,
+        4289,
+        4545,
+        5003,
+        5048,
+        5049,
+        5072,
+        5138,
+        5151,
+        5236,
+        5237,
+        5249,
+        5254,
+        5269,
+        5310,
+        5317,
+        5323,
+        5324,
+        5451,
+        5456,
+        5511,
+        5790,
+        5830,
+        5913,
+        5928,
+        6056,
+        6076,
+        6077,
+        6117,
+        6118,
+        6181,
+        6203,
+        6204,
+        6252,
+        6512,
+        6513,
+        6751,
+        6753,
+        6757,
+        6807,
+        6808,
+        6809,
+        6810
+       ]
+      }
+     },
+     {
+      "name": "Merged 2010–2019",
+      "kind": "merge2010",
+      "label": "Merged 2010–2019 (municipalities made of two or more of 1960)",
+      "sel": {
+       "munis": [
+        292,
+        293,
+        294,
+        295,
+        296,
+        297,
+        298,
+        304,
+        306,
+        310,
+        329,
+        405,
+        449,
+        450,
+        538,
+        540,
+        608,
+        616,
+        619,
+        716,
+        717,
+        726,
+        756,
+        770,
+        784,
+        855,
+        861,
+        872,
+        885,
+        973,
+        988,
+        1010,
+        1061,
+        1097,
+        1143,
+        1630,
+        1632,
+        2055,
+        2129,
+        2163,
+        2183,
+        2284,
+        2299,
+        2457,
+        2464,
+        2554,
+        2932,
+        3341,
+        3342,
+        3359,
+        3379,
+        3395,
+        3427,
+        3542,
+        3544,
+        3603,
+        3661,
+        3668,
+        3672,
+        3746,
+        3762,
+        3764,
+        3832,
+        3871,
+        3911,
+        3955,
+        3961,
+        3981,
+        3987,
+        4001,
+        4063,
+        4080,
+        4104,
+        4124,
+        4125,
+        4169,
+        4170,
+        4184,
+        4234,
+        4281,
+        4305,
+        5002,
+        5050,
+        5238,
+        5287,
+        5396,
+        5398,
+        5422,
+        5464,
+        5540,
+        5541,
+        5571,
+        5613,
+        5634,
+        5675,
+        5693,
+        5749,
+        5799,
+        5804,
+        5805,
+        5806,
+        5831,
+        5905,
+        5938,
+        6007,
+        6090,
+        6110,
+        6119,
+        6205,
+        6217,
+        6253,
+        6413,
+        6416,
+        6417,
+        6487,
+        6708,
+        6729,
+        6730,
+        6790
+       ]
+      }
+     },
+     {
+      "name": "Merged 2020–2026",
+      "kind": "merge2020",
+      "label": "Merged 2020–2026 (municipalities made of two or more of 1960)",
+      "sel": {
+       "munis": [
+        291,
+        409,
+        546,
+        767,
+        889,
+        939,
+        981,
+        992,
+        1065,
+        1123,
+        1214,
+        2056,
+        2237,
+        2306,
+        2430,
+        2499,
+        2525,
+        3112,
+        4139,
+        4185,
+        4186,
+        4324,
+        5073,
+        5079,
+        5240,
+        5395,
+        5399,
+        5892,
+        6037,
+        6254,
+        6436,
+        6458,
+        6743,
+        6811,
+        6812
+       ]
+      }
+     }
+    ],
+    "sources": [
+     {
+      "url": "https://www.agvchapp.bfs.admin.ch/",
+      "title": "BFS: Official register of Swiss municipalities (snapshot 1 January 2026, mutations since 1960)",
+      "supports": "The number of municipalities on 1 January 2026 (2110, counted from the register) and the mergers shown on the map"
+     }
+    ]
+   }
+  ],
+  "sources": [
+   "https://www.agvchapp.bfs.admin.ch/",
+   "https://hls-dhs-dss.ch/de/articles/007971/"
+  ],
+  "notes": "Built by scripts/build_municipalities.py from the BFS register (mutations since 1960). Mergers before 1960 are not on the map."
  }
 ];

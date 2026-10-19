@@ -9,7 +9,7 @@
     "tick": "1020",
     "title": "A castle above the Aare",
     "text": [
-     "About 1020 a noble family builds a castle on a hill above the Aare river, in today's Aargau. The builder was Radbot or his brother Werner. The castle is called Habsburg, and the family takes its name.",
+     "About 1020 a noble family builds a castle on a hill above the Aare river, in today's Aargau. The builder was Radbot or Werner. The castle is called Habsburg, and the family takes its name.",
      "Soon after, Radbot founds the abbey of Muri. The family owns farms and rights around the castle and Muri. At first it is one noble family among many in the region."
     ],
     "view": "ch",
@@ -49,6 +49,32 @@
       "lon": 8.3389,
       "kind": "place",
       "note": "Founded by Radbot after 1020"
+     }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/019506/",
+      "title": "HLS: Habsburg, von",
+      "quote": "Die Habsburg als Herrschaftsmittelpunkt wurde ebenfalls um 1020 von Radbot oder Wernher errichtet.",
+      "supports": "Castle built about 1020 by Radbot or Werner."
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/019506/",
+      "title": "HLS: Habsburg, von",
+      "quote": "Guntrams Enkel Radbot gründete nach 1020 das Benediktinerkloster Muri",
+      "supports": "Radbot founds Muri abbey after 1020."
+     },
+     {
+      "url": "https://www.ag.ch/de/themen/kultur-sport/kultur/museum-aargau/schloss-habsburg/geschichte",
+      "title": "Museum Aargau: Schloss Habsburg, Geschichte",
+      "quote": "Auf dem Wülpelsberg erbaute Radbot um 1020/30 die Habsburg.",
+      "supports": "Castle on a hill in today's Aargau, built about 1020 by Radbot."
+     },
+     {
+      "url": "https://www.ag.ch/staatsarchiv/suche/detail.aspx?ID=1477",
+      "title": "Staatsarchiv Aargau: Kloster Muri",
+      "quote": "die Benediktinerabtei 1027 zur Sühne für Vergehen ihres Schwiegervaters Kanzelin von Altenburg gestiftet haben",
+      "supports": "Muri abbey founded soon after the castle (1027, by Radbot's wife Ita, according to the Acta Murensia)."
      }
     ]
    },
@@ -151,6 +177,44 @@
       "year": 1173,
       "note": "Lenzburg counts die out"
      }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/019506/",
+      "title": "HLS: Habsburg, von",
+      "quote": "1172-1173 die Grafschaft im westlichen Zürichgau mit Schwyz und Unterwalden",
+      "supports": "In 1172–1173 Habsburg gets the county in the western Zürichgau with Schwyz and Unterwalden."
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/019506/",
+      "title": "HLS: Habsburg, von",
+      "quote": "die Grafschaft im Aargau und die Vogtei über das Kloster Säckingen",
+      "supports": "County in the Aargau and protection (Vogtei) of Säckingen abbey."
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/019520/2024-02-20/",
+      "title": "HLS: Kyburg, von",
+      "quote": "Nach dem Abgang der Lenzburger 1172/1173 erhielten neben den Staufern und Zähringern auch die Grafen von Kyburg einen Erbanteil.",
+      "supports": "The counts of Kyburg get another part of the Lenzburg inheritance"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/019504/2020-06-03/",
+      "title": "HLS: Zähringen, von",
+      "quote": "Er verzichtete 1098 auf das Herzogtum Schwaben und erhielt dafür als Reichsfürstenlehen die Namen gebende Burg Zähringen sowie die Reichsrechte in Zürich.",
+      "supports": "Layer: Zurich, imperial rights held by the dukes of Zähringen"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/019520/2024-02-20/",
+      "title": "HLS: Kyburg, von",
+      "quote": "erhielt die Familie umfangreichen Besitz im alten Thurgau und zumindest Ansprüche auf solchen in der Umgebung von Winterthur und der Burg Kyburg",
+      "supports": "Layer: Kyburg land in the Thurgau"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/019520/2024-02-20/",
+      "title": "HLS: Kyburg, von",
+      "quote": "In dieser Zeit gründeten die Grafen von Kyburg die Städte Diessenhofen und Winterthur",
+      "supports": "Layer: Kyburg land around Winterthur"
+     }
     ]
    },
    {
@@ -158,8 +222,8 @@
     "tick": "1264",
     "title": "The Kyburg inheritance",
     "text": [
-     "In 1263 and 1264 the last two counts of Kyburg die. Count Rudolf of Habsburg is their nearest heir. He takes over their lands: the Winterthur area, the Thurgau, Baden, Glarus and Zug, and in the west Burgdorf and Thun.",
-     "Rudolf is now the strongest lord between the Rhine and the Alps. Only a few towns and valleys stand directly under the king: for example Zurich, Bern, Uri and Schwyz."
+     "In 1263 and 1264 the last two counts of Kyburg die. Count Rudolf of Habsburg is their nearest heir. He takes over their lands in the east: the Winterthur area, the Thurgau, Baden, Glarus and Zug.",
+     "In the west, Burgdorf and Thun go to Anna, the young daughter of the last count. Rudolf rules these lands for her. Rudolf is now the strongest lord between the Rhine and the Alps. Only a few towns and valleys stand directly under the king: for example Zurich, Bern, Uri and Schwyz."
     ],
     "view": "ch",
     "layers": [
@@ -262,6 +326,89 @@
       "year": 1264,
       "note": "Last Kyburg count dies"
      }
+    ],
+    "sources": [
+     {
+      "url": "https://www.deutsche-biographie.de/sfz74667.html",
+      "title": "NDB: Rudolf I., römisch-deutscher König",
+      "quote": "Als 1264 die Linie der Grafen von Kiburg ohne direkten männlichen Erben auslief,",
+      "supports": "Kyburg line dies out in 1264 without a male heir."
+     },
+     {
+      "url": "https://www.deutsche-biographie.de/sfz27117.html",
+      "title": "NDB: Habsburg (Dynastie)",
+      "quote": "Rudolf (IV.) erweiterte seinen Besitz durch die Erwerbung des Erbes der Grafen von Kiburg bei Zürich",
+      "supports": "Rudolf of Habsburg takes over the Kyburg inheritance."
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/019506/",
+      "title": "HLS: Habsburg, von",
+      "quote": "die Landgrafschaft über den Thurgau sowie Glarus, Gaster und die Kastvogtei über das Kloster Schänis",
+      "supports": "Habsburg rights over the Thurgau and Glarus."
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/019506/",
+      "title": "HLS: Habsburg, von",
+      "quote": "Um 1269 wurde von Eberhard, der die Erbtochter des Hauses Kyburg ehelichte",
+      "supports": "There was a Kyburg heiress (Anna), who married Eberhard of Habsburg(-Laufenburg) — the western Kyburg lands (later Neu-Kyburg)."
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/019520/2024-02-20/",
+      "title": "HLS: Kyburg, von",
+      "quote": "Als Hartmann V. 1263 starb, übernahm Graf Rudolf von Habsburg als Vormund von dessen Tochter Anna die Verwaltung des Westteils",
+      "supports": "Rudolf rules the western Kyburg lands for the young heiress Anna"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/019520/2024-02-20/",
+      "title": "HLS: Kyburg, von",
+      "quote": "nach dem Tod Hartmanns IV. nur ein Jahr später auch bis 1273 diejenige der übrigen Teile der kyburgischen Herrschaft",
+      "supports": "After the last count dies (1264), Rudolf also takes over the rest of the Kyburg land"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/019520/2024-02-20/",
+      "title": "HLS: Kyburg, von",
+      "quote": "gelangten die Kyburger zu den linksrheinischen Besitzungen im Burgund mit den Städten Freiburg, Thun und Burgdorf, im Aargau und im heutigen Kanton Zürich",
+      "supports": "Kyburg lands included Fribourg, Thun, Burgdorf and land in the Aargau and Zurich area"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/019520/2024-02-20/",
+      "title": "HLS: Kyburg, von",
+      "quote": "um 1230 die Städte Zug und Baden, danach Frauenfeld, Aarau, Mellingen und Lenzburg sowie um 1250 Sursee, Weesen",
+      "supports": "Kyburg lands included Zug and Baden"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/019520/2024-02-20/",
+      "title": "HLS: Kyburg, von",
+      "quote": "In dieser Zeit gründeten die Grafen von Kyburg die Städte Diessenhofen und Winterthur",
+      "supports": "Kyburg lands included the Winterthur area"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/029225/2014-11-18/",
+      "title": "HLS: Zähringen, Berchtold V. von",
+      "quote": "Zürich, Solothurn, Bern, Schaffhausen und zahlreiche burgundische Dynasten wurden reichsfrei",
+      "supports": "Zurich, Bern, Solothurn and Schaffhausen stand directly under the king"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007385/",
+      "title": "HLS: Schwyz (Kanton)",
+      "quote": "der Kaiser Friedrich II. 1240 aufgrund erwiesener Dienste die Reichsfreiheit zugestand",
+      "supports": "Schwyz stands directly under the king"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007384/",
+      "title": "HLS: Uri",
+      "quote": "verlieh König Heinrich (VII.), der Sohn Kaiser Friedrichs II., den in Uri lebenden Leuten die Reichsunmittelbarkeit.",
+      "supports": "Uri stands directly under the king"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007393/",
+      "title": "HLS: Thurgau",
+      "quote": "über den zentralen Seerücken und Bischofszell mit seinem Hinterland als Zentren bischöflichen Grundbesitzes",
+      "supports": "Layer: Bischofszell belongs to the bishop of Constance"
+     }
+    ],
+    "uncertain": [
+     "Map: Arbon belongs to the bishop of Constance."
     ]
    },
    {
@@ -269,7 +416,7 @@
     "tick": "1282",
     "title": "A king and a duchy",
     "text": [
-     "In 1273 the princes elect Count Rudolf as king of the Romans (the German king). In 1278 he defeats King Ottokar of Bohemia at Dürnkrut, near Vienna.",
+     "In 1273 the princes elect Count Rudolf as king of the Romans (the German king). In 1278 he defeats King Ottokar of Bohemia at Dürnkrut, north-east of Vienna. Ottokar dies in the battle.",
      "In 1282 Rudolf gives the duchies of Austria and Styria to his sons. From now on the Habsburgs are dukes of Austria. Their centre of power moves east to Vienna, but they keep their old lands in Switzerland and in Alsace."
     ],
     "view": "europe",
@@ -360,6 +507,41 @@
       "lon": 8.1856,
       "kind": "castle"
      }
+    ],
+    "sources": [
+     {
+      "url": "https://www.deutsche-biographie.de/sfz74667.html",
+      "title": "NDB: Rudolf I., römisch-deutscher König",
+      "quote": "Einen Monat später wurde R. von den Wahlfürsten einmütig zum röm.-dt. König gewählt,",
+      "supports": "1273: the princes elect Rudolf king."
+     },
+     {
+      "url": "https://www.deutsche-biographie.de/sfz74667.html",
+      "title": "NDB/ADB: Rudolf I.",
+      "quote": "am 24.10.1273 wurde er von Ebf. Engelbert v. Köln in Aachen gekrönt.",
+      "supports": "Place label: Aachen (1273), Rudolf crowned king."
+     },
+     {
+      "url": "https://www.deutsche-biographie.de/sfz74667.html",
+      "title": "NDB/ADB: Rudolf I.",
+      "quote": "kam es am 26.8.1278 bei Dürnkrut zur Entscheidungsschlacht, in der Ottokar unterlag und getötet wurde.",
+      "supports": "1278: Rudolf defeats Ottokar at Dürnkrut; Ottokar is killed."
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/019506/",
+      "title": "HLS: Habsburg, von",
+      "quote": "verlieh er 1282 an seine Söhne Albrecht I. und Rudolf II. zu gesamter Hand",
+      "supports": "1282: Rudolf gives the duchies to his sons."
+     },
+     {
+      "url": "https://www.deutsche-biographie.de/sfz27117.html",
+      "title": "NDB: Habsburg (Dynastie)",
+      "quote": "1282 mit Österreich und Steiermark.",
+      "supports": "The duchies given in 1282 are Austria and Styria."
+     }
+    ],
+    "uncertain": [
+     "Map: the Habsburgs are landgraves in Upper Alsace."
     ]
    },
    {
@@ -367,8 +549,8 @@
     "tick": "1291",
     "title": "Habsburg and the forest valleys",
     "text": [
-     "Rudolf and his sons want to join their Swiss lands into one territory. In 1291 they buy the town of Lucerne from Murbach abbey. They also protect the abbeys of Engelberg and Einsiedeln.",
-     "Uri and Schwyz have letters from earlier kings that put them directly under the Empire. They fear Habsburg rule. After Rudolf dies in July 1291, Uri, Schwyz and Unterwalden renew their alliance."
+     "Rudolf and his sons want to join their Swiss lands into one territory. In 1291 they buy the rights of Murbach abbey over Lucerne. They also protect the abbeys of Engelberg and Einsiedeln.",
+     "Uri and Schwyz have letters from earlier kings that put them directly under the Empire. They fear Habsburg rule. After Rudolf dies in July 1291, Uri, Schwyz and Unterwalden (Nidwalden) renew their alliance."
     ],
     "view": "ch",
     "layers": [
@@ -389,7 +571,7 @@
      {
       "name": "Lucerne",
       "kind": "habsburg",
-      "label": "Lucerne: bought by Habsburg in 1291",
+      "label": "Lucerne: Murbach abbey's rights bought by Habsburg in 1291",
       "sel": {
        "munis": [
         1061
@@ -503,7 +685,7 @@
       "lon": 8.3093,
       "kind": "town",
       "year": 1291,
-      "note": "Bought by Habsburg"
+      "note": "Habsburg buys Murbach's rights"
      },
      {
       "name": "Schwyz",
@@ -512,6 +694,80 @@
       "kind": "town",
       "year": 1291,
       "note": "Alliance renewed"
+     }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/019506/",
+      "title": "HLS: Habsburg, von",
+      "quote": "kaufte 1291 die Grundherrschaft über die Höfe des Klosters Murbach-Luzern.",
+      "supports": "1291: Habsburg buys Murbach abbey's lordship in Lucerne (not the town as such)."
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/019506/",
+      "title": "HLS: Habsburg, von",
+      "quote": "Die Habsburger waren auch Kastvögte des Klosters Murbach im Elsass mit seinem Tochterkloster St. Leodegar in Luzern.",
+      "supports": "Habsburg link with Murbach abbey and Lucerne."
+     },
+     {
+      "url": "https://www.deutsche-biographie.de/sfz74667.html",
+      "title": "NDB/ADB: Rudolf I.",
+      "quote": "starb er am 15. Juli 1291 im 18. Jahre seines Reichs.",
+      "supports": "Rudolf dies in July 1291."
+     },
+     {
+      "url": "https://www.admin.ch/de/bundesbrief-von-1291",
+      "title": "Schweizerische Bundeskanzlei: Bundesbrief von 1291",
+      "quote": "Darin sichern sich die innerschweizerischen Talgemeinschaften Uri, Schwyz und Nidwalden gegenseitige Hilfe zu",
+      "supports": "Uri, Schwyz and Nidwalden make an alliance (early August 1291)."
+     },
+     {
+      "url": "https://www.admin.ch/de/bundesbrief-von-1291",
+      "title": "Schweizerische Bundeskanzlei: Bundesbrief von 1291",
+      "quote": "bekräftigt diese Vereinbarung eidlich in Bestätigung und Erneuerung einer älteren Übereinkunft.",
+      "supports": "The alliance renews an older one."
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008557/",
+      "title": "HLS: Engelberg (Kloster)",
+      "quote": "nahm König Rudolf I. von Habsburg 1274 das Kloster in seinen Schutz.",
+      "supports": "Habsburg protects the abbey of Engelberg"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008726/",
+      "title": "HLS: Morgartenkrieg",
+      "quote": "dem schwyzerischen Überfall auf das unter österreichischer Schirmvogtei stehende Kloster",
+      "supports": "Habsburg protects the abbey of Einsiedeln"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007385/",
+      "title": "HLS: Schwyz (Kanton)",
+      "quote": "der Kaiser Friedrich II. 1240 aufgrund erwiesener Dienste die Reichsfreiheit zugestand",
+      "supports": "Schwyz has a royal letter that puts it directly under the Empire (1240)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007384/",
+      "title": "HLS: Uri",
+      "quote": "verlieh König Heinrich (VII.), der Sohn Kaiser Friedrichs II., den in Uri lebenden Leuten die Reichsunmittelbarkeit.",
+      "supports": "Uri has a royal letter that puts it directly under the Empire"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007467/",
+      "title": "HLS: Ursern",
+      "quote": "die von den Grafen von Rapperswil und ab 1283 von denen von Habsburg eingenommen wurde",
+      "supports": "Layer: Urseren under Habsburg as governors since 1283"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/019520/2024-02-20/",
+      "title": "HLS: Kyburg, von",
+      "quote": "Sie heiratete um 1273 Eberhard I. von Habsburg-Laufenburg.",
+      "supports": "Layer: Neu-Kyburg, a Habsburg side line, from about 1273"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/019520/2024-02-20/",
+      "title": "HLS: Kyburg, von",
+      "quote": "den Oberaargau mit den Zentren Burgdorf, Wangen an der Aare und Landshut sowie Burg und Stadt Thun samt Äusserem Amt Thun",
+      "supports": "Layer: Neu-Kyburg holds Burgdorf and Thun"
      }
     ]
    },
@@ -631,6 +887,98 @@
       "year": 1388,
       "note": "Glarus wins"
      }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/019506/",
+      "title": "HLS: Habsburg, von",
+      "quote": "Die Bedeutung des Morgartenkriegs 1315 innerhalb dieser Auseinandersetzungen ist heute allerdings umstritten.",
+      "supports": "Morgarten 1315; historians argue about its importance."
+     },
+     {
+      "url": "https://www.deutsche-biographie.de/sfz57436.html",
+      "title": "NDB: Leopold III., Herzog von Österreich",
+      "quote": "das am 9.7.1386 von den Luzernern, Urnern, Schwyzern und Unterwaldnern bei Sempach geschlagen wurde;",
+      "supports": "1386: the Confederates beat Leopold's army at Sempach."
+     },
+     {
+      "url": "https://www.deutsche-biographie.de/sfz27117.html",
+      "title": "NDB: Habsburg (Dynastie)",
+      "quote": "gegen die Leopold III. 1386 bei Sempach Schlacht und Leben verlor.",
+      "supports": "Leopold III dies at Sempach."
+     },
+     {
+      "url": "https://www.gl.ch/portrait/geschichte.html/202",
+      "title": "Kanton Glarus: Geschichte",
+      "quote": "Am 9. April 1388 schlagen sie in der Schlacht bei Näfels ein mehrfach überlegenes habsburgisches Heer",
+      "supports": "1388: Glarus wins at Näfels against Habsburg."
+     },
+     {
+      "url": "https://www.gl.ch/portrait/geschichte.html/202",
+      "title": "Kanton Glarus: Geschichte",
+      "quote": "Im 13. Jahrhundert kommt es unter habsburgische Vormacht, die die Glarner abzuschütteln versuchen.",
+      "supports": "Glarus was under Habsburg and tried to free itself (Habsburg loses Glarus)."
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/019506/",
+      "title": "HLS: Habsburg, von",
+      "quote": "wegen des zürcherischen Zugriffs auf habsburgische Herrschaftsgebiete im Aargau, in Zug und Glarus",
+      "supports": "Zug and Glarus were Habsburg lands taken over by the Confederates."
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008726/",
+      "title": "HLS: Morgartenkrieg",
+      "quote": "Sicher ist, dass die Schwyzer das anrückende Heer Leopolds im Raum Schornen am oberen Ende des Ägerisees (Hauptsee) überfielen",
+      "supports": "In 1315 the men of Schwyz beat a Habsburg army at Morgarten"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/026413/",
+      "title": "HLS: Eidgenossenschaft",
+      "quote": "Luzern suchte 1332 ebenso militärischen Rückhalt bei den Ländern, wie die Bürger der Reichsstadt Zürich 1351",
+      "supports": "Lucerne (1332) and Zurich (1351) join the alliance"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/026413/",
+      "title": "HLS: Eidgenossenschaft",
+      "quote": "Durch die gewaltsam entstandenen Bündnisse mit Zug (1352, 1365) und Glarus (1352, 1393)",
+      "supports": "Glarus and Zug join in 1352"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007383/",
+      "title": "HLS: Bern (Kanton)",
+      "quote": "Seit 1353 Ort der Eidgenossenschaft",
+      "supports": "Bern joins in 1353 (table of the alliances)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008871/",
+      "title": "HLS: Sempacherkrieg",
+      "quote": "Glarus befreite sich dank des Siegs in der Schlacht bei Näfels am 9. April 1388 von der österreichischen Herrschaft.",
+      "supports": "In 1388 Glarus wins at Näfels; Habsburg loses Glarus"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008871/",
+      "title": "HLS: Sempacherkrieg",
+      "quote": "Luzern konnte die eroberten Territorien behalten und diese ab 1389 zu einer dauerhaften Herrschaft ausbauen.",
+      "supports": "Habsburg loses Lucerne and its land"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007388/",
+      "title": "HLS: Schaffhausen (Kanton)",
+      "quote": "verpfändete Schaffhausen 1330 an die österreichischen Herzöge",
+      "supports": "Layer: Schaffhausen pledged to Habsburg from 1330"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007393/",
+      "title": "HLS: Thurgau",
+      "quote": "Der habsburgische Thurgau (1264-1460)",
+      "supports": "Habsburg keeps the Thurgau"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007392/",
+      "title": "HLS: Aargau",
+      "quote": "Die latenten Spannungen zwischen dem deutschen König Sigismund und Friedrich IV. von Habsburg",
+      "supports": "Habsburg keeps the Aargau until 1415"
+     }
     ]
    },
    {
@@ -639,8 +987,8 @@
     "title": "The Aargau is lost",
     "text": [
      "In 1415 Duke Frederick IV of Austria helps Pope John XXIII flee from the Council of Constance. King Sigismund puts the duke under the ban of the Empire and asks his neighbours to take his lands.",
-     "The Confederates conquer the Aargau in a few weeks. Bern, Lucerne and Zurich each take a part. Baden and the Free Offices become common lordships (land ruled jointly by several cantons). The old Habsburg castle is now Swiss.",
-     "Habsburg keeps the Fricktal, the Thurgau, Rapperswil and Fribourg."
+     "The Confederates conquer the Aargau in about a month. Bern, Lucerne and Zurich each take a part. Baden and the Free Offices become common lordships (land ruled jointly by several cantons). The old Habsburg castle is now Swiss.",
+     "Habsburg keeps the Fricktal, the Thurgau and Fribourg. Rapperswil becomes a free imperial town in 1415, but is Habsburg again from 1442 to 1458."
     ],
     "view": "ch",
     "layers": [
@@ -693,7 +1041,7 @@
      {
       "name": "Habsburg",
       "kind": "habsburg",
-      "label": "Habsburg still: Thurgau, Rapperswil, Fribourg, Gaster",
+      "label": "Habsburg still: Thurgau, Fribourg, Gaster; Rapperswil (free 1415–1442)",
       "sel": {
        "cantons": [
         "TG"
@@ -781,6 +1129,110 @@
       "year": 1415,
       "note": "Council of Constance"
      }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/019506/",
+      "title": "HLS: Habsburg, von",
+      "quote": "nach dem Verlust des Aargaus durch Friedrich IV. 1415",
+      "supports": "Frederick IV loses the Aargau in 1415."
+     },
+     {
+      "url": "https://www.deutsche-biographie.de/sfz69835.html",
+      "title": "ADB: Friedrich IV., Herzog von Österreich",
+      "quote": "flüchtet der Papst als Reitknecht vermummt aus der Concilstadt",
+      "supports": "The pope flees from the Council of Constance (with Frederick's help)."
+     },
+     {
+      "url": "https://www.deutsche-biographie.de/sfz69835.html",
+      "title": "ADB: Friedrich IV., Herzog von Österreich",
+      "quote": "bald erscheinen die Eidgenossen, vom Könige aufgemahnt, um sich ihre Beute im Aargau zu holen",
+      "supports": "The king calls on the Confederates, who take the Aargau."
+     },
+     {
+      "url": "https://www.ag.ch/de/themen/kultur-sport/kultur/museum-aargau/schloss-habsburg/geschichte",
+      "title": "Museum Aargau: Schloss Habsburg, Geschichte",
+      "quote": "ging kampflos an Bern",
+      "supports": "1415: Habsburg castle passes to Bern without a fight (place label 'Taken by Bern')."
+     },
+     {
+      "url": "https://www.ag.ch/staatsarchiv/suche/detail.aspx?ID=1477",
+      "title": "Staatsarchiv Aargau: Kloster Muri",
+      "quote": "bis 1415 blieb es eine Kastvogtei der Grafen von Habsburg",
+      "supports": "Habsburg loses its rights over Muri in 1415."
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007392/",
+      "title": "HLS: Aargau",
+      "quote": "König Sigismund setzte den Herzog in die Acht und forderte alle Nachbarn auf, dessen Besitzungen im Namen des Reichs zu besetzen.",
+      "supports": "Sigismund puts the duke under the ban of the Empire and asks his neighbours to take his lands"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007392/",
+      "title": "HLS: Aargau",
+      "quote": "Damit war der Feldzug innert Monatsfrist abgeschlossen.",
+      "supports": "The conquest takes about a month (corrects \"a few weeks\")"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007392/",
+      "title": "HLS: Aargau",
+      "quote": "Seine Truppen nahmen innert zweier Wochen die Städte Aarburg, Aarau, Zofingen, Lenzburg und Brugg",
+      "supports": "Bern takes its part of the Aargau"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007392/",
+      "title": "HLS: Aargau",
+      "quote": "Die Luzerner eroberten die Stadt Sursee und die Ämter Meienberg und Richensee",
+      "supports": "Lucerne takes its part"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007392/",
+      "title": "HLS: Aargau",
+      "quote": "Durch einen Waffenstillstandsvertrag gingen Bremgarten und der Rest des Freiamts an die Eidgenossen über",
+      "supports": "The Free Offices go to the Confederates"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007392/",
+      "title": "HLS: Aargau",
+      "quote": "Am 18. Dezember 1415 nahm Zürich die fünf Orte Luzern, Schwyz, Unterwalden, Zug und Glarus in diese Pfandschaft",
+      "supports": "Baden becomes a lordship shared by several cantons (Zurich takes part)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007392/",
+      "title": "HLS: Aargau",
+      "quote": "Die Stadt ergab sich schliesslich am 3. Mai, die Festung Stein am 18. Mai",
+      "supports": "Place: Stein castle at Baden taken"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007388/",
+      "title": "HLS: Schaffhausen (Kanton)",
+      "quote": "erlangte die Stadt Schaffhausen 1415 wiederum die Reichsfreiheit.",
+      "supports": "Layer: Schaffhausen an imperial town again from 1415"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007379/",
+      "title": "HLS: Freiburg (Kanton)",
+      "quote": "Während der langen Zeit der habsburgischen Stadtherrschaft (1277-1452)",
+      "supports": "Habsburg keeps Fribourg after 1415"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007393/",
+      "title": "HLS: Thurgau",
+      "quote": "Der habsburgische Thurgau (1264-1460)",
+      "supports": "Habsburg keeps the Thurgau"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/001371/",
+      "title": "HLS: Rapperswil (SG)",
+      "quote": "1415 erfolgte die Erhebung zur freien Reichsstadt durch König Sigismund. 1442-1458 erneut unter habsburgischer Landesherrschaft",
+      "supports": "Rapperswil is a free imperial town from 1415, Habsburg again 1442–1458 (corrects \"Habsburg keeps Rapperswil\")"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007644/",
+      "title": "HLS: Gaster",
+      "quote": "dann unterstand es bis 1438 den Habsburgern.",
+      "supports": "Layer: the Gaster stays Habsburg until 1438"
+     }
     ]
    },
    {
@@ -788,8 +1240,8 @@
     "tick": "1460",
     "title": "The Thurgau is lost",
     "text": [
-     "Duke Sigismund of Tyrol quarrels with the pope, who puts him under the ban of the church. In 1460 the Confederates use this and take the Thurgau. It becomes a common lordship of seven cantons.",
-     "Fribourg leaves Habsburg in 1452, Rapperswil in 1458, and Winterthur is pledged to Zurich in 1467. South of the Rhine, only the Fricktal stays with Austria."
+     "Duke Sigismund of Tyrol quarrels with Nicholas of Cusa, the bishop of Brixen. In 1460 the pope puts Sigismund under the ban of the church. The Confederates use this and take the Thurgau. It becomes a common lordship of seven cantons.",
+     "Fribourg leaves Habsburg in 1452, and Rapperswil in 1458–1460. Winterthur goes to Zurich in 1467. South of the Rhine, only the Fricktal stays with Austria."
     ],
     "view": "ch",
     "layers": [
@@ -905,6 +1357,56 @@
       "year": 1460,
       "note": "Taken after a siege"
      }
+    ],
+    "sources": [
+     {
+      "url": "https://www.deutsche-biographie.de/sfz22660.html",
+      "title": "NDB: Sigmund, Erzherzog von Österreich, Graf von Tirol",
+      "quote": "und S. am 8.8.1460 den Kirchenbann einbrachten.",
+      "supports": "The quarrel with Cusanus brings Sigismund the ban of the church in 1460."
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/019506/",
+      "title": "HLS: Habsburg, von",
+      "quote": "Sigismund musste nach dem Verlust des Thurgaus 1460",
+      "supports": "Sigismund loses the Thurgau in 1460."
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/019506/",
+      "title": "HLS: Habsburg, von",
+      "quote": "Ihr Territorialbesitz in der Schweiz beschränkte sich in der Neuzeit auf das zu Vorderösterreich gehörende Fricktal",
+      "supports": "Only the Fricktal (with Tarasp and Rhäzüns in the Grisons) stays Austrian in today's Switzerland."
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007393/",
+      "title": "HLS: Thurgau",
+      "quote": "1460-1798 gemeine Herrschaft der sieben bzw. acht alten Orte Zürich, Luzern, Uri, Schwyz, Unterwalden, Zug, Glarus",
+      "supports": "The Thurgau becomes a common lordship of seven cantons in 1460"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007379/",
+      "title": "HLS: Freiburg (Kanton)",
+      "quote": "1452 sagte sich Freiburg von Österreich los und unterwarf sich Savoyen",
+      "supports": "Fribourg leaves Habsburg in 1452"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/001371/",
+      "title": "HLS: Rapperswil (SG)",
+      "quote": "1458 marschierten eidgenössische Truppen in die Stadt ein. 1460 sagte sich Rapperswil von Österreich los",
+      "supports": "Rapperswil leaves Habsburg in 1458–1460 (corrects \"in 1458\")"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007381/",
+      "title": "HLS: Zürich (Kanton)",
+      "quote": "Habsburg (1460 Eroberung des Thurgaus, 1467 Kauf von Winterthur)",
+      "supports": "Winterthur goes to Zurich in 1467 (HLS says bought, not pledged)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/001891/",
+      "title": "HLS: Diessenhofen",
+      "quote": "1460 wurde Diessenhofen im Zuge der Eroberung des Thurgaus von den Eidgenossen nach zehntägiger Belagerung eingenommen",
+      "supports": "Place: Diessenhofen taken after a siege in 1460"
+     }
     ]
    },
    {
@@ -913,11 +1415,11 @@
     "title": "Peace: the Ewige Richtung",
     "text": [
      "In 1469 Sigismund pledges his lands in Alsace and on the Upper Rhine to Charles the Bold, Duke of Burgundy. Soon Charles becomes a danger to both Austria and the Swiss.",
-     "In 1474 Sigismund and the Confederates make the Ewige Richtung (perpetual settlement) at Constance. Austria accepts that the Aargau and Thurgau belong to the Swiss. Old enemies become partners against Burgundy."
+     "In 1474 Sigismund and the Confederates make the Ewige Richtung (perpetual settlement) at Constance. Each side keeps the land it holds, so the Aargau and Thurgau stay Swiss. Old enemies become partners against Burgundy."
     ],
     "view": [
      [
-      46.0,
+      46,
       5.5
      ],
      [
@@ -1018,6 +1520,47 @@
       "year": 1477,
       "note": "Charles the Bold killed"
      }
+    ],
+    "sources": [
+     {
+      "url": "https://www.deutsche-biographie.de/pnd118719882.html",
+      "title": "ADB: Peter von Hagenbach",
+      "quote": "Im Mai 1469 hatte Karl zu St. Omer den bekannten Vertrag mit Herzog Sigmund von Oesterreich abgeschlossen",
+      "supports": "1469 treaty of Saint-Omer between Charles the Bold and Sigismund (the pledge of Upper Alsace, Pfirt, Breisach and the Forest Towns)."
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/019506/",
+      "title": "HLS: Habsburg, von",
+      "quote": "schliesslich 1474 in der Ewigen Richtung einen Friedensschluss mit den Eidgenossen eingehen",
+      "supports": "1474: Sigismund makes peace with the Confederates in the Ewige Richtung."
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008886/",
+      "title": "HLS: Ewige Richtung",
+      "quote": "Herzog Sigismund von Tirol und die Eidgenossen beschlossen am 30. März 1474 in Konstanz, die jahrzehntelangen Auseinandersetzungen zu beenden.",
+      "supports": "In 1474 Sigismund and the Confederates make the Ewige Richtung at Constance"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008886/",
+      "title": "HLS: Ewige Richtung",
+      "quote": "Der Besitzstand an Ländern und Herrschaften wurde beiden Parteien garantiert.",
+      "supports": "Each side keeps its land (so the Aargau and Thurgau stay Swiss)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008886/",
+      "title": "HLS: Ewige Richtung",
+      "quote": "Die Ewige Richtung bildete einen Wendepunkt in den Beziehungen zwischen der Eidgenossenschaft und dem Hause Habsburg",
+      "supports": "Old enemies become partners"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008881/",
+      "title": "HLS: Burgunderkriege",
+      "quote": "Unbekannte erschlugen ihn nach der Schlacht bei Nancy (5. Januar 1477)",
+      "supports": "Place: Charles the Bold is killed at Nancy in 1477"
+     }
+    ],
+    "uncertain": [
+     "Map: Upper Alsace goes back to Austria in 1474."
     ]
    },
    {
@@ -1025,13 +1568,13 @@
     "tick": "1499",
     "title": "The Swabian War",
     "text": [
-     "King Maximilian I wants the Swiss to accept new imperial taxes and courts. The Swiss refuse. In 1499 war breaks out between the Confederates with the Grisons on one side, and Maximilian with the Swabian League (an alliance of south German lords and towns) on the other.",
-     "The Swiss win at Calven and at Dornach. In the Peace of Basel (September 1499) the borders do not change. But after 1499 the Empire's courts and taxes no longer reach the Swiss in practice.",
+     "King Maximilian I wants the Empire to have a common tax and a new imperial court. The Swiss do not accept them, and there are border quarrels. In 1499 war breaks out between the Confederates with the Grisons on one side, and Maximilian with the Swabian League (an alliance of south German lords and towns) on the other.",
+     "The Swiss win at Calven and at Dornach. In the Peace of Basel (22 September 1499) the Swiss gain only the Thurgau high court. But after 1499 the Empire's courts and taxes no longer reach the Swiss in practice.",
      "In 1511 Austria and the Swiss sign a hereditary union (Erbeinung). They promise to respect each other's land."
     ],
     "view": [
      [
-      46.0,
+      46,
       5.5
      ],
      [
@@ -1163,6 +1706,86 @@
       "year": 1499,
       "note": "Peace of Basel"
      }
+    ],
+    "sources": [
+     {
+      "url": "https://www.deutsche-biographie.de/pnd118579371.html",
+      "title": "NDB: Maximilian I.",
+      "quote": "nicht zuletzt wegen der Unnachgiebigkeit Bertholds und des Kammergerichts zum Schweizer Krieg (1499).",
+      "supports": "War of 1499; the imperial court (Kammergericht) is one cause, besides border quarrels."
+     },
+     {
+      "url": "https://www.deutsche-biographie.de/pnd118579371.html",
+      "title": "NDB: Maximilian I.",
+      "quote": "Die Serie von Niederlagen des Königs und des Reiches im Schweizer Krieg",
+      "supports": "The Swiss win the battles of the war."
+     },
+     {
+      "url": "https://www.deutsche-biographie.de/pnd118579371.html",
+      "title": "NDB: Maximilian I.",
+      "quote": "im Baseler Frieden (22.9.1499) die Eidgenossen aus der Reichsgemeinschaft praktisch entlassen.",
+      "supports": "Peace of Basel, September 1499; in practice the Swiss leave the Empire's institutions."
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/019506/",
+      "title": "HLS: Habsburg, von",
+      "quote": "Grundlage war die Erbeinung von 1511",
+      "supports": "Erbeinung of 1511 between Habsburg-Austria and the Swiss."
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007391/",
+      "title": "HLS: Graubünden",
+      "quote": "nahmen eidgenössische und bündnerische Truppen in der Schlacht an der Calven am 22. Mai 1499 eine Talsperre und besiegten ein tirolisches Heer.",
+      "supports": "The Swiss and the Grisons win at Calven in 1499"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007391/",
+      "title": "HLS: Graubünden",
+      "quote": "bis sie die Herrschaft 1497 König Maximilian von Österreich abtraten.",
+      "supports": "Layer: Rhäzüns Austrian since 1497"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/017158/",
+      "title": "HLS: Grauer Bund",
+      "quote": "1497 Bündnis mit der Eidgenossenschaft",
+      "supports": "The Grisons (Grey League) are allies of the Swiss"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008888/",
+      "title": "HLS: Schwabenkrieg",
+      "quote": "der zehnörtigen Eidgenossenschaft und ihrer Zugewandten mit dem Haus Habsburg-Österreich und dem Schwäbischen Bund als dessen massgeblichen Verbündeten im Jahr 1499.",
+      "supports": "In 1499 war between the Confederates and their allies and Habsburg-Austria with the Swabian League"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008888/",
+      "title": "HLS: Schwabenkrieg",
+      "quote": "Auf die Nachricht von der Niederlage in der Schlacht bei Dornach (22. Juli) stoppte Maximilian seine Kriegsbemühungen",
+      "supports": "The Swiss win at Dornach"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008888/",
+      "title": "HLS: Schwabenkrieg",
+      "quote": "am 25. August Waffenstillstand und am 22. September Frieden geschlossen",
+      "supports": "Peace of Basel, 22 September 1499"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008888/",
+      "title": "HLS: Schwabenkrieg",
+      "quote": "Deren einziger territorialer Gewinn war das Thurgauer Landgericht",
+      "supports": "In the peace the Swiss gain only the Thurgau high court (corrects \"the borders do not change\")"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008886/",
+      "title": "HLS: Ewige Richtung (section Erbeinungen)",
+      "quote": "Die Verträge enthielten eine Nichtangriffsklausel und implizit auch eine Garantie des territorialen Status quo",
+      "supports": "In 1511 Austria and the Swiss sign a hereditary union and promise to respect each other's land"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008886/",
+      "title": "HLS: Ewige Richtung (section Erbeinungen)",
+      "quote": "Erst am 7. Februar 1511 wurde die zweite Erbeinung zwischen Maximilian einerseits",
+      "supports": "The hereditary union of 1511"
+     }
     ]
    },
    {
@@ -1241,7 +1864,7 @@
       "lat": 47.2692,
       "lon": 11.4041,
       "kind": "town",
-      "note": "Maximilian's favourite seat"
+      "note": "Centre of Maximilian's government"
      },
      {
       "name": "Brussels",
@@ -1250,6 +1873,47 @@
       "kind": "town",
       "note": "Centre of the Netherlands"
      }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/019506/",
+      "title": "HLS: Habsburg, von",
+      "quote": "Durch die seit 1462 betriebene und 1477 geschlossene Heirat",
+      "supports": "The Burgundian marriage of 1477 makes Habsburg a great power."
+     },
+     {
+      "url": "https://www.deutsche-biographie.de/pnd118579371.html",
+      "title": "NDB: Maximilian I.",
+      "quote": "heiratete er Maria von Burgund, wodurch die Habsburger zu führender Stellung im Reich und in Europa aufstiegen.",
+      "supports": "Maximilian marries Mary of Burgundy; growth by marriage."
+     },
+     {
+      "url": "https://www.deutsche-biographie.de/pnd118579371.html",
+      "title": "NDB: Maximilian I.",
+      "quote": "Die Kinder Philipp und Margarethe sicherten die Erbfolge der habsburg. Dynastie in den Niederlanden.",
+      "supports": "Habsburg gets the Netherlands."
+     },
+     {
+      "url": "https://www.deutsche-biographie.de/pnd118579371.html",
+      "title": "NDB: Maximilian I.",
+      "quote": "gab M. die Freigfsch. Burgund, ein wertvolles Grenzland des Reiches, wieder zurück.",
+      "supports": "Later (Peace of Senlis 1493) Habsburg gets the Franche-Comté."
+     },
+     {
+      "url": "https://www.deutsche-biographie.de/pnd118579371.html",
+      "title": "NDB: Maximilian I.",
+      "quote": "zur sofortigen Abtretung Tirols und der Vorlande (16.3.1490).",
+      "supports": "From 1490 Maximilian rules Tyrol."
+     },
+     {
+      "url": "https://www.deutsche-biographie.de/pnd118579371.html",
+      "title": "NDB: Maximilian I.",
+      "quote": "Innsbruck wurde Hauptstadt der Regierung und Verwaltung, Standplatz der Rüstungswerkstätten und eines großen Zeughauses.",
+      "supports": "Place label for Innsbruck (seat of Maximilian's government)."
+     }
+    ],
+    "uncertain": [
+     "Map: Artois is part of the Burgundian inheritance."
     ]
    },
    {
@@ -1257,7 +1921,7 @@
     "tick": "1550",
     "title": "An empire around Switzerland",
     "text": [
-     "Maximilian's grandson Charles V becomes king of Spain in 1516 and emperor in 1519. With Spain come Naples, Sicily, Sardinia and lands in America. In 1535 he also takes the Duchy of Milan. In 1526 his brother Ferdinand becomes king of Bohemia and Hungary.",
+     "Maximilian's grandson Charles V becomes king of Spain in 1516 and emperor in 1519. With Spain come Naples, Sicily, Sardinia and lands in America. In 1535 he also takes the Duchy of Milan. In 1526 his brother Ferdinand becomes king of Bohemia and Hungary, but the Ottomans soon hold most of Hungary.",
      "About 1550 Habsburg land lies north, east and south of the Swiss. In 1556 the family splits into a Spanish line and an Austrian line. The family that began at a small castle in the Aargau is now one of the great powers of Europe."
     ],
     "view": "europe",
@@ -1391,6 +2055,65 @@
       "year": 1535,
       "note": "Habsburg from 1535"
      }
+    ],
+    "sources": [
+     {
+      "url": "https://www.deutsche-biographie.de/sfz27117.html",
+      "title": "NDB: Habsburg (Dynastie)",
+      "quote": "Maximilians Enkel Karl V. († 1558) trat zuerst nach seinem spanischen Großvater Ferndinand das spanische Erbe an",
+      "supports": "Charles V, Maximilian's grandson, inherits Spain."
+     },
+     {
+      "url": "https://www.deutsche-biographie.de/sfz57292.html",
+      "title": "NDB: Karl V.",
+      "quote": "Mit dem Tod Ferdinands des Katholischen (1516) wurde die Nachfolge K. in Kastilien und Aragon aktuell.",
+      "supports": "Charles becomes king of Spain in 1516."
+     },
+     {
+      "url": "https://www.deutsche-biographie.de/sfz57292.html",
+      "title": "NDB: Karl V.",
+      "quote": "Als seine Nachfolge in Spanien und Neapel-Sizilien feststand",
+      "supports": "With Spain come Naples and Sicily."
+     },
+     {
+      "url": "https://www.deutsche-biographie.de/sfz57292.html",
+      "title": "NDB: Karl V.",
+      "quote": "Die Entscheidung zugunsten Habsburgs in der Kaiserwahl von 1519 zog einen Dauerkonflikt mit Frankreich nach sich.",
+      "supports": "Charles elected emperor in 1519."
+     },
+     {
+      "url": "https://www.deutsche-biographie.de/sfz57292.html",
+      "title": "NDB: Karl V.",
+      "quote": "Der Tod des Herzogs von Mailand, Francesco Sforza (1.11.1535), veränderte die Situation in Italien schlagartig",
+      "supports": "1535: the duke of Milan dies and Charles takes Milan."
+     },
+     {
+      "url": "https://www.deutsche-biographie.de/sfz27117.html",
+      "title": "NDB: Habsburg (Dynastie)",
+      "quote": "obwohl Ferdinand I. nach der Schlacht von Mohács (1526) die böhmische und die ungarische Krone gewinnen konnte",
+      "supports": "1526: Ferdinand becomes king of Bohemia and Hungary."
+     },
+     {
+      "url": "https://www.deutsche-biographie.de/pnd118532502.html",
+      "title": "NDB: Ferdinand I.",
+      "quote": "während der größte Teil Ungarns nach Mohács von den 1529 bis vor Wien vorstoßenden Türken besetzt wurde",
+      "supports": "Most of Hungary is held by the Ottomans (layer: only part of Hungary)."
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/019506/",
+      "title": "HLS: Habsburg, von",
+      "quote": "vor allem nach der habsburgischen Hausteilung von 1556",
+      "supports": "1556: the family splits."
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/019506/",
+      "title": "HLS: Habsburg, von",
+      "quote": "das Fricktal und Tarasp 1803, Rhäzüns 1819 als Folge des Wiener Kongresses",
+      "supports": "Layer: Fricktal Austrian until 1802/1803."
+     }
+    ],
+    "uncertain": [
+     "With Spain come Sardinia and lands in America."
     ]
    }
   ],
@@ -1412,9 +2135,9 @@
     "tick": "about 1050",
     "title": "Counts of the Alpine passes",
     "text": [
-     "The house of Savoy begins in the early 1000s with Count Humbert. His lands lie south-west of Lake Geneva, around Bugey and the Isère valley.",
-     "His son Odo marries Adelaide of Turin. This brings the Susa valley and Piedmont. Now Savoy holds both sides of the passes, for example Mont-Cenis and the Great St Bernard. Tolls and travellers on these roads bring money and power.",
-     "In the 1000s the counts also gain influence in the Chablais, around the old abbey of Saint-Maurice."
+     "The house of Savoy begins in the early 1000s with Count Humbert. His family lands lie mostly in the Bugey and the Grésivaudan (the Isère valley).",
+     "His son Odo marries Adelaide, daughter of the margrave of Turin. This brings the Susa valley and Piedmont. Now Savoy holds both sides of the passes, for example Mont-Cenis and the Great St Bernard. Tolls and travellers on these roads bring money and power.",
+     "Early on the family also gains the Chablais, the land around the old abbey of Saint-Maurice."
     ],
     "view": [
      [
@@ -1423,7 +2146,7 @@
      ],
      [
       47.2,
-      9.0
+      9
      ]
     ],
     "layers": [
@@ -1481,6 +2204,42 @@
       "lon": 7.0486,
       "kind": "town"
      }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/006641/",
+      "title": "HLS: Savoyen",
+      "quote": "Das Geschlecht und die Herrschaft der Savoyer wurde zu Beginn des 11. Jahrhunderts von Graf Humbert begründet.",
+      "supports": "Savoy begins in the early 1000s with Count Humbert."
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/006641/",
+      "title": "HLS: Savoyen",
+      "quote": "Das Territorium der Grafschaft entstand rund um die Ländereien der Familie, die vorwiegend im Bugey und im Grésivaudan lagen.",
+      "supports": "Humbert's lands lie in the Bugey and the Grésivaudan (Isère valley)."
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/006641/",
+      "title": "HLS: Savoyen",
+      "quote": "Die Heirat eines weiteren Sohns, Odon, mit Adelheid, der Tochter des Markgrafen von Turin, brachte ihm das Susatal sowie das Piemont ein,",
+      "supports": "Odo marries Adelaide of Turin; this brings the Susa valley and Piedmont."
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/006641/",
+      "title": "HLS: Savoyen",
+      "quote": "wodurch sich das Haus Savoyen am südlichen Alpenhang festsetzte und sich die Herrschaft über die Alpenpässe (Mont-Cenis, Grosser St. Bernhard) sicherte.",
+      "supports": "Savoy holds both sides of the passes, Mont-Cenis and Great St Bernard."
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/006641/",
+      "title": "HLS: Savoyen",
+      "quote": "Die Dynastie erwarb das Chablais und im 12. Jahrhundert die Tarentaise.",
+      "supports": "The family gains the Chablais (no exact date given; before the Tarentaise in the 1100s)."
+     }
+    ],
+    "uncertain": [
+     "Tolls and travellers on the pass roads bring money and power.",
+     "Savoy gains influence in the Chablais in the 1000s."
     ]
    },
    {
@@ -1488,9 +2247,9 @@
     "tick": "1260",
     "title": "Peter II and the Vaud",
     "text": [
-     "Peter of Savoy (about 1203–1268) is a younger son. He gets little land at home, so he builds his own power north of Lake Geneva. Between 1240 and 1260 he forces many nobles of the Vaud to hold their land from him as a fief (land held in return for loyalty).",
-     "He beats the count of Geneva and pushes back the bishop of Lausanne. In 1260 the bishop of Sion lets him have the Valais down to the Morge stream near Conthey. Bern and Murten seek his protection in the 1250s.",
-     "Peter becomes count of Savoy in 1263. People later call him the 'little Charlemagne'."
+     "Peter of Savoy (about 1203–1268) is the seventh son of Count Thomas I. At first he is meant for a career in the Church. Later he builds his own power north of Lake Geneva. Between 1240 and 1260 he forces many nobles of the Vaud to hold their land from him as a fief (land held in return for loyalty).",
+     "He beats the count of Geneva and pushes back the bishop of Lausanne. In 1260 a treaty with the bishop of Sion gives him the land down to the Morge stream near Conthey. Bern and Murten seek his protection in the 1250s.",
+     "Peter becomes count of Savoy in 1263. A chronicle of 1419 calls him the 'little Charlemagne'."
     ],
     "view": "ch",
     "layers": [
@@ -1659,6 +2418,84 @@
       "kind": "town",
       "note": "Under Savoy protection for some years"
      }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/017867/",
+      "title": "HLS: Savoyen, Peter II. von",
+      "quote": "Als siebter Sohn war Peter II. von Savoyen anfänglich für die Kirchenlaufbahn vorgesehen",
+      "supports": "Peter is a younger (seventh) son, first meant for the Church."
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/017867/",
+      "title": "HLS: Savoyen, Peter II. von",
+      "quote": "um 1203 vermutlich Susa (Piemont), 14./15.5.1268 Pierre-Châtel (Bugey)",
+      "supports": "Life dates about 1203–1268."
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/017867/",
+      "title": "HLS: Savoyen, Peter II. von",
+      "quote": "wodurch er zwischen 1240 und 1260 zahlreiche Waadtländer Adlige unterwarf und ihnen ihre Herrschaften als Lehen wieder ausgab.",
+      "supports": "1240–1260 he makes many Vaud nobles hold their land from him as fiefs."
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/017867/",
+      "title": "HLS: Savoyen, Peter II. von",
+      "quote": "Er besiegte den Grafen von Genf, drängte den Einfluss des Bischofs von Lausanne zurück",
+      "supports": "He beats the count of Geneva and pushes back the bishop of Lausanne."
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/006641/",
+      "title": "HLS: Savoyen",
+      "quote": "Bereits 1260 hatte er mit dem Vertrag von Conthey das gesamte Territorium bis zur Morge bei Conthey erhalten.",
+      "supports": "1260: land down to the Morge near Conthey; Conthey border place note."
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/017867/",
+      "title": "HLS: Savoyen, Peter II. von",
+      "quote": "verstärkte sie besonders im Chablais (1260 Vertrag mit dem Bischof von Sitten) und in der Waadt.",
+      "supports": "The 1260 treaty was with the bishop of Sion."
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/017867/",
+      "title": "HLS: Savoyen, Peter II. von",
+      "quote": "Gesandte der Stadt Bern werden im Mai 1255 am savoyischen Hof empfangen.",
+      "supports": "Contacts between Bern and Savoy in the 1250s (image caption; supports Bern's link only in part)."
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/017867/",
+      "title": "HLS: Savoyen, Peter II. von",
+      "quote": "1263 wurde Peter II. nach dem Tod seines Neffen Bonifazius Graf von Savoyen.",
+      "supports": "Peter becomes count in 1263."
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/017867/",
+      "title": "HLS: Savoyen, Peter II. von",
+      "quote": "In der Savoyer Chronik von 1419 wurde ihm der Beiname Kleiner Karl der Grosse verliehen.",
+      "supports": "The name 'little Charlemagne' (from a chronicle of 1419)."
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/006641/",
+      "title": "HLS: Savoyen",
+      "quote": "Ab der Mitte des 12. Jahrhunderts kontrollierten die Savoyer von ihrem Sitz Chillon aus den Handel über den Haut-Lac",
+      "supports": "Chillon as a Savoy castle on the lake (place note)."
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007379/",
+      "title": "HLS: Freiburg (Kanton)",
+      "quote": "Während der langen Zeit der habsburgischen Stadtherrschaft (1277-1452)",
+      "supports": "Layer: Fribourg Habsburg from 1277"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/019520/2024-02-20/",
+      "title": "HLS: Kyburg, von",
+      "quote": "gelangten die Kyburger zu den linksrheinischen Besitzungen im Burgund mit den Städten Freiburg, Thun und Burgdorf, im Aargau und im heutigen Kanton Zürich",
+      "supports": "Layer: Fribourg under Kyburg before 1277"
+     }
+    ],
+    "uncertain": [
+     "Bern and Murten seek Peter's protection in the 1250s (a source confirms only Bern's envoys at the Savoy court in 1255).",
+     "Moudon is the Savoy centre in the Vaud; Peter II builds the castle of Yverdon."
     ]
    },
    {
@@ -1666,8 +2503,8 @@
     "tick": "1416",
     "title": "The Duchy of Savoy",
     "text": [
-     "From 1285 to 1359 a side line of the family rules the Vaud as a barony. In 1359 Count Amadeus VI takes it back.",
-     "Savoy keeps growing. It gets Nice and access to the sea in 1388 and the Genevois (the land around Geneva) in 1401–1402. In 1416 the emperor makes Amadeus VIII a duke. The city of Geneva itself stays under its bishop.",
+     "From 1285 a side line of the family holds the Vaud. In 1359 Count Amadeus VI takes it back.",
+     "Savoy keeps growing. It gets Nice and access to the sea in 1388 and the Genevois (the land around Geneva) in 1401. In 1416 the emperor makes Amadeus VIII a duke. The city of Geneva itself stays under its bishop.",
      "The duchy now reaches from the Swiss plateau to the Mediterranean."
     ],
     "view": [
@@ -1677,7 +2514,7 @@
      ],
      [
       47.3,
-      9.0
+      9
      ]
     ],
     "layers": [
@@ -1792,7 +2629,7 @@
      {
       "name": "Duchy of Savoy",
       "kind": "savoy",
-      "label": "Duchy of Savoy: Savoy, Bresse and Bugey, Aosta, Piedmont, Nice (borders rough)",
+      "label": "Duchy of Savoy: Savoy, Bresse and Bugey, Aosta, Nice; Piedmont (side line until 1418) (borders rough)",
       "sel": {},
       "regions": [
        "FRA-5341",
@@ -1836,6 +2673,56 @@
       "lon": 6.1486,
       "kind": "town"
      }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/006641/",
+      "title": "HLS: Savoyen",
+      "quote": "Er gab jedoch dem Druck der jüngeren Zweige nach und trat ihnen das Waadtland und das Piemont als Apanage ab.",
+      "supports": "From the time of Amadeus V (1285–1323) a younger branch holds the Vaud."
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/006641/",
+      "title": "HLS: Savoyen",
+      "quote": "Zudem integrierte er 1359 das Waadtland wieder in den gräflichen Herrschaftsbereich.",
+      "supports": "In 1359 Amadeus VI takes the Vaud back."
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/006641/",
+      "title": "HLS: Savoyen",
+      "quote": "Unter Amadeus VII. (1383-1391) erhielt das Haus Savoyen 1388 durch die Angliederung Nizzas einen Zugang zum Mittelmeer.",
+      "supports": "Nice and access to the sea in 1388."
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/006641/",
+      "title": "HLS: Savoyen",
+      "quote": "Amadeus VIII. (1391-1439) erwarb 1401 das Genevois und holte 1418 das Piemont zurück.",
+      "supports": "Genevois in 1401; Piedmont only back in the main line in 1418."
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/006641/",
+      "title": "HLS: Savoyen",
+      "quote": "1416 erhob der Kaiser Savoyen zum Herzogtum.",
+      "supports": "1416: the emperor makes Savoy a duchy."
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/006641/",
+      "title": "HLS: Savoyen",
+      "quote": "einen Rat mit festem Sitz in Chambéry (Conseil résident)",
+      "supports": "Chambéry as the seat of government (place note)."
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/011399/",
+      "title": "HLS: Genf (Diözese, Fürstbistum)",
+      "quote": "Im Vertrag von Seyssel von 1124 wurde Humbert von Grammont als alleiniger Herr der ganzen Stadt Genf anerkannt, zum Nachteil des Grafen von Genf.",
+      "supports": "The city of Geneva stays under its bishop"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007379/",
+      "title": "HLS: Freiburg (Kanton)",
+      "quote": "Während der langen Zeit der habsburgischen Stadtherrschaft (1277-1452)",
+      "supports": "Layer: Fribourg a Habsburg town until 1452"
+     }
     ]
    },
    {
@@ -1843,7 +2730,7 @@
     "tick": "1476",
     "title": "Losses in the Burgundian Wars",
     "text": [
-     "In 1475 Duchess Yolande of Savoy sides with Charles the Bold of Burgundy. Bern and the Valais attack Savoy land. The Swiss beat Charles at Grandson and Murten in 1476.",
+     "In 1475 Yolande, regent of Savoy, sides with Charles the Bold of Burgundy. Bern and the Valais attack Savoy land. The Swiss beat Charles at Grandson and Murten in 1476.",
      "In the Treaty of Fribourg (1476) Bern gets Aigle. The Valais gets the Lower Valais down to Massongex. Bern and Fribourg together take Murten, Grandson, Orbe and Echallens as shared lordships (1476 and 1484).",
      "Savoy keeps most of the Vaud, but it is weaker now."
     ],
@@ -2041,6 +2928,59 @@
       "kind": "place",
       "note": "New border in the Valais"
      }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/006641/",
+      "title": "HLS: Savoyen",
+      "quote": "Während der Burgunderkriege stellte sich die Regentin Jolanda 1475 auf die Seite Karls des Kühnen.",
+      "supports": "1475: Yolande (regent) sides with Charles the Bold."
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/006641/",
+      "title": "HLS: Savoyen",
+      "quote": "Darauf besetzten die Berner das Waadtland und die Walliser das savoyische Wallis.",
+      "supports": "Bern and the Valais attack Savoy land."
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/006641/",
+      "title": "HLS: Savoyen",
+      "quote": "1476 musste Jolanda im Vertrag von Freiburg das Gouvernement Aigle an Bern und das Unterwallis bis Massongex an die Zenden abtreten.",
+      "supports": "Treaty of Fribourg 1476: Aigle to Bern, Lower Valais to Massongex to the Zenden."
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008881/",
+      "title": "HLS: Burgunderkriege",
+      "quote": "Karl der Kühne wurde zuerst nach der Belagerung von Grandson in der Schlacht bei Grandson (2. März 1476) in die Flucht geschlagen",
+      "supports": "The Swiss beat Charles at Grandson in 1476"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008881/",
+      "title": "HLS: Burgunderkriege",
+      "quote": "sein Söldnerheer wurde in der Schlacht bei Murten (22. Juni 1476) aufgerieben.",
+      "supports": "The Swiss beat Charles at Murten in 1476"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008881/",
+      "title": "HLS: Burgunderkriege",
+      "quote": "Bern und Freiburg behielten einzig Murten, Echallens, Grandson und Orbe (ehemalige Lehen der von Chalon) als gemeine Herrschaften",
+      "supports": "Bern and Fribourg share Murten, Grandson, Orbe and Echallens"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008881/",
+      "title": "HLS: Burgunderkriege",
+      "quote": "Das Unterwallis stand fortan unter der Herrschaft des Bischofs von Sitten und der sieben Oberwalliser Zenden.",
+      "supports": "The Valais gets the Lower Valais"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007379/",
+      "title": "HLS: Freiburg (Kanton)",
+      "quote": "Ab 1481 Ort",
+      "supports": "Layer: Fribourg a Swiss member from 1481"
+     }
+    ],
+    "uncertain": [
+     "The shared lordships date from 1476 and 1484."
     ]
    },
    {
@@ -2048,8 +2988,8 @@
     "tick": "1536",
     "title": "Bern takes the Vaud",
     "text": [
-     "Geneva wants to be free from the duke and the bishop. Bern helps the city. In 1536 Bern conquers the Vaud, the Pays de Gex and land south of Lake Geneva. Fribourg takes Romont and other places. The Valais takes the Chablais east of the Dranse river.",
-     "At the same time France occupies Savoy and most of Piedmont. In spring 1536 the duke holds only Nice, Vercelli and Aosta. Geneva becomes an independent city."
+     "For a long time the dukes want to rule Geneva. Bern helps the city. In 1536 Bern conquers the Vaud, the Pays de Gex and the Genevois south of Lake Geneva. Fribourg takes Romont and other places. The Valais takes the Chablais east of the Dranse river.",
+     "At the same time France occupies Savoy and Piedmont. In spring 1536 the duke holds only Nice, Vercelli and Aosta. Geneva is now free from the duke and the bishop."
     ],
     "view": [
      [
@@ -2058,7 +2998,7 @@
      ],
      [
       47.6,
-      9.0
+      9
      ]
     ],
     "layers": [
@@ -2207,6 +3147,74 @@
       "kind": "town",
       "note": "Still Savoy"
      }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/006641/",
+      "title": "HLS: Savoyen",
+      "quote": "Jahrhundertelang verfolgte Savoyen den Plan, Genf unter seine Herrschaft zu bringen (Löffelbund).",
+      "supports": "The dukes want to rule Geneva."
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/006641/",
+      "title": "HLS: Savoyen",
+      "quote": "Die Belagerung Genfs im Oktober 1530 führte zur Intervention Berns und Freiburgs.",
+      "supports": "Bern helps Geneva."
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/006641/",
+      "title": "HLS: Savoyen",
+      "quote": "Als Karl II. 1536 versuchte, Genf einzunehmen, reagierte Bern mit einem erneuten Einmarsch ins Waadtland sowie ins Pays de Gex und das Genevois.",
+      "supports": "1536: Bern conquers the Vaud, the Pays de Gex and the Genevois."
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/006641/",
+      "title": "HLS: Savoyen",
+      "quote": "Die Walliser taten es ihnen gleich und eroberten im Chablais bis zum östlichen Ufer der Dranse alle übrigen Besitzungen Savoyens.",
+      "supports": "The Valais takes the Chablais east of the Dranse."
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/006641/",
+      "title": "HLS: Savoyen",
+      "quote": "Freiburg, das befürchtete, seine Eroberungen von 1536 ebenfalls zurückgeben zu müssen,",
+      "supports": "Fribourg also conquers land in 1536."
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/006641/",
+      "title": "HLS: Savoyen",
+      "quote": "nachdem der Herzog formell auf Romont verzichtet hatte.",
+      "supports": "Romont is among Fribourg's gains."
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/006641/",
+      "title": "HLS: Savoyen",
+      "quote": "Als der französische König noch eine dritte Front eröffnete, verlor das Herzogtum auch Savoyen und das Piemont.",
+      "supports": "France occupies Savoy and Piedmont."
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/006641/",
+      "title": "HLS: Savoyen",
+      "quote": "Im Frühjahr 1536 bestand das Herzogtum nur noch aus Nizza, Vercelli und dem Aostatal.",
+      "supports": "Spring 1536: the duke holds only Nice, Vercelli and Aosta."
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/006641/",
+      "title": "HLS: Savoyen",
+      "quote": "Nachdem der Bischof von Genf 1535 verjagt worden war, wurde der Bischofssitz nach Annecy verlegt.",
+      "supports": "Geneva is free from its bishop (from 1535)."
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/006641/",
+      "title": "HLS: Savoyen",
+      "quote": "1567 auch die bernischen und 1569 die Walliser Vogteien.",
+      "supports": "Layer: land around Geneva held by Bern until 1567."
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008148/",
+      "title": "HLS: Greyerz (Grafschaft, Bezirk)",
+      "quote": "Die vom 12. Jahrhundert an bezeugte Grafschaft Greyerz wurde 1555 zwischen Bern und Freiburg aufgeteilt.",
+      "supports": "Layer: County of Gruyère until 1555"
+     }
     ]
    },
    {
@@ -2224,7 +3232,7 @@
      ],
      [
       47.6,
-      9.0
+      9
      ]
     ],
     "layers": [
@@ -2332,6 +3340,42 @@
       "year": 1569,
       "note": "Treaty with the Valais"
      }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/006641/",
+      "title": "HLS: Savoyen",
+      "quote": "Erst 1559, in den Verträgen von Cateau-Cambrésis, erreichte sein Sohn Emmanuel Philibert die Rückgabe der von Frankreich eroberten Provinzen.",
+      "supports": "1559: Emmanuel Philibert gets his lands back."
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/006641/",
+      "title": "HLS: Savoyen",
+      "quote": "1563 auch das Piemont zurückerlangte, bestimmte er Turin zur Hauptstadt.",
+      "supports": "1563: Turin becomes the capital."
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/006641/",
+      "title": "HLS: Savoyen",
+      "quote": "Durch den Lausanner Vertrag von 1564 und den Vertrag von Thonon von 1569 erhielt Emanuel Philibert das Südufer des Genfersees zurück,",
+      "supports": "Treaties of Lausanne 1564 and Thonon 1569; he gets the south shore back."
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/006641/",
+      "title": "HLS: Savoyen",
+      "quote": "Dafür trat er Bern das von diesem 1536 eroberte Waadtland und den Walliser Zenden das Vieux-Chablais ab.",
+      "supports": "The Vaud stays Bernese; the Valais keeps the old Chablais (Monthey area)."
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/006641/",
+      "title": "HLS: Savoyen",
+      "quote": "Der Krieg zwischen Karl Emmanuel und Frankreich wurde 1601 mit dem Vertrag von Lyon beendet. Der Herzog verlor das Pays de Gex",
+      "supports": "Layer: Gex Savoy until 1601."
+     }
+    ],
+    "uncertain": [
+     "These borders still hold today.",
+     "The duchy now looks south, to Italy."
     ]
    },
    {
@@ -2453,6 +3497,36 @@
       "year": 1720,
       "note": "Sardinia to Savoy"
      }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/006641/",
+      "title": "HLS: Savoyen",
+      "quote": "Der Krieg zwischen Karl Emmanuel und Frankreich wurde 1601 mit dem Vertrag von Lyon beendet. Der Herzog verlor das Pays de Gex",
+      "supports": "1601: Savoy loses Gex to France."
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/006641/",
+      "title": "HLS: Savoyen",
+      "quote": "Als Savoyen 1601 das Bugey verlor, sahen die Spanier diese Verbindung bedroht.",
+      "supports": "1601: Savoy loses the Bugey."
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/006641/",
+      "title": "HLS: Savoyen",
+      "quote": "Im Frieden von Saint-Julien von 1603 anerkannte der Herzog schliesslich Genfs Unabhängigkeit.",
+      "supports": "1603: Savoy accepts Geneva's independence."
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/006641/",
+      "title": "HLS: Savoyen",
+      "quote": "Der Vertrag von Utrecht von 1713 sprach dem Herzog die Krone Siziliens zu, die er 1720 gegen das Königreich Sardinien eintauschte,",
+      "supports": "1713 Sicily; 1720 swapped for Sardinia."
+     }
+    ],
+    "uncertain": [
+     "Bresse also goes to France in 1601.",
+     "The attack on Geneva in 1602 fails."
     ]
    },
    {
@@ -2460,8 +3534,8 @@
     "tick": "1860",
     "title": "Savoy becomes French",
     "text": [
-     "In 1815 and 1816 the treaties of Paris and Turin give Geneva several Savoy villages, for example Carouge. Now Geneva's land touches the rest of Switzerland.",
-     "In 1860 Savoy and Nice become French. In return, France helps the House of Savoy unite Italy. From 1861 the family rules the Kingdom of Italy, until 1946."
+     "In 1815 the Treaty of Paris gives Geneva the town of Carouge. In 1816 the Treaty of Turin gives Geneva more Savoy villages. Now Geneva's land south of the Rhône is one closed area.",
+     "In 1860 Savoy and Nice become French. This is France's reward for helping the king of Sardinia in the war to unite Italy. From 1861 the family rules the Kingdom of Italy, until 1946."
     ],
     "view": "europe",
     "layers": [
@@ -2490,7 +3564,7 @@
      {
       "name": "Geneva",
       "kind": "confederates",
-      "label": "Geneva with the former Savoy villages (Swiss since 1815)",
+      "label": "Geneva with the former Savoy villages (to Geneva 1815/1816)",
       "sel": {
        "cantons": [
         "GE"
@@ -2506,7 +3580,7 @@
       "lat": 46.1814,
       "lon": 6.1392,
       "kind": "town",
-      "year": 1816,
+      "year": 1815,
       "note": "To Geneva"
      },
      {
@@ -2525,6 +3599,42 @@
       "year": 1861,
       "note": "First capital of Italy"
      }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/006641/",
+      "title": "HLS: Savoyen",
+      "quote": "Der Zweite Pariser Frieden vom 20. November 1815 teilte der Republik Genf die Stadt Carouge zu.",
+      "supports": "1815: Carouge to Geneva."
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/006641/",
+      "title": "HLS: Savoyen",
+      "quote": "Im Turiner Vertrag von 1816 wurden vierzehn savoyische Gemeinden ganz oder teilweise dem Kanton Genf angegliedert.",
+      "supports": "1816: more Savoy villages to Geneva."
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/006641/",
+      "title": "HLS: Savoyen",
+      "quote": "um auf der linken Rhoneseite die 1754 begonnene Verbindung zwischen der Stadt und ihren Exklaven durch die Schaffung eines geschlossenen Territoriums herzustellen",
+      "supports": "Geneva's land on the left bank becomes one closed area."
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/006641/",
+      "title": "HLS: Savoyen",
+      "quote": "Gemäss einer geheimen Vereinbarung sollte Napoleon III. für seine Hilfe im italienischen Einigungskrieg mit der Abtretung Savoyens und Nizzas belohnt werden.",
+      "supports": "Savoy and Nice go to France as a reward for its help in the Italian war."
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/006641/",
+      "title": "HLS: Savoyen",
+      "quote": "1860 wurde Savoyen ein Teil Frankreichs.",
+      "supports": "1860: Savoy becomes French (also Chambéry place note)."
+     }
+    ],
+    "uncertain": [
+     "From 1861 the House of Savoy rules the Kingdom of Italy, until 1946.",
+     "Turin is the first capital of Italy (1861)."
     ]
    }
   ],
@@ -2545,9 +3655,9 @@
     "tick": "1098",
     "title": "Dukes from the Breisgau",
     "text": [
-     "The Zähringen family are counts in the Breisgau, the land around today's Freiburg in Germany. From 1092 to 1098 they fight the Staufer family for the Duchy of Swabia.",
-     "In 1098 they make peace. Berchtold II gives up Swabia. In return he keeps the castle of Zähringen and gets the king's rights in Zurich. From now on the family calls itself dukes of Zähringen.",
-     "Around this time the counts of Dillingen, from the Danube, gain land in the Thurgau and around Winterthur. They will later call themselves counts of Kyburg."
+     "The Zähringen family are counts in the Breisgau, the land around today's Freiburg in Germany. From 1092 to 1098 they are rival dukes of Swabia.",
+     "In 1098 they make peace. Berchtold II gives up Swabia. In return he gets the castle of Zähringen and the king's rights in Zurich. From now on the family calls itself dukes of Zähringen.",
+     "Around 1065–1070 the counts of Dillingen, from the Danube, get a foothold in northern Switzerland. By a marriage they get large lands in the Thurgau and claims around Winterthur. From 1180 a branch of the family calls itself counts of Kyburg."
     ],
     "view": [
      [
@@ -2614,13 +3724,57 @@
       "lon": 7.8522,
       "kind": "town",
       "year": 1120,
-      "note": "Market town founded 1120"
+      "note": "Founded about 1091; market rights 1120"
      },
      {
       "name": "Kyburg castle",
       "lat": 47.4578,
       "lon": 8.7436,
       "kind": "castle"
+     }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/019504/2020-06-03/",
+      "title": "HLS: Zähringen, von",
+      "quote": "1092-1098 (Gegen-)Herzöge von Schwaben, ab 1098/1100 Herzöge von Zähringen",
+      "supports": "Rival dukes of Swabia 1092–1098; dukes of Zähringen from 1098"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/019504/2020-06-03/",
+      "title": "HLS: Zähringen, von",
+      "quote": "Er verzichtete 1098 auf das Herzogtum Schwaben und erhielt dafür als Reichsfürstenlehen die Namen gebende Burg Zähringen sowie die Reichsrechte in Zürich.",
+      "supports": "Berchtold II gives up Swabia in 1098, gets Zähringen castle and imperial rights in Zurich (layer Zurich)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/019504/2020-06-03/",
+      "title": "HLS: Zähringen, von",
+      "quote": "die formelle Anerkennung der Ansprüche der Zähringer auf das Rheinfelder Erbe im Raum Rheinfelden und Burgdorf sowie in der Westschweiz",
+      "supports": "Layer: Rheinfelden inherited by the Zähringen (about 1098, 'wahrscheinlich')"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/006617/2014-01-24/",
+      "title": "HLS: Freiburg im Breisgau",
+      "quote": "liess Herzog Berthold II. um 1091 Burg und Siedlung Freiburg anlegen, die 1120 Marktrecht erhielt",
+      "supports": "Place Freiburg im Breisgau: founded about 1091, market rights 1120"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/019520/2024-02-20/",
+      "title": "HLS: Kyburg, von",
+      "quote": "fassten die Grafen von Dillingen hier erst um 1065/1070 Fuss",
+      "supports": "Counts of Dillingen get a foothold in northern Switzerland about 1065–1070"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/019520/2024-02-20/",
+      "title": "HLS: Kyburg, von",
+      "quote": "erhielt die Familie umfangreichen Besitz im alten Thurgau und zumindest Ansprüche auf solchen in der Umgebung von Winterthur und der Burg Kyburg",
+      "supports": "Lands in the Thurgau, claims around Winterthur and Kyburg castle (layer Dillingen)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/019520/2024-02-20/",
+      "title": "HLS: Kyburg, von",
+      "quote": "1180 lösten sich die Kyburg als selbstständiger Zweig von den sich ab 1111 nach ihrer östlich von Ulm an der Donau gelegenen Burg",
+      "supports": "Kyburg a separate branch of the Dillingen counts from 1180; their castle on the Danube"
      }
     ]
    },
@@ -2629,8 +3783,8 @@
     "tick": "1127",
     "title": "Rectors of Burgundy",
     "text": [
-     "In 1127 King Lothar III makes Duke Konrad rector of Burgundy. A rector rules a land in the king's name. The area lies between the Jura, Lake Geneva and the Alps.",
-     "In practice the dukes are strong only in parts of it. The local nobles and bishops often resist. In 1156 the emperor lets the duke invest (formally install) the bishops of Geneva, Lausanne and Sion, but the duke can enforce this only in Lausanne."
+     "In 1127 King Lothar III makes Duke Konrad rector of Burgundy. A rector rules a land in the king's name. In practice Konrad can enforce this only between the Jura, Lake Geneva and the Alps.",
+     "Even there the dukes are strong only in parts of it. The local nobles avoid serving them. In 1156 Duke Berchtold IV must give up his hopes for the rest of Burgundy. Instead the emperor gives him the right to give the bishops of Geneva, Lausanne and Sion their worldly rights. The duke can enforce this only in Lausanne."
     ],
     "view": "ch",
     "layers": [
@@ -2691,7 +3845,45 @@
       "lon": 6.6355,
       "kind": "town",
       "year": 1156,
-      "note": "The duke installs the bishop"
+      "note": "The duke gives the bishop his worldly rights"
+     }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/019504/2020-06-03/",
+      "title": "HLS: Zähringen, von",
+      "quote": "König Lothar III. übertrug ihm das Rektorat Burgund",
+      "supports": "Lothar III makes Konrad rector of Burgundy (from 1127, per the same paragraph 'Ab 1127')"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/019504/2020-06-03/",
+      "title": "HLS: Zähringen, von",
+      "quote": "das Rektorat zwischen Jura, Genfersee und Alpen durchzusetzen (Ostburgund)",
+      "supports": "Area between Jura, Lake Geneva and Alps (layer Rectorate of Burgundy)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/019504/2020-06-03/",
+      "title": "HLS: Zähringen, von",
+      "quote": "Das Rektorat bot die Chance, im Namen des Königs die zähringische Position im Burgund zur eigentlichen Herzogsstellung auszubauen",
+      "supports": "A rector acts in the king's name"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/019504/2020-06-03/",
+      "title": "HLS: Zähringen, von",
+      "quote": "Die Grafengeschlechter südlich des Rheins haben vielmehr Gefolgschaftsbeziehungen zu den Zähringern in auffälliger Weise gemieden.",
+      "supports": "Local nobles avoid serving the dukes"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/019504/2020-06-03/",
+      "title": "HLS: Zähringen, von",
+      "quote": "Konrads Sohn Berchtold IV. musste 1156 definitiv auf alle Ambitionen in der Provence und im übrigen Burgund verzichten.",
+      "supports": "1156: Berchtold IV gives up hopes for the rest of Burgundy"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/019504/2020-06-03/",
+      "title": "HLS: Zähringen, von",
+      "quote": "Er erhielt stattdessen von Kaiser Friedrich I. die Regalieninvestitur in den Bistümern Genf, Sitten und Lausanne, welche er aber nur im Falle Lausannes durchzusetzen vermochte.",
+      "supports": "Regalia investiture of bishops of Geneva, Sion, Lausanne; enforced only in Lausanne (place Lausanne 1156)"
      }
     ]
    },
@@ -2701,7 +3893,7 @@
     "title": "Fribourg is founded",
     "text": [
      "In 1157 Duke Berchtold IV founds the town of Fribourg on the Saane river. It has the same name as the family's town in the Breisgau.",
-     "A new town gives a lord a safe base, markets and taxes. It also gives him soldiers in a region where nobles do not obey him. Fribourg lies on the language border and close to the bishop of Lausanne."
+     "In 1156 the duke lost much of his power in western Switzerland. With the new town he tries to build his own power base between the Aare and the Saane. The site is easy to defend and lies on good roads."
     ],
     "view": "ch",
     "layers": [
@@ -2766,6 +3958,38 @@
       "year": 1157,
       "note": "Founded by Berchtold IV"
      }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/000953/2010-02-04/",
+      "title": "HLS: Freiburg (Gemeinde)",
+      "quote": "Freiburg wurde 1157 von Berchtold IV. von Zähringen auf einem von der Saane umflossenen Felsengrat, dem heutigen Burgquartier, gegründet.",
+      "supports": "Fribourg founded 1157 by Berchtold IV on the Saane (layer and place Fribourg)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/000953/2010-02-04/",
+      "title": "HLS: Freiburg (Gemeinde)",
+      "quote": "Mit der Gründung der Stadt Freiburg 1157 versuchte er, im Raum Aare-Saane eine Hausmacht zu etablieren.",
+      "supports": "Purpose: own power base between Aare and Saane"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/000953/2010-02-04/",
+      "title": "HLS: Freiburg (Gemeinde)",
+      "quote": "Der gewählte Standort konnte leicht befestigt werden und lag verkehrsstrategisch günstig.",
+      "supports": "Site easy to defend, good roads"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/000953/2010-02-04/",
+      "title": "HLS: Freiburg (Gemeinde)",
+      "quote": "1156 verlor Herzog Berchtold IV. von Zähringen das Rektorat über Burgund und büsste damit einen wichtigen Teil seines Einflusses in der Westschweiz ein.",
+      "supports": "1156 loss of power in western Switzerland"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007379/2023-03-09/",
+      "title": "HLS: Freiburg (Kanton)",
+      "quote": "1537 folgten La Roche, Riaz, Bulle und Albeuve, ehemalige Besitzungen des Bischofs von Lausanne",
+      "supports": "Layer: Bulle, Riaz, La Roche were lands of the bishop of Lausanne"
+     }
     ]
    },
    {
@@ -2774,7 +3998,7 @@
     "title": "Bern and a ring of towns",
     "text": [
      "In 1173 the counts of Lenzburg die out. The Zähringen, the Kyburg and the Habsburg all gain from it. The Kyburg get land near Baden and around the Walensee.",
-     "In 1190–1191 Duke Berchtold V beats nobles who rise against him, at Payerne and Grindelwald. In 1191 he finishes the founding of Bern. He also builds up Burgdorf, Thun and Murten, and holds Moudon and castles such as Laupen. From 1198 he is protector of Schaffhausen.",
+     "In 1190–1191 Duke Berchtold V beats the nobles and the bishop of Lausanne, who rise against him. There are fights at Payerne and Grindelwald. In 1191 he finishes the founding of Bern and builds up the town of Thun. The Zähringen also build up Burgdorf, Murten and Moudon, and castle settlements such as Laupen. In 1198 King Philip gives the duke the imperial rights over Schaffhausen.",
      "Historians think that only Fribourg and Bern were real towns before 1218."
     ],
     "view": "ch",
@@ -2818,11 +4042,10 @@
      {
       "name": "Kyburg",
       "kind": "kyburg",
-      "label": "Counts of Kyburg: Thurgau, Winterthur area, Baden, Gaster, Glarus (about)",
+      "label": "Counts of Kyburg: Thurgau, Winterthur area, Baden, Gaster (about)",
       "sel": {
        "cantons": [
-        "TG",
-        "GL"
+        "TG"
        ],
        "districts": [
         110,
@@ -2878,6 +4101,71 @@
       "year": 1191,
       "note": "Duke beats rebel nobles"
      }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/019520/2024-02-20/",
+      "title": "HLS: Kyburg, von",
+      "quote": "Nach dem Abgang der Lenzburger 1172/1173 erhielten neben den Staufern und Zähringern auch die Grafen von Kyburg einen Erbanteil.",
+      "supports": "Lenzburg extinction 1173; Zähringen and Kyburg gain"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/019506/2023-09-06/",
+      "title": "HLS: Habsburg, von",
+      "quote": "1172-1173 die Grafschaft im westlichen Zürichgau mit Schwyz und Unterwalden, die Grafschaft im Aargau und die Vogtei über das Kloster Säckingen",
+      "supports": "Habsburg also gain from the Lenzburg inheritance"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/019520/2024-02-20/",
+      "title": "HLS: Kyburg, von",
+      "quote": "Als einigermassen gesichert gelten Anteile an den Allodien Arnolds von Lenzburg im Raum Walensee-Gaster und in der Umgebung von Baden.",
+      "supports": "Kyburg get land near Baden and Walensee-Gaster (layer Kyburg: Baden, Gaster)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/029225/2014-11-18/",
+      "title": "HLS: Zähringen, Berchtold V. von",
+      "quote": "Nach dem Sieg über den sich erhebenden burgundischen Adel und den Bischof von Lausanne 1190-1191 (Gefechte bei Payerne und Grindelwald)",
+      "supports": "1190–1191 victory over rising nobles and bishop; fights at Payerne and Grindelwald (places)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/029225/2014-11-18/",
+      "title": "HLS: Zähringen, Berchtold V. von",
+      "quote": "vollendete Berchtold V. 1191 die Stadtgründung von Bern und baute die Stadt Thun aus",
+      "supports": "Bern founding completed 1191; Thun built up (places Bern, Thun)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/019504/2020-06-03/",
+      "title": "HLS: Zähringen, von",
+      "quote": "der Ausbau der älteren Herrschaftszentren Burgdorf und Murten, der Herrschaftsanlagen in Thun und Moudon sowie einiger Burgsiedlungen wie Laupen, Gümmenen und Oltigen",
+      "supports": "Burgdorf, Murten, Thun, Moudon, Laupen (layer towns and castles)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/029225/2014-11-18/",
+      "title": "HLS: Zähringen, Berchtold V. von",
+      "quote": "König Philipp von Schwaben verlieh Zähringen 1198 die Reichsvogtei über Schaffhausen und das Kloster Allerheiligen.",
+      "supports": "Schaffhausen from 1198 (layer)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/019504/2020-06-03/",
+      "title": "HLS: Zähringen, von",
+      "quote": "Wahrscheinlich hat aber ausser den «Gründungsstädten» keiner dieser Orte vor 1218 städtische Strukturen erhalten.",
+      "supports": "Only the founded towns (Freiburg, Bern) were real towns before 1218"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/019504/2020-06-03/",
+      "title": "HLS: Zähringen, von",
+      "quote": "Die Zähringer bauten des Weiteren die Reichsrechte in Solothurn aus",
+      "supports": "Layer: Zähringen as king's officers in Solothurn"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/019506/2023-09-06/",
+      "title": "HLS: Habsburg, von",
+      "quote": "aus der zähringischen Erbschaft die Reichsvogtei über Uri 1218-1231",
+      "supports": "Layer: Zähringen held the imperial rights over Uri (shown indirectly: Habsburg got them from the Zähringen inheritance)"
+     }
+    ],
+    "uncertain": [
+     "Map: the exact extent of Kyburg land in 1191."
     ]
    },
    {
@@ -2885,7 +4173,7 @@
     "tick": "1218",
     "title": "The Zähringen die out",
     "text": [
-     "Duke Berchtold V dies in 1218 without a son. Emperor Frederick II takes back the title of duke and most of the imperial rights.",
+     "Duke Berchtold V dies in 1218 without a son. King Frederick II takes back the title of duke and most of the imperial rights.",
      "Bern, Zurich, Solothurn and Schaffhausen now stand directly under the Empire. The family's own lands are split. The counts of Urach get the land north of the Rhine. The counts of Kyburg get Fribourg, Burgdorf, Thun and land in the Aargau and around Zurich. Count Ulrich III of Kyburg had married Anna of Zähringen, of the duke's family."
     ],
     "view": [
@@ -2964,7 +4252,7 @@
       "lon": 7.8522,
       "kind": "town",
       "year": 1218,
-      "note": "Berchtold V dies; to the counts of Urach"
+      "note": "Berchtold V is buried here; to the counts of Urach"
      },
      {
       "name": "Kyburg castle",
@@ -2972,6 +4260,66 @@
       "lon": 8.7436,
       "kind": "castle"
      }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/029225/2014-11-18/",
+      "title": "HLS: Zähringen, Berchtold V. von",
+      "quote": "Mit Berchtold V. starb die Hauptlinie der Zähringer aus.",
+      "supports": "Berchtold V the last of the main line; life dates in the same article: 18.2.1218"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/019504/2020-06-03/",
+      "title": "HLS: Zähringen, von",
+      "quote": "König Friedrich II. zog die Herzogs- und die meisten Reichsrechte ein; Rektorat und Herzogstitel verlieh er nicht mehr.",
+      "supports": "Frederick II (then king) takes back the ducal and most imperial rights"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/029225/2014-11-18/",
+      "title": "HLS: Zähringen, Berchtold V. von",
+      "quote": "Zürich, Solothurn, Bern, Schaffhausen und zahlreiche burgundische Dynasten wurden reichsfrei",
+      "supports": "Bern, Zurich, Solothurn, Schaffhausen directly under the Empire (layer imperial towns)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/029200/2003-05-19/",
+      "title": "HLS: Friedrich II.",
+      "quote": "Reichsrechte und -güter, darunter die Städte Zürich, Bern, Solothurn, Murten und Rheinfelden, an das Reich zurück.",
+      "supports": "Layer: Murten and Rheinfelden also back to the Empire in 1218"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008447/2010-09-16/",
+      "title": "HLS: Laupen",
+      "quote": "in und nach zähringischer Zeit Reichsfestung und Amtssitz eines Grafen (1130-1133 comes de Loupa), bis die Grafen von Kyburg sie 1253 einnahmen",
+      "supports": "Layer: Laupen an imperial fortress after 1218 (until Kyburg take it in 1253)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/019504/2020-06-03/",
+      "title": "HLS: Zähringen, von",
+      "quote": "mit den Zähringern verschwägerten Grafen von Urach bzw. Kyburg vermochten nur Teile der Allode nördlich bzw. südlich des Rheins zu übernehmen",
+      "supports": "Urach get land north of the Rhine, Kyburg south of it"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/019520/2024-02-20/",
+      "title": "HLS: Kyburg, von",
+      "quote": "gelangten die Kyburger zu den linksrheinischen Besitzungen im Burgund mit den Städten Freiburg, Thun und Burgdorf, im Aargau und im heutigen Kanton Zürich",
+      "supports": "Kyburg get Fribourg, Thun, Burgdorf, Aargau and Zurich land (layer inheritance to Kyburg)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/019520/2024-02-20/",
+      "title": "HLS: Kyburg, von",
+      "quote": "hatte Berchtold V. von Zähringen, der Letzte seines Geschlechts, seine Tochter Anna mit Ulrich III. (->), Sohn Hartmanns III., verheiratet",
+      "supports": "Ulrich III of Kyburg married Anna of Zähringen"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/006617/2014-01-24/",
+      "title": "HLS: Freiburg im Breisgau",
+      "quote": "Im 13. Jahrhundert und in der ersten Hälfte des 14. Jahrhunderts übten die Grafen von Freiburg die Stadtherrschaft aus",
+      "supports": "Place Freiburg im Breisgau: after 1218 under the counts of Freiburg (the Urach line)"
+     }
+    ],
+    "uncertain": [
+     "Anna of Zähringen was Berchtold V's daughter or sister (HLS gives both).",
+     "The counts of Urach get the land north of the Rhine."
     ]
    },
    {
@@ -2979,8 +4327,8 @@
     "tick": "1250",
     "title": "Kyburg at its height",
     "text": [
-     "The counts of Kyburg now rule a broad belt of land from Lake Constance to Fribourg. Like the Zähringen, they found towns to hold it: Winterthur and Diessenhofen about 1180, Zug and Baden about 1230, later Frauenfeld, Aarau, Mellingen and Lenzburg, and about 1250 Sursee and Weesen.",
-     "About 1250 the family splits its land. Hartmann IV keeps the east. His nephew Hartmann V gets the west, with Burgdorf, Thun and Fribourg. Neither has a son."
+     "The counts of Kyburg now rule a broad belt of land from Zurich and the Thurgau to Fribourg. Like the Zähringen, they found towns to hold it: Winterthur and Diessenhofen about 1180, Zug and Baden about 1230, later Frauenfeld, Aarau, Mellingen and Lenzburg, and about 1250 Sursee and Weesen.",
+     "In 1250–1251 the family splits its land. Hartmann IV keeps the east. His nephew Hartmann V gets the west, with Burgdorf as its centre, and Thun and Fribourg. Neither has a son."
     ],
     "view": "ch",
     "layers": [
@@ -3119,6 +4467,41 @@
       "year": 1250,
       "note": "Kyburg town"
      }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/019520/2024-02-20/",
+      "title": "HLS: Kyburg, von",
+      "quote": "deren Besitz sich von der Ostschweiz (Zürich und Thurgau) bis in die heutigen Kantone Aargau, Bern und Freiburg erstreckte",
+      "supports": "Extent from Zurich and Thurgau to Fribourg"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/019520/2024-02-20/",
+      "title": "HLS: Kyburg, von",
+      "quote": "In dieser Zeit gründeten die Grafen von Kyburg die Städte Diessenhofen und Winterthur",
+      "supports": "Winterthur and Diessenhofen about 1180 ('um 1180' in the previous sentence)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/019520/2024-02-20/",
+      "title": "HLS: Kyburg, von",
+      "quote": "um 1230 die Städte Zug und Baden, danach Frauenfeld, Aarau, Mellingen und Lenzburg sowie um 1250 Sursee, Weesen",
+      "supports": "Town dates: Zug, Baden 1230; later Frauenfeld, Aarau, Mellingen, Lenzburg; Sursee, Weesen 1250 (layer and places)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/019520/2024-02-20/",
+      "title": "HLS: Kyburg, von",
+      "quote": "1250/1251 übergab der kinderlose Hartmann IV. den Westteil des Besitzes mit Burgdorf als Zentrum seinem Neffen Hartmann V.",
+      "supports": "Split 1250/1251; Hartmann IV childless; nephew Hartmann V gets the west with Burgdorf (layers Hartmann IV/V)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007374/2017-05-30/",
+      "title": "HLS: Glarus (Kanton)",
+      "quote": "Nach dem Tod Ottos 1200 ging die Vogtei an die Kyburger über; Hartmann der Ältere besass sie 1264 als Reichslehen.",
+      "supports": "Layer: Glarus under Kyburg from 1200, held by Hartmann IV (the elder)"
+     }
+    ],
+    "uncertain": [
+     "Thun and Fribourg belong to Hartmann V's western part."
     ]
    },
    {
@@ -3126,8 +4509,8 @@
     "tick": "1264",
     "title": "Habsburg takes the Kyburg land",
     "text": [
-     "Hartmann V dies in 1263 and Hartmann IV about a year later. Count Rudolf of Habsburg is a nephew of Hartmann IV. He becomes guardian of Hartmann V's young daughter Anna and takes over all Kyburg land.",
-     "About 1273 Anna marries Eberhard of Habsburg-Laufenburg. Their line, called Neu-Kyburg, holds Burgdorf and Thun. It sells them to Bern in 1384 and dies out in 1417. Rudolf buys Fribourg in 1277. The rest of the Kyburg land becomes the base of Habsburg power in Switzerland."
+     "Hartmann V dies in 1263 and Hartmann IV one year later. Count Rudolf of Habsburg is a nephew of Hartmann IV. As guardian of Hartmann V's young daughter Anna he runs the western lands. From 1264 to 1273 he also runs the rest of the Kyburg land.",
+     "About 1273 Anna marries Eberhard of Habsburg-Laufenburg. Their line, called Neu-Kyburg, holds Burgdorf and Thun. It sells them to Bern in 1384 and dies out in 1417. In 1277 Rudolf, now king, makes the Kyburg heirs sell Fribourg to his sons. The rest of the Kyburg land becomes the base of Habsburg power in eastern Switzerland."
     ],
     "view": "ch",
     "layers": [
@@ -3147,7 +4530,7 @@
      {
       "name": "Fribourg",
       "kind": "habsburg",
-      "label": "Fribourg: Rudolf as guardian, bought by Habsburg in 1277",
+      "label": "Fribourg: Rudolf as guardian, sold to Rudolf's sons in 1277",
       "sel": {
        "districts": [
         1004,
@@ -3232,7 +4615,7 @@
       "lon": 8.7436,
       "kind": "castle",
       "year": 1264,
-      "note": "Last Kyburg count dies"
+      "note": "The Kyburg family dies out"
      },
      {
       "name": "Habsburg castle",
@@ -3248,6 +4631,71 @@
       "year": 1384,
       "note": "Sold to Bern"
      }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/019520/2024-02-20/",
+      "title": "HLS: Kyburg, von",
+      "quote": "Als Hartmann V. 1263 starb, übernahm Graf Rudolf von Habsburg als Vormund von dessen Tochter Anna die Verwaltung des Westteils",
+      "supports": "Hartmann V dies 1263; Rudolf guardian of Anna, runs the west"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/019520/2024-02-20/",
+      "title": "HLS: Kyburg, von",
+      "quote": "nach dem Tod Hartmanns IV. nur ein Jahr später auch bis 1273 diejenige der übrigen Teile der kyburgischen Herrschaft",
+      "supports": "Hartmann IV dies one year later; Rudolf runs the rest until 1273"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007374/2017-05-30/",
+      "title": "HLS: Glarus (Kanton)",
+      "quote": "Nach dem Erlöschen der Kyburger im gleichen Jahr kam sie an Rudolf von Habsburg",
+      "supports": "Kyburg die out in 1264 (place Kyburg castle 1264)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/019520/2024-02-20/",
+      "title": "HLS: Kyburg, von",
+      "quote": "dessen Schwester Heilwig, die spätere Königsmutter von Rudolf I. von Habsburg, Albrecht von Habsburg",
+      "supports": "Rudolf's mother Heilwig was Hartmann IV's sister, so Rudolf is his nephew"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/019520/2024-02-20/",
+      "title": "HLS: Kyburg, von",
+      "quote": "Sie heiratete um 1273 Eberhard I. von Habsburg-Laufenburg.",
+      "supports": "Anna marries Eberhard about 1273"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/019520/2024-02-20/",
+      "title": "HLS: Kyburg, von",
+      "quote": "den Oberaargau mit den Zentren Burgdorf, Wangen an der Aare und Landshut sowie Burg und Stadt Thun samt Äusserem Amt Thun",
+      "supports": "Neu-Kyburg holds Burgdorf and Thun (layer)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/019520/2024-02-20/",
+      "title": "HLS: Kyburg, von",
+      "quote": "endete 1384 mit dem Verkauf von Thun – dessen Mitherr Bern ab 1375 war – und Burgdorf an Bern",
+      "supports": "Burgdorf and Thun sold to Bern 1384 (place Burgdorf 1384)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/019520/2024-02-20/",
+      "title": "HLS: Kyburg, von",
+      "quote": "Der Tod Berchtolds I., Onkels von Rudolf II., im Jahr 1417 bedeutete das physische Ende der Dynastie Neu-Kyburg",
+      "supports": "Neu-Kyburg dies out 1417"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007379/2023-03-09/",
+      "title": "HLS: Freiburg (Kanton)",
+      "quote": "drängte Rudolf von Habsburg die überschuldeten kyburgischen Erben 1277 zum Verkauf von Freiburg an seine Söhne",
+      "supports": "1277: Kyburg heirs sell Fribourg to Rudolf's sons (layer Fribourg)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/019506/2023-09-06/",
+      "title": "HLS: Habsburg, von",
+      "quote": "der Besitz im Gebiet der nachmaligen Ost- und Nordostschweiz, so unter anderem die Landgrafschaft über den Thurgau sowie Glarus, Gaster",
+      "supports": "Rest of Kyburg land becomes Habsburg land in eastern Switzerland (layer former Kyburg land)"
+     }
+    ],
+    "uncertain": [
+     "Map: the old Habsburg land in the Aargau."
     ]
    }
   ],
@@ -3279,7 +4727,7 @@
      ],
      [
       49.4,
-      12.0
+      12
      ]
     ],
     "layers": [
@@ -3410,6 +4858,42 @@
       "year": 919,
       "note": "Swabia beats Burgundy"
      }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/fr/articles/006620/",
+      "title": "HLS: Bourgogne, second royaume de",
+      "quote": "par élection (tenue au plus tard en janvier 888 à Saint-Maurice)",
+      "supports": "Rudolf I was chosen king at Saint-Maurice in 888; start of the Rudolfing kings of Burgundy."
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/006642/",
+      "title": "HLS: Schwaben",
+      "quote": "Schwaben erstreckte sich in West-Ost-Richtung vom Oberrhein und von der Aare bis zum Lech",
+      "supports": "Swabia reaches from the Upper Rhine and the Aare to the Lech; Aare as the rough western edge."
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/006642/",
+      "title": "HLS: Schwaben",
+      "quote": "im Süden reichte es unter Einschluss von Churrätien in die Alpen hinein",
+      "supports": "Swabia includes Rhaetia (Grisons)."
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/006642/",
+      "title": "HLS: Schwaben",
+      "quote": "In der Folge wurde zunächst Zürich neben dem Hohentwiel zum wichtigsten Herzogsvorort",
+      "supports": "Zurich is one of the dukes' main seats (place note Zurich)."
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/006642/",
+      "title": "HLS: Schwaben",
+      "quote": "mit seinem Sieg über König Rudolf II. von Hochburgund bei Winterthur 919 konsolidierte",
+      "supports": "Place note Winterthur (919): Swabia beats Burgundy."
+     }
+    ],
+    "uncertain": [
+     "The south (today's Ticino) belongs to the Kingdom of Italy about 950.",
+     "The border between Burgundy and Swabia runs roughly along the Aare."
     ]
    },
    {
@@ -3418,7 +4902,7 @@
     "title": "The bishop of Chur",
     "text": [
      "Kings like to give power to bishops. A bishop cannot pass land to a son, so the land stays with the church, and the king can choose the next bishop.",
-     "Between 951 and 960 King Otto I gives Bishop Hartbert of Chur income from the county, the tolls of Chur, the right to make coins (958) and rights in the Bergell. This is the start of the bishop's rule over Chur and the roads to the Alpine passes.",
+     "Between 951 and 960 King Otto I gives Bishop Hartpert of Chur income from the county, the tolls of Chur, the right to make coins (958) and rights in the Bergell. This is the start of the bishop's rule over Chur and the roads to the Alpine passes.",
      "The abbey of Disentis, founded in the 700s, holds the upper Rhine valley below the Lukmanier and Oberalp passes."
     ],
     "view": "ch",
@@ -3490,6 +4974,53 @@
       "year": 960,
       "note": "Bergell rights to the bishop"
      }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/011403/",
+      "title": "HLS: Chur (Diözese, Fürstbistum)",
+      "quote": "Kaiser Otto I. privilegierte Bischof Hartpert insbesondere in der Stadt Chur und im Bergell reich",
+      "supports": "Otto I gives Bishop Hartbert (Hartpert) rights in Chur and in the Bergell; start of the bishop's rule."
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/011403/",
+      "title": "HLS: Chur (Diözese, Fürstbistum)",
+      "quote": "schuf die Voraussetzung für die bedeutende Stellung der Churer Bischöfe als Feudalherren und Reichsfürsten im Hoch- und Spätmittelalter",
+      "supports": "This is the start of the bishop's rule as a lord."
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007391/",
+      "title": "HLS: Graubünden",
+      "quote": "951 erhielt Hartpert die Fiskaleinkünfte der Grafschaft Chur, 952 die Zollrechte (Zölle) in Chur, 955 den Königshof Zizers, 958 das Münz- und Zollrecht",
+      "supports": "Between 951 and 958 Otto I gives Bishop Hartpert county income, the tolls of Chur and the right to make coins (958)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007391/",
+      "title": "HLS: Graubünden",
+      "quote": "960 den Königshof in Chur mit den dazugehörenden fiskalisch nutzbaren Rechten sowie die Zolleinkünfte und die Grafenrechte im Bergell.",
+      "supports": "In 960 rights in the Bergell (place Vicosoprano)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007391/",
+      "title": "HLS: Graubünden",
+      "quote": "Die beiden Männerklöster Disentis und Pfäfers, gegründet im 8. Jahrhundert",
+      "supports": "Disentis is founded in the 700s"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007391/",
+      "title": "HLS: Graubünden",
+      "quote": "stützten sich auf umfassenden Grundbesitz, so Disentis im Vorderrheintal (Tellotestament von 765)",
+      "supports": "Disentis holds land in the upper Rhine (Vorderrhein) valley"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007391/",
+      "title": "HLS: Graubünden",
+      "quote": "Friedrich I. förderte das Kloster Disentis zur Sicherung der Lukmanierstrasse.",
+      "supports": "Disentis lies on the road to the Lukmanier pass"
+     }
+    ],
+    "uncertain": [
+     "Kings like to give power to bishops, because a bishop cannot pass land to a son and the king can choose the next bishop."
     ]
    },
    {
@@ -3624,6 +5155,56 @@
       "lon": 7.5925,
       "kind": "place"
      }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008560/",
+      "title": "HLS: Sitten (Fürstbistum)",
+      "quote": "999 schenkte König Rudolf III. von Burgund Hugo, Bischof von Sitten, und dessen Nachfolgern die Grafschaft Wallis mit allen Rechten.",
+      "supports": "In 999 Rudolf III gives the bishop of Sion the County of Valais with all its rights."
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008560/",
+      "title": "HLS: Sitten (Fürstbistum)",
+      "quote": "Um sein schwaches Königtum gegenüber den erstarkenden regionalen Feudalgewalten zu festigen, zog er die Bistümer stärker zum Königsdienst heran.",
+      "supports": "Rudolf III is weak against his nobles and builds a counterweight with the church."
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008560/",
+      "title": "HLS: Sitten (Fürstbistum)",
+      "quote": "Er stattete 996 die Tarentaise, 999 Basel und Sitten, 1011 Lausanne sowie 1023 Vienne mit Grafschaftsrechten aus",
+      "supports": "Basel also gets rights from Rudolf III in 999 (same year as Sion)."
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/fr/articles/006620/",
+      "title": "HLS: Bourgogne, second royaume de",
+      "quote": "(la Tarentaise en 996, Sion en 999, Lausanne en 1011, Vienne en 1023)",
+      "supports": "Rudolf III gives counties to the church; Sion 999."
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008558/",
+      "title": "HLS: Basel (Fürstbistum)",
+      "quote": "999 schenkte der letzte König von Burgund, Rudolf III., dem Bischof von Basel die Abtei Moutier-Grandval mit all ihrem Besitz.",
+      "supports": "In 999 Rudolf III gives Moutier-Grandval to the bishop of Basel"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008558/",
+      "title": "HLS: Basel (Fürstbistum)",
+      "quote": "verfügte daneben noch über viel Streubesitz zwischen dem Bielersee und dem Elsass.",
+      "supports": "The bishop now holds land from Lake Biel to Alsace"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008558/",
+      "title": "HLS: Basel (Fürstbistum)",
+      "quote": "Der Basler Bischof, dessen weltliche Macht bis dahin nicht über die Stadt Basel hinausgereicht hatte, war nun mit einem Mal Herr bedeutender Gebiete.",
+      "supports": "Before this the bishop ruled little outside his city"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/012011/",
+      "title": "HLS: Moutier-Grandval",
+      "quote": "sein Nachfolger Rudolf III. schenkte es 999 dem Bischof von Basel. Diese Schenkung bildete den Grundstock des späteren Bischofsstaats.",
+      "supports": "This is the start of the Prince-Bishopric of Basel"
+     }
     ]
    },
    {
@@ -3631,8 +5212,8 @@
     "tick": "1011",
     "title": "Lausanne gets the Vaud",
     "text": [
-     "In 1011 Rudolf III gives the County of Vaud to Bishop Henry of Lausanne. The bishop already ruled the city of Lausanne itself.",
-     "So by 1011 three bishops in the west — Sion, Basel and Lausanne — are also counts. They judge, collect taxes and call men to arms, like a noble lord."
+     "In 1011 Rudolf III gives the County of Vaud to the bishop of Lausanne. With it the bishop gets rights over the city of Lausanne and the land around it.",
+     "So by 1011 three bishops in the west — Sion, Basel and Lausanne — are also counts. They judge, collect taxes and hold other rights of a ruler, like a noble lord."
     ],
     "view": "ch",
     "layers": [
@@ -3745,6 +5326,32 @@
       "year": 1011,
       "note": "Bishop gets the county"
      }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008560/",
+      "title": "HLS: Sitten (Fürstbistum)",
+      "quote": "Er stattete 996 die Tarentaise, 999 Basel und Sitten, 1011 Lausanne sowie 1023 Vienne mit Grafschaftsrechten aus",
+      "supports": "In 1011 Rudolf III gives county rights to Lausanne; by 1011 Sion, Basel and Lausanne hold county rights."
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008560/",
+      "title": "HLS: Sitten (Fürstbistum)",
+      "quote": "die hohe und niedere Gerichtsbarkeit, Kanzlei-, Strassen-, Zoll-, Steuer-, Münz- und Marktrecht",
+      "supports": "Bishop-counts judge and collect taxes and tolls (example of Sion; the list describes the prince-bishops' regalia in general, not only in 1011)."
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007395/",
+      "title": "HLS: Waadt",
+      "quote": "1011 erhielt der Bischof von Lausanne vom König von Burgund die comté de Vaud, faktisch die Regalien über das Gebiet.",
+      "supports": "In 1011 the King of Burgundy gives the County of Vaud to the bishop of Lausanne"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007395/",
+      "title": "HLS: Waadt",
+      "quote": "gab diesem mehr als ein Territorium, nämlich ein Bündel von Rechten über die Stadt und ihr Umland",
+      "supports": "The bishop gets rights over the city of Lausanne and the land around it"
+     }
     ]
    },
    {
@@ -3752,7 +5359,7 @@
     "tick": "1033",
     "title": "Burgundy joins the Empire",
     "text": [
-     "Rudolf III dies in 1032 without a son. Emperor Conrad II takes over the kingdom. He is crowned king of Burgundy at Payerne in 1033. By 1038 Burgundy is joined with Germany and Italy.",
+     "Rudolf III, the last king of Burgundy, dies in 1032. Emperor Conrad II takes over the kingdom. He is crowned king of Burgundy at Payerne in 1033. By 1038 Burgundy is joined with Germany and Italy.",
      "Now all of today's Switzerland is part of the Holy Roman Empire. The bishops who hold counties now hold them from the emperor. The bishop of Sion, for example, becomes a prince of the Empire."
     ],
     "view": [
@@ -3762,7 +5369,7 @@
      ],
      [
       49.4,
-      12.0
+      12
      ]
     ],
     "layers": [
@@ -3884,7 +5491,39 @@
       "lon": 7.5323,
       "kind": "place",
       "year": 1038,
-      "note": "Henry III chosen king of Burgundy"
+      "note": "Conrad II holds a royal diet"
+     }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/029195/",
+      "title": "HLS: Konrad II.",
+      "quote": "Am 2.2.1033 wurde K. in Payerne zum Kg. von Burgund gewählt und gekrönt.",
+      "supports": "Conrad II is crowned king of Burgundy at Payerne in 1033 (place note Payerne)."
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008560/",
+      "title": "HLS: Sitten (Fürstbistum)",
+      "quote": "nach dem Tod von Rudolf III. 1032 vereinigten die Bischöfe von Sitten als Reichsfürsten die geistliche und weltliche Gewalt",
+      "supports": "Rudolf III dies 1032; Burgundy joins the Empire; the bishop of Sion becomes a prince of the Empire."
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/fr/articles/006620/",
+      "title": "HLS: Bourgogne, second royaume de",
+      "quote": "projet mené à chef entre 1032 et 1038 par l'empereur Conrad II",
+      "supports": "By 1038 Conrad II has joined Burgundy to the Empire."
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/029195/",
+      "title": "HLS: Konrad II.",
+      "quote": "1038 hielt er einen Hoftag in Solothurn.",
+      "supports": "Place note Solothurn (1038): Conrad II holds a royal diet there."
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008558/",
+      "title": "HLS: Basel (Fürstbistum)",
+      "quote": "999 schenkte der letzte König von Burgund, Rudolf III.",
+      "supports": "Rudolf III is the last king of Burgundy"
      }
     ]
    },
@@ -4065,6 +5704,49 @@
       "lon": 7.5925,
       "kind": "place"
      }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/011399/",
+      "title": "HLS: Genf (Diözese, Fürstbistum)",
+      "quote": "Im Vertrag von Seyssel von 1124 wurde Humbert von Grammont als alleiniger Herr der ganzen Stadt Genf anerkannt, zum Nachteil des Grafen von Genf.",
+      "supports": "Treaty of Seyssel (1124) makes the bishop the only lord of Geneva (place note Geneva cathedral 1124)."
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/011403/",
+      "title": "HLS: Chur (Diözese, Fürstbistum)",
+      "quote": "Zum weltlichen Herrschaftsgebiet des Churer Fürstbischofs gehörten die Stadt Chur, die Vier Dörfer ( Fünf Dörfer ), Bergell, Oberhalbstein, Engadin",
+      "supports": "Layer Bishop of Chur: Chur, the Vier Dörfer (Zizers area), the Bergell."
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008560/",
+      "title": "HLS: Sitten (Fürstbistum)",
+      "quote": "Jahrhundert die Grafen von Maurienne-Savoyen die Kastvögte stellten",
+      "supports": "Bishops need lay protectors (Vögte), and these nobles (here Savoy in the Valais) gain power."
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008540/",
+      "title": "HLS: Bellinzona (Pieve, Vogtei, Bezirk)",
+      "quote": "wonach die Pieve Bellinzona zusammen mit den Pieven Locarno und Agno zwischen 1002 und 1004 dem Bischof von Como übergeben wurde.",
+      "supports": "The bishop of Como rules Bellinzona"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007393/",
+      "title": "HLS: Thurgau",
+      "quote": "über den zentralen Seerücken und Bischofszell mit seinem Hinterland als Zentren bischöflichen Grundbesitzes",
+      "supports": "The bishop of Constance holds Bischofszell"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007395/",
+      "title": "HLS: Waadt",
+      "quote": "ein Bündel von Rechten über die Stadt und ihr Umland sowie im Lavaux, in Curtilles, Lucens, Albeuve, Bulle, La Roche",
+      "supports": "Layer: lands of the bishop of Lausanne (Lausanne, Lavaux, Lucens, Bulle, La Roche)"
+     }
+    ],
+    "uncertain": [
+     "After 1124 the count of Geneva is only the bishop's protector.",
+     "The bishop of Constance rules Arbon.",
+     "Map: the lands of the bishop of Basel about 1200 (Jura lands)."
     ]
    },
    {
@@ -4073,7 +5755,7 @@
     "title": "Abbeys as lords",
     "text": [
      "Abbeys also rule land and people. St. Gallen (founded in the 700s) holds land around the town and in Appenzell. Einsiedeln (934) owns much of the valley around it. Engelberg (1120) owns its own valley. Disentis holds the upper Rhine valley and Urseren.",
-     "Other abbeys own manors far away. The Fraumünster in Zurich owned land in Uri and at Cham. Murbach abbey in Alsace owned the town of Lucerne.",
+     "Other abbeys own manors far away. The Fraumünster in Zurich owned land in Uri and at Cham. Lucerne depends on Murbach abbey in Alsace.",
      "Like bishops, abbeys need protectors. Kyburg, Habsburg and others take these posts and use them to build their own power."
     ],
     "view": "ch",
@@ -4249,6 +5931,78 @@
       "lon": 7.0034,
       "kind": "place"
      }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/006642/",
+      "title": "HLS: Schwaben",
+      "quote": "die Reichsklöster (Zürich, Zurzach, Reichenau, St. Gallen) und deren Kirchengut",
+      "supports": "St. Gallen and the Zurich abbey (Fraumünster) are royal abbeys with their own church lands."
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/006642/",
+      "title": "HLS: Schwaben",
+      "quote": "Hermann I. förderte sein Eigenkloster Einsiedeln entscheidend",
+      "supports": "Einsiedeln is an important abbey from the 10th century."
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008394/",
+      "title": "HLS: St. Gallen (Fürstabtei)",
+      "quote": "Das 719 am Ort des Gallus-Grabes gegründete Kloster",
+      "supports": "St. Gallen is founded in the 700s"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008394/",
+      "title": "HLS: St. Gallen (Fürstabtei)",
+      "quote": "Die Besitzungen lagen vor allem im Gebiet zwischen Rorschach und Wil, im Unterrheintal, im Untertoggenburg, im Appenzellerland und im östlichen Thurgau.",
+      "supports": "St. Gallen holds land around the town and in Appenzell"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007385/",
+      "title": "HLS: Schwyz (Kanton)",
+      "quote": "Über ausgedehnten Besitz verfügte das 934 gegründete, vor allem durch adlige Stifter reich begabte Benediktinerkloster Einsiedeln",
+      "supports": "Einsiedeln (934) owns much land"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008557/",
+      "title": "HLS: Engelberg (Kloster)",
+      "quote": "1120 setzte (so der Eintrag in den Annalen) das monastische Leben in dem vom Edlen Konrad von Sellenbüren gestifteten Kloster ein.",
+      "supports": "Engelberg is founded in 1120"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007467/",
+      "title": "HLS: Ursern",
+      "quote": "Im Hochmittelalter Vogtei des Klosters Disentis",
+      "supports": "Disentis holds Urseren"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007384/",
+      "title": "HLS: Uri",
+      "quote": "mit welcher der ostfränkische König Ludwig der Deutsche seine Güter sowie seine Herrschaftsrechte im pagellus Uroniae dem Fraumünster vermachte.",
+      "supports": "The Fraumünster owned land in Uri"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007373/",
+      "title": "HLS: Zug (Kanton)",
+      "quote": "eine 858 von König Ludwig dem Deutschen für das Fraumünster in Zürich ausgestellte Schenkungsurkunde, nennt einen grundherrlichen Hof in Cham.",
+      "supports": "The Fraumünster owned a manor at Cham"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007382/",
+      "title": "HLS: Luzern (Kanton)",
+      "quote": "Das Kloster St. Leodegar zu Luzern [...] war mittlerweile in die Abhängigkeit der Abtei Murbach und unter habsburgische Vogtei geraten.",
+      "supports": "Lucerne depends on Murbach abbey; Habsburg are protectors (Vögte) and use this for their power"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/019520/",
+      "title": "HLS: Kyburg, von",
+      "quote": "Nach dem Tod Ottos 1200 ging die Vogtei an die Kyburger über",
+      "supports": "Kyburg take protector posts (Glarus, land of Säckingen abbey)"
+     }
+    ],
+    "uncertain": [
+     "Engelberg owns its own valley.",
+     "Map: Pfäfers abbey and the abbey of Saint-Maurice as land-owning abbeys."
     ]
    },
    {
@@ -4256,8 +6010,8 @@
     "tick": "1300",
     "title": "Church land under pressure",
     "text": [
-     "By 1300 big lay lords press the church lords. Savoy takes most of the Vaud from the bishop of Lausanne and the Lower Valais from the bishop of Sion. Habsburg protects Einsiedeln (1283) and Engelberg (1274) and buys Lucerne from Murbach (1291).",
-     "Some church lords stay strong. The bishop of Basel buys land in today's Baselland (about 1305), the abbey of St. Gallen rules Appenzell, and the bishop of Chur is the biggest lord in the Grisons. Several of these church states last until 1798."
+     "By 1300 big lay lords press the church lords. Savoy takes most of the Vaud from the bishop of Lausanne. In the Valais, Savoy pushes into the bishop of Sion's lands. Habsburg protects Engelberg (1274) and Einsiedeln, and in 1291 buys Murbach's rights in Lucerne.",
+     "Some church lords stay strong. About 1300 the bishop of Basel is at the height of his power; in 1305 he buys Liestal and Waldenburg in today's Baselland, but soon loses them. The abbey of St. Gallen holds land in Appenzell, and the bishop of Chur rules wide lands in the Grisons. Several of these church states last until 1798."
     ],
     "view": "ch",
     "layers": [
@@ -4276,7 +6030,7 @@
      {
       "name": "Einsiedeln",
       "kind": "abbey",
-      "label": "Einsiedeln abbey (Habsburg protectors since 1283)",
+      "label": "Einsiedeln abbey (Habsburg protectors)",
       "sel": {
        "districts": [
         501,
@@ -4359,7 +6113,7 @@
      {
       "name": "Bishop of Basel",
       "kind": "bishop",
-      "label": "Prince-Bishop of Basel (about 1305)",
+      "label": "Prince-Bishop of Basel (about 1305; Liestal and Waldenburg soon lost)",
       "sel": {
        "cantons": [
         "JU"
@@ -4415,7 +6169,7 @@
      {
       "name": "Bishop of Chur",
       "kind": "bishop",
-      "label": "Bishop of Chur: biggest lord in the Grisons (about)",
+      "label": "Bishop of Chur: wide lands in the Grisons (about)",
       "sel": {
        "cantons": [
         "GR"
@@ -4458,7 +6212,7 @@
      {
       "name": "Lucerne",
       "kind": "habsburg",
-      "label": "Lucerne: bought by Habsburg from Murbach in 1291",
+      "label": "Lucerne: Murbach's rights bought by Habsburg in 1291",
       "sel": {
        "munis": [
         1061
@@ -4475,7 +6229,7 @@
       "lon": 8.3093,
       "kind": "town",
       "year": 1291,
-      "note": "Sold to Habsburg"
+      "note": "Murbach sells its rights to Habsburg"
      },
      {
       "name": "Chillon castle",
@@ -4484,6 +6238,95 @@
       "kind": "castle",
       "note": "Savoy power on the lake"
      }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008560/",
+      "title": "HLS: Sitten (Fürstbistum)",
+      "quote": "Jahrhundert expandierte Savoyen in bischöfliche Territorien, was zu ineinandergreifenden Besitzlagen im westlichen Teil des Fürstbistums und zu andauerndem Zwist führte.",
+      "supports": "Savoy presses the bishop of Sion and takes some of his lands (13th century)."
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008560/",
+      "title": "HLS: Sitten (Fürstbistum)",
+      "quote": "Das Fürstbistum erstreckte sich zunächst über das Gebiet von den Rhonequellen bis zum Trient bei Martigny",
+      "supports": "The Lower Valais below Saint-Maurice was Savoyard land, not taken from the bishop; the bishop's land reached west to the Trient at Martigny."
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008560/",
+      "title": "HLS: Sitten (Fürstbistum)",
+      "quote": "juristisch bis 1798 unter der weltlichen Herrschaft des Bischofs von Sitten stand",
+      "supports": "Some church states last until 1798 (Sion)."
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/011399/",
+      "title": "HLS: Genf (Diözese, Fürstbistum)",
+      "quote": "der nicht so sehr von den Grafen von Genf als vom Haus Savoyen ausgeübt wurde",
+      "supports": "Savoy also presses the bishop of Geneva about 1300."
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/011403/",
+      "title": "HLS: Chur (Diözese, Fürstbistum)",
+      "quote": "Zu den Vasallen und Ministerialen des Fürstbischofs gehörten die mächtigsten rätischen Familien.",
+      "supports": "The bishop of Chur is a leading lord in the Grisons (his lands: Chur, Bergell, Oberhalbstein, Engadin, Domleschg...)."
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007395/",
+      "title": "HLS: Waadt",
+      "quote": "Aber erst dessen Sohn Peter II. nahm die Waadt eigentlich in Besitz, indem er 1240-1260 systematisch Feudalrechte erwarb",
+      "supports": "Savoy takes most of the Vaud from the bishop of Lausanne"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008557/",
+      "title": "HLS: Engelberg (Kloster)",
+      "quote": "nahm König Rudolf I. von Habsburg 1274 das Kloster in seinen Schutz.",
+      "supports": "Habsburg protects Engelberg from 1274"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008726/",
+      "title": "HLS: Morgartenkrieg",
+      "quote": "dem schwyzerischen Überfall auf das unter österreichischer Schirmvogtei stehende Kloster",
+      "supports": "Habsburg (Austria) protects Einsiedeln"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/019506/",
+      "title": "HLS: Habsburg, von",
+      "quote": "kaufte 1291 die Grundherrschaft über die Höfe des Klosters Murbach-Luzern.",
+      "supports": "In 1291 Habsburg buys Murbach's rights in Lucerne"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008558/",
+      "title": "HLS: Basel (Fürstbistum)",
+      "quote": "durch den Kauf der Herrschaften Liestal, Neu-Homberg und Waldenburg für 2100 Mark Silber im Jahr 1305.",
+      "supports": "In 1305 the bishop of Basel buys Liestal and Waldenburg"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008558/",
+      "title": "HLS: Basel (Fürstbistum)",
+      "quote": "so entgingen diese Herrschaften schliesslich dem Fürstbistum Basel.",
+      "supports": "He soon loses them (corrects the old text)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008558/",
+      "title": "HLS: Basel (Fürstbistum)",
+      "quote": "Zu Beginn des 14. Jahrhunderts stand das Fürstbistum Basel auf dem Höhepunkt seiner Macht.",
+      "supports": "About 1300 the bishop of Basel is at the height of his power"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008394/",
+      "title": "HLS: St. Gallen (Fürstabtei)",
+      "quote": "Zusammen bildeten sie auch das Kerngebiet der Klosterherrschaft um 1300.",
+      "supports": "St. Gallen holds land in Appenzell about 1300"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007391/",
+      "title": "HLS: Graubünden",
+      "quote": "Chur die ausgedehnteste; sie umfasste seit ottonischer Zeit, neben Stadt und Umland Chur, das Bergell",
+      "supports": "The bishop of Chur rules wide lands in the Grisons"
+     }
+    ],
+    "uncertain": [
+     "Map: the bishop of Constance holds Neunkirch and Hallau (from 1302)."
     ]
    }
   ],

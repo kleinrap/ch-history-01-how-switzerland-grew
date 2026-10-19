@@ -8,7 +8,7 @@
     "year": 1200,
     "title": "Abbey land under Zähringen rule",
     "text": [
-     "In 853 King Louis the German gives his lands and rights in Uri to the Fraumünster abbey in Zurich. The abbey owns much of the land.",
+     "In 853 King Louis the German gives his lands and rights in Uri to the Fraumünster abbey in Zurich. It is not clear if the whole valley goes to the abbey.",
      "Outside lords hold the right to judge and protect the valley for the king: the counts of Lenzburg from about 976 to 1173, then the dukes of Zähringen until 1218.",
      "Urseren belongs to the lands of Disentis abbey, on the other side of the Oberalp Pass."
     ],
@@ -37,13 +37,45 @@
        ]
       }
      }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007384/2021-01-15/",
+      "title": "HLS: Uri",
+      "quote": "mit welcher der ostfränkische König Ludwig der Deutsche seine Güter sowie seine Herrschaftsrechte im pagellus Uroniae dem Fraumünster vermachte",
+      "supports": "In 853 Louis the German gives his lands and rights in Uri to the Fraumünster"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007384/2021-01-15/",
+      "title": "HLS: Uri",
+      "quote": "Unklar bleibt, ob das ganze Tal damals in den Besitz des Zürcher Klosters überging",
+      "supports": "It is not clear if the whole valley goes to the abbey"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007384/2021-01-15/",
+      "title": "HLS: Uri",
+      "quote": "Als Reichsvögte amtierten von ca. 920 bis 976 die Herzöge von Schwaben, von ca. 976 bis 1173 die Lenzburger, dann bis 1218 die Zähringer.",
+      "supports": "Lenzburg about 976–1173, then Zähringen until 1218, as the king's governors (map layer Uri)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007384/2021-01-15/",
+      "title": "HLS: Uri",
+      "quote": "Ursern zählte grundherrschaftlich zum Kloster Disentis.",
+      "supports": "Urseren belongs to the lands of Disentis abbey (map layer Urseren)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007467/2014-01-14/",
+      "title": "HLS: Urseren",
+      "quote": "Von Ursern führt der Gotthardpass nach Süden, der Oberalppass nach Osten und der Furkapass nach Westen.",
+      "supports": "Disentis lies on the other side of the Oberalp Pass"
+     }
     ]
    },
    {
     "year": 1240,
     "title": "Directly under the Empire",
     "text": [
-     "After 1218 the Habsburgs get rights in Uri. In 1231 King Henry (VII) buys these rights back, and Uri comes directly under the Empire (reichsfrei: no lord between the valley and the king).",
+     "Later the counts of Habsburg hold rights over the people of Uri. King Henry (VII) buys these rights back from Count Rudolf of Habsburg. He puts Uri directly under the Empire (reichsfrei: no lord between the valley and the king). The charter is known only from a copy, and some historians doubt it.",
      "In 1239 or 1240 Emperor Frederick II makes Urseren an imperial district and gives it to Count Rudolf of Rapperswil."
     ],
     "layers": [
@@ -71,6 +103,35 @@
        ]
       }
      }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007384/2021-01-15/",
+      "title": "HLS: Uri",
+      "quote": "verlieh König Heinrich (VII.), der Sohn Kaiser Friedrichs II., den in Uri lebenden Leuten die Reichsunmittelbarkeit.",
+      "supports": "King Henry (VII) puts Uri directly under the Empire (map layer Uri)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007384/2021-01-15/",
+      "title": "HLS: Uri",
+      "quote": "Er löste sie durch Kauf aus dem Besitz des Grafen Rudolf von Habsburg und versprach, sie in Zukunft beim Reich zu behalten.",
+      "supports": "He buys the rights back from Count Rudolf of Habsburg"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007384/2021-01-15/",
+      "title": "HLS: Uri",
+      "quote": "Gemäss einer von Aegidius Tschudi kopial überlieferten Urkunde, deren Echtheit von der neueren Forschung zum Teil angefochten wird",
+      "supports": "The charter is known only from a copy, and some historians doubt it"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007384/2021-01-15/",
+      "title": "HLS: Uri",
+      "quote": "1239/1240 richtete Kaiser Friedrich II. auch in Ursern eine Reichsvogtei ein, die er einem Grafen Rudolf von Rapperswil übertrug",
+      "supports": "In 1239 or 1240 Frederick II makes Urseren an imperial district under Count Rudolf of Rapperswil (map layer Urseren)"
+     }
+    ],
+    "uncertain": [
+     "King Henry (VII) gives this charter in 1231 (the HLS article on Uri gives no year)."
     ]
    },
    {
@@ -104,14 +165,40 @@
        ]
       }
      }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007384/2021-01-15/",
+      "title": "HLS: Uri",
+      "quote": "Uri umfasste im Hoch- und Spätmittelalter das Reusstal vom Urnersee, dem südöstlichen Arm des Vierwaldstättersees, bis zur Schöllenen.",
+      "supports": "Uri is the Reuss valley from Lake Uri to the Schöllenen gorge (map layer Uri)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007384/2021-01-15/",
+      "title": "HLS: Uri",
+      "quote": "Eine der vier Waldstätten, vielleicht schon 1291 oder 1309, sicher ab 1315 Ort der alten Eidgenossenschaft.",
+      "supports": "One of the first members, around 1291 or 1309, surely by 1315"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007467/2014-01-14/",
+      "title": "HLS: Urseren",
+      "quote": "1239/1240 bildete Kaiser Friedrich II. die Reichsvogtei Ursern, die von den Grafen von Rapperswil und ab 1283 von denen von Habsburg eingenommen wurde",
+      "supports": "Urseren is not part of Uri; Habsburg are its governors since 1283 (map layer Urseren)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007467/2014-01-14/",
+      "title": "HLS: Urseren",
+      "quote": "Urner Hochtal im Quellgebiet der Reuss mit den Gemeinden Andermatt, Hospental (mit Weiler Zumdorf) und Realp.",
+      "supports": "Urseren is the high valley around Andermatt"
+     }
     ]
    },
    {
     "year": 1410,
     "title": "Urseren joins Uri",
     "text": [
-     "In 1410 Uri and Urseren make a Landrecht (a treaty of common citizenship). Urseren keeps its own customs and court, but Uri leads it in war, justice and transit.",
-     "Uri now controls the road up to the Gotthard Pass. In 1403 Uri and Obwalden had already moved into the Leventina south of the pass, but they lose it again in 1422."
+     "In 1410 Uri and Urseren make a Landrecht (a treaty of common citizenship). Urseren keeps its old customs and partly its own court, but Uri leads it in war, justice and transit.",
+     "Uri now controls the road up to the Gotthard Pass. In 1403 Uri and Obwalden had already made a treaty of protection with the Leventina south of the pass, but they lose the valley again in 1422."
     ],
     "layers": [
      {
@@ -135,6 +222,32 @@
         "UR"
        ]
       }
+     }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007467/2014-01-14/",
+      "title": "HLS: Urseren",
+      "quote": "Ursern erkannte in dem Vertrag die Oberhoheit Uris in Krieg, Gericht und Verkehrsfragen an und behielt dafür die alten rechtlichen Gewohnheiten, teilweise das eigene Gericht",
+      "supports": "1410 Landrecht: Uri leads in war, justice and transit; Urseren keeps customs and partly its court (map layer Urseren)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007384/2021-01-15/",
+      "title": "HLS: Uri",
+      "quote": "damit wurde es zum eigentlichen Passstaat, der die Nord- wie der Südseite des Gotthardpasses kontrollierte",
+      "supports": "Uri controls the road to the Gotthard Pass"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007384/2021-01-15/",
+      "title": "HLS: Uri",
+      "quote": "1403 schlossen Uri und Obwalden mit der Leventina (Livinen) einen Schutzvertrag, was zum Konflikt mit Mailand führte.",
+      "supports": "In 1403 Uri and Obwalden make a treaty with the Leventina"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007384/2021-01-15/",
+      "title": "HLS: Uri",
+      "quote": "Die Niederlage in der Schlacht bei Arbedo 1422 brachte die Urner wie die eidgenössische Expansion gegen Süden für Jahrzehnte zum Stillstand",
+      "supports": "They lose the Leventina in 1422"
      }
     ]
    },
@@ -190,14 +303,46 @@
        ]
       }
      }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007384/2021-01-15/",
+      "title": "HLS: Uri",
+      "quote": "die Leventina unterstand danach wieder Mailand, bis Uri sie 1439/1441 wiedererwerben konnte.",
+      "supports": "Uri takes the Leventina again in 1439–1441"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007384/2021-01-15/",
+      "title": "HLS: Uri",
+      "quote": "Erst der Sieg in der Schlacht bei Giornico 1478 bzw. der Friede mit Mailand von 1480 sicherten Uri die Leventina langfristig",
+      "supports": "After Giornico 1478 and peace with Milan 1480 the valley stays with Uri"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007384/2021-01-15/",
+      "title": "HLS: Uri",
+      "quote": "Im 15. Jahrhundert erwarb Uri die Leventina, die bis 1798 als Untertanengebiet urnerisch blieb",
+      "supports": "The Leventina is a subject land of Uri until 1798 (map layer Leventina)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007384/2021-01-15/",
+      "title": "HLS: Uri",
+      "quote": "Uri stellte den Landvogt.",
+      "supports": "Uri sends a bailiff to rule it"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007384/2021-01-15/",
+      "title": "HLS: Uri",
+      "quote": "Uri hatte von 1503 an mit Schwyz und Nidwalden die Vogteien Blenio, Riviera und Bellinzona inne",
+      "supports": "From 1503 Uri rules Bellinzona, Riviera and Blenio with Schwyz and Nidwalden (map layer)"
+     }
     ]
    },
    {
     "year": 1798,
     "title": "Part of canton Waldstätten",
     "text": [
-     "In 1798 the Helvetic Republic ends the old order. The Leventina is set free and is no longer ruled by Uri.",
-     "Uri becomes two districts, Altdorf and Andermatt, of the new canton of Waldstätten. This canton joins Uri, Schwyz, Obwalden, Nidwalden and Zug."
+     "In 1798 the Helvetic Republic ends the old order. Already in March 1798 Uri sets the Leventina free, and it is no longer ruled by Uri.",
+     "Uri becomes two districts, Altdorf and Andermatt, of the new canton of Waldstätten. This canton joins Uri, the inner parts of Schwyz, Obwalden, Nidwalden and Zug."
     ],
     "layers": [
      {
@@ -238,6 +383,26 @@
        ]
       }
      }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007384/2021-01-15/",
+      "title": "HLS: Uri",
+      "quote": "zur Vorbereitung dieser Gespräche entliess die Landsgemeinde am 14. März die Leventina aus dem Untertanenverhältnis.",
+      "supports": "The Leventina is set free in March 1798"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007384/2021-01-15/",
+      "title": "HLS: Uri",
+      "quote": "In der Helvetischen Republik bildete Uri mit Zug, Ob- und Nidwalden sowie den inneren Teilen von Schwyz den Kanton Waldstätten.",
+      "supports": "Canton Waldstätten joins Uri, inner Schwyz, Obwalden, Nidwalden and Zug (map layers)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007384/2021-01-15/",
+      "title": "HLS: Uri",
+      "quote": "Sein Gebiet war aufgeteilt in die Distrikte Altdorf und Andermatt. Die Landvogtei Leventina wurde dem Kanton Tessin zugeschlagen.",
+      "supports": "Districts Altdorf and Andermatt; the Leventina later goes to Ticino (map layer Leventina)"
+     }
     ]
    },
    {
@@ -268,6 +433,35 @@
        ]
       }
      }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007384/2021-01-15/",
+      "title": "HLS: Uri",
+      "quote": "Seit 1803 Kanton der Eidgenossenschaft.",
+      "supports": "In 1803 Uri is a canton again"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007467/2014-01-14/",
+      "title": "HLS: Urseren",
+      "quote": "sicherten den Ursnern 1803 den gleichberechtigten Zutritt zur Urner Landsgemeinde und Vertretungen in Landrat und Kantonsgericht",
+      "supports": "Urseren becomes an equal part of Uri in 1803 (map layer Canton of Uri)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007384/2021-01-15/",
+      "title": "HLS: Uri",
+      "quote": "Bemühungen um eine Wiedergewinnung der Leventina blieben auch jetzt erfolglos.",
+      "supports": "Uri tries to get the Leventina back, but fails (map layer Leventina)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007384/2021-01-15/",
+      "title": "HLS: Uri",
+      "quote": "Die Wiederangliederung der Leventina, um die sich Uri bemühte, misslang erneut.",
+      "supports": "Uri fails again to get the Leventina back after 1813"
+     }
+    ],
+    "uncertain": [
+     "Since 1803 the borders of Uri have not changed."
     ]
    }
   ],
@@ -286,7 +480,7 @@
     "year": 1150,
     "title": "Lenzburg and Einsiedeln",
     "text": [
-     "Around 1150 the counts of Lenzburg own large estates in the Schwyz valley. The people of Schwyz already argue with Einsiedeln abbey about the border of their pastures. This dispute (the Marchenstreit) goes on for almost 200 years.",
+     "Around 1150 the counts of Lenzburg own large estates in the Schwyz valley. The people of Schwyz already argue with Einsiedeln abbey about the border of their pastures. This dispute (the Marchenstreit) goes on into the 14th century.",
      "Einsiedeln abbey owns the forest land around the monastery and the Höfe on Lake Zurich. The lords of Rapperswil and others hold land in the March."
     ],
     "layers": [
@@ -324,6 +518,44 @@
        ]
       }
      }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007385/",
+      "title": "HLS: Schwyz (Kanton)",
+      "quote": "Im inneren Kantonsteil verfügten zunächst die Grafen von Lenzburg bis zu ihrem Aussterben 1173 über grossen Grundbesitz.",
+      "supports": "The counts of Lenzburg own large estates in the Schwyz valley until 1173 (map layer Schwyz valley)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007385/",
+      "title": "HLS: Schwyz (Kanton)",
+      "quote": "Im Marchenstreit mit dem Kloster Einsiedeln sind die cives de villa Svites bzw. cives de Suites in der ersten Hälfte des 12. Jahrhunderts bezeugt.",
+      "supports": "The people of Schwyz already argue with Einsiedeln abbey in the first half of the 1100s"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007415/",
+      "title": "HLS: Schwyz (Bezirk)",
+      "quote": "bis zu der im Marchenstreit des 14. Jahrhunderts mit dem Kloster Einsiedeln errungenen Grenze",
+      "supports": "The Marchenstreit goes on into the 14th century"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007418/",
+      "title": "HLS: Höfe",
+      "quote": "zwei ehemals grundherrlichen Höfen des Klosters Einsiedeln",
+      "supports": "Einsiedeln abbey owns the Höfe (map layer Einsiedeln abbey)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007418/",
+      "title": "HLS: Höfe",
+      "quote": "Die Höfe bildeten zusammen mit der March eine klösterliche Verwaltungseinheit.",
+      "supports": "The Höfe and the March belong to the abbey's lands"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007385/",
+      "title": "HLS: Schwyz (Kanton)",
+      "quote": "während die Grafen von Habsburg und Toggenburg und die Herren von Rapperswil ebenfalls über Güter und Rechte verfügten",
+      "supports": "The lords of Rapperswil and others hold land in the outer part (March) (map layer March)"
+     }
     ]
    },
    {
@@ -331,7 +563,7 @@
     "title": "Schwyz becomes reichsfrei",
     "text": [
      "The Lenzburg line dies out in 1173. Their lands go to the Kyburgs, the Frohburgs, the lords of Rapperswil and the Habsburgs.",
-     "In 1240 Emperor Frederick II puts the valley of Schwyz directly under the Empire, as thanks for its help. The Habsburgs do not accept this, and the conflict goes on.",
+     "In 1240 Emperor Frederick II puts the valley of Schwyz directly under the Empire, as thanks for its help. The Habsburgs still try to rule the area, and the conflict goes on.",
      "Küssnacht is ruled by a family of knights who serve the Habsburgs."
     ],
     "layers": [
@@ -379,6 +611,38 @@
         506
        ]
       }
+     }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007385/",
+      "title": "HLS: Schwyz (Kanton)",
+      "quote": "Als wichtigste weltliche Herrschaftsträger agierten die Kyburger, die Frohburger, die Herren von Rapperswil und die Habsburger",
+      "supports": "Lenzburg lands go to the Kyburgs, Frohburgs, Rapperswil and Habsburgs"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007385/",
+      "title": "HLS: Schwyz (Kanton)",
+      "quote": "in der Talschaft Schwyz, der Kaiser Friedrich II. 1240 aufgrund erwiesener Dienste die Reichsfreiheit zugestand",
+      "supports": "In 1240 Frederick II puts Schwyz directly under the Empire for its help (map layer Valley of Schwyz)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007385/",
+      "title": "HLS: Schwyz (Kanton)",
+      "quote": "traten die Habsburger als deren Erben an und versuchten, ihre Herrschaftsansprüche im Gebiet der Innerschweiz durchzusetzen",
+      "supports": "The Habsburgs still try to rule the area"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007385/",
+      "title": "HLS: Schwyz (Kanton)",
+      "quote": "der ritteradligen, Habsburg verpflichteten Familie von Küssnacht",
+      "supports": "Küssnacht is ruled by knights who serve the Habsburgs (map layer Küssnacht)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007418/",
+      "title": "HLS: Höfe",
+      "quote": "Die 1114 erstmals genannten Schirmvögte über die beiden Höfe (wie auch über das Kloster Einsiedeln) waren die Herren und späteren Grafen von Rapperswil",
+      "supports": "Einsiedeln abbey and the Höfe; lords of Rapperswil (map layers)"
      }
     ]
    },
@@ -434,13 +698,51 @@
        ]
       }
      }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007415/",
+      "title": "HLS: Schwyz (Bezirk)",
+      "quote": "der das Gebiet vom Vierwaldstätter- und Zugersee bis zu der im Marchenstreit des 14. Jahrhunderts mit dem Kloster Einsiedeln errungenen Grenze",
+      "supports": "The Land of Schwyz reaches from Lake Lucerne to the border with Einsiedeln (map layer Old Land of Schwyz)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007415/",
+      "title": "HLS: Schwyz (Bezirk)",
+      "quote": "vom Ybrig über das Alpthal zur Hochebene von Rothenthurm",
+      "supports": "The land reaches to Rothenthurm"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007385/",
+      "title": "HLS: Schwyz (Kanton)",
+      "quote": "Eine der vier Waldstätten, vielleicht schon ab 1291 oder 1309, sicher ab 1315 Ort der Alten Eidgenossenschaft.",
+      "supports": "Schwyz is a first member, around 1291 or 1309, surely by 1315"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007385/",
+      "title": "HLS: Schwyz (Kanton)",
+      "quote": "Die Angliederung von Arth im 14. Jahrhundert an das Land Schwyz",
+      "supports": "Arth joins Schwyz in the 14th century (map layer Arth)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007385/",
+      "title": "HLS: Schwyz (Kanton)",
+      "quote": "erlangten 1283 die Schirmvogtei über das Kloster Einsiedeln",
+      "supports": "The Habsburgs are protectors of Einsiedeln abbey since 1283 (map layer Einsiedeln)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007385/",
+      "title": "HLS: Schwyz (Kanton)",
+      "quote": "der ritteradligen, Habsburg verpflichteten Familie von Küssnacht",
+      "supports": "Küssnacht is held by knights who serve the Habsburgs (map layer Küssnacht)"
+     }
     ]
    },
    {
     "year": 1440,
     "title": "Schwyz and its outer lands",
     "text": [
-     "Schwyz grows quickly. It takes Einsiedeln in 1386 and becomes protector (Kastvogt) of the abbey in 1424. It makes treaties with the March from 1386 and holds all of it by 1436. It buys the rights over Küssnacht in 1402. In 1440, after the Old Zurich War, it takes Wollerau and Pfäffikon (the Höfe).",
+     "Schwyz grows quickly. It takes Einsiedeln in 1386 and becomes protector (Kastvogt) of the abbey in 1424. It makes treaties with the March from 1386 and holds all of it by 1436. It buys the rights over Küssnacht in 1402. In 1440, during the Old Zurich War, it takes Wollerau and Pfäffikon (the Höfe).",
      "These outer lands belong to Schwyz, but their people have fewer rights than the people of old Schwyz. Together with Glarus, Schwyz also rules Gaster (from 1438) and Uznach (pledged 1437, bought 1469).",
      "Gersau stays a tiny free republic and an ally of the Swiss."
     ],
@@ -526,6 +828,62 @@
        ]
       }
      }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007385/",
+      "title": "HLS: Schwyz (Kanton)",
+      "quote": "Die Waldstatt Einsiedeln wurde 1386 militärisch besetzt",
+      "supports": "Schwyz takes Einsiedeln in 1386 (map layer Einsiedeln)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007385/",
+      "title": "HLS: Schwyz (Kanton)",
+      "quote": "1424 wurde die Schwyzer Kastvogtei über das Kloster errichtet",
+      "supports": "Schwyz becomes Kastvogt of the abbey in 1424"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007385/",
+      "title": "HLS: Schwyz (Kanton)",
+      "quote": "1386 erfolgte die Aufnahme von Märchler Landleuten ins Schwyzer Landrecht, 1414 der Abschluss eines Landrechts mit der Mittelmarch und 1436 derjenige mit der Obermarch.",
+      "supports": "Treaties with the March from 1386; all of it by 1436 (map layer March)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007385/",
+      "title": "HLS: Schwyz (Kanton)",
+      "quote": "1402 kaufte es die Vogtei- und Gerichtsgewalt",
+      "supports": "Schwyz buys the rights over Küssnacht in 1402 (map layer Küssnacht)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007418/",
+      "title": "HLS: Höfe",
+      "quote": "Im Alten Zürichkrieg waren die Höfe zwischen den Zürchern und Schwyzern umkämpft. 1440 zogen die Zürcher kampflos aus Pfäffikon ab",
+      "supports": "In 1440, during the Old Zurich War, Schwyz takes the Höfe (map layer Höfe)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007385/",
+      "title": "HLS: Schwyz (Kanton)",
+      "quote": "welche gegenüber allen Bewohnern der Angehörigen Landschaften in verschiedenen Bereichen privilegiert waren",
+      "supports": "The people of the outer lands have fewer rights than the people of old Schwyz"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007385/",
+      "title": "HLS: Schwyz (Kanton)",
+      "quote": "die Herrschaft über Uznach (1437 Verpfändung, 1469 Kauf) und Gaster (1436 Landrecht, 1438 Verpfändung)",
+      "supports": "With Glarus, Schwyz rules Gaster (from 1438) and Uznach (1437, 1469) (map layer Gaster and Uznach)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007385/",
+      "title": "HLS: Schwyz (Kanton)",
+      "quote": "das bereits 1359 zugewandter Ort der Eidgenossenschaft war, kaufte sich 1390 aus habsburgischer Pfandschaft frei",
+      "supports": "Gersau is a small free land and an ally of the Swiss (map layer Gersau)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007385/",
+      "title": "HLS: Schwyz (Kanton)",
+      "quote": "ab ca. 1450 entsprach das Schwyzer Territorium im Wesentlichen dem heutigen Kantonsgebiet",
+      "supports": "By about 1450 the land of Schwyz is mostly complete"
+     }
     ]
    },
    {
@@ -573,6 +931,26 @@
        ]
       }
      }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007385/",
+      "title": "HLS: Schwyz (Kanton)",
+      "quote": "auf die Kantone Waldstätten (die späteren Bezirke Schwyz, Gersau, Küssnacht und Einsiedeln) und Linth (die späteren Bezirke March, Wollerau und Pfäffikon) aufgeteilt",
+      "supports": "Schwyz, Gersau, Küssnacht and Einsiedeln go to Waldstätten; the March and the Höfe go to Linth (map layers)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007374/",
+      "title": "HLS: Glarus (Kanton)",
+      "quote": "Während der Helvetik (1798-1803) Teil des Kantons Linth.",
+      "supports": "Canton Linth includes Glarus"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007644/",
+      "title": "HLS: Gaster",
+      "quote": "Mittelalterliche Herrschaft, 1798-1803 Teil des Kantons Linth",
+      "supports": "Gaster is no longer ruled by Schwyz"
+     }
     ]
    },
    {
@@ -603,13 +981,39 @@
        ]
       }
      }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007385/",
+      "title": "HLS: Schwyz (Kanton)",
+      "quote": "Die Mediationsakte von 1803 stellte den Kanton im alten Umfang wieder her, wobei die früheren Untertanengebiete abgeschafft und in Bezirke umgewandelt",
+      "supports": "In 1803 Schwyz is a canton again with its outer lands as districts (map layer)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007385/",
+      "title": "HLS: Schwyz (Kanton)",
+      "quote": "sowie Gersau und Reichenburg eingegliedert wurden",
+      "supports": "Gersau and Reichenburg are added in 1803"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007385/",
+      "title": "HLS: Schwyz (Kanton)",
+      "quote": "Alle Landleute waren gleichberechtigt.",
+      "supports": "All its people now have equal rights in law"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007385/",
+      "title": "HLS: Schwyz (Kanton)",
+      "quote": "1817 kam Gersau, das sich 1814 wieder als Freistaat konstituiert hatte, endgültig zum Kanton Schwyz.",
+      "supports": "Gersau becomes part of Schwyz for good in 1817 (map layer Gersau)"
+     }
     ]
    },
    {
     "year": 1832,
     "title": "Outer Schwyz breaks away",
     "text": [
-     "The outer districts want equal seats in the cantonal council. In 1832 the March, Einsiedeln, Küssnacht and Pfäffikon form their own half-canton, Ausserschwyz (Outer Schwyz).",
+     "The outer districts want seats in the cantonal government in proportion to their size. In 1831 the March, Einsiedeln, Küssnacht and Pfäffikon break away. In 1832 they adopt their own constitution as the half-canton Ausserschwyz (Outer Schwyz).",
      "Old Schwyz, Gersau and Wollerau stay with the old canton."
     ],
     "layers": [
@@ -638,13 +1042,42 @@
        ]
       }
      }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007385/",
+      "title": "HLS: Schwyz (Kanton)",
+      "quote": "forderten die vier äusseren Bezirke March, Einsiedeln, Küssnacht und Pfäffikon eine neue Verfassung, die unter anderem die proportionale Vertretung der Bezirke in den Behörden garantierte.",
+      "supports": "The outer districts want proportional seats"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007385/",
+      "title": "HLS: Schwyz (Kanton)",
+      "quote": "Daraufhin trennten sich die äusseren Bezirke 1831 vom Alten Land Schwyz.",
+      "supports": "In 1831 the outer districts break away"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007385/",
+      "title": "HLS: Schwyz (Kanton)",
+      "quote": "1832 folgte die Annahme einer Verfassung.",
+      "supports": "In 1832 Ausserschwyz adopts a constitution (map layer Ausserschwyz)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007418/",
+      "title": "HLS: Höfe",
+      "quote": "1831 schloss sich Pfäffikon dem bis 1833 existierenden Halbkanton Ausserschwyz an, Wollerau hielt Schwyz die Treue.",
+      "supports": "Pfäffikon joins the half-canton Ausserschwyz; Wollerau stays with Schwyz (map layers)"
+     }
+    ],
+    "uncertain": [
+     "Gersau stays with the old canton in 1831–1833."
     ]
    },
    {
     "year": 1833,
     "title": "Schwyz reunited",
     "text": [
-     "In August 1833 federal troops occupy the canton. A new constitution in 1833 joins the two parts again and gives all districts equal rights.",
+     "In August 1833 federal troops occupy the canton. A new constitution in 1833 joins the two parts again and gives all people of the canton equal rights.",
      "Since then, the borders have not changed. In 1848 Wollerau and Pfäffikon join to form the district of Höfe."
     ],
     "layers": [
@@ -658,6 +1091,29 @@
        ]
       }
      }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007385/",
+      "title": "HLS: Schwyz (Kanton)",
+      "quote": "ordnete die militärische Besetzung des Kantons Schwyz durch eidgenössische Truppen an, die im August vollzogen wurde.",
+      "supports": "In August 1833 federal troops occupy the canton"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007385/",
+      "title": "HLS: Schwyz (Kanton)",
+      "quote": "eine neue Verfassung aus, welche die volle Rechtsgleichheit aller Kantonseinwohner festschrieb. Mit deren Annahme wurde auch die Wiedervereinigung der beiden Kantonsteile vollzogen.",
+      "supports": "A new constitution joins the two parts again and gives equal rights (map layer)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007418/",
+      "title": "HLS: Höfe",
+      "quote": "Bezirk des Kantons Schwyz, entstand 1848 aus dem Zusammenschluss der Bezirke Pfäffikon und Wollerau.",
+      "supports": "In 1848 Wollerau and Pfäffikon form the district of Höfe"
+     }
+    ],
+    "uncertain": [
+     "Since 1833 the borders of Schwyz have not changed."
     ]
    }
   ],
@@ -714,13 +1170,57 @@
        ]
       }
      }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007410/",
+      "title": "HLS: Obwalden",
+      "quote": "Mit dem Bau der Burg auf dem Landenberg durch die Grafen von Lenzburg",
+      "supports": "The counts of Lenzburg are strong in Obwalden and build a castle above Sarnen (map layer Obwalden)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007410/",
+      "title": "HLS: Obwalden",
+      "quote": "Im frühen 12. Jahrhundert übertrugen die Grafen von Lenzburg einen grossen Teil der Güter an ihr Hauskloster Beromünster.",
+      "supports": "They give much land to their monastery of Beromünster"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007410/",
+      "title": "HLS: Obwalden",
+      "quote": "Die grundherrliche Organisation des Klosters St. Leodegar, das Höfe in Sarnen, Giswil und Alpnach besass",
+      "supports": "Lucerne's monastery owns farms in Sarnen, Giswil and Alpnach"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007410/",
+      "title": "HLS: Obwalden",
+      "quote": "Neben den Klöstern und Stiften (v.a. das von Murbach abhängige St. Leodegar in Luzern und Beromünster)",
+      "supports": "Lucerne's monastery is part of Murbach abbey"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/000741/",
+      "title": "HLS: Engelberg (Gemeinde)",
+      "quote": "Die Talleute standen bis zur Erlangung der politischen Selbstständigkeit 1798 unter der Klosterherrschaft.",
+      "supports": "The abbey is lord of the Engelberg valley (map layer Engelberg)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/000741/",
+      "title": "HLS: Engelberg (Gemeinde)",
+      "quote": "Die Urbarisierung und dauernde Besiedlung des Talbodens setzte wohl erst mit der Klostergründung 1120 ein",
+      "supports": "The monastery at Engelberg is founded in 1120"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007411/2017-05-11/",
+      "title": "HLS: Nidwalden",
+      "quote": "Spätere Besitztraditionen lassen vermuten, dass die grossen Geschlechter Lenzburg, Sellenbüren-Regensberg, Brienz-Ringgenberg-Raron und Habsburg",
+      "supports": "Nidwalden: many lords, Lenzburg probably among them (map layer Nidwalden)"
+     }
     ]
    },
    {
     "year": 1257,
     "title": "Habsburg rule",
     "text": [
-     "After 1173 the Habsburgs become the strongest lords in Unterwalden. In 1257 they give their lands there as fiefs to local followers.",
+     "In the 1200s the Habsburgs are the main lords in Unterwalden, next to the abbeys. In 1257 they give their lands there as fiefs to local followers.",
      "Around 1247 the people of Sarnen appear for the first time as a valley community. In 1291 the Habsburgs also buy Murbach abbey's rights in Obwalden."
     ],
     "layers": [
@@ -746,6 +1246,38 @@
         "NW"
        ]
       }
+     }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007411/2017-05-11/",
+      "title": "HLS: Nidwalden",
+      "quote": "Als grössere Herrschaftsträger blieben somit nur die Klöster Engelberg und Murbach-Luzern sowie die Habsburger.",
+      "supports": "The Habsburgs are the main lords in Unterwalden, next to the abbeys (map layer Unterwalden)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007410/",
+      "title": "HLS: Obwalden",
+      "quote": "1257 veräusserten die Grafen Gottfried, Rudolf und Eberhard von Habsburg unter lehensrechtlichen Bedingungen ihr Besitztum in Unterwalden an die Getreuen",
+      "supports": "In 1257 the Habsburgs give their lands as fiefs to local followers"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007410/",
+      "title": "HLS: Obwalden",
+      "quote": "In der Bulle erscheinen die Leute von Sarnen überdies erstmals als Talgemeinde im Sinne der kirchenrechtlichen universitas.",
+      "supports": "Around 1247 the people of Sarnen appear as a valley community"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007410/",
+      "title": "HLS: Obwalden",
+      "quote": "Dank des Kaufs der verschiedenen Murbacher Herrschaftstitel in den «oberen Landen» 1291 durch die Habsburger",
+      "supports": "In 1291 the Habsburgs buy Murbach's rights"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/000741/",
+      "title": "HLS: Engelberg (Gemeinde)",
+      "quote": "Die Talleute standen bis zur Erlangung der politischen Selbstständigkeit 1798 unter der Klosterherrschaft.",
+      "supports": "Engelberg is the valley of the abbey (map layer Engelberg)"
      }
     ]
    },
@@ -798,6 +1330,38 @@
        ]
       }
      }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007410/",
+      "title": "HLS: Obwalden",
+      "quote": "Eine der vier Waldstätten, vielleicht schon kurz nach 1291, wohl vor 1309 als Teil Unterwaldens Ort der Eidgenossenschaft",
+      "supports": "Unterwalden is a first member, probably soon after 1291 and before 1309"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007410/",
+      "title": "HLS: Obwalden",
+      "quote": "Das Kernterritorium umfasste das Tal der Sarner Aa vom Brünigpass bis zum Alpnachersee sowie dessen Seitentäler",
+      "supports": "Obwalden around Sarnen (map layer Obwalden)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007411/2017-05-11/",
+      "title": "HLS: Nidwalden",
+      "quote": "bis 1798 unter der Bezeichnung \"Unterwalden nit dem Kernwald\".",
+      "supports": "Nidwalden is the half below the forest (map layer Nidwalden)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007411/2017-05-11/",
+      "title": "HLS: Nidwalden",
+      "quote": "König Rudolf I. von Habsburg wurde 1274 Kastvogt über Engelberg",
+      "supports": "Engelberg is a separate lordship of the abbey, with Habsburg protectors since 1274 (map layer Engelberg)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/000753/",
+      "title": "HLS: Hergiswil (NW)",
+      "quote": "Die autonom gewordene Ürte schloss sich unmittelbar danach als elfte Gemeinde Nidwalden an.",
+      "supports": "Hergiswil is not yet part of Nidwalden; it joins after 1378 (map layer Hergiswil)"
+     }
     ]
    },
    {
@@ -842,6 +1406,26 @@
        ]
       }
      }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007410/",
+      "title": "HLS: Obwalden",
+      "quote": "nahm Obwalden als erster Urkanton am 1. April 1798 die helvetische Verfassung an",
+      "supports": "Obwalden is the first forest canton to accept the Helvetic constitution, on 1 April 1798"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007410/",
+      "title": "HLS: Obwalden",
+      "quote": "Nach der Niederlage und der Zusammenlegung der Urkantone und Zugs zum Kanton Waldstätten bildete Obwalden nur noch den Distrikt Sarnen.",
+      "supports": "Obwalden becomes the district of Sarnen in canton Waldstätten (map layers)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007411/2017-05-11/",
+      "title": "HLS: Nidwalden",
+      "quote": "1798-1803 bildete Nidwalden mit Engelberg den Distrikt Stans im helvetischen Kanton Waldstätten.",
+      "supports": "Engelberg goes with Nidwalden into the district of Stans"
+     }
     ]
    },
    {
@@ -872,6 +1456,26 @@
        ]
       }
      }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007410/",
+      "title": "HLS: Obwalden",
+      "quote": "1803-1999 unter der Bezeichnung Unterwalden ob dem Wald Halbkanton der Eidgenossenschaft.",
+      "supports": "In 1803 Obwalden is a half-canton as Unterwalden ob dem Wald (map layer)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007410/",
+      "title": "HLS: Obwalden",
+      "quote": "anerkannte die Teilung des Kantons Unterwalden in die Halbkantone ob dem Wald und nid dem Wald",
+      "supports": "The split of Unterwalden is now official"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/000741/",
+      "title": "HLS: Engelberg (Gemeinde)",
+      "quote": "Politische Gemeinde des Kantons Obwalden (1803-1815 Nidwalden).",
+      "supports": "Engelberg is given to Nidwalden, 1803–1815 (map layer Engelberg)"
+     }
     ]
    },
    {
@@ -879,7 +1483,7 @@
     "title": "Engelberg joins Obwalden",
     "text": [
      "In 1815 Nidwalden refuses the new Federal Treaty. Federal troops enter Nidwalden, and Engelberg is given to Obwalden.",
-     "Engelberg is an exclave (land cut off from the rest of the canton) and becomes Obwalden's seventh commune. Since then, the borders have not changed."
+     "Engelberg is an exclave (land cut off from the rest of the canton). Since then, the borders have not changed."
     ],
     "layers": [
      {
@@ -892,6 +1496,35 @@
        ]
       }
      }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007411/2017-05-11/",
+      "title": "HLS: Nidwalden",
+      "quote": "Erst nach dem Einmarsch von Bundestruppen am 18. August 1815 lenkte Nidwalden ein",
+      "supports": "Federal troops enter Nidwalden in 1815, and Engelberg goes to Obwalden"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007411/2017-05-11/",
+      "title": "HLS: Nidwalden",
+      "quote": "bezahlte seinen Widerstand jedoch mit dem Verlust des eidgenössisch gesinnten Engelberg an Obwalden",
+      "supports": "Federal troops enter Nidwalden in 1815, and Engelberg goes to Obwalden"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007411/2017-05-11/",
+      "title": "HLS: Nidwalden",
+      "quote": "Nidwalden verweigerte dem eidgenössischen Bundesvertrag von 1815 die Zustimmung",
+      "supports": "Nidwalden refuses the Federal Treaty of 1815"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007410/",
+      "title": "HLS: Obwalden",
+      "quote": "1815 kam die Talschaft und ehemalige Klosterherrschaft Engelberg als Exklave dazu.",
+      "supports": "Engelberg joins Obwalden in 1815 as an exclave (map layer)"
+     }
+    ],
+    "uncertain": [
+     "Since 1815 the borders of Obwalden have not changed."
     ]
    }
   ],
@@ -948,6 +1581,38 @@
        ]
       }
      }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007411/2017-05-11/",
+      "title": "HLS: Nidwalden",
+      "quote": "Spätere Besitztraditionen lassen vermuten, dass die grossen Geschlechter Lenzburg, Sellenbüren-Regensberg, Brienz-Ringgenberg-Raron und Habsburg sowie die Klöster Muri und Murbach-Luzern Güter und Rechte innehatten.",
+      "supports": "Many nobles and monasteries hold land in Nidwalden, probably also Lenzburg (map layer Nidwalden)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007411/2017-05-11/",
+      "title": "HLS: Nidwalden",
+      "quote": "Die Herrschaftsstrukturen waren jedoch schwach ausgeprägt, die neuen Herrschaften blieben meist blosse Ansprüche und die lokalen Dienstadligen handelten selbstständig.",
+      "supports": "Lordship is weak, and local knights often act alone"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/000741/",
+      "title": "HLS: Engelberg (Gemeinde)",
+      "quote": "Die Urbarisierung und dauernde Besiedlung des Talbodens setzte wohl erst mit der Klostergründung 1120 ein",
+      "supports": "A monastery is founded at Engelberg in 1120 (map layer Engelberg)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007411/2017-05-11/",
+      "title": "HLS: Nidwalden",
+      "quote": "Bis 1360 erwarb es in beträchtlichem Umfang Güter in Stans, Buochs und Wolfenschiessen",
+      "supports": "Over time Engelberg gets much land in Nidwalden, for example around Buochs"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007410/",
+      "title": "HLS: Obwalden",
+      "quote": "Mit dem Bau der Burg auf dem Landenberg durch die Grafen von Lenzburg",
+      "supports": "Obwalden: counts of Lenzburg (map layer Obwalden)"
+     }
     ]
    },
    {
@@ -980,6 +1645,32 @@
         "NW"
        ]
       }
+     }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007411/2017-05-11/",
+      "title": "HLS: Nidwalden",
+      "quote": "Als grössere Herrschaftsträger blieben somit nur die Klöster Engelberg und Murbach-Luzern sowie die Habsburger.",
+      "supports": "Three lords count most in Nidwalden"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007411/2017-05-11/",
+      "title": "HLS: Nidwalden",
+      "quote": "Habsburg stützte seine Herrschaft auf Vogteirechte, während die Klöster Murbach-Luzern und Engelberg grundherrliche Rechte auf einen grossen Dinghof in Stans",
+      "supports": "The Habsburgs hold the Vogtei; Murbach-Lucerne owns a large manor in Stans (map layer Unterwalden)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007411/2017-05-11/",
+      "title": "HLS: Nidwalden",
+      "quote": "Engelberg baute ab 1260 seinen Besitz durch Kauf, Tausch und Schenkungen zu einer geschlossenen Herrschaft aus.",
+      "supports": "Engelberg abbey buys up land from 1260 (map layer Engelberg)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007411/2017-05-11/",
+      "title": "HLS: Nidwalden",
+      "quote": "König Rudolf I. von Habsburg wurde 1274 Kastvogt über Engelberg und erwarb 1291 die grundherrlichen Rechte Murbach-Luzerns in Unterwalden.",
+      "supports": "1274 Rudolf protector of Engelberg; 1291 he buys the rights of Murbach-Lucerne"
      }
     ]
    },
@@ -1032,6 +1723,38 @@
        ]
       }
      }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007411/2017-05-11/",
+      "title": "HLS: Nidwalden",
+      "quote": "Vielleicht schon ab 1291 oder 1309, sicher nach dem Auseinanderfallen Unterwaldens im zweiten Viertel des 14. Jahrhunderts Ort der Eidgenossenschaft",
+      "supports": "Unterwalden is a first member, around 1291 or 1309"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007411/2017-05-11/",
+      "title": "HLS: Nidwalden",
+      "quote": "bis 1798 unter der Bezeichnung \"Unterwalden nit dem Kernwald\".",
+      "supports": "Nidwalden is the half below the forest (map layer Nidwalden)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007410/",
+      "title": "HLS: Obwalden",
+      "quote": "bis 1798 unter der Bezeichnung Unterwalden ob dem (Kern-)Wald",
+      "supports": "Obwalden is the upper half (map layer Obwalden)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/000753/",
+      "title": "HLS: Hergiswil (NW)",
+      "quote": "Um 1285 ging die Herrschaft an die Habsburger über.",
+      "supports": "Hergiswil belongs to other lords (map layer Hergiswil)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007411/2017-05-11/",
+      "title": "HLS: Nidwalden",
+      "quote": "König Rudolf I. von Habsburg wurde 1274 Kastvogt über Engelberg",
+      "supports": "The Engelberg valley belongs to its abbey, Habsburg protectors since 1274 (map layer Engelberg)"
+     }
     ]
    },
    {
@@ -1072,6 +1795,26 @@
         "OW"
        ]
       }
+     }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/000753/",
+      "title": "HLS: Hergiswil (NW)",
+      "quote": "dessen Tochter Cäcilia Twing und Bann 1378 den Hergiswilern für 700 Gulden abtrat.",
+      "supports": "In 1378 the people of Hergiswil buy the local rights from their lady for 700 guilders"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/000753/",
+      "title": "HLS: Hergiswil (NW)",
+      "quote": "Die autonom gewordene Ürte schloss sich unmittelbar danach als elfte Gemeinde Nidwalden an.",
+      "supports": "Soon after, Hergiswil joins Nidwalden as its eleventh commune (map layer)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007411/2017-05-11/",
+      "title": "HLS: Nidwalden",
+      "quote": "wo Nidwalden mit Uri und Schwyz die Vogteien Bellinzona, Blenio und Riviera vom frühen 16. Jahrhundert bis 1798 als gemeine Herrschaften verwaltete",
+      "supports": "From the early 1500s to 1798 Nidwalden rules Bellinzona, Riviera and Blenio with Uri and Schwyz"
      }
     ]
    },
@@ -1114,6 +1857,20 @@
        ]
       }
      }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007411/2017-05-11/",
+      "title": "HLS: Nidwalden",
+      "quote": "1798-1803 bildete Nidwalden mit Engelberg den Distrikt Stans im helvetischen Kanton Waldstätten.",
+      "supports": "Nidwalden with Engelberg is the district of Stans in canton Waldstätten (map layers)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007411/2017-05-11/",
+      "title": "HLS: Nidwalden",
+      "quote": "am 9. September 1798 stürzten sich, aufgestachelt durch Geistliche wie den Kapuzinerpater Paul Styger, die Nidwaldner Truppen in eine aussichtslose Schlacht gegen die französische Armee",
+      "supports": "Nidwalden fights the new order; French troops crush it in September 1798"
+     }
     ]
    },
    {
@@ -1135,6 +1892,20 @@
         1402
        ]
       }
+     }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007411/2017-05-11/",
+      "title": "HLS: Nidwalden",
+      "quote": "erkannte die Teilung in Nid- und Obwalden an und setzte dem Zweidrittelsvorrang Obwaldens ein Ende. Sie beliess Engelberg bei Nidwalden",
+      "supports": "In 1803 Nidwalden is a half-canton again and keeps Engelberg (map layer)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007410/",
+      "title": "HLS: Obwalden",
+      "quote": "anerkannte die Teilung des Kantons Unterwalden in die Halbkantone ob dem Wald und nid dem Wald",
+      "supports": "Nidwalden is a half-canton as Unterwalden nid dem Wald"
      }
     ]
    },
@@ -1166,6 +1937,29 @@
        ]
       }
      }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007411/2017-05-11/",
+      "title": "HLS: Nidwalden",
+      "quote": "Nidwalden verweigerte dem eidgenössischen Bundesvertrag von 1815 die Zustimmung",
+      "supports": "Nidwalden refuses the Federal Treaty in 1815"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007411/2017-05-11/",
+      "title": "HLS: Nidwalden",
+      "quote": "Erst nach dem Einmarsch von Bundestruppen am 18. August 1815 lenkte Nidwalden ein",
+      "supports": "Federal troops enter on 18 August; Nidwalden must join and loses Engelberg to Obwalden (map layers)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007411/2017-05-11/",
+      "title": "HLS: Nidwalden",
+      "quote": "bezahlte seinen Widerstand jedoch mit dem Verlust des eidgenössisch gesinnten Engelberg an Obwalden",
+      "supports": "Federal troops enter on 18 August; Nidwalden must join and loses Engelberg to Obwalden (map layers)"
+     }
+    ],
+    "uncertain": [
+     "Since 1815 the borders of Nidwalden have not changed."
     ]
    }
   ],
@@ -1185,8 +1979,8 @@
     "year": 1150,
     "title": "Murbach's town and Lenzburg's land",
     "text": [
-     "The monastery of St. Leodegar in Lucerne belongs to Murbach abbey in Alsace. The town of Lucerne grows next to it, on the abbey's land.",
-     "The countryside is part of the Aargau. The counts of Lenzburg are the strongest lords there; they found the monastery of Beromünster. The lords of Wolhusen hold the Entlebuch (about)."
+     "The monastery of St. Leodegar in Lucerne depends on Murbach abbey in Alsace. The town of Lucerne grows next to it; it is founded by the abbot of Murbach or by the lords of Rothenburg.",
+     "The countryside is part of the Aargau. The counts of Lenzburg are the strongest lords there; their family founded the monastery of Beromünster. The lords of Wolhusen hold the Entlebuch (about)."
     ],
     "layers": [
      {
@@ -1230,6 +2024,41 @@
        ]
       }
      }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007382/",
+      "title": "HLS: Luzern (Kanton)",
+      "quote": "Das Kloster St. Leodegar zu Luzern, von regionalen Grundherren im Frühmittelalter reich ausgestattet, war mittlerweile in die Abhängigkeit der Abtei Murbach",
+      "supports": "St. Leodegar in Lucerne depends on Murbach abbey (map layer Lucerne)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007382/",
+      "title": "HLS: Luzern (Kanton)",
+      "quote": "stehen lediglich zwei andere Gründungen gegenüber: Luzern (Abt von Murbach bzw. Vögte von Rothenburg)",
+      "supports": "The town is founded by the abbot of Murbach or the lords of Rothenburg"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007382/",
+      "title": "HLS: Luzern (Kanton)",
+      "quote": "Im Hochmittelalter lag das Gebiet des späteren luzernischen Territorialstaats grösstenteils innerhalb der historischen Landschaft Aargau.",
+      "supports": "The countryside is part of the Aargau"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007382/",
+      "title": "HLS: Luzern (Kanton)",
+      "quote": "Als bedeutendste Herren treten die Grafen von Lenzburg hervor",
+      "supports": "The counts of Lenzburg are the strongest lords (map layer Countryside)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007382/",
+      "title": "HLS: Luzern (Kanton)",
+      "quote": "Ihre aargauischen Vorfahren hatten das Stift Beromünster, ihre rätischen Ahnen das Kloster Schänis gegründet.",
+      "supports": "Their family founded Beromünster"
+     }
+    ],
+    "uncertain": [
+     "The lords of Wolhusen hold the Entlebuch around 1150."
     ]
    },
    {
@@ -1262,13 +2091,45 @@
        ]
       }
      }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007382/",
+      "title": "HLS: Luzern (Kanton)",
+      "quote": "die sich schnell auflöste, als beide Linien um 1172 fast gleichzeitig erloschen",
+      "supports": "The Lenzburg line dies out in about 1172"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007382/",
+      "title": "HLS: Luzern (Kanton)",
+      "quote": "Richensee und Sursee im heutigen Kanton Luzern) und vier habsburgischen (Bremgarten, Brugg, Meienberg im Kanton Aargau und Sempach im Kanton Luzern)",
+      "supports": "Kyburgs and Habsburgs found towns such as Sursee, Richensee and Sempach"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007382/",
+      "title": "HLS: Luzern (Kanton)",
+      "quote": "Nach dem Aussterben der kyburgischen Hauptlinie (1264) blieben die Habsburger als einzige Vormacht zurück",
+      "supports": "After 1264 the Habsburgs are the main power (map layer Countryside)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007382/",
+      "title": "HLS: Luzern (Kanton)",
+      "quote": "kauften 1291 die Rechte des Klosters Murbach an der Stadt Luzern sowie an den grundherrschaftlichen Höfen rund um die Stadt",
+      "supports": "In 1291 they buy Murbach's rights over the town of Lucerne (map layer Town of Lucerne)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007382/",
+      "title": "HLS: Luzern (Kanton)",
+      "quote": "Herrschaftliche Mittelpunkte waren Sursee, Sempach, Willisau, Kasteln, Wolhusen, Beromünster, Richensee, Meienberg, Rothenburg, Luzern und Neu-Habsburg.",
+      "supports": "They rule from centres such as Sursee, Sempach, Willisau, Wolhusen, Rothenburg and Lucerne"
+     }
     ]
    },
    {
     "year": 1332,
     "title": "City joins the forest cantons",
     "text": [
-     "In 1332 the city of Lucerne makes a league with Uri, Schwyz and Unterwalden. At this time Lucerne rules almost no land outside the town. The countryside around it belongs to the Habsburgs."
+     "In 1332 the city of Lucerne makes a league with Uri, Schwyz and Unterwalden. At this time Lucerne does not yet rule land outside the town; it buys its first lordship, Weggis, only in 1380. The countryside around it belongs to the Habsburgs."
     ],
     "layers": [
      {
@@ -1292,15 +2153,35 @@
        ]
       }
      }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007382/",
+      "title": "HLS: Luzern (Kanton)",
+      "quote": "Der Bund mit den drei Waldstätten von 1332, der Luzerns Zukunft bestimmen sollte",
+      "supports": "In 1332 Lucerne makes a league with Uri, Schwyz and Unterwalden (map layer City of Lucerne)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007382/",
+      "title": "HLS: Luzern (Kanton)",
+      "quote": "Der Erwerb von Herrschaftsrechten setzte 1380 mit dem Kauf der Vogtei Weggis ein.",
+      "supports": "Lucerne rules no land outside the town before 1380"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007382/",
+      "title": "HLS: Luzern (Kanton)",
+      "quote": "Nach dem Aussterben der kyburgischen Hauptlinie (1264) blieben die Habsburger als einzige Vormacht zurück",
+      "supports": "The countryside belongs to the Habsburgs (map layer Countryside)"
+     }
     ]
    },
    {
     "year": 1415,
     "title": "A city-state with a large countryside",
     "text": [
-     "Lucerne begins to buy land in 1380 with Weggis. Its fastest growth comes after the Sempach War (1386–1389), mostly by purchase and pledge: Merenschwand (1394), the Entlebuch (1395 and 1405), Willisau and others.",
-     "In 1415 the Habsburgs lose their lands in the Aargau. Their last rights, also over Sursee and the abbey of Beromünster, go to Lucerne. The countryside is a subject land: bailiffs (governors) from the city rule it.",
-     "With the other cantons, Lucerne also rules the Freie Ämter (Free Districts), including Hitzkirch. By about 1480 Lucerne's land is mostly complete."
+     "Lucerne begins to buy land in 1380 with Weggis. Its fastest growth comes after the Sempach War (1386–1389), mostly by purchase and pledge, for example Merenschwand (1394) and the Entlebuch (1395 and 1405).",
+     "In 1415 the Habsburgs lose their lands in the Aargau. Their last rights, also over the abbey of Beromünster, go to Lucerne. The countryside is a subject land: bailiffs (governors) from the city rule it. Only the small towns of Sursee and Sempach keep much self-rule.",
+     "With other cantons, Lucerne also rules the Freie Ämter (Free Districts). Hitzkirch is part of them from 1425. By about 1480 Lucerne's land is mostly complete."
     ],
     "layers": [
      {
@@ -1387,6 +2268,50 @@
        ]
       }
      }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007382/",
+      "title": "HLS: Luzern (Kanton)",
+      "quote": "1380 begann die territoriale Ausdehnung mit dem Erwerb des Amtes Weggis. Der grösste Expansionsschub erfolgte 1386-1415.",
+      "supports": "Lucerne starts with Weggis in 1380; fastest growth from 1386"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007382/",
+      "title": "HLS: Luzern (Kanton)",
+      "quote": "In Einzelfällen schloss Luzern mit den Bewohnern der Landschaft eigentliche Herrschaftsverträge (1394 mit den Vertretern des Amtes Merenschwand, 1395 und 1405 mit den Entlebuchern).",
+      "supports": "Merenschwand (1394), the Entlebuch (1395 and 1405) (map layer Merenschwand)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007382/",
+      "title": "HLS: Luzern (Kanton)",
+      "quote": "Die übrigen Rechte des Hauses Habsburg, inklusive diejenigen über das Stift Beromünster",
+      "supports": "In 1415 the last Habsburg rights, also over Beromünster, go to Lucerne"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007382/",
+      "title": "HLS: Luzern (Kanton)",
+      "quote": "Nur die Städte Sursee und Sempach blieben weitgehend autonom",
+      "supports": "Bailiffs rule the countryside; Sursee and Sempach keep much self-rule (map layer Countryside)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008298/",
+      "title": "HLS: Freie Ämter",
+      "quote": "an die sechs Orte Zürich, Luzern, Schwyz, Unterwalden, Zug und Glarus",
+      "supports": "Lucerne rules the Freie Ämter together with other cantons from 1415 (map layer Freie Ämter)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/009319/",
+      "title": "HLS: Hitzkirch (Amt)",
+      "quote": "1425 wurde der nördl. Teil, der zur Pfarrei H. gehörte, als ehemaliges österr. Amt den Gemeinen Orten und damit den Freien Ämtern zugesprochen.",
+      "supports": "Hitzkirch is part of the Freie Ämter from 1425 (map layer Amt Hitzkirch)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007382/",
+      "title": "HLS: Luzern (Kanton)",
+      "quote": "Um 1480 war die Bildung des späteren Kantonsgebiets weitgehend abgeschlossen.",
+      "supports": "By about 1480 Lucerne's land is mostly complete"
+     }
     ]
    },
    {
@@ -1447,6 +2372,26 @@
        ]
       }
      }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007382/",
+      "title": "HLS: Luzern (Kanton)",
+      "quote": "Jeder Bürger hatte fortan von Rechts wegen Zugang zu allen Ämtern und Berufen",
+      "supports": "In 1798 the countryside gets equal rights"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007382/",
+      "title": "HLS: Luzern (Kanton)",
+      "quote": "1803 erhielt Luzern das Amt Hitzkirch, das zum helvetischen Kanton Baden gehört hatte, und trat das Amt Merenschwand an den neu gebildeten Kanton Aargau ab.",
+      "supports": "In 1803 Lucerne gets Hitzkirch from canton Baden; Merenschwand goes to Aargau (map layers)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007382/",
+      "title": "HLS: Luzern (Kanton)",
+      "quote": "Das seit 1803 unveränderte Kantonsgebiet unterteilt sich in fünf Ämter.",
+      "supports": "Since then, the borders have not changed"
+     }
     ]
    }
   ],
@@ -1464,8 +2409,8 @@
     "year": 1150,
     "title": "Loose rule of distant lords",
     "text": [
-     "Around 1150 the counts of Lenzburg hold loose count rights over the Zug area, but they own little land there. Fraumünster abbey of Zurich has a manor in Cham since at least 858.",
-     "Monasteries from outside own much land: Einsiedeln in Ägeri, Kappel and Schänis in Baar, Muri and St. Blasien in the west. Local knights build castles."
+     "Around 1150 the counts of Lenzburg hold loose count rights over the Zug area, but no land of their own there is known. Fraumünster abbey of Zurich has a manor in Cham since at least 858.",
+     "Monasteries from outside own much land: Einsiedeln in Ägeri, Kappel and Schänis in Baar, Muri and St. Blasien in the west. Local nobles build castles."
     ],
     "layers": [
      {
@@ -1490,6 +2435,50 @@
        ]
       }
      }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007373/",
+      "title": "HLS: Zug (Kanton)",
+      "quote": "nach dem Investiturstreit bis zu ihrem Aussterben 1173 von den Grafen von Lenzburg wahrgenommen",
+      "supports": "The counts of Lenzburg hold count rights until 1173 (map layer Zug area)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007373/",
+      "title": "HLS: Zug (Kanton)",
+      "quote": "Die gräflichen Hoheitsrechte überlagerten die zersplitterten Herrschafts- und Besitzkomplexe und hielten diese lediglich lose zusammen.",
+      "supports": "The count rights are loose"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007373/",
+      "title": "HLS: Zug (Kanton)",
+      "quote": "Lenzburger Eigenbesitz auf Zuger Gebiet ist nicht nachweisbar",
+      "supports": "No Lenzburg land of their own is known there"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007373/",
+      "title": "HLS: Zug (Kanton)",
+      "quote": "eine 858 von König Ludwig dem Deutschen für das Fraumünster in Zürich ausgestellte Schenkungsurkunde, nennt einen grundherrlichen Hof in Cham",
+      "supports": "Fraumünster has a manor in Cham since 858 (map layer Cham)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007373/",
+      "title": "HLS: Zug (Kanton)",
+      "quote": "So waren Schänis und Kappel in Baar, Muri in Gangolfswil (Gemeinde Risch), Einsiedeln in Ägeri",
+      "supports": "Einsiedeln in Ägeri, Kappel and Schänis in Baar, Muri in the west"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007373/",
+      "title": "HLS: Zug (Kanton)",
+      "quote": "Blasien in Steinhausen sowie Neuheim begütert",
+      "supports": "St. Blasien owns land in Steinhausen"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007373/",
+      "title": "HLS: Zug (Kanton)",
+      "quote": "Andreas, Zug und Hünenberg datieren ins 11. und 12. Jahrhundert.",
+      "supports": "Local nobles build castles (11th and 12th century)"
+     }
     ]
    },
    {
@@ -1497,7 +2486,7 @@
     "title": "Habsburg and Hünenberg",
     "text": [
      "After 1240 the counts of Kyburg try to rule Baar and the town of Zug. They may have founded the town. The Kyburg line ends in 1263/1264, and Rudolf of Habsburg takes much of their land.",
-     "In 1273 Habsburg gets Zug (about). The town and the outer communities form the Habsburg Amt Zug. In the west, the lords of Hünenberg build their own lordship over Steinhausen, Cham, Hünenberg and Risch."
+     "In 1273 Habsburg gets Zug (about). The town and the outer communities form the Habsburg Amt Zug. In the west, the lords of Hünenberg build their own lordship over Steinhausen, Cham, Hünenberg and Risch; it is complete by about 1350."
     ],
     "layers": [
      {
@@ -1524,6 +2513,38 @@
         "ZG"
        ]
       }
+     }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007373/",
+      "title": "HLS: Zug (Kanton)",
+      "quote": "dass die Grafen von Kyburg spätestens nach 1240 im Raum Baar und in der vielleicht von ihnen gegründeten Stadt Zug versuchten, Herrschaftsansprüche",
+      "supports": "After 1240 the Kyburgs try to rule Baar and Zug, and may have founded the town"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007373/",
+      "title": "HLS: Zug (Kanton)",
+      "quote": "1264 übernahm Graf Rudolf IV. von Habsburg einen grossen Teil des mutmasslichen Erbes.",
+      "supports": "The Kyburg line ends in 1263/1264 and Rudolf of Habsburg takes much of their land"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007373/",
+      "title": "HLS: Zug (Kanton)",
+      "quote": "1273 soll er nebst zahlreichen kyburgischen Städten auch Zug erworben haben",
+      "supports": "In 1273 Habsburg gets Zug (about)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007373/",
+      "title": "HLS: Zug (Kanton)",
+      "quote": "Mit dem habsburgischen Amt Zug wird um 1300 ein erster Kern des späteren Kantons Zug fassbar",
+      "supports": "Town and outer communities form the Habsburg Amt Zug (map layer Amt Zug)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007373/",
+      "title": "HLS: Zug (Kanton)",
+      "quote": "einer nahezu geschlossenen Gerichtsherrschaft, die um 1350 Steinhausen, Cham, Hünenberg und Risch",
+      "supports": "The lords of Hünenberg build a lordship over Steinhausen, Cham, Hünenberg and Risch (map layer)"
      }
     ]
    },
@@ -1584,14 +2605,46 @@
        ]
       }
      }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007373/",
+      "title": "HLS: Zug (Kanton)",
+      "quote": "führte 1352 unter Führung Zürichs zur Belagerung der Stadt Zug und zum erzwungenen Bündnis",
+      "supports": "In 1352 Zurich besieges Zug, and the town and Amt must join the league (map layers)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007373/",
+      "title": "HLS: Zug (Kanton)",
+      "quote": "zu dem in vogteilicher Hinsicht neben der Stadt das Ägerital, das Berggebiet (Menzingen inklusive Neuheim) und Baar gehört haben dürften",
+      "supports": "The Amt is Baar, Ägeri and Menzingen with Neuheim (map layer Outer Amt)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007373/",
+      "title": "HLS: Zug (Kanton)",
+      "quote": "Ab 1352 eidgenössischer Ort (unter Vorbehalt der habsburgischen Rechte)",
+      "supports": "Habsburg still claims Zug"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007373/",
+      "title": "HLS: Zug (Kanton)",
+      "quote": "Schwyz stellte zwischen 1370 und 1404, zunächst mit dem Einverständnis der Herzöge (Thorberger Friede), den Ammann in Zug.",
+      "supports": "From 1370 to 1404 Schwyz leads Zug in practice"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007373/",
+      "title": "HLS: Zug (Kanton)",
+      "quote": "Dazu kamen die bereits 1379 erworbene Vogtei Walchwil",
+      "supports": "Walchwil is held by others until the town buys it in 1379 (map layer Walchwil)"
+     }
     ]
    },
    {
     "year": 1500,
     "title": "The town's bailiwicks",
     "text": [
-     "The town of Zug buys Walchwil in 1379. In the 15th century it buys more land: Cham, Steinhausen, Risch and Oberrüti. Hünenberg comes under the town by a citizenship treaty.",
-     "These are bailiwicks (land ruled by a governor) of the town only. The rural Amt stays free and equal to the town.",
+     "The town of Zug buys Walchwil in 1379. Between then and 1498 it buys more land: Cham, Steinhausen, Risch and Oberrüti. Hünenberg comes under the town by a citizenship treaty.",
+     "These are bailiwicks (land ruled by a governor) of the town only. The rural Amt does not become a subject land of the town.",
      "Zug also shares the rule of the Freie Ämter with other cantons."
     ],
     "layers": [
@@ -1654,6 +2707,38 @@
        ]
       }
      }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007373/",
+      "title": "HLS: Zug (Kanton)",
+      "quote": "Sukzessive kaufte die Stadt Zug deren Gerichtsherrschaften in Cham, Risch, Steinhausen und Oberrüti.",
+      "supports": "The town buys Cham, Steinhausen, Risch and Oberrüti (map layer Bailiwicks)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007373/",
+      "title": "HLS: Zug (Kanton)",
+      "quote": "Dazu kamen die bereits 1379 erworbene Vogtei Walchwil und das verburgrechtete, eine Sonderstellung geniessende Hünenberg.",
+      "supports": "Walchwil 1379; Hünenberg by a citizenship treaty"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007373/",
+      "title": "HLS: Zug (Kanton)",
+      "quote": "Die Stadt allein erwarb zwischen 1379 und 1498 ein eigenes Untertanengebiet um den Zugersee.",
+      "supports": "These are bailiwicks of the town only, bought 1379–1498"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007373/",
+      "title": "HLS: Zug (Kanton)",
+      "quote": "Das Äussere Amt verhinderte dadurch nicht nur, städtisches Untertanengebiet zu werden",
+      "supports": "The rural Amt does not become a subject land of the town (map layer Outer Amt)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008298/",
+      "title": "HLS: Freie Ämter",
+      "quote": "an die sechs Orte Zürich, Luzern, Schwyz, Unterwalden, Zug und Glarus",
+      "supports": "Zug shares the rule of the Freie Ämter (map layer)"
+     }
     ]
    },
    {
@@ -1692,6 +2777,32 @@
        ]
       }
      }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007373/",
+      "title": "HLS: Zug (Kanton)",
+      "quote": "Die Stadt Zug gab am 11. Februar 1798 notgedrungen ihre Vogteien frei.",
+      "supports": "In February 1798 the town gives up its bailiwicks"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007373/",
+      "title": "HLS: Zug (Kanton)",
+      "quote": "Am 2. Mai wurde Zug mit der Urschweiz zum neu geschaffenen Kanton Waldstätten zusammengefasst. Darin bildete Zug einen Distrikt.",
+      "supports": "In May 1798 Zug becomes a district of canton Waldstätten (map layers)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007373/",
+      "title": "HLS: Zug (Kanton)",
+      "quote": "wurde die loyal gebliebene Stadt Zug neuer Kantonshauptort",
+      "supports": "From 1799 the town of Zug is the capital of Waldstätten"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007373/",
+      "title": "HLS: Zug (Kanton)",
+      "quote": "1798-1801 Distrikt des helvetischen Kantons Waldstätten, 1801-1803 helvetischer Kanton",
+      "supports": "Waldstätten lasts until 1801"
+     }
     ]
    },
    {
@@ -1722,6 +2833,29 @@
        ]
       }
      }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007373/",
+      "title": "HLS: Zug (Kanton)",
+      "quote": "Seit 1803 Kanton der Eidgenossenschaft.",
+      "supports": "In 1803 Zug is a canton again (map layer)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007373/",
+      "title": "HLS: Zug (Kanton)",
+      "quote": "Wegen der nun gleichberechtigten Gemeinden Cham, Hünenberg, Steinhausen, Risch und Walchwil",
+      "supports": "The old bailiwicks are now equal communes"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/001792/",
+      "title": "HLS: Oberrüti",
+      "quote": "1498-1798 lagen Herrschaft und Kirchenpatronat bei der Stadt Zug. 1803 kam O. zum Kt. Aargau.",
+      "supports": "Oberrüti goes to the new canton of Aargau (map layer Oberrüti)"
+     }
+    ],
+    "uncertain": [
+     "Since 1803 the borders of Zug have not changed."
     ]
    }
   ],
@@ -1740,8 +2874,8 @@
     "year": 1150,
     "title": "Säckingen abbey's valley",
     "text": [
-     "In the 700s a noble family gives its land and rights in the Linth valley to the abbey of Säckingen on the Rhine. The abbey stays the main landowner of Glarus for centuries.",
-     "In the 1000s and 1100s the counts of Lenzburg protect the abbey's valley and judge for the king. They also hold the high justice in Gaster."
+     "In the 700s a noble family probably gives large lands and rights in the Linth valley to the abbey of Säckingen on the Rhine. The abbey stays the main power in Glarus for centuries.",
+     "In the 1000s and 1100s the counts of Lenzburg protect the abbey's valley and judge for the king. In Gaster they protect the abbey of Schänis."
     ],
     "layers": [
      {
@@ -1770,14 +2904,40 @@
        ]
       }
      }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007374/",
+      "title": "HLS: Glarus (Kanton)",
+      "quote": "wahrscheinlicher aber durch die Übertragung von bedeutendem Grundbesitz und Hoheitsrechten im Tal an Säckingen durch die Beata-Sippe in der Mitte des 8. Jahrhunderts",
+      "supports": "In the 700s a noble family probably gives lands and rights to Säckingen"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007374/",
+      "title": "HLS: Glarus (Kanton)",
+      "quote": "Sie übten die Hochvogtei über Glarus als Kastvögte von Säckingen oder - in ihrer Funktion als Grafen im Zürichgau - als Reichsvögte aus.",
+      "supports": "The counts of Lenzburg protect the abbey's valley and judge for the king (map layer Glarus)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007374/",
+      "title": "HLS: Glarus (Kanton)",
+      "quote": "Jahrhundert war Säckingen die massgebende Macht im Land Glarus.",
+      "supports": "The abbey stays the main power in Glarus"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007644/",
+      "title": "HLS: Gaster",
+      "quote": "Unter der Schirmherrschaft der Edlen von Schänis und deren Verwandten, den Grafen von Lenzburg",
+      "supports": "In Gaster the counts of Lenzburg protect the abbey of Schänis (map layer Gaster)"
+     }
     ]
    },
    {
     "year": 1200,
     "title": "Kyburg as governors",
     "text": [
-     "After 1173 the king's son Otto of Burgundy holds the right to rule Glarus. After his death in 1200 it goes to the counts of Kyburg.",
-     "The Kyburgs also hold the high justice in Gaster."
+     "After 1173 the Emperor's son Otto of Burgundy holds the right to rule Glarus. After his death in 1200 it goes to the counts of Kyburg.",
+     "The Kyburgs are also the protectors of Gaster."
     ],
     "layers": [
      {
@@ -1805,6 +2965,26 @@
         "GL"
        ]
       }
+     }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007374/",
+      "title": "HLS: Glarus (Kanton)",
+      "quote": "in den Händen von Pfalzgraf Otto von Burgund, dem vierten Sohn Friedrich Barbarossas",
+      "supports": "After 1173 Otto of Burgundy, son of the Emperor, holds Glarus"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007374/",
+      "title": "HLS: Glarus (Kanton)",
+      "quote": "Nach dem Tod Ottos 1200 ging die Vogtei an die Kyburger über",
+      "supports": "After 1200 it goes to the Kyburgs (map layer Glarus)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007644/",
+      "title": "HLS: Gaster",
+      "quote": "Nach dem Aussterben der Lenzburger 1173 kam das Gaster bis 1264 unter die Schirmherrschaft der Kyburger",
+      "supports": "The Kyburgs protect Gaster until 1264 (map layer Gaster)"
      }
     ]
    },
@@ -1842,6 +3022,32 @@
        ]
       }
      }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007374/",
+      "title": "HLS: Glarus (Kanton)",
+      "quote": "Nach dem Erlöschen der Kyburger im gleichen Jahr kam sie an Rudolf von Habsburg",
+      "supports": "The Kyburg line ends in 1264; their rights go to Rudolf of Habsburg"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007374/",
+      "title": "HLS: Glarus (Kanton)",
+      "quote": "April 1288 die Söhne König Rudolfs von Habsburg mit den Burgen, Gerichtsbarkeiten und dem Meieramt im Tal Glarus.",
+      "supports": "In 1288 the abbess gives castles, courts and the Meieramt to Rudolf's sons"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007374/",
+      "title": "HLS: Glarus (Kanton)",
+      "quote": "vereinigte Habsburg in Glarus wie in keinem anderen Gebiet der künftigen Eidgenossenschaft die volle Gerichtsbarkeit und die öffentlich-rechtliche Gewalt in einer Hand",
+      "supports": "Habsburg holds all power in the valley (map layer Glarus)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007644/",
+      "title": "HLS: Gaster",
+      "quote": "dann unterstand es bis 1438 den Habsburgern",
+      "supports": "Gaster is Habsburg land (map layer Gaster)"
+     }
     ]
    },
    {
@@ -1876,6 +3082,44 @@
         3316
        ]
       }
+     }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007374/",
+      "title": "HLS: Glarus (Kanton)",
+      "quote": "Juni 1352 schlossen Zürich und die Waldstätte (ohne Luzern) einen Bund mit Ammann und Landleuten von Glarus, allerdings nicht auf gleichberechtigter Basis.",
+      "supports": "In 1352 Zurich and the forest cantons make an unequal league with Glarus (map layer)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007374/",
+      "title": "HLS: Glarus (Kanton)",
+      "quote": "Bereits im September 1352 kam Glarus wieder an Österreich (Brandenburger Frieden).",
+      "supports": "Habsburg soon gets it back"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007374/",
+      "title": "HLS: Glarus (Kanton)",
+      "quote": "Insbesondere symbolisierten nach dem Sieg von Näfels 1388",
+      "supports": "Glarus beats a Habsburg army at Näfels in 1388"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007374/",
+      "title": "HLS: Glarus (Kanton)",
+      "quote": "Im Sempacherbrief von 1393 wird Glarus jedenfalls erstmals als gleichberechtigter Partner genannt.",
+      "supports": "In 1393 Glarus is named as an equal partner"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007374/",
+      "title": "HLS: Glarus (Kanton)",
+      "quote": "nachdem Glarus sich 1395 von der säckingischen Grundherrschaft losgekauft hatte",
+      "supports": "In 1395 Glarus buys the old rights of Säckingen"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007644/",
+      "title": "HLS: Gaster",
+      "quote": "dann unterstand es bis 1438 den Habsburgern",
+      "supports": "Gaster is Habsburg land until 1438 (map layer Gaster)"
      }
     ]
    },
@@ -1915,6 +3159,32 @@
        ]
       }
      }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007385/",
+      "title": "HLS: Schwyz (Kanton)",
+      "quote": "die Herrschaft über Uznach (1437 Verpfändung, 1469 Kauf) und Gaster (1436 Landrecht, 1438 Verpfändung)",
+      "supports": "Glarus and Schwyz take Uznach as a pledge in 1437 and Gaster in 1438; they buy Uznach in 1469"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007644/",
+      "title": "HLS: Gaster",
+      "quote": "Das Gaster war 1438-1798 Herrschaft der Orte Schwyz und Glarus",
+      "supports": "Gaster is a shared bailiwick of the two cantons (map layer Gaster and Uznach)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007644/",
+      "title": "HLS: Gaster",
+      "quote": "in den Auseinandersetzungen des Alten Zürichkriegs (1436-1450)",
+      "supports": "This happens during the Old Zurich War"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007374/",
+      "title": "HLS: Glarus (Kanton)",
+      "quote": "1460 verleibte sich Glarus den ganzen Kerenzerberg ein.",
+      "supports": "Glarus takes the whole Kerenzerberg in 1460 (map layer Land of Glarus)"
+     }
     ]
    },
    {
@@ -1922,7 +3192,7 @@
     "title": "Werdenberg and Sargans",
     "text": [
      "In 1517 Glarus buys the county of Werdenberg in the Rhine valley for 21,500 guilders. It rules Werdenberg alone as a bailiwick until 1798.",
-     "Glarus and Schwyz also buy Gams in 1497. From about 1500, Glarus shares the rule of Sargans with six other cantons."
+     "Glarus and Schwyz also buy Gams in 1497. Since 1483 Glarus shares the rule of Sargans with six other cantons."
     ],
     "layers": [
      {
@@ -1988,6 +3258,32 @@
        ]
       }
      }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007646/",
+      "title": "HLS: Werdenberg",
+      "quote": "1517 erwarb Glarus die stark verschuldete Grafschaft für 21'500 rheinische Gulden und verwaltete sie bis 1798 als Landvogtei.",
+      "supports": "In 1517 Glarus buys Werdenberg for 21,500 guilders and rules it until 1798 (map layer Werdenberg)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007385/",
+      "title": "HLS: Schwyz (Kanton)",
+      "quote": "1497 gelangten beide Orte durch Kauf überdies in den Besitz der Herrschaft Gams",
+      "supports": "Glarus and Schwyz buy Gams in 1497 (map layer Gams)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007645/",
+      "title": "HLS: Sarganserland",
+      "quote": "die 1483 von den sieben Orten für 15'000 rheinische Gulden erworbene Grafschaft Sargans",
+      "supports": "Since 1483 Glarus shares Sargans with six other cantons (map layer Sargans)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007644/",
+      "title": "HLS: Gaster",
+      "quote": "Das Gaster war 1438-1798 Herrschaft der Orte Schwyz und Glarus",
+      "supports": "Gaster and Uznach shared with Schwyz (map layer)"
+     }
     ]
    },
    {
@@ -2020,6 +3316,26 @@
         503
        ]
       }
+     }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007374/",
+      "title": "HLS: Glarus (Kanton)",
+      "quote": "bequemten sich aber erst unter dem Druck der herannahenden französischen Armee zum gleichen Schritt",
+      "supports": "In spring 1798 Glarus also sets its bailiwicks free"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007374/",
+      "title": "HLS: Glarus (Kanton)",
+      "quote": "Am 4. Mai 1798 vereinigte ein französisches Dekret Glarus mit den ehemaligen Untertanengebieten Uznach, Gaster und Werdenberg",
+      "supports": "In May 1798 the French join Glarus with its old subject lands into canton Linth (map layers)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007646/",
+      "title": "HLS: Werdenberg",
+      "quote": "dem Kanton Linth zugeteilt, dessen Hauptort ausgerechnet Glarus war",
+      "supports": "The capital of canton Linth is Glarus"
      }
     ]
    },
@@ -2063,6 +3379,41 @@
        ]
       }
      }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007374/",
+      "title": "HLS: Glarus (Kanton)",
+      "quote": "Das Land wurde wiederum ein souveräner Ort im Rahmen der Eidgenossenschaft, allerdings ohne die Untertanengebiete.",
+      "supports": "In 1803 Glarus is a canton again, without its subject lands (map layer)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007646/",
+      "title": "HLS: Werdenberg",
+      "quote": "1803 erfolgte die Eingliederung in den neuen Kanton St. Gallen und in dessen Bezirk Sargans",
+      "supports": "Werdenberg and Sargans go to St. Gallen (map layer Former Glarus lands)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007644/",
+      "title": "HLS: Gaster",
+      "quote": "gelangte 1803 an den Kanton St. Gallen, wo es zum Bezirk Uznach geschlagen wurde",
+      "supports": "Gaster and Uznach go to St. Gallen"
+     },
+     {
+      "url": "https://www.gl.ch/public/upload/assets/2052/Schlussbericht_ueber_die_Umsetzung_der_Gemeindestrukturreform_GL2011.pdf",
+      "title": "Kanton Glarus: Schlussbericht Gemeindestrukturreform GL2011 (2011)",
+      "quote": "Fusion der 25 Einheitsgemeinden zu drei Einheitsgemeinden",
+      "supports": "The 25 communes merge into three"
+     },
+     {
+      "url": "https://www.gl.ch/public/upload/assets/2052/Schlussbericht_ueber_die_Umsetzung_der_Gemeindestrukturreform_GL2011.pdf",
+      "title": "Kanton Glarus: Schlussbericht Gemeindestrukturreform GL2011 (2011)",
+      "quote": "Am 1. Januar 2011 ist die Gemeindestrukturreform formell abgeschlossen.",
+      "supports": "The merger takes effect in 2011"
+     }
+    ],
+    "uncertain": [
+     "Since 1803 the outer borders of Glarus have not changed."
     ]
    }
   ],

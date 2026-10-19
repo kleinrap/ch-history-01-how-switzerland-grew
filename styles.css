@@ -52,6 +52,22 @@
   --s-reformed: #2f6fb3;
   --s-catholic: #d4a017;
   --s-mixed: #8a6bb8;
+  /* Languages, and the peoples of antiquity */
+  --l-german: #d9822b;
+  --l-french: #3a6fb0;
+  --l-italian: #3a9a5b;
+  --l-romansh: #b0306a;
+  --l-bilingual: #9a8fc0;
+  --s-roman: #a8322d;
+  --s-celtic: #4f8a3c;
+  --s-alemanni: #c99a2e;
+  --s-burgundians: #6b4f9e;
+  /* Municipality mergers, by period of the first merger */
+  --m-1960: #1b3a5c;
+  --m-1980: #2c6a8f;
+  --m-2000: #3f9aa8;
+  --m-2010: #7cc3a5;
+  --m-2020: #d6e48c;
   color-scheme: light;
 }
 @media (prefers-color-scheme: dark) {
@@ -280,3 +296,15 @@ button { font: inherit; color: inherit; }
 .place circle { fill: #333; stroke: #fff; vector-effect: non-scaling-stroke; }
 .place.battle circle { fill: #c8281e; }
 .place text { font-family: "IBM Plex Sans", sans-serif; font-weight: 600; fill: var(--ink); paint-order: stroke; stroke: var(--panel); stroke-linejoin: round; }
+
+/* Sources for each step */
+.sources { margin-top: 14px; padding-top: 10px; border-top: 1px solid var(--line); font-size: 0.85rem; }
+.sources[hidden] { display: none; }
+.sources summary { cursor: pointer; font-weight: 600; }
+.sources ol { margin: 8px 0 0; padding-left: 1.3em; display: grid; gap: 6px; }
+.sources a { color: var(--ink); }
+.src-supports { color: var(--muted); }
+.sources q { display: block; color: var(--muted); font-style: italic; margin-top: 2px; }
+.sources h3 { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.04em; margin: 10px 0 4px; color: #c8281e; }
+.sources ul { margin: 0; padding-left: 1.1em; }
+.route { fill: none; stroke: #c8281e; stroke-width: 2.5; stroke-dasharray: 6 4; vector-effect: non-scaling-stroke; }

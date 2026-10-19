@@ -5,10 +5,10 @@
    "year": 1798,
    "title": "The first Helvetic constitution",
    "text": [
-    "On 12 April 1798 delegates in Aarau proclaimed the Helvetic Republic. France had conquered the Old Confederation a few weeks before.",
+    "On 12 April 1798 the Helvetic constitution came into force. France had conquered the Old Confederation a few weeks before.",
     "The new state was one central state. The cantons were now only districts for the administration, the courts and the elections. A governor (Regierungsstatthalter) led each canton for the central government.",
     "The constitution planned 21 cantons. The French commissioner changed the plan: he made the Bernese Oberland a canton (28 March) and made Baden with the Freie Ämter a canton (11 April). Bellinzona and Lugano became cantons on 14 April.",
-    "On the first day, only ten cantons took part. The cantons of central Switzerland refused the constitution and fought against it. Aarau was the first capital."
+    "At first the Republic had only ten cantons. The cantons of central Switzerland refused the constitution and fought against it. Aarau was the first capital."
    ],
    "layers": [
     {
@@ -339,6 +339,92 @@
        "ZG"
       ]
      }
+    }
+   ],
+   "sources": [
+    {
+     "url": "https://hls-dhs-dss.ch/de/articles/009797/",
+     "title": "HLS: Helvetische Republik",
+     "quote": "Das am 12. April 1798 in Kraft getretene, von Frankreich aufoktroyierte Grundgesetz war eine Adaptation der französischen Direktorialverfassung von 1795.",
+     "supports": "The constitution came into force on 12 April 1798"
+    },
+    {
+     "url": "https://hls-dhs-dss.ch/de/articles/009797/",
+     "title": "HLS: Helvetische Republik",
+     "quote": "In den Kampfhandlungen Anfang März 1798 ging die alte Eidgenossenschaft unter.",
+     "supports": "France had conquered the Old Confederation a few weeks before"
+    },
+    {
+     "url": "https://hls-dhs-dss.ch/de/articles/009797/",
+     "title": "HLS: Helvetische Republik",
+     "quote": "Die Kantone sanken zu blossen Verwaltungseinheiten herab; sie verfügten zwar über eine Gerichtsorganisation (Kantonsgericht, Distriktsgerichte), nicht aber über eigene Legislativen.",
+     "supports": "One central state; the cantons are only units for administration and courts"
+    },
+    {
+     "url": "https://hls-dhs-dss.ch/de/articles/009797/",
+     "title": "HLS: Helvetische Republik",
+     "quote": "Mittels der Regierungsstatthalter , der Distriktsstatthalter und der Agenten kontrollierte es theoretisch das ganze Land.",
+     "supports": "A governor (Regierungsstatthalter) leads each canton for the central government"
+    },
+    {
+     "url": "https://hls-dhs-dss.ch/de/articles/009797/",
+     "title": "HLS: Helvetische Republik",
+     "quote": "Gemäss Verfassung sollte die Helvetische Republik aus 21 Kantonen bestehen",
+     "supports": "The constitution planned 21 cantons"
+    },
+    {
+     "url": "https://hls-dhs-dss.ch/de/articles/008637/",
+     "title": "HLS: Lugano (Kanton)",
+     "quote": "die vom 14. April 1798 bis 19. Februar 1803 bestand",
+     "supports": "Bellinzona and Lugano became cantons on 14 April 1798"
+    },
+    {
+     "url": "https://hls-dhs-dss.ch/de/articles/008637/",
+     "title": "HLS: Lugano (Kanton)",
+     "quote": "und gleichzeitig mit dem Kanton Bellinzona gebildet wurde.",
+     "supports": "Bellinzona and Lugano became cantons on 14 April 1798"
+    },
+    {
+     "url": "https://hls-dhs-dss.ch/de/articles/009797/",
+     "title": "HLS: Helvetische Republik",
+     "quote": "Am 28. März 1798 erhob der französische Regierungskommissär François-Philibert Le Carlier das Berner Oberland zu einem eigenen Kanton",
+     "supports": "The French commissioner made the Oberland a canton on 28 March"
+    },
+    {
+     "url": "https://hls-dhs-dss.ch/de/articles/009797/",
+     "title": "HLS: Helvetische Republik",
+     "quote": "am 11. April angesichts des Widerstands in Zug auch Baden und die Freien Ämter.",
+     "supports": "Baden with the Freie Ämter became a canton on 11 April"
+    },
+    {
+     "url": "https://hls-dhs-dss.ch/de/articles/009797/",
+     "title": "HLS: Helvetische Republik",
+     "quote": "Die Landsgemeindeorte und ein Teil der befreiten Landschaften in der Inner- und der Ostschweiz empfanden die helvetische Verfassung als Bedrohung",
+     "supports": "Central Switzerland refused the constitution"
+    },
+    {
+     "url": "https://hls-dhs-dss.ch/de/articles/009797/",
+     "title": "HLS: Helvetische Republik",
+     "quote": "Nach einer missglückten militärischen Offensive (22. April - 3. Mai 1798) nahmen die Urkantone die Konstitution gezwungenermassen an.",
+     "supports": "Central Switzerland fought against the constitution"
+    },
+    {
+     "url": "https://hls-dhs-dss.ch/de/articles/009797/",
+     "title": "HLS: Helvetische Republik",
+     "quote": "Hauptstadt der Helvetischen Republik war bis September 1798 Aarau",
+     "supports": "Aarau was the first capital"
+    },
+    {
+     "url": "https://hls-dhs-dss.ch/de/articles/001620/",
+     "title": "HLS: Aarau",
+     "quote": "die am 26. März 1798 zur Hauptstadt der Helvetischen Republik ernannt wurde.",
+     "supports": "Aarau was the first capital"
+    },
+    {
+     "url": "https://hls-dhs-dss.ch/de/articles/026414/",
+     "title": "HLS: Kantone",
+     "quote": "Das Gebiet der Republik wurde im Frühjahr 1798 in 10, dann 22 und schliesslich 19 ähnlich grosse Kantone eingeteilt",
+     "supports": "At first the Republic had only ten cantons"
     }
    ]
   },
@@ -681,6 +767,50 @@
       ]
      }
     }
+   ],
+   "sources": [
+    {
+     "url": "https://hls-dhs-dss.ch/de/articles/009797/",
+     "title": "HLS: Helvetische Republik",
+     "quote": "dekretierte Le Carliers Nachfolger Jean-Jacques Rapinat am 4. Mai die Schaffung der drei Kantone Waldstätten (Uri, Schwyz, Unterwalden, Zug), Linth (Glarus, Sargans, oberes Toggenburg)",
+     "supports": "On 4 May 1798 Rapinat made Waldstätten (Uri, Schwyz, Unterwalden, Zug) and Linth (Glarus with Sargans and other ruled lands)"
+    },
+    {
+     "url": "https://hls-dhs-dss.ch/de/articles/009797/",
+     "title": "HLS: Helvetische Republik",
+     "quote": "und Säntis (Appenzell, St. Gallen, Rheintal, unteres Toggenburg), wodurch die Zahl der helvetischen Kantone auf 18 sank.",
+     "supports": "Säntis joined Appenzell, St. Gallen and the Rheintal; now 18 cantons"
+    },
+    {
+     "url": "https://hls-dhs-dss.ch/de/articles/009797/",
+     "title": "HLS: Helvetische Republik",
+     "quote": "Um den Einfluss der verfassungsfeindlichen Landesteile zu vermindern",
+     "supports": "This took away influence from the cantons against the Republic"
+    },
+    {
+     "url": "https://hls-dhs-dss.ch/de/articles/007398/",
+     "title": "HLS: Genf (Kanton)",
+     "quote": "Genf wurde am 15. April 1798 von französischen Truppen besetzt und gezwungen, um den Anschluss an Frankreich zu ersuchen.",
+     "supports": "France took Geneva in the same weeks (April 1798)"
+    },
+    {
+     "url": "https://hls-dhs-dss.ch/de/articles/008634/",
+     "title": "HLS: Säntis (Kanton)",
+     "quote": "trat die politische Ordnung des Kantons Säntis am 21. Juni 1798 mit der Einsetzung des ersten Regierungsstatthalters in Kraft.",
+     "supports": "The new cantons started their work in June 1798 (Säntis)"
+    },
+    {
+     "url": "https://hls-dhs-dss.ch/de/articles/008632/",
+     "title": "HLS: Linth (Kanton)",
+     "quote": "Die politische Ordnung des Kantons Linth trat am 17. Juni 1798 in Kraft.",
+     "supports": "Linth started its work in June 1798"
+    },
+    {
+     "url": "https://hls-dhs-dss.ch/de/articles/009797/",
+     "title": "HLS: Helvetische Republik",
+     "quote": "Hauptstadt der Helvetischen Republik war bis September 1798 Aarau, danach bis zum Mai 1799 Luzern",
+     "supports": "In September 1798 the capital moved from Aarau to Lucerne"
+    }
    ]
   },
   {
@@ -688,8 +818,8 @@
    "year": 1799,
    "title": "Rätien joins",
    "text": [
-    "On 21 April 1799 the Three Leagues (Graubünden) joined the Helvetic Republic as the canton of Rätien. Most people in Graubünden did not want this, but France put pressure on them.",
-    "In 1799 the war between France and Austria was fought on Swiss land. Austrian and Russian troops held the east of the country for some months. French troops took Graubünden back in 1800.",
+    "On 21 April 1799 the Three Leagues (Graubünden) joined the Helvetic Republic as the canton of Rätien. In July 1798 the communes of Graubünden had voted against this. The treaty was signed while French troops held the land.",
+    "In 1799 the war between France and Austria was fought on Swiss land. Austrian troops and their Russian allies held the east of the country for some months. In 1800 French troops held Graubünden again, and the union was carried out step by step.",
     "In May 1799 the capital moved from Lucerne to Bern."
    ],
    "layers": [
@@ -1022,6 +1152,62 @@
       ]
      }
     }
+   ],
+   "sources": [
+    {
+     "url": "https://hls-dhs-dss.ch/de/articles/009797/",
+     "title": "HLS: Helvetische Republik",
+     "quote": "Rätien (Graubünden) schloss sich der Helvetischen Republik am 21. April 1799 an.",
+     "supports": "On 21 April 1799 Graubünden joined as the canton of Rätien"
+    },
+    {
+     "url": "https://hls-dhs-dss.ch/de/articles/007391/",
+     "title": "HLS: Graubünden",
+     "quote": "Im Juli 1798 lehnten die Gerichtsgemeinden einen Beitritt zur Helvetischen Republik klar ab",
+     "supports": "In July 1798 the communes voted against joining"
+    },
+    {
+     "url": "https://hls-dhs-dss.ch/de/articles/007391/",
+     "title": "HLS: Graubünden",
+     "quote": "Während der ersten Okkupation durch die Franzosen wurde am 21. April 1799 der Vertrag über die Eingliederung Graubündens als Kanton Rätien",
+     "supports": "The treaty was signed while French troops occupied Graubünden"
+    },
+    {
+     "url": "https://hls-dhs-dss.ch/de/articles/009797/",
+     "title": "HLS: Helvetische Republik",
+     "quote": "Nach dem Ausbruch des Zweiten, zum Teil auf schweizerischem Boden ausgefochtenen Koalitionskriegs",
+     "supports": "In 1799 the war was fought partly on Swiss land"
+    },
+    {
+     "url": "https://hls-dhs-dss.ch/de/articles/008634/",
+     "title": "HLS: Säntis (Kanton)",
+     "quote": "Das Territorium war 1799 auch Kriegsschauplatz der europäischen Grossmächte (Frankreich gegen Österreich und Russland)",
+     "supports": "France fought Austria and Russia on Swiss land in 1799"
+    },
+    {
+     "url": "https://hls-dhs-dss.ch/de/articles/009797/",
+     "title": "HLS: Helvetische Republik",
+     "quote": "Der Verlust der von den Alliierten besetzten Süd- und der Ostschweiz",
+     "supports": "The allies held the east of the country for a time"
+    },
+    {
+     "url": "https://hls-dhs-dss.ch/de/articles/007391/",
+     "title": "HLS: Graubünden",
+     "quote": "von Ende 1798 bis 1800 je zweimal von Österreichern und Franzosen besetzt wurde",
+     "supports": "French troops held Graubünden again in 1800"
+    },
+    {
+     "url": "https://hls-dhs-dss.ch/de/articles/007391/",
+     "title": "HLS: Graubünden",
+     "quote": "der schrittweise Vollzug dieses Vertrags ab Mitte 1800 bedeuteten das Ende des alten Freistaats.",
+     "supports": "The union was carried out step by step from 1800"
+    },
+    {
+     "url": "https://hls-dhs-dss.ch/de/articles/009797/",
+     "title": "HLS: Helvetische Republik",
+     "quote": "danach bis zum Mai 1799 Luzern, schliesslich bis zum März 1803 Bern.",
+     "supports": "In May 1799 the capital moved from Lucerne to Bern"
+    }
    ]
   },
   {
@@ -1029,8 +1215,8 @@
    "year": 1801,
    "title": "Central Switzerland divided again",
    "text": [
-    "Federalists (people who wanted strong cantons) took power in Bern in October 1801. In November 1801 they divided the canton of Waldstätten again into Uri, Schwyz, Unterwalden and Zug.",
-    "In the Peace of Lunéville (February 1801), Austria gave the Fricktal to France. France kept the right to give it to the Helvetic Republic."
+    "Federalists (people who wanted strong cantons) took power in Bern on 27–28 October 1801. In November 1801 they divided the canton of Waldstätten again into Uri, Schwyz, Unterwalden and Zug.",
+    "In the Peace of Lunéville (February 1801), Austria gave the Fricktal to France."
    ],
    "layers": [
     {
@@ -1392,6 +1578,35 @@
       ]
      }
     }
+   ],
+   "sources": [
+    {
+     "url": "https://hls-dhs-dss.ch/de/articles/009797/",
+     "title": "HLS: Helvetische Republik",
+     "quote": "ergriffen die Föderalisten am 27.-28. Oktober durch den dritten Staatsstreich die Macht, stellten die Kantone Uri, Schwyz, Unterwalden und Zug wieder her",
+     "supports": "Federalists took power on 27–28 October 1801 and brought back Uri, Schwyz, Unterwalden and Zug"
+    },
+    {
+     "url": "https://hls-dhs-dss.ch/de/articles/008639/",
+     "title": "HLS: Waldstätten",
+     "quote": "Nach dem dritten Staatsstreich lösten die Föderalisten den Kanton Waldstätten im November 1801 auf und stellten die alten Kantone wieder her.",
+     "supports": "In November 1801 Waldstätten was divided again"
+    },
+    {
+     "url": "https://hls-dhs-dss.ch/de/articles/009797/",
+     "title": "HLS: Helvetische Republik",
+     "quote": "Obwohl der Frieden von Lunéville vom 9. Februar 1801 der Helvetischen Republik das Selbstbestimmungsrecht zugestand",
+     "supports": "The Peace of Lunéville is of February 1801"
+    },
+    {
+     "url": "https://hls-dhs-dss.ch/de/articles/008297/",
+     "title": "HLS: Fricktal",
+     "quote": "Im Frieden von Campoformio (1797) trat Österreich das Fricktal an Frankreich ab, doch zu einem Vollzug kam es nicht bis zum Frieden von Lunéville (1801).",
+     "supports": "Austria gave the Fricktal to France (carried out with the Peace of Lunéville, 1801)"
+    }
+   ],
+   "uncertain": [
+    "France kept the right to give the Fricktal to the Helvetic Republic."
    ]
   },
   {
@@ -1399,9 +1614,9 @@
    "year": 1802,
    "title": "The second constitution",
    "text": [
-    "A second Helvetic constitution came into force in May 1802. It gave the cantons a little more power, for example over money and schools.",
-    "On 25 May 1802 Payerne and Avenches went back from Fribourg to Léman (Vaud).",
-    "The Fricktal had been its own small canton since February 1802. It was under French protection and not yet part of the Republic."
+    "In April 1802 the Unitarians (people who wanted one central state) took power again. A second Helvetic constitution was put to the first popular vote in Switzerland. It counted as accepted on 2 July 1802, because people who did not vote were counted as yes votes.",
+    "Payerne and Avenches still belong to Fribourg. They go back to Léman (Vaud) only on 16 October 1802.",
+    "The Fricktal had been its own small canton since February 1802. It was not yet part of the Republic."
    ],
    "layers": [
     {
@@ -1477,6 +1692,30 @@
      }
     },
     {
+     "id": "fribourg",
+     "name": "Fribourg",
+     "kind": "canton",
+     "label": "Canton of Fribourg (capital Fribourg) (with Payerne and Avenches until 16 October 1802)",
+     "sel": {
+      "cantons": [
+       "FR"
+      ],
+      "munis": [
+       5451,
+       5456,
+       5458,
+       5464,
+       5822,
+       5816,
+       5817,
+       5813,
+       5821,
+       5827,
+       5828
+      ]
+     }
+    },
+    {
      "id": "leman",
      "name": "Léman",
      "kind": "canton",
@@ -1484,17 +1723,6 @@
      "sel": {
       "cantons": [
        "VD"
-      ]
-     }
-    },
-    {
-     "id": "fribourg",
-     "name": "Fribourg",
-     "kind": "canton",
-     "label": "Canton of Fribourg (capital Fribourg)",
-     "sel": {
-      "cantons": [
-       "FR"
       ]
      }
     },
@@ -1750,6 +1978,47 @@
       ]
      }
     }
+   ],
+   "sources": [
+    {
+     "url": "https://hls-dhs-dss.ch/de/articles/009797/",
+     "title": "HLS: Helvetische Republik",
+     "quote": "Am 17. April 1802 gewannen die Unitarier durch den vierten Staatsstreich die Regierungsgewalt zurück",
+     "supports": "In April 1802 the Unitarians took power again"
+    },
+    {
+     "url": "https://hls-dhs-dss.ch/de/articles/009797/",
+     "title": "HLS: Helvetische Republik",
+     "quote": "bei der die Nichtstimmenden als Befürworter gezählt wurden ( Abstimmungen ), galt sie am 2. Juli als angenommen.",
+     "supports": "The second constitution counted as accepted on 2 July 1802 after the first popular vote; non-voters counted as yes"
+    },
+    {
+     "url": "https://hls-dhs-dss.ch/de/articles/008631/",
+     "title": "HLS: Léman (Kanton)",
+     "quote": "Er bestand aus der von Bern abgetrennten Waadt, mit Ausnahme der Distrikte Avenches und Payerne, die bis am 16.10.1802 Freiburg angegliedert waren.",
+     "supports": "Payerne and Avenches belonged to Fribourg until 16 October 1802, then to Léman"
+    },
+    {
+     "url": "https://hls-dhs-dss.ch/de/articles/007395/",
+     "title": "HLS: Waadt",
+     "quote": "Avenches und Payerne waren zwischen 1798 und 1802 freiburgische Distrikte",
+     "supports": "Payerne and Avenches were Fribourg districts 1798–1802"
+    },
+    {
+     "url": "https://hls-dhs-dss.ch/de/articles/007392/",
+     "title": "HLS: Aargau",
+     "quote": "Am 9. Februar 1802 konstituierte sich das bis 1801 österreichische Fricktal als Kanton (Hauptort Rheinfelden)",
+     "supports": "The Fricktal is its own canton from February 1802"
+    },
+    {
+     "url": "https://hls-dhs-dss.ch/de/articles/007392/",
+     "title": "HLS: Aargau",
+     "quote": "der am 13. August 1802 als selbstständiger Gliedstaat der Helvetischen Republik angegliedert wurde.",
+     "supports": "The Fricktal is not yet part of the Republic (joins in August 1802)"
+    }
+   ],
+   "uncertain": [
+    "The Fricktal was under French protection."
    ]
   },
   {
@@ -1758,8 +2027,8 @@
    "title": "Fricktal in, Valais out",
    "text": [
     "On 29 July 1802 the government put Bern and the Oberland under one governor. On 13 August 1802 France agreed that the Fricktal could join the Republic.",
-    "On 27 August 1802 France made Valais an independent republic. France wanted the road over the Simplon pass under its control.",
-    "In August 1802 French troops left the country. Uprisings against the central government began (the 'Stecklikrieg'). Parts of Säntis and Linth broke away. In October 1802 French troops came back."
+    "On 27 August 1802 Valais became an independent republic, separate from the Helvetic Republic. France wanted it.",
+    "At the end of July 1802 French troops left the country. Uprisings against the central government began (the 'Stecklikrieg'). Parts of Säntis broke away. Then French troops came back."
    ],
    "layers": [
     {
@@ -1835,6 +2104,30 @@
      }
     },
     {
+     "id": "fribourg",
+     "name": "Fribourg",
+     "kind": "canton",
+     "label": "Canton of Fribourg (capital Fribourg) (with Payerne and Avenches until 16 October 1802)",
+     "sel": {
+      "cantons": [
+       "FR"
+      ],
+      "munis": [
+       5451,
+       5456,
+       5458,
+       5464,
+       5822,
+       5816,
+       5817,
+       5813,
+       5821,
+       5827,
+       5828
+      ]
+     }
+    },
+    {
      "id": "leman",
      "name": "Léman",
      "kind": "canton",
@@ -1842,17 +2135,6 @@
      "sel": {
       "cantons": [
        "VD"
-      ]
-     }
-    },
-    {
-     "id": "fribourg",
-     "name": "Fribourg",
-     "kind": "canton",
-     "label": "Canton of Fribourg (capital Fribourg)",
-     "sel": {
-      "cantons": [
-       "FR"
       ]
      }
     },
@@ -2086,6 +2368,60 @@
       ]
      }
     }
+   ],
+   "sources": [
+    {
+     "url": "https://hls-dhs-dss.ch/de/articles/008633/",
+     "title": "HLS: Oberland",
+     "quote": "Vollziehungsrats vom 29.7.1802 wurden Bern und O. über die Personalunion ihrer Statthalterämter vereinigt",
+     "supports": "On 29 July 1802 Bern and the Oberland were put under one governor"
+    },
+    {
+     "url": "https://hls-dhs-dss.ch/de/articles/009797/",
+     "title": "HLS: Helvetische Republik",
+     "quote": "Am 13. August 1802 gab Frankreich sein Einverständnis zur Einverleibung des früher vorderösterreichischen Fricktals .",
+     "supports": "On 13 August 1802 France agreed that the Fricktal could join"
+    },
+    {
+     "url": "https://hls-dhs-dss.ch/de/articles/009797/",
+     "title": "HLS: Helvetische Republik",
+     "quote": "Das Wallis wurde am 27. August 1802 in die Unabhängigkeit entlassen.",
+     "supports": "On 27 August 1802 Valais became independent"
+    },
+    {
+     "url": "https://hls-dhs-dss.ch/de/articles/009797/",
+     "title": "HLS: Helvetische Republik",
+     "quote": "Der Widerstand des Ersten Landammanns Alois Reding gegen die von Frankreich geforderte Abtretung des Wallis",
+     "supports": "France wanted Valais separated"
+    },
+    {
+     "url": "https://hls-dhs-dss.ch/de/articles/009797/",
+     "title": "HLS: Helvetische Republik",
+     "quote": "Ende Juli 1802 zogen die französischen Besatzungstruppen überraschend aus der Helvetischen Republik ab",
+     "supports": "At the end of July 1802 French troops left"
+    },
+    {
+     "url": "https://hls-dhs-dss.ch/de/articles/009797/",
+     "title": "HLS: Helvetische Republik",
+     "quote": "Der sogenannte Stecklikrieg erfasste im September fast sämtliche 19 Kantone und nötigte die Zentralbehörden zur Flucht nach Lausanne.",
+     "supports": "Uprisings (the Stecklikrieg)"
+    },
+    {
+     "url": "https://hls-dhs-dss.ch/de/articles/008634/",
+     "title": "HLS: Säntis (Kanton)",
+     "quote": "doch sagten sich die einzelnen Teile bereits ab August 1802 los.",
+     "supports": "Parts of Säntis broke away"
+    },
+    {
+     "url": "https://hls-dhs-dss.ch/de/articles/009797/",
+     "title": "HLS: Helvetische Republik",
+     "quote": "Die Helvetische Republik wurde erneut von französischen Truppen besetzt.",
+     "supports": "French troops came back"
+    }
+   ],
+   "uncertain": [
+    "France wanted the road over the Simplon pass under its control.",
+    "Parts of Linth also broke away."
    ]
   },
   {
@@ -2370,6 +2706,86 @@
        "AI"
       ]
      }
+    }
+   ],
+   "sources": [
+    {
+     "url": "https://hls-dhs-dss.ch/de/articles/009797/",
+     "title": "HLS: Helvetische Republik",
+     "quote": "Die Mediationsakte vom 19. Februar 1803 besiegelte das Ende der Helvetischen Republik.",
+     "supports": "Act of Mediation of 19 February 1803 ends the Helvetic Republic"
+    },
+    {
+     "url": "https://hls-dhs-dss.ch/de/articles/009797/",
+     "title": "HLS: Helvetische Republik",
+     "quote": "Am 10. März ging die Amtsgewalt der helvetischen Behörden an den Landammann der Schweiz und an die provisorischen kantonalen Regierungskommissionen über.",
+     "supports": "On 10 March 1803 the Helvetic government gave its power to the Landammann"
+    },
+    {
+     "url": "https://hls-dhs-dss.ch/de/articles/026414/",
+     "title": "HLS: Kantone",
+     "quote": "Die Mediationsakte stellte die Souveränität der Kantone wieder her",
+     "supports": "The cantons were states again"
+    },
+    {
+     "url": "https://hls-dhs-dss.ch/de/articles/026414/",
+     "title": "HLS: Kantone",
+     "quote": "Die 13 alten und die 6 neuen Kantone erhielten",
+     "supports": "19 cantons: the 13 old and 6 new ones"
+    },
+    {
+     "url": "https://hls-dhs-dss.ch/de/articles/007390/",
+     "title": "HLS: St. Gallen (Kanton)",
+     "quote": "Die Mediationsakte von 1803 schuf neu den Kanton St. Gallen.",
+     "supports": "St. Gallen is new"
+    },
+    {
+     "url": "https://hls-dhs-dss.ch/de/articles/007391/",
+     "title": "HLS: Graubünden",
+     "quote": "Die föderalistische Mediationsverfassung von 1803, die aus Graubünden einen Kanton der Eidgenossenschaft machte",
+     "supports": "Graubünden is new"
+    },
+    {
+     "url": "https://hls-dhs-dss.ch/de/articles/007392/",
+     "title": "HLS: Aargau",
+     "quote": "Doch erst die Mediationsakte 1803 liess durch den",
+     "supports": "Aargau is new"
+    },
+    {
+     "url": "https://hls-dhs-dss.ch/de/articles/007395/",
+     "title": "HLS: Waadt",
+     "quote": "vom Erlass der Mediationsakte (1803) an Kanton Waadt.",
+     "supports": "Vaud is new"
+    },
+    {
+     "url": "https://hls-dhs-dss.ch/de/articles/007394/",
+     "title": "HLS: Tessin (Kanton)",
+     "quote": "Erst mit der Mediationsakte von 1803 erfolgte die Gründung des Kantons Tessin",
+     "supports": "Ticino is new"
+    },
+    {
+     "url": "https://hls-dhs-dss.ch/de/articles/008922/",
+     "title": "HLS: Wiener Kongress",
+     "quote": "Die ehemaligen zugewandten Orte Wallis, Genf (mit savoyischem Gebiet vergrössert) und das preussische Fürstentum Neuenburg wurden von Frankreich gelöst",
+     "supports": "Valais, Geneva and Neuchâtel join Switzerland only in 1815"
+    },
+    {
+     "url": "https://hls-dhs-dss.ch/de/articles/008922/",
+     "title": "HLS: Wiener Kongress",
+     "quote": "Das französisch besetzte ehemalige Fürstbistum Basel einschliesslich der Stadt Biel fiel an den Kanton Bern",
+     "supports": "The Jura joins in 1815"
+    },
+    {
+     "url": "https://hls-dhs-dss.ch/de/articles/007394/",
+     "title": "HLS: Tessin (Kanton)",
+     "quote": "der eine Verfassung nach dem Willen von Napoleon Bonaparte bekam.",
+     "supports": "Napoleon Bonaparte gave the new order"
+    },
+    {
+     "url": "https://hls-dhs-dss.ch/de/articles/007390/",
+     "title": "HLS: St. Gallen (Kanton)",
+     "quote": "Der Schweiz verordnete Napoleon in der Eröffnungssitzung der Consulta Ende 1802 eine föderalistische Verfassung.",
+     "supports": "Napoleon gave Switzerland a new order"
     }
    ]
   }

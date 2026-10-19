@@ -1,1782 +1,2935 @@
 [
-  {
-    "canton": "FR",
-    "name": "Fribourg",
-    "summary": "Fribourg was founded by the Zähringen in 1157, came under Kyburg, Habsburg and Savoy, then grew by buying and conquering Savoyard and Gruyère land until 1555, shared Murten, Schwarzenburg, Orbe-Echallens and Grandson with Bern until 1798, and got Murten alone in 1803.",
-    "stops": [
-      {
-        "year": 1157,
-        "title": "Zähringen found the town",
-        "text": [
-          "In 1157 Duke Berchtold IV of Zähringen founds the town of Fribourg in a bend of the Saane river. The Zähringen are the strongest lords in this part of the Empire.",
-          "The land around belongs to many lords. The Bishop of Lausanne holds Bulle, Riaz and La Roche. The counts of Gruyère rule the upper Saane valley. Small noble families hold most villages. Murten and Kerzers are old estates of the Burgundian kings."
-        ],
-        "layers": [
-          {
-            "name": "Town of Fribourg",
-            "kind": "lord",
-            "lord": "zahringen",
-            "label": "Town of Fribourg: founded 1157 by the dukes of Zähringen",
-            "sel": {
-              "munis": [
-                2196
-              ]
-            }
-          },
-          {
-            "name": "Bishop of Lausanne",
-            "kind": "lord",
-            "lord": "bishop",
-            "label": "Bishop of Lausanne: Bulle, Riaz, La Roche",
-            "sel": {
-              "munis": [
-                2125,
-                2148,
-                2149
-              ]
-            }
-          },
-          {
-            "name": "Counts of Gruyère",
-            "kind": "lord",
-            "lord": "noble",
-            "label": "Counts of Gruyère",
-            "sel": {
-              "munis": [
-                2135,
-                2121,
-                2162,
-                2134,
-                2145,
-                2124,
-                2163,
-                2128,
-                2130,
-                2123
-              ]
-            }
-          },
-          {
-            "name": "Royal estates",
-            "kind": "lord",
-            "lord": "empire",
-            "label": "Murten and Kerzers: old estates of the Burgundian kings",
-            "sel": {
-              "munis": [
-                2275,
-                2250,
-                2258,
-                2261,
-                2265,
-                2271,
-                2274,
-                2276,
-                2284,
-                2391
-              ]
-            }
-          },
-          {
-            "name": "Local nobles",
-            "kind": "lord",
-            "lord": "noble",
-            "label": "Small noble families (for example Glâne, Montagny, Oltigen)",
-            "sel": {
-              "cantons": [
-                "FR"
-              ]
-            }
-          }
-        ]
-      },
-      {
-        "year": 1277,
-        "title": "Habsburg buys Fribourg",
-        "text": [
-          "In 1218 the Zähringen family dies out. The counts of Kyburg inherit Fribourg. When they die out in 1263, the town puts itself under Count Rudolf of Habsburg.",
-          "In 1277 Rudolf, now king, makes the Kyburg heirs sell the town to his sons. Fribourg stays under Habsburg until 1452.",
-          "In the west, Peter II of Savoy takes Romont, Moudon and Payerne in the years after 1240. About 1255 Murten also comes under Savoy."
-        ],
-        "layers": [
-          {
-            "name": "Fribourg",
-            "kind": "lord",
-            "lord": "habsburg",
-            "label": "Town of Fribourg and its land: Habsburg town from 1277",
-            "sel": {
-              "districts": [
-                1004,
-                1006
-              ],
-              "munis": [
-                2254,
-                2257,
-                2262,
-                2266,
-                2272
-              ]
-            }
-          },
-          {
-            "name": "Bishop of Lausanne",
-            "kind": "lord",
-            "lord": "bishop",
-            "label": "Bishop of Lausanne: Bulle, Riaz, La Roche",
-            "sel": {
-              "munis": [
-                2125,
-                2148,
-                2149
-              ]
-            }
-          },
-          {
-            "name": "Counts of Gruyère",
-            "kind": "lord",
-            "lord": "noble",
-            "label": "Counts of Gruyère",
-            "sel": {
-              "munis": [
-                2135,
-                2121,
-                2162,
-                2134,
-                2145,
-                2124,
-                2163,
-                2128,
-                2130,
-                2123,
-                2138
-              ]
-            }
-          },
-          {
-            "name": "Savoy",
-            "kind": "lord",
-            "lord": "savoy",
-            "label": "Savoy: Romont, Murten (about 1255) and other western land",
-            "sel": {
-              "cantons": [
-                "FR"
-              ]
-            }
-          }
-        ]
-      },
-      {
-        "year": 1452,
-        "title": "Under Savoy overlordship",
-        "text": [
-          "Fribourg now rules its own Old Countryside. In 1423 it buys Grasburg (Schwarzenburg) together with Bern.",
-          "In 1452 Fribourg breaks with Austria (Habsburg) and accepts the Duke of Savoy as its overlord. In 1477 Savoy gives up its rights. Fribourg becomes a free imperial city and joins the Confederation in 1481."
-        ],
-        "layers": [
-          {
-            "name": "Shared with Bern",
-            "kind": "shared",
-            "label": "Grasburg (Schwarzenburg): bought with Bern in 1423",
-            "sel": {
-              "munis": [
-                855,
-                852,
-                853
-              ]
-            }
-          },
-          {
-            "name": "Fribourg",
-            "kind": "core",
-            "label": "Fribourg and its Old Countryside: under Savoy overlordship 1452–1477",
-            "sel": {
-              "districts": [
-                1004,
-                1006
-              ],
-              "munis": [
-                2254,
-                2257,
-                2262,
-                2266,
-                2272
-              ]
-            }
-          },
-          {
-            "name": "Bishop of Lausanne",
-            "kind": "lord",
-            "lord": "bishop",
-            "label": "Bishop of Lausanne: Bulle, Riaz, La Roche",
-            "sel": {
-              "munis": [
-                2125,
-                2148,
-                2149
-              ]
-            }
-          },
-          {
-            "name": "Counts of Gruyère",
-            "kind": "lord",
-            "lord": "noble",
-            "label": "Counts of Gruyère",
-            "sel": {
-              "munis": [
-                2135,
-                2121,
-                2162,
-                2134,
-                2145,
-                2124,
-                2163,
-                2128,
-                2130,
-                2123,
-                2138
-              ]
-            }
-          },
-          {
-            "name": "Savoy",
-            "kind": "lord",
-            "lord": "savoy",
-            "label": "Duchy of Savoy",
-            "sel": {
-              "cantons": [
-                "FR"
-              ]
-            }
-          }
-        ]
-      },
-      {
-        "year": 1481,
-        "title": "Fribourg joins the Confederation",
-        "text": [
-          "In 1481 Fribourg becomes a member of the Confederation. Its land is the city and the 'Old Countryside' (Alte Landschaft) around it. It also owns Montagny, bought in 1478, and Illens and Plaffeien, taken in the Burgundian Wars.",
-          "Fribourg rules some land together with Bern. These are common lordships (land ruled by two or more cantons, through a governor). Grasburg (Schwarzenburg) is shared since 1423. Murten, Grandson, Orbe and Echallens are shared since the Burgundian Wars of 1476.",
-          "Most of the south and west of today's canton still belongs to Savoy, to the Bishop of Lausanne or to the Count of Gruyère."
-        ],
-        "layers": [
-          {
-            "name": "Shared with Bern",
-            "kind": "shared",
-            "label": "Shared with Bern: Murten, Schwarzenburg (Grasburg), Orbe, Echallens, Grandson",
-            "sel": {
-              "munis": [
-                2275,
-                2250,
-                2258,
-                2261,
-                2265,
-                2271,
-                2274,
-                2276,
-                2284,
-                2391,
-                855,
-                852,
-                853,
-                5757,
-                5518,
-                5561
-              ]
-            }
-          },
-          {
-            "name": "Montagny",
-            "kind": "subject",
-            "label": "Montagny: bought by Fribourg in 1478",
-            "sel": {
-              "munis": [
-                2029
-              ]
-            }
-          },
-          {
-            "name": "Fribourg",
-            "kind": "core",
-            "label": "Fribourg: the city and its Old Countryside",
-            "sel": {
-              "districts": [
-                1004,
-                1006,
-                1005
-              ]
-            }
-          },
-          {
-            "name": "Bishop of Lausanne",
-            "kind": "lord",
-            "lord": "bishop",
-            "label": "Bishop of Lausanne: Bulle, Riaz, La Roche",
-            "sel": {
-              "munis": [
-                2125,
-                2148,
-                2149
-              ]
-            }
-          },
-          {
-            "name": "Counts of Gruyère",
-            "kind": "lord",
-            "lord": "noble",
-            "label": "Counts of Gruyère",
-            "sel": {
-              "munis": [
-                2135,
-                2121,
-                2162,
-                2134,
-                2145,
-                2124,
-                2163,
-                2128,
-                2130,
-                2123,
-                2138
-              ]
-            }
-          },
-          {
-            "name": "Savoy",
-            "kind": "lord",
-            "lord": "savoy",
-            "label": "Duchy of Savoy",
-            "sel": {
-              "districts": [
-                1001,
-                1002,
-                1003,
-                1007
-              ]
-            }
-          }
-        ]
-      },
-      {
-        "year": 1537,
-        "title": "Conquests in Savoyard Vaud",
-        "text": [
-          "Fribourg buys more lordships, for example Pont in 1483 and Jaun from 1502.",
-          "In 1536 Bern conquers Vaud from Savoy. Fribourg takes the eastern part: Estavayer, Surpierre, Romont, Rue, Châtel-Saint-Denis, Attalens and Vaulruz. In 1537 it takes Bulle, La Roche and Riaz from the Bishop of Lausanne.",
-          "Fribourg rules the new land as bailiwicks (land ruled by a governor sent from the city)."
-        ],
-        "layers": [
-          {
-            "name": "Shared with Bern",
-            "kind": "shared",
-            "label": "Shared with Bern: Murten, Schwarzenburg, Orbe, Echallens, Grandson",
-            "sel": {
-              "munis": [
-                2275,
-                2250,
-                2258,
-                2261,
-                2265,
-                2271,
-                2274,
-                2276,
-                2284,
-                2391,
-                855,
-                852,
-                853,
-                5757,
-                5518,
-                5561
-              ]
-            }
-          },
-          {
-            "name": "County of Gruyère",
-            "kind": "lord",
-            "label": "County of Gruyère: until 1555",
-            "sel": {
-              "munis": [
-                2135,
-                2121,
-                2162,
-                2134,
-                2145,
-                2124,
-                2163,
-                2128,
-                2130,
-                2123
-              ]
-            },
-            "lord": "noble"
-          },
-          {
-            "name": "Bailiwicks of 1536–1537",
-            "kind": "subject",
-            "label": "Bailiwicks taken from Savoy and the Bishop of Lausanne in 1536–1537",
-            "sel": {
-              "districts": [
-                1001,
-                1002,
-                1007,
-                1003
-              ],
-              "except": [
-                2029,
-                2138
-              ]
-            }
-          },
-          {
-            "name": "Fribourg",
-            "kind": "core",
-            "label": "Fribourg: city, Old Countryside and earlier lordships",
-            "sel": {
-              "districts": [
-                1004,
-                1006,
-                1005
-              ],
-              "munis": [
-                2029,
-                2138
-              ]
-            }
-          }
-        ]
-      },
-      {
-        "year": 1555,
-        "title": "Gruyère divided with Bern",
-        "text": [
-          "In 1555 the last Count of Gruyère goes bankrupt. Fribourg and Bern divide his county.",
-          "Fribourg gets the lower part, from Montbovon to La Tour-de-Trême. Bern gets the upper part (Saanen and the Pays-d'Enhaut).",
-          "Now Fribourg has almost the size of today's canton. It has 19 bailiwicks until 1798."
-        ],
-        "layers": [
-          {
-            "name": "Shared with Bern",
-            "kind": "shared",
-            "label": "Shared with Bern: Murten, Schwarzenburg, Orbe, Echallens, Grandson",
-            "sel": {
-              "munis": [
-                2275,
-                2250,
-                2258,
-                2261,
-                2265,
-                2271,
-                2274,
-                2276,
-                2284,
-                2391,
-                855,
-                852,
-                853,
-                5757,
-                5518,
-                5561
-              ]
-            }
-          },
-          {
-            "name": "Gruyère",
-            "kind": "subject",
-            "label": "Gruyère: Fribourg bailiwick since 1555",
-            "sel": {
-              "munis": [
-                2135,
-                2121,
-                2162,
-                2134,
-                2145,
-                2124,
-                2163,
-                2128,
-                2130,
-                2123
-              ]
-            }
-          },
-          {
-            "name": "Fribourg",
-            "kind": "core",
-            "label": "Fribourg state (city, Old Countryside and bailiwicks)",
-            "sel": {
-              "cantons": [
-                "FR"
-              ]
-            }
-          }
-        ]
-      },
-      {
-        "year": 1798,
-        "title": "Helvetic canton of Fribourg",
-        "text": [
-          "In 1798 the French army ends the old order. Fribourg becomes a canton of the Helvetic Republic. The bailiwicks are gone, and all people have the same rights.",
-          "The common lordships are divided. Murten goes to Fribourg, Schwarzenburg to Bern, and Orbe, Echallens and Grandson to the canton of Léman (Vaud).",
-          "Fribourg also gets the districts of Payerne and Avenches until 1802."
-        ],
-        "layers": [
-          {
-            "name": "Payerne and Avenches",
-            "kind": "core",
-            "label": "Payerne and Avenches: part of Fribourg 1798–1802",
-            "sel": {
-              "munis": [
-                5822,
-                5451,
-                5458,
-                5816
-              ]
-            }
-          },
-          {
-            "name": "Murten",
-            "kind": "core",
-            "label": "Murten: now part of Fribourg",
-            "sel": {
-              "munis": [
-                2275,
-                2250,
-                2258,
-                2261,
-                2265,
-                2271,
-                2274,
-                2276,
-                2284,
-                2391
-              ]
-            }
-          },
-          {
-            "name": "Canton of Fribourg",
-            "kind": "core",
-            "label": "Helvetic canton of Fribourg",
-            "sel": {
-              "cantons": [
-                "FR"
-              ]
-            }
-          },
-          {
-            "name": "Former shared land",
-            "kind": "other",
-            "label": "No longer shared: Schwarzenburg to Bern; Orbe, Echallens, Grandson to Léman",
-            "sel": {
-              "munis": [
-                855,
-                852,
-                853,
-                5757,
-                5518,
-                5561
-              ]
-            }
-          }
-        ]
-      },
-      {
-        "year": 1803,
-        "title": "Canton in its present form",
-        "text": [
-          "In 1802 Payerne and Avenches go back to Vaud. With the Act of Mediation of 1803, Fribourg is a canton again with the borders it has almost today.",
-          "Murten stays with Fribourg. Clavaleyres, a small village near Murten, belongs to Fribourg from 1798 but goes back to Bern in 1807."
-        ],
-        "layers": [
-          {
-            "name": "Murten",
-            "kind": "core",
-            "label": "Murten: Fribourg since 1798/1803",
-            "sel": {
-              "munis": [
-                2275,
-                2250,
-                2258,
-                2261,
-                2265,
-                2271,
-                2274,
-                2276,
-                2284,
-                2391
-              ]
-            }
-          },
-          {
-            "name": "Canton of Fribourg",
-            "kind": "core",
-            "label": "Canton of Fribourg",
-            "sel": {
-              "cantons": [
-                "FR"
-              ]
-            }
-          }
-        ]
-      },
-      {
-        "year": 2022,
-        "title": "Clavaleyres joins Fribourg",
-        "text": [
-          "In 2022 the Bernese village of Clavaleyres merges with Murten. With this, it changes from the canton of Bern to the canton of Fribourg.",
-          "This is the last change to the borders of Fribourg."
-        ],
-        "layers": [
-          {
-            "name": "Murten with Clavaleyres",
-            "kind": "core",
-            "label": "Murten: includes Clavaleyres since 2022",
-            "sel": {
-              "munis": [
-                2275
-              ]
-            }
-          },
-          {
-            "name": "Canton of Fribourg",
-            "kind": "core",
-            "label": "Canton of Fribourg today",
-            "sel": {
-              "cantons": [
-                "FR"
-              ]
-            }
-          }
-        ]
+ {
+  "canton": "FR",
+  "name": "Fribourg",
+  "summary": "Fribourg was founded by the Zähringen in 1157, came under Kyburg, Habsburg and Savoy, then grew by buying and conquering Savoyard and Gruyère land until 1555, shared Murten, Schwarzenburg, Orbe-Echallens and Grandson with Bern until 1798, and got Murten alone in 1803.",
+  "stops": [
+   {
+    "year": 1157,
+    "title": "Zähringen found the town",
+    "text": [
+     "In 1157 Duke Berchtold IV of Zähringen founds the town of Fribourg in a bend of the Saane river. The Zähringen are the strongest lords in this part of the Empire.",
+     "The land around belongs to many lords. The Bishop of Lausanne holds Bulle, Riaz and La Roche. The counts of Gruyère rule the upper Saane valley. Small noble families hold most villages. Murten and Kerzers are old estates of the Burgundian kings."
+    ],
+    "layers": [
+     {
+      "name": "Town of Fribourg",
+      "kind": "lord",
+      "lord": "zahringen",
+      "label": "Town of Fribourg: founded 1157 by the dukes of Zähringen",
+      "sel": {
+       "munis": [
+        2196
+       ]
       }
+     },
+     {
+      "name": "Bishop of Lausanne",
+      "kind": "lord",
+      "lord": "bishop",
+      "label": "Bishop of Lausanne: Bulle, Riaz, La Roche",
+      "sel": {
+       "munis": [
+        2125,
+        2148,
+        2149
+       ]
+      }
+     },
+     {
+      "name": "Counts of Gruyère",
+      "kind": "lord",
+      "lord": "noble",
+      "label": "Counts of Gruyère",
+      "sel": {
+       "munis": [
+        2135,
+        2121,
+        2162,
+        2134,
+        2145,
+        2124,
+        2163,
+        2128,
+        2130,
+        2123
+       ]
+      }
+     },
+     {
+      "name": "Royal estates",
+      "kind": "lord",
+      "lord": "empire",
+      "label": "Murten and Kerzers: old estates of the Burgundian kings",
+      "sel": {
+       "munis": [
+        2275,
+        2250,
+        2258,
+        2261,
+        2265,
+        2271,
+        2274,
+        2276,
+        2284,
+        2391
+       ]
+      }
+     },
+     {
+      "name": "Local nobles",
+      "kind": "lord",
+      "lord": "noble",
+      "label": "Small noble families (for example Glâne, Montagny, Oltigen)",
+      "sel": {
+       "cantons": [
+        "FR"
+       ]
+      }
+     }
     ],
     "sources": [
-      "https://hls-dhs-dss.ch/de/articles/007379/2023-03-09/",
-      "https://hls-dhs-dss.ch/de/articles/007395/",
-      "https://hls-dhs-dss.ch/de/articles/008631/"
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007379/",
+      "title": "HLS: Freiburg (Kanton)",
+      "quote": "in einer Saaneschleife gründete er 1157 die Stadt Freiburg.",
+      "supports": "In 1157 Berchtold IV of Zähringen founds Fribourg in a bend of the Saane"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007383/",
+      "title": "HLS: Bern (Kanton)",
+      "quote": "Durch Paktieren mit Anwärtern auf den deutschen Königsthron erhielten sie 1127 das Rektorat (Stellvertretung des Königs) in Burgund.",
+      "supports": "The Zähringen are the strongest lords in this part of the Empire (rectors of Burgundy)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007379/",
+      "title": "HLS: Freiburg (Kanton)",
+      "quote": "ebenso die bischöflichen Orte Bulle, Riaz und La Roche",
+      "supports": "The Bishop of Lausanne holds Bulle, Riaz and La Roche"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008148/",
+      "title": "HLS: Greyerz (Grafschaft, Bezirk)",
+      "quote": "umfasste 1228 die Pfarreien Albeuve, Broc, Château-d'Œx, Grandvillard, Rougemont und Saanen",
+      "supports": "The counts of Gruyère rule the upper Saane valley"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007379/",
+      "title": "HLS: Freiburg (Kanton)",
+      "quote": "der sich den umliegenden Adel (Greyerz, Aarberg/Arconciel, Montagny, Corbières, Englisberg) und die befestigten Plätze Moudon, Romont und Payerne gefügig gemacht hatte",
+      "supports": "Small noble families hold most villages"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007379/",
+      "title": "HLS: Freiburg (Kanton)",
+      "quote": "in Font, Payerne, Cudrefin, Murten/Muntelier, Kerzers und Bümpliz",
+      "supports": "Murten and Kerzers are old estates of the Burgundian kings"
+     }
+    ]
+   },
+   {
+    "year": 1277,
+    "title": "Habsburg buys Fribourg",
+    "text": [
+     "In 1218 the Zähringen family dies out. The counts of Kyburg inherit Fribourg. When they die out in 1263, the town puts itself under Count Rudolf of Habsburg.",
+     "In 1277 Rudolf, now king, makes the Kyburg heirs sell the town to his sons. Fribourg stays under Habsburg until 1452.",
+     "In the west, Peter II of Savoy takes Romont, Moudon and Payerne in the years after 1240. About 1255 Murten also comes under Savoy."
     ],
-    "notes": "Old Countryside drawn as today's districts Sarine, Sense and the non-Murten part of Lac; parts of Sarine (e.g. Pont, bought 1483) were added slightly later. Murten common lordship drawn as Murten, Courgevaux, Greng, Meyriez, Muntelier, Kerzers, Fräschels, Ried, Mont-Vully and Galm; Orbe, Echallens and Grandson as the towns only. Jaun (from 1502) shown with the core in 1537. County of Gruyère drawn as Gruyères, Intyamon, Grandvillard, Le Pâquier, Broc, Charmey area; Bulle includes La Tour-de-Trême, which really came in 1555. Payerne and Avenches districts 1798–1802 drawn as Payerne, Avenches, Faoug and Corcelles-près-Payerne only. Clavaleyres cannot be drawn alone (now part of Murten). Early stops: lord areas are approximate; the 1157 'small noble families' layer simply covers the rest of today's canton. Habsburg Fribourg in 1277 drawn as the later Old Countryside, which the town only built up in the 14th–15th centuries."
-  },
-  {
-    "canton": "VD",
-    "name": "Vaud",
-    "summary": "Vaud was given to the Bishop of Lausanne in 1011 and taken over by Savoy in the 13th century; Bern conquered it step by step (Aigle 1475, most of Vaud 1536, Pays-d'Enhaut 1555), shared Orbe-Echallens and Grandson with Fribourg, and Vaud became a free canton in 1798–1803.",
-    "stops": [
-      {
-        "year": 1011,
-        "title": "County of Vaud to the bishop",
-        "text": [
-          "Vaud is part of the Kingdom of Burgundy. In 1011 King Rudolf III gives the county of Vaud to the Bishop of Lausanne. The bishop gets the rights of a count (judge and ruler) in the region.",
-          "After 1032 the kingdom goes to the German emperors. Many noble families and monasteries also hold land in Vaud."
-        ],
-        "layers": [
-          {
-            "name": "Chablais",
-            "kind": "lord",
-            "lord": "empire",
-            "label": "Aigle and the Chablais: Burgundian royal land (Abbey of Saint-Maurice nearby)",
-            "sel": {
-              "districts": [
-                2221
-              ]
-            }
-          },
-          {
-            "name": "County of Vaud",
-            "kind": "lord",
-            "lord": "bishop",
-            "label": "County of Vaud: Bishop of Lausanne from 1011",
-            "sel": {
-              "cantons": [
-                "VD"
-              ]
-            }
-          }
-        ]
-      },
-      {
-        "year": 1260,
-        "title": "Savoy takes over Vaud",
-        "text": [
-          "In the 13th century the counts of Savoy come into Vaud. In 1219 the bishop gives Moudon to Savoy as a fief (land held from a higher lord).",
-          "From 1240 to 1260 Peter II of Savoy wins the loyalty of most lords of Vaud. He also gets Payerne. Savoy already holds the Chablais around Aigle.",
-          "The bishop keeps Lausanne, Lavaux, Lucens and Avenches. Other lords keep their land as Savoyard fiefs, for example the lords of Grandson and the counts of Gruyère in the Pays-d'Enhaut."
-        ],
-        "layers": [
-          {
-            "name": "Bishop of Lausanne",
-            "kind": "lord",
-            "lord": "bishop",
-            "label": "Bishop of Lausanne: Lausanne, Lavaux, Lucens, Avenches",
-            "sel": {
-              "munis": [
-                5586,
-                5606,
-                5613,
-                5601,
-                5607,
-                5609,
-                5610,
-                5675,
-                5451
-              ]
-            }
-          },
-          {
-            "name": "Lords of Grandson",
-            "kind": "lord",
-            "lord": "noble",
-            "label": "Lords of Grandson",
-            "sel": {
-              "munis": [
-                5561
-              ]
-            }
-          },
-          {
-            "name": "Counts of Gruyère",
-            "kind": "lord",
-            "lord": "noble",
-            "label": "Pays-d'Enhaut: counts of Gruyère",
-            "sel": {
-              "munis": [
-                5841,
-                5842,
-                5843
-              ]
-            }
-          },
-          {
-            "name": "Savoy",
-            "kind": "lord",
-            "lord": "savoy",
-            "label": "Savoy: Pays de Vaud and the Chablais",
-            "sel": {
-              "cantons": [
-                "VD"
-              ]
-            }
-          }
-        ]
-      },
-      {
-        "year": 1476,
-        "title": "Burgundian Wars: first Swiss conquests",
-        "text": [
-          "Most of Vaud belongs to the Duke of Savoy. The Bishop of Lausanne rules Lausanne and Lavaux.",
-          "In the Burgundian Wars (1474–1476) Bern takes Aigle and Bex. Bern and Fribourg take Grandson, Orbe and Echallens. They rule them together as common lordships (land ruled by two cantons through a governor). This lasts until 1798."
-        ],
-        "layers": [
-          {
-            "name": "Shared Bern and Fribourg",
-            "kind": "shared",
-            "label": "Grandson, Orbe, Echallens: ruled by Bern and Fribourg together",
-            "sel": {
-              "munis": [
-                5561,
-                5757,
-                5518
-              ]
-            }
-          },
-          {
-            "name": "Aigle",
-            "kind": "subject",
-            "label": "Aigle, Bex, Ollon, Ormonts: ruled by Bern since 1475",
-            "sel": {
-              "districts": [
-                2221
-              ]
-            }
-          },
-          {
-            "name": "Bishop of Lausanne",
-            "kind": "lord",
-            "lord": "bishop",
-            "label": "Bishop of Lausanne: Lausanne and Lavaux",
-            "sel": {
-              "munis": [
-                5586,
-                5606,
-                5613,
-                5601,
-                5607,
-                5609,
-                5610
-              ]
-            }
-          },
-          {
-            "name": "Counts of Gruyère",
-            "kind": "lord",
-            "lord": "noble",
-            "label": "Pays-d'Enhaut: counts of Gruyère",
-            "sel": {
-              "munis": [
-                5841,
-                5842,
-                5843
-              ]
-            }
-          },
-          {
-            "name": "Savoy",
-            "kind": "lord",
-            "lord": "savoy",
-            "label": "Pays de Vaud: Duchy of Savoy",
-            "sel": {
-              "cantons": [
-                "VD"
-              ]
-            }
-          }
-        ]
-      },
-      {
-        "year": 1555,
-        "title": "Bernese Vaud",
-        "text": [
-          "In 1536 Bern conquers Vaud from Savoy. It also takes Lausanne from the bishop and brings the Reformation. Fribourg takes the eastern part (today in the canton of Fribourg).",
-          "Bern divides Vaud into bailiwicks (land ruled by a governor sent from Bern). In 1555 Bern adds the Pays-d'Enhaut from the bankrupt Count of Gruyère.",
-          "Bern also holds Gex and land south of Lake Geneva, but gives it back to Savoy in 1564–1567. Vaud stays under Bern until 1798."
-        ],
-        "layers": [
-          {
-            "name": "Shared Bern and Fribourg",
-            "kind": "shared",
-            "label": "Grandson, Orbe, Echallens: ruled by Bern and Fribourg together",
-            "sel": {
-              "munis": [
-                5561,
-                5757,
-                5518
-              ]
-            }
-          },
-          {
-            "name": "Aigle",
-            "kind": "subject",
-            "label": "Aigle: ruled by Bern since 1475",
-            "sel": {
-              "districts": [
-                2221
-              ]
-            }
-          },
-          {
-            "name": "Pays-d'Enhaut",
-            "kind": "subject",
-            "label": "Pays-d'Enhaut: Bernese bailiwick since 1555",
-            "sel": {
-              "munis": [
-                5841,
-                5842,
-                5843
-              ]
-            }
-          },
-          {
-            "name": "Pays de Vaud",
-            "kind": "core",
-            "label": "Pays de Vaud: Bernese bailiwicks since 1536 (not a canton yet)",
-            "sel": {
-              "cantons": [
-                "VD"
-              ]
-            }
-          }
-        ]
-      },
-      {
-        "year": 1798,
-        "title": "Lemanic Republic and canton Léman",
-        "text": [
-          "In January 1798 Vaud breaks free from Bern and declares the Lemanic Republic. Soon after, it becomes the canton of Léman in the Helvetic Republic.",
-          "The common lordships and Aigle join the new canton. But the districts of Payerne and Avenches go to the canton of Fribourg until 1802."
-        ],
-        "layers": [
-          {
-            "name": "Payerne and Avenches",
-            "kind": "other",
-            "label": "Payerne and Avenches: part of canton Fribourg 1798–1802",
-            "sel": {
-              "munis": [
-                5822,
-                5451,
-                5458,
-                5816
-              ]
-            }
-          },
-          {
-            "name": "Canton of Léman",
-            "kind": "core",
-            "label": "Canton of Léman (Helvetic Republic)",
-            "sel": {
-              "cantons": [
-                "VD"
-              ]
-            }
-          }
-        ]
-      },
-      {
-        "year": 1803,
-        "title": "Canton of Vaud",
-        "text": [
-          "In 1802 Payerne and Avenches come back. With the Act of Mediation of 1803, Vaud becomes a full canton of the Confederation.",
-          "Since then, the borders have almost not changed. Only in 1862 a treaty with France changes the border in the Vallée des Dappes, a small valley in the Jura."
-        ],
-        "layers": [
-          {
-            "name": "Canton of Vaud",
-            "kind": "core",
-            "label": "Canton of Vaud: member since 1803",
-            "sel": {
-              "cantons": [
-                "VD"
-              ]
-            }
-          }
-        ]
+    "layers": [
+     {
+      "name": "Fribourg",
+      "kind": "lord",
+      "lord": "habsburg",
+      "label": "Town of Fribourg and its land: Habsburg town from 1277",
+      "sel": {
+       "districts": [
+        1004,
+        1006
+       ],
+       "munis": [
+        2254,
+        2257,
+        2262,
+        2266,
+        2272
+       ]
       }
+     },
+     {
+      "name": "Bishop of Lausanne",
+      "kind": "lord",
+      "lord": "bishop",
+      "label": "Bishop of Lausanne: Bulle, Riaz, La Roche",
+      "sel": {
+       "munis": [
+        2125,
+        2148,
+        2149
+       ]
+      }
+     },
+     {
+      "name": "Counts of Gruyère",
+      "kind": "lord",
+      "lord": "noble",
+      "label": "Counts of Gruyère",
+      "sel": {
+       "munis": [
+        2135,
+        2121,
+        2162,
+        2134,
+        2145,
+        2124,
+        2163,
+        2128,
+        2130,
+        2123,
+        2138
+       ]
+      }
+     },
+     {
+      "name": "Savoy",
+      "kind": "lord",
+      "lord": "savoy",
+      "label": "Savoy: Romont, Murten (about 1255) and other western land",
+      "sel": {
+       "cantons": [
+        "FR"
+       ]
+      }
+     }
     ],
     "sources": [
-      "https://hls-dhs-dss.ch/de/articles/007395/",
-      "https://hls-dhs-dss.ch/de/articles/008631/",
-      "https://hls-dhs-dss.ch/de/articles/007568/2017-01-06/",
-      "https://hls-dhs-dss.ch/de/articles/007587/",
-      "https://hls-dhs-dss.ch/de/articles/007379/2023-03-09/"
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007379/",
+      "title": "HLS: Freiburg (Kanton)",
+      "quote": "erbte Ulrich III. von Kyburg als Schwestersohn dessen Rechte und Güter in der Westschweiz",
+      "supports": "In 1218 the Zähringen die out; the Kyburg counts inherit Fribourg"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007379/",
+      "title": "HLS: Freiburg (Kanton)",
+      "quote": "Nach dem Tod Hartmanns V. von Kyburg 1263 stellte sich Freiburg unter den Schutz des Grafen Rudolf von Habsburg, des künftigen Königs.",
+      "supports": "In 1263 the town puts itself under Rudolf of Habsburg"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007379/",
+      "title": "HLS: Freiburg (Kanton)",
+      "quote": "drängte Rudolf von Habsburg die überschuldeten kyburgischen Erben 1277 zum Verkauf von Freiburg an seine Söhne",
+      "supports": "In 1277 Rudolf, now king, makes the Kyburg heirs sell the town to his sons"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007379/",
+      "title": "HLS: Freiburg (Kanton)",
+      "quote": "Während der langen Zeit der habsburgischen Stadtherrschaft (1277-1452)",
+      "supports": "Fribourg stays under Habsburg until 1452"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007395/",
+      "title": "HLS: Waadt",
+      "quote": "Mit dem Erwerb der Vogtei Payerne schuf sich Peter II. 1240 ein ansehnliches Obereigentum, bestehend aus den Kastlaneien Moudon, Romont, Rue, Yverdon und Les Clées.",
+      "supports": "Peter II of Savoy takes Romont, Moudon and Payerne after 1240"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/001014/",
+      "title": "HLS: Murten (Gemeinde)",
+      "quote": "1255 stellte sich die Stadt unter den Schutz von Graf Peter II. von Savoyen.",
+      "supports": "About 1255 Murten comes under Savoy"
+     }
+    ]
+   },
+   {
+    "year": 1452,
+    "title": "Under Savoy overlordship",
+    "text": [
+     "Fribourg now rules its own Old Countryside. In 1423 it buys Grasburg (Schwarzenburg) together with Bern.",
+     "In 1452 Fribourg breaks with Austria (Habsburg) and accepts the Duke of Savoy as its overlord. In 1477 Savoy gives up its rights. Fribourg becomes a free imperial city and joins the Confederation in 1481."
     ],
-    "notes": "Before 1798 Vaud was not a canton; its main body is drawn as 'core' only so the map has a base, and the label says who ruled it. Grandson, Orbe and Echallens drawn as the towns only (the lordships were larger). Lausanne in 1476 drawn as the city only (the bishop also held Lavaux and other land). Payerne and Avenches districts 1798–1802 drawn as Payerne, Avenches, Faoug and Corcelles-près-Payerne. The 1862 Dappes change is too small to draw. Early stops: Lavaux drawn as Lutry, Bourg-en-Lavaux, Chexbres, Puidoux, Rivaz and Saint-Saphorin; lords of Grandson drawn as the town only. The 1011 stop simplifies: the bishop had count's rights, but much land was held by other lords and monasteries."
-  },
-  {
-    "canton": "VS",
-    "name": "Valais",
-    "summary": "Valais was given to the Bishop of Sion in 999 and divided with Savoy in 1392; the seven Zenden of Upper Valais then conquered Lower Valais in 1475 and 1536 and ruled it until 1798, and after Helvetic, independent and French years Valais joined the Confederation as a canton in 1815.",
-    "stops": [
-      {
-        "year": 999,
-        "title": "Bishop of Sion becomes count",
-        "text": [
-          "In 999 King Rudolf III of Burgundy gives the county of Valais to the Bishop of Sion. So the bishop is also the lord of the land. From 1032 he is directly under the emperor.",
-          "In the west, the old Abbey of Saint-Maurice holds much land. From the 12th century the counts of Savoy are its protectors and rule the Chablais."
-        ],
-        "layers": [
-          {
-            "name": "Abbey of Saint-Maurice",
-            "kind": "lord",
-            "lord": "abbey",
-            "label": "Abbey of Saint-Maurice and the Chablais (later Savoy)",
-            "sel": {
-              "districts": [
-                2310,
-                2308
-              ]
-            }
-          },
-          {
-            "name": "Bishop of Sion",
-            "kind": "lord",
-            "lord": "bishop",
-            "label": "Prince-Bishop of Sion: county of Valais from 999",
-            "sel": {
-              "cantons": [
-                "VS"
-              ]
-            }
-          }
-        ]
-      },
-      {
-        "year": 1392,
-        "title": "Bishop and Savoy divide Valais",
-        "text": [
-          "In the 13th century Savoy pushes up the valley towards Sion. The village communities grow strong and become the Zenden (dizains).",
-          "In 1384 Savoy takes Martigny and Ardon-Chamoson. The peace of 1392 divides Valais: above the Morge stream near Conthey is the bishop and the Zenden, below it is Savoy.",
-          "In 1403 the bishop and the Zenden make a permanent alliance with Lucerne, Uri and Unterwalden."
-        ],
-        "layers": [
-          {
-            "name": "Savoy",
-            "kind": "lord",
-            "lord": "savoy",
-            "label": "Lower Valais: Savoy (border at the Morge of Conthey)",
-            "sel": {
-              "districts": [
-                2302,
-                2307,
-                2303,
-                2310,
-                2308
-              ]
-            }
-          },
-          {
-            "name": "Bishop of Sion and Zenden",
-            "kind": "lord",
-            "lord": "bishop",
-            "label": "Upper Valais: Bishop of Sion and the Zenden",
-            "sel": {
-              "cantons": [
-                "VS"
-              ]
-            }
-          }
-        ]
-      },
-      {
-        "year": 1416,
-        "title": "Upper Valais allies with Swiss",
-        "text": [
-          "Upper Valais is a land of seven communities, the Zenden (dizains), under the Bishop of Sion. In 1416–1417 they make an alliance with Lucerne, Uri and Unterwalden. So Valais becomes an ally (zugewandter Ort) of the Confederation, not a full member.",
-          "Lower Valais, west of the Morge stream near Sion, belongs to the Duke of Savoy."
-        ],
-        "layers": [
-          {
-            "name": "Seven Zenden",
-            "kind": "core",
-            "label": "Upper Valais: the seven Zenden and the Bishop of Sion",
-            "sel": {
-              "districts": [
-                2304,
-                2301,
-                2313,
-                2309,
-                2306,
-                2311,
-                2312,
-                2305
-              ]
-            }
-          },
-          {
-            "name": "Savoyard Lower Valais",
-            "kind": "lord",
-            "label": "Lower Valais: Savoy",
-            "sel": {
-              "cantons": [
-                "VS"
-              ]
-            },
-            "lord": "savoy"
-          }
-        ]
-      },
-      {
-        "year": 1475,
-        "title": "Conquest of Lower Valais",
-        "text": [
-          "In the Burgundian Wars, the Upper Valaisans beat the Savoyard army at the Planta near Sion in 1475. They take Lower Valais down to Saint-Maurice.",
-          "The Zenden rule this land as a subject land (land with no vote, ruled by governors). Also in 1475 Valais makes an alliance with Bern."
-        ],
-        "layers": [
-          {
-            "name": "Monthey",
-            "kind": "lord",
-            "label": "Monthey area: still Savoy",
-            "sel": {
-              "districts": [
-                2308
-              ]
-            },
-            "lord": "savoy"
-          },
-          {
-            "name": "Lower Valais",
-            "kind": "subject",
-            "label": "Lower Valais to Saint-Maurice: ruled by the Zenden since 1475",
-            "sel": {
-              "districts": [
-                2302,
-                2307,
-                2303,
-                2310
-              ]
-            }
-          },
-          {
-            "name": "Seven Zenden",
-            "kind": "core",
-            "label": "Upper Valais: the seven Zenden",
-            "sel": {
-              "cantons": [
-                "VS"
-              ]
-            }
-          }
-        ]
-      },
-      {
-        "year": 1569,
-        "title": "Monthey kept, Chablais returned",
-        "text": [
-          "In 1536 the Upper Valaisans take the rest of the Savoyard Chablais, south of Lake Geneva, as far as Evian.",
-          "In the Treaty of Thonon of 1569 Valais gives Evian and the Aulps valley back to Savoy. It keeps Monthey. The border is now at the Morge stream at Saint-Gingolph. Since then, the outer border of Valais has hardly changed."
-        ],
-        "layers": [
-          {
-            "name": "Lower Valais",
-            "kind": "subject",
-            "label": "Lower Valais with Monthey: ruled by the Zenden",
-            "sel": {
-              "districts": [
-                2302,
-                2307,
-                2303,
-                2310,
-                2308
-              ]
-            }
-          },
-          {
-            "name": "Seven Zenden",
-            "kind": "core",
-            "label": "Upper Valais: the seven Zenden",
-            "sel": {
-              "cantons": [
-                "VS"
-              ]
-            }
-          }
-        ]
-      },
-      {
-        "year": 1798,
-        "title": "Lower Valais free, Helvetic canton",
-        "text": [
-          "In early 1798 Lower Valais declares itself free, and Upper Valais accepts this. Then Valais becomes a canton of the Helvetic Republic. All its people now have the same rights."
-        ],
-        "layers": [
-          {
-            "name": "Canton of Valais",
-            "kind": "core",
-            "label": "Canton of Valais (Helvetic Republic)",
-            "sel": {
-              "cantons": [
-                "VS"
-              ]
-            }
-          }
-        ]
-      },
-      {
-        "year": 1810,
-        "title": "French département of Simplon",
-        "text": [
-          "In 1802 Napoleon makes Valais a separate state, the Rhodanic Republic. He wants the road over the Simplon Pass.",
-          "In 1810 France annexes Valais. It becomes the French département (province) of Simplon until 1813."
-        ],
-        "layers": [
-          {
-            "name": "Département du Simplon",
-            "kind": "core",
-            "label": "Valais: French département of Simplon 1810–1813",
-            "sel": {
-              "cantons": [
-                "VS"
-              ]
-            }
-          }
-        ]
-      },
-      {
-        "year": 1815,
-        "title": "Valais joins as a canton",
-        "text": [
-          "In 1815 Valais joins the Confederation as a full canton, together with Neuchâtel and Geneva.",
-          "Since then, the borders have not changed."
-        ],
-        "layers": [
-          {
-            "name": "Canton of Valais",
-            "kind": "core",
-            "label": "Canton of Valais: member since 1815",
-            "sel": {
-              "cantons": [
-                "VS"
-              ]
-            }
-          }
-        ]
+    "layers": [
+     {
+      "name": "Shared with Bern",
+      "kind": "shared",
+      "label": "Grasburg (Schwarzenburg): bought with Bern in 1423",
+      "sel": {
+       "munis": [
+        855,
+        852,
+        853
+       ]
       }
+     },
+     {
+      "name": "Fribourg",
+      "kind": "core",
+      "label": "Fribourg and its Old Countryside: under Savoy overlordship 1452–1477",
+      "sel": {
+       "districts": [
+        1004,
+        1006
+       ],
+       "munis": [
+        2254,
+        2257,
+        2262,
+        2266,
+        2272
+       ]
+      }
+     },
+     {
+      "name": "Bishop of Lausanne",
+      "kind": "lord",
+      "lord": "bishop",
+      "label": "Bishop of Lausanne: Bulle, Riaz, La Roche",
+      "sel": {
+       "munis": [
+        2125,
+        2148,
+        2149
+       ]
+      }
+     },
+     {
+      "name": "Counts of Gruyère",
+      "kind": "lord",
+      "lord": "noble",
+      "label": "Counts of Gruyère",
+      "sel": {
+       "munis": [
+        2135,
+        2121,
+        2162,
+        2134,
+        2145,
+        2124,
+        2163,
+        2128,
+        2130,
+        2123,
+        2138
+       ]
+      }
+     },
+     {
+      "name": "Savoy",
+      "kind": "lord",
+      "lord": "savoy",
+      "label": "Duchy of Savoy",
+      "sel": {
+       "cantons": [
+        "FR"
+       ]
+      }
+     }
     ],
     "sources": [
-      "https://hls-dhs-dss.ch/articles/007396",
-      "https://hls-dhs-dss.ch/de/articles/008408/2011-02-02/",
-      "https://hls-dhs-dss.ch/de/articles/008412/2017-03-13/",
-      "https://hls-dhs-dss.ch/textes/d/D24651.php",
-      "https://hls-dhs-dss.ch/articles/008414/2010-07-21/"
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007379/",
+      "title": "HLS: Freiburg (Kanton)",
+      "quote": "die Alte Landschaft durch den Kauf der thiersteinischen Lehen 1418/1442 zu ergänzen und zusammen mit Bern 1423 die gemeine Herrschaft Grasburg zu erwerben",
+      "supports": "Fribourg rules its Old Countryside; in 1423 it buys Grasburg with Bern"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007379/",
+      "title": "HLS: Freiburg (Kanton)",
+      "quote": "1452 sagte sich Freiburg von Österreich los und unterwarf sich Savoyen",
+      "supports": "In 1452 Fribourg breaks with Austria and accepts Savoy as overlord"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007379/",
+      "title": "HLS: Freiburg (Kanton)",
+      "quote": "1477 verzichtete Herzogin Jolanda von Savoyen auf ihre Rechte über Freiburg, das damit reichsfrei wurde (Reichsunmittelbarkeit)",
+      "supports": "In 1477 Savoy gives up its rights; Fribourg becomes a free imperial city"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007379/",
+      "title": "HLS: Freiburg (Kanton)",
+      "quote": "1481 durch das Stanser Verkommnis – mit Berner Unterstützung und trotz des Widerstands der Länderorte – der Eidgenossenschaft beitreten konnte",
+      "supports": "Fribourg joins the Confederation in 1481"
+     }
+    ]
+   },
+   {
+    "year": 1481,
+    "title": "Fribourg joins the Confederation",
+    "text": [
+     "In 1481 Fribourg becomes a member of the Confederation. Its land is the city and the 'Old Countryside' (Alte Landschaft) around it. It also owns Montagny, bought in 1478, and Illens and Plaffeien, taken in the Burgundian Wars.",
+     "Fribourg rules some land together with Bern. These are common lordships (land ruled by two or more cantons, through a governor). Grasburg (Schwarzenburg) is shared since 1423. Murten, Grandson, Orbe and Echallens are shared since the Burgundian Wars of 1476.",
+     "Most of the south and west of today's canton still belongs to Savoy, to the Bishop of Lausanne or to the Count of Gruyère."
     ],
-    "notes": "The seven Zenden drawn as today's districts Goms, Brig, Visp, Raron, Leuk, Sierre, Sion and Hérens (Hérens counted with the Sion Zenden). Savoyard Lower Valais before 1475 drawn as districts Conthey, Martigny, Entremont, Saint-Maurice and Monthey; the real border at the Morge near Sion and the status of Martigny (episcopal but Savoyard-held) are simplified. The Chablais land 1536–1569 (Evian, Aulps) is outside Switzerland and is in the text only. The 999 stop simplifies: Savoy's rule in the Chablais grew only from the 12th century. In 1392 Martigny is drawn whole with Savoy."
-  },
-  {
-    "canton": "NE",
-    "name": "Neuchâtel",
-    "summary": "Neuchâtel was a castle of the Burgundian kings, then a county of its own noble family allied with the Swiss; it united with Valangin in 1592, came under the King of Prussia in 1707, joined the Confederation as a canton in 1814/1815 and became a republic in 1848.",
-    "stops": [
-      {
-        "year": 1011,
-        "title": "Castle in the Kingdom of Burgundy",
-        "text": [
-          "In 1011 Neuchâtel ('new castle') is named for the first time. King Rudolf III of Burgundy gives it, with other royal estates, to his bride Irmingard.",
-          "After 1032 the land belongs to the Empire."
-        ],
-        "layers": [
-          {
-            "name": "Kingdom of Burgundy",
-            "kind": "lord",
-            "lord": "empire",
-            "label": "Kingdom of Burgundy, from 1032 the Empire",
-            "sel": {
-              "cantons": [
-                "NE"
-              ]
-            }
-          }
-        ]
-      },
-      {
-        "year": 1250,
-        "title": "Lords of Neuchâtel and Valangin",
-        "text": [
-          "A noble family takes the name of Neuchâtel and rules the land. In 1214 the town of Neuchâtel gets a charter of freedoms. About 1218 the family divides its land.",
-          "Valangin, with the Val-de-Ruz and later the mountains, goes to a related branch (Aarberg). It is first named in 1242. In 1288 the counts lose their direct link to the emperor and come under the Chalon family."
-        ],
-        "layers": [
-          {
-            "name": "Lordship of Valangin",
-            "kind": "lord",
-            "lord": "noble",
-            "label": "Lordship of Valangin (Aarberg-Valangin family)",
-            "sel": {
-              "munis": [
-                6487,
-                6421,
-                6436,
-                6423,
-                6422,
-                6437,
-                6433,
-                6435
-              ]
-            }
-          },
-          {
-            "name": "Le Cerneux-Péquignot",
-            "kind": "other",
-            "label": "Le Cerneux-Péquignot: County of Burgundy (Franche-Comté)",
-            "sel": {
-              "munis": [
-                6434
-              ]
-            }
-          },
-          {
-            "name": "County of Neuchâtel",
-            "kind": "lord",
-            "lord": "noble",
-            "label": "Lords (later counts) of Neuchâtel",
-            "sel": {
-              "cantons": [
-                "NE"
-              ]
-            }
-          }
-        ]
-      },
-      {
-        "year": 1406,
-        "title": "County allied with Bern",
-        "text": [
-          "Neuchâtel is a county. From 1395 it belongs to the counts of Freiburg (in Breisgau). The count has alliances of citizenship (Burgrecht) with Swiss cities: with Bern since 1406 as a permanent alliance, and with Fribourg and Solothurn. So it is an ally of the Swiss, not a member.",
-          "The mountains and the Val-de-Ruz form a separate lordship, Valangin."
-        ],
-        "layers": [
-          {
-            "name": "Lordship of Valangin",
-            "kind": "lord",
-            "label": "Lordship of Valangin (Aarberg-Valangin family)",
-            "sel": {
-              "munis": [
-                6487,
-                6421,
-                6436,
-                6423,
-                6422,
-                6437,
-                6433,
-                6435
-              ]
-            },
-            "lord": "noble"
-          },
-          {
-            "name": "Le Cerneux-Péquignot",
-            "kind": "other",
-            "label": "Le Cerneux-Péquignot: part of Franche-Comté (later France)",
-            "sel": {
-              "munis": [
-                6434
-              ]
-            }
-          },
-          {
-            "name": "County of Neuchâtel",
-            "kind": "lord",
-            "label": "County of Neuchâtel: counts of Freiburg from 1395 (ally of the Swiss)",
-            "sel": {
-              "cantons": [
-                "NE"
-              ]
-            },
-            "lord": "noble"
-          }
-        ]
-      },
-      {
-        "year": 1592,
-        "title": "Valangin joins the county",
-        "text": [
-          "From 1458 the Hochberg family rules, and from 1504 the Orléans-Longueville family. From 1512 to 1529 the Swiss cantons occupy Neuchâtel and rule it together through governors. Then they give it back.",
-          "In 1592 the lordship of Valangin is united with the county. Now the state has almost its present size."
-        ],
-        "layers": [
-          {
-            "name": "Le Cerneux-Péquignot",
-            "kind": "other",
-            "label": "Le Cerneux-Péquignot: part of Franche-Comté",
-            "sel": {
-              "munis": [
-                6434
-              ]
-            }
-          },
-          {
-            "name": "County of Neuchâtel",
-            "kind": "lord",
-            "lord": "noble",
-            "label": "County (later Principality) of Neuchâtel: Orléans-Longueville family, with Valangin since 1592",
-            "sel": {
-              "cantons": [
-                "NE"
-              ]
-            }
-          }
-        ]
-      },
-      {
-        "year": 1815,
-        "title": "Canton and principality",
-        "text": [
-          "In 1707 the King of Prussia becomes Prince of Neuchâtel. From 1806 to 1814 Napoleon gives the principality to his marshal Berthier.",
-          "In 1814 Neuchâtel gets Le Cerneux-Péquignot from France. The Swiss Diet accepts Neuchâtel as a canton in September 1814, and it joins under the Federal Treaty of 1815. In 1815 it also gets all of Lignières.",
-          "Neuchâtel is now a Swiss canton and, at the same time, a principality of the King of Prussia."
-        ],
-        "layers": [
-          {
-            "name": "Le Cerneux-Péquignot",
-            "kind": "core",
-            "label": "Le Cerneux-Péquignot: from France in 1814",
-            "sel": {
-              "munis": [
-                6434
-              ]
-            }
-          },
-          {
-            "name": "Canton of Neuchâtel",
-            "kind": "core",
-            "label": "Canton and Principality of Neuchâtel (Prussian king)",
-            "sel": {
-              "cantons": [
-                "NE"
-              ]
-            }
-          }
-        ]
-      },
-      {
-        "year": 1857,
-        "title": "Republic, Prussia gives up",
-        "text": [
-          "In 1848 a revolution ends the rule of the prince. Neuchâtel becomes a republic. In 1857 the King of Prussia gives up his claim.",
-          "Since then, the borders have almost not changed. In 1894, after the Jura water correction, the small area of Thielle goes to Bern."
-        ],
-        "layers": [
-          {
-            "name": "Republic and canton of Neuchâtel",
-            "kind": "core",
-            "label": "Republic and canton of Neuchâtel",
-            "sel": {
-              "cantons": [
-                "NE"
-              ]
-            }
-          }
-        ]
+    "layers": [
+     {
+      "name": "Shared with Bern",
+      "kind": "shared",
+      "label": "Shared with Bern: Murten, Schwarzenburg (Grasburg), Orbe, Echallens, Grandson",
+      "sel": {
+       "munis": [
+        2275,
+        2250,
+        2258,
+        2261,
+        2265,
+        2271,
+        2274,
+        2276,
+        2284,
+        2391,
+        855,
+        852,
+        853,
+        5757,
+        5518,
+        5561
+       ]
       }
+     },
+     {
+      "name": "Montagny",
+      "kind": "subject",
+      "label": "Montagny: bought by Fribourg in 1478",
+      "sel": {
+       "munis": [
+        2029
+       ]
+      }
+     },
+     {
+      "name": "Fribourg",
+      "kind": "core",
+      "label": "Fribourg: the city and its Old Countryside",
+      "sel": {
+       "districts": [
+        1004,
+        1006,
+        1005
+       ]
+      }
+     },
+     {
+      "name": "Bishop of Lausanne",
+      "kind": "lord",
+      "lord": "bishop",
+      "label": "Bishop of Lausanne: Bulle, Riaz, La Roche",
+      "sel": {
+       "munis": [
+        2125,
+        2148,
+        2149
+       ]
+      }
+     },
+     {
+      "name": "Counts of Gruyère",
+      "kind": "lord",
+      "lord": "noble",
+      "label": "Counts of Gruyère",
+      "sel": {
+       "munis": [
+        2135,
+        2121,
+        2162,
+        2134,
+        2145,
+        2124,
+        2163,
+        2128,
+        2130,
+        2123,
+        2138
+       ]
+      }
+     },
+     {
+      "name": "Savoy",
+      "kind": "lord",
+      "lord": "savoy",
+      "label": "Duchy of Savoy",
+      "sel": {
+       "districts": [
+        1001,
+        1002,
+        1003,
+        1007
+       ]
+      }
+     }
     ],
     "sources": [
-      "https://hls-dhs-dss.ch/articles/007397/2017-05-30/"
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007379/",
+      "title": "HLS: Freiburg (Kanton)",
+      "quote": "Ab 1481 Ort, seit der Helvetischen Republik (1798-1803) Kanton der Eidgenossenschaft.",
+      "supports": "In 1481 Fribourg becomes a member of the Confederation"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007379/",
+      "title": "HLS: Freiburg (Kanton)",
+      "quote": "welche die Stadt Freiburg und die Alte Landschaft umfasste",
+      "supports": "Its land is the city and the Old Countryside"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007379/",
+      "title": "HLS: Freiburg (Kanton)",
+      "quote": "Durch Kauf erwarb Freiburg 1478 Montagny, 1483 Pont",
+      "supports": "Montagny bought in 1478"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007379/",
+      "title": "HLS: Freiburg (Kanton)",
+      "quote": "als Freiburg die Herrschaften Everdes und Arconciel-Illens (mit Plaffeien) und, mit Bern, die späteren gemeinen Vogteien Murten, Grandson, Echallens und Orbe eroberte",
+      "supports": "Illens and Plaffeien taken in the Burgundian Wars; Murten, Grandson, Orbe and Echallens shared with Bern"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007379/",
+      "title": "HLS: Freiburg (Kanton)",
+      "quote": "zusammen mit Bern 1423 die gemeine Herrschaft Grasburg zu erwerben",
+      "supports": "Grasburg (Schwarzenburg) is shared since 1423"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007379/",
+      "title": "HLS: Freiburg (Kanton)",
+      "quote": "1537 folgten La Roche, Riaz, Bulle und Albeuve, ehemalige Besitzungen des Bischofs von Lausanne",
+      "supports": "Bulle, Riaz and La Roche still belong to the Bishop of Lausanne"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007379/",
+      "title": "HLS: Freiburg (Kanton)",
+      "quote": "Ab 1536 bzw. 1555 Lehnsherrin eines mit savoyischen, bischöflichen und gräflichen Herrschaften durchsetzten Territoriums",
+      "supports": "Most of the south and west belongs to Savoy, the bishop or the Count of Gruyère"
+     }
+    ]
+   },
+   {
+    "year": 1537,
+    "title": "Conquests in Savoyard Vaud",
+    "text": [
+     "Fribourg buys more lordships, for example Pont in 1483 and Jaun from 1502.",
+     "In 1536 Bern conquers Vaud from Savoy. Fribourg takes the eastern part: Estavayer, Surpierre, Romont, Rue, Châtel-Saint-Denis, Attalens and Vaulruz. In 1537 it takes Bulle, La Roche and Riaz from the Bishop of Lausanne.",
+     "Fribourg rules the new land as bailiwicks (land ruled by a governor sent from the city)."
     ],
-    "notes": "Valangin drawn as Val-de-Ruz, La Chaux-de-Fonds, Le Locle, La Sagne, Les Planchettes, Les Ponts-de-Martel, Brot-Plamboz and La Chaux-du-Milieu (approximate; La Brévine shown with the county). Lignières (partly outside Neuchâtel before 1815) is not drawn separately. The 1894 Thielle change is too small to draw. Valangin in 1250 drawn with the mountains, which were settled from Valangin mostly in the 14th–15th centuries."
-  },
-  {
-    "canton": "GE",
-    "name": "Geneva",
-    "summary": "Geneva was a bishop's city in the Empire surrounded by the counts of Geneva and later Savoy; it became an independent city-republic with scattered rural lands in 1536, was French from 1798 to 1813, and in 1815–1816 got communes from France and Savoy that link it to Switzerland.",
-    "stops": [
-      {
-        "year": 1032,
-        "title": "Bishop's city in the Empire",
-        "text": [
-          "Geneva belongs to the Kingdom of Burgundy. In 1032 the last king dies, and his land goes to the German emperor.",
-          "The bishop rules the city. From the 11th century the counts of Geneva are the strongest lords in the land around it."
-        ],
-        "layers": [
-          {
-            "name": "Bishop of Geneva",
-            "kind": "lord",
-            "lord": "bishop",
-            "label": "City of Geneva: ruled by the Bishop of Geneva",
-            "sel": {
-              "munis": [
-                6621
-              ]
-            }
-          },
-          {
-            "name": "Counts of Geneva",
-            "kind": "lord",
-            "lord": "noble",
-            "label": "Land around: counts of Geneva and other lords",
-            "sel": {
-              "cantons": [
-                "GE"
-              ]
-            }
-          }
-        ]
-      },
-      {
-        "year": 1402,
-        "title": "Savoy buys the county",
-        "text": [
-          "The bishop holds the city and rural districts (mandements) such as Peney and Jussy. The priory of Saint-Victor and the cathedral chapter hold other villages. The lords of Gex rule the land to the north-west.",
-          "The counts of Geneva die out in 1394. In 1402 Amadeus VIII of Savoy buys their county (some sources say 1401; he settles all claims by 1424). Now Savoy surrounds Geneva and tries to control the city."
-        ],
-        "layers": [
-          {
-            "name": "Bishop of Geneva",
-            "kind": "lord",
-            "lord": "bishop",
-            "label": "Bishop of Geneva: city and mandements of Peney and Jussy",
-            "sel": {
-              "munis": [
-                6621,
-                6638,
-                6620,
-                6637,
-                6626,
-                6624,
-                6610
-              ]
-            }
-          },
-          {
-            "name": "Saint-Victor and chapter",
-            "kind": "lord",
-            "lord": "abbey",
-            "label": "Villages of the priory of Saint-Victor and the cathedral chapter",
-            "sel": {
-              "munis": [
-                6609,
-                6603,
-                6611,
-                6622,
-                6617,
-                6642,
-                6612
-              ]
-            }
-          },
-          {
-            "name": "Pays de Gex",
-            "kind": "lord",
-            "lord": "noble",
-            "label": "Pays de Gex (lords of Gex, under Savoy)",
-            "sel": {
-              "munis": [
-                6644,
-                6615,
-                6606,
-                6623,
-                6634,
-                6643,
-                6630
-              ]
-            }
-          },
-          {
-            "name": "Savoy",
-            "kind": "lord",
-            "lord": "savoy",
-            "label": "County of Savoy, with the Genevois bought in 1402",
-            "sel": {
-              "cantons": [
-                "GE"
-              ]
-            }
-          }
-        ]
-      },
-      {
-        "year": 1536,
-        "title": "Independent city-republic",
-        "text": [
-          "In 1526 Geneva makes an alliance (Burgrecht) with Bern and Fribourg. In 1536 the bishop leaves, the city takes the Reformation and becomes an independent republic, an ally of the Swiss.",
-          "Geneva takes the bishop's rural lands: the mandements (districts) of Peney and Jussy, and Céligny. It also has rights in villages of the Saint-Victor priory and the cathedral chapter, but Savoy claims many of them.",
-          "The lands around them belong to Savoy or, from 1601, to France (Pays de Gex). Many Genevan villages are enclaves."
-        ],
-        "layers": [
-          {
-            "name": "Mixed-rights villages",
-            "kind": "other",
-            "label": "Villages where Geneva shares rights with Savoy (Saint-Victor, chapter)",
-            "sel": {
-              "munis": [
-                6609,
-                6603,
-                6611,
-                6622,
-                6617,
-                6642,
-                6612
-              ]
-            }
-          },
-          {
-            "name": "Rural mandements",
-            "kind": "subject",
-            "label": "Rural mandements of Peney and Jussy, and Céligny: ruled by the city",
-            "sel": {
-              "munis": [
-                6638,
-                6620,
-                6637,
-                6626,
-                6624,
-                6610
-              ]
-            }
-          },
-          {
-            "name": "City of Geneva",
-            "kind": "core",
-            "label": "City-republic of Geneva (ally of the Swiss)",
-            "sel": {
-              "munis": [
-                6621
-              ]
-            }
-          },
-          {
-            "name": "Pays de Gex",
-            "kind": "other",
-            "label": "Pays de Gex: Bern 1536–1564, then Savoy, French from 1601",
-            "sel": {
-              "munis": [
-                6644,
-                6615,
-                6606,
-                6623,
-                6634,
-                6643,
-                6630
-              ]
-            }
-          },
-          {
-            "name": "Savoy",
-            "kind": "lord",
-            "lord": "savoy",
-            "label": "Duchy of Savoy",
-            "sel": {
-              "cantons": [
-                "GE"
-              ]
-            }
-          }
-        ]
-      },
-      {
-        "year": 1798,
-        "title": "Annexed by France",
-        "text": [
-          "In 1749 and 1754 treaties with France and Sardinia (Savoy) exchange land. Geneva's rural lands become a little more compact.",
-          "In 1798 France annexes Geneva. The city becomes the capital of the French département (province) of Léman until 1813. The land around it is also French."
-        ],
-        "layers": [
-          {
-            "name": "Geneva",
-            "kind": "core",
-            "label": "Geneva: French, capital of the département of Léman",
-            "sel": {
-              "munis": [
-                6621,
-                6609,
-                6603,
-                6611,
-                6622,
-                6617,
-                6642,
-                6612,
-                6638,
-                6620,
-                6637,
-                6626,
-                6624,
-                6610
-              ]
-            }
-          },
-          {
-            "name": "Gex and Savoy",
-            "kind": "other",
-            "label": "Pays de Gex and Savoy: also French at this time",
-            "sel": {
-              "cantons": [
-                "GE"
-              ]
-            }
-          }
-        ]
-      },
-      {
-        "year": 1815,
-        "title": "Canton, with communes from France",
-        "text": [
-          "Geneva is free again at the end of 1813. In 1815 it joins the Confederation as a canton.",
-          "By the Second Treaty of Paris of 20 November 1815, France gives Geneva all or part of Versoix, Collex-Bossy, Le Grand-Saconnex, Pregny, Vernier and Meyrin. Now Geneva touches Vaud and Switzerland by land."
-        ],
-        "layers": [
-          {
-            "name": "Communes from France",
-            "kind": "core",
-            "label": "Communes from the Pays de Gex (France), 1815",
-            "sel": {
-              "munis": [
-                6644,
-                6615,
-                6606,
-                6623,
-                6634,
-                6643,
-                6630
-              ]
-            }
-          },
-          {
-            "name": "Old Geneva",
-            "kind": "core",
-            "label": "Old Genevan territory",
-            "sel": {
-              "munis": [
-                6621,
-                6609,
-                6603,
-                6611,
-                6622,
-                6617,
-                6642,
-                6612,
-                6638,
-                6620,
-                6637,
-                6626,
-                6624,
-                6610
-              ]
-            }
-          },
-          {
-            "name": "Savoyard communes",
-            "kind": "lord",
-            "label": "Still Savoy (Kingdom of Sardinia) until 1816",
-            "sel": {
-              "cantons": [
-                "GE"
-              ]
-            },
-            "lord": "savoy"
-          }
-        ]
-      },
-      {
-        "year": 1816,
-        "title": "Communes from Savoy",
-        "text": [
-          "By the Treaty of Turin of 16 March 1816, the King of Sardinia gives Geneva 24 communes, all or in part, for example Carouge, Lancy, Bernex, Chêne-Thônex and Hermance.",
-          "Together, the new communes from France and Savoy are called the 'communes réunies' (joined communes). Since then, the borders of the canton have not changed."
-        ],
-        "layers": [
-          {
-            "name": "Communes from France",
-            "kind": "core",
-            "label": "Communes réunies from France (1815)",
-            "sel": {
-              "munis": [
-                6644,
-                6615,
-                6606,
-                6623,
-                6634,
-                6643,
-                6630
-              ]
-            }
-          },
-          {
-            "name": "Old Geneva",
-            "kind": "core",
-            "label": "Old Genevan territory",
-            "sel": {
-              "munis": [
-                6621,
-                6609,
-                6603,
-                6611,
-                6622,
-                6617,
-                6642,
-                6612,
-                6638,
-                6620,
-                6637,
-                6626,
-                6624,
-                6610
-              ]
-            }
-          },
-          {
-            "name": "Communes from Savoy",
-            "kind": "core",
-            "label": "Communes réunies from Savoy (1816)",
-            "sel": {
-              "cantons": [
-                "GE"
-              ]
-            }
-          }
-        ]
+    "layers": [
+     {
+      "name": "Shared with Bern",
+      "kind": "shared",
+      "label": "Shared with Bern: Murten, Schwarzenburg, Orbe, Echallens, Grandson",
+      "sel": {
+       "munis": [
+        2275,
+        2250,
+        2258,
+        2261,
+        2265,
+        2271,
+        2274,
+        2276,
+        2284,
+        2391,
+        855,
+        852,
+        853,
+        5757,
+        5518,
+        5561
+       ]
       }
+     },
+     {
+      "name": "County of Gruyère",
+      "kind": "lord",
+      "label": "County of Gruyère: until 1555",
+      "sel": {
+       "munis": [
+        2135,
+        2121,
+        2162,
+        2134,
+        2145,
+        2124,
+        2163,
+        2128,
+        2130,
+        2123
+       ]
+      },
+      "lord": "noble"
+     },
+     {
+      "name": "Bailiwicks of 1536–1537",
+      "kind": "subject",
+      "label": "Bailiwicks taken from Savoy and the Bishop of Lausanne in 1536–1537",
+      "sel": {
+       "districts": [
+        1001,
+        1002,
+        1007,
+        1003
+       ],
+       "except": [
+        2029,
+        2138
+       ]
+      }
+     },
+     {
+      "name": "Fribourg",
+      "kind": "core",
+      "label": "Fribourg: city, Old Countryside and earlier lordships",
+      "sel": {
+       "districts": [
+        1004,
+        1006,
+        1005
+       ],
+       "munis": [
+        2029,
+        2138
+       ]
+      }
+     }
     ],
     "sources": [
-      "https://hls-dhs-dss.ch/de/articles/007398/2017-05-30/",
-      "https://hls-dhs-dss.ch/fr/articles/030186/",
-      "https://statistique.ge.ch/tel/publications/1958/hors_collection/documents_historiques/hc-ocstat-1958-02.pdf",
-      "https://hls-dhs-dss.ch/de/articles/008568/2007-07-11/",
-      "https://hls-dhs-dss.ch/textes/d/D6641.php"
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007379/",
+      "title": "HLS: Freiburg (Kanton)",
+      "quote": "Durch Kauf erwarb Freiburg 1478 Montagny, 1483 Pont, 1488 ein Drittel von Estavayer, 1502/1504 Jaun",
+      "supports": "Pont 1483, Jaun from 1502"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007379/",
+      "title": "HLS: Freiburg (Kanton)",
+      "quote": "Dieses gemeinsame Interesse führte 1536 zur militärischen Besetzung der Waadt durch die beiden Orte, die das eroberte Gebiet unter sich aufteilten",
+      "supports": "In 1536 Bern (with Fribourg) conquers Vaud"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007379/",
+      "title": "HLS: Freiburg (Kanton)",
+      "quote": "kam Freiburg in den Besitz von Estavayer, La Molière, Vallon, Delley, Saint-Aubin und Surpierre, Romont, Rue, Châtel-Saint-Denis, Attalens und Bossonnens sowie Vaulruz",
+      "supports": "Fribourg takes Estavayer, Surpierre, Romont, Rue, Châtel-Saint-Denis, Attalens and Vaulruz"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007379/",
+      "title": "HLS: Freiburg (Kanton)",
+      "quote": "1537 folgten La Roche, Riaz, Bulle und Albeuve, ehemalige Besitzungen des Bischofs von Lausanne",
+      "supports": "In 1537 it takes Bulle, La Roche and Riaz from the Bishop of Lausanne"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007379/",
+      "title": "HLS: Freiburg (Kanton)",
+      "quote": "ordnete Freiburg das Gebiet neu in 19 Vogteien",
+      "supports": "Fribourg rules the new land as bailiwicks"
+     }
+    ]
+   },
+   {
+    "year": 1555,
+    "title": "Gruyère divided with Bern",
+    "text": [
+     "In 1555 the last Count of Gruyère goes bankrupt. Fribourg and Bern divide his county.",
+     "Fribourg gets the lower part, from Montbovon to La Tour-de-Trême. Bern gets the upper part (Saanen and the Pays-d'Enhaut).",
+     "Now Fribourg has almost the size of today's canton. It has 19 bailiwicks until 1798."
     ],
-    "notes": "Old Genevan territory drawn as Genève, Satigny, Dardagny, Russin, Jussy, Gy, Céligny, Genthod, Cologny, Vandoeuvres, Chêne-Bougeries, Cartigny, Avully and Chancy; several communes réunies were ceded only in part, so whole communes are approximate. The 1536 split between the mandements and the mixed-rights villages (Saint-Victor and chapter lands) is simplified; the 1749/1754 exchanges are not drawn separately. Bellevue (split from Collex-Bossy in 1855) counted with the French communes. In 1402 the bishop's mandements and the Saint-Victor/chapter villages are drawn with the same communes as in 1536."
-  }
+    "layers": [
+     {
+      "name": "Shared with Bern",
+      "kind": "shared",
+      "label": "Shared with Bern: Murten, Schwarzenburg, Orbe, Echallens, Grandson",
+      "sel": {
+       "munis": [
+        2275,
+        2250,
+        2258,
+        2261,
+        2265,
+        2271,
+        2274,
+        2276,
+        2284,
+        2391,
+        855,
+        852,
+        853,
+        5757,
+        5518,
+        5561
+       ]
+      }
+     },
+     {
+      "name": "Gruyère",
+      "kind": "subject",
+      "label": "Gruyère: Fribourg bailiwick since 1555",
+      "sel": {
+       "munis": [
+        2135,
+        2121,
+        2162,
+        2134,
+        2145,
+        2124,
+        2163,
+        2128,
+        2130,
+        2123
+       ]
+      }
+     },
+     {
+      "name": "Fribourg",
+      "kind": "core",
+      "label": "Fribourg state (city, Old Countryside and bailiwicks)",
+      "sel": {
+       "cantons": [
+        "FR"
+       ]
+      }
+     }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008148/",
+      "title": "HLS: Greyerz (Grafschaft, Bezirk)",
+      "quote": "Aufgrund der Verschuldung des Grafen sprach die eidgenössische Tagsatzung 1554 den Konkurs der Grafschaft aus, Freiburg und Bern teilten sie 1555 unter sich auf.",
+      "supports": "In 1555 the bankrupt county of Gruyère is divided by Fribourg and Bern"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007379/",
+      "title": "HLS: Freiburg (Kanton)",
+      "quote": "1555 schliesslich erhielt Freiburg aus der Konkursmasse des letzten Grafen von Greyerz das Gebiet von Montbovon bis La Tour-de-Trême.",
+      "supports": "Fribourg gets the lower part, from Montbovon to La Tour-de-Trême"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008148/",
+      "title": "HLS: Greyerz (Grafschaft, Bezirk)",
+      "quote": "Die Gemeinden Saanen, Rougemont, Château-d'Œx und Rossinière gingen an Bern",
+      "supports": "Bern gets the upper part (Saanen and the Pays-d'Enhaut)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007379/",
+      "title": "HLS: Freiburg (Kanton)",
+      "quote": "sicherte sich ihr Gebiet hauptsächlich im 15. und 16. Jahrhundert durch Käufe, Eroberungen und Verträge (u.a. Grafschaft Greyerz)",
+      "supports": "Now Fribourg has almost the size of today's canton"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007379/",
+      "title": "HLS: Freiburg (Kanton)",
+      "quote": "ordnete Freiburg das Gebiet neu in 19 Vogteien",
+      "supports": "It has 19 bailiwicks until 1798"
+     }
+    ]
+   },
+   {
+    "year": 1798,
+    "title": "Helvetic canton of Fribourg",
+    "text": [
+     "In 1798 the French army ends the old order. Fribourg becomes a canton of the Helvetic Republic. The bailiwicks are gone, and all people have the same rights.",
+     "The common lordships are divided. Murten goes to Fribourg, Schwarzenburg to Bern, and Orbe, Echallens and Grandson to the canton of Léman (Vaud).",
+     "Fribourg also gets the districts of Payerne and Avenches until 1802."
+    ],
+    "layers": [
+     {
+      "name": "Payerne and Avenches",
+      "kind": "core",
+      "label": "Payerne and Avenches: part of Fribourg 1798–1802",
+      "sel": {
+       "munis": [
+        5822,
+        5451,
+        5458,
+        5816
+       ]
+      }
+     },
+     {
+      "name": "Murten",
+      "kind": "core",
+      "label": "Murten: now part of Fribourg",
+      "sel": {
+       "munis": [
+        2275,
+        2250,
+        2258,
+        2261,
+        2265,
+        2271,
+        2274,
+        2276,
+        2284,
+        2391
+       ]
+      }
+     },
+     {
+      "name": "Canton of Fribourg",
+      "kind": "core",
+      "label": "Helvetic canton of Fribourg",
+      "sel": {
+       "cantons": [
+        "FR"
+       ]
+      }
+     },
+     {
+      "name": "Former shared land",
+      "kind": "other",
+      "label": "No longer shared: Schwarzenburg to Bern; Orbe, Echallens, Grandson to Léman",
+      "sel": {
+       "munis": [
+        855,
+        852,
+        853,
+        5757,
+        5518,
+        5561
+       ]
+      }
+     }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007379/",
+      "title": "HLS: Freiburg (Kanton)",
+      "quote": "Ab 1481 Ort, seit der Helvetischen Republik (1798-1803) Kanton der Eidgenossenschaft.",
+      "supports": "Fribourg becomes a canton of the Helvetic Republic"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007379/",
+      "title": "HLS: Freiburg (Kanton)",
+      "quote": "Damit brach das Ancien Régime zusammen",
+      "supports": "The old order (with its bailiwicks) ends in 1798"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007379/",
+      "title": "HLS: Freiburg (Kanton)",
+      "quote": "1798 und 1803 wurde der Grundsatz der Rechtsgleichheit eingeführt.",
+      "supports": "All people have the same rights"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007379/",
+      "title": "HLS: Freiburg (Kanton)",
+      "quote": "Einige Wochen später stand sie einem Gebiet vor, welches das Murtenbiet und die gesamte waadtländisch-freiburgische Broyeregion umfasste.",
+      "supports": "Murten and the Payerne/Avenches area go to Fribourg"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007383/",
+      "title": "HLS: Bern (Kanton)",
+      "quote": "Dafür erhielt der helvetische Kanton Bern die zuvor gemeinsam mit Freiburg verwaltete Herrschaft Schwarzenburg zugeteilt.",
+      "supports": "Schwarzenburg goes to Bern"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007592/",
+      "title": "HLS: Echallens (Vogtei, Bezirk)",
+      "quote": "dann gemeine Vogtei Berns und Freiburgs, seit 1798 Bezirk des Kantons Waadt",
+      "supports": "Orbe-Echallens goes to the canton of Léman (Vaud)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007574/",
+      "title": "HLS: Grandson (Herrschaft, Bezirk)",
+      "quote": "bis 1798 gemeine Herrschaft von Bern und Freiburg, seit 1798 Bezirk des Kantons Waadt",
+      "supports": "Grandson goes to the canton of Léman (Vaud)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008631/",
+      "title": "HLS: Léman (Kanton)",
+      "quote": "mit Ausnahme der Distrikte Avenches und Payerne, die bis am 16.10.1802 Freiburg angegliedert waren",
+      "supports": "Fribourg has the districts of Payerne and Avenches until 1802"
+     }
+    ]
+   },
+   {
+    "year": 1803,
+    "title": "Canton in its present form",
+    "text": [
+     "In 1802 Payerne and Avenches go back to Vaud. With the Act of Mediation of 1803, Fribourg is a canton again with the borders it has almost today.",
+     "Murten stays with Fribourg. Clavaleyres, a small village near Murten, belongs to Fribourg from 1798 but goes back to Bern in 1807."
+    ],
+    "layers": [
+     {
+      "name": "Murten",
+      "kind": "core",
+      "label": "Murten: Fribourg since 1798/1803",
+      "sel": {
+       "munis": [
+        2275,
+        2250,
+        2258,
+        2261,
+        2265,
+        2271,
+        2274,
+        2276,
+        2284,
+        2391
+       ]
+      }
+     },
+     {
+      "name": "Canton of Fribourg",
+      "kind": "core",
+      "label": "Canton of Fribourg",
+      "sel": {
+       "cantons": [
+        "FR"
+       ]
+      }
+     }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008631/",
+      "title": "HLS: Léman (Kanton)",
+      "quote": "mit Ausnahme der Distrikte Avenches und Payerne, die bis am 16.10.1802 Freiburg angegliedert waren",
+      "supports": "In 1802 Payerne and Avenches go back to Vaud"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007379/",
+      "title": "HLS: Freiburg (Kanton)",
+      "quote": "Murten gelangte als Gemeinde erst 1803 endgültig an Freiburg.",
+      "supports": "With the Act of Mediation of 1803 Murten stays with Fribourg"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007379/",
+      "title": "HLS: Freiburg (Kanton)",
+      "quote": "Clavaleyres gehörte 1527 zum Kanton Bern, kam 1798 an Freiburg sowie 1807 zurück an Bern",
+      "supports": "Clavaleyres belongs to Fribourg from 1798 and goes back to Bern in 1807"
+     }
+    ],
+    "uncertain": [
+     "Payerne and Avenches return to Vaud in 1802 (one HLS article gives 16 October 1802; the HLS article on Fribourg says the split came already in 1801)."
+    ]
+   },
+   {
+    "year": 2022,
+    "title": "Clavaleyres joins Fribourg",
+    "text": [
+     "In 2022 the Bernese village of Clavaleyres merges with Murten. With this, it changes from the canton of Bern to the canton of Fribourg.",
+     "This is the last change to the borders of Fribourg."
+    ],
+    "layers": [
+     {
+      "name": "Murten with Clavaleyres",
+      "kind": "core",
+      "label": "Murten: includes Clavaleyres since 2022",
+      "sel": {
+       "munis": [
+        2275
+       ]
+      }
+     },
+     {
+      "name": "Canton of Fribourg",
+      "kind": "core",
+      "label": "Canton of Fribourg today",
+      "sel": {
+       "cantons": [
+        "FR"
+       ]
+      }
+     }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007379/",
+      "title": "HLS: Freiburg (Kanton)",
+      "quote": "und wurde mit der Eingemeindung nach Murten im Jahr 2022 wieder freiburgisch",
+      "supports": "In 2022 Clavaleyres merges with Murten and changes to the canton of Fribourg"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007383/",
+      "title": "HLS: Bern (Kanton)",
+      "quote": "Clavaleyres infolge einer Fusion 2022 zum Kanton Freiburg",
+      "supports": "This is the last change to the borders of Fribourg (latest change listed)"
+     }
+    ]
+   }
+  ],
+  "sources": [
+   "https://hls-dhs-dss.ch/de/articles/007379/2023-03-09/",
+   "https://hls-dhs-dss.ch/de/articles/007395/",
+   "https://hls-dhs-dss.ch/de/articles/008631/"
+  ],
+  "notes": "Old Countryside drawn as today's districts Sarine, Sense and the non-Murten part of Lac; parts of Sarine (e.g. Pont, bought 1483) were added slightly later. Murten common lordship drawn as Murten, Courgevaux, Greng, Meyriez, Muntelier, Kerzers, Fräschels, Ried, Mont-Vully and Galm; Orbe, Echallens and Grandson as the towns only. Jaun (from 1502) shown with the core in 1537. County of Gruyère drawn as Gruyères, Intyamon, Grandvillard, Le Pâquier, Broc, Charmey area; Bulle includes La Tour-de-Trême, which really came in 1555. Payerne and Avenches districts 1798–1802 drawn as Payerne, Avenches, Faoug and Corcelles-près-Payerne only. Clavaleyres cannot be drawn alone (now part of Murten). Early stops: lord areas are approximate; the 1157 'small noble families' layer simply covers the rest of today's canton. Habsburg Fribourg in 1277 drawn as the later Old Countryside, which the town only built up in the 14th–15th centuries."
+ },
+ {
+  "canton": "VD",
+  "name": "Vaud",
+  "summary": "Vaud was given to the Bishop of Lausanne in 1011 and taken over by Savoy in the 13th century; Bern conquered it step by step (Aigle 1475, most of Vaud 1536, Pays-d'Enhaut 1555), shared Orbe-Echallens and Grandson with Fribourg, and Vaud became a free canton in 1798–1803.",
+  "stops": [
+   {
+    "year": 1011,
+    "title": "County of Vaud to the bishop",
+    "text": [
+     "Vaud is part of the Kingdom of Burgundy. In 1011 King Rudolf III gives the county of Vaud to the Bishop of Lausanne. The bishop gets the rights of a count (judge and ruler) in the region.",
+     "After 1032 the kingdom goes to the German emperors. Many noble families and monasteries also hold land in Vaud."
+    ],
+    "layers": [
+     {
+      "name": "Chablais",
+      "kind": "lord",
+      "lord": "empire",
+      "label": "Aigle and the Chablais: Burgundian royal land (Abbey of Saint-Maurice nearby)",
+      "sel": {
+       "districts": [
+        2221
+       ]
+      }
+     },
+     {
+      "name": "County of Vaud",
+      "kind": "lord",
+      "lord": "bishop",
+      "label": "County of Vaud: Bishop of Lausanne from 1011",
+      "sel": {
+       "cantons": [
+        "VD"
+       ]
+      }
+     }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007395/",
+      "title": "HLS: Waadt",
+      "quote": "1011 erhielt der Bischof von Lausanne vom König von Burgund die comté de Vaud, faktisch die Regalien über das Gebiet.",
+      "supports": "In 1011 Rudolf III gives the county of Vaud to the Bishop of Lausanne; the bishop gets a count's rights"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007395/",
+      "title": "HLS: Waadt",
+      "quote": "Das Aussterben der Rudolfinger 1032 brachte die Angliederung an das Heilige Römische Reich.",
+      "supports": "After 1032 the kingdom goes to the German emperors"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007395/",
+      "title": "HLS: Waadt",
+      "quote": "Das Fehlen einer zentralen, anerkannten Gewalt förderte ab Mitte des 11. Jahrhunderts den Aufstieg des regionalen und lokalen Adels.",
+      "supports": "Many noble families also hold land in Vaud"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007396/",
+      "title": "HLS: Wallis",
+      "quote": "der König gab der Abtei 1018 alle ihre Güter im Wallis zurück und gewährleistete so, dass es ihm direkt unterstand",
+      "supports": "Abbey of Saint-Maurice near the Chablais (map layer)"
+     }
+    ]
+   },
+   {
+    "year": 1260,
+    "title": "Savoy takes over Vaud",
+    "text": [
+     "In the 13th century the counts of Savoy come into Vaud. In 1219 the bishop gives Moudon to Savoy as a fief (land held from a higher lord).",
+     "From 1240 to 1260 Peter II of Savoy wins the loyalty of most lords of Vaud. He also gets Payerne. Savoy already holds the Chablais around Aigle.",
+     "The bishop keeps Lausanne, Lavaux, Lucens and Avenches. Other lords keep their own land, for example the lords of Grandson and, in the Pays-d'Enhaut, the counts of Gruyère. From the 14th century these lands count as fiefs of Savoy."
+    ],
+    "layers": [
+     {
+      "name": "Bishop of Lausanne",
+      "kind": "lord",
+      "lord": "bishop",
+      "label": "Bishop of Lausanne: Lausanne, Lavaux, Lucens, Avenches",
+      "sel": {
+       "munis": [
+        5586,
+        5606,
+        5613,
+        5601,
+        5607,
+        5609,
+        5610,
+        5675,
+        5451
+       ]
+      }
+     },
+     {
+      "name": "Lords of Grandson",
+      "kind": "lord",
+      "lord": "noble",
+      "label": "Lords of Grandson",
+      "sel": {
+       "munis": [
+        5561
+       ]
+      }
+     },
+     {
+      "name": "Counts of Gruyère",
+      "kind": "lord",
+      "lord": "noble",
+      "label": "Pays-d'Enhaut: counts of Gruyère",
+      "sel": {
+       "munis": [
+        5841,
+        5842,
+        5843
+       ]
+      }
+     },
+     {
+      "name": "Savoy",
+      "kind": "lord",
+      "lord": "savoy",
+      "label": "Savoy: Pays de Vaud and the Chablais",
+      "sel": {
+       "cantons": [
+        "VD"
+       ]
+      }
+     }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007395/",
+      "title": "HLS: Waadt",
+      "quote": "Im Vertrag von Burier von 1219 gab der Bischof von Lausanne Graf Thomas I. Moudon zu Lehen.",
+      "supports": "In 1219 the bishop gives Moudon to Savoy as a fief"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007395/",
+      "title": "HLS: Waadt",
+      "quote": "Aber erst dessen Sohn Peter II. nahm die Waadt eigentlich in Besitz, indem er 1240-1260 systematisch Feudalrechte erwarb",
+      "supports": "From 1240 to 1260 Peter II wins the loyalty of the lords of Vaud"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007395/",
+      "title": "HLS: Waadt",
+      "quote": "Mit dem Erwerb der Vogtei Payerne schuf sich Peter II. 1240 ein ansehnliches Obereigentum",
+      "supports": "He gets Payerne"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007395/",
+      "title": "HLS: Waadt",
+      "quote": "Diese waren ab dem 12. Jahrhundert im Chablais ansässig, 1207 erlangten sie Rechte in der Waadt.",
+      "supports": "Savoy already holds the Chablais"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007395/",
+      "title": "HLS: Waadt",
+      "quote": "Neben Lausanne und dem Lavaux besassen die Bischöfe Lucens, Bulle, Avenches und La Roche.",
+      "supports": "The bishop keeps Lausanne, Lavaux, Lucens and Avenches"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007574/",
+      "title": "HLS: Grandson (Herrschaft, Bezirk)",
+      "quote": "Die grosse Herrschaft Grandson, die im Besitz der gleichnamigen Familie war",
+      "supports": "The lords of Grandson"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007395/",
+      "title": "HLS: Waadt",
+      "quote": "die von Greyerz im Pays-d'Enhaut",
+      "supports": "The counts of Gruyère in the Pays-d'Enhaut"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007395/",
+      "title": "HLS: Waadt",
+      "quote": "Ab dem zweiten Viertel des 14. Jahrhunderts galten deren Rechte jedoch stets als Lehen der Savoyer.",
+      "supports": "From the 14th century these lands count as Savoyard fiefs (corrects: not yet in 1260)"
+     }
+    ]
+   },
+   {
+    "year": 1476,
+    "title": "Burgundian Wars: first Swiss conquests",
+    "text": [
+     "Most of Vaud belongs to the Duke of Savoy. The Bishop of Lausanne rules Lausanne and Lavaux.",
+     "In the Burgundian Wars (1474–1476) Bern takes Aigle and Bex. Bern and Fribourg take Grandson, Orbe and Echallens. They rule them together as common lordships (land ruled by two cantons through a governor). This lasts until 1798."
+    ],
+    "layers": [
+     {
+      "name": "Shared Bern and Fribourg",
+      "kind": "shared",
+      "label": "Grandson, Orbe, Echallens: ruled by Bern and Fribourg together",
+      "sel": {
+       "munis": [
+        5561,
+        5757,
+        5518
+       ]
+      }
+     },
+     {
+      "name": "Aigle",
+      "kind": "subject",
+      "label": "Aigle, Bex, Ollon, Ormonts: ruled by Bern since 1475",
+      "sel": {
+       "districts": [
+        2221
+       ]
+      }
+     },
+     {
+      "name": "Bishop of Lausanne",
+      "kind": "lord",
+      "lord": "bishop",
+      "label": "Bishop of Lausanne: Lausanne and Lavaux",
+      "sel": {
+       "munis": [
+        5586,
+        5606,
+        5613,
+        5601,
+        5607,
+        5609,
+        5610
+       ]
+      }
+     },
+     {
+      "name": "Counts of Gruyère",
+      "kind": "lord",
+      "lord": "noble",
+      "label": "Pays-d'Enhaut: counts of Gruyère",
+      "sel": {
+       "munis": [
+        5841,
+        5842,
+        5843
+       ]
+      }
+     },
+     {
+      "name": "Savoy",
+      "kind": "lord",
+      "lord": "savoy",
+      "label": "Pays de Vaud: Duchy of Savoy",
+      "sel": {
+       "cantons": [
+        "VD"
+       ]
+      }
+     }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007395/",
+      "title": "HLS: Waadt",
+      "quote": "Neben Lausanne und dem Lavaux besassen die Bischöfe Lucens, Bulle, Avenches und La Roche.",
+      "supports": "The Bishop of Lausanne rules Lausanne and Lavaux"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007395/",
+      "title": "HLS: Waadt",
+      "quote": "Als Folge der Burgunderkriege 1474-1476 wurden Teile der Waadt und 1536 das gesamte Gebiet Untertanenland von Bern bzw. von Bern und Freiburg",
+      "supports": "Most of Vaud is Savoyard until the Burgundian Wars, when parts become subject land"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007395/",
+      "title": "HLS: Waadt",
+      "quote": "Bern riss des Weiteren den Teil des Chablais rechts der Rhone (Bex und Aigle) an sich.",
+      "supports": "Bern takes Aigle and Bex"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007395/",
+      "title": "HLS: Waadt",
+      "quote": "ebnete den Bernern und Freiburgern den Weg zur Annexion des Waadtländer Besitzes der de Chalon (Grandson, Orbe, Echallens)",
+      "supports": "Bern and Fribourg take Grandson, Orbe and Echallens"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007574/",
+      "title": "HLS: Grandson (Herrschaft, Bezirk)",
+      "quote": "bis 1798 gemeine Herrschaft von Bern und Freiburg",
+      "supports": "They rule them together as common lordships until 1798"
+     }
+    ]
+   },
+   {
+    "year": 1555,
+    "title": "Bernese Vaud",
+    "text": [
+     "In 1536 Bern conquers Vaud from Savoy. It also takes Lausanne from the bishop and brings the Reformation. Fribourg takes the eastern part (today in the canton of Fribourg).",
+     "Bern divides Vaud into bailiwicks (land ruled by a governor sent from Bern). In 1555 Bern adds the Pays-d'Enhaut from the bankrupt Count of Gruyère.",
+     "Bern also holds Gex and land south of Lake Geneva, but gives it back to Savoy in 1564–1567. Vaud stays under Bern until 1798."
+    ],
+    "layers": [
+     {
+      "name": "Shared Bern and Fribourg",
+      "kind": "shared",
+      "label": "Grandson, Orbe, Echallens: ruled by Bern and Fribourg together",
+      "sel": {
+       "munis": [
+        5561,
+        5757,
+        5518
+       ]
+      }
+     },
+     {
+      "name": "Aigle",
+      "kind": "subject",
+      "label": "Aigle: ruled by Bern since 1475",
+      "sel": {
+       "districts": [
+        2221
+       ]
+      }
+     },
+     {
+      "name": "Pays-d'Enhaut",
+      "kind": "subject",
+      "label": "Pays-d'Enhaut: Bernese bailiwick since 1555",
+      "sel": {
+       "munis": [
+        5841,
+        5842,
+        5843
+       ]
+      }
+     },
+     {
+      "name": "Pays de Vaud",
+      "kind": "core",
+      "label": "Pays de Vaud: Bernese bailiwicks since 1536 (not a canton yet)",
+      "sel": {
+       "cantons": [
+        "VD"
+       ]
+      }
+     }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007395/",
+      "title": "HLS: Waadt",
+      "quote": "Im Frühling 1536 eroberten Berner Truppen, angeführt von Hans Franz Nägeli, unter Berufung auf den Vertrag von Saint-Julien (1530) die Waadt.",
+      "supports": "In 1536 Bern conquers Vaud from Savoy"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007395/",
+      "title": "HLS: Waadt",
+      "quote": "Nach der Flucht des Bischofs Sébastien de Montfalcon wurde dessen Besitz konfisziert.",
+      "supports": "Bern takes Lausanne from the bishop"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007395/",
+      "title": "HLS: Waadt",
+      "quote": "Das reformatorische Gedankengut verbreitete sich in der Waadt erst, als Bern nach der Lausanner Disputation vom Oktober 1536 den neuen Glauben einführte.",
+      "supports": "Bern brings the Reformation"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007379/",
+      "title": "HLS: Freiburg (Kanton)",
+      "quote": "Dieses gemeinsame Interesse führte 1536 zur militärischen Besetzung der Waadt durch die beiden Orte, die das eroberte Gebiet unter sich aufteilten",
+      "supports": "Fribourg takes the eastern part"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007395/",
+      "title": "HLS: Waadt",
+      "quote": "Die der Waadt am 13. Mai 1536 verliehenen Satzungen teilten das Land in Landvogteien ein",
+      "supports": "Bern divides Vaud into bailiwicks"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007395/",
+      "title": "HLS: Waadt",
+      "quote": "nach dem Bankrott des Grafen von Greyerz 1555 mit dem Pays d'Enhaut noch eine weitere dazukam",
+      "supports": "In 1555 Bern adds the Pays-d'Enhaut"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007395/",
+      "title": "HLS: Waadt",
+      "quote": "Im Vertrag von Lausanne 1564 musste Bern die Landvogteien Gex, Ternier-Gaillard und Thonon dem Herzog von Savoyen zurückgeben",
+      "supports": "Bern gives Gex and land south of Lake Geneva back to Savoy (1564)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007398/",
+      "title": "HLS: Genf (Kanton)",
+      "quote": "gab Bern dem Herzog das Pays de Gex und die Dörfer des Genevois zurück, ein Vorgang, der 1567 in die Tat umgesetzt wurde",
+      "supports": "The return is carried out by 1567"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007395/",
+      "title": "HLS: Waadt",
+      "quote": "erst die Waadtländer Revolution 1798 beendete die Fremdherrschaft",
+      "supports": "Vaud stays under Bern until 1798"
+     }
+    ]
+   },
+   {
+    "year": 1798,
+    "title": "Lemanic Republic and canton Léman",
+    "text": [
+     "In January 1798 Vaud breaks free from Bern and declares the Lemanic Republic. Soon after, it becomes the canton of Léman in the Helvetic Republic.",
+     "The common lordships and Aigle join the new canton. But the districts of Payerne and Avenches go to the canton of Fribourg until 1802."
+    ],
+    "layers": [
+     {
+      "name": "Payerne and Avenches",
+      "kind": "other",
+      "label": "Payerne and Avenches: part of canton Fribourg 1798–1802",
+      "sel": {
+       "munis": [
+        5822,
+        5451,
+        5458,
+        5816
+       ]
+      }
+     },
+     {
+      "name": "Canton of Léman",
+      "kind": "core",
+      "label": "Canton of Léman (Helvetic Republic)",
+      "sel": {
+       "cantons": [
+        "VD"
+       ]
+      }
+     }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007395/",
+      "title": "HLS: Waadt",
+      "quote": "rief eine Handvoll Patrioten in Lausanne und Vevey in der Nacht vom 24. Januar 1798 die Lemanische Republik aus",
+      "supports": "In January 1798 the Lemanic Republic is declared"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007395/",
+      "title": "HLS: Waadt",
+      "quote": "Während der Helvetischen Republik hiess die Waadt Kanton Léman",
+      "supports": "Vaud becomes the canton of Léman in the Helvetic Republic"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007592/",
+      "title": "HLS: Echallens (Vogtei, Bezirk)",
+      "quote": "dann gemeine Vogtei Berns und Freiburgs, seit 1798 Bezirk des Kantons Waadt",
+      "supports": "The common lordships join the new canton (Echallens)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007574/",
+      "title": "HLS: Grandson (Herrschaft, Bezirk)",
+      "quote": "bis 1798 gemeine Herrschaft von Bern und Freiburg, seit 1798 Bezirk des Kantons Waadt",
+      "supports": "The common lordships join the new canton (Grandson)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007395/",
+      "title": "HLS: Waadt",
+      "quote": "Der neue Kanton Léman umfasste die von Bern abgetrennte Waadt mit Ausnahme der Distrikte Avenches und Payerne, die zum Kanton Freiburg kamen.",
+      "supports": "Aigle (Bernese Vaud) joins; Payerne and Avenches go to Fribourg"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008631/",
+      "title": "HLS: Léman (Kanton)",
+      "quote": "mit Ausnahme der Distrikte Avenches und Payerne, die bis am 16.10.1802 Freiburg angegliedert waren",
+      "supports": "Payerne and Avenches are part of Fribourg until 1802"
+     }
+    ]
+   },
+   {
+    "year": 1803,
+    "title": "Canton of Vaud",
+    "text": [
+     "In 1802 Payerne and Avenches come back. With the Act of Mediation of 1803, Vaud becomes a full canton of the Confederation.",
+     "Since then, the borders have almost not changed. Only in 1862 a treaty with France changes the border in the Vallée des Dappes, a small valley in the Jura."
+    ],
+    "layers": [
+     {
+      "name": "Canton of Vaud",
+      "kind": "core",
+      "label": "Canton of Vaud: member since 1803",
+      "sel": {
+       "cantons": [
+        "VD"
+       ]
+      }
+     }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007395/",
+      "title": "HLS: Waadt",
+      "quote": "Avenches und Payerne waren zwischen 1798 und 1802 freiburgische Distrikte",
+      "supports": "In 1802 Payerne and Avenches come back"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007395/",
+      "title": "HLS: Waadt",
+      "quote": "vom Erlass der Mediationsakte (1803) an Kanton Waadt",
+      "supports": "With the Act of Mediation of 1803 Vaud becomes a canton"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007395/",
+      "title": "HLS: Waadt",
+      "quote": "Kanton der Eidgenossenschaft seit 1803.",
+      "supports": "A full canton of the Confederation since 1803"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007395/",
+      "title": "HLS: Waadt",
+      "quote": "Seine Grenzen sind seit dem 16. Jahrhundert unverändert, ausser im Broyetal",
+      "supports": "Since then the borders have almost not changed"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007395/",
+      "title": "HLS: Waadt",
+      "quote": "im Dappental, wo 1862 der Grenzverlauf mit Frankreich bereinigt wurde",
+      "supports": "In 1862 the border with France changes in the Vallée des Dappes"
+     }
+    ]
+   }
+  ],
+  "sources": [
+   "https://hls-dhs-dss.ch/de/articles/007395/",
+   "https://hls-dhs-dss.ch/de/articles/008631/",
+   "https://hls-dhs-dss.ch/de/articles/007568/2017-01-06/",
+   "https://hls-dhs-dss.ch/de/articles/007587/",
+   "https://hls-dhs-dss.ch/de/articles/007379/2023-03-09/"
+  ],
+  "notes": "Before 1798 Vaud was not a canton; its main body is drawn as 'core' only so the map has a base, and the label says who ruled it. Grandson, Orbe and Echallens drawn as the towns only (the lordships were larger). Lausanne in 1476 drawn as the city only (the bishop also held Lavaux and other land). Payerne and Avenches districts 1798–1802 drawn as Payerne, Avenches, Faoug and Corcelles-près-Payerne. The 1862 Dappes change is too small to draw. Early stops: Lavaux drawn as Lutry, Bourg-en-Lavaux, Chexbres, Puidoux, Rivaz and Saint-Saphorin; lords of Grandson drawn as the town only. The 1011 stop simplifies: the bishop had count's rights, but much land was held by other lords and monasteries."
+ },
+ {
+  "canton": "VS",
+  "name": "Valais",
+  "summary": "Valais was given to the Bishop of Sion in 999 and divided with Savoy in 1392; the seven Zenden of Upper Valais then conquered Lower Valais in 1475 and 1536 and ruled it until 1798, and after Helvetic, independent and French years Valais joined the Confederation as a canton in 1815.",
+  "stops": [
+   {
+    "year": 999,
+    "title": "Bishop of Sion becomes count",
+    "text": [
+     "In 999 King Rudolf III of Burgundy gives the county of Valais to the Bishop of Sion. So the bishop is also the lord of the land. From 1032 he is directly under the emperor.",
+     "In the west, the old Abbey of Saint-Maurice holds much land. From the 12th century the counts of Savoy are its protectors and rule the Chablais."
+    ],
+    "layers": [
+     {
+      "name": "Abbey of Saint-Maurice",
+      "kind": "lord",
+      "lord": "abbey",
+      "label": "Abbey of Saint-Maurice and the Chablais (later Savoy)",
+      "sel": {
+       "districts": [
+        2310,
+        2308
+       ]
+      }
+     },
+     {
+      "name": "Bishop of Sion",
+      "kind": "lord",
+      "lord": "bishop",
+      "label": "Prince-Bishop of Sion: county of Valais from 999",
+      "sel": {
+       "cantons": [
+        "VS"
+       ]
+      }
+     }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007396/",
+      "title": "HLS: Wallis",
+      "quote": "Zwar erhielt der Bischof von Sitten von Rudolph III. 999 die Grafschaftsrechte über das Wallis",
+      "supports": "In 999 Rudolf III gives the county of Valais to the Bishop of Sion"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007396/",
+      "title": "HLS: Wallis",
+      "quote": "Er begründete damit das Fürstbistum Sitten, das 1032 reichsunmittelbar wurde.",
+      "supports": "From 1032 the bishop is directly under the emperor"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007396/",
+      "title": "HLS: Wallis",
+      "quote": "der König gab der Abtei 1018 alle ihre Güter im Wallis zurück",
+      "supports": "The Abbey of Saint-Maurice holds much land"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007396/",
+      "title": "HLS: Wallis",
+      "quote": "die im Chablais etablierten Grafen von Savoyen, Kastvögte der Abtei Saint-Maurice, ab dem 12. Jahrhundert das Gebiet zwischen Rhoneknie und Genfersee dominierten",
+      "supports": "From the 12th century the counts of Savoy are its protectors and rule the Chablais"
+     }
+    ]
+   },
+   {
+    "year": 1392,
+    "title": "Bishop and Savoy divide Valais",
+    "text": [
+     "In the 13th century Savoy pushes up the valley towards Sion. The village communities grow strong and become the Zenden (dizains).",
+     "In 1384 Savoy takes Martigny and Ardon-Chamoson. The peace of 1392 divides Valais: above the Morge stream near Conthey is the bishop and the Zenden, below it is Savoy.",
+     "In 1403 the bishop and the Zenden make a permanent alliance with Lucerne, Uri and Unterwalden."
+    ],
+    "layers": [
+     {
+      "name": "Savoy",
+      "kind": "lord",
+      "lord": "savoy",
+      "label": "Lower Valais: Savoy (border at the Morge of Conthey)",
+      "sel": {
+       "districts": [
+        2302,
+        2307,
+        2303,
+        2310,
+        2308
+       ]
+      }
+     },
+     {
+      "name": "Bishop of Sion and Zenden",
+      "kind": "lord",
+      "lord": "bishop",
+      "label": "Upper Valais: Bishop of Sion and the Zenden",
+      "sel": {
+       "cantons": [
+        "VS"
+       ]
+      }
+     }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007396/",
+      "title": "HLS: Wallis",
+      "quote": "Im 13. Jahrhundert stiessen die Grafen von Savoyen ins mittlere Wallis vor",
+      "supports": "In the 13th century Savoy pushes up the valley towards Sion"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007396/",
+      "title": "HLS: Wallis",
+      "quote": "sieben Gemeinden oder Zenden (lateinisch decima; desenus)",
+      "supports": "The village communities become the Zenden"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007396/",
+      "title": "HLS: Wallis",
+      "quote": "Martigny und Ardon-Chamoson (ab 1384 Savoyen)",
+      "supports": "In 1384 Savoy takes Martigny and Ardon-Chamoson"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007396/",
+      "title": "HLS: Wallis",
+      "quote": "Der Friedensvertrag von 1392 legte die Morge von Conthey als Grenze fest und beseitigte die jeweiligen Enklaven.",
+      "supports": "The peace of 1392 divides Valais at the Morge of Conthey"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007396/",
+      "title": "HLS: Wallis",
+      "quote": "1403 schlossen Bischof und Zenden ein ewiges Burg- und Landrecht mit Luzern, Uri und Unterwalden",
+      "supports": "In 1403 the bishop and the Zenden make a permanent alliance with Lucerne, Uri and Unterwalden"
+     }
+    ]
+   },
+   {
+    "year": 1416,
+    "title": "Upper Valais allies with Swiss",
+    "text": [
+     "Upper Valais is a land of seven communities, the Zenden (dizains), under the Bishop of Sion. In 1416–1417 they make an alliance with Lucerne, Uri and Unterwalden. So Valais becomes an ally (zugewandter Ort) of the Confederation, not a full member.",
+     "Lower Valais, west of the Morge stream near Sion, belongs to the Duke of Savoy."
+    ],
+    "layers": [
+     {
+      "name": "Seven Zenden",
+      "kind": "core",
+      "label": "Upper Valais: the seven Zenden and the Bishop of Sion",
+      "sel": {
+       "districts": [
+        2304,
+        2301,
+        2313,
+        2309,
+        2306,
+        2311,
+        2312,
+        2305
+       ]
+      }
+     },
+     {
+      "name": "Savoyard Lower Valais",
+      "kind": "lord",
+      "label": "Lower Valais: Savoy",
+      "sel": {
+       "cantons": [
+        "VS"
+       ]
+      },
+      "lord": "savoy"
+     }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007396/",
+      "title": "HLS: Wallis",
+      "quote": "Spätestens mit der Erneuerung des Bündnisses 1416 und 1417 galt das Wallis als zugewandter Ort der Eidgenossenschaft.",
+      "supports": "In 1416–1417 the alliance is renewed; Valais becomes an ally (zugewandter Ort), not a member"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007396/",
+      "title": "HLS: Wallis",
+      "quote": "sieben Gemeinden oder Zenden (lateinisch decima; desenus)",
+      "supports": "Upper Valais is a land of seven Zenden"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007396/",
+      "title": "HLS: Wallis",
+      "quote": "Der Friedensvertrag von 1392 legte die Morge von Conthey als Grenze fest",
+      "supports": "Lower Valais, west of the Morge, belongs to Savoy"
+     }
+    ]
+   },
+   {
+    "year": 1475,
+    "title": "Conquest of Lower Valais",
+    "text": [
+     "In the Burgundian Wars, the Upper Valaisans beat the Savoyard army at the Planta near Sion in 1475. They take Lower Valais down to Saint-Maurice.",
+     "The Zenden rule this land as a subject land (land with no vote, ruled by governors). Also in 1475 Valais makes an alliance with Bern."
+    ],
+    "layers": [
+     {
+      "name": "Monthey",
+      "kind": "lord",
+      "label": "Monthey area: still Savoy",
+      "sel": {
+       "districts": [
+        2308
+       ]
+      },
+      "lord": "savoy"
+     },
+     {
+      "name": "Lower Valais",
+      "kind": "subject",
+      "label": "Lower Valais to Saint-Maurice: ruled by the Zenden since 1475",
+      "sel": {
+       "districts": [
+        2302,
+        2307,
+        2303,
+        2310
+       ]
+      }
+     },
+     {
+      "name": "Seven Zenden",
+      "kind": "core",
+      "label": "Upper Valais: the seven Zenden",
+      "sel": {
+       "cantons": [
+        "VS"
+       ]
+      }
+     }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007396/",
+      "title": "HLS: Wallis",
+      "quote": "im November 1475 Conthey und besiegte mit eidgenössischen Hilfstruppen das savoyische Heer auf der Planta in Sitten.",
+      "supports": "In 1475 the Upper Valaisans beat Savoy at the Planta near Sion"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007396/",
+      "title": "HLS: Wallis",
+      "quote": "1475 kam mit der Landvogtei Saint-Maurice (bis 1536 Landvogtei nid der Mors) ein weiteres hinzu",
+      "supports": "They take Lower Valais down to Saint-Maurice and rule it as subject land"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007396/",
+      "title": "HLS: Wallis",
+      "quote": "als es 1475 in der Waadt einfiel und sich mit Bischof und Zenden gegen Savoyen verbündete",
+      "supports": "In 1475 Valais makes an alliance with Bern"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007396/",
+      "title": "HLS: Wallis",
+      "quote": "im Zug der Eroberung der Waadt und des Chablais durch Bern 1536 Monthey und Evian",
+      "supports": "The Monthey area is still Savoyard until 1536 (map layer)"
+     }
+    ]
+   },
+   {
+    "year": 1569,
+    "title": "Monthey kept, Chablais returned",
+    "text": [
+     "In 1536 the Upper Valaisans take the rest of the Savoyard Chablais, south of Lake Geneva, as far as Evian.",
+     "In the Treaty of Thonon of 1569 Valais gives Evian and the Aulps valley back to Savoy. It keeps Monthey. The border is now at the Morge stream at Saint-Gingolph. Since then, the outer border of Valais has hardly changed."
+    ],
+    "layers": [
+     {
+      "name": "Lower Valais",
+      "kind": "subject",
+      "label": "Lower Valais with Monthey: ruled by the Zenden",
+      "sel": {
+       "districts": [
+        2302,
+        2307,
+        2303,
+        2310,
+        2308
+       ]
+      }
+     },
+     {
+      "name": "Seven Zenden",
+      "kind": "core",
+      "label": "Upper Valais: the seven Zenden",
+      "sel": {
+       "cantons": [
+        "VS"
+       ]
+      }
+     }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007396/",
+      "title": "HLS: Wallis",
+      "quote": "im Zug der Eroberung der Waadt und des Chablais durch Bern 1536 Monthey und Evian",
+      "supports": "In 1536 the Upper Valaisans take the Chablais as far as Evian"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007396/",
+      "title": "HLS: Wallis",
+      "quote": "Seit dem Vertrag von Thonon 1569, in dem die Morge von Saint-Gingolph als Grenze zwischen dem Fürstbistum und dem Herzogtum Savoyen festgelegt wurde",
+      "supports": "Treaty of Thonon 1569; the border is at the Morge at Saint-Gingolph"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007396/",
+      "title": "HLS: Wallis",
+      "quote": "gingen Evian und das Vallée d'Aulps an Savoyen zurück und die Morge bei Saint-Gingolph wurde als Westgrenze festgelegt",
+      "supports": "In 1569 Valais gives Evian and the Aulps valley back; border at the Morge at Saint-Gingolph"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007396/",
+      "title": "HLS: Wallis",
+      "quote": "blieben die politischen Grenzen des Wallis, abgesehen von kleineren Bereinigungen, unverändert",
+      "supports": "Since then the outer border has hardly changed"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008412/",
+      "title": "HLS: Saint-Maurice (Kastlanei, Bezirk)",
+      "quote": "Die Herrschaft der Zenden über die Landvogtei S., die neben S. acht weitere Kastlaneien umfasste, wurde mit dem Vertrag von Thonon 1569 bestätigt.",
+      "supports": "Lower Valais (with Monthey) stays under the Zenden"
+     }
+    ]
+   },
+   {
+    "year": 1798,
+    "title": "Lower Valais free, Helvetic canton",
+    "text": [
+     "In early 1798 Lower Valais declares itself free, and Upper Valais accepts this. Then Valais becomes a canton of the Helvetic Republic. All its people now have the same rights."
+    ],
+    "layers": [
+     {
+      "name": "Canton of Valais",
+      "kind": "core",
+      "label": "Canton of Valais (Helvetic Republic)",
+      "sel": {
+       "cantons": [
+        "VS"
+       ]
+      }
+     }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007396/",
+      "title": "HLS: Wallis",
+      "quote": "Nachdem sich Monthey und weitere Gemeinden der Bewegung angeschlossen hatten, gestand der Landrat dem Unterwallis am 22. Februar Freiheit und Unabhängigkeit zu.",
+      "supports": "In early 1798 Lower Valais declares itself free and Upper Valais accepts this"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007396/",
+      "title": "HLS: Wallis",
+      "quote": "1798-1802 Kanton der Helvetischen Republik",
+      "supports": "Valais becomes a canton of the Helvetic Republic"
+     }
+    ],
+    "uncertain": [
+     "All people of Valais now have the same rights."
+    ]
+   },
+   {
+    "year": 1810,
+    "title": "French département of Simplon",
+    "text": [
+     "In 1802 Valais becomes a separate state, the independent Republic of Valais. Napoleon builds a military road over the Simplon Pass (1805).",
+     "In 1810 France annexes Valais. It becomes the French département (province) of Simplon until 1813."
+    ],
+    "layers": [
+     {
+      "name": "Département du Simplon",
+      "kind": "core",
+      "label": "Valais: French département of Simplon 1810–1813",
+      "sel": {
+       "cantons": [
+        "VS"
+       ]
+      }
+     }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007396/",
+      "title": "HLS: Wallis",
+      "quote": "Es bildete vom 30. August 1802 bis 1810 eine unabhängige Republik",
+      "supports": "From 1802 to 1810 Valais is an independent republic (corrects 'Rhodanic Republic')"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007396/",
+      "title": "HLS: Wallis",
+      "quote": "1805 napoleonische Militärstrasse über den Simplon",
+      "supports": "Napoleon's military road over the Simplon (1805)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007396/",
+      "title": "HLS: Wallis",
+      "quote": "1810-1813 Departement Simplon im französischen Kaiserreich",
+      "supports": "In 1810 France annexes Valais as the département of Simplon until 1813"
+     }
+    ]
+   },
+   {
+    "year": 1815,
+    "title": "Valais joins as a canton",
+    "text": [
+     "In 1815 Valais joins the Confederation as a full canton. Neuchâtel and Geneva also join in 1814–1815.",
+     "Since then, the borders have hardly changed."
+    ],
+    "layers": [
+     {
+      "name": "Canton of Valais",
+      "kind": "core",
+      "label": "Canton of Valais: member since 1815",
+      "sel": {
+       "cantons": [
+        "VS"
+       ]
+      }
+     }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007396/",
+      "title": "HLS: Wallis",
+      "quote": "ab 1815 Republik und Kanton der Schweizerischen Eidgenossenschaft",
+      "supports": "In 1815 Valais joins the Confederation as a canton"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007398/",
+      "title": "HLS: Genf (Kanton)",
+      "quote": "Kanton der Eidgenossenschaft seit 1815.",
+      "supports": "Geneva also joins in 1815"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007397/",
+      "title": "HLS: Neuenburg (Kanton)",
+      "quote": "hatten am 12. September 1814 von der Tagsatzung die Aufnahme Neuenburgs als 21. Kanton erreicht",
+      "supports": "Neuchâtel is accepted as a canton in 1814"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007396/",
+      "title": "HLS: Wallis",
+      "quote": "blieben die politischen Grenzen des Wallis, abgesehen von kleineren Bereinigungen, unverändert",
+      "supports": "Since then the borders have hardly changed"
+     }
+    ]
+   }
+  ],
+  "sources": [
+   "https://hls-dhs-dss.ch/articles/007396",
+   "https://hls-dhs-dss.ch/de/articles/008408/2011-02-02/",
+   "https://hls-dhs-dss.ch/de/articles/008412/2017-03-13/",
+   "https://hls-dhs-dss.ch/textes/d/D24651.php",
+   "https://hls-dhs-dss.ch/articles/008414/2010-07-21/"
+  ],
+  "notes": "The seven Zenden drawn as today's districts Goms, Brig, Visp, Raron, Leuk, Sierre, Sion and Hérens (Hérens counted with the Sion Zenden). Savoyard Lower Valais before 1475 drawn as districts Conthey, Martigny, Entremont, Saint-Maurice and Monthey; the real border at the Morge near Sion and the status of Martigny (episcopal but Savoyard-held) are simplified. The Chablais land 1536–1569 (Evian, Aulps) is outside Switzerland and is in the text only. The 999 stop simplifies: Savoy's rule in the Chablais grew only from the 12th century. In 1392 Martigny is drawn whole with Savoy."
+ },
+ {
+  "canton": "NE",
+  "name": "Neuchâtel",
+  "summary": "Neuchâtel was a castle of the Burgundian kings, then a county of its own noble family allied with the Swiss; it united with Valangin in 1592, came under the King of Prussia in 1707, joined the Confederation as a canton in 1814/1815 and became a republic in 1848.",
+  "stops": [
+   {
+    "year": 1011,
+    "title": "Castle in the Kingdom of Burgundy",
+    "text": [
+     "In 1011 Neuchâtel ('new castle') is named for the first time. King Rudolf III of Burgundy gives it, with other royal estates, to his bride Irmingard.",
+     "After 1032 the land belongs to the Empire."
+    ],
+    "layers": [
+     {
+      "name": "Kingdom of Burgundy",
+      "kind": "lord",
+      "lord": "empire",
+      "label": "Kingdom of Burgundy, from 1032 the Empire",
+      "sel": {
+       "cantons": [
+        "NE"
+       ]
+      }
+     }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007397/",
+      "title": "HLS: Neuenburg (Kanton)",
+      "quote": "Letzteres wurde offensichtlich kurz vor 1011, dem Jahr seiner Ersterwähnung, gebaut.",
+      "supports": "In 1011 Neuchâtel is named for the first time"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007397/",
+      "title": "HLS: Neuenburg (Kanton)",
+      "quote": "Die königlichen Güter, mit denen 1011 Irmingard, die Verlobte des Burgunderkönigs Rudolf III. ausgestattet wurde, umfassten Neuenburg (novum castellum)",
+      "supports": "Rudolf III gives it, with other royal estates, to his bride Irmingard"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007397/",
+      "title": "HLS: Neuenburg (Kanton)",
+      "quote": "Ab 1033 gelangte das neuenburgische Gebiet nach und nach mit dem Königreich Burgund ans Reich.",
+      "supports": "After 1032 the land belongs to the Empire"
+     }
+    ]
+   },
+   {
+    "year": 1250,
+    "title": "Lords of Neuchâtel and Valangin",
+    "text": [
+     "A noble family takes the name of Neuchâtel and rules the land. In 1214 the town of Neuchâtel gets a charter of freedoms. About 1218 the family divides its land.",
+     "Valangin, with the Val-de-Ruz and later the mountains, goes to a related branch (Aarberg). It is first named in 1242. In 1288 the counts lose their direct link to the emperor and come under the Chalon family."
+    ],
+    "layers": [
+     {
+      "name": "Lordship of Valangin",
+      "kind": "lord",
+      "lord": "noble",
+      "label": "Lordship of Valangin (Aarberg-Valangin family)",
+      "sel": {
+       "munis": [
+        6487,
+        6421,
+        6436,
+        6423,
+        6422,
+        6437,
+        6433,
+        6435
+       ]
+      }
+     },
+     {
+      "name": "Le Cerneux-Péquignot",
+      "kind": "other",
+      "label": "Le Cerneux-Péquignot: County of Burgundy (Franche-Comté)",
+      "sel": {
+       "munis": [
+        6434
+       ]
+      }
+     },
+     {
+      "name": "County of Neuchâtel",
+      "kind": "lord",
+      "lord": "noble",
+      "label": "Lords (later counts) of Neuchâtel",
+      "sel": {
+       "cantons": [
+        "NE"
+       ]
+      }
+     }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007397/",
+      "title": "HLS: Neuenburg (Kanton)",
+      "quote": "Die schon 1185 erwähnten Bürger von Neuenburg erhielten 1214 einen dem Gewohnheitsrecht von Besançon folgenden Freiheitsbrief.",
+      "supports": "In 1214 the town gets a charter of freedoms"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007397/",
+      "title": "HLS: Neuenburg (Kanton)",
+      "quote": "Als die gemeinsame Herrschaft um 1218 zu Ende ging, teilten Ulrich III. und sein Neffe Berchtold das Territorium unter sich auf",
+      "supports": "About 1218 the family divides its land"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007397/",
+      "title": "HLS: Neuenburg (Kanton)",
+      "quote": "Nach der Teilung zogen die von Aarberg, ein Zweig der Neuenburg-Nidau, die 1242 erstmals erwähnte Herrschaft Valangin an sich.",
+      "supports": "Valangin goes to the Aarberg branch; first named in 1242"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007397/",
+      "title": "HLS: Neuenburg (Kanton)",
+      "quote": "1288 wurde die Reichsunmittelbarkeit der geschwächten und zu einfachen Herren herabgesunkenen von Neuenburg aufgehoben",
+      "supports": "In 1288 they lose their direct link to the emperor"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007397/",
+      "title": "HLS: Neuenburg (Kanton)",
+      "quote": "Rudolf I. von Habsburg unterstellte sie der Oberlehensherrschaft der von Chalon",
+      "supports": "They come under the Chalon family"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007397/",
+      "title": "HLS: Neuenburg (Kanton)",
+      "quote": "1814 die im Pariser Frieden beschlossene Angliederung des Dorfs Le Cerneux-Péquignot",
+      "supports": "Le Cerneux-Péquignot is outside Neuchâtel until 1814 (map layer)"
+     }
+    ]
+   },
+   {
+    "year": 1406,
+    "title": "County allied with Bern",
+    "text": [
+     "Neuchâtel is a county. From 1395 it belongs to the counts of Freiburg (in Breisgau). The count has alliances of citizenship (Burgrecht) with Swiss cities: with Bern since 1308 (renewed in 1406), with Fribourg since 1290 and with Solothurn since 1369. So it is an ally of the Swiss, not a member.",
+     "The mountains and the Val-de-Ruz form a separate lordship, Valangin."
+    ],
+    "layers": [
+     {
+      "name": "Lordship of Valangin",
+      "kind": "lord",
+      "label": "Lordship of Valangin (Aarberg-Valangin family)",
+      "sel": {
+       "munis": [
+        6487,
+        6421,
+        6436,
+        6423,
+        6422,
+        6437,
+        6433,
+        6435
+       ]
+      },
+      "lord": "noble"
+     },
+     {
+      "name": "Le Cerneux-Péquignot",
+      "kind": "other",
+      "label": "Le Cerneux-Péquignot: part of Franche-Comté (later France)",
+      "sel": {
+       "munis": [
+        6434
+       ]
+      }
+     },
+     {
+      "name": "County of Neuchâtel",
+      "kind": "lord",
+      "label": "County of Neuchâtel: counts of Freiburg from 1395 (ally of the Swiss)",
+      "sel": {
+       "cantons": [
+        "NE"
+       ]
+      },
+      "lord": "noble"
+     }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007397/",
+      "title": "HLS: Neuenburg (Kanton)",
+      "quote": "Als das lokale Geschlecht der Herren von Neuenburg 1395 erlosch, ging die Grafschaft an die aus Süddeutschland stammenden Familien von Freiburg und von Hochberg über.",
+      "supports": "From 1395 the county belongs to the counts of Freiburg"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007397/",
+      "title": "HLS: Neuenburg (Kanton)",
+      "quote": "insbesondere mit Freiburg (1290), Bern (1308), Solothurn (1369) und Luzern (1501)",
+      "supports": "Burgrecht alliances with Fribourg (1290), Bern (1308) and Solothurn (1369)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007397/",
+      "title": "HLS: Neuenburg (Kanton)",
+      "quote": "Der Graf von Neuenburg und sein Sohn leisten vor dem Schultheiss und dem Rat von Bern den Eid anlässlich des Burgrechtsvertrags von 1406.",
+      "supports": "The alliance with Bern is renewed in 1406"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007397/",
+      "title": "HLS: Neuenburg (Kanton)",
+      "quote": "Obgleich Neuenburg ein zugewandter Ort der Eidgenossenschaft war, besass es keinen Sitz in der Tagsatzung.",
+      "supports": "It is an ally of the Swiss, not a member"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007397/",
+      "title": "HLS: Neuenburg (Kanton)",
+      "quote": "Die Herren von Valangin, die sich mit ihrer Lehensabhängigkeit schwertaten, behielten allerdings bis zum Ende des 16. Jahrhunderts eine eigenständige Verwaltung.",
+      "supports": "Valangin is a separate lordship"
+     }
+    ]
+   },
+   {
+    "year": 1592,
+    "title": "Valangin joins the county",
+    "text": [
+     "From 1458 the Hochberg family rules, and from 1504 the Orléans-Longueville family. From 1512 to 1529 the Swiss cantons occupy Neuchâtel and rule it together through governors. Then they give it back.",
+     "In 1592 the lordship of Valangin is united with the county. Now the state has almost its present size."
+    ],
+    "layers": [
+     {
+      "name": "Le Cerneux-Péquignot",
+      "kind": "other",
+      "label": "Le Cerneux-Péquignot: part of Franche-Comté",
+      "sel": {
+       "munis": [
+        6434
+       ]
+      }
+     },
+     {
+      "name": "County of Neuchâtel",
+      "kind": "lord",
+      "lord": "noble",
+      "label": "County (later Principality) of Neuchâtel: Orléans-Longueville family, with Valangin since 1592",
+      "sel": {
+       "cantons": [
+        "NE"
+       ]
+      }
+     }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007397/",
+      "title": "HLS: Neuenburg (Kanton)",
+      "quote": "die von Freiburg (Ende 1395-1458) und die von Hochberg (1458-1503)",
+      "supports": "From 1458 the Hochberg family rules"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007397/",
+      "title": "HLS: Neuenburg (Kanton)",
+      "quote": "Die d'Orléans-Longueville (1504-1707)",
+      "supports": "From 1504 the Orléans-Longueville family"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007397/",
+      "title": "HLS: Neuenburg (Kanton)",
+      "quote": "die Grafschaft während der Mailänderkriege vorsorglich zu besetzen und sie 1512-1529 durch Vögte verwalten zu lassen",
+      "supports": "From 1512 to 1529 the Swiss occupy Neuchâtel and rule it through governors"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007397/",
+      "title": "HLS: Neuenburg (Kanton)",
+      "quote": "Nach einem langen Prozess vereinigte sich 1592 die Herrschaft Valangin mit der Grafschaft.",
+      "supports": "In 1592 Valangin is united with the county"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007397/",
+      "title": "HLS: Neuenburg (Kanton)",
+      "quote": "an der Spitze eines Staats, dessen Grenzen fast mit jenen des heutigen Kantons übereinstimmten",
+      "supports": "The state now has almost its present size"
+     }
+    ]
+   },
+   {
+    "year": 1815,
+    "title": "Canton and principality",
+    "text": [
+     "In 1707 the King of Prussia becomes Prince of Neuchâtel. From 1806 to 1814 Napoleon gives the principality to his marshal Berthier.",
+     "In 1814 Neuchâtel gets Le Cerneux-Péquignot from France. On 12 September 1814 the Swiss Diet accepts Neuchâtel as the 21st canton. In 1815 it also gets all of Lignières.",
+     "Neuchâtel is now a Swiss canton and, at the same time, a principality of the King of Prussia."
+    ],
+    "layers": [
+     {
+      "name": "Le Cerneux-Péquignot",
+      "kind": "core",
+      "label": "Le Cerneux-Péquignot: from France in 1814",
+      "sel": {
+       "munis": [
+        6434
+       ]
+      }
+     },
+     {
+      "name": "Canton of Neuchâtel",
+      "kind": "core",
+      "label": "Canton and Principality of Neuchâtel (Prussian king)",
+      "sel": {
+       "cantons": [
+        "NE"
+       ]
+      }
+     }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007397/",
+      "title": "HLS: Neuenburg (Kanton)",
+      "quote": "Nach dem Tod von Marie de Nemours 1707 wurde das Fürstentum dem preussischen Königshaus der Hohenzollern zugesprochen",
+      "supports": "In 1707 the King of Prussia becomes Prince of Neuchâtel"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007397/",
+      "title": "HLS: Neuenburg (Kanton)",
+      "quote": "als Marschall Louis-Alexandre Berthier 1806-1814 Fürst von Neuenburg war",
+      "supports": "From 1806 to 1814 Berthier is prince"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007397/",
+      "title": "HLS: Neuenburg (Kanton)",
+      "quote": "1814 die im Pariser Frieden beschlossene Angliederung des Dorfs Le Cerneux-Péquignot, 1815 die im Vertrag von Wien (Vereinigungsurkunden) geregelte Übernahme des gesamten Allods Lignières",
+      "supports": "Le Cerneux-Péquignot in 1814, all of Lignières in 1815"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007397/",
+      "title": "HLS: Neuenburg (Kanton)",
+      "quote": "hatten am 12. September 1814 von der Tagsatzung die Aufnahme Neuenburgs als 21. Kanton erreicht",
+      "supports": "The Swiss Diet accepts Neuchâtel as a canton in September 1814"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007397/",
+      "title": "HLS: Neuenburg (Kanton)",
+      "quote": "vom 17. Jahrhundert bis 1848 Fürstentum, ab 1814 Kanton",
+      "supports": "Neuchâtel is both a canton and a principality"
+     }
+    ]
+   },
+   {
+    "year": 1857,
+    "title": "Republic, Prussia gives up",
+    "text": [
+     "In 1848 a revolution ends the rule of the prince. Neuchâtel becomes a republic. In 1857 the King of Prussia gives up his claim.",
+     "Since then, the borders have almost not changed. In 1894, after the Jura water correction, the small area of Thielle goes to Bern."
+    ],
+    "layers": [
+     {
+      "name": "Republic and canton of Neuchâtel",
+      "kind": "core",
+      "label": "Republic and canton of Neuchâtel",
+      "sel": {
+       "cantons": [
+        "NE"
+       ]
+      }
+     }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007397/",
+      "title": "HLS: Neuenburg (Kanton)",
+      "quote": "seit 1848 Republik und Kanton Neuenburg (amtlicher Name)",
+      "supports": "In 1848 Neuchâtel becomes a republic"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007397/",
+      "title": "HLS: Neuenburg (Kanton)",
+      "quote": "bis zur Revolution von 1848 behielten",
+      "supports": "A revolution in 1848 ends the rule of the prince"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007397/",
+      "title": "HLS: Neuenburg (Kanton)",
+      "quote": "Darin verzichtete der preussische König auf Neuenburg",
+      "supports": "In 1857 (Treaty of Paris) the King of Prussia gives up his claim"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007397/",
+      "title": "HLS: Neuenburg (Kanton)",
+      "quote": "1894 die Abtretung des Schlosses Thielle an den Kanton Bern nach der Juragewässerkorrektion",
+      "supports": "In 1894, after the Jura water correction, Thielle goes to Bern"
+     }
+    ]
+   }
+  ],
+  "sources": [
+   "https://hls-dhs-dss.ch/articles/007397/2017-05-30/"
+  ],
+  "notes": "Valangin drawn as Val-de-Ruz, La Chaux-de-Fonds, Le Locle, La Sagne, Les Planchettes, Les Ponts-de-Martel, Brot-Plamboz and La Chaux-du-Milieu (approximate; La Brévine shown with the county). Lignières (partly outside Neuchâtel before 1815) is not drawn separately. The 1894 Thielle change is too small to draw. Valangin in 1250 drawn with the mountains, which were settled from Valangin mostly in the 14th–15th centuries."
+ },
+ {
+  "canton": "GE",
+  "name": "Geneva",
+  "summary": "Geneva was a bishop's city in the Empire surrounded by the counts of Geneva and later Savoy; it became an independent city-republic with scattered rural lands in 1536, was French from 1798 to 1813, and in 1815–1816 got communes from France and Savoy that link it to Switzerland.",
+  "stops": [
+   {
+    "year": 1032,
+    "title": "Bishop's city in the Empire",
+    "text": [
+     "Geneva belongs to the Kingdom of Burgundy. In 1032 the last king dies, and his land goes to the German emperor.",
+     "The bishop rules the city. From the 11th century the counts of Geneva are the strongest lords in the land around it."
+    ],
+    "layers": [
+     {
+      "name": "Bishop of Geneva",
+      "kind": "lord",
+      "lord": "bishop",
+      "label": "City of Geneva: ruled by the Bishop of Geneva",
+      "sel": {
+       "munis": [
+        6621
+       ]
+      }
+     },
+     {
+      "name": "Counts of Geneva",
+      "kind": "lord",
+      "lord": "noble",
+      "label": "Land around: counts of Geneva and other lords",
+      "sel": {
+       "cantons": [
+        "GE"
+       ]
+      }
+     }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007398/",
+      "title": "HLS: Genf (Kanton)",
+      "quote": "Der letzte Burgunderkönig starb 1032 und vermachte seine Besitzungen Konrad II., dem Kaiser des Heiligen Römischen Reichs.",
+      "supports": "In 1032 the last king of Burgundy dies; his land goes to the emperor"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007398/",
+      "title": "HLS: Genf (Kanton)",
+      "quote": "der Bischof verteidigte seine Herrschaft über die Stadt",
+      "supports": "The bishop rules the city"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007398/",
+      "title": "HLS: Genf (Kanton)",
+      "quote": "Ab dem 11. Jahrhundert setzte sich das Geschlecht der Grafen von Genf in diesen Auseinandersetzungen durch",
+      "supports": "From the 11th century the counts of Geneva are the strongest lords around the city"
+     }
+    ]
+   },
+   {
+    "year": 1402,
+    "title": "Savoy buys the county",
+    "text": [
+     "The bishop holds the city and rural districts (mandements) such as Peney and Jussy. The priory of Saint-Victor and the cathedral chapter hold other villages. The lords of Gex rule the land to the north-west.",
+     "The counts of Geneva die out in 1394. In 1402 Amadeus VIII of Savoy buys their county. By 1424 he also buys the rights of all other heirs. Now Savoy surrounds Geneva and tries to control the city."
+    ],
+    "layers": [
+     {
+      "name": "Bishop of Geneva",
+      "kind": "lord",
+      "lord": "bishop",
+      "label": "Bishop of Geneva: city and mandements of Peney and Jussy",
+      "sel": {
+       "munis": [
+        6621,
+        6638,
+        6620,
+        6637,
+        6626,
+        6624,
+        6610
+       ]
+      }
+     },
+     {
+      "name": "Saint-Victor and chapter",
+      "kind": "lord",
+      "lord": "abbey",
+      "label": "Villages of the priory of Saint-Victor and the cathedral chapter",
+      "sel": {
+       "munis": [
+        6609,
+        6603,
+        6611,
+        6622,
+        6617,
+        6642,
+        6612
+       ]
+      }
+     },
+     {
+      "name": "Pays de Gex",
+      "kind": "lord",
+      "lord": "noble",
+      "label": "Pays de Gex (lords of Gex, under Savoy)",
+      "sel": {
+       "munis": [
+        6644,
+        6615,
+        6606,
+        6623,
+        6634,
+        6643,
+        6630
+       ]
+      }
+     },
+     {
+      "name": "Savoy",
+      "kind": "lord",
+      "lord": "savoy",
+      "label": "County of Savoy, with the Genevois bought in 1402",
+      "sel": {
+       "cantons": [
+        "GE"
+       ]
+      }
+     }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007398/",
+      "title": "HLS: Genf (Kanton)",
+      "quote": "Dem Bischof, der Herr der Stadt Genf und ihrer Vorstädte war, unterstanden ab dem 12. Jahrhundert auch Güter, die bald als Mandements bezeichnet wurden",
+      "supports": "The bishop holds the city and rural mandements"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007398/",
+      "title": "HLS: Genf (Kanton)",
+      "quote": "nämlich Peney und Jussy, im heutigen Kantonsgebiet",
+      "supports": "Peney and Jussy"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007398/",
+      "title": "HLS: Genf (Kanton)",
+      "quote": "Zwischen 1260 und 1304 erkannten die Grafen dem Priorat sämtliche Herrschaftsrechte (mit Ausnahme der Durchführung der Hinrichtungen) über 20 Dörfer",
+      "supports": "The priory of Saint-Victor holds villages"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007398/",
+      "title": "HLS: Genf (Kanton)",
+      "quote": "Ein weiterer wichtiger Lehnsherr war das Domkapitel.",
+      "supports": "The cathedral chapter holds villages"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007398/",
+      "title": "HLS: Genf (Kanton)",
+      "quote": "die Grafen von Genf, die Herren von Gex, die Freiherren de Faucigny, die Grafen von Maurienne-Savoyen",
+      "supports": "The lords of Gex"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/019515/",
+      "title": "HLS: Genf, von",
+      "quote": "Ab dem 11. Jahrhundert bezeugte Genfer Dynastie, die im Mannesstamm 1394 ausgestorben ist.",
+      "supports": "The counts of Geneva die out in 1394"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/019515/",
+      "title": "HLS: Genf, von",
+      "quote": "der die Rechte 1402 für 45'000 Francs d'or an Amadeus VIII. von Savoyen veräusserte",
+      "supports": "In 1402 Amadeus VIII buys the county"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/019515/",
+      "title": "HLS: Genf, von",
+      "quote": "1402-1424 gelang es diesem mittels zahlreicher Prozesse und Kämpfe, die Rechte aller Erbschaftsanwärter der Grafen von Genf zu kaufen.",
+      "supports": "By 1424 he buys the rights of all other heirs"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/002903/",
+      "title": "HLS: Genf (Gemeinde)",
+      "quote": "rissen die Grafen von Savoyen auf Kosten des Bischofs immer mehr Machtbefugnisse an sich und drohten sich zu den Herrschern der Stadt aufzuschwingen",
+      "supports": "Savoy tries to control the city"
+     }
+    ]
+   },
+   {
+    "year": 1536,
+    "title": "Independent city-republic",
+    "text": [
+     "In 1526 Geneva makes an alliance (Burgrecht) with Bern and Fribourg. In 1536 the bishop leaves, the city takes the Reformation and becomes an independent republic, an ally of the Swiss.",
+     "Geneva takes the bishop's rural lands: the mandements (districts) of Peney and Jussy, and Céligny. It also has rights in villages of the Saint-Victor priory and the cathedral chapter, but Savoy claims many of them.",
+     "The lands around them belong to Savoy or, from 1601, to France (Pays de Gex). Many Genevan villages are enclaves."
+    ],
+    "layers": [
+     {
+      "name": "Mixed-rights villages",
+      "kind": "other",
+      "label": "Villages where Geneva shares rights with Savoy (Saint-Victor, chapter)",
+      "sel": {
+       "munis": [
+        6609,
+        6603,
+        6611,
+        6622,
+        6617,
+        6642,
+        6612
+       ]
+      }
+     },
+     {
+      "name": "Rural mandements",
+      "kind": "subject",
+      "label": "Rural mandements of Peney and Jussy, and Céligny: ruled by the city",
+      "sel": {
+       "munis": [
+        6638,
+        6620,
+        6637,
+        6626,
+        6624,
+        6610
+       ]
+      }
+     },
+     {
+      "name": "City of Geneva",
+      "kind": "core",
+      "label": "City-republic of Geneva (ally of the Swiss)",
+      "sel": {
+       "munis": [
+        6621
+       ]
+      }
+     },
+     {
+      "name": "Pays de Gex",
+      "kind": "other",
+      "label": "Pays de Gex: Bern 1536–1564, then Savoy, French from 1601",
+      "sel": {
+       "munis": [
+        6644,
+        6615,
+        6606,
+        6623,
+        6634,
+        6643,
+        6630
+       ]
+      }
+     },
+     {
+      "name": "Savoy",
+      "kind": "lord",
+      "lord": "savoy",
+      "label": "Duchy of Savoy",
+      "sel": {
+       "cantons": [
+        "GE"
+       ]
+      }
+     }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007398/",
+      "title": "HLS: Genf (Kanton)",
+      "quote": "Nach Abschluss des Burgrechts mit Bern und Freiburg von 1526",
+      "supports": "In 1526 Geneva makes an alliance with Bern and Fribourg"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007398/",
+      "title": "HLS: Genf (Kanton)",
+      "quote": "trat die Nachfolge des Bischofs Pierre de La Baume an, der die Stadt verliess",
+      "supports": "The bishop leaves"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007398/",
+      "title": "HLS: Genf (Kanton)",
+      "quote": "Mit der Einführung der Reformation 1536 vollzog Genf eine sowohl politische als auch religiöse Revolution",
+      "supports": "In 1536 the city takes the Reformation"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007398/",
+      "title": "HLS: Genf (Kanton)",
+      "quote": "eine unabhängige und souveräne reformierte Republik wurde",
+      "supports": "Geneva becomes an independent republic"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007398/",
+      "title": "HLS: Genf (Kanton)",
+      "quote": "Dagegen scheiterten mehrere Versuche der Genfer, Mitglied der Eidgenossenschaft zu werden.",
+      "supports": "An ally of the Swiss, not a member"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007398/",
+      "title": "HLS: Genf (Kanton)",
+      "quote": "Die Seigneurie schuf in den ehemaligen bischöflichen Mandements Kastlaneien",
+      "supports": "Geneva takes the bishop's mandements of Peney and Jussy"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/002892/",
+      "title": "HLS: Céligny",
+      "quote": "1536 leisteten die Vertreter der Bürger von Céligny Genf als Lehensherrin und Nachfolgerin des Bischofs den Treueeid.",
+      "supports": "Geneva takes Céligny"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007398/",
+      "title": "HLS: Genf (Kanton)",
+      "quote": "sich die Stadt Bern bis 1564/1567 und dann der Herzog von Savoyen die Hoch- und Appellationsgerichtsbarkeit sicherten",
+      "supports": "Geneva has only some rights in the Saint-Victor and chapter villages; others claim the rest"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007398/",
+      "title": "HLS: Genf (Kanton)",
+      "quote": "Der französisch-savoyische Krieg, der im Kontext des Konflikts zwischen Frankreich und Spanien zu sehen ist, wurde 1601 mit dem Vertrag von Lyon beendet.",
+      "supports": "From 1601 the Pays de Gex is French"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007398/",
+      "title": "HLS: Genf (Kanton)",
+      "quote": "dass die Genfer Exklaven in den französischen und savoyischen Gebieten ständig Gefahr liefen",
+      "supports": "Many Genevan villages are enclaves"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007398/",
+      "title": "HLS: Genf (Kanton)",
+      "quote": "Im Lausanner Vertrag 1564 gab Bern dem Herzog das Pays de Gex",
+      "supports": "Pays de Gex: Bern 1536–1564, then Savoy (map layer)"
+     }
+    ],
+    "uncertain": [
+     "Savoy claims many of the villages where Geneva has rights."
+    ]
+   },
+   {
+    "year": 1798,
+    "title": "Annexed by France",
+    "text": [
+     "In 1749 and 1754 treaties with France and Sardinia (Savoy) exchange land. Geneva's rural lands become a little more compact.",
+     "In 1798 France annexes Geneva. The city becomes the capital of the French département (province) of Léman until 1813. The land around it is also French."
+    ],
+    "layers": [
+     {
+      "name": "Geneva",
+      "kind": "core",
+      "label": "Geneva: French, capital of the département of Léman",
+      "sel": {
+       "munis": [
+        6621,
+        6609,
+        6603,
+        6611,
+        6622,
+        6617,
+        6642,
+        6612,
+        6638,
+        6620,
+        6637,
+        6626,
+        6624,
+        6610
+       ]
+      }
+     },
+     {
+      "name": "Gex and Savoy",
+      "kind": "other",
+      "label": "Pays de Gex and Savoy: also French at this time",
+      "sel": {
+       "cantons": [
+        "GE"
+       ]
+      }
+     }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007398/",
+      "title": "HLS: Genf (Kanton)",
+      "quote": "Mandements Peney (Pariser Vertrag vom 15. August 1749) und Jussy sowie in einem Teil der Champagne (Turiner Vertrag vom 30. Mai 1754)",
+      "supports": "In 1749 and 1754 treaties with France and Sardinia exchange land"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007398/",
+      "title": "HLS: Genf (Kanton)",
+      "quote": "Im 18. Jahrhundert brachte der Austausch von Gebieten und Gerichtsbarkeiten mit Frankreich und dem Königreich Sardinien",
+      "supports": "Geneva's rural lands become a little more compact"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007398/",
+      "title": "HLS: Genf (Kanton)",
+      "quote": "wurde mit dem Vereinigungsvertrag vom 26. April 1798 besiegelt",
+      "supports": "In 1798 France annexes Geneva"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007398/",
+      "title": "HLS: Genf (Kanton)",
+      "quote": "Im August 1798 wurde Genf Hauptort des Departements Léman und blieb dies für fünfzehn Jahre.",
+      "supports": "Geneva is the capital of the département of Léman until 1813"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007398/",
+      "title": "HLS: Genf (Kanton)",
+      "quote": "das im September 1792 zum französischen Departement wurde",
+      "supports": "Savoy is also French at this time"
+     }
+    ]
+   },
+   {
+    "year": 1815,
+    "title": "Canton, with communes from France",
+    "text": [
+     "Geneva is free again at the end of 1813. In 1815 it joins the Confederation as a canton.",
+     "By the Second Treaty of Paris of 20 November 1815, France gives Geneva all or part of Versoix, Collex-Bossy, Le Grand-Saconnex, Pregny, Vernier and Meyrin. Now Geneva touches Vaud and Switzerland by land."
+    ],
+    "layers": [
+     {
+      "name": "Communes from France",
+      "kind": "core",
+      "label": "Communes from the Pays de Gex (France), 1815",
+      "sel": {
+       "munis": [
+        6644,
+        6615,
+        6606,
+        6623,
+        6634,
+        6643,
+        6630
+       ]
+      }
+     },
+     {
+      "name": "Old Geneva",
+      "kind": "core",
+      "label": "Old Genevan territory",
+      "sel": {
+       "munis": [
+        6621,
+        6609,
+        6603,
+        6611,
+        6622,
+        6617,
+        6642,
+        6612,
+        6638,
+        6620,
+        6637,
+        6626,
+        6624,
+        6610
+       ]
+      }
+     },
+     {
+      "name": "Savoyard communes",
+      "kind": "lord",
+      "label": "Still Savoy (Kingdom of Sardinia) until 1816",
+      "sel": {
+       "cantons": [
+        "GE"
+       ]
+      },
+      "lord": "savoy"
+     }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007398/",
+      "title": "HLS: Genf (Kanton)",
+      "quote": "Die Regierungskommission, die im Dezember 1813 nach dem Abzug der kaiserlichen Truppen",
+      "supports": "Geneva is free again at the end of 1813"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007398/",
+      "title": "HLS: Genf (Kanton)",
+      "quote": "Kanton der Eidgenossenschaft seit 1815.",
+      "supports": "In 1815 Geneva joins the Confederation"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/fr/articles/030186/",
+      "title": "HLS: Communes réunies (French)",
+      "quote": "au second traité de Paris (20 novembre 1815) tout ou partie des communes de Versoix, Collex-Bossy, Le Grand-Saconnex, Pregny, Vernier et Meyrin",
+      "supports": "By the Second Treaty of Paris of 20 November 1815 France gives these communes"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007398/",
+      "title": "HLS: Genf (Kanton)",
+      "quote": "musste sie aus der Umklammerung durch fremdes Territorium gelöst und mit der Eidgenossenschaft verbunden werden, an das ihr Gebiet bis dahin nirgends direkt angrenzte",
+      "supports": "Now Geneva touches Vaud and Switzerland by land"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007398/",
+      "title": "HLS: Genf (Kanton)",
+      "quote": "seit 1815 und 1816 die Communes réunies, die von Frankreich und Piemont-Sardinien dem neuen Kanton abgetreten wurden",
+      "supports": "The Savoy communes stay Sardinian until 1816 (map layer)"
+     }
+    ]
+   },
+   {
+    "year": 1816,
+    "title": "Communes from Savoy",
+    "text": [
+     "By the Treaty of Turin of 16 March 1816, the King of Sardinia gives Geneva 24 communes, all or in part, for example Carouge, Lancy, Bernex, Chêne-Thônex and Hermance.",
+     "Together, the new communes from France and Savoy are called the 'communes réunies' (joined communes). Since then, the borders of the canton have changed only in small details, for example with Vaud in 1953 and 1971."
+    ],
+    "layers": [
+     {
+      "name": "Communes from France",
+      "kind": "core",
+      "label": "Communes réunies from France (1815)",
+      "sel": {
+       "munis": [
+        6644,
+        6615,
+        6606,
+        6623,
+        6634,
+        6643,
+        6630
+       ]
+      }
+     },
+     {
+      "name": "Old Geneva",
+      "kind": "core",
+      "label": "Old Genevan territory",
+      "sel": {
+       "munis": [
+        6621,
+        6609,
+        6603,
+        6611,
+        6622,
+        6617,
+        6642,
+        6612,
+        6638,
+        6620,
+        6637,
+        6626,
+        6624,
+        6610
+       ]
+      }
+     },
+     {
+      "name": "Communes from Savoy",
+      "kind": "core",
+      "label": "Communes réunies from Savoy (1816)",
+      "sel": {
+       "cantons": [
+        "GE"
+       ]
+      }
+     }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/fr/articles/030186/",
+      "title": "HLS: Communes réunies (French)",
+      "quote": "Par le traité de Turin (16 mars 1816), Victor-Emmanuel Ier, roi de Sardaigne, cédait tout ou partie d'Avusy, Laconnex, Soral",
+      "supports": "Treaty of Turin, 16 March 1816 (the list names 24 communes)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/fr/articles/030186/",
+      "title": "HLS: Communes réunies (French)",
+      "quote": "Chêne-Thônex, Puplinge, Presinge, Choulex, Meinier, Collonge-Bellerive, Corsier, Hermance, Anières et Carouge",
+      "supports": "For example Carouge, Chêne-Thônex and Hermance"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/fr/articles/030186/",
+      "title": "HLS: Communes réunies (French)",
+      "quote": "Lancy, Bardonnex, Compesières, Troinex",
+      "supports": "For example Lancy (and Bernex, also in the list)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/fr/articles/030186/",
+      "title": "HLS: Communes réunies (French)",
+      "quote": "On appelle \"communes réunies\" les territoires de confession catholique cédés à Genève",
+      "supports": "They are called the 'communes réunies'"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/002892/",
+      "title": "HLS: Céligny",
+      "quote": "Die heutigen Grenzen zwischen den Kantonen Waadt und Genf wurden durch das Genfer Gesetz von 1953 festgelegt und 1971 nach dem Bau der Autobahn modifiziert.",
+      "supports": "Borders changed in small details with Vaud in 1953 and 1971 (corrects 'have not changed')"
+     }
+    ]
+   }
+  ],
+  "sources": [
+   "https://hls-dhs-dss.ch/de/articles/007398/2017-05-30/",
+   "https://hls-dhs-dss.ch/fr/articles/030186/",
+   "https://statistique.ge.ch/tel/publications/1958/hors_collection/documents_historiques/hc-ocstat-1958-02.pdf",
+   "https://hls-dhs-dss.ch/de/articles/008568/2007-07-11/",
+   "https://hls-dhs-dss.ch/textes/d/D6641.php"
+  ],
+  "notes": "Old Genevan territory drawn as Genève, Satigny, Dardagny, Russin, Jussy, Gy, Céligny, Genthod, Cologny, Vandoeuvres, Chêne-Bougeries, Cartigny, Avully and Chancy; several communes réunies were ceded only in part, so whole communes are approximate. The 1536 split between the mandements and the mixed-rights villages (Saint-Victor and chapter lands) is simplified; the 1749/1754 exchanges are not drawn separately. Bellevue (split from Collex-Bossy in 1855) counted with the French communes. In 1402 the bishop's mandements and the Saint-Victor/chapter villages are drawn with the same communes as in 1536."
+ }
 ]

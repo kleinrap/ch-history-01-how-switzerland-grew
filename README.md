@@ -6,6 +6,7 @@ A map site about Swiss history: "Through time", "Every canton" and "Stories". Ri
 - **1803: Six new cantons:** what Aargau, Graubünden, St. Gallen, Thurgau, Ticino and Vaud were before 1798, piece by piece. The map zooms to each canton.
 - **Every canton:** click a canton on the small map of Switzerland and step through its own history, from its earlier rulers (Zähringen, Kyburg, Habsburg, Savoy, bishops, abbeys) to today. The map zooms to the canton; a dashed line shows its border today.
 - **Stories:** guided chapters with their own maps, some zooming out to Europe: 1803 six new cantons; Bern; the Helvetic cantons 1798–1803; lords (Habsburg, Savoy, Zähringen and Kyburg, bishops and abbeys); the Reformation 1519–1712; six stories on wars and battles from Morgarten to the Sonderbund War.
+- **Sources:** every step lists its sources (link, short quote, what it supports) and any uncertain statements. Rebuild the uncertainty page: `python3 scripts/build_open_questions.py && python3 scripts/build_uncertain.py . "How Switzerland Grew"`.
 - **Bern's real borders:** Bern at its largest (1555), split by France (1798), the loss of Vaud and Aargau (1803), the Jura (1815), and the losses of 1979, 1994 and 2026. A bar chart shows Bern's area at each date.
 
 ## Run it

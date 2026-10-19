@@ -9,8 +9,8 @@
     "tick": "1519–1525",
     "title": "Zwingli changes Zurich",
     "text": [
-     "On 1 January 1519 Huldrych Zwingli starts to preach at the Grossmünster in Zurich. He says that only the Bible is the rule for faith. In 1522 friends of Zwingli eat sausages in Lent, which the Church forbids. This becomes a public dispute.",
-     "The city council supports Zwingli against the bishop of Constance. After public debates (disputations) in 1523, the council removes the images from the churches in June 1524 and closes the monasteries. In April 1525 Zurich stops the Catholic Mass.",
+     "On 1 January 1519 Huldrych Zwingli starts as priest at the Grossmünster in Zurich. He teaches that only the Bible is the rule for faith. In 1522 friends of Zwingli eat sausages in Lent, which the Church forbids. This becomes a public dispute.",
+     "The city council supports Zwingli against the bishop of Constance. After public debates (disputations) in 1523, the council removes the images from the churches in June 1524 and takes over the monasteries in December. In April 1525 Zurich stops the Catholic Mass.",
      "The five inner cantons (Lucerne, Uri, Schwyz, Unterwalden, Zug) promise in 1524 to keep the old faith. In Appenzell, the Landsgemeinde (assembly of all men) decides in 1525 that each parish chooses its own faith."
     ],
     "view": "ch",
@@ -68,6 +68,74 @@
       "year": 1519,
       "note": "Zwingli preaches here from 1519"
      }
+    ],
+    "sources": [
+     {
+      "url": "https://www.chronos-verlag.ch/sites/default/files/ihv_978-3-0340-1498-4_niederhauser.pdf",
+      "title": "P. Niederhäuser, R. Schmid (eds.), Querblicke (183. Neujahrsblatt der Antiquarischen Gesellschaft in Zürich, Chronos 2019), introduction",
+      "quote": "Die «Querblicke» erscheinen zur fünfhundertsten Wiederkehr des Amtsantritts von Zwingli am 1. Januar 1519.",
+      "supports": "Zwingli starts his post in Zurich on 1 January 1519 (place Zurich, Grossmünster)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/013328/",
+      "title": "HLS: Reformation",
+      "quote": "Ende 1518 war Huldrych Zwingli dort zum Leutpriester am Grossmünster gewählt worden.",
+      "supports": "Zwingli became the priest of the Grossmünster"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/013328/",
+      "title": "HLS: Reformation",
+      "quote": "der alleinigen Autorität der Heiligen Schrift in Glaubensdingen",
+      "supports": "Only the Bible is the rule for faith"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/013328/",
+      "title": "HLS: Reformation",
+      "quote": "Der demonstrative Bruch des Fastengebots durch ein Wurstessen führte 1522 zum Eklat.",
+      "supports": "In 1522 the sausage eating in Lent became a public dispute"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/013328/",
+      "title": "HLS: Reformation",
+      "quote": "dass sich der Rat hinter Zwingli und gegen den Bischof von Konstanz stellte",
+      "supports": "The council supported Zwingli against the bishop of Constance"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/017172/",
+      "title": "HLS: Disputationen",
+      "quote": "Als Vorbild dienten die beiden Zürcher Disputationen",
+      "supports": "The public debates (disputations) in Zurich"
+     },
+     {
+      "url": "https://www.chronos-verlag.ch/sites/default/files/ihv_978-3-0340-1498-4_niederhauser.pdf",
+      "title": "P. Niederhäuser, R. Schmid (eds.), Querblicke (183. Neujahrsblatt der Antiquarischen Gesellschaft in Zürich, Chronos 2019), introduction",
+      "quote": "Zwei grosse Disputationen im Januar und Oktober 1523 verschafften Zwingli die endgültige Unterstützung des städtischen Rats.",
+      "supports": "Two disputations in 1523"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/013328/",
+      "title": "HLS: Reformation",
+      "quote": "Im Juni 1524 liess der Rat die Bilder aus den Zürcher Kirchen entfernen, im Dezember die religiösen Einrichtungen säkularisieren",
+      "supports": "Images removed in June 1524; monasteries and church houses taken over in December"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/013328/",
+      "title": "HLS: Reformation",
+      "quote": "Im April 1525 wurde in Zürich die Messe abgeschafft",
+      "supports": "In April 1525 Zurich stops the Mass (layer Zurich)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/013328/",
+      "title": "HLS: Reformation",
+      "quote": "1524 bekräftigten die fünf Innerschweizer Orte in Beckenried, beim alten Glauben zu bleiben",
+      "supports": "The five inner cantons promise in 1524 at Beckenried to keep the old faith (layer Five inner cantons)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/013328/",
+      "title": "HLS: Reformation",
+      "quote": "Die Appenzeller Landsgemeinde entschied 1525, jede Kirchhöre solle selbst über ihren Glauben entscheiden.",
+      "supports": "In 1525 the Appenzell Landsgemeinde lets each parish choose (layer Appenzell)"
+     }
     ]
    },
    {
@@ -75,9 +143,9 @@
     "tick": "1528",
     "title": "Bern joins the Reformation",
     "text": [
-     "In January 1528 Bern holds a large public debate. A few days later the council decides to introduce the Reformation. Bern is the largest city-state north of the Alps, so this decision is a turning point.",
-     "Bern's lands follow, from the Aargau to the Oberland. In the Hasli valley people rebel, but Bern stops the revolt. Biel also becomes Reformed in 1528. The French preacher Guillaume Farel works in Aigle, a Bernese land.",
-     "In the east the town of St. Gallen under Vadian and the Toggenburg are already Reformed. In Thurgau a Landsgemeinde declares freedom of faith in December 1528. In Graubünden the Ilanz Articles (1524, 1526) let each commune choose its pastor."
+     "In January 1528 Bern holds a large public debate. A few days later the council decides to introduce the Reformation. Bern is a powerful city-state, so this decision is a turning point.",
+     "Bern brings the Reformation into its lands, by force where needed. In the Hasli valley about half of the people rebel, but Bern stops the revolt. Biel also becomes Reformed in 1528. The French preacher Guillaume Farel works in Aigle, a Bernese land.",
+     "In the east the town of St. Gallen under Vadian is already Reformed, and the Toggenburg follows. In Thurgau a Landsgemeinde declares freedom of faith in December 1528. In Graubünden the Ilanz Articles (1524, 1526) let each commune choose its pastor."
     ],
     "view": "ch",
     "layers": [
@@ -145,7 +213,7 @@
      {
       "name": "Bern",
       "kind": "reformed",
-      "label": "Bern and its lands: Reformed (February 1528); Biel too",
+      "label": "Bern and its lands: Reformed (1528); Biel too",
       "sel": {
        "cantons": [
         "BE"
@@ -240,6 +308,103 @@
       "year": 1519,
       "note": "Zwingli preaches here from 1519"
      }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/017172/",
+      "title": "HLS: Disputationen",
+      "quote": "Die Berner Disputation (6.-26. Januar 1528)",
+      "supports": "The Bern disputation in January 1528 (place Bern Minster)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/013328/",
+      "title": "HLS: Reformation",
+      "quote": "Der Berner Rat lud im Januar 1528 nun seinerseits zu einer Disputation nach Bern ein. Wenige Tage später beschloss er die Einführung der Reformation",
+      "supports": "A few days later the council introduced the Reformation (layer Bern)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/013328/",
+      "title": "HLS: Reformation",
+      "quote": "zumal nun weitere Gebiete und Orte dem Beispiel des mächtigen Stadtstaats folgten, wie noch gleichenjahrs die Stadt Biel",
+      "supports": "Bern is a powerful city-state; others follow; Biel becomes Reformed in 1528 (place Biel)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008451/",
+      "title": "HLS: Oberhasli (BE)",
+      "quote": "Ungefähr die Hälfte der Einwohner beteiligte sich 1528 am Aufstand gegen die von Bern mit Waffengewalt durchgesetzte Einführung der Reformation.",
+      "supports": "Bern enforced the Reformation by force; about half of the Hasli people rebelled"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/011113/",
+      "title": "HLS: Farel, Guillaume",
+      "quote": "predigte er den neuen Glauben in Aigle, Lausanne, Orbe, Grandson, Yverdon und Genf",
+      "supports": "Farel preached in Aigle (place Aigle)"
+     },
+     {
+      "url": "https://antipodes.ch/wp-content/uploads/2016/06/bruening_le-premier-champ-de-bataille-du-calvinisme_9782889010615_10.33056-ANTIPODES.10615.pdf",
+      "title": "M. W. Bruening, Le premier champ de bataille du calvinisme (Antipodes, 2011)",
+      "quote": "Guillaume Farel et les autres missionnaires protestants n’étaient présents que dans quelques régions: d’abord, dans le gouvernement d’Aigle directement soumis à Berne",
+      "supports": "Aigle was directly under Bern"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/013328/",
+      "title": "HLS: Reformation",
+      "quote": "Nachdem Vadian Ende 1525 zum Bürgermeister gewählt worden war, wurden 1526 in den Stadtkirchen evangelische Gottesdienste gefeiert",
+      "supports": "St. Gallen under Vadian was Reformed (layer Town of St. Gallen; place St. Gallen)"
+     },
+     {
+      "url": "https://www.hist.uzh.ch/dam/jcr:60c4df2c-e2cd-496a-a722-0c45e451621c/Sonderegger_Vadian_Kirchenbote.pdf",
+      "title": "S. Sonderegger (Stadtarchiv St. Gallen), article on Vadian in Kirchenbote SG, hosted by Univ. Zürich",
+      "quote": "Ab Ostern 1527 feierte man anstelle der Messe das evangelische Abendmahl.",
+      "supports": "From Easter 1527 St. Gallen held the Reformed Lord's Supper"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/013328/",
+      "title": "HLS: Reformation",
+      "quote": "Zürich förderte nach wie vor die Reformation im Thurgau, im Toggenburg, unter den St. Galler Untertanen",
+      "supports": "Zurich spread the Reformation in Thurgau and the Toggenburg (layers Thurgau, Toggenburg)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007374/",
+      "title": "HLS: Glarus (Kanton)",
+      "quote": "Trotzdem fanden 1528 in den Sernftaler Gotteshäusern sowie in den Kirchen von Schwanden und Betschwanden Bilderstürme statt.",
+      "supports": "Glarus: images destroyed in some churches in 1528 (layer Glarus)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/017173/",
+      "title": "HLS: Ilanzer Artikel",
+      "quote": "Die Ilanzer Artikel von 1524 und 1526 stellten das Landesrecht (Kirchen-, Staats- und Zivilrecht) der Drei Bünde dar.",
+      "supports": "The Ilanz Articles of 1524 and 1526 (layer Three Leagues)"
+     },
+     {
+      "url": "https://kulturforschung.ch/storage/atlasgr/seiten/32_konfessionen.pdf",
+      "title": "Institut für Kulturforschung Graubünden, Atlas Graubünden, Thema 32: Konfessionen",
+      "quote": "Die Gemeinden konnten ihre Pfarrer, und damit auch ihre Konfession, nun eigenständig wählen.",
+      "supports": "Each commune chooses its pastor"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/013328/",
+      "title": "HLS: Reformation",
+      "quote": "Die Appenzeller Landsgemeinde entschied 1525, jede Kirchhöre solle selbst über ihren Glauben entscheiden.",
+      "supports": "Layer Appenzell"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/013328/",
+      "title": "HLS: Reformation",
+      "quote": "In der Stadt Freiburg unterdrückte der Rat die Reformation energisch.",
+      "supports": "Layer Catholic: Fribourg stays Catholic"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008903/",
+      "title": "HLS: Kappelerkriege",
+      "quote": "den altgläubigen fünf inneren Orten der Eidgenossenschaft (Luzern, Uri, Schwyz, Unterwalden und Zug)",
+      "supports": "Layer Catholic: the five inner cantons"
+     }
+    ],
+    "uncertain": [
+     "The Toggenburg became Reformed from 1524.",
+     "In December 1528 a Landsgemeinde in Thurgau declared freedom of faith.",
+     "Valais and the Ticino bailiwicks stayed Catholic (map layer)."
     ]
    },
    {
@@ -499,6 +664,103 @@
       "year": 1528,
       "note": "Disputation of Bern, January 1528"
      }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/013328/",
+      "title": "HLS: Reformation",
+      "quote": "1529 traten auch die Städte Basel und Schaffhausen endgültig zur Reformation über",
+      "supports": "In 1529 Basel and Schaffhausen become Reformed (layers Basel, Schaffhausen; places Basel Minster, Schaffhausen)"
+     },
+     {
+      "url": "https://www.chronos-verlag.ch/sites/default/files/vorwort_978-3-0340-1595-0.pdf",
+      "title": "Schaffhauser Beiträge zur Geschichte (Chronos), volume on J. C. Ulmer, foreword 'Zum Geleit'",
+      "quote": "1529 beschliesst der Rat der Stadt Schaffhausen die Einführung der von Sebastian Hofmeister (um 1494–1533) initiierten Reformation.",
+      "supports": "Schaffhausen 1529"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/013328/",
+      "title": "HLS: Reformation",
+      "quote": "in Glarus beschloss im Mai 1529 die Landsgemeinde, jede Gemeinde solle selbst über die Form ihres Gottesdienstes bestimmen",
+      "supports": "In Glarus (May 1529) each commune decides (layer Glarus)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008903/",
+      "title": "HLS: Kappelerkriege",
+      "quote": "Der Durchbruch der Reformation in Bern, Basel und Schaffhausen 1528-1529 führte zu einer Stärkung der im Christlichen Burgrecht organisierten Reformierten",
+      "supports": "The Reformed towns' alliance (Christian Burgrecht)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008903/",
+      "title": "HLS: Kappelerkriege",
+      "quote": "das Bündnis der fünf Orte mit König Ferdinand I. aus dem Hause Habsburg",
+      "supports": "The five Catholic cantons ally with King Ferdinand"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008903/",
+      "title": "HLS: Kappelerkriege",
+      "quote": "Zum Auslöser des Ersten Kappelerkriegs wurde die Verbrennung des reformierten Pfarrers Jakob Kaiser in Schwyz.",
+      "supports": "Schwyz burns Jakob Kaiser"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008903/",
+      "title": "HLS: Kappelerkriege",
+      "quote": "Zürich erklärte den fünf Orten am 8. Juni 1529 den Krieg und zog mit seiner Hauptmacht nach Kappel an der Zuger Grenze",
+      "supports": "8 June 1529 war; march to Kappel (place Kappel milk soup stone)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008903/",
+      "title": "HLS: Kappelerkriege",
+      "quote": "Die Vermittlungstätigkeit der Vertreter der neutral gebliebenen Orte unter der Leitung des Glarner Landammanns Hans Aebli verhinderte den Übergang zum blutigen Kampf",
+      "supports": "Neutral cantons found a compromise; no battle"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008903/",
+      "title": "HLS: Kappelerkriege",
+      "quote": "Kriegsleute aus beiden Lagern hätten demnach aus einem grossen Eimer an der Grenze gemeinsam eine Suppe aus Milch und Brot gegessen",
+      "supports": "The milk soup story"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008903/",
+      "title": "HLS: Kappelerkriege",
+      "quote": "Dieser fiel am 26. Juni 1529 in Form des Ersten Kappeler Landfriedens eher zugunsten der reformierten Wünsche aus",
+      "supports": "The First Land Peace (26 June 1529) helps the Reformed side"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/009807/",
+      "title": "HLS: Landfriedensbünde",
+      "quote": "die Glaubensfrage dem kommunalen Mehrheitsprinzip unterstellt",
+      "supports": "In the common lordships each parish decides by majority"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/013328/",
+      "title": "HLS: Reformation",
+      "quote": "Zürich förderte nach wie vor die Reformation im Thurgau, im Toggenburg, unter den St. Galler Untertanen, im aargauischen Bremgarten und in den Freien Ämtern",
+      "supports": "Many parishes in Thurgau, Toggenburg, the abbot's lands, Bremgarten and the Freie Ämter turn Reformed (layers)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/009807/",
+      "title": "HLS: Landfriedensbünde",
+      "quote": "Die aargauischen Freien Ämter sowie die Städte Bremgarten (AG) und Mellingen",
+      "supports": "Layer Bremgarten and Mellingen (Reformed until 1531)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/009807/",
+      "title": "HLS: Landfriedensbünde",
+      "quote": "nachdem sich Solothurn 1532 für den Katholizismus entschieden hatte",
+      "supports": "Layer Solothurn: undecided until 1532"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/017172/",
+      "title": "HLS: Disputationen",
+      "quote": "Die Berner Disputation (6.-26. Januar 1528)",
+      "supports": "Place Bern Minster"
+     }
+    ],
+    "uncertain": [
+     "Basel became Reformed in February 1529 (the month).",
+     "Gaster and Weesen sided with Zurich.",
+     "A Thurgau synod under Zwingli met in December 1529."
     ]
    },
    {
@@ -506,9 +768,9 @@
     "tick": "1531",
     "title": "Second Kappel War",
     "text": [
-     "Zurich wants Reformed preaching in the five inner cantons too. In May 1531 Zurich and Bern stop the sale of grain and salt to them. The five cantons answer with war. On 11 October 1531 they defeat Zurich at Kappel. Zwingli dies in the battle. A second Catholic victory follows at the Gubel on 24 October.",
+     "Zurich wants Reformed preaching in the five inner cantons too. In May 1531 Zurich and Bern stop the sale of grain and salt to them. The five cantons answer with war. On 11 October 1531 they defeat Zurich at Kappel. Zwingli dies in the battle. A second Catholic victory follows at the Gubel in the night of 23 to 24 October.",
      "The Second Land Peace (20 November 1531) fixes faith by place: each canton keeps its own faith. In the common lordships, parishes may go back to the Catholic faith, but not the other way. The Freie Ämter, Bremgarten and Mellingen become Catholic again at once; so do Sargans and most of the abbot's lands.",
-     "Thurgau, the Rheintal and the County of Baden get mixed parishes, often with one church for both faiths. Solothurn decides for the Catholic side in 1532–1533. This map shows the order that lasts, with small changes, until 1712."
+     "Thurgau, the Rheintal and the County of Baden get mixed parishes, often with one church for both faiths. Solothurn decides for the Catholic side in 1532. This map shows the order that lasts, with small changes, until 1712."
     ],
     "view": "ch",
     "layers": [
@@ -891,7 +1153,7 @@
       "lon": 8.5745,
       "kind": "battle",
       "year": 1531,
-      "note": "24 Oct 1531: second Catholic victory"
+      "note": "Night of 23 to 24 Oct 1531: second Catholic victory"
      },
      {
       "name": "Solothurn",
@@ -899,8 +1161,158 @@
       "lon": 7.5323,
       "kind": "town",
       "year": 1533,
-      "note": "Stays Catholic after 1531"
+      "note": "Decides for the Catholic faith in 1532"
      }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008903/",
+      "title": "HLS: Kappelerkriege",
+      "quote": "Ab Anfang 1531 forderte Zürich die fünf Orte auf, die reformierte Predigt auch auf ihrem eigenen Territorium zuzulassen",
+      "supports": "Zurich wants Reformed preaching in the five cantons"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008903/",
+      "title": "HLS: Kappelerkriege",
+      "quote": "im Mai entschlossen, gegen die fünf Orte eine Proviantsperre (Unterbindung der Zufuhr von Getreide und Salz) zu erlassen",
+      "supports": "May 1531 grain and salt blockade"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008903/",
+      "title": "HLS: Kappelerkriege",
+      "quote": "Im Oktober 1531 entschlossen sich die fünf inneren Orte, in welchen sich die Lebensmittelblockade immer stärker bemerkbar machte, zum Angriff",
+      "supports": "The five cantons answer with war"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008903/",
+      "title": "HLS: Kappelerkriege",
+      "quote": "Am Mittag des 11. Oktober 1531 stand den etwa 7000 Mann der fünf Orte nur ein Zürcher Fähnlein mit etwa 2000 Mann gegenüber.",
+      "supports": "11 October 1531 at Kappel (place Kappel)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008903/",
+      "title": "HLS: Kappelerkriege",
+      "quote": "Unter den etwa 500 gefallenen Zürchern befand sich auch Zwingli",
+      "supports": "Zwingli dies"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008903/",
+      "title": "HLS: Kappelerkriege",
+      "quote": "bis zur Nacht vom 23. auf den 24. Okotber 1531 nur den Gubel bei Menzingen",
+      "supports": "The Gubel, night of 23 to 24 October (place Gubel)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/009807/",
+      "title": "HLS: Landfriedensbünde",
+      "quote": "Der Zweite Landfrieden oder Zweite Kappeler Landfrieden der fünf Orte mit Zürich vom 20. November 1531",
+      "supports": "Second Land Peace, 20 November 1531"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008903/",
+      "title": "HLS: Kappelerkriege",
+      "quote": "jedem einzelnen Ort, die Konfession seiner Bürger und Untertanen selbst zu bestimmen",
+      "supports": "Each canton keeps its own faith"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/013328/",
+      "title": "HLS: Reformation",
+      "quote": "In den gemeinen Herrschaften konnten die reformierten Gemeinden beim neuen Glauben bleiben oder aber zum alten zurückkehren; ein umgekehrter Wechsel war dagegen nicht vorgesehen.",
+      "supports": "Parishes may go back to the Catholic faith but not the other way"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/009807/",
+      "title": "HLS: Landfriedensbünde",
+      "quote": "Die aargauischen Freien Ämter sowie die Städte Bremgarten (AG) und Mellingen, die vom Friedensvertrag ausgeschlossen waren, wurden sofort rekatholisiert.",
+      "supports": "Freie Ämter, Bremgarten and Mellingen Catholic again at once"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/009807/",
+      "title": "HLS: Landfriedensbünde",
+      "quote": "nachdem sich Solothurn 1532 für den Katholizismus entschieden hatte",
+      "supports": "Solothurn decides for the Catholic side in 1532 (place Solothurn)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008910/",
+      "title": "HLS: Villmergerkrieg, Erster",
+      "quote": "Der Ausgang des Ersten Villmergerkriegs fixierte bis 1712 das militärische und politische Verhältnis zwischen den reformierten und den katholischen Orten.",
+      "supports": "The order lasts, with small changes, until 1712"
+     },
+     {
+      "url": "https://www.staatsarchiv.sta.be.ch/content/dam/staatsarchiv_sta/dokumente/fr/bestände/guide-sources-vaud-berne.pdf",
+      "title": "N. Furrer, Guide des sources du Pays de Vaud à l'époque bernoise (1536-1798), Staatsarchiv Bern / ACV",
+      "quote": "le Pays-d’Enhaut appartenait au bailliage « allemand » de Saanen (Gessenay)",
+      "supports": "Layer Pays-d'Enhaut: later part of Bern's bailiwick of Saanen"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/009807/",
+      "title": "HLS: Landfriedensbünde",
+      "quote": "entstanden in den Gemeinden der Landvogtei Thurgau, der Grafschaft Baden und des Rheintals paritätische Verhältnisse",
+      "supports": "Layers Thurgau, Rheintal, County of Baden: mixed parishes"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/013328/",
+      "title": "HLS: Reformation",
+      "quote": "In Glarus, Teilen Graubündens und im Thurgau teilten sich Katholiken und Evangelische an vielen Orten eine Kirche",
+      "supports": "Layers Glarus, Thurgau, Three Leagues: shared churches"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/009807/",
+      "title": "HLS: Landfriedensbünde",
+      "quote": "Im Sarganserland (ohne die Herrschaft Wartau) und im Territorium des Abtes von St. Gallen (ohne das Toggenburg) setzte sich der Katholizismus wieder durch.",
+      "supports": "Layers: Sargans and abbey lands Catholic again; Wartau and the Toggenburg not"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/013328/",
+      "title": "HLS: Reformation",
+      "quote": "Die äusseren Rhoden (ohne Herisau) schlossen sich dem neuen Glauben an, die Bewohner der inneren Rhoden (ohne Gais) verblieben mehrheitlich beim alten Glauben.",
+      "supports": "Layer Appenzell: outer parts Reformed, inner parts Catholic"
+     },
+     {
+      "url": "https://www.utbm.fr/wp-content/uploads/2015/04/Arg_CoeditionAlphil_UneResistanceAlaReforme.pdf",
+      "title": "L. Bartolini, Une résistance à la réforme dans le pays de Neuchâtel. Le Landeron et sa région (1530-1562), UTBM/Alphil 2006 (publisher sheet)",
+      "quote": "Seules de tout le Pays de Neuchâtel, les communes du Landeron et de Cressier ne passèrent pas à la Réforme",
+      "supports": "Layer Le Landeron and Cressier: stay Catholic inside Reformed Neuchâtel"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/013328/",
+      "title": "HLS: Reformation",
+      "quote": "in der Westschweiz führte Neuenburg mit Berner Unterstützung 1530 die Reformation ein",
+      "supports": "Layer Neuchâtel: Reformed 1530"
+     },
+     {
+      "url": "https://antipodes.ch/wp-content/uploads/2016/06/bruening_le-premier-champ-de-bataille-du-calvinisme_9782889010615_10.33056-ANTIPODES.10615.pdf",
+      "title": "M. W. Bruening, Le premier champ de bataille du calvinisme (Antipodes, 2011)",
+      "quote": "les villes et alentours d’Orbe, Échallens, Grandson et Morat seraient des bailliages communs de Berne et Fribourg",
+      "supports": "Layers Orbe, Grandson, Echallens: ruled together by Bern and Fribourg"
+     },
+     {
+      "url": "https://antipodes.ch/wp-content/uploads/2016/06/bruening_le-premier-champ-de-bataille-du-calvinisme_9782889010615_10.33056-ANTIPODES.10615.pdf",
+      "title": "M. W. Bruening, Le premier champ de bataille du calvinisme (Antipodes, 2011)",
+      "quote": "D’autres n’abolirent la messe que bien plus tard, comme Mex (1570) et Goumoëns (1575) ; d’autres, comme Échallens, jamais.",
+      "supports": "Layer Echallens villages: Echallens never gave up the Mass"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/017178/",
+      "title": "HLS: Gegenreformation",
+      "quote": "Es gelang ihm zwar, das Laufental, das Birseck und Delsberg zum Katholizismus zurückzuführen",
+      "supports": "Layer Laufen and Birseck (bishop of Basel)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/013328/",
+      "title": "HLS: Reformation",
+      "quote": "Unter dem Einfluss der Reformation in den Städten Bern, Biel und Basel schloss sich der Süden des Fürstbistums Basel der Reformation an.",
+      "supports": "Layer Other lands: the south of the bishopric of Basel became Reformed"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/013328/",
+      "title": "HLS: Reformation",
+      "quote": "Solothurn blieb katholisch, der Thurgau dagegen weitgehend reformiert.",
+      "supports": "Layers Thurgau (mostly Reformed) and Catholic cantons (Solothurn)"
+     }
+    ],
+    "uncertain": [
+     "Map details for which no source was found: Rheinau abbey and Ramsen Catholic; Werdenberg and Sax Reformed; Bucheggberg Reformed; the upper Rheintal (Oberriet) Catholic; the exact split of the Toggenburg into a mostly Reformed upper part and a mostly Catholic lower part; 27 shared churches in Thurgau; Näfels and Oberurnen as the Catholic places of Glarus.",
+     "The Pays-d'Enhaut (county of Gruyère) stayed Catholic until Bern took it in 1555."
     ]
    },
    {
@@ -909,8 +1321,8 @@
     "title": "Farel, Vaud and Geneva",
     "text": [
      "After 1531 the Reformation grows in the west. Guillaume Farel preaches in French-speaking lands with Bern's support. Neuchâtel becomes Reformed in 1530; only Le Landeron and Cressier stay Catholic.",
-     "Geneva has fought for its freedom from Savoy and its bishop. On 21 May 1536 its citizens vote to live by the Gospel. In the same year Bern conquers Vaud from Savoy. After a debate in Lausanne in October 1536, Bern orders the Reformation in all of Vaud.",
-     "In the lands that Bern and Fribourg rule together (Orbe, Echallens, Grandson) each parish votes on the Mass. Some villages around Echallens stay Catholic until today. Fribourg's own new lands stay Catholic."
+     "Geneva has fought for its freedom from Savoy and its bishop. On 21 May 1536 it introduces the Reformation. In the same year Bern conquers Vaud from Savoy. After a debate in Lausanne in October 1536, Bern orders the Reformation in all of Vaud.",
+     "In the lands that Bern and Fribourg rule together (Orbe, Echallens, Grandson) each parish votes on the Mass. Echallens never gives up the Mass."
     ],
     "view": "ch",
     "layers": [
@@ -1351,6 +1763,162 @@
       "year": 1528,
       "note": "Disputation of Bern, January 1528"
      }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/013328/",
+      "title": "HLS: Reformation",
+      "quote": "Grosse Zugewinne machte die Reformation dagegen nach 1531 in der Westschweiz",
+      "supports": "After 1531 the Reformation grows in the west"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/013328/",
+      "title": "HLS: Reformation",
+      "quote": "in der Westschweiz führte Neuenburg mit Berner Unterstützung 1530 die Reformation ein",
+      "supports": "Farel's work with Bern's support; Neuchâtel Reformed in 1530 (place Neuchâtel)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/011113/",
+      "title": "HLS: Farel, Guillaume",
+      "quote": "Dank seinen Anstrengungen ging die Stadt Neuenburg 1530 zur Reformation über.",
+      "supports": "Farel; Neuchâtel 1530"
+     },
+     {
+      "url": "https://www.utbm.fr/wp-content/uploads/2015/04/Arg_CoeditionAlphil_UneResistanceAlaReforme.pdf",
+      "title": "L. Bartolini, Une résistance à la réforme dans le pays de Neuchâtel. Le Landeron et sa région (1530-1562), UTBM/Alphil 2006 (publisher sheet)",
+      "quote": "Seules de tout le Pays de Neuchâtel, les communes du Landeron et de Cressier ne passèrent pas à la Réforme",
+      "supports": "Only Le Landeron and Cressier stay Catholic"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/013328/",
+      "title": "HLS: Reformation",
+      "quote": "Genf hatte kurz zuvor eine prekäre politische Unabhängigkeit von Savoyen erkämpft, den Bischof aus der Stadt vertrieben",
+      "supports": "Geneva fought for freedom from Savoy and its bishop (layer Geneva)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/017172/",
+      "title": "HLS: Disputationen",
+      "quote": "führten die Reformation per 21. Mai 1536 ein",
+      "supports": "Geneva introduces the Reformation on 21 May 1536 (place Geneva, St-Pierre)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/013328/",
+      "title": "HLS: Reformation",
+      "quote": "wo sich 1536 die Stadt Genf zu ihr bekannte bzw. Bern sie in der 1536 eroberten Waadt durchsetzte",
+      "supports": "In 1536 Bern conquers Vaud and imposes the Reformation (layer Vaud and Bernese lands)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/017172/",
+      "title": "HLS: Disputationen",
+      "quote": "Nach der Eroberung der katholisch gebliebenen Waadt berief Bern in Lausanne eine Disputation ein (1.-8. Oktober 1536).",
+      "supports": "Debate in Lausanne in October 1536 (place Lausanne Cathedral)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/011113/",
+      "title": "HLS: Farel, Guillaume",
+      "quote": "in deren Gefolge die Reformation auch im Waadtland eingeführt wurde",
+      "supports": "After the debate the Reformation is introduced in Vaud"
+     },
+     {
+      "url": "https://antipodes.ch/wp-content/uploads/2016/06/bruening_le-premier-champ-de-bataille-du-calvinisme_9782889010615_10.33056-ANTIPODES.10615.pdf",
+      "title": "M. W. Bruening, Le premier champ de bataille du calvinisme (Antipodes, 2011)",
+      "quote": "les villes et alentours d’Orbe, Échallens, Grandson et Morat seraient des bailliages communs de Berne et Fribourg",
+      "supports": "Orbe, Echallens, Grandson ruled by Bern and Fribourg"
+     },
+     {
+      "url": "https://antipodes.ch/wp-content/uploads/2016/06/bruening_le-premier-champ-de-bataille-du-calvinisme_9782889010615_10.33056-ANTIPODES.10615.pdf",
+      "title": "M. W. Bruening, Le premier champ de bataille du calvinisme (Antipodes, 2011)",
+      "quote": "sauf si un vote majoritaire, « le plus», faisait passer la région au protestantisme, auquel cas la messe serait définitivement abolie",
+      "supports": "Parishes vote on the Mass"
+     },
+     {
+      "url": "https://antipodes.ch/wp-content/uploads/2016/06/bruening_le-premier-champ-de-bataille-du-calvinisme_9782889010615_10.33056-ANTIPODES.10615.pdf",
+      "title": "M. W. Bruening, Le premier champ de bataille du calvinisme (Antipodes, 2011)",
+      "quote": "D’autres n’abolirent la messe que bien plus tard, comme Mex (1570) et Goumoëns (1575) ; d’autres, comme Échallens, jamais.",
+      "supports": "Echallens never gives up the Mass (layer Echallens villages)"
+     },
+     {
+      "url": "https://www.staatsarchiv.sta.be.ch/content/dam/staatsarchiv_sta/dokumente/fr/bestände/guide-sources-vaud-berne.pdf",
+      "title": "N. Furrer, Guide des sources du Pays de Vaud à l'époque bernoise (1536-1798), Staatsarchiv Bern / ACV",
+      "quote": "les trois bailliages bernois Gex, Ternier et Thonon, territoires conquis en 1536 et rendus à la Savoie en 1564.",
+      "supports": "Layer Gex: Bernese 1536-1564"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/017172/",
+      "title": "HLS: Disputationen",
+      "quote": "Die Berner Disputation (6.-26. Januar 1528)",
+      "supports": "Place Bern Minster"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/009807/",
+      "title": "HLS: Landfriedensbünde",
+      "quote": "entstanden in den Gemeinden der Landvogtei Thurgau, der Grafschaft Baden und des Rheintals paritätische Verhältnisse",
+      "supports": "Layers Thurgau, Rheintal, County of Baden: mixed parishes"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/013328/",
+      "title": "HLS: Reformation",
+      "quote": "In Glarus, Teilen Graubündens und im Thurgau teilten sich Katholiken und Evangelische an vielen Orten eine Kirche",
+      "supports": "Layers Glarus, Thurgau, Three Leagues: shared churches"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/009807/",
+      "title": "HLS: Landfriedensbünde",
+      "quote": "Im Sarganserland (ohne die Herrschaft Wartau) und im Territorium des Abtes von St. Gallen (ohne das Toggenburg) setzte sich der Katholizismus wieder durch.",
+      "supports": "Layers: Sargans and abbey lands Catholic again; Wartau and the Toggenburg not"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/013328/",
+      "title": "HLS: Reformation",
+      "quote": "Die äusseren Rhoden (ohne Herisau) schlossen sich dem neuen Glauben an, die Bewohner der inneren Rhoden (ohne Gais) verblieben mehrheitlich beim alten Glauben.",
+      "supports": "Layer Appenzell: outer parts Reformed, inner parts Catholic"
+     },
+     {
+      "url": "https://www.utbm.fr/wp-content/uploads/2015/04/Arg_CoeditionAlphil_UneResistanceAlaReforme.pdf",
+      "title": "L. Bartolini, Une résistance à la réforme dans le pays de Neuchâtel. Le Landeron et sa région (1530-1562), UTBM/Alphil 2006 (publisher sheet)",
+      "quote": "Seules de tout le Pays de Neuchâtel, les communes du Landeron et de Cressier ne passèrent pas à la Réforme",
+      "supports": "Layer Le Landeron and Cressier: stay Catholic inside Reformed Neuchâtel"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/013328/",
+      "title": "HLS: Reformation",
+      "quote": "in der Westschweiz führte Neuenburg mit Berner Unterstützung 1530 die Reformation ein",
+      "supports": "Layer Neuchâtel: Reformed 1530"
+     },
+     {
+      "url": "https://antipodes.ch/wp-content/uploads/2016/06/bruening_le-premier-champ-de-bataille-du-calvinisme_9782889010615_10.33056-ANTIPODES.10615.pdf",
+      "title": "M. W. Bruening, Le premier champ de bataille du calvinisme (Antipodes, 2011)",
+      "quote": "les villes et alentours d’Orbe, Échallens, Grandson et Morat seraient des bailliages communs de Berne et Fribourg",
+      "supports": "Layers Orbe, Grandson, Echallens: ruled together by Bern and Fribourg"
+     },
+     {
+      "url": "https://antipodes.ch/wp-content/uploads/2016/06/bruening_le-premier-champ-de-bataille-du-calvinisme_9782889010615_10.33056-ANTIPODES.10615.pdf",
+      "title": "M. W. Bruening, Le premier champ de bataille du calvinisme (Antipodes, 2011)",
+      "quote": "D’autres n’abolirent la messe que bien plus tard, comme Mex (1570) et Goumoëns (1575) ; d’autres, comme Échallens, jamais.",
+      "supports": "Layer Echallens villages: Echallens never gave up the Mass"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/017178/",
+      "title": "HLS: Gegenreformation",
+      "quote": "Es gelang ihm zwar, das Laufental, das Birseck und Delsberg zum Katholizismus zurückzuführen",
+      "supports": "Layer Laufen and Birseck (bishop of Basel)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/013328/",
+      "title": "HLS: Reformation",
+      "quote": "Unter dem Einfluss der Reformation in den Städten Bern, Biel und Basel schloss sich der Süden des Fürstbistums Basel der Reformation an.",
+      "supports": "Layer Other lands: the south of the bishopric of Basel became Reformed"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/013328/",
+      "title": "HLS: Reformation",
+      "quote": "Solothurn blieb katholisch, der Thurgau dagegen weitgehend reformiert.",
+      "supports": "Layers Thurgau (mostly Reformed) and Catholic cantons (Solothurn)"
+     }
+    ],
+    "uncertain": [
+     "Map details for which no source was found: Rheinau abbey and Ramsen Catholic; Werdenberg and Sax Reformed; Bucheggberg Reformed; the upper Rheintal (Oberriet) Catholic; the exact split of the Toggenburg into a mostly Reformed upper part and a mostly Catholic lower part; 27 shared churches in Thurgau; Näfels and Oberurnen as the Catholic places of Glarus.",
+     "Fribourg's own new lands in Vaud stayed Catholic."
     ]
    },
    {
@@ -1359,8 +1927,8 @@
     "title": "Calvin's Geneva",
     "text": [
      "The French lawyer John Calvin flees France. In 1536 he comes to Geneva, and Farel asks him to stay. The council does not support them, and in 1538 both must leave. Calvin works in Strasbourg with Martin Bucer.",
-     "In September 1541 the council asks Calvin to return. In November it accepts his church order (Ordonnances ecclésiastiques). Pastors and a church court (consistory) teach and control how people live.",
-     "Bern rules Vaud and, until the 1560s, lands south and west of the lake (Chablais, Gex). In 1549 Zurich and Geneva agree on the Lord's Supper (Consensus Tigurinus). This joins the Zwingli and Calvin lines into one Reformed church family."
+     "At the council's request Calvin comes back in September 1541. In November the council accepts his church order (Ordonnances ecclésiastiques). Pastors and a church court (consistory) teach and control how people live.",
+     "Bern rules Vaud and, until 1564, lands south and west of the lake (Chablais, Gex). In 1549 Zurich and Geneva agree on the Lord's Supper (Consensus Tigurinus). This joins the Zwingli and Calvin lines into one Reformed church family."
     ],
     "view": [
      [
@@ -1800,7 +2368,7 @@
       "lon": 6.4793,
       "kind": "town",
       "year": 1536,
-      "note": "Bernese 1536 until the late 1560s"
+      "note": "Bernese 1536–1564"
      },
      {
       "name": "Gex",
@@ -1818,6 +2386,155 @@
       "year": 1530,
       "note": "Reformed 1530 (Farel)"
      }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/013328/",
+      "title": "HLS: Reformation",
+      "quote": "Aus Frankreich geflüchtet, gelangte Calvin über Basel im Juni 1536 nach Genf, wo ihn Guillaume Farel zum Bleiben überredete.",
+      "supports": "Calvin flees France, comes to Geneva in 1536; Farel asks him to stay"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/013328/",
+      "title": "HLS: Reformation",
+      "quote": "Der französische Jurist und Humanist Johannes Calvin",
+      "supports": "Calvin was a French lawyer"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/013328/",
+      "title": "HLS: Reformation",
+      "quote": "Farel und Calvin fühlten sich jedoch vom Rat nicht unterstützt, im Frühjahr 1538 mussten die beiden Genf verlassen.",
+      "supports": "In 1538 both must leave"
+     },
+     {
+      "url": "https://www.musee-reforme.ch/content/2files/ok-figure-de-calvin-informations.pdf",
+      "title": "Musée international de la Réforme: La figure de Calvin (includes DHS article 'Calvin, Jean' by F. Higman)",
+      "quote": "Calvin partit pour Strasbourg où Martin Bucer lui confia la communauté des réfugiés français.",
+      "supports": "Calvin works in Strasbourg with Bucer"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/013328/",
+      "title": "HLS: Reformation",
+      "quote": "Im September 1541 kehrte Calvin auf Bitte des Rats nach Genf zurück.",
+      "supports": "Calvin returns in September 1541 at the council's request"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/013328/",
+      "title": "HLS: Reformation",
+      "quote": "Noch im November genehmigte der Rat die hauptsächlich von Calvin ausgearbeiteten \"Ordonnances ecclésiastiques\", die Genfer Kirchenordnung.",
+      "supports": "In November the council accepts the church order"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/013328/",
+      "title": "HLS: Reformation",
+      "quote": "Durch Predigt, Katechese und sittengerichtliche Kontrolle versuchte er zusammen mit der Compagnie des pasteurs , die Stadtbewohner zur christlichen Lebensführung zu erziehen.",
+      "supports": "Pastors and church court teach and control how people live"
+     },
+     {
+      "url": "https://www.musee-reforme.ch/content/2files/ok-figure-de-calvin-informations.pdf",
+      "title": "Musée international de la Réforme: La figure de Calvin (includes DHS article 'Calvin, Jean' by F. Higman)",
+      "quote": "Consistoire, organisme formé de pasteurs et de laïcs choisis parmi les magistrats, qui maintient parmi les fidèles un comportement conforme",
+      "supports": "The consistory"
+     },
+     {
+      "url": "https://www.staatsarchiv.sta.be.ch/content/dam/staatsarchiv_sta/dokumente/fr/bestände/guide-sources-vaud-berne.pdf",
+      "title": "N. Furrer, Guide des sources du Pays de Vaud à l'époque bernoise (1536-1798), Staatsarchiv Bern / ACV",
+      "quote": "les trois bailliages bernois Gex, Ternier et Thonon, territoires conquis en 1536 et rendus à la Savoie en 1564.",
+      "supports": "Bern rules Gex, Ternier and Thonon until 1564 (places Thonon, Gex)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/013328/",
+      "title": "HLS: Reformation",
+      "quote": "Ein wichtiger Schritt war diesbezüglich das im Consensus tigurinus (1549) formulierte gemeinsame Abendmahlsverständnis.",
+      "supports": "Consensus Tigurinus 1549"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/013328/",
+      "title": "HLS: Reformation",
+      "quote": "Auch der Schweizer Protestantismus festigte sich, insbesondere durch das Zusammengehen der Kirchen Genfer und Zürcher Prägung.",
+      "supports": "This joins the Zurich and Geneva lines"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/017172/",
+      "title": "HLS: Disputationen",
+      "quote": "führten die Reformation per 21. Mai 1536 ein",
+      "supports": "Place Geneva, St-Pierre"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/017172/",
+      "title": "HLS: Disputationen",
+      "quote": "Nach der Eroberung der katholisch gebliebenen Waadt berief Bern in Lausanne eine Disputation ein (1.-8. Oktober 1536).",
+      "supports": "Place Lausanne Cathedral"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/009807/",
+      "title": "HLS: Landfriedensbünde",
+      "quote": "entstanden in den Gemeinden der Landvogtei Thurgau, der Grafschaft Baden und des Rheintals paritätische Verhältnisse",
+      "supports": "Layers Thurgau, Rheintal, County of Baden: mixed parishes"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/013328/",
+      "title": "HLS: Reformation",
+      "quote": "In Glarus, Teilen Graubündens und im Thurgau teilten sich Katholiken und Evangelische an vielen Orten eine Kirche",
+      "supports": "Layers Glarus, Thurgau, Three Leagues: shared churches"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/009807/",
+      "title": "HLS: Landfriedensbünde",
+      "quote": "Im Sarganserland (ohne die Herrschaft Wartau) und im Territorium des Abtes von St. Gallen (ohne das Toggenburg) setzte sich der Katholizismus wieder durch.",
+      "supports": "Layers: Sargans and abbey lands Catholic again; Wartau and the Toggenburg not"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/013328/",
+      "title": "HLS: Reformation",
+      "quote": "Die äusseren Rhoden (ohne Herisau) schlossen sich dem neuen Glauben an, die Bewohner der inneren Rhoden (ohne Gais) verblieben mehrheitlich beim alten Glauben.",
+      "supports": "Layer Appenzell: outer parts Reformed, inner parts Catholic"
+     },
+     {
+      "url": "https://www.utbm.fr/wp-content/uploads/2015/04/Arg_CoeditionAlphil_UneResistanceAlaReforme.pdf",
+      "title": "L. Bartolini, Une résistance à la réforme dans le pays de Neuchâtel. Le Landeron et sa région (1530-1562), UTBM/Alphil 2006 (publisher sheet)",
+      "quote": "Seules de tout le Pays de Neuchâtel, les communes du Landeron et de Cressier ne passèrent pas à la Réforme",
+      "supports": "Layer Le Landeron and Cressier: stay Catholic inside Reformed Neuchâtel"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/013328/",
+      "title": "HLS: Reformation",
+      "quote": "in der Westschweiz führte Neuenburg mit Berner Unterstützung 1530 die Reformation ein",
+      "supports": "Layer Neuchâtel: Reformed 1530"
+     },
+     {
+      "url": "https://antipodes.ch/wp-content/uploads/2016/06/bruening_le-premier-champ-de-bataille-du-calvinisme_9782889010615_10.33056-ANTIPODES.10615.pdf",
+      "title": "M. W. Bruening, Le premier champ de bataille du calvinisme (Antipodes, 2011)",
+      "quote": "les villes et alentours d’Orbe, Échallens, Grandson et Morat seraient des bailliages communs de Berne et Fribourg",
+      "supports": "Layers Orbe, Grandson, Echallens: ruled together by Bern and Fribourg"
+     },
+     {
+      "url": "https://antipodes.ch/wp-content/uploads/2016/06/bruening_le-premier-champ-de-bataille-du-calvinisme_9782889010615_10.33056-ANTIPODES.10615.pdf",
+      "title": "M. W. Bruening, Le premier champ de bataille du calvinisme (Antipodes, 2011)",
+      "quote": "D’autres n’abolirent la messe que bien plus tard, comme Mex (1570) et Goumoëns (1575) ; d’autres, comme Échallens, jamais.",
+      "supports": "Layer Echallens villages: Echallens never gave up the Mass"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/017178/",
+      "title": "HLS: Gegenreformation",
+      "quote": "Es gelang ihm zwar, das Laufental, das Birseck und Delsberg zum Katholizismus zurückzuführen",
+      "supports": "Layer Laufen and Birseck (bishop of Basel)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/013328/",
+      "title": "HLS: Reformation",
+      "quote": "Unter dem Einfluss der Reformation in den Städten Bern, Biel und Basel schloss sich der Süden des Fürstbistums Basel der Reformation an.",
+      "supports": "Layer Other lands: the south of the bishopric of Basel became Reformed"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/013328/",
+      "title": "HLS: Reformation",
+      "quote": "Solothurn blieb katholisch, der Thurgau dagegen weitgehend reformiert.",
+      "supports": "Layers Thurgau (mostly Reformed) and Catholic cantons (Solothurn)"
+     }
+    ],
+    "uncertain": [
+     "Map details for which no source was found: Rheinau abbey and Ramsen Catholic; Werdenberg and Sax Reformed; Bucheggberg Reformed; the upper Rheintal (Oberriet) Catholic; the exact split of the Toggenburg into a mostly Reformed upper part and a mostly Catholic lower part; 27 shared churches in Thurgau; Näfels and Oberurnen as the Catholic places of Glarus."
     ]
    },
    {
@@ -1825,8 +2542,8 @@
     "tick": "1559 Europe",
     "title": "The Swiss Reformation in Europe",
     "text": [
-     "The Reformation starts in 1517 with Martin Luther in Wittenberg. Zwingli in Zurich and Calvin in Geneva start a second line, the Reformed churches. Strasbourg, with Martin Bucer, links both lines.",
-     "In 1559 Geneva opens its Academy, a school for pastors from all of Europe. About 30 printers in Geneva print Reformed books, many for France. Reformed churches grow in France, the Netherlands, Scotland, Hungary and Poland. In 1559 the French Reformed churches hold their first national synod in Paris.",
+     "The Reformation starts in 1517 with Martin Luther in Wittenberg. Zwingli in Zurich and Calvin in Geneva start a second line, the Reformed churches. Martin Bucer of Strasbourg also shapes these churches.",
+     "In 1559 Geneva opens its Academy, a school for pastors from all of Europe. In the 1550s about 30 printers in Geneva print Reformed books, many for France. Reformed churches grow in France, the Netherlands, Scotland, Hungary and Poland. In 1559 the French Reformed churches hold their first national synod in Paris.",
      "The Peace of Augsburg (1555) protects only Lutherans in the Empire, not the Reformed. The map shows Europe about 1560 only roughly: German states and whole countries are coloured as one."
     ],
     "view": "europe",
@@ -2340,6 +3057,139 @@
       "year": 1560,
       "note": "Knox, back from Geneva, leads the Scottish Reformation"
      }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/013328/",
+      "title": "HLS: Reformation",
+      "quote": "Als Auftakt zur Reformation gilt die Veröffentlichung von Martin Luthers Thesen über das Ablasswesen vom 31. Oktober 1517.",
+      "supports": "The Reformation starts in 1517 with Luther (place Wittenberg)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/013328/",
+      "title": "HLS: Reformation",
+      "quote": "Neben Martin Luther im kursächsischen Wittenberg haben vor allem Huldrych Zwingli von Zürich und Johannes Calvin von Genf aus die Reformation und den Protestantismus geprägt.",
+      "supports": "Zwingli in Zurich and Calvin in Geneva (places Zurich, Geneva)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/013328/",
+      "title": "HLS: Reformation",
+      "quote": "die allerdings nicht nur von Calvin, sondern auch von anderen Theologen wie Zwingli, Bullinger und Martin Bucer geprägt waren",
+      "supports": "Bucer also shaped the Reformed churches (place Strasbourg)"
+     },
+     {
+      "url": "https://www.musee-reforme.ch/content/2files/ok-figure-de-calvin-informations.pdf",
+      "title": "Musée international de la Réforme: La figure de Calvin (includes DHS article 'Calvin, Jean' by F. Higman)",
+      "quote": "Calvin partit pour Strasbourg où Martin Bucer lui confia la communauté des réfugiés français.",
+      "supports": "Calvin lived in Strasbourg with Bucer (place Strasbourg)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/013328/",
+      "title": "HLS: Reformation",
+      "quote": "1559 wurde eine Akademie gegründet, die Ausbildungsstätte zahlreicher Pfarrer und Lehrer des calvinistischen Europas wurde",
+      "supports": "In 1559 Geneva opens its Academy"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/013328/",
+      "title": "HLS: Reformation",
+      "quote": "In den 1550er Jahren produzierten in Genf rund 30 Druckereien antikatholische Propaganda und reformierte Schriften, besonders für den französischen Markt.",
+      "supports": "About 30 printers in the 1550s, many books for France"
+     },
+     {
+      "url": "https://www.dhm.de/archiv/ausstellungen/calvinismus/diziplin_und_republik.html",
+      "title": "Deutsches Historisches Museum: Calvinismus (exhibition)",
+      "quote": "in die Niederlande, nach England und Schottland, ebenso erreichten sie Ungarn, Siebenbürgen und Polen",
+      "supports": "Reformed churches grow in the Netherlands, Scotland, Hungary and Poland (layers Protestant / Divided Europe)"
+     },
+     {
+      "url": "https://museeprotestant.org/en/notice/historical-context/",
+      "title": "Musée protestant: Historical context",
+      "quote": "1st national synod, which was held in Paris on 25th May 1559",
+      "supports": "First national synod in Paris, 1559 (place Paris)"
+     },
+     {
+      "url": "https://museeprotestant.org/en/notice/historical-context/",
+      "title": "Musée protestant: Historical context",
+      "quote": "which brought together representatives from about thirty established Churches all over France.",
+      "supports": "The French Reformed churches (layer Catholic Europe: France with a Reformed minority)"
+     },
+     {
+      "url": "https://germanhistorydocs.org/en/from-the-reformations-to-the-thirty-years-war-1500-1648/the-religious-peace-of-augsburg-september-25-1555",
+      "title": "German History in Documents and Images (GHI): The Religious Peace of Augsburg, 25 September 1555",
+      "quote": "it actually decreed the toleration only of those who accepted the Confession of Augsburg (1530)",
+      "supports": "The Peace of Augsburg (1555) protects only Lutherans (place Augsburg)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/009807/",
+      "title": "HLS: Landfriedensbünde",
+      "quote": "entstanden in den Gemeinden der Landvogtei Thurgau, der Grafschaft Baden und des Rheintals paritätische Verhältnisse",
+      "supports": "Layers Thurgau, Rheintal, County of Baden: mixed parishes"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/013328/",
+      "title": "HLS: Reformation",
+      "quote": "In Glarus, Teilen Graubündens und im Thurgau teilten sich Katholiken und Evangelische an vielen Orten eine Kirche",
+      "supports": "Layers Glarus, Thurgau, Three Leagues: shared churches"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/009807/",
+      "title": "HLS: Landfriedensbünde",
+      "quote": "Im Sarganserland (ohne die Herrschaft Wartau) und im Territorium des Abtes von St. Gallen (ohne das Toggenburg) setzte sich der Katholizismus wieder durch.",
+      "supports": "Layers: Sargans and abbey lands Catholic again; Wartau and the Toggenburg not"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/013328/",
+      "title": "HLS: Reformation",
+      "quote": "Die äusseren Rhoden (ohne Herisau) schlossen sich dem neuen Glauben an, die Bewohner der inneren Rhoden (ohne Gais) verblieben mehrheitlich beim alten Glauben.",
+      "supports": "Layer Appenzell: outer parts Reformed, inner parts Catholic"
+     },
+     {
+      "url": "https://www.utbm.fr/wp-content/uploads/2015/04/Arg_CoeditionAlphil_UneResistanceAlaReforme.pdf",
+      "title": "L. Bartolini, Une résistance à la réforme dans le pays de Neuchâtel. Le Landeron et sa région (1530-1562), UTBM/Alphil 2006 (publisher sheet)",
+      "quote": "Seules de tout le Pays de Neuchâtel, les communes du Landeron et de Cressier ne passèrent pas à la Réforme",
+      "supports": "Layer Le Landeron and Cressier: stay Catholic inside Reformed Neuchâtel"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/013328/",
+      "title": "HLS: Reformation",
+      "quote": "in der Westschweiz führte Neuenburg mit Berner Unterstützung 1530 die Reformation ein",
+      "supports": "Layer Neuchâtel: Reformed 1530"
+     },
+     {
+      "url": "https://antipodes.ch/wp-content/uploads/2016/06/bruening_le-premier-champ-de-bataille-du-calvinisme_9782889010615_10.33056-ANTIPODES.10615.pdf",
+      "title": "M. W. Bruening, Le premier champ de bataille du calvinisme (Antipodes, 2011)",
+      "quote": "les villes et alentours d’Orbe, Échallens, Grandson et Morat seraient des bailliages communs de Berne et Fribourg",
+      "supports": "Layers Orbe, Grandson, Echallens: ruled together by Bern and Fribourg"
+     },
+     {
+      "url": "https://antipodes.ch/wp-content/uploads/2016/06/bruening_le-premier-champ-de-bataille-du-calvinisme_9782889010615_10.33056-ANTIPODES.10615.pdf",
+      "title": "M. W. Bruening, Le premier champ de bataille du calvinisme (Antipodes, 2011)",
+      "quote": "D’autres n’abolirent la messe que bien plus tard, comme Mex (1570) et Goumoëns (1575) ; d’autres, comme Échallens, jamais.",
+      "supports": "Layer Echallens villages: Echallens never gave up the Mass"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/017178/",
+      "title": "HLS: Gegenreformation",
+      "quote": "Es gelang ihm zwar, das Laufental, das Birseck und Delsberg zum Katholizismus zurückzuführen",
+      "supports": "Layer Laufen and Birseck (bishop of Basel)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/013328/",
+      "title": "HLS: Reformation",
+      "quote": "Unter dem Einfluss der Reformation in den Städten Bern, Biel und Basel schloss sich der Süden des Fürstbistums Basel der Reformation an.",
+      "supports": "Layer Other lands: the south of the bishopric of Basel became Reformed"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/013328/",
+      "title": "HLS: Reformation",
+      "quote": "Solothurn blieb katholisch, der Thurgau dagegen weitgehend reformiert.",
+      "supports": "Layers Thurgau (mostly Reformed) and Catholic cantons (Solothurn)"
+     }
+    ],
+    "uncertain": [
+     "Map details for which no source was found: Rheinau abbey and Ramsen Catholic; Werdenberg and Sax Reformed; Bucheggberg Reformed; the upper Rheintal (Oberriet) Catholic; the exact split of the Toggenburg into a mostly Reformed upper part and a mostly Catholic lower part; 27 shared churches in Thurgau; Näfels and Oberurnen as the Catholic places of Glarus.",
+     "John Knox came back from Geneva and led the Scottish Reformation (place Edinburgh, 1560).",
+     "The map's sorting of European countries into Protestant, divided and Catholic about 1560."
     ]
    },
    {
@@ -2347,8 +3197,8 @@
     "tick": "1586",
     "title": "Catholic reform, Golden League",
     "text": [
-     "After the Council of Trent (1545–1563) the Catholic Church reforms itself. Cardinal Charles Borromeo, archbishop of Milan, is protector of the Swiss Catholics. In 1579 he founds the Collegium Helveticum in Milan to train Swiss priests.",
-     "Jesuits open colleges in Lucerne (1577) and Fribourg (1582), where Petrus Canisius works. Capuchin friars settle in Altdorf (1581) and many other towns. From 1586 a papal envoy (nuncio) lives in Lucerne.",
+     "After the Council of Trent (1545–1563) the Catholic Church reforms itself. Cardinal Charles Borromeo, archbishop of Milan, is protector of the Swiss Catholics. In 1579 his Collegium Helveticum in Milan opens to train Swiss priests.",
+     "Jesuits open colleges in Lucerne (1577) and Fribourg (1582); Petrus Canisius comes to Fribourg in 1580. Capuchin friars settle in Altdorf (1581) and many other towns. From 1586 a papal envoy (nuncio) lives in Lucerne.",
      "On 5 October 1586 the seven Catholic cantons sign the Golden League in Lucerne. They promise to keep the Catholic faith and to help each other. The bishop of Basel brings Laufen and Birseck back to the Catholic faith. Bern now rules the Pays-d'Enhaut (1555), which becomes Reformed."
     ],
     "view": [
@@ -2776,6 +3626,157 @@
       "year": 1581,
       "note": "First Capuchin friary north of the Alps in Switzerland, 1581"
      }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/017178/",
+      "title": "HLS: Gegenreformation",
+      "quote": "Zudem hatte das Konzil von Trient (1545-1563) Fragen der Glaubenslehre geklärt",
+      "supports": "Council of Trent 1545-1563"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/017177/",
+      "title": "HLS: Katholische Reform",
+      "quote": "Kardinal Karl Borromäus, Staatssekretär des Papstes, dann Erzbischof von Mailand, wurde zum Protector Helvetiae ernannt.",
+      "supports": "Borromeo, archbishop of Milan, protector of the Swiss"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/017177/",
+      "title": "HLS: Katholische Reform",
+      "quote": "Zur Ausbildung der Priester aus der Eidgenossenschaft gründete er in Mailand das Collegium Helveticum .",
+      "supports": "He founded the Collegium Helveticum to train Swiss priests"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/010430/",
+      "title": "HLS: Collegium Helveticum",
+      "quote": "1579 wurde das Collegium Helveticum unter der Leitung und Verwaltung des Erzbischofs in einem eigenen Gebäude eröffnet.",
+      "supports": "It opened in 1579 (place Milan, Collegium Helveticum)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/017177/",
+      "title": "HLS: Katholische Reform",
+      "quote": "in Luzern (1577), Freiburg (1582)",
+      "supports": "Jesuit colleges in Lucerne (1577) and Fribourg (1582) (places Lucerne, Fribourg)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/017177/",
+      "title": "HLS: Katholische Reform",
+      "quote": "In diesem Zusammenhang kam Petrus Canisius 1580 nach Freiburg.",
+      "supports": "Canisius came to Fribourg in 1580"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/017177/",
+      "title": "HLS: Katholische Reform",
+      "quote": "gründeten 1581 ein Kloster in Altdorf (UR) und eines in Stans",
+      "supports": "Capuchins in Altdorf 1581 (place Altdorf)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/011742/",
+      "title": "HLS: Nuntiatur",
+      "quote": "1586 wurde auf Wunsch der Fünf Orte (Uri, Schwyz, Unterwalden, Luzern und Zug) in Luzern, dem katholischen Vorort, die ständige Nuntiatur errichtet",
+      "supports": "From 1586 a nuncio in Lucerne"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/017187/",
+      "title": "HLS: Goldener Bund",
+      "quote": "ist ein am 5. Oktober 1586 in Luzern abgeschlossenes Bündnis der sieben katholischen Orte (fünf innere Orte zusätzlich Freiburg und Solothurn)",
+      "supports": "Golden League of the seven Catholic cantons, 5 October 1586 (layer Golden League; place Lucerne)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/017187/",
+      "title": "HLS: Goldener Bund",
+      "quote": "Die Kontrahenten verpflichteten sich, beim alten Glauben zu bleiben, und versprachen sich gegenseitige Hilfe",
+      "supports": "They promise to keep the faith and help each other"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/017178/",
+      "title": "HLS: Gegenreformation",
+      "quote": "Es gelang ihm zwar, das Laufental, das Birseck und Delsberg zum Katholizismus zurückzuführen",
+      "supports": "The bishop of Basel brings Laufen and Birseck back (layer Laufen and Birseck)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/017178/",
+      "title": "HLS: Gegenreformation",
+      "quote": "bis auf das Pays de Gex, das an Frankreich fiel",
+      "supports": "Layer Gex: France from 1601"
+     },
+     {
+      "url": "https://www.staatsarchiv.sta.be.ch/content/dam/staatsarchiv_sta/dokumente/fr/bestände/guide-sources-vaud-berne.pdf",
+      "title": "N. Furrer, Guide des sources du Pays de Vaud à l'époque bernoise (1536-1798), Staatsarchiv Bern / ACV",
+      "quote": "le Pays-d’Enhaut appartenait au bailliage « allemand » de Saanen (Gessenay)",
+      "supports": "Bern rules the Pays-d'Enhaut (bailiwick of Saanen)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/009807/",
+      "title": "HLS: Landfriedensbünde",
+      "quote": "entstanden in den Gemeinden der Landvogtei Thurgau, der Grafschaft Baden und des Rheintals paritätische Verhältnisse",
+      "supports": "Layers Thurgau, Rheintal, County of Baden: mixed parishes"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/013328/",
+      "title": "HLS: Reformation",
+      "quote": "In Glarus, Teilen Graubündens und im Thurgau teilten sich Katholiken und Evangelische an vielen Orten eine Kirche",
+      "supports": "Layers Glarus, Thurgau, Three Leagues: shared churches"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/009807/",
+      "title": "HLS: Landfriedensbünde",
+      "quote": "Im Sarganserland (ohne die Herrschaft Wartau) und im Territorium des Abtes von St. Gallen (ohne das Toggenburg) setzte sich der Katholizismus wieder durch.",
+      "supports": "Layers: Sargans and abbey lands Catholic again; Wartau and the Toggenburg not"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/013328/",
+      "title": "HLS: Reformation",
+      "quote": "Die äusseren Rhoden (ohne Herisau) schlossen sich dem neuen Glauben an, die Bewohner der inneren Rhoden (ohne Gais) verblieben mehrheitlich beim alten Glauben.",
+      "supports": "Layer Appenzell: outer parts Reformed, inner parts Catholic"
+     },
+     {
+      "url": "https://www.utbm.fr/wp-content/uploads/2015/04/Arg_CoeditionAlphil_UneResistanceAlaReforme.pdf",
+      "title": "L. Bartolini, Une résistance à la réforme dans le pays de Neuchâtel. Le Landeron et sa région (1530-1562), UTBM/Alphil 2006 (publisher sheet)",
+      "quote": "Seules de tout le Pays de Neuchâtel, les communes du Landeron et de Cressier ne passèrent pas à la Réforme",
+      "supports": "Layer Le Landeron and Cressier: stay Catholic inside Reformed Neuchâtel"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/013328/",
+      "title": "HLS: Reformation",
+      "quote": "in der Westschweiz führte Neuenburg mit Berner Unterstützung 1530 die Reformation ein",
+      "supports": "Layer Neuchâtel: Reformed 1530"
+     },
+     {
+      "url": "https://antipodes.ch/wp-content/uploads/2016/06/bruening_le-premier-champ-de-bataille-du-calvinisme_9782889010615_10.33056-ANTIPODES.10615.pdf",
+      "title": "M. W. Bruening, Le premier champ de bataille du calvinisme (Antipodes, 2011)",
+      "quote": "les villes et alentours d’Orbe, Échallens, Grandson et Morat seraient des bailliages communs de Berne et Fribourg",
+      "supports": "Layers Orbe, Grandson, Echallens: ruled together by Bern and Fribourg"
+     },
+     {
+      "url": "https://antipodes.ch/wp-content/uploads/2016/06/bruening_le-premier-champ-de-bataille-du-calvinisme_9782889010615_10.33056-ANTIPODES.10615.pdf",
+      "title": "M. W. Bruening, Le premier champ de bataille du calvinisme (Antipodes, 2011)",
+      "quote": "D’autres n’abolirent la messe que bien plus tard, comme Mex (1570) et Goumoëns (1575) ; d’autres, comme Échallens, jamais.",
+      "supports": "Layer Echallens villages: Echallens never gave up the Mass"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/017178/",
+      "title": "HLS: Gegenreformation",
+      "quote": "Es gelang ihm zwar, das Laufental, das Birseck und Delsberg zum Katholizismus zurückzuführen",
+      "supports": "Layer Laufen and Birseck (bishop of Basel)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/013328/",
+      "title": "HLS: Reformation",
+      "quote": "Unter dem Einfluss der Reformation in den Städten Bern, Biel und Basel schloss sich der Süden des Fürstbistums Basel der Reformation an.",
+      "supports": "Layer Other lands: the south of the bishopric of Basel became Reformed"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/013328/",
+      "title": "HLS: Reformation",
+      "quote": "Solothurn blieb katholisch, der Thurgau dagegen weitgehend reformiert.",
+      "supports": "Layers Thurgau (mostly Reformed) and Catholic cantons (Solothurn)"
+     }
+    ],
+    "uncertain": [
+     "Map details for which no source was found: Rheinau abbey and Ramsen Catholic; Werdenberg and Sax Reformed; Bucheggberg Reformed; the upper Rheintal (Oberriet) Catholic; the exact split of the Toggenburg into a mostly Reformed upper part and a mostly Catholic lower part; 27 shared churches in Thurgau; Näfels and Oberurnen as the Catholic places of Glarus.",
+     "Bern took the Pays-d'Enhaut in 1555, and it then became Reformed.",
+     "Reformed worship was still tolerated in the Pays de Gex after 1601."
     ]
    },
    {
@@ -2783,9 +3784,9 @@
     "tick": "1597",
     "title": "Appenzell splits in two",
     "text": [
-     "Since 1525 Appenzell has two faiths: the outer parishes are Reformed, the inner parishes Catholic. After 1580 the conflict grows, for example about the Capuchins and a Catholic alliance with Spain.",
+     "Since 1525 Appenzell has two faiths: the outer parishes are Reformed, the inner parishes Catholic. After 1580 the conflict grows, for example about a Catholic alliance with Spain.",
      "In 1597 the land splits. Catholic Innerrhoden has its seat in Appenzell; Reformed Ausserrhoden meets in Trogen and Hundwil. Each half has its own Landsgemeinde. Innerrhoden joins the Golden League in 1600.",
-     "Glarus does not split. Its Catholics and Reformed share some offices and the church in Glarus. From 1623 each side holds its own Landsgemeinde, the Reformed in Schwanden and the Catholics in Näfels."
+     "Glarus does not split. Its Catholics and Reformed share some offices and the church in Glarus. From 1623 each side holds its own Landsgemeinde, and there is also a common one."
     ],
     "view": "ch",
     "layers": [
@@ -3220,6 +4221,146 @@
       "year": 1623,
       "note": "Reformed Landsgemeinde of Glarus from 1623"
      }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/013328/",
+      "title": "HLS: Reformation",
+      "quote": "Die äusseren Rhoden (ohne Herisau) schlossen sich dem neuen Glauben an, die Bewohner der inneren Rhoden (ohne Gais) verblieben mehrheitlich beim alten Glauben.",
+      "supports": "Since 1525: outer parishes Reformed, inner Catholic"
+     },
+     {
+      "url": "https://www.ai.ch/land-und-leute/geschichte/1597-die-landteilung",
+      "title": "Kanton Appenzell Innerrhoden (ai.ch): 1597 – die Landteilung",
+      "quote": "dem kurz zuvor abgeschlossene Soldbündnis mit dem habsburgischen Spanien",
+      "supports": "The conflict about the alliance with Spain"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/013328/",
+      "title": "HLS: Reformation",
+      "quote": "führten die Auseinandersetzungen in Appenzell 1597 zur Landesteilung",
+      "supports": "In 1597 the land splits"
+     },
+     {
+      "url": "https://www.ai.ch/land-und-leute/geschichte/1597-die-landteilung",
+      "title": "Kanton Appenzell Innerrhoden (ai.ch): 1597 – die Landteilung",
+      "quote": "den katholischen inneren Rhoden und den reformierten äusseren Rhoden",
+      "supports": "Catholic Innerrhoden and Reformed Ausserrhoden (layers)"
+     },
+     {
+      "url": "https://www.ai.ch/land-und-leute/geschichte/1597-die-landteilung",
+      "title": "Kanton Appenzell Innerrhoden (ai.ch): 1597 – die Landteilung",
+      "quote": "Im Juni 1597 stimmten Inner- und Ausserrhoder auf separaten Landsgemeinden",
+      "supports": "Each half has its own Landsgemeinde"
+     },
+     {
+      "url": "https://www.ar.ch/fileadmin/user_upload/Regierungsrat/Kantonsverfassung/Themenblaetter/Arbeitsgruppe_1/Themenblatt_112_Hauptort_des_Kantons_Weiterverwendung_nach_Plenum_25042019.pdf",
+      "title": "Kanton Appenzell Ausserrhoden, Verfassungsrevision, Themenblatt 112: Hauptort des Kantons (quoting Schläpfer, Appenzeller Geschichte)",
+      "quote": "Eine Landsgemeinde, die am 22. November 1597 in Hundwil zusammentrat, entschied mit knapper Mehrheit, dass Rathaus, Stock und Galgen in Trogen errichtet werden sollten.",
+      "supports": "Ausserrhoden Landsgemeinde in Hundwil; seat in Trogen (places Hundwil, Trogen)"
+     },
+     {
+      "url": "https://www.ar.ch/fileadmin/user_upload/Regierungsrat/Kantonsverfassung/Themenblaetter/Arbeitsgruppe_1/Themenblatt_112_Hauptort_des_Kantons_Weiterverwendung_nach_Plenum_25042019.pdf",
+      "title": "Kanton Appenzell Ausserrhoden, Verfassungsrevision, Themenblatt 112: Hauptort des Kantons (quoting HLS)",
+      "quote": "Nach der Landteilung 1597 wurde T. Hauptort des Landes Appenzell Ausserrhoden und war fortan Landsgemeindeort",
+      "supports": "Trogen became the seat of Ausserrhoden"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/017187/",
+      "title": "HLS: Goldener Bund",
+      "quote": "1600 wurde Appenzell Innerrhoden in den Goldenen Bund aufgenommen",
+      "supports": "Innerrhoden joins the Golden League in 1600"
+     },
+     {
+      "url": "https://landsgemeinde.gl.ch/storage/c7ff04afdc5bf6ce95cf5ea71324f55ff5222c392834a269a44e81be31624b63",
+      "title": "Kanton Glarus: Jürg Davatz, Die Landsgemeinde des Kantons Glarus – Geschichte und Gegenwart",
+      "quote": "Die Reformation spaltete das Land Glarus in eine reformierte Mehrheit und eine katholische Minderheit.",
+      "supports": "Glarus: Reformed majority, Catholic minority"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/013328/",
+      "title": "HLS: Reformation",
+      "quote": "In Glarus, Teilen Graubündens und im Thurgau teilten sich Katholiken und Evangelische an vielen Orten eine Kirche",
+      "supports": "Glarus shared churches"
+     },
+     {
+      "url": "https://landsgemeinde.gl.ch/storage/c7ff04afdc5bf6ce95cf5ea71324f55ff5222c392834a269a44e81be31624b63",
+      "title": "Kanton Glarus: Jürg Davatz, Die Landsgemeinde des Kantons Glarus – Geschichte und Gegenwart",
+      "quote": "Der dritte Landesvertrag von 1623 führte drei Landsgemeinden ein: eine katholische, eine reformierte und eine gemeinsame.",
+      "supports": "From 1623 separate Catholic and Reformed Landsgemeinden, plus a common one"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/009807/",
+      "title": "HLS: Landfriedensbünde",
+      "quote": "entstanden in den Gemeinden der Landvogtei Thurgau, der Grafschaft Baden und des Rheintals paritätische Verhältnisse",
+      "supports": "Layers Thurgau, Rheintal, County of Baden: mixed parishes"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/013328/",
+      "title": "HLS: Reformation",
+      "quote": "In Glarus, Teilen Graubündens und im Thurgau teilten sich Katholiken und Evangelische an vielen Orten eine Kirche",
+      "supports": "Layers Glarus, Thurgau, Three Leagues: shared churches"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/009807/",
+      "title": "HLS: Landfriedensbünde",
+      "quote": "Im Sarganserland (ohne die Herrschaft Wartau) und im Territorium des Abtes von St. Gallen (ohne das Toggenburg) setzte sich der Katholizismus wieder durch.",
+      "supports": "Layers: Sargans and abbey lands Catholic again; Wartau and the Toggenburg not"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/013328/",
+      "title": "HLS: Reformation",
+      "quote": "Die äusseren Rhoden (ohne Herisau) schlossen sich dem neuen Glauben an, die Bewohner der inneren Rhoden (ohne Gais) verblieben mehrheitlich beim alten Glauben.",
+      "supports": "Layer Appenzell: outer parts Reformed, inner parts Catholic"
+     },
+     {
+      "url": "https://www.utbm.fr/wp-content/uploads/2015/04/Arg_CoeditionAlphil_UneResistanceAlaReforme.pdf",
+      "title": "L. Bartolini, Une résistance à la réforme dans le pays de Neuchâtel. Le Landeron et sa région (1530-1562), UTBM/Alphil 2006 (publisher sheet)",
+      "quote": "Seules de tout le Pays de Neuchâtel, les communes du Landeron et de Cressier ne passèrent pas à la Réforme",
+      "supports": "Layer Le Landeron and Cressier: stay Catholic inside Reformed Neuchâtel"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/013328/",
+      "title": "HLS: Reformation",
+      "quote": "in der Westschweiz führte Neuenburg mit Berner Unterstützung 1530 die Reformation ein",
+      "supports": "Layer Neuchâtel: Reformed 1530"
+     },
+     {
+      "url": "https://antipodes.ch/wp-content/uploads/2016/06/bruening_le-premier-champ-de-bataille-du-calvinisme_9782889010615_10.33056-ANTIPODES.10615.pdf",
+      "title": "M. W. Bruening, Le premier champ de bataille du calvinisme (Antipodes, 2011)",
+      "quote": "les villes et alentours d’Orbe, Échallens, Grandson et Morat seraient des bailliages communs de Berne et Fribourg",
+      "supports": "Layers Orbe, Grandson, Echallens: ruled together by Bern and Fribourg"
+     },
+     {
+      "url": "https://antipodes.ch/wp-content/uploads/2016/06/bruening_le-premier-champ-de-bataille-du-calvinisme_9782889010615_10.33056-ANTIPODES.10615.pdf",
+      "title": "M. W. Bruening, Le premier champ de bataille du calvinisme (Antipodes, 2011)",
+      "quote": "D’autres n’abolirent la messe que bien plus tard, comme Mex (1570) et Goumoëns (1575) ; d’autres, comme Échallens, jamais.",
+      "supports": "Layer Echallens villages: Echallens never gave up the Mass"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/017178/",
+      "title": "HLS: Gegenreformation",
+      "quote": "Es gelang ihm zwar, das Laufental, das Birseck und Delsberg zum Katholizismus zurückzuführen",
+      "supports": "Layer Laufen and Birseck (bishop of Basel)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/013328/",
+      "title": "HLS: Reformation",
+      "quote": "Unter dem Einfluss der Reformation in den Städten Bern, Biel und Basel schloss sich der Süden des Fürstbistums Basel der Reformation an.",
+      "supports": "Layer Other lands: the south of the bishopric of Basel became Reformed"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/013328/",
+      "title": "HLS: Reformation",
+      "quote": "Solothurn blieb katholisch, der Thurgau dagegen weitgehend reformiert.",
+      "supports": "Layers Thurgau (mostly Reformed) and Catholic cantons (Solothurn)"
+     }
+    ],
+    "uncertain": [
+     "Map details for which no source was found: Rheinau abbey and Ramsen Catholic; Werdenberg and Sax Reformed; Bucheggberg Reformed; the upper Rheintal (Oberriet) Catholic; the exact split of the Toggenburg into a mostly Reformed upper part and a mostly Catholic lower part; 27 shared churches in Thurgau; Näfels and Oberurnen as the Catholic places of Glarus.",
+     "The seat of Innerrhoden was the village of Appenzell (place).",
+     "The Capuchins were one cause of the conflict in Appenzell.",
+     "From 1623 the Reformed of Glarus met in Schwanden and the Catholics in Näfels."
     ]
    },
    {
@@ -3227,8 +4368,8 @@
     "tick": "1620–1639",
     "title": "Graubünden: faith by commune",
     "text": [
-     "In the Three Leagues there is no ruler who decides the faith. Since the Ilanz Articles (1526) each commune elects its pastor and so chooses its faith. Chur, the Prättigau, the Schams and the Heinzenberg turn Reformed first; the Engadine follows after 1550.",
-     "In the Thirty Years' War (1618–1648) Graubünden is fought over by Spain, Austria and France. In July 1620 Catholics in the Valtellina kill hundreds of Reformed. Austrian troops try to make the Prättigau and the Lower Engadine Catholic again, without success.",
+     "In the Three Leagues there is no ruler who decides the faith. Since the Ilanz Articles (1524, 1526) each commune elects its pastor and so chooses its faith. Chur turns Reformed by 1527; by about 1530 many communes of the Ten Jurisdictions, the Heinzenberg and the Schams follow. The Engadine follows after 1550.",
+     "In the Thirty Years' War (1618–1648) Graubünden is fought over by Spain, Austria and France. In July 1620 Catholics in the Valtellina kill about 600 Reformed. Austrian troops try to make the Prättigau and the Lower Engadine Catholic again, without success.",
      "By about 1640 the map is fixed and stays almost the same until 1803. The Surselva, the Oberhalbstein and the Misox are Catholic. Some communes have both faiths, for example Poschiavo, Brusio, the Vier Dörfer near Chur and Val Müstair."
     ],
     "view": [
@@ -3774,6 +4915,157 @@
       "year": 1620,
       "note": "Valtellina massacre, July 1620"
      }
+    ],
+    "sources": [
+     {
+      "url": "https://kulturforschung.ch/storage/atlasgr/seiten/32_konfessionen.pdf",
+      "title": "Institut für Kulturforschung Graubünden, Atlas Graubünden, Thema 32: Konfessionen",
+      "quote": "Die Gemeinden konnten ihre Pfarrer, und damit auch ihre Konfession, nun eigenständig wählen.",
+      "supports": "Each commune elects its pastor and so its faith (layers Graubünden)"
+     },
+     {
+      "url": "https://kulturforschung.ch/storage/atlasgr/seiten/32_konfessionen.pdf",
+      "title": "Institut für Kulturforschung Graubünden, Atlas: Konfessionen (page 32)",
+      "quote": "Mit den Ilanzer Artikelbriefen von 1524 und 1526 wurden die herrschaftlichen und kirchlichen Verhältnisse der Drei Bünde neu geordnet.",
+      "supports": "Ilanz Articles 1524, 1526 (place Ilanz)"
+     },
+     {
+      "url": "https://kulturforschung.ch/storage/atlasgr/seiten/32_konfessionen.pdf",
+      "title": "Institut für Kulturforschung Graubünden, Atlas Graubünden, Thema 32: Konfessionen",
+      "quote": "In Chur setzte sich durch die Predigttätigkeit des Stadtpfarrers Johannes Comander (1485–1557) von 1523 bis 1527 die Reformation durch.",
+      "supports": "Chur Reformed 1523-1527 under Comander (place Chur)"
+     },
+     {
+      "url": "https://kulturforschung.ch/storage/atlasgr/seiten/32_konfessionen.pdf",
+      "title": "Institut für Kulturforschung Graubünden, Atlas Graubünden: Konfessionen",
+      "quote": "In der Folge entschieden sich bis um 1530 ein Grossteil der Gemeinden im Zehngerichtebund, am Heinzenberg",
+      "supports": "By about 1530 many communes of the Ten Jurisdictions and the Heinzenberg turned Reformed"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/013328/",
+      "title": "HLS: Reformation",
+      "quote": "Die Gemeinden des Engadins entschieden sich zum Beispiel erst in der zweiten Hälfte des 16. Jahrhunderts für den neuen Glauben.",
+      "supports": "The Engadine follows after 1550"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/028698/",
+      "title": "HLS: Bündner Wirren",
+      "quote": "Zwei weitere österreichische Invasionen folgten 1623-1624 und 1629-1631.",
+      "supports": "Graubünden fought over by Austria"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/028698/",
+      "title": "HLS: Bündner Wirren",
+      "quote": "betrachtete das Veltlin als geeigneten Ansatzpunkt, um Spanien zu schwächen",
+      "supports": "France and Spain fought over the Valtellina (layer Valtellina)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/024652/",
+      "title": "HLS: Veltliner Mord",
+      "quote": "Ermordung von ca. 600 Protestanten des Veltlins vom 19. bis am 23. Juli 1620",
+      "supports": "In July 1620 about 600 Reformed killed in the Valtellina (place Tirano)"
+     },
+     {
+      "url": "https://kulturforschung.ch/storage/atlasgr/seiten/32_konfessionen.pdf",
+      "title": "Institut für Kulturforschung Graubünden, Atlas Graubünden, Thema 32: Konfessionen",
+      "quote": "Versuche in den 1620er-Jahren, unter dem Schutz der Besatzungsmacht Österreich das Prättigau und das Unterengadin mithilfe von Kapuzinermissionaren zu rekatholisieren, blieben erfolglos.",
+      "supports": "Austrian attempts to make the Prättigau and Lower Engadine Catholic failed"
+     },
+     {
+      "url": "https://kulturforschung.ch/storage/atlasgr/seiten/32_konfessionen.pdf",
+      "title": "Institut für Kulturforschung Graubünden, Atlas Graubünden, Thema 32: Konfessionen",
+      "quote": "Im Veltlin hingegen verbot das Mailänder Kapitulat von 1639 den Reformierten endgültig die Niederlassung",
+      "supports": "Valtellina Catholic only from 1639 (layer Valtellina)"
+     },
+     {
+      "url": "https://kulturforschung.ch/storage/atlasgr/seiten/32_konfessionen.pdf",
+      "title": "Institut für Kulturforschung Graubünden, Atlas Graubünden, Thema 32: Konfessionen",
+      "quote": "Damit war bis um 1640 eine Ausprägung der Konfessionslandschaft erreicht, wie sie auch 1803 bei der Kantonsgründung noch bestand.",
+      "supports": "The map was fixed by about 1640 and stayed until 1803"
+     },
+     {
+      "url": "https://kulturforschung.ch/storage/atlasgr/seiten/32_konfessionen.pdf",
+      "title": "Institut für Kulturforschung Graubünden, Atlas Graubünden, Thema 32: Konfessionen",
+      "quote": "katholischen Reformbemühungen war die Vertreibung der Reformierten aus dem Misox",
+      "supports": "Misox Catholic"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/013328/",
+      "title": "HLS: Reformation",
+      "quote": "In Glarus, Teilen Graubündens und im Thurgau teilten sich Katholiken und Evangelische an vielen Orten eine Kirche",
+      "supports": "Mixed communes with shared churches in Graubünden (layer mixed communes)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/009807/",
+      "title": "HLS: Landfriedensbünde",
+      "quote": "entstanden in den Gemeinden der Landvogtei Thurgau, der Grafschaft Baden und des Rheintals paritätische Verhältnisse",
+      "supports": "Layers Thurgau, Rheintal, County of Baden: mixed parishes"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/013328/",
+      "title": "HLS: Reformation",
+      "quote": "In Glarus, Teilen Graubündens und im Thurgau teilten sich Katholiken und Evangelische an vielen Orten eine Kirche",
+      "supports": "Layers Glarus, Thurgau, Three Leagues: shared churches"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/009807/",
+      "title": "HLS: Landfriedensbünde",
+      "quote": "Im Sarganserland (ohne die Herrschaft Wartau) und im Territorium des Abtes von St. Gallen (ohne das Toggenburg) setzte sich der Katholizismus wieder durch.",
+      "supports": "Layers: Sargans and abbey lands Catholic again; Wartau and the Toggenburg not"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/013328/",
+      "title": "HLS: Reformation",
+      "quote": "Die äusseren Rhoden (ohne Herisau) schlossen sich dem neuen Glauben an, die Bewohner der inneren Rhoden (ohne Gais) verblieben mehrheitlich beim alten Glauben.",
+      "supports": "Layer Appenzell: outer parts Reformed, inner parts Catholic"
+     },
+     {
+      "url": "https://www.utbm.fr/wp-content/uploads/2015/04/Arg_CoeditionAlphil_UneResistanceAlaReforme.pdf",
+      "title": "L. Bartolini, Une résistance à la réforme dans le pays de Neuchâtel. Le Landeron et sa région (1530-1562), UTBM/Alphil 2006 (publisher sheet)",
+      "quote": "Seules de tout le Pays de Neuchâtel, les communes du Landeron et de Cressier ne passèrent pas à la Réforme",
+      "supports": "Layer Le Landeron and Cressier: stay Catholic inside Reformed Neuchâtel"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/013328/",
+      "title": "HLS: Reformation",
+      "quote": "in der Westschweiz führte Neuenburg mit Berner Unterstützung 1530 die Reformation ein",
+      "supports": "Layer Neuchâtel: Reformed 1530"
+     },
+     {
+      "url": "https://antipodes.ch/wp-content/uploads/2016/06/bruening_le-premier-champ-de-bataille-du-calvinisme_9782889010615_10.33056-ANTIPODES.10615.pdf",
+      "title": "M. W. Bruening, Le premier champ de bataille du calvinisme (Antipodes, 2011)",
+      "quote": "les villes et alentours d’Orbe, Échallens, Grandson et Morat seraient des bailliages communs de Berne et Fribourg",
+      "supports": "Layers Orbe, Grandson, Echallens: ruled together by Bern and Fribourg"
+     },
+     {
+      "url": "https://antipodes.ch/wp-content/uploads/2016/06/bruening_le-premier-champ-de-bataille-du-calvinisme_9782889010615_10.33056-ANTIPODES.10615.pdf",
+      "title": "M. W. Bruening, Le premier champ de bataille du calvinisme (Antipodes, 2011)",
+      "quote": "D’autres n’abolirent la messe que bien plus tard, comme Mex (1570) et Goumoëns (1575) ; d’autres, comme Échallens, jamais.",
+      "supports": "Layer Echallens villages: Echallens never gave up the Mass"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/017178/",
+      "title": "HLS: Gegenreformation",
+      "quote": "Es gelang ihm zwar, das Laufental, das Birseck und Delsberg zum Katholizismus zurückzuführen",
+      "supports": "Layer Laufen and Birseck (bishop of Basel)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/013328/",
+      "title": "HLS: Reformation",
+      "quote": "Unter dem Einfluss der Reformation in den Städten Bern, Biel und Basel schloss sich der Süden des Fürstbistums Basel der Reformation an.",
+      "supports": "Layer Other lands: the south of the bishopric of Basel became Reformed"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/013328/",
+      "title": "HLS: Reformation",
+      "quote": "Solothurn blieb katholisch, der Thurgau dagegen weitgehend reformiert.",
+      "supports": "Layers Thurgau (mostly Reformed) and Catholic cantons (Solothurn)"
+     }
+    ],
+    "uncertain": [
+     "Map details for which no source was found: Rheinau abbey and Ramsen Catholic; Werdenberg and Sax Reformed; Bucheggberg Reformed; the upper Rheintal (Oberriet) Catholic; the exact split of the Toggenburg into a mostly Reformed upper part and a mostly Catholic lower part; 27 shared churches in Thurgau; Näfels and Oberurnen as the Catholic places of Glarus.",
+     "The Surselva and the Oberhalbstein were Catholic about 1640.",
+     "Brusio, the Vier Dörfer and Val Müstair had both faiths."
     ]
    },
    {
@@ -4310,6 +5602,149 @@
       "year": 1656,
       "note": "Zurich besieges it in vain"
      }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008910/",
+      "title": "HLS: Villmergerkrieg, Erster",
+      "quote": "Im September 1655 traf eine Gruppe von reformierten Flüchtlingen (Nikodemiten) aus Arth in Zürich ein.",
+      "supports": "Secret Reformed of Arth flee to Zurich in September 1655 (place Arth)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008910/",
+      "title": "HLS: Villmergerkrieg, Erster",
+      "quote": "Entgegen Berner Warnungen wurden vier in Schwyz verbliebene Reformierte hingerichtet.",
+      "supports": "Schwyz executes four Reformed"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008910/",
+      "title": "HLS: Villmergerkrieg, Erster",
+      "quote": "Der Erste Villmergerkrieg begann mit dem Kriegsmanifest Berns und Zürichs am 6. Januar 1656",
+      "supports": "War declared on 6 January 1656"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008910/",
+      "title": "HLS: Villmergerkrieg, Erster",
+      "quote": "Eine Vereinigung beider Truppen scheiterte am schleppenden Verlauf der Belagerung der Stadt Rapperswil durch Zürcher Truppen.",
+      "supports": "Zurich besieges Rapperswil (place Rapperswil)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008910/",
+      "title": "HLS: Villmergerkrieg, Erster",
+      "quote": "Als sein Sturmangriff auf Rapperswil am 3. Februar misslang",
+      "supports": "Zurich cannot take Rapperswil"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008910/",
+      "title": "HLS: Villmergerkrieg, Erster",
+      "quote": "In einem Überraschungsangriff schlugen Luzerner und Zuger Truppen unter Christoph Pfyffer das Berner Heer bei Villmergen.",
+      "supports": "Lucerne and Zug surprise and beat Bern at Villmergen (place Villmergen)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008910/",
+      "title": "HLS: Villmergerkrieg, Erster",
+      "quote": "Die Entscheidung zugunsten der katholischen Orte – Freiburg und Solothurn waren neutral geblieben – fiel am 24. Januar 1656.",
+      "supports": "24 January 1656"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008910/",
+      "title": "HLS: Villmergerkrieg, Erster",
+      "quote": "Der reformierte Versuch, die Freien Ämter, die das Zürcher und Berner Territorium trennten, zu besetzen, war damit gescheitert.",
+      "supports": "The plan to take the Freie Ämter fails"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008910/",
+      "title": "HLS: Villmergerkrieg, Erster",
+      "quote": "endete mit dem Abschluss des Dritten Landfriedens zu Baden am 7. März 1656",
+      "supports": "Third Land Peace, 7 March 1656"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008910/",
+      "title": "HLS: Villmergerkrieg, Erster",
+      "quote": "eine Erneuerung des Status quo ante, indem der Zweite Landfrieden von 1531 bestätigt wurde",
+      "supports": "It restores the order of 1531"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/009807/",
+      "title": "HLS: Landfriedensbünde",
+      "quote": "wurde die Religionshoheit der Orte gestärkt",
+      "supports": "Each canton stays master of the faith in its land"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/009807/",
+      "title": "HLS: Landfriedensbünde",
+      "quote": "Die Begünstigung der Katholiken in den gemischtkonfessionellen Gebieten durch die Mehrheitsbeschlüsse der regierenden Orte",
+      "supports": "The Catholic lead in the common lordships"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/009807/",
+      "title": "HLS: Landfriedensbünde",
+      "quote": "entstanden in den Gemeinden der Landvogtei Thurgau, der Grafschaft Baden und des Rheintals paritätische Verhältnisse",
+      "supports": "Layers Thurgau, Rheintal, County of Baden: mixed parishes"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/013328/",
+      "title": "HLS: Reformation",
+      "quote": "In Glarus, Teilen Graubündens und im Thurgau teilten sich Katholiken und Evangelische an vielen Orten eine Kirche",
+      "supports": "Layers Glarus, Thurgau, Three Leagues: shared churches"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/009807/",
+      "title": "HLS: Landfriedensbünde",
+      "quote": "Im Sarganserland (ohne die Herrschaft Wartau) und im Territorium des Abtes von St. Gallen (ohne das Toggenburg) setzte sich der Katholizismus wieder durch.",
+      "supports": "Layers: Sargans and abbey lands Catholic again; Wartau and the Toggenburg not"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/013328/",
+      "title": "HLS: Reformation",
+      "quote": "Die äusseren Rhoden (ohne Herisau) schlossen sich dem neuen Glauben an, die Bewohner der inneren Rhoden (ohne Gais) verblieben mehrheitlich beim alten Glauben.",
+      "supports": "Layer Appenzell: outer parts Reformed, inner parts Catholic"
+     },
+     {
+      "url": "https://www.utbm.fr/wp-content/uploads/2015/04/Arg_CoeditionAlphil_UneResistanceAlaReforme.pdf",
+      "title": "L. Bartolini, Une résistance à la réforme dans le pays de Neuchâtel. Le Landeron et sa région (1530-1562), UTBM/Alphil 2006 (publisher sheet)",
+      "quote": "Seules de tout le Pays de Neuchâtel, les communes du Landeron et de Cressier ne passèrent pas à la Réforme",
+      "supports": "Layer Le Landeron and Cressier: stay Catholic inside Reformed Neuchâtel"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/013328/",
+      "title": "HLS: Reformation",
+      "quote": "in der Westschweiz führte Neuenburg mit Berner Unterstützung 1530 die Reformation ein",
+      "supports": "Layer Neuchâtel: Reformed 1530"
+     },
+     {
+      "url": "https://antipodes.ch/wp-content/uploads/2016/06/bruening_le-premier-champ-de-bataille-du-calvinisme_9782889010615_10.33056-ANTIPODES.10615.pdf",
+      "title": "M. W. Bruening, Le premier champ de bataille du calvinisme (Antipodes, 2011)",
+      "quote": "les villes et alentours d’Orbe, Échallens, Grandson et Morat seraient des bailliages communs de Berne et Fribourg",
+      "supports": "Layers Orbe, Grandson, Echallens: ruled together by Bern and Fribourg"
+     },
+     {
+      "url": "https://antipodes.ch/wp-content/uploads/2016/06/bruening_le-premier-champ-de-bataille-du-calvinisme_9782889010615_10.33056-ANTIPODES.10615.pdf",
+      "title": "M. W. Bruening, Le premier champ de bataille du calvinisme (Antipodes, 2011)",
+      "quote": "D’autres n’abolirent la messe que bien plus tard, comme Mex (1570) et Goumoëns (1575) ; d’autres, comme Échallens, jamais.",
+      "supports": "Layer Echallens villages: Echallens never gave up the Mass"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/017178/",
+      "title": "HLS: Gegenreformation",
+      "quote": "Es gelang ihm zwar, das Laufental, das Birseck und Delsberg zum Katholizismus zurückzuführen",
+      "supports": "Layer Laufen and Birseck (bishop of Basel)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/013328/",
+      "title": "HLS: Reformation",
+      "quote": "Unter dem Einfluss der Reformation in den Städten Bern, Biel und Basel schloss sich der Süden des Fürstbistums Basel der Reformation an.",
+      "supports": "Layer Other lands: the south of the bishopric of Basel became Reformed"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/013328/",
+      "title": "HLS: Reformation",
+      "quote": "Solothurn blieb katholisch, der Thurgau dagegen weitgehend reformiert.",
+      "supports": "Layers Thurgau (mostly Reformed) and Catholic cantons (Solothurn)"
+     }
+    ],
+    "uncertain": [
+     "Map details for which no source was found: Rheinau abbey and Ramsen Catholic; Werdenberg and Sax Reformed; Bucheggberg Reformed; the upper Rheintal (Oberriet) Catholic; the exact split of the Toggenburg into a mostly Reformed upper part and a mostly Catholic lower part; 27 shared churches in Thurgau; Näfels and Oberurnen as the Catholic places of Glarus."
     ]
    },
    {
@@ -4854,6 +6289,168 @@
       "year": 1712,
       "note": "Zurich takes the abbot's town"
      }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008911/",
+      "title": "HLS: Villmergerkrieg, Zweiter",
+      "quote": "der als überkonfessioneller Untertanenaufstand der Toggenburger gegen ihren Landesherrn begann",
+      "supports": "The Toggenburg rises against its lord"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008911/",
+      "title": "HLS: Villmergerkrieg, Zweiter",
+      "quote": "zwischen dem Fürstabt und seinen mehrheitlich reformierten Toggenburger Untertanen",
+      "supports": "The Toggenburg was mostly Reformed; the lord was the abbot of St. Gallen"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008911/",
+      "title": "HLS: Villmergerkrieg, Zweiter",
+      "quote": "Zürich und Bern unterstützten dieses Vorgehen und richteten am 13. April 1712 ein Manifest gegen den Fürstabt",
+      "supports": "Zurich and Bern support the Toggenburg"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008911/",
+      "title": "HLS: Villmergerkrieg, Zweiter",
+      "quote": "worauf die fünf inneren Orte auf die Seite des Fürstabts traten",
+      "supports": "The five inner cantons support the abbot"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008911/",
+      "title": "HLS: Villmergerkrieg, Zweiter",
+      "quote": "Die reformierten Streitkräfte besetzten den Thurgau.",
+      "supports": "They occupy Thurgau"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008911/",
+      "title": "HLS: Villmergerkrieg, Zweiter",
+      "quote": "Zürcher Truppen belagerten und beschossen Wil (SG)",
+      "supports": "Zurich takes Wil (place Wil)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008911/",
+      "title": "HLS: Villmergerkrieg, Zweiter",
+      "quote": "In einem Gefecht bei Bremgarten (AG) am 26. Mai, der sogenannte Staudenschlacht, siegten die reformierten Streitkräfte.",
+      "supports": "Win near Bremgarten on 26 May (place Bremgarten)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008911/",
+      "title": "HLS: Villmergerkrieg, Zweiter",
+      "quote": "Am 25. Juli kam es zum entscheidenden Treffen der Innerschweizer und Berner Truppen bei Villmergen",
+      "supports": "25 July 1712 at Villmergen (place Villmergen)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008911/",
+      "title": "HLS: Villmergerkrieg, Zweiter",
+      "quote": "Die Schlacht forderte über 3000 Tote.",
+      "supports": "More than 3000 dead"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008911/",
+      "title": "HLS: Villmergerkrieg, Zweiter",
+      "quote": "dem am 11. August 1712 in Aarau abgeschlossenen Vierten Landfrieden",
+      "supports": "Fourth Land Peace, Aarau, 11 August 1712 (place Aarau)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008911/",
+      "title": "HLS: Villmergerkrieg, Zweiter",
+      "quote": "Der Friedensschluss legte die Rechtsgleichheit der beiden Konfessionen in Religionsfragen fest",
+      "supports": "Both faiths are now equal"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/009807/",
+      "title": "HLS: Landfriedensbünde",
+      "quote": "die paritätische Nutzung von Kirchengebäuden (simultaneum)",
+      "supports": "Clear rules for shared churches"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008911/",
+      "title": "HLS: Villmergerkrieg, Zweiter",
+      "quote": "entzog den katholischen Orten die Herrschaftsrechte über Baden und die Unteren Freien Ämter",
+      "supports": "The Catholic cantons lose Baden and the lower Freie Ämter"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008911/",
+      "title": "HLS: Villmergerkrieg, Zweiter",
+      "quote": "Bern in die Mitregierung des Thurgaus, von Sargans, des Rheintals und der Oberen Freien Ämter aufnahm",
+      "supports": "Bern joins the rule of Thurgau, Sargans, the Rheintal and the upper Freie Ämter"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008911/",
+      "title": "HLS: Villmergerkrieg, Zweiter",
+      "quote": "beendete die seit dem Zweiten Landfrieden von 1531 bestehende Vorherrschaft der katholischen Orte",
+      "supports": "The Catholic lead ends"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/009807/",
+      "title": "HLS: Landfriedensbünde",
+      "quote": "entstanden in den Gemeinden der Landvogtei Thurgau, der Grafschaft Baden und des Rheintals paritätische Verhältnisse",
+      "supports": "Layers Thurgau, Rheintal, County of Baden: mixed parishes"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/013328/",
+      "title": "HLS: Reformation",
+      "quote": "In Glarus, Teilen Graubündens und im Thurgau teilten sich Katholiken und Evangelische an vielen Orten eine Kirche",
+      "supports": "Layers Glarus, Thurgau, Three Leagues: shared churches"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/009807/",
+      "title": "HLS: Landfriedensbünde",
+      "quote": "Im Sarganserland (ohne die Herrschaft Wartau) und im Territorium des Abtes von St. Gallen (ohne das Toggenburg) setzte sich der Katholizismus wieder durch.",
+      "supports": "Layers: Sargans and abbey lands Catholic again; Wartau and the Toggenburg not"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/013328/",
+      "title": "HLS: Reformation",
+      "quote": "Die äusseren Rhoden (ohne Herisau) schlossen sich dem neuen Glauben an, die Bewohner der inneren Rhoden (ohne Gais) verblieben mehrheitlich beim alten Glauben.",
+      "supports": "Layer Appenzell: outer parts Reformed, inner parts Catholic"
+     },
+     {
+      "url": "https://www.utbm.fr/wp-content/uploads/2015/04/Arg_CoeditionAlphil_UneResistanceAlaReforme.pdf",
+      "title": "L. Bartolini, Une résistance à la réforme dans le pays de Neuchâtel. Le Landeron et sa région (1530-1562), UTBM/Alphil 2006 (publisher sheet)",
+      "quote": "Seules de tout le Pays de Neuchâtel, les communes du Landeron et de Cressier ne passèrent pas à la Réforme",
+      "supports": "Layer Le Landeron and Cressier: stay Catholic inside Reformed Neuchâtel"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/013328/",
+      "title": "HLS: Reformation",
+      "quote": "in der Westschweiz führte Neuenburg mit Berner Unterstützung 1530 die Reformation ein",
+      "supports": "Layer Neuchâtel: Reformed 1530"
+     },
+     {
+      "url": "https://antipodes.ch/wp-content/uploads/2016/06/bruening_le-premier-champ-de-bataille-du-calvinisme_9782889010615_10.33056-ANTIPODES.10615.pdf",
+      "title": "M. W. Bruening, Le premier champ de bataille du calvinisme (Antipodes, 2011)",
+      "quote": "les villes et alentours d’Orbe, Échallens, Grandson et Morat seraient des bailliages communs de Berne et Fribourg",
+      "supports": "Layers Orbe, Grandson, Echallens: ruled together by Bern and Fribourg"
+     },
+     {
+      "url": "https://antipodes.ch/wp-content/uploads/2016/06/bruening_le-premier-champ-de-bataille-du-calvinisme_9782889010615_10.33056-ANTIPODES.10615.pdf",
+      "title": "M. W. Bruening, Le premier champ de bataille du calvinisme (Antipodes, 2011)",
+      "quote": "D’autres n’abolirent la messe que bien plus tard, comme Mex (1570) et Goumoëns (1575) ; d’autres, comme Échallens, jamais.",
+      "supports": "Layer Echallens villages: Echallens never gave up the Mass"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/017178/",
+      "title": "HLS: Gegenreformation",
+      "quote": "Es gelang ihm zwar, das Laufental, das Birseck und Delsberg zum Katholizismus zurückzuführen",
+      "supports": "Layer Laufen and Birseck (bishop of Basel)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/013328/",
+      "title": "HLS: Reformation",
+      "quote": "Unter dem Einfluss der Reformation in den Städten Bern, Biel und Basel schloss sich der Süden des Fürstbistums Basel der Reformation an.",
+      "supports": "Layer Other lands: the south of the bishopric of Basel became Reformed"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/013328/",
+      "title": "HLS: Reformation",
+      "quote": "Solothurn blieb katholisch, der Thurgau dagegen weitgehend reformiert.",
+      "supports": "Layers Thurgau (mostly Reformed) and Catholic cantons (Solothurn)"
+     }
+    ],
+    "uncertain": [
+     "Map details for which no source was found: Rheinau abbey and Ramsen Catholic; Werdenberg and Sax Reformed; Bucheggberg Reformed; the upper Rheintal (Oberriet) Catholic; the exact split of the Toggenburg into a mostly Reformed upper part and a mostly Catholic lower part; 27 shared churches in Thurgau; Näfels and Oberurnen as the Catholic places of Glarus.",
+     "Reformed worship was forbidden in the Pays de Gex by 1685."
     ]
    }
   ],

@@ -1,0 +1,3390 @@
+[
+ {
+  "id": "celts-romans",
+  "title": "Celts and Romans: from the Helvetii to the Rhine frontier",
+  "card": "How Celtic peoples lived in today's Switzerland, how Rome conquered them, and how Roman towns, roads and forts shaped the land.",
+  "stops": [
+   {
+    "year": -450,
+    "tick": "c. 450 BC",
+    "title": "The La Tène culture",
+    "text": [
+     "From about 480 BC, archaeologists speak of the La Tène period. It is the later Iron Age. It ends about 30 BC, when the Romans take over.",
+     "The name comes from La Tène, a site at the end of Lake Neuchâtel. From 1857, people found many iron weapons and other metal objects there. The 'La Tène culture' means the objects, art and graves of the Celts of this time.",
+     "In Switzerland, large cemeteries show how this culture changed. The best known is Münsingen-Rain near Bern, with more than 220 graves. The people of this culture were Celts. Their language belonged to the Celtic family."
+    ],
+    "view": "ch",
+    "layers": [
+     {
+      "name": "Celtic Iron Age (La Tène) area",
+      "kind": "celtic",
+      "label": "Area of the La Tène culture north of the Alps (very rough)",
+      "sel": {
+       "cantons": [
+        "VD",
+        "FR",
+        "NE",
+        "BE",
+        "SO",
+        "BS",
+        "BL",
+        "JU",
+        "AG",
+        "LU",
+        "ZG",
+        "ZH",
+        "SH",
+        "GE",
+        "TG",
+        "SG",
+        "AR",
+        "AI"
+       ]
+      },
+      "regions": [],
+      "countries": []
+     }
+    ],
+    "places": [
+     {
+      "name": "La Tène (find site)",
+      "lat": 47.008,
+      "lon": 7.02,
+      "kind": "place",
+      "note": "Name-giving site of the La Tène culture"
+     },
+     {
+      "name": "Münsingen-Rain (cemetery)",
+      "lat": 46.874,
+      "lon": 7.564,
+      "kind": "place",
+      "note": "More than 220 Celtic graves"
+     }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008016/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Kelten",
+      "quote": "die jüngere Eisenzeit als Latènezeit (480-30 v. Chr.) bezeichnet",
+      "supports": "La Tène period is the later Iron Age, 480–30 BC"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008015/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Latènezeit",
+      "quote": "Die Wahl des Toponyms Tène (Gemeinde Marin-Epagnier) drängte sich auf, nachdem an diesem Ort ab 1857 zahlreiche metallische Gegenstände, insbesondere Eisenwaffen, gefunden worden waren.",
+      "supports": "name from the site La Tène; finds of iron weapons from 1857"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008015/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Latènezeit",
+      "quote": "Die berühmteste Nekropole ist mit mehr als 220 Gräbern und ungefähr 1200 Objekten diejenige von Münsingen-Rain",
+      "supports": "Münsingen-Rain, more than 220 graves"
+     }
+    ],
+    "uncertain": [
+     "The coloured area is only a rough sign for 'Celtic Iron Age culture on the Swiss Plateau'; no borders are known for this time."
+    ]
+   },
+   {
+    "year": -100,
+    "tick": "c. 100 BC",
+    "title": "Celtic peoples and their oppida",
+    "text": [
+     "About 100 BC, several peoples lived in today's Switzerland. The Helvetii lived on the Swiss Plateau, between the Rhine, the Jura, Lake Geneva and the Rhone. The Raurici lived around Basel. Four Celtic tribes lived in the Valais. The Lepontii lived in the Ticino valleys; their language was Celtic. The Raetians lived further east; their core area was the Lower Engadine, South Tyrol and Trentino.",
+     "Rome already ruled Geneva (land of the Allobroges) and the south of Ticino (land of the Insubres around Milan).",
+     "From the late 2nd century BC, the Celts built oppida. An oppidum is a large place on a hill, protected by a strong wall. Bern-Engehalbinsel was the main oppidum of the Helvetii, with more than 140 hectares. Mont Vully above Lake Murten had a wall 600 m long."
+    ],
+    "view": [
+     [
+      45.3,
+      5.6
+     ],
+     [
+      48.1,
+      11.6
+     ]
+    ],
+    "layers": [
+     {
+      "name": "Raetians",
+      "kind": "other",
+      "label": "Raetians (core area, rough)",
+      "sel": {
+       "districts": [
+        1843
+       ]
+      },
+      "regions": [
+       "ITA-5459",
+       "ITA-5460",
+       "AUT-2329"
+      ],
+      "countries": []
+     },
+     {
+      "name": "Lepontii",
+      "kind": "milan",
+      "label": "Lepontii (Celtic, Golasecca culture)",
+      "sel": {
+       "districts": [
+        2101,
+        2102,
+        2103,
+        2104,
+        2107,
+        2108,
+        1847,
+        2304
+       ]
+      },
+      "regions": [
+       "ITA-5437"
+      ],
+      "countries": []
+     },
+     {
+      "name": "Roman land",
+      "kind": "roman",
+      "label": "Already Roman: Gallia Narbonensis (Allobroges) and Gallia Cisalpina (Insubres)",
+      "sel": {
+       "cantons": [
+        "GE"
+       ],
+       "districts": [
+        2105,
+        2106
+       ]
+      },
+      "regions": [
+       "FRA-5302",
+       "FRA-5341",
+       "FRA-5311",
+       "ITA-5452",
+       "ITA-5451",
+       "ITA-5450"
+      ],
+      "countries": []
+     },
+     {
+      "name": "Raurici",
+      "kind": "ally",
+      "label": "Raurici (Celtic)",
+      "sel": {
+       "cantons": [
+        "BS",
+        "BL",
+        "JU"
+       ],
+       "districts": [
+        1104,
+        1110
+       ]
+      },
+      "regions": [
+       "FRA-5296"
+      ],
+      "countries": []
+     },
+     {
+      "name": "Valais tribes",
+      "kind": "noble",
+      "label": "Celtic tribes of the Valais (Nantuates, Veragri, Seduni, Uberi)",
+      "sel": {
+       "cantons": [
+        "VS"
+       ]
+      },
+      "regions": [],
+      "countries": []
+     },
+     {
+      "name": "Helvetii",
+      "kind": "celtic",
+      "label": "Helvetii (Celtic)",
+      "sel": {
+       "cantons": [
+        "VD",
+        "FR",
+        "NE",
+        "BE",
+        "SO",
+        "AG",
+        "LU",
+        "ZG",
+        "ZH",
+        "SH",
+        "TG"
+       ]
+      },
+      "regions": [],
+      "countries": []
+     }
+    ],
+    "places": [
+     {
+      "name": "Bern-Engehalbinsel (Brenodurum)",
+      "lat": 46.973,
+      "lon": 7.443,
+      "kind": "place",
+      "note": "Main oppidum of the Helvetii, over 140 ha"
+     },
+     {
+      "name": "Mont Vully (oppidum)",
+      "lat": 46.958,
+      "lon": 7.081,
+      "kind": "place",
+      "note": "Oppidum of about 50 ha, about 120–80 BC"
+     },
+     {
+      "name": "Basel-Münsterhügel (oppidum)",
+      "lat": 47.5565,
+      "lon": 7.5925,
+      "kind": "place",
+      "note": "Oppidum of the Raurici"
+     },
+     {
+      "name": "Uetliberg (oppidum)",
+      "lat": 47.3497,
+      "lon": 8.4915,
+      "kind": "place"
+     },
+     {
+      "name": "Yverdon (Eburodunum)",
+      "lat": 46.778,
+      "lon": 6.641,
+      "kind": "town"
+     },
+     {
+      "name": "Jensberg (oppidum)",
+      "lat": 47.117,
+      "lon": 7.258,
+      "kind": "place"
+     },
+     {
+      "name": "Altenburg-Rheinau (oppida)",
+      "lat": 47.634,
+      "lon": 8.6,
+      "kind": "place"
+     },
+     {
+      "name": "Genava (Geneva)",
+      "lat": 46.2011,
+      "lon": 6.1484,
+      "kind": "town"
+     },
+     {
+      "name": "Mont Terri (oppidum)",
+      "lat": 47.395,
+      "lon": 7.153,
+      "kind": "place"
+     },
+     {
+      "name": "Giubiasco and Arbedo (Lepontic graves)",
+      "lat": 46.172,
+      "lon": 9.003,
+      "kind": "place"
+     }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008017/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Helvetier",
+      "quote": "vom Rhein, auf der anderen vom Jura und auf der dritten Seite vom Genfersee und von der Rhone begrenzt gewesen",
+      "supports": "land of the Helvetii"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008022/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Rauriker",
+      "quote": "dessen Ausdehnung in der Gegend um Basel (mit den anschliessenden Juraketten), im Oberelsass und in Südbaden aus der Verbreitung bestimmter Keramikformen zu erschliessen",
+      "supports": "land of the Raurici"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008018/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Lepontier",
+      "quote": "Die lepontische Sprache gehört zur keltischen Sprachfamilie.",
+      "supports": "Lepontii, Celtic language"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008019/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Räter",
+      "quote": "lag das Kerngebiet der Räter demnach im Südtirol, im Trentino, im Nordtirol und im Unterengadin",
+      "supports": "core area of the Raetians"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008248/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Römisches Reich",
+      "quote": "Die Allobroger , deren nördlichstes Oppidum das am linken Rhoneufer gelegene Genf war, wurden gegen Ende des 2. Jahrhunderts v.Chr. unterworfen",
+      "supports": "Geneva already Roman"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008248/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Römisches Reich",
+      "quote": "Insubrer , eines gallischen Stammes, dessen Hauptort Mediolanum (Mailand) war und der Anfang des 2. Jahrhunderts v.Chr. unterworfen",
+      "supports": "south Ticino already Roman"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008415/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Vallis Poenina",
+      "quote": "der Siedlungsraum der kelt. Stämme der Nantuaten , Veragrer , Seduner und Uberer",
+      "supports": "four Celtic tribes in the Valais"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007866/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Oppidum",
+      "quote": "Brenodurum auf der Engehalbinsel bei Bern, zweifellos das zentrale Oppidum des Gebiets der Helvetier",
+      "supports": "Bern-Engehalbinsel main oppidum"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007866/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Oppidum",
+      "quote": "zumal seine Fläche über 140 ha betrug",
+      "supports": "more than 140 ha"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008787/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Vully, Mont",
+      "quote": "erstreckte sich auf einer Länge von 600 m quer über den Hügel",
+      "supports": "Mont Vully wall 600 m"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007866/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Oppidum",
+      "quote": "ab Ende des 2. Jahrhunderts v.Chr. im gesamten keltischen Europa ( Kelten ) nördlich der Alpen Verbreitung fand",
+      "supports": "oppida from the late 2nd century BC"
+     }
+    ],
+    "uncertain": [
+     "All borders are rough: they are drawn with today's cantons, districts and foreign regions. The eastern Plateau (east of Zürich) and central Switzerland are drawn or left blank without exact evidence.",
+     "Most other valleys of Graubünden may have been Celtic, not Raetian (HLS Räter, opinion of R. Frei-Stolba); they are left blank."
+    ]
+   },
+   {
+    "year": -58,
+    "tick": "58 BC March",
+    "title": "The Helvetii leave",
+    "text": [
+     "Orgetorix, a Helvetian noble, convinced his people to move to the Saintonge, in south-west Gaul. In March 58 BC they set out. Caesar says that 368,000 people went, with the Raurici and other groups. Historians think this number is too high. Why they left is not clear. Caesar blames attacks by Germanic peoples.",
+     "Caesar says the Helvetii burned about twelve oppida and 400 villages, so that nobody would turn back. At the end of March they met near Geneva. Caesar broke the bridge over the Rhone and did not let them cross the Roman province. So they took the way over the Jura, through the land of the Sequani."
+    ],
+    "view": [
+     [
+      44.5,
+      -1.8
+     ],
+     [
+      48.6,
+      9.8
+     ]
+    ],
+    "layers": [
+     {
+      "name": "Gallia Narbonensis",
+      "kind": "noble",
+      "label": "Roman province (Gallia Narbonensis), rough",
+      "sel": {
+       "cantons": [
+        "GE"
+       ]
+      },
+      "regions": [
+       "FRA-5302",
+       "FRA-5341",
+       "FRA-5311",
+       "FRA-5288",
+       "FRA-5352",
+       "FRA-5338"
+      ],
+      "countries": []
+     },
+     {
+      "name": "Goal: Saintonge",
+      "kind": "other",
+      "label": "Goal of the migration: the Saintonge (shown as today's Charente-Maritime)",
+      "sel": {},
+      "regions": [
+       "FRA-5278"
+      ],
+      "countries": []
+     },
+     {
+      "name": "Helvetii",
+      "kind": "celtic",
+      "label": "Home land of the Helvetii",
+      "sel": {
+       "cantons": [
+        "VD",
+        "FR",
+        "NE",
+        "BE",
+        "SO",
+        "AG",
+        "LU",
+        "ZG",
+        "ZH",
+        "SH",
+        "TG"
+       ]
+      },
+      "regions": [],
+      "countries": []
+     }
+    ],
+    "places": [
+     {
+      "name": "Genava: Caesar breaks the Rhone bridge",
+      "lat": 46.204,
+      "lon": 6.143,
+      "kind": "place",
+      "note": "End of March 58 BC"
+     },
+     {
+      "name": "Bern-Engehalbinsel (Brenodurum)",
+      "lat": 46.973,
+      "lon": 7.443,
+      "kind": "place",
+      "note": "Main oppidum of the Helvetii, over 140 ha"
+     },
+     {
+      "name": "Mont Vully (oppidum)",
+      "lat": 46.958,
+      "lon": 7.081,
+      "kind": "place",
+      "note": "Oppidum of about 50 ha, about 120–80 BC"
+     },
+     {
+      "name": "Saintes (Saintonge)",
+      "lat": 45.746,
+      "lon": -0.633,
+      "kind": "place",
+      "note": "Planned goal"
+     }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008017/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Helvetier",
+      "quote": "Nachdem Orgetorix die Helvetier überzeugt hatte, in die Saintonge auszuwandern, setzten sich im März 58 v.Chr. nach zwei- bis dreijähriger Vorbereitungszeit",
+      "supports": "Orgetorix, Saintonge, March 58 BC"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008017/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Helvetier",
+      "quote": "also 368'000 Menschen, in Bewegung (diese Zahlen dürften übertrieben sein und werden von der Forschung angezweifelt)",
+      "supports": "368,000 people, number doubted"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008017/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Helvetier",
+      "quote": "Weshalb sich die Helvetier zur Auswanderung entschlossen, ist nicht geklärt. Caesar macht die wiederholten Germaneneinfälle dafür verantwortlich.",
+      "supports": "reasons unclear; Caesar blames Germanic attacks"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008017/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Helvetier",
+      "quote": "setzten sie ihre Städte (ein rundes Dutzend Oppida), Dörfer (ungefähr 400) und Einzelhöfe in Brand",
+      "supports": "burned oppida and villages"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008017/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Helvetier",
+      "quote": "Caesar eilte herbei, liess die Brücke über die Rhone abreissen und untersagte ihnen, durch die Narbonensis zu marschieren.",
+      "supports": "Rhone bridge, no passage through the province"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008017/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Helvetier",
+      "quote": "Gezwungen, ihren Weg über den Jura durch das Gebiet der Sequaner zu nehmen",
+      "supports": "route over the Jura"
+     }
+    ],
+    "uncertain": [
+     "The Mont Vully burn layer was once linked with 58 BC; HLS says this idea was given up (fire about 80 BC).",
+     "The extent of Gallia Narbonensis is drawn very roughly."
+    ]
+   },
+   {
+    "year": -58,
+    "tick": "58 BC June: Bibracte",
+    "title": "Defeat at Bibracte",
+    "text": [
+     "At the Saône river, Roman legions killed the Tigurini, one group of the Helvetii. Talks between the old leader Divico and Caesar failed.",
+     "About 20 June, Caesar turned towards Bibracte, a town of his allies the Aedui, to get food. The Helvetii turned and attacked. The battle began about noon and ended at night with their defeat. The battlefield was probably near Montmort, not at Bibracte itself.",
+     "Caesar sent the survivors home. He did not want Germanic peoples to settle on the empty Swiss Plateau. According to Caesar, only 110,000 people came back. The Helvetii now probably had a treaty with Rome."
+    ],
+    "view": [
+     [
+      45.0,
+      2.5
+     ],
+     [
+      48.3,
+      8.5
+     ]
+    ],
+    "layers": [
+     {
+      "name": "Gallia Narbonensis",
+      "kind": "noble",
+      "label": "Roman province (Gallia Narbonensis), rough",
+      "sel": {
+       "cantons": [
+        "GE"
+       ]
+      },
+      "regions": [
+       "FRA-5302",
+       "FRA-5341",
+       "FRA-5311",
+       "FRA-5338"
+      ],
+      "countries": []
+     },
+     {
+      "name": "Helvetii",
+      "kind": "celtic",
+      "label": "Home land of the Helvetii",
+      "sel": {
+       "cantons": [
+        "VD",
+        "FR",
+        "NE",
+        "BE",
+        "SO",
+        "AG",
+        "LU",
+        "ZG",
+        "ZH",
+        "SH",
+        "TG"
+       ]
+      },
+      "regions": [],
+      "countries": []
+     }
+    ],
+    "places": [
+     {
+      "name": "Battlefield, probably near Montmort",
+      "lat": 46.735,
+      "lon": 4.088,
+      "kind": "battle",
+      "year": -58,
+      "note": "Helvetii defeated by Caesar"
+     },
+     {
+      "name": "Bibracte (Mont Beuvray)",
+      "lat": 46.923,
+      "lon": 4.037,
+      "kind": "town",
+      "note": "Town of the Aedui, 27 km from the battle"
+     },
+     {
+      "name": "Genava (Geneva)",
+      "lat": 46.2011,
+      "lon": 6.1484,
+      "kind": "town"
+     }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008721/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Bibracte, Schlacht bei",
+      "quote": "Um den 20. Juni bog dieser nach dem 27 km entfernten B. ab, um dort Lebensmittel zu holen",
+      "supports": "Caesar turns to Bibracte for food"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008721/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Bibracte, Schlacht bei",
+      "quote": "Die Schlacht, die gegen Mittag begonnen hatte, endete in der Nacht mit der Niederlage der Auswanderer.",
+      "supports": "battle from noon to night, defeat"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008721/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Bibracte, Schlacht bei",
+      "quote": "Das Schlachtfeld liegt vermutlich bei Montmort (Dep. Saône-et-Loire)",
+      "supports": "battlefield near Montmort"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008017/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Helvetier",
+      "quote": "stiessen die Helvetier an die Saône vor, wo die Tiguriner durch die römischen Legionen niedergemetzelt wurden",
+      "supports": "Tigurini killed at the Saône"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008017/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Helvetier",
+      "quote": "Caesar schickte die besiegten Helvetier in ihr angestammtes Gebiet zurück, um, wie er sagte, zu verhindern, dass sich rechtsrheinische Germanen im schweizerischen Mittelland niederliessen",
+      "supports": "sent home; reason"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008017/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Helvetier",
+      "quote": "Laut Caesar kehrten nur noch 110'000 Auswanderer in ihre angestammten Gebiete zurück.",
+      "supports": "110,000 returned"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008017/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Helvetier",
+      "quote": "Sehr wahrscheinlich schlossen die Helvetier bei dieser Gelegenheit einen Vertrag (foedus) mit den Römern ab",
+      "supports": "probable treaty"
+     }
+    ],
+    "uncertain": [
+     "The place of the battle is not certain (HLS: 'vermutlich bei Montmort'). The point is set at the village of Montmort."
+    ]
+   },
+   {
+    "year": -44,
+    "tick": "45–44 BC",
+    "title": "Two Roman colonies",
+    "text": [
+     "Rome now planted colonies. A colony was a town of Roman settlers with its own land.",
+     "Between 46 and 44 BC, Caesar founded the Colonia Iulia Equestris at Nyon. The first settlers were old soldiers, mostly horsemen. They got land taken from the Helvetii. The colony controlled the way out of the Plateau towards the Rhone valley and Italy.",
+     "In 44 BC, the general Lucius Munatius Plancus founded the colony Raurica. Its first place is not known: maybe on the Basel Münsterhügel. Building at Augusta Raurica (Augst) began only about 15–10 BC, when Augustus refounded it. Both colonies spread the Roman way of life."
+    ],
+    "view": "ch",
+    "layers": [
+     {
+      "name": "Colonia Iulia Equestris",
+      "kind": "roman",
+      "label": "Land of the colony of Nyon (rough: today's Nyon district)",
+      "sel": {
+       "districts": [
+        2228
+       ]
+      },
+      "regions": [],
+      "countries": []
+     },
+     {
+      "name": "Gallia Narbonensis",
+      "kind": "noble",
+      "label": "Roman province Gallia Narbonensis (Geneva)",
+      "sel": {
+       "cantons": [
+        "GE"
+       ]
+      },
+      "regions": [],
+      "countries": []
+     },
+     {
+      "name": "Raurici",
+      "kind": "ally",
+      "label": "Raurici",
+      "sel": {
+       "cantons": [
+        "BS",
+        "BL",
+        "JU"
+       ],
+       "districts": [
+        1104,
+        1110
+       ]
+      },
+      "regions": [],
+      "countries": []
+     },
+     {
+      "name": "Helvetii",
+      "kind": "celtic",
+      "label": "Helvetii (allied to Rome by treaty?)",
+      "sel": {
+       "cantons": [
+        "VD",
+        "FR",
+        "NE",
+        "BE",
+        "SO",
+        "AG",
+        "LU",
+        "ZG",
+        "ZH",
+        "SH",
+        "TG"
+       ]
+      },
+      "regions": [],
+      "countries": []
+     }
+    ],
+    "places": [
+     {
+      "name": "Colonia Iulia Equestris (Nyon)",
+      "lat": 46.383,
+      "lon": 6.239,
+      "kind": "town"
+     },
+     {
+      "name": "Basel-Münsterhügel (first Raurica?)",
+      "lat": 47.5565,
+      "lon": 7.5925,
+      "kind": "place"
+     },
+     {
+      "name": "Augusta Raurica (Augst)",
+      "lat": 47.534,
+      "lon": 7.718,
+      "kind": "town"
+     },
+     {
+      "name": "Genava (Geneva)",
+      "lat": 46.2011,
+      "lon": 6.1484,
+      "kind": "town"
+     }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/012283/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Colonia Iulia Equestris",
+      "quote": "Julius Caesar gründete die Colonia Iulia Equestris wahrscheinlich zwischen 46 und 44 v.Chr.",
+      "supports": "Nyon founded 46–44 BC"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/012283/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Colonia Iulia Equestris",
+      "quote": "Die ersten Kolonisten waren Armeeveteranen, vor allem Kavalleristen. Sie erhielten Landlose, die von den Helvetiern beschlagnahmt",
+      "supports": "veterans, horsemen, Helvetian land"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/012283/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Colonia Iulia Equestris",
+      "quote": "zu kontrollieren und das Rhonetal und die Verkehrswege nach Italien zu sichern",
+      "supports": "purpose of the colony"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/012283/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Colonia Iulia Equestris",
+      "quote": "Das Territorium der Colonia Iulia Equestris erstreckte sich zwischen Jura, Rhone und Genfersee.",
+      "supports": "territory of the colony"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/012280/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Augusta Raurica",
+      "quote": "gründete Lucius Munatius Plancus (in Basel?) 44 v.Chr. die Colonia Raurica",
+      "supports": "Raurica 44 BC, place unsure"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/012280/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Augusta Raurica",
+      "quote": "Um 15-10 v.Chr. begann die Bau- und Siedlungstätigkeit in Augusta Raurica mit Holzbauten",
+      "supports": "building at Augst from 15–10 BC"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008248/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Römisches Reich",
+      "quote": "Diese beiden Kolonien wirkten als Triebfedern der Romanisierung.",
+      "supports": "colonies spread Roman ways"
+     }
+    ],
+    "uncertain": [
+     "The border of the Nyon colony is not exactly known (Aubonne, Venoge or Morge); here only today's Nyon district is coloured.",
+     "Whether the Helvetii had a formal treaty with Caesar is open."
+    ]
+   },
+   {
+    "year": -15,
+    "tick": "15 BC",
+    "title": "Rome conquers the Alps",
+    "text": [
+     "Emperor Augustus wanted safe roads over the Alps. His stepsons Tiberius and Drusus led the campaign of 15 BC. It was a pincer attack: Tiberius came from Lyon, Drusus marched up the Adige valley, and other troops entered the valleys of Graubünden.",
+     "Roman posts at Basel-Münsterhügel and Zürich-Lindenhof, and three watchtowers at Lake Walen, belong to this war. The Lepontii in Ticino and the four tribes of the Valais also surrendered.",
+     "A victory monument at La Turbie, above Monaco, built in 7–6 BC, lists the conquered Alpine tribes. Now all of today's Switzerland was under Rome."
+    ],
+    "view": [
+     [
+      43.4,
+      4.3
+     ],
+     [
+      48.4,
+      12.5
+     ]
+    ],
+    "layers": [
+     {
+      "name": "Conquered in 15 BC",
+      "kind": "roman",
+      "label": "Alpine land conquered in the campaign of 15 BC (rough)",
+      "sel": {
+       "cantons": [
+        "VS",
+        "GR",
+        "GL",
+        "UR",
+        "SG",
+        "AR",
+        "AI"
+       ],
+       "districts": [
+        2101,
+        2102,
+        2103,
+        2104,
+        2107,
+        2108
+       ]
+      },
+      "regions": [
+       "AUT-2329",
+       "ITA-5459",
+       "AUT-2320",
+       "DEU-1591"
+      ],
+      "countries": []
+     },
+     {
+      "name": "Already Roman",
+      "kind": "empire",
+      "label": "Already Roman before 15 BC (Italy, Gallia Narbonensis), rough",
+      "sel": {
+       "cantons": [
+        "GE"
+       ],
+       "districts": [
+        2105,
+        2106
+       ]
+      },
+      "regions": [
+       "ITA-5452",
+       "ITA-5451",
+       "ITA-5450",
+       "ITA-5453",
+       "ITA-5444",
+       "ITA-5438",
+       "ITA-5437",
+       "ITA-5442",
+       "ITA-5434",
+       "ITA-5443",
+       "ITA-5454",
+       "ITA-5436",
+       "ITA-5435",
+       "ITA-5449",
+       "ITA-5460",
+       "FRA-5302",
+       "FRA-5311",
+       "FRA-5338"
+      ],
+      "countries": []
+     },
+     {
+      "name": "Plateau",
+      "kind": "celtic",
+      "label": "Helvetii and Raurici, under Roman control",
+      "sel": {
+       "cantons": [
+        "VD",
+        "FR",
+        "NE",
+        "BE",
+        "SO",
+        "AG",
+        "LU",
+        "ZG",
+        "ZH",
+        "SH",
+        "TG",
+        "BS",
+        "BL",
+        "JU",
+        "SZ",
+        "OW",
+        "NW"
+       ]
+      },
+      "regions": [],
+      "countries": []
+     }
+    ],
+    "places": [
+     {
+      "name": "Lugdunum (Lyon)",
+      "lat": 45.764,
+      "lon": 4.8357,
+      "kind": "town"
+     },
+     {
+      "name": "Adige valley (Drusus)",
+      "lat": 46.498,
+      "lon": 11.354,
+      "kind": "place",
+      "note": "Drusus marches up the valley"
+     },
+     {
+      "name": "Basel-Münsterhügel (oppidum)",
+      "lat": 47.5565,
+      "lon": 7.5925,
+      "kind": "place",
+      "note": "Oppidum of the Raurici"
+     },
+     {
+      "name": "Zürich-Lindenhof (Turicum)",
+      "lat": 47.3729,
+      "lon": 8.5405,
+      "kind": "town"
+     },
+     {
+      "name": "Biberlikopf (Roman tower)",
+      "lat": 47.128,
+      "lon": 9.075,
+      "kind": "castle",
+      "note": "One of three towers at Lake Walen"
+     },
+     {
+      "name": "Tropaeum Alpium (La Turbie)",
+      "lat": 43.7486,
+      "lon": 7.3997,
+      "kind": "place",
+      "note": "Victory monument, 7–6 BC"
+     }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008248/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Römisches Reich",
+      "quote": "Augustus liess durch seine Adoptivsöhne Tiberius und Drusus die Alpen erobern.",
+      "supports": "Tiberius and Drusus"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008248/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Römisches Reich",
+      "quote": "begann 15 v.Chr. mit einem Zangenangriff, indem Tiberius von Lyon her anrückte, Drusus das Etschtal hochmarschierte und weitere Truppen in die Bündner Täler eindrangen",
+      "supports": "pincer attack"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008248/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Römisches Reich",
+      "quote": "Die militärischen Anlagen Basel-Münsterhügel und Zürich-Lindenhof sowie drei Wachtürme am Walensee",
+      "supports": "Basel, Zürich, Walensee towers"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008248/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Römisches Reich",
+      "quote": "Die Bewohner des Sopraceneri ( Lepontier ) und die vier Völker des Wallis",
+      "supports": "Lepontii and Valais tribes surrender"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008018/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Lepontier",
+      "quote": "deren Ziel die Unterwerfung der Alpenvölker zur Sicherung der Handelswege und des militärischen Durchgangs durch die Alpen war",
+      "supports": "aim: safe roads"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008248/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Römisches Reich",
+      "quote": "Vom 2. Jahrhundert v.Chr. bis 13 v.Chr. wurde das Gebiet der heutigen Schweiz etappenweise in das Römische Reich eingegliedert",
+      "supports": "all of Switzerland Roman"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/039116/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Tropaeum Alpium",
+      "quote": "Es wurde in den Jahren 7 und 6 v.Chr. zu Ehren des Kaisers Augustus errichtet und erinnerte an die Unterwerfung der Alpenstämme",
+      "supports": "Tropaeum Alpium"
+     }
+    ],
+    "uncertain": [
+     "The HLS gives 16–15 BC for Zürich and Chur and 15 BC for the main campaign; the step uses 15 BC.",
+     "Coloured areas are rough; Bavaria, Tyrol and Vorarlberg are whole modern states."
+    ]
+   },
+   {
+    "year": 17,
+    "tick": "AD 14–17",
+    "title": "Legion camp and first provinces",
+    "text": [
+     "After the conquest, Rome set up its first provinces. A province was a territory ruled by a Roman governor. The Helvetii, the Raurici and the two colonies first belonged to Gallia Lugdunensis, then to Gallia Belgica. The mountains – Valais, Leventina and Graubünden – formed one large 'pass province', later called Raetia.",
+     "In AD 9 the Romans lost a big battle in Germania. Under Emperor Tiberius they stopped attacking east of the Rhine and guarded the river. At Vindonissa (Windisch), where the Aare, Reuss and Limmat meet, they built a legion camp. About 6,000 soldiers lived there. The legion brought money and work to the region."
+    ],
+    "view": "ch",
+    "layers": [
+     {
+      "name": "Gallia Narbonensis",
+      "kind": "noble",
+      "label": "Gallia Narbonensis (Geneva)",
+      "sel": {
+       "cantons": [
+        "GE"
+       ]
+      },
+      "regions": [],
+      "countries": []
+     },
+     {
+      "name": "Italia",
+      "kind": "empire",
+      "label": "Italy (south Ticino)",
+      "sel": {
+       "districts": [
+        2105,
+        2106
+       ]
+      },
+      "regions": [],
+      "countries": []
+     },
+     {
+      "name": "Raetia",
+      "kind": "other",
+      "label": "Alpine 'pass province' (Raetia), with the Valais",
+      "sel": {
+       "cantons": [
+        "VS",
+        "GR"
+       ],
+       "districts": [
+        2101,
+        2102,
+        2103,
+        2104,
+        2107,
+        2108
+       ]
+      },
+      "regions": [],
+      "countries": []
+     },
+     {
+      "name": "Gallia Belgica",
+      "kind": "roman",
+      "label": "Gallia Belgica: Helvetii, Raurici, Nyon, Augst (rough)",
+      "sel": {
+       "cantons": [
+        "VD",
+        "FR",
+        "NE",
+        "BE",
+        "SO",
+        "BS",
+        "BL",
+        "JU",
+        "AG",
+        "LU",
+        "ZG",
+        "ZH",
+        "SH"
+       ]
+      },
+      "regions": [],
+      "countries": []
+     }
+    ],
+    "places": [
+     {
+      "name": "Vindonissa (Windisch)",
+      "lat": 47.4787,
+      "lon": 8.2215,
+      "kind": "town"
+     },
+     {
+      "name": "Augusta Raurica (Augst)",
+      "lat": 47.534,
+      "lon": 7.718,
+      "kind": "town"
+     },
+     {
+      "name": "Colonia Iulia Equestris (Nyon)",
+      "lat": 46.383,
+      "lon": 6.239,
+      "kind": "town"
+     },
+     {
+      "name": "Zurzach (fort)",
+      "lat": 47.585,
+      "lon": 8.29,
+      "kind": "castle"
+     }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008248/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Römisches Reich",
+      "quote": "Die Helvetier und die Rauracher sowie die beiden Kolonien Nyon und Augst wurden zunächst der Gallia Lugdunensis, später der kaiserlichen Provinz Gallia Belgica",
+      "supports": "Plateau in Lugdunensis, then Belgica"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008248/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Römisches Reich",
+      "quote": "Die Bergregionen im Wallis, in der Leventina und Graubünden wurden in einer grossen \"Passprovinz\" vereint",
+      "supports": "pass province"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/009813/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Provincia",
+      "quote": "Graubünden, die Leventina und das Wallis bildeten einen Teil der Provinz Raetia",
+      "supports": "Raetia"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008248/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Römisches Reich",
+      "quote": "Nachdem Varus 9 n.Chr. im Teutoburger Wald besiegt worden war, errichteten die Römer 14 n.Chr. das Legionslager Vindonissa",
+      "supports": "AD 9 defeat, camp"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/012287/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Vindonissa",
+      "quote": "welche den strategisch wichtigen Punkt am sogenannten Wasserschloss der Schweiz kontrollierten",
+      "supports": "where the rivers meet"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/024628/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Römisches Heer",
+      "quote": "Als Kaiser Tiberius Ende 16 n.Chr. die Kampfhandlungen im rechtsrheinischen Gebiet einstellen liess, wurde in Vindonissa ein festes Lager errichtet",
+      "supports": "camp after Tiberius stops attacks"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/012287/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Vindonissa",
+      "quote": "Das Trinkwasser für die ca. 6000 Mann starke Lagerbesatzung",
+      "supports": "about 6,000 soldiers"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008248/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Römisches Reich",
+      "quote": "Die Anwesenheit einer Legion und der diese begleitenden Hilfstruppen belebte die Wirtschaft im 1. Jahrhundert n.Chr.",
+      "supports": "legion helps the economy"
+     }
+    ],
+    "uncertain": [
+     "The start of the legion camp is dated differently in the HLS: 14 (Römisches Reich), about 16/17 (Aventicum), end of 16 (Römisches Heer).",
+     "Where exactly the border between Belgica and Raetia ran in the east is not known; central and eastern Switzerland are left blank or drawn roughly."
+    ]
+   },
+   {
+    "year": 47,
+    "tick": "AD 41–47",
+    "title": "Claudius: the Valais and its forum",
+    "text": [
+     "Emperor Claudius (41–54) finished the Roman organisation. He reorganised the road over the Great St Bernard. Near the old Celtic village of Octodurus he founded a new town: Forum Claudii Vallensium, today's Martigny.",
+     "The four tribes of the Valais were joined into one community, the civitas Vallensium. Its leaders could now become Roman citizens. The Valais left Raetia and, with the Tarentaise, formed the province of the Graian and Poenine Alps. Its governor lived partly in Martigny, partly in Aime in the Tarentaise.",
+     "The Great St Bernard was part of the shortest way from northern Italy to the legions on the Rhine. Claudius needed it for his conquest of Britain."
+    ],
+    "view": [
+     [
+      45.4,
+      5.8
+     ],
+     [
+      47.0,
+      8.3
+     ]
+    ],
+    "layers": [
+     {
+      "name": "Alpes Graiae et Poeninae",
+      "kind": "ally",
+      "label": "Province of the Graian and Poenine Alps (Valais + Tarentaise, rough)",
+      "sel": {
+       "cantons": [
+        "VS"
+       ]
+      },
+      "regions": [
+       "FRA-5341"
+      ],
+      "countries": []
+     },
+     {
+      "name": "Italia",
+      "kind": "empire",
+      "label": "Italy",
+      "sel": {},
+      "regions": [
+       "ITA-5442",
+       "ITA-5434",
+       "ITA-5437"
+      ],
+      "countries": []
+     },
+     {
+      "name": "Gallia Narbonensis",
+      "kind": "noble",
+      "label": "Gallia Narbonensis (rough)",
+      "sel": {
+       "cantons": [
+        "GE"
+       ]
+      },
+      "regions": [
+       "FRA-5302"
+      ],
+      "countries": []
+     },
+     {
+      "name": "Gallia Belgica",
+      "kind": "roman",
+      "label": "Gallia Belgica (Helvetii, Nyon)",
+      "sel": {
+       "cantons": [
+        "VD",
+        "FR",
+        "NE",
+        "BE"
+       ]
+      },
+      "regions": [],
+      "countries": []
+     }
+    ],
+    "places": [
+     {
+      "name": "Forum Claudii Vallensium (Martigny)",
+      "lat": 46.0985,
+      "lon": 7.0725,
+      "kind": "town"
+     },
+     {
+      "name": "Great St Bernard pass (Summus Poeninus)",
+      "lat": 45.869,
+      "lon": 7.17,
+      "kind": "place"
+     },
+     {
+      "name": "Acaunum (Saint-Maurice)",
+      "lat": 46.218,
+      "lon": 7.0036,
+      "kind": "town"
+     },
+     {
+      "name": "Aime-en-Tarentaise",
+      "lat": 45.556,
+      "lon": 6.65,
+      "kind": "town",
+      "note": "Second seat of the governor"
+     },
+     {
+      "name": "Augusta Praetoria (Aosta)",
+      "lat": 45.737,
+      "lon": 7.32,
+      "kind": "town"
+     }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008248/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Römisches Reich",
+      "quote": "Nachdem der Transit über den Grossen St. Bernhard neu organisiert worden war, gründete er in Octodurus (heute Martigny) das Forum Claudii Vallensium",
+      "supports": "Claudius founds Forum Claudii"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/037227/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Forum Claudii Vallensium",
+      "quote": "wurde im kaiserlichen Auftrag zwischen 41 und 47 n.Chr. am Beginn des Aufstiegs zum Summus Poeninus ( Grosser S t. Bernhard )",
+      "supports": "date 41–47"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008248/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Römisches Reich",
+      "quote": "fasste die vier Civitates des Wallis zu einer einzigen – der Civitas Vallensium – zusammen. Diese erhielt das latinische Bürgerrecht (ius Latii)",
+      "supports": "civitas Vallensium, Latin rights"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/009813/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Provincia",
+      "quote": "Das Wallis wurde unter Kaiser Claudius (41-54 n.Chr.) mit der Tarentaise zur Provincia Alpes Graiae et Poeninae vereint",
+      "supports": "new province"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/009813/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Provincia",
+      "quote": "der ritterliche Statthalter residierte abwechslungsweise in Martigny und in Aime-en-Tarentaise",
+      "supports": "governor's seats"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008852/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Grosser St. Bernhard (Pass)",
+      "quote": "Da der Pass ein Teilstück der kürzesten Verbindung zwischen Oberitalien und den Legionslagern längs der Rheingrenze bildete",
+      "supports": "shortest way to the Rhine"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/037227/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Forum Claudii Vallensium",
+      "quote": "Die Stadtgründung stand in Zusammenhang mit der Eroberung Grossbritanniens durch Kaiser Claudius",
+      "supports": "link to Britain"
+     }
+    ],
+    "uncertain": [
+     "'Latin rights' is simplified to 'leaders could become Roman citizens' (by holding an office)."
+    ]
+   },
+   {
+    "year": 47,
+    "tick": "Roads and passes",
+    "title": "Roads and Alpine passes",
+    "text": [
+     "Roman road lists and a Roman road map show the main roads. One road came from the Great St Bernard down the Rhone valley to Geneva. From Vevey a road went to Avenches; from Lausanne one went via Orbe to Besançon. From Avenches the main west–east road ran to Windisch. A branch crossed the Upper Hauenstein to Augst and on to Strasbourg.",
+     "In the east, a road came from Bregenz via Chur over two passes to Como and Milan. Roman remains on the Julier pass show that carts used it, but only small two-wheeled carts on steep tracks.",
+     "In Roman times the Great St Bernard, not the Gotthard, was the fastest way from the Rhine to Rome. Many visible 'Roman' road tracks are in fact medieval or later."
+    ],
+    "view": "ch",
+    "layers": [],
+    "places": [
+     {
+      "name": "Great St Bernard pass (Summus Poeninus)",
+      "lat": 45.869,
+      "lon": 7.17,
+      "kind": "place"
+     },
+     {
+      "name": "Forum Claudii Vallensium (Martigny)",
+      "lat": 46.0985,
+      "lon": 7.0725,
+      "kind": "town"
+     },
+     {
+      "name": "Acaunum (Saint-Maurice)",
+      "lat": 46.218,
+      "lon": 7.0036,
+      "kind": "town"
+     },
+     {
+      "name": "Vevey (Viviscus)",
+      "lat": 46.46,
+      "lon": 6.843,
+      "kind": "town"
+     },
+     {
+      "name": "Lousonna (Lausanne-Vidy)",
+      "lat": 46.517,
+      "lon": 6.596,
+      "kind": "town"
+     },
+     {
+      "name": "Genava (Geneva)",
+      "lat": 46.2011,
+      "lon": 6.1484,
+      "kind": "town"
+     },
+     {
+      "name": "Orbe (road station)",
+      "lat": 46.725,
+      "lon": 6.532,
+      "kind": "town"
+     },
+     {
+      "name": "Aventicum (Avenches)",
+      "lat": 46.881,
+      "lon": 7.042,
+      "kind": "town"
+     },
+     {
+      "name": "Petinesca (Studen)",
+      "lat": 47.114,
+      "lon": 7.297,
+      "kind": "town"
+     },
+     {
+      "name": "Pierre Pertuis",
+      "lat": 47.205,
+      "lon": 7.199,
+      "kind": "place"
+     },
+     {
+      "name": "Salodurum (Solothurn)",
+      "lat": 47.207,
+      "lon": 7.537,
+      "kind": "town"
+     },
+     {
+      "name": "Oberer Hauenstein",
+      "lat": 47.348,
+      "lon": 7.743,
+      "kind": "place"
+     },
+     {
+      "name": "Augusta Raurica (Augst)",
+      "lat": 47.534,
+      "lon": 7.718,
+      "kind": "town"
+     },
+     {
+      "name": "Vindonissa (Windisch)",
+      "lat": 47.4787,
+      "lon": 8.2215,
+      "kind": "town"
+     },
+     {
+      "name": "Zürich-Lindenhof (Turicum)",
+      "lat": 47.3729,
+      "lon": 8.5405,
+      "kind": "town"
+     },
+     {
+      "name": "Vitudurum (Oberwinterthur)",
+      "lat": 47.512,
+      "lon": 8.763,
+      "kind": "town"
+     },
+     {
+      "name": "Arbor Felix (Arbon)",
+      "lat": 47.517,
+      "lon": 9.433,
+      "kind": "town"
+     },
+     {
+      "name": "Brigantium (Bregenz)",
+      "lat": 47.503,
+      "lon": 9.747,
+      "kind": "town"
+     },
+     {
+      "name": "Curia (Chur)",
+      "lat": 46.847,
+      "lon": 9.528,
+      "kind": "town"
+     },
+     {
+      "name": "Tinnetione (Tinizong)",
+      "lat": 46.583,
+      "lon": 9.618,
+      "kind": "place"
+     },
+     {
+      "name": "Julier pass",
+      "lat": 46.472,
+      "lon": 9.7275,
+      "kind": "place"
+     },
+     {
+      "name": "Septimer pass",
+      "lat": 46.428,
+      "lon": 9.638,
+      "kind": "place"
+     },
+     {
+      "name": "Murus (Castelmur)",
+      "lat": 46.339,
+      "lon": 9.554,
+      "kind": "place"
+     }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007959/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Strassen",
+      "quote": "Die Quellen legen zunächst eine Verbindungslinie vom Grossen St. Bernhard nach Genf nahe und von dieser abzweigend eine Strasse zwischen Vevey und Avenches",
+      "supports": "St Bernard–Geneva, Vevey–Avenches"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007959/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Strassen",
+      "quote": "eine andere von Lausanne über Orbe nach Besançon",
+      "supports": "Lausanne–Orbe–Besançon"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007959/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Strassen",
+      "quote": "Diese führte weiter in Richtung Strassburg.",
+      "supports": "on to Strasbourg"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007959/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Strassen",
+      "quote": "Von Avenches aus führte eine West-Ost-Achse nach Windisch, von welcher die Passstrasse über den Oberen Hauenstein nach Augst abzweigte.",
+      "supports": "west–east road, Hauenstein"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007959/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Strassen",
+      "quote": "während von Bregenz eine Strasse über Chur und über zwei verschiedene Pässe Como und Mailand erreichte",
+      "supports": "Bregenz–Chur–Como/Milan"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008811/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Julierpass",
+      "quote": "der Julierpass einer der wenigen Alpenpässe war, der bereits in römischer Zeit intensiv befahren wurde, wenn auch nur mit zweirädrigen Karren",
+      "supports": "Julier pass with carts"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008811/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Julierpass",
+      "quote": "zeigt einen Strassenzug mit den Stationen Tinnetione (Tinizong im Oberhalbstein) und Murus (wohl Castelmur-Müraia, nahe Promontogno, im Bergell)",
+      "supports": "stations Tinizong and Castelmur"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008248/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Römisches Reich",
+      "quote": "war es in römischer Zeit der Grosse St. Bernhard und nicht der Gotthard, der die rascheste Verbindung vom Rhein nach Rom gewährleistete",
+      "supports": "Great St Bernard not Gotthard"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008852/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Grosser St. Bernhard (Pass)",
+      "quote": "Die von Bourg-Saint-Pierre aus sichtbaren Streckenabschnitte sind überkommene Reste mittelalterlicher oder im 19. Jahrhundert gebauter Strassen",
+      "supports": "visible tracks not Roman"
+     }
+    ],
+    "uncertain": [
+     "The road lists date from different times (the Itinerarium Antonini is 3rd century); this step is placed at AD 47 for the story only.",
+     "The exact line of many Roman roads is not known; the points mark towns and passes along the routes, not the roads themselves.",
+     "Whether the Septimer or the Julier was more important is unclear (HLS Julierpass)."
+    ]
+   },
+   {
+    "year": 85,
+    "tick": "c. AD 85",
+    "title": "Germania superior and the towns",
+    "text": [
+     "About AD 85, Emperor Domitian created the province of Germania superior (Upper Germany). The lands of the Helvetii and Raurici and the colonies of Nyon and Augst went to it. This lasted until the end of the 3rd century. Eastern Switzerland, Leventina and Graubünden stayed in Raetia. In AD 101 the legion left Vindonissa; the Plateau was now far from the frontier.",
+     "This was a time of peace and growing wealth. Aventicum (Avenches), capital of the Helvetii, became a colony about AD 70. Augusta Raurica had perhaps 20,000 people around AD 200. Smaller towns grew at Lousonna (Lausanne-Vidy), Turicum (Zürich, a customs post), Curia (Chur), Genava (Geneva) and Forum Claudii (Martigny)."
+    ],
+    "view": [
+     [
+      45.2,
+      5.0
+     ],
+     [
+      48.6,
+      11.0
+     ]
+    ],
+    "layers": [
+     {
+      "name": "Gallia Narbonensis",
+      "kind": "noble",
+      "label": "Gallia Narbonensis (rough)",
+      "sel": {
+       "cantons": [
+        "GE"
+       ]
+      },
+      "regions": [
+       "FRA-5302",
+       "FRA-5311"
+      ],
+      "countries": []
+     },
+     {
+      "name": "Alpes Graiae et Poeninae",
+      "kind": "ally",
+      "label": "Graian and Poenine Alps (rough)",
+      "sel": {
+       "cantons": [
+        "VS"
+       ]
+      },
+      "regions": [
+       "FRA-5341"
+      ],
+      "countries": []
+     },
+     {
+      "name": "Italia",
+      "kind": "empire",
+      "label": "Italy (rough)",
+      "sel": {
+       "districts": [
+        2105,
+        2106
+       ]
+      },
+      "regions": [
+       "ITA-5452",
+       "ITA-5451",
+       "ITA-5450",
+       "ITA-5453",
+       "ITA-5444",
+       "ITA-5438",
+       "ITA-5437",
+       "ITA-5442",
+       "ITA-5434",
+       "ITA-5443",
+       "ITA-5454",
+       "ITA-5436",
+       "ITA-5435",
+       "ITA-5449",
+       "ITA-5460"
+      ],
+      "countries": []
+     },
+     {
+      "name": "Raetia",
+      "kind": "other",
+      "label": "Raetia (rough; the western border is not known)",
+      "sel": {
+       "cantons": [
+        "TG",
+        "SG",
+        "AR",
+        "AI",
+        "GL",
+        "GR"
+       ],
+       "districts": [
+        2101,
+        2102,
+        2103,
+        2104,
+        2107,
+        2108
+       ]
+      },
+      "regions": [
+       "AUT-2320",
+       "AUT-2329",
+       "DEU-1591",
+       "ITA-5459"
+      ],
+      "countries": [
+       "LIE"
+      ]
+     },
+     {
+      "name": "Germania superior",
+      "kind": "roman",
+      "label": "Germania superior (rough)",
+      "sel": {
+       "cantons": [
+        "VD",
+        "FR",
+        "NE",
+        "BE",
+        "SO",
+        "BS",
+        "BL",
+        "JU",
+        "AG",
+        "LU",
+        "ZG",
+        "ZH",
+        "SH"
+       ]
+      },
+      "regions": [
+       "FRA-5296",
+       "FRA-5273",
+       "FRA-5348",
+       "FRA-5287",
+       "FRA-5312",
+       "FRA-5301",
+       "FRA-5300",
+       "DEU-1573",
+       "DEU-1580"
+      ],
+      "countries": []
+     }
+    ],
+    "places": [
+     {
+      "name": "Aventicum (Avenches)",
+      "lat": 46.881,
+      "lon": 7.042,
+      "kind": "town"
+     },
+     {
+      "name": "Augusta Raurica (Augst)",
+      "lat": 47.534,
+      "lon": 7.718,
+      "kind": "town"
+     },
+     {
+      "name": "Colonia Iulia Equestris (Nyon)",
+      "lat": 46.383,
+      "lon": 6.239,
+      "kind": "town"
+     },
+     {
+      "name": "Vindonissa (Windisch)",
+      "lat": 47.4787,
+      "lon": 8.2215,
+      "kind": "town"
+     },
+     {
+      "name": "Lousonna (Lausanne-Vidy)",
+      "lat": 46.517,
+      "lon": 6.596,
+      "kind": "town"
+     },
+     {
+      "name": "Zürich-Lindenhof (Turicum)",
+      "lat": 47.3729,
+      "lon": 8.5405,
+      "kind": "town"
+     },
+     {
+      "name": "Curia (Chur)",
+      "lat": 46.847,
+      "lon": 9.528,
+      "kind": "town"
+     },
+     {
+      "name": "Genava (Geneva)",
+      "lat": 46.2011,
+      "lon": 6.1484,
+      "kind": "town"
+     },
+     {
+      "name": "Forum Claudii Vallensium (Martigny)",
+      "lat": 46.0985,
+      "lon": 7.0725,
+      "kind": "town"
+     },
+     {
+      "name": "Yverdon (Eburodunum)",
+      "lat": 46.778,
+      "lon": 6.641,
+      "kind": "town"
+     }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/009813/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Provincia",
+      "quote": "die Gebiete der beiden Civitates der Rauraker und Helvetier sowie die Kolonien Nyon und Augst der neu geschaffenen Provinz Germania Superior zu.",
+      "supports": "Germania superior about 85"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/009813/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Provincia",
+      "quote": "Diese Zuteilung blieb bis Ende des 3. Jahrhunderts n.Chr. bestehen.",
+      "supports": "until end of 3rd century"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/009813/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Provincia",
+      "quote": "für die Ostschweiz, die Leventina und das Wallis bis Mitte des 1. Jahrhunderts der ritterliche praefectus der Raetia",
+      "supports": "east Switzerland in Raetia"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008248/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Römisches Reich",
+      "quote": "101 wurde die Legio XI Claudia Pia Fidelis in den Donauraum verschoben und das Legionslager Vindonissa aufgelöst",
+      "supports": "legion leaves 101"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/012281/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Aventicum",
+      "quote": "Um 70 n.Chr. wurde Aventicum zu einer Kolonie römischen Rechts.",
+      "supports": "Aventicum colony c. 70"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/012280/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Augusta Raurica",
+      "quote": "beherbergte gegen Ende ihrer Blütezeit um 200 n.Chr. an die 20'000 Einwohner",
+      "supports": "Augst about 20,000"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/000171/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Zürich (Gemeinde)",
+      "quote": "Ein um 200 datierter Grabstein nennt die Statio Turicensis , eine Zollstation des gallischen Zolls für den Warenverkehr im Grenzbereich zu Rätien.",
+      "supports": "Turicum customs post at the Raetian border"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/012290/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Lousonna",
+      "quote": "Lousonna hatte bis zu 2000 Einwohner.",
+      "supports": "Lousonna"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/001581/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Chur (Gemeinde)",
+      "quote": "begann die Blütezeit Churs erst um etwa 40 n.Chr.",
+      "supports": "Curia"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/002903/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Genf (Gemeinde)",
+      "quote": "Oppidum der Allobroger, römischer Vicus, später Civitas",
+      "supports": "Geneva a small town (vicus)"
+     }
+    ],
+    "uncertain": [
+     "Province borders are drawn with whole modern cantons and regions (for example all of Baden-Württemberg, Rhineland-Palatinate and Bavaria); the real borders were different.",
+     "Central Switzerland (UR, SZ, OW, NW) is left blank: the HLS gives no province for it here."
+    ]
+   },
+   {
+    "year": 260,
+    "tick": "c. 260–277",
+    "title": "Alemanni raids, the Rhine again",
+    "text": [
+     "In the 3rd century the empire was in crisis. About 259/260, groups of Alemanni broke through the frontier wall (limes) in south-west Germany and took the land behind it. Rome gave up this land. The Rhine was again the frontier, and the Swiss Plateau was now on the front line.",
+     "Emperor Gallienus strengthened Vindonissa. The raids of 260 probably did not reach the Plateau much. But about 275–277, Augusta Raurica and Aventicum were plundered and partly destroyed. Lousonna slowly emptied after the middle of the 3rd century."
+    ],
+    "view": [
+     [
+      45.8,
+      5.5
+     ],
+     [
+      49.2,
+      11.0
+     ]
+    ],
+    "layers": [
+     {
+      "name": "Alemanni",
+      "kind": "alemanni",
+      "label": "Land behind the old limes, now held by the Alemanni (rough: today's Baden-Württemberg)",
+      "sel": {},
+      "regions": [
+       "DEU-1573"
+      ],
+      "countries": []
+     },
+     {
+      "name": "Roman Empire",
+      "kind": "roman",
+      "label": "Roman provinces (Switzerland and neighbours)",
+      "sel": {
+       "cantons": [
+        "VD",
+        "FR",
+        "NE",
+        "BE",
+        "SO",
+        "BS",
+        "BL",
+        "JU",
+        "AG",
+        "LU",
+        "ZG",
+        "ZH",
+        "SH",
+        "TG",
+        "SG",
+        "AR",
+        "AI",
+        "GL",
+        "GR",
+        "GE",
+        "VS",
+        "TI",
+        "UR",
+        "SZ",
+        "OW",
+        "NW"
+       ]
+      },
+      "regions": [
+       "FRA-5296",
+       "FRA-5273",
+       "FRA-5287",
+       "FRA-5312",
+       "FRA-5348",
+       "AUT-2320"
+      ],
+      "countries": []
+     }
+    ],
+    "places": [
+     {
+      "name": "Augusta Raurica: plundered",
+      "lat": 47.534,
+      "lon": 7.718,
+      "kind": "town",
+      "note": "Destroyed about 273–277"
+     },
+     {
+      "name": "Aventicum: plundered",
+      "lat": 46.881,
+      "lon": 7.042,
+      "kind": "town",
+      "note": "Plundered about 275–277"
+     },
+     {
+      "name": "Vindonissa: walls rebuilt",
+      "lat": 47.4787,
+      "lon": 8.2215,
+      "kind": "castle",
+      "note": "Gallienus, 260"
+     },
+     {
+      "name": "Lousonna (Lausanne-Vidy)",
+      "lat": 46.517,
+      "lon": 6.596,
+      "kind": "town"
+     }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008027/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Alemannen",
+      "quote": "die nach der Überwindung des obergermanisch-rätischen Limes ca. 259/260 das Dekumatenland kontrollierten",
+      "supports": "Alemanni take the Dekumatland c. 259/260"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/017148/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Völkerwanderung",
+      "quote": "Die Reichsgrenze wurde an den Rhein zurückverlegt. Das schweizerische Mittelland und die Bündner Alpenpässe befanden sich fortan an vorderster Front.",
+      "supports": "Rhine frontier, Plateau on the front"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008248/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Römisches Reich",
+      "quote": "Der obergermanisch-rätische Limes wurde aufgegeben, sodass erneut der Rhein die Reichsgrenze bildete.",
+      "supports": "Rome gives up the land; Rhine frontier"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008248/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Römisches Reich",
+      "quote": "Gallienus befestigte Vindonissa, doch überfielen die Barbarenheere vermutlich damals das Mittelland nicht",
+      "supports": "Vindonissa fortified; Plateau probably spared"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008248/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Römisches Reich",
+      "quote": "Die Kolonien Augst und Avenches wurden wohl erst in den Jahren 275-277 geplündert und teilweise zerstört.",
+      "supports": "275–277 destruction"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/012290/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Lousonna",
+      "quote": "Infolge der Germaneneinfälle entleerte sich die Siedlung ab Mitte des 3. Jahrhunderts n.Chr. allmählich",
+      "supports": "Lousonna empties"
+     }
+    ],
+    "uncertain": [
+     "HLS Augusta Raurica dates the destruction of the civil town to 273/274; HLS Römisches Reich gives 275–277.",
+     "The Alemanni area is shown as all of Baden-Württemberg, which is only a rough picture of the Dekumatland."
+    ]
+   },
+   {
+    "year": 371,
+    "tick": "c. 294–401",
+    "title": "The late Roman Rhine frontier",
+    "text": [
+     "Emperors Diocletian (284–305) and Constantine (306–337) rebuilt the defence. They made the provinces smaller: the Plateau now belonged to Maxima Sequanorum; Raetia and Ticino were counted with Italy. New forts stood at Oberwinterthur, Burg near Stein am Rhein (about 294) and Kaiseraugst, where the legio I Martia was based. Inland, walls protected places like Zürich-Lindenhof, Olten, Solothurn and Yverdon.",
+     "The Alemanni still attacked; in 352 they burned Kaiseraugst. Under Valentinian I, a chain of stone watchtowers was built along the Rhine; inscriptions date two of them to 371.",
+     "About 401, the general Stilicho took the troops away from the Rhine to defend Italy. This did not end Roman rule at once: local Roman institutions went on."
+    ],
+    "view": "ch",
+    "layers": [
+     {
+      "name": "Italia",
+      "kind": "empire",
+      "label": "Italian diocese (Ticino)",
+      "sel": {
+       "cantons": [
+        "TI"
+       ]
+      },
+      "regions": [],
+      "countries": []
+     },
+     {
+      "name": "Alpes Graiae et Poeninae",
+      "kind": "ally",
+      "label": "Graian and Poenine Alps (Valais)",
+      "sel": {
+       "cantons": [
+        "VS"
+       ]
+      },
+      "regions": [],
+      "countries": []
+     },
+     {
+      "name": "Raetia",
+      "kind": "other",
+      "label": "Raetia (rough)",
+      "sel": {
+       "cantons": [
+        "TG",
+        "SG",
+        "AR",
+        "AI",
+        "GL",
+        "GR"
+       ]
+      },
+      "regions": [],
+      "countries": []
+     },
+     {
+      "name": "Maxima Sequanorum",
+      "kind": "roman",
+      "label": "Maxima Sequanorum (rough)",
+      "sel": {
+       "cantons": [
+        "VD",
+        "FR",
+        "NE",
+        "BE",
+        "SO",
+        "BS",
+        "BL",
+        "JU",
+        "AG",
+        "LU",
+        "ZG",
+        "ZH",
+        "SH"
+       ]
+      },
+      "regions": [],
+      "countries": []
+     }
+    ],
+    "places": [
+     {
+      "name": "Castrum Rauracense (Kaiseraugst)",
+      "lat": 47.54,
+      "lon": 7.725,
+      "kind": "castle"
+     },
+     {
+      "name": "Tasgaetium (Burg, Stein am Rhein)",
+      "lat": 47.657,
+      "lon": 8.861,
+      "kind": "castle"
+     },
+     {
+      "name": "Vitudurum (Oberwinterthur)",
+      "lat": 47.512,
+      "lon": 8.763,
+      "kind": "castle"
+     },
+     {
+      "name": "Tenedo (Zurzach)",
+      "lat": 47.585,
+      "lon": 8.29,
+      "kind": "castle"
+     },
+     {
+      "name": "Etzgen-Rote Waage (tower)",
+      "lat": 47.573,
+      "lon": 8.118,
+      "kind": "castle",
+      "note": "Watchtower, inscription of 371"
+     },
+     {
+      "name": "Koblenz-Kleiner Laufen (tower)",
+      "lat": 47.604,
+      "lon": 8.228,
+      "kind": "castle",
+      "note": "Watchtower, inscription of 371"
+     },
+     {
+      "name": "Zürich-Lindenhof (fort)",
+      "lat": 47.3729,
+      "lon": 8.5405,
+      "kind": "castle"
+     },
+     {
+      "name": "Irgenhausen (fort)",
+      "lat": 47.33,
+      "lon": 8.784,
+      "kind": "castle"
+     },
+     {
+      "name": "Arbon (fort)",
+      "lat": 47.517,
+      "lon": 9.433,
+      "kind": "castle"
+     },
+     {
+      "name": "Olten (fort)",
+      "lat": 47.35,
+      "lon": 7.904,
+      "kind": "castle"
+     },
+     {
+      "name": "Solothurn (fort)",
+      "lat": 47.207,
+      "lon": 7.537,
+      "kind": "castle"
+     },
+     {
+      "name": "Yverdon (fort)",
+      "lat": 46.778,
+      "lon": 6.641,
+      "kind": "castle"
+     }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008248/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Römisches Reich",
+      "quote": "Letztere wiederum zerfielen in Provinzen, deren territoriale Ausdehnung verkleinert wurde.",
+      "supports": "smaller provinces"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008248/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Römisches Reich",
+      "quote": "Diokletian und Konstantin (306-337) befestigten auch die Reichsgrenze durch den Bau von Kastellen",
+      "supports": "forts of Diocletian and Constantine"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008248/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Römisches Reich",
+      "quote": "insbesondere die grosse Festungsanlage des Castrum Rauracense (heute Kaiseraugst), in der die Legio I Martia stationiert war",
+      "supports": "Kaiseraugst, legio I Martia"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/009813/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Provincia",
+      "quote": "die aus der Aufteilung der Germania superior entstandene Provinz Maxima Sequanorum , zu der das Mittelland gehörte",
+      "supports": "Maxima Sequanorum"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/009813/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Provincia",
+      "quote": "Raetia und das Tessin an die Italia Annonaria",
+      "supports": "Raetia and Ticino in Italia annonaria"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/012289/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Limes",
+      "quote": "Kastellen in Zurzach, Kaiseraugst und Arbon und von Befestigungswerken an strategisch bedeutsamen Orten im Hinterland wie Altenburg, Olten, Solothurn, Zürich-Lindenhof, Irgenhausen und Yverdon",
+      "supports": "forts and inland fortifications"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008027/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Alemannen",
+      "quote": "wie 294 in Oberwinterthur und in Eschenz bei Stein am Rhein",
+      "supports": "forts of 294"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008248/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Römisches Reich",
+      "quote": "setzten sie 352, von Constantius II. im Kampf gegen den Usurpator Magnentius zum Einfall aufgefordert, das Castrum Rauracense in Brand",
+      "supports": "352 Kaiseraugst burned"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/012289/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Limes",
+      "quote": "Inschriften belegen den Bau der burgi in Etzgen-Rote Waage und Koblenz-Kleiner Laufen für 371",
+      "supports": "towers of 371"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/017148/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Völkerwanderung",
+      "quote": "das Gebiet der heutigen Schweiz war noch nach 401 Teil des römischen Imperiums",
+      "supports": "Roman rule did not end in 401"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008248/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Römisches Reich",
+      "quote": "zog jedoch 400 die Truppen von der Rheinfront ab",
+      "supports": "Stilicho withdraws the troops"
+     }
+    ],
+    "uncertain": [
+     "Year of the troop withdrawal: HLS Römisches Reich says 400, HLS Völkerwanderung 401, other HLS articles 401/402; the text says 'about 401'.",
+     "Geneva's late Roman province is not named in the HLS texts used; Geneva is left blank.",
+     "Whether late Roman Raetia included all of eastern Switzerland is not checked; drawn roughly."
+    ]
+   }
+  ],
+  "sources": [
+   "https://hls-dhs-dss.ch/de/articles/008017/",
+   "https://hls-dhs-dss.ch/de/articles/008248/",
+   "https://hls-dhs-dss.ch/de/articles/009813/",
+   "https://hls-dhs-dss.ch/de/articles/007866/",
+   "https://hls-dhs-dss.ch/de/articles/012289/"
+  ],
+  "notes": "All areas are built from today's cantons, districts and foreign regions (French départements, Italian provinces, whole German and Austrian states), so ancient borders are only rough. Kinds are used for colour: 'roman' = the main Gaulish province of the Plateau (Belgica, Germania superior, Maxima Sequanorum), 'other' = Raetia, 'ally' = Alpes Graiae et Poeninae, 'noble' = Gallia Narbonensis, 'empire' = Italy; in step 2 'ally' = Raurici, 'noble' = Valais tribes, 'milan' = Lepontii. Negative years are BC. Quotes were taken from Wayback Machine copies of the HLS articles (HLS itself blocked direct access)."
+ },
+ {
+  "id": "early-middle-ages",
+  "title": "After Rome: Burgundians, Alemanni and Franks",
+  "card": "How Burgundians, Alemanni and Franks took over from Rome between 443 and the 7th century, and how the west and east of Switzerland grew apart.",
+  "stops": [
+   {
+    "year": 443,
+    "tick": "443",
+    "title": "Burgundians in the Sapaudia",
+    "text": [
+     "In 436 the Huns, probably allied with the Roman general Aëtius, destroyed the first Burgundian kingdom on the middle Rhine. In 443 Aëtius settled the rest of the Burgundians in the Sapaudia as foederati. Foederati were foreign groups that got land and in return had to defend the empire.",
+     "Sapaudia means 'land of fir trees'. Later the name became Savoy, but the old Sapaudia was not the same place. Newer research puts it in the area of Geneva, Nyon and Avenches–Windisch, up to the Aare and the Rhine. Aëtius probably wanted to protect the Alpine passes and the Rhine–Rhone route.",
+     "The Burgundians were not many. They lived well with the local Gallo-Roman elite, so they left few traces of their own."
+    ],
+    "view": "ch",
+    "layers": [
+     {
+      "name": "Sapaudia",
+      "kind": "burgundians",
+      "label": "Sapaudia, where the Burgundians were settled (one modern reading, rough)",
+      "sel": {
+       "cantons": [
+        "GE",
+        "VD",
+        "FR",
+        "NE",
+        "SO",
+        "JU",
+        "AG"
+       ],
+       "districts": [
+        241,
+        242,
+        243,
+        244,
+        245,
+        246
+       ]
+      },
+      "regions": [],
+      "countries": []
+     }
+    ],
+    "places": [
+     {
+      "name": "Genava (Geneva)",
+      "lat": 46.2011,
+      "lon": 6.1484,
+      "kind": "town"
+     },
+     {
+      "name": "Eburodunum Sapaudiae (Yverdon)",
+      "lat": 46.778,
+      "lon": 6.641,
+      "kind": "town",
+      "note": "Base of a Roman lake fleet"
+     },
+     {
+      "name": "Colonia Iulia Equestris (Nyon)",
+      "lat": 46.383,
+      "lon": 6.239,
+      "kind": "town"
+     },
+     {
+      "name": "Aventicum (Avenches)",
+      "lat": 46.881,
+      "lon": 7.042,
+      "kind": "town"
+     },
+     {
+      "name": "Vindonissa (Windisch)",
+      "lat": 47.4787,
+      "lon": 8.2215,
+      "kind": "town"
+     }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008028/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Burgunder",
+      "quote": "Die Reste der Burgunder wurden 443 von Aëtius in der Sapaudia angesiedelt. Die Namenskontinuität zu Savoyen bedeutet nicht die geografische Identität.",
+      "supports": "443 settlement; Sapaudia is not Savoy"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008028/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Burgunder",
+      "quote": "436 bereiteten die wohl mit Flavius Aëtius verbündeten Hunnen dem Burgunderreich am Mittelrhein und seinem König Gundahar den Untergang",
+      "supports": "436 destruction"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/047784/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Sapaudia",
+      "quote": "den Raum der drei Civitates Genf (bis zum Zusammenfluss von Ain und Rhone), Nyon und Avenches-Windisch sowie das Gebiet zwischen Aare und Rhein",
+      "supports": "extent of the Sapaudia"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/047784/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Sapaudia",
+      "quote": "Gall. Name ( Sapa-uidia , \"Land der Tannen\")",
+      "supports": "meaning of the name"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008028/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Burgunder",
+      "quote": "als vielmehr die Alpenpässe und die Rhein-Rhone-Verbindung zu sichern",
+      "supports": "aim of Aëtius"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/017148/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Völkerwanderung",
+      "quote": "Sie waren nicht sehr zahlreich, verstanden es aber dank ihrer Politik, mit den lokalen Eliten in gutem Einvernehmen zu leben.",
+      "supports": "few, good relations with local elites"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/017148/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Völkerwanderung",
+      "quote": "indem es ihnen einen Vertrag (foedus) gewährte, der zu ihrer Bezeichnung als foederati führte",
+      "supports": "meaning of foederati"
+     }
+    ],
+    "uncertain": [
+     "The location of the Sapaudia is disputed (HLS Sapaudia). The coloured area follows the newer reading and is drawn with whole cantons and Bernese districts; the Bernese Oberland is left out without evidence either way."
+    ]
+   },
+   {
+    "year": 480,
+    "tick": "480",
+    "title": "The Burgundian kingdom at its largest",
+    "text": [
+     "The Burgundians soon grew stronger. In 457 they spread south-west into the Rhone–Saône area and in 461 they took Lyon. In 478 a treaty with the Visigoths set their southern border at the Durance river. In the north they pushed the Alemanni out of Langres and Besançon.",
+     "When King Chilperic died in 480, the kingdom was at its largest. His sons shared it: Gundobad ruled as high king from Lyon; Godegisel was sub-king in Geneva.",
+     "North of the Rhine, the Alemanni were a strong and growing power."
+    ],
+    "view": [
+     [
+      43.6,
+      3.0
+     ],
+     [
+      49.0,
+      10.8
+     ]
+    ],
+    "layers": [
+     {
+      "name": "Alemanni",
+      "kind": "alemanni",
+      "label": "Alemanni (rough: today's Baden-Württemberg)",
+      "sel": {},
+      "regions": [
+       "DEU-1573"
+      ],
+      "countries": []
+     },
+     {
+      "name": "Burgundian kingdom",
+      "kind": "burgundians",
+      "label": "Kingdom of the Burgundians about 480 (rough)",
+      "sel": {
+       "cantons": [
+        "GE",
+        "VD",
+        "FR",
+        "NE",
+        "SO",
+        "JU",
+        "AG"
+       ],
+       "districts": [
+        241,
+        242,
+        243,
+        244,
+        245,
+        246
+       ]
+      },
+      "regions": [
+       "FRA-5262",
+       "FRA-5338",
+       "FRA-5339",
+       "FRA-5282",
+       "FRA-5312",
+       "FRA-5287",
+       "FRA-5301",
+       "FRA-5300",
+       "FRA-5311",
+       "FRA-5288",
+       "FRA-5341",
+       "FRA-5302",
+       "FRA-5352",
+       "FRA-5304"
+      ],
+      "countries": []
+     }
+    ],
+    "places": [
+     {
+      "name": "Lugdunum (Lyon)",
+      "lat": 45.764,
+      "lon": 4.8357,
+      "kind": "town"
+     },
+     {
+      "name": "Genava (Geneva)",
+      "lat": 46.2011,
+      "lon": 6.1484,
+      "kind": "town"
+     },
+     {
+      "name": "Langres",
+      "lat": 47.8627,
+      "lon": 5.3336,
+      "kind": "town"
+     },
+     {
+      "name": "Besançon",
+      "lat": 47.2378,
+      "lon": 6.0241,
+      "kind": "town"
+     },
+     {
+      "name": "Vienne",
+      "lat": 45.525,
+      "lon": 4.874,
+      "kind": "town"
+     }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008028/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Burgunder",
+      "quote": "Sie erweiterten 457 ihr Herrschaftsgebiet nach Südwesten in den Rhone-Saône-Raum und besetzten 461 definitiv Lyon.",
+      "supports": "457 and 461"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008028/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Burgunder",
+      "quote": "478 wurde die Südgrenze des Reichs am südfranzösischen Fluss Durance durch Vertrag mit den Westgoten festgelegt.",
+      "supports": "478 Durance"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008028/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Burgunder",
+      "quote": "Im Norden verdrängte Chilperich die Alemannen aus Langres und Besançon. Bei seinem Tod (480) hatte das Burgunderreich seine grösste Ausdehnung erreicht.",
+      "supports": "Langres, Besançon, largest in 480"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008028/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Burgunder",
+      "quote": "dass Gundobad die Herrschaft als Oberkönig mit Sitz in Lyon erhielt, Godegisel, Chilperich II. und Godomar Unterkönige mit den Sitzen in Genf",
+      "supports": "sons share the kingdom"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008027/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Alemannen",
+      "quote": "In der Endphase des weströmischen Reiches entwickelten die Alemannen eine grosse Expansionskraft in alle Richtungen",
+      "supports": "Alemanni strong"
+     }
+    ],
+    "uncertain": [
+     "The kingdom is drawn with whole French départements; its real borders (especially in the north and west) were different. Whether the Valais already belonged to it in 480 is not clear; it is left blank here.",
+     "The Alemanni area is very rough."
+    ]
+   },
+   {
+    "year": 506,
+    "tick": "496–506",
+    "title": "Franks defeat the Alemanni",
+    "text": [
+     "Clovis, king of the Franks, united the Frankish kingdoms and conquered almost all of Gaul. He beat the Alemanni in 496/497 and again in 506. Their king died, and their independence ended.",
+     "The Ostrogothic king Theoderic, who ruled Italy, took the rest of the Alemanni under his protection. Some of them settled in Raetia: around Lake Constance, in the Thurgau and in the Alpine Rhine valley.",
+     "The Burgundian kingdom now stood between the Franks in the north and the Goths in the south."
+    ],
+    "view": [
+     [
+      43.6,
+      3.0
+     ],
+     [
+      49.0,
+      11.5
+     ]
+    ],
+    "layers": [
+     {
+      "name": "Ostrogothic kingdom",
+      "kind": "other",
+      "label": "Ostrogothic kingdom of Italy, with Raetia and protected Alemanni (rough)",
+      "sel": {
+       "cantons": [
+        "TI",
+        "GR",
+        "TG",
+        "SG",
+        "AR",
+        "AI",
+        "GL",
+        "ZH",
+        "SH",
+        "UR",
+        "SZ",
+        "OW",
+        "NW",
+        "ZG",
+        "LU"
+       ]
+      },
+      "regions": [
+       "ITA-5452",
+       "ITA-5451",
+       "ITA-5450",
+       "ITA-5453",
+       "ITA-5444",
+       "ITA-5438",
+       "ITA-5437",
+       "ITA-5442",
+       "ITA-5434",
+       "ITA-5443",
+       "ITA-5454",
+       "ITA-5436",
+       "ITA-5435",
+       "ITA-5449",
+       "ITA-5460",
+       "AUT-2320",
+       "AUT-2329",
+       "ITA-5459"
+      ],
+      "countries": []
+     },
+     {
+      "name": "Franks",
+      "kind": "france",
+      "label": "Frankish rule over the Alemanni north of the Rhine (rough)",
+      "sel": {},
+      "regions": [
+       "DEU-1573",
+       "FRA-5273",
+       "FRA-5296"
+      ],
+      "countries": []
+     },
+     {
+      "name": "Burgundian kingdom",
+      "kind": "burgundians",
+      "label": "Kingdom of the Burgundians (rough)",
+      "sel": {
+       "cantons": [
+        "GE",
+        "VD",
+        "FR",
+        "NE",
+        "SO",
+        "JU",
+        "AG"
+       ],
+       "districts": [
+        241,
+        242,
+        243,
+        244,
+        245,
+        246
+       ]
+      },
+      "regions": [
+       "FRA-5262",
+       "FRA-5338",
+       "FRA-5339",
+       "FRA-5282",
+       "FRA-5312",
+       "FRA-5287",
+       "FRA-5301",
+       "FRA-5300",
+       "FRA-5311",
+       "FRA-5288",
+       "FRA-5341",
+       "FRA-5302",
+       "FRA-5352",
+       "FRA-5304"
+      ],
+      "countries": []
+     }
+    ],
+    "places": [
+     {
+      "name": "Lugdunum (Lyon)",
+      "lat": 45.764,
+      "lon": 4.8357,
+      "kind": "town"
+     },
+     {
+      "name": "Genava (Geneva)",
+      "lat": 46.2011,
+      "lon": 6.1484,
+      "kind": "town"
+     },
+     {
+      "name": "Dijon (battle of 500)",
+      "lat": 47.322,
+      "lon": 5.041,
+      "kind": "battle",
+      "year": 500,
+      "note": "Burgundian kings fight each other"
+     }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008249/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Frankenreich",
+      "quote": "durch die Siege über die Alemannen (496/497 und 506) die Herrschaft der Franken über fast ganz Gallien",
+      "supports": "Clovis's victories"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008027/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Alemannen",
+      "quote": "Chlodwigs zweiter Sieg (506) und der Tod des rex Alamannorum beendeten abrupt die Phase der alemannischen Unabhängigkeit",
+      "supports": "end of Alemannic independence"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008249/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Frankenreich",
+      "quote": "dem Ostgotenkönig Theoderich dem Grossen, der 506 die Reste der geschlagenen Alemannen unter seinen Schutz genommen hatte",
+      "supports": "Theoderic protects the Alemanni"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008027/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Alemannen",
+      "quote": "Teile der Alemannen wurden in Oberitalien und offenbar im rätischen Gebiet des Bodenseeraumes, des Thurgaus und des Alpenrheintals angesiedelt",
+      "supports": "Alemanni settled in Raetia"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008028/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Burgunder",
+      "quote": "Ende des 5. Jahrhunderts gerieten die Burgunder zunehmend unter den Druck der Franken im Norden sowie der West- und Ostgoten im Süden.",
+      "supports": "Burgundians between Franks and Goths"
+     }
+    ],
+    "uncertain": [
+     "Which parts of today's eastern and central Switzerland were under Ostrogothic control is not clear; the coloured area is a rough guess based on 'Raetia' and the protected Alemanni.",
+     "Frankish rule north of the Rhine is drawn as whole Baden-Württemberg and Alsace."
+    ]
+   },
+   {
+    "year": 515,
+    "tick": "515",
+    "title": "Monastery of Saint-Maurice",
+    "text": [
+     "About 380–390, Theodul, the first bishop of the Valais, brought the bones of the soldiers of the Theban Legion to Acaunum. The place became a popular goal for pilgrims.",
+     "Between May and June 515, the Burgundian prince Sigismund founded a monastery there. It was consecrated on 22 September. Sigismund had changed from the Arian to the Catholic faith. Monks sang in turns, day and night ('laus perennis'). From the start the abbey was rich in land.",
+     "After 515 the cult of Saint Maurice spread far into Gaul. In 516 Sigismund became king."
+    ],
+    "view": "ch",
+    "layers": [
+     {
+      "name": "Burgundian kingdom",
+      "kind": "burgundians",
+      "label": "Kingdom of the Burgundians (Swiss part, rough)",
+      "sel": {
+       "cantons": [
+        "GE",
+        "VD",
+        "FR",
+        "NE",
+        "SO",
+        "JU",
+        "AG",
+        "VS"
+       ],
+       "districts": [
+        241,
+        242,
+        243,
+        244,
+        245,
+        246
+       ]
+      },
+      "regions": [],
+      "countries": []
+     }
+    ],
+    "places": [
+     {
+      "name": "Abbey of Saint-Maurice (Acaunum)",
+      "lat": 46.2183,
+      "lon": 7.0037,
+      "kind": "place",
+      "year": 515,
+      "note": "Founded 515"
+     },
+     {
+      "name": "Genava (Geneva)",
+      "lat": 46.2011,
+      "lon": 6.1484,
+      "kind": "town"
+     },
+     {
+      "name": "Forum Claudii Vallensium (Martigny)",
+      "lat": 46.0985,
+      "lon": 7.0725,
+      "kind": "town"
+     }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/011411/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Saint-Maurice (Kloster)",
+      "quote": "Zwischen Mai und Juni 515 gründete Sigismund, der spätere Burgunderkönig, die Abtei. Die Weihe fand am 22. September",
+      "supports": "foundation 515"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/011411/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Saint-Maurice (Kloster)",
+      "quote": "Gegen 380-390 exhumierte Theodul, erster Bischof des Wallis, bei Vérolliez die Gebeine der Soldaten der Thebäischen Legion",
+      "supports": "Theodul and the Theban Legion"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/011411/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Saint-Maurice (Kloster)",
+      "quote": "Mit der laus perennis führte Sigismund einen liturgischen Brauch der Ostkirche ein",
+      "supports": "laus perennis"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008028/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Burgunder",
+      "quote": "Dieser war zwischen 501/502 und 507 vom Arianismus zum Katholizismus übergetreten",
+      "supports": "Sigismund Catholic"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/011411/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Saint-Maurice (Kloster)",
+      "quote": "Von Anfang an war sie reich ausgestattet.",
+      "supports": "rich lands"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/011411/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Saint-Maurice (Kloster)",
+      "quote": "Nach 515 ist der Kult vielerorts zwischen dem Massif central und der Maas nachweisbar.",
+      "supports": "cult spreads"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008028/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Burgunder",
+      "quote": "Als Gundobad 516 starb, folgte ihm sein ältester Sohn Sigismund.",
+      "supports": "king in 516"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008415/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Vallis Poenina",
+      "quote": "Die in der Sapaudia angesiedelten Burgunder dehnten 457 ihre Herrschaft aus und gründeten 515 das einflussreiche Kloster St. Maurice.",
+      "supports": "Valais under the Burgundians"
+     }
+    ],
+    "uncertain": [
+     "Saint-Maurice is often called the oldest monastery in Switzerland still in existence; this is not stated in the quoted HLS text and is left out."
+    ]
+   },
+   {
+    "year": 534,
+    "tick": "532–534",
+    "title": "The Franks take Burgundy",
+    "text": [
+     "In 522 Sigismund had his own son killed. The Frankish kings used this as a reason to attack. Sigismund was handed over to the Franks and killed.",
+     "King Godomar beat the Franks in 524, but in 532 the Franks won near Autun. This was the end of the old Burgundian kingdom. In 534 the Frankish kings shared it. Theudebert of Reims got the north, with Avenches–Windisch and Octodurus (the Valais).",
+     "From now on, Burgundy shared the fate of the Frankish kingdom."
+    ],
+    "view": [
+     [
+      43.6,
+      3.0
+     ],
+     [
+      49.0,
+      11.5
+     ]
+    ],
+    "layers": [
+     {
+      "name": "Ostrogothic kingdom",
+      "kind": "other",
+      "label": "Ostrogothic kingdom with Raetia and protected Alemanni (rough)",
+      "sel": {
+       "cantons": [
+        "TI",
+        "GR",
+        "TG",
+        "SG",
+        "AR",
+        "AI",
+        "GL",
+        "ZH",
+        "SH",
+        "UR",
+        "SZ",
+        "OW",
+        "NW",
+        "ZG",
+        "LU"
+       ]
+      },
+      "regions": [
+       "ITA-5452",
+       "ITA-5451",
+       "ITA-5450",
+       "ITA-5453",
+       "ITA-5444",
+       "ITA-5438",
+       "ITA-5437",
+       "ITA-5442",
+       "ITA-5434",
+       "ITA-5443",
+       "ITA-5454",
+       "ITA-5436",
+       "ITA-5435",
+       "ITA-5449",
+       "ITA-5460",
+       "AUT-2320",
+       "AUT-2329",
+       "ITA-5459"
+      ],
+      "countries": []
+     },
+     {
+      "name": "Frankish kingdom",
+      "kind": "france",
+      "label": "Frankish kingdom, now with former Burgundy (rough)",
+      "sel": {
+       "cantons": [
+        "GE",
+        "VD",
+        "FR",
+        "NE",
+        "SO",
+        "JU",
+        "AG",
+        "VS"
+       ],
+       "districts": [
+        241,
+        242,
+        243,
+        244,
+        245,
+        246
+       ]
+      },
+      "regions": [
+       "FRA-5262",
+       "FRA-5338",
+       "FRA-5339",
+       "FRA-5282",
+       "FRA-5312",
+       "FRA-5287",
+       "FRA-5301",
+       "FRA-5300",
+       "FRA-5311",
+       "FRA-5288",
+       "FRA-5341",
+       "FRA-5302",
+       "FRA-5352",
+       "FRA-5304",
+       "DEU-1573",
+       "FRA-5273",
+       "FRA-5296"
+      ],
+      "countries": []
+     }
+    ],
+    "places": [
+     {
+      "name": "Autun",
+      "lat": 46.951,
+      "lon": 4.2986,
+      "kind": "battle",
+      "year": 532,
+      "note": "Franks defeat the Burgundians"
+     },
+     {
+      "name": "Lugdunum (Lyon)",
+      "lat": 45.764,
+      "lon": 4.8357,
+      "kind": "town"
+     },
+     {
+      "name": "Genava (Geneva)",
+      "lat": 46.2011,
+      "lon": 6.1484,
+      "kind": "town"
+     },
+     {
+      "name": "Abbey of Saint-Maurice",
+      "lat": 46.2183,
+      "lon": 7.0037,
+      "kind": "place"
+     }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008028/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Burgunder",
+      "quote": "dass Sigismund 522 seinen Sohn Sigerich, den Enkel Theoderichs des Grossen, ermordete",
+      "supports": "522 murder"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008028/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Burgunder",
+      "quote": "Sigismund, der in dem von ihm gegründeten Kloster Saint-Maurice Zuflucht suchen wollte, wurde den Franken ausgeliefert und von König Chlodomer getötet.",
+      "supports": "Sigismund killed"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008028/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Burgunder",
+      "quote": "doch unterlag er 532 den erneut angreifenden Franken bei Autun. Dies bedeutete das Ende des altburgundischen Reichs.",
+      "supports": "532 Autun, end of the kingdom"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008028/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Burgunder",
+      "quote": "dass Theudebert, der Reimser König, ganz Nordburgund mit Langres, Besançon, Autun und Chalon sowie in der Schweiz Aventicum-Vindonissa und Octodurus erhielt",
+      "supports": "534 division"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008028/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Burgunder",
+      "quote": "In der Folge teilte Burgund das Geschick des Frankenreichs",
+      "supports": "Burgundy part of the Frankish kingdom"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008415/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Vallis Poenina",
+      "quote": "Nach ihrer Niederlage wurde die V. 534 Teil des Frankenreichs.",
+      "supports": "Valais Frankish 534"
+     }
+    ],
+    "uncertain": [
+     "The battle point is set at the town of Autun; HLS only says 'bei Autun'."
+    ]
+   },
+   {
+    "year": 537,
+    "tick": "536–537",
+    "title": "All north of the Alps is Frankish",
+    "text": [
+     "In 536/537 the Ostrogothic king Witigis gave Alemannia and Raetia (Churrätien) to the Franks. Now all the lands north of the Alps in today's Switzerland were under the Frankish Merovingian kings.",
+     "The Alemanni kept their name, law and territory. They were ruled by Frankish officials (duces). Raetia also got a Frankish duke later; it protected the passes towards Italy.",
+     "Ticino stayed with Italy. From the 6th century, the first Germanic graves south of the Rhine, for example at Basel-Bernerring, Zürich, Bülach and Elgg, are thought to be those of Frankish officials."
+    ],
+    "view": "ch",
+    "layers": [
+     {
+      "name": "Italy",
+      "kind": "other",
+      "label": "Italy (Ostrogothic, then East Roman)",
+      "sel": {
+       "cantons": [
+        "TI"
+       ]
+      },
+      "regions": [],
+      "countries": []
+     },
+     {
+      "name": "Frankish kingdom",
+      "kind": "france",
+      "label": "Frankish kingdom",
+      "sel": {
+       "cantons": [
+        "VD",
+        "FR",
+        "NE",
+        "BE",
+        "SO",
+        "BS",
+        "BL",
+        "JU",
+        "AG",
+        "LU",
+        "ZG",
+        "ZH",
+        "SH",
+        "TG",
+        "SG",
+        "AR",
+        "AI",
+        "GL",
+        "GR",
+        "GE",
+        "VS",
+        "UR",
+        "SZ",
+        "OW",
+        "NW"
+       ]
+      },
+      "regions": [],
+      "countries": []
+     }
+    ],
+    "places": [
+     {
+      "name": "Basel-Bernerring (graves)",
+      "lat": 47.548,
+      "lon": 7.575,
+      "kind": "place"
+     },
+     {
+      "name": "Zürich-Bäckerstrasse (graves)",
+      "lat": 47.376,
+      "lon": 8.527,
+      "kind": "place"
+     },
+     {
+      "name": "Bülach (graves)",
+      "lat": 47.52,
+      "lon": 8.54,
+      "kind": "place"
+     },
+     {
+      "name": "Elgg (graves)",
+      "lat": 47.497,
+      "lon": 8.866,
+      "kind": "place"
+     },
+     {
+      "name": "Curia (Chur)",
+      "lat": 46.847,
+      "lon": 9.528,
+      "kind": "town"
+     },
+     {
+      "name": "Abbey of Saint-Maurice",
+      "lat": 46.2183,
+      "lon": 7.0037,
+      "kind": "place"
+     }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008027/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Alemannen",
+      "quote": "schliesslich wurde das gotische Alemannien 536/537 vom ostgotischen König Witigis den Franken abgetreten",
+      "supports": "536/537 Alemannia to the Franks"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008249/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Frankenreich",
+      "quote": "die Herrschaft über Alemannien, d.h. über die bisher unter ostgotischem Schutz stehenden Alemannen der Raetia Prima sowie über Churrätien selbst, abtraten",
+      "supports": "Raetia also ceded"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008027/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Alemannen",
+      "quote": "Die Eingliederung Alemanniens in das Frankenreich beliess den Alemannen den Status einer gens mit eigenem Namen, Recht und Territorium.",
+      "supports": "Alemanni keep name, law, land"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008249/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Frankenreich",
+      "quote": "Nach der Eingliederung in das Frankenreich (spätestens um 539) scheint auch in der Raetia ein dux als fränkischer Amtsträger eingesetzt worden zu sein.",
+      "supports": "Frankish duke in Raetia"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008027/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Alemannen",
+      "quote": "Die entsprechenden Gräber in Basel-Bernerring, Zürich-Bäckerstrasse, Bülach und Elgg werden fränkischen Amtsträgern zugeschrieben",
+      "supports": "graves of Frankish officials"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/017148/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Völkerwanderung",
+      "quote": "Die Provinz Liguria, zu der die Tessiner Täler gehörten, war schon gegen Ende des 5. Jahrhunderts ins ostgotische Reich integriert worden.",
+      "supports": "Ticino with Italy"
+     }
+    ],
+    "uncertain": [
+     "Who exactly ruled Ticino between 537 and 568 (Ostrogoths, then East Rome) is only summarised."
+    ]
+   },
+   {
+    "year": 561,
+    "tick": "561",
+    "title": "Two duchies: Burgundy and Alemannia",
+    "text": [
+     "In 561 the Frankish kingdom was divided again. 'Ultrajurania', the Roman-speaking west of Switzerland, went to the Frankish part-kingdom of Burgundy. Alemannia went to Austrasia, the eastern part-kingdom.",
+     "The centre of the Alemannic duchy lay south of the High Rhine, in the old Roman settled land. Roman life went on in places like Windisch, Arbon, Oberwinterthur and Zürich.",
+     "This line between a Roman-speaking west and an Alemannic east is an early root of the later language border. Its exact course in the 6th century is not known."
+    ],
+    "view": "ch",
+    "layers": [
+     {
+      "name": "Italy",
+      "kind": "other",
+      "label": "Italy (Lombards from 568)",
+      "sel": {
+       "cantons": [
+        "TI"
+       ]
+      },
+      "regions": [],
+      "countries": []
+     },
+     {
+      "name": "Churrätien",
+      "kind": "noble",
+      "label": "Churrätien (Raetia), under a Frankish duke",
+      "sel": {
+       "cantons": [
+        "GR"
+       ],
+       "districts": [
+        1724,
+        1725
+       ]
+      },
+      "regions": [],
+      "countries": []
+     },
+     {
+      "name": "Ultrajurania",
+      "kind": "burgundy",
+      "label": "Ultrajurania – duchy in Frankish Burgundy (rough)",
+      "sel": {
+       "cantons": [
+        "GE",
+        "VD",
+        "FR",
+        "NE",
+        "VS",
+        "JU"
+       ],
+       "districts": [
+        241,
+        242,
+        243
+       ]
+      },
+      "regions": [],
+      "countries": []
+     },
+     {
+      "name": "Alemannia",
+      "kind": "alemanni",
+      "label": "Duchy of Alemannia (Austrasia) (rough)",
+      "sel": {
+       "cantons": [
+        "BE",
+        "SO",
+        "BS",
+        "BL",
+        "AG",
+        "LU",
+        "ZG",
+        "ZH",
+        "SH",
+        "TG",
+        "SG",
+        "AR",
+        "AI",
+        "GL",
+        "UR",
+        "SZ",
+        "OW",
+        "NW"
+       ]
+      },
+      "regions": [],
+      "countries": []
+     }
+    ],
+    "places": [
+     {
+      "name": "Vindonissa (Windisch)",
+      "lat": 47.4787,
+      "lon": 8.2215,
+      "kind": "town"
+     },
+     {
+      "name": "Arbon",
+      "lat": 47.517,
+      "lon": 9.433,
+      "kind": "town"
+     },
+     {
+      "name": "Oberwinterthur",
+      "lat": 47.512,
+      "lon": 8.763,
+      "kind": "town"
+     },
+     {
+      "name": "Zürich-Lindenhof (Turicum)",
+      "lat": 47.3729,
+      "lon": 8.5405,
+      "kind": "town"
+     },
+     {
+      "name": "Curia (Chur)",
+      "lat": 46.847,
+      "lon": 9.528,
+      "kind": "town"
+     },
+     {
+      "name": "Genava (Geneva)",
+      "lat": 46.2011,
+      "lon": 6.1484,
+      "kind": "town"
+     },
+     {
+      "name": "Aventicum (Avenches)",
+      "lat": 46.881,
+      "lon": 7.042,
+      "kind": "town"
+     }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008249/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Frankenreich",
+      "quote": "Ultrajuranien, d.h. die romanisch geprägte Westschweiz, fiel an Burgund, Alemannien ( Schwaben ) mit den östlichen Alpenvorlanden an Austrasien",
+      "supports": "561 division"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008027/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Alemannen",
+      "quote": "Bis ins 7. Jahrhundert lag der Machtschwerpunkt der von den Merowingern ein- oder abgesetzten alemannischen Herzöge südlich des Hochrheins",
+      "supports": "centre of the duchy"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008027/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Alemannen",
+      "quote": "romanische Kontinuitätsinseln vorhanden waren, wie zum Beispiel in Windisch, Eschenz, Arbon, Bregenz, Oberwinterthur oder Zürich",
+      "supports": "Roman islands"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008249/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Frankenreich",
+      "quote": "Als Grenzschutz gegen die Langobarden erlangte Churrätien für die fränkische Italienpolitik erhöhte Bedeutung.",
+      "supports": "Churrätien"
+     }
+    ],
+    "uncertain": [
+     "The border between Ultrajurania and Alemannia is drawn with today's cantons and Bernese districts; the real 6th-century border is not known.",
+     "The link to the later language border is an interpretation, not a quote."
+    ]
+   },
+   {
+    "year": 650,
+    "tick": "7th century",
+    "title": "Alemanni settle south of the Rhine",
+    "text": [
+     "Before the 6th century, Germanic groups south of the Rhine were few and isolated. Larger Alemannic settlement came late, under the Frankish kingdom. From the second quarter of the 7th century, finds show stronger links with the Alemannic lands north of the Rhine. More settlements appear, also because Alemanni moved in.",
+     "Place names show the steps. Older names end in -ingen; later ones in -ikon or -inghofen; the latest in -wil or -wiler.",
+     "In the Roman-speaking west, people kept their Latin-based (Romance) speech."
+    ],
+    "view": "ch",
+    "layers": [
+     {
+      "name": "Romance west",
+      "kind": "burgundy",
+      "label": "West: Roman-speaking (Frankish Burgundy) (rough)",
+      "sel": {
+       "cantons": [
+        "GE",
+        "VD",
+        "FR",
+        "NE",
+        "VS",
+        "JU"
+       ],
+       "districts": [
+        241,
+        242,
+        243
+       ]
+      },
+      "regions": [],
+      "countries": []
+     },
+     {
+      "name": "Churrätien",
+      "kind": "noble",
+      "label": "Churrätien: Romance-speaking (rough)",
+      "sel": {
+       "cantons": [
+        "GR"
+       ],
+       "districts": [
+        1724,
+        1725
+       ]
+      },
+      "regions": [],
+      "countries": []
+     },
+     {
+      "name": "Alemannic settlement",
+      "kind": "alemanni",
+      "label": "Growing Alemannic settlement (rough)",
+      "sel": {
+       "cantons": [
+        "BE",
+        "SO",
+        "BS",
+        "BL",
+        "AG",
+        "LU",
+        "ZG",
+        "ZH",
+        "SH",
+        "TG",
+        "SG",
+        "AR",
+        "AI",
+        "GL",
+        "UR",
+        "SZ",
+        "OW",
+        "NW"
+       ]
+      },
+      "regions": [],
+      "countries": []
+     }
+    ],
+    "places": [
+     {
+      "name": "Bülach",
+      "lat": 47.52,
+      "lon": 8.54,
+      "kind": "place"
+     },
+     {
+      "name": "Elgg",
+      "lat": 47.497,
+      "lon": 8.866,
+      "kind": "place"
+     },
+     {
+      "name": "Zürich-Lindenhof (Turicum)",
+      "lat": 47.3729,
+      "lon": 8.5405,
+      "kind": "town"
+     },
+     {
+      "name": "Vindonissa (Windisch)",
+      "lat": 47.4787,
+      "lon": 8.2215,
+      "kind": "town"
+     }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008027/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Alemannen",
+      "quote": "Erst vom zweiten Viertel des 7. Jahrhunderts an werden die Einflüsse aus dem rechtsrheinischen alemannischen Kernland stärker.",
+      "supports": "7th-century links"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008027/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Alemannen",
+      "quote": "Die globale Zunahme von Fundstellen bezeugt einen Siedlungsausbau im 7. Jahrhundert, der nicht nur auf Bevölkerungswachstum, sondern auch auf Zuwanderung von Alemannen",
+      "supports": "more settlements, immigration"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008027/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Alemannen",
+      "quote": "eine alemannische Siedlungsbewegung grösseren Ausmasses relativ spät anzusetzen, jedenfalls erst im politischen Rahmen des merowingischen Frankenreichs",
+      "supports": "late settlement under the Franks"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008027/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Alemannen",
+      "quote": "ist eine ältere Namenschicht (Formen: -ingen-, -heim- und -dorf) von den Namen eines ersten frühmittelalterlichen Ausbauraums (Haupttyp: -inghofen bzw. -ighofen, ikofen sowie -ikon)",
+      "supports": "place-name layers"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008027/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Alemannen",
+      "quote": "und denjenigen eines zweiten Ausbauraums (Formen: -wil und -wiler) zu unterscheiden",
+      "supports": "-wil names"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008249/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Frankenreich",
+      "quote": "Ultrajuranien, d.h. die romanisch geprägte Westschweiz",
+      "supports": "west Roman-speaking"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008027/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Alemannen",
+      "quote": "Germanische/alemannische Einsprengsel hat es als isolierte Erscheinungen links des Rheins vom 4./5. Jahrhundert an gegeben",
+      "supports": "earlier isolated groups"
+     }
+    ],
+    "uncertain": [
+     "The coloured areas only show the rough political frame; Alemannic settlement in the 7th century did not yet cover all of it (especially the Alps).",
+     "That the west kept its Romance speech is supported only by the HLS phrase 'romanisch geprägte Westschweiz' (for 561)."
+    ]
+   }
+  ],
+  "sources": [
+   "https://hls-dhs-dss.ch/de/articles/008028/",
+   "https://hls-dhs-dss.ch/de/articles/008027/",
+   "https://hls-dhs-dss.ch/de/articles/008249/",
+   "https://hls-dhs-dss.ch/de/articles/047784/",
+   "https://hls-dhs-dss.ch/de/articles/011411/"
+  ],
+  "notes": "All areas are rough and built from today's cantons, districts and foreign regions (whole French départements, Italian provinces, German and Austrian states). Kinds used for colour: 'burgundians' = Burgundian kingdom, 'france' = Frankish kingdom, 'burgundy' = Frankish part-kingdom of Burgundy (Ultrajurania), 'alemanni' = Alemanni, 'other' = Ostrogothic/Italian rule, 'noble' = Churrätien. Quotes were taken from Wayback Machine copies of the HLS articles."
+ }
+]

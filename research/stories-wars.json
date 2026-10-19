@@ -59,6 +59,53 @@
       "year": 1315,
       "note": "Pact of Brunnen, 9 December 1315"
      }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008726/",
+      "title": "HLS: Morgartenkrieg",
+      "quote": "der Marchenstreit zwischen dem Kloster Einsiedeln und den durch den Kirchenbann verbitterten Schwyzern um die Nutzung von Alp- und Waldgebieten",
+      "supports": "The long fight between Schwyz and the abbey of Einsiedeln over pasture land"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008726/",
+      "title": "HLS: Morgartenkrieg",
+      "quote": "dem schwyzerischen Überfall auf das unter österreichischer Schirmvogtei stehende Kloster",
+      "supports": "Habsburg (Austria) protected the abbey of Einsiedeln"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008726/",
+      "title": "HLS: Morgartenkrieg",
+      "quote": "zog am Morgen des 15. November 1315 durch das Ägerital gegen Sattel",
+      "supports": "In November 1315 Duke Leopold led an army towards Schwyz"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008726/",
+      "title": "HLS: Morgartenkrieg",
+      "quote": "die Schwyzer das anrückende Heer Leopolds im Raum Schornen am oberen Ende des Ägerisees (Hauptsee) überfielen",
+      "supports": "Men from Schwyz attacked and beat the army near the upper end of Lake Ägeri (place Morgarten/Schornen)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008726/",
+      "title": "HLS: Morgartenkrieg",
+      "quote": "nach kurzem, aber blutigem Nahkampf in die Flucht schlugen",
+      "supports": "The men of Schwyz beat the army"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008726/",
+      "title": "HLS: Morgartenkrieg",
+      "quote": "Am 9. Dezember 1315 kamen die Vertreter der drei Länder in Brunnen zusammen und besiegelten einen neuen Bund",
+      "supports": "Uri, Schwyz and Unterwalden made a new alliance at Brunnen on 9 December 1315 (place Brunnen)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008726/",
+      "title": "HLS: Morgartenkrieg",
+      "quote": "Der Bund von 1315 galt in der Chronistik und bis ins späte 19. Jahrhundert als das Gründungsdokument der Eidgenossenschaft",
+      "supports": "For centuries people saw the pact of 1315 as the start of the Confederation"
+     }
+    ],
+    "uncertain": [
+     "The attack took place on a narrow path."
     ]
    },
    {
@@ -66,9 +113,9 @@
     "tick": "1339",
     "title": "Laupen: Bern against the nobles",
     "text": [
-     "Bern grew fast and took land from noble families. The nobles and the town of Fribourg joined forces and laid siege to the small town of Laupen, which belonged to Bern.",
-     "On 21 June 1339 Bern, helped by troops from the forest valleys (Uri, Schwyz, Unterwalden), beat the nobles' army on the Bramberg hill near Neuenegg.",
-     "The victory made Bern the strongest power in the western Swiss plateau. In 1353 Bern made a lasting alliance with the forest valleys."
+     "Bern grew fast and took land and people from the nobles. The nobles, the town of Fribourg and the bishops of Basel and Lausanne joined forces against Bern. Bern held the small town of Laupen, and from 10 June 1339 their army laid siege to it.",
+     "On 21 June 1339 Bern, helped by troops from Uri, Schwyz, Unterwalden and Solothurn, beat the nobles' army near Laupen.",
+     "The peace of 1340 made Bern the strongest power in the region. In 1353 Bern made a lasting alliance with the forest valleys."
     ],
     "view": "ch",
     "layers": [
@@ -118,6 +165,65 @@
       "lon": 7.239,
       "kind": "town"
      }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008728/",
+      "title": "HLS: Laupenkrieg",
+      "quote": "Bern hatte sich diese Opposition durch bedeutende Territorialisierungserfolge, die Verburgrechtung sogenannter Ausburger, die Konkurrenz zur Stadt Freiburg",
+      "supports": "Bern grew and took land and people from the nobles; rivalry with Fribourg"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008728/",
+      "title": "HLS: Laupenkrieg",
+      "quote": "Zu den besagten Gegnern zählten neben Freiburg eine Vielzahl Adliger",
+      "supports": "The nobles and Fribourg joined forces against Bern (layer Fribourg and nobles)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008728/",
+      "title": "HLS: Laupenkrieg",
+      "quote": "sowie die Bischöfe von Basel und Lausanne",
+      "supports": "The bishops of Basel and Lausanne were also against Bern"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008728/",
+      "title": "HLS: Laupenkrieg",
+      "quote": "Bern besetzte Laupen, das ab dem 10. Juni belagert wurde.",
+      "supports": "Bern held Laupen, which was besieged from 10 June 1339 (place Laupen town)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008447/",
+      "title": "HLS: Laupen",
+      "quote": "da das Reich sein Pfand nie auslöste, blieb Laupen im faktischen Besitz Berns als dessen erste Landvogtei",
+      "supports": "Laupen belonged to Bern"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008728/",
+      "title": "HLS: Laupenkrieg",
+      "quote": "Am 21. Juni zog das von Rudolf von Erlach angeführte bernische Heer mit Urner, Schwyzer, Unterwaldner und Solothurner Verstärkung von Bern nach Laupen.",
+      "supports": "On 21 June 1339 Bern was helped by troops from Uri, Schwyz, Unterwalden and Solothurn (layer Bern and its helpers)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008728/",
+      "title": "HLS: Laupenkrieg",
+      "quote": "Mit gewissem Geländevorteil besiegten die Berner ihre Gegner und rieben deren Reiterei fast vollständig auf",
+      "supports": "Bern beat the nobles' army"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008728/",
+      "title": "HLS: Laupenkrieg",
+      "quote": "in Königsfelden den Frieden, der die Vorherrschaft Berns in der Region festigte",
+      "supports": "The peace of 1340 made Bern the strongest power in the region"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008728/",
+      "title": "HLS: Laupenkrieg",
+      "quote": "Die Bündnisleistungen, welche die Eidgenossen im Laupenkrieg erbrachten, ebneten den Weg Berns in den eidgenössischen Bund (1353).",
+      "supports": "In 1353 Bern made a lasting alliance with the forest valleys"
+     }
+    ],
+    "uncertain": [
+     "The battle took place on the Bramberg hill near Neuenegg (HLS names the place 'Wyden')."
     ]
    },
    {
@@ -175,6 +281,56 @@
       "kind": "battle",
       "year": 1386,
       "note": "Confederates win; Duke Leopold III killed"
+     }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/026413/",
+      "title": "HLS: Eidgenossenschaft",
+      "quote": "Die alte Eidgenossenschaft bestand ab 1353 aus acht",
+      "supports": "By 1353 eight places were allied (layer Eight places)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/026413/",
+      "title": "HLS: Eidgenossenschaft",
+      "quote": "im Bund der Orte Uri, Schwyz, Unterwalden und Luzern mit Zürich",
+      "supports": "The eight places include Uri, Schwyz, Unterwalden, Lucerne and Zurich"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/026413/",
+      "title": "HLS: Eidgenossenschaft",
+      "quote": "Dieser Bund wurde zum Muster für die folgenden mit Zug und Glarus (1352) sowie mit Bern (1353).",
+      "supports": "Zug, Glarus and Bern joined by 1353"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008871/",
+      "title": "HLS: Sempacherkrieg",
+      "quote": "Im Januar 1386 nahm Luzern zuerst das Entlebuch und die Kleinstadt Sempach in sein Burgrecht auf, danach die Städtchen Meienberg, Richensee und Willisau.",
+      "supports": "Lucerne took Habsburg towns and land around it"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008871/",
+      "title": "HLS: Sempacherkrieg",
+      "quote": "wohl in der Absicht eines gegen Luzern und dessen Landschaft gerichteten Schädigungskriegs",
+      "supports": "Duke Leopold III marched against Lucerne"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008871/",
+      "title": "HLS: Sempacherkrieg",
+      "quote": "Am 9. Juli 1386 traf es oberhalb von Sempach unverhofft auf die von Zürich abgezogenen Truppen der Orte Luzern, Uri, Schwyz und Unterwalden",
+      "supports": "On 9 July 1386 the Confederates met his army near Sempach (place Sempach)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008871/",
+      "title": "HLS: Sempacherkrieg",
+      "quote": "Mit Herzog Leopold III. fiel eine grosse Zahl regionaler Adliger",
+      "supports": "The duke died in the battle, with many nobles"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008871/",
+      "title": "HLS: Sempacherkrieg",
+      "quote": "schwächte Habsburg-Österreich so sehr, dass es seine Herrschaftspositionen in den Gebieten südlich des Hochrheins langfristig nicht halten konnte",
+      "supports": "Habsburg lost its strength and, step by step, its land south of the Rhine"
      }
     ]
    },
@@ -253,6 +409,56 @@
       "year": 1386,
       "note": "Confederates win"
      }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008873/",
+      "title": "HLS: Näfels, Schlacht bei",
+      "quote": "den österreichischen Überfall ( Mordnacht vom 21./22. Februar 1388) auf das von den Glarnern und Eidgenossen ab 1386 besetzte Städtchen Weesen",
+      "supports": "In February 1388 Habsburg troops took Weesen by surprise"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008873/",
+      "title": "HLS: Näfels, Schlacht bei",
+      "quote": "am 9. April 1388 der Hauptangriff gegen das als abtrünnig geltende Glarnerland",
+      "supports": "On 9 April 1388 a Habsburg army broke into the valley of Glarus (place Näfels)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008873/",
+      "title": "HLS: Näfels, Schlacht bei",
+      "quote": "Die etwa 400 Glarner, verstärkt durch einige Dutzend Schwyzer und Urner",
+      "supports": "About 400 men from Glarus with a few dozen from Schwyz and Uri"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008873/",
+      "title": "HLS: Näfels, Schlacht bei",
+      "quote": "griffen von hier aus, begünstigt durch Nebel und Schneetreiben, das plündernde Ritterheer an",
+      "supports": "They attacked the army while it plundered"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008873/",
+      "title": "HLS: Näfels, Schlacht bei",
+      "quote": "die beim Zusammenbruch der Brücke bei Weesen in grosser Zahl in der Maag ertranken",
+      "supports": "The army fled and the bridge at Weesen broke"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008871/",
+      "title": "HLS: Sempacherkrieg",
+      "quote": "Glarus befreite sich dank des Siegs in der Schlacht bei Näfels am 9. April 1388 von der österreichischen Herrschaft.",
+      "supports": "Glarus was now free of Habsburg rule (layer Glarus)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008873/",
+      "title": "HLS: Näfels, Schlacht bei",
+      "quote": "Daraus entwickelte sich die Näfelser Fahrt, die bis heute jedes Jahr in der Regel am ersten Donnerstag im April",
+      "supports": "People in Glarus still walk to the battle site each year (Näfelser Fahrt)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008871/",
+      "title": "HLS: Sempacherkrieg",
+      "quote": "Der Sieg der Eidgenossen in der Schlacht bei Sempach am 9. Juli 1386",
+      "supports": "Place Sempach: the Confederates won in 1386"
+     }
     ]
    },
    {
@@ -260,8 +466,8 @@
     "tick": "1393",
     "title": "The Sempach Letter",
     "text": [
-     "In 1393 the eight places agreed on common rules for war, the 'Sempacherbrief' (Sempach Letter). For example, soldiers must not attack churches, and they must not run away from a battle.",
-     "In this letter Glarus is named for the first time as an equal partner. The letter was one of the few laws that all places shared."
+     "In 1393 the eight places and Solothurn agreed on common rules for war, the 'Sempacherbrief' (Sempach Letter). For example, soldiers must not attack churches, monasteries and women, they may plunder only after a victory, and deserters are judged.",
+     "The letter also forbade all violence among the Confederates. It was one of the first agreements that all eight places signed together."
     ],
     "view": "ch",
     "layers": [
@@ -318,6 +524,47 @@
       "year": 1388,
       "note": "Glarus wins"
      }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/009804/",
+      "title": "HLS: Sempacherbrief",
+      "quote": "Abkommen zwischen Zürich, Luzern, Bern, Solothurn, Zug, Uri, Schwyz, Unterwalden und Glarus vom 10.7.1393.",
+      "supports": "In 1393 the eight places and Solothurn made the Sempach Letter (layer Eight places)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/009804/",
+      "title": "HLS: Sempacherbrief",
+      "quote": "Geplündert werden durfte erst nach erfochtenem Sieg, dabei sollten Kirchen, Klöster und Frauen geschont werden",
+      "supports": "Rules for war: plunder only after victory; spare churches, monasteries and women"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/009804/",
+      "title": "HLS: Sempacherbrief",
+      "quote": "Fahnenflüchtige und Marodeure wurden abgeurteilt.",
+      "supports": "Deserters are judged"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/009804/",
+      "title": "HLS: Sempacherbrief",
+      "quote": "Jegl. Gewalttat unter Eidgenossen wurde verboten.",
+      "supports": "The letter forbade all violence among the Confederates"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/026413/",
+      "title": "HLS: Eidgenossenschaft",
+      "quote": "wiewohl die acht Partner 1353 nicht durch einen, sondern durch sechs Bünde liiert waren",
+      "supports": "Before this, the eight places were joined by separate alliances, not one common treaty"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008873/",
+      "title": "HLS: Näfels, Schlacht bei",
+      "quote": "Von hier aus erfolgte am 9. April 1388 der Hauptangriff gegen das als abtrünnig geltende Glarnerland",
+      "supports": "Place Näfels: battle of 1388"
+     }
+    ],
+    "uncertain": [
+     "The Sempach Letter was one of the first agreements that all eight places signed together."
     ]
    },
    {
@@ -397,6 +644,38 @@
       "year": 1403,
       "note": "Appenzell beats the abbot of St. Gallen"
      }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008874/",
+      "title": "HLS: Appenzeller Kriege (1401-1429)",
+      "quote": "Streitigkeiten um Fallrechte, Zinsen und Zehnten zwischen den Appenzellern und dem Abt von St. Gallen",
+      "supports": "The farmers of Appenzell had to pay dues to the abbot of St. Gallen (layer Abbey of St. Gallen)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008874/",
+      "title": "HLS: Appenzeller Kriege (1401-1429)",
+      "quote": "setzte Appenzell – anders als die Stadt St. Gallen – seinen Widerstand fort und trat 1403 in ein Landrecht mit Schwyz",
+      "supports": "Appenzell refused and made an alliance with Schwyz (layer Appenzell, ally of Schwyz)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008875/",
+      "title": "HLS: Vögelinsegg, Schlacht bei",
+      "quote": "am 15. Mai 1403 zwischen Speicher und St. Gallen die Schlacht bei Vögelinsegg statt",
+      "supports": "On 15 May 1403 near Speicher (place Vögelinsegg)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008875/",
+      "title": "HLS: Vögelinsegg, Schlacht bei",
+      "quote": "Die Appenzeller unter Schwyzer Hauptleuten fügten dem Abt von St. Gallen und den Bodenseestädten, darunter St. Gallen, eine schwere Niederlage zu.",
+      "supports": "Appenzell, led by captains from Schwyz, beat the abbot and the towns around Lake Constance"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008875/",
+      "title": "HLS: Vögelinsegg, Schlacht bei",
+      "quote": "In der Folge schloss sich die Stadt St. Gallen den Appenzellern an.",
+      "supports": "After this, the town of St. Gallen took the side of Appenzell"
+     }
     ]
    },
    {
@@ -404,9 +683,9 @@
     "tick": "1405",
     "title": "Stoss: Habsburg is beaten again",
     "text": [
-     "The abbot asked Duke Frederick IV of Habsburg for help. On 17 June 1405 an Austrian army climbed towards Appenzell over the Stoss pass above Altstätten.",
-     "The men of Appenzell waited above the path. They threw stones and attacked with halberds, and the army fled. The story of the hero Uli Rotach comes from later times and is probably not true.",
-     "After the victory Appenzell and its friends founded the 'League above the Lake' (Bund ob dem See). It broke up in 1408. In 1411 Appenzell made a treaty of protection with the Confederates."
+     "Then Austria (Habsburg) joined the war. On 17 June 1405 an Austrian army of about 1,200 men climbed towards Appenzell over the Stoss pass above Altstätten.",
+     "About 400 men of Appenzell waited above the path. They threw stones and attacked with halberds, and the army fled. The story of the hero Uli Rotach comes from later legend.",
+     "After the victory Appenzell and the town of St. Gallen founded the 'League above the Lake' (Bund ob dem See). It broke up in 1408. In 1411 Appenzell made an alliance with the Confederates (without Bern)."
     ],
     "view": "ch",
     "layers": [
@@ -485,6 +764,68 @@
       "year": 1403,
       "note": "Appenzell wins"
      }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008874/",
+      "title": "HLS: Appenzeller Kriege (1401-1429)",
+      "quote": "Nachdem die Stadt St. Gallen sich Appenzell wieder angenähert hatte, griff Österreich ein.",
+      "supports": "Austria (Habsburg) joined the war (layer Habsburg land)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008876/",
+      "title": "HLS: Stoss, Schlacht am",
+      "quote": "Am Stoss in der Gemeinde Gais AR standen sich am 17. Juni 1405 ein ins Land eindringendes österreichisches Heer und rund 400 Appenzeller gegenüber",
+      "supports": "On 17 June 1405 an Austrian army entered Appenzell at the Stoss; about 400 men of Appenzell (place Stoss)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008876/",
+      "title": "HLS: Stoss, Schlacht am",
+      "quote": "Letztere hatten sich beim Herannahen des gegnerischen Heers von der Belagerung von Altstätten über die unterhalb der Passhöhe gelegene Letzi zurückgezogen",
+      "supports": "The pass above Altstätten; the men of Appenzell waited above"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008876/",
+      "title": "HLS: Stoss, Schlacht am",
+      "quote": "Das rund 1200 Mann zählende österreichische Heer",
+      "supports": "The Austrian army had about 1,200 men"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008876/",
+      "title": "HLS: Stoss, Schlacht am",
+      "quote": "Die Österreicher wurden von einem Steinhagel und dem Angriff mit Hellebarden überrascht, ihr Heer aufgelöst und in die Flucht geschlagen.",
+      "supports": "They threw stones and attacked with halberds, and the army fled"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008876/",
+      "title": "HLS: Stoss, Schlacht am",
+      "quote": "An die Schlacht am Stoss knüpfen die sagenhaften Überlieferungen von Uli Rotach",
+      "supports": "Uli Rotach is a legend linked to the battle"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008874/",
+      "title": "HLS: Appenzeller Kriege (1401-1429)",
+      "quote": "Das kurz nach der Schlacht geschlossene Bündnis zwischen Appenzell und der Stadt St. Gallen wurde zur Keimzelle des Bundes ob dem See .",
+      "supports": "After the victory Appenzell and St. Gallen founded the League above the Lake"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008874/",
+      "title": "HLS: Appenzeller Kriege (1401-1429)",
+      "quote": "König Ruprecht löste den Bund durch den Konstanzer Schiedsspruch vom 4. April 1408 auf",
+      "supports": "The League broke up in 1408"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008874/",
+      "title": "HLS: Appenzeller Kriege (1401-1429)",
+      "quote": "das 1411 in ein Burg- und Landrecht mit den Eidgenossen (ohne Bern) trat",
+      "supports": "In 1411 Appenzell made an alliance with the Confederates, without Bern (layer Eight places)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008875/",
+      "title": "HLS: Vögelinsegg, Schlacht bei",
+      "quote": "am 15. Mai 1403 zwischen Speicher und St. Gallen die Schlacht bei Vögelinsegg statt",
+      "supports": "Place Vögelinsegg: Appenzell won in 1403"
+     }
     ]
    }
   ],
@@ -510,7 +851,7 @@
     "title": "Old Zurich War: St. Jakob an der Sihl",
     "text": [
      "In 1436 the last Count of Toggenburg died without heirs. Zurich and Schwyz both wanted his land. The quarrel became a war between the Confederates.",
-     "Zurich made an alliance with Habsburg against the others. On 22 July 1443 the Confederates beat the Zurich troops at St. Jakob an der Sihl, just outside the town. The mayor of Zurich, Rudolf Stüssi, was killed."
+     "In 1442 Zurich made an alliance with the Habsburg king Frederick III. On 22 July 1443 the Confederates beat the Zurich troops at St. Jakob an der Sihl, just outside the town. The mayor of Zurich, Rudolf Stüssi, was killed."
     ],
     "view": "ch",
     "layers": [
@@ -551,6 +892,44 @@
       "year": 1443,
       "note": "Confederates beat Zurich"
      }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/fr/articles/008877/",
+      "title": "HLS: Zurich, guerre de",
+      "quote": "La succession du comte Frédéric VII de Toggenbourg, mort sans héritier en 1436, fut la cause directe de la guerre.",
+      "supports": "In 1436 the last Count of Toggenburg died without heirs; this caused the war"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/fr/articles/008877/",
+      "title": "HLS: Zurich, guerre de",
+      "quote": "Zurich et Schwytz dont il était combourgeois, les Habsbourg, dont il détenait des gages",
+      "supports": "Zurich and Schwyz both claimed his land"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/fr/articles/008877/",
+      "title": "HLS: Zurich, guerre de",
+      "quote": "Les autres Confédérés (les Uranais et les Unterwaldiens à la dernière minute seulement) s'étaient rangés au côté de Schwytz.",
+      "supports": "The quarrel became a war between Zurich and the other Confederates (layer Confederates)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/fr/articles/008877/",
+      "title": "HLS: Zurich, guerre de",
+      "quote": "à conclure une alliance avec lui le 17 juin 1442",
+      "supports": "In 1442 Zurich made an alliance with Frederick III of Habsburg (layer Zurich, allied with Habsburg)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008878/",
+      "title": "HLS: St. Jakob an der Sihl, Schlacht bei",
+      "quote": "Am 22. Juli kam es zur Schlacht.",
+      "supports": "The battle took place on 22 July 1443 (place St. Jakob an der Sihl)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008878/",
+      "title": "HLS: St. Jakob an der Sihl, Schlacht bei",
+      "quote": "Die Zürcher zogen sich in die Stadt zurück. Sie verloren 300 Mann, unter ihnen Bürgermeister Rudolf Stüssi.",
+      "supports": "The Confederates beat the Zurich troops outside the town; mayor Rudolf Stüssi was killed"
+     }
     ]
    },
    {
@@ -558,9 +937,9 @@
     "tick": "1444 Birs",
     "title": "St. Jakob an der Birs",
     "text": [
-     "Habsburg asked the King of France for help. He sent a large army of mercenaries, the 'Armagnacs', led by the Dauphin Louis.",
-     "On 26 August 1444 a small Confederate force attacked them near Basel. After a long fight almost all the Confederates were killed. HLS gives about 1,200 Confederate dead and about 2,000 Armagnac dead.",
-     "But the French army did not march on. In October 1444 the Dauphin made peace at Ensisheim. In 1450 Zurich left the alliance with Habsburg and returned to the Confederates."
+     "The Habsburg king Frederick III called in the 'Armagnacs', a large army of French mercenaries led by the Dauphin Louis (later King Louis XI).",
+     "On 26 August 1444 a Confederate force of about 1,500 men attacked them near Basel. After a long fight almost all the Confederates were killed. HLS gives about 1,200 Confederate dead and about 2,000 Armagnac dead.",
+     "But the French army did not march on. On 28 October 1444 the Dauphin made peace at Ensisheim. In 1450 the war ended, and Zurich had to leave its alliance with Habsburg."
     ],
     "view": "ch",
     "layers": [
@@ -618,6 +997,50 @@
       "year": 1443,
       "note": "Confederates win"
      }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008879/",
+      "title": "HLS: St. Jakob an der Birs, Schlacht bei",
+      "quote": "Von Kg. Friedrich III. herbeigerufen, aber ohne förml. Bündnisvertrag, rückte im Sommer 1444 das franz. Söldnerheer der im Hundertjährigen Krieg auftragslos gewordenen Armagnaken",
+      "supports": "King Frederick III called in the Armagnacs, a French mercenary army (layer France and Armagnacs)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008879/",
+      "title": "HLS: St. Jakob an der Birs, Schlacht bei",
+      "quote": "unter der Führung des Dauphins (später Kg. Ludwig XI.) ins Elsass ein und legte sich vor Basel",
+      "supports": "The army was led by the Dauphin Louis and came near Basel"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008879/",
+      "title": "HLS: St. Jakob an der Birs, Schlacht bei",
+      "quote": "Eine eidg. Schar von ca. 1'500 Mann, die gerade die Farnsburg belagerte, zog ihnen in der Frühe des 26. August ohne Auftrag entgegen.",
+      "supports": "On 26 August 1444 about 1,500 Confederates attacked them (place St. Jakob an der Birs)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008879/",
+      "title": "HLS: St. Jakob an der Birs, Schlacht bei",
+      "quote": "Auf der Seite der Armagnaken fielen ca. 2'000, auf eidg. Seite 1'200 Mann.",
+      "supports": "About 1,200 Confederate dead and about 2,000 Armagnac dead"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008879/",
+      "title": "HLS: St. Jakob an der Birs, Schlacht bei",
+      "quote": "Der Dauphin schloss in Ensisheim am 28.10.1444 mit Basel und den Eidgenossen Frieden.",
+      "supports": "Peace at Ensisheim on 28 October 1444"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/fr/articles/008877/",
+      "title": "HLS: Zurich, guerre de",
+      "quote": "un accord de paix définitif en 1450. Zurich rentra en possession de son territoire à l'exception des Höfe, mais dut rompre son alliance avec l'Autriche",
+      "supports": "In 1450 the war ended and Zurich had to leave the alliance with Habsburg (layer Zurich)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008878/",
+      "title": "HLS: St. Jakob an der Sihl, Schlacht bei",
+      "quote": "Die Zürcher zogen sich in die Stadt zurück.",
+      "supports": "Place St. Jakob an der Sihl: Confederates won in 1443"
+     }
     ]
    },
    {
@@ -625,8 +1048,8 @@
     "tick": "1474",
     "title": "Charles the Bold of Burgundy",
     "text": [
-     "Duke Charles the Bold of Burgundy ruled a rich state from the Netherlands to the Jura. He wanted to join his lands into one kingdom. In 1469 Habsburg gave him land in Alsace as a pledge.",
-     "Bern and the King of France, Louis XI, feared him. In 1474 the Confederates and Austria made peace, and the Confederates declared war on Burgundy. The fighting started at Héricourt, west of Basel."
+     "Duke Charles the Bold of Burgundy ruled lands in Burgundy and in the Netherlands. He wanted to join these two parts into one state. In 1469 Habsburg gave him its land in Alsace as a pledge.",
+     "Now Burgundy was a direct neighbour of the Confederates. Bern feared that Charles could close its trade roads, and King Louis XI of France was his enemy. In 1474 the Confederates and Austria made peace, and the Confederates declared war on Burgundy. On 13 November 1474 they and their allies won at Héricourt, west of Basel."
     ],
     "view": [
      [
@@ -700,6 +1123,56 @@
       "year": 1474,
       "note": "Confederates and allies win"
      }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007281/",
+      "title": "HLS: Burgund (Herzogtum)",
+      "quote": "Seine beiden Schwerpunkte waren das feudal geprägte Alt-Burgund und die eher städtisch-bürgerlich bestimmten Niederlande",
+      "supports": "Burgundy had two parts: Burgundy and the Netherlands (layer Duchy of Burgundy)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007281/",
+      "title": "HLS: Burgund (Herzogtum)",
+      "quote": "war es das Ziel der expansiven Politik Karls des Kühnen, die beiden Territorialkomplexe zu vereinigen",
+      "supports": "Charles wanted to join his two groups of lands"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008881/",
+      "title": "HLS: Burgunderkriege",
+      "quote": "erhielt als Gegenleistung die vorderösterreichischen Besitzungen ( Vorderösterreich ) im Elsass als Pfand (Vertrag von Saint-Omer, 9. Mai 1469)",
+      "supports": "In 1469 Habsburg gave Charles land in Alsace as a pledge"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008881/",
+      "title": "HLS: Burgunderkriege",
+      "quote": "Zugleich fürchtete Bern, dass der neue Nachbar Burgund die Handelsstrassen durch das schweizerische Mittelland zu den Genfer Messen sperren könnte.",
+      "supports": "Burgundy became a neighbour; Bern feared for its trade roads"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008881/",
+      "title": "HLS: Burgunderkriege",
+      "quote": "Der mit Burgund verfeindete Ludwig XI.",
+      "supports": "King Louis XI of France was an enemy of Burgundy (layer France)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008881/",
+      "title": "HLS: Burgunderkriege",
+      "quote": "einen Vertragsentwurf, der die langjährigen Feindseligkeiten zwischen Habsburg und den Eidgenossen beendigen sollte",
+      "supports": "In 1474 the Confederates and Austria made peace"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008882/",
+      "title": "HLS: Héricourt, Schlacht von",
+      "quote": "Die Eidgenossen und ihre Verbündeten (Niedere Vereinigung, österr. Städte des Elsass, schwäb. Reichsstädte) brachen unmittelbar nach der Kriegserklärung an Karl den Kühnen",
+      "supports": "The Confederates and allies declared war on Charles (layer Confederates and allies)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008881/",
+      "title": "HLS: Burgunderkriege",
+      "quote": "seinen Abschluss am 13. November 1474 mit einem Sieg über die Burgunder in der Schlacht von Héricourt fand",
+      "supports": "Victory at Héricourt on 13 November 1474 (place Héricourt)"
+     }
     ]
    },
    {
@@ -708,7 +1181,7 @@
     "title": "Grandson: the duke flees",
     "text": [
      "In February 1476 Charles took the town and castle of Grandson. He had the Bernese garrison hanged or drowned in the lake.",
-     "On 2 March 1476 the Confederate army met his army near Concise. The Burgundian troops panicked and ran away. The Confederates took his camp with a huge booty: tents, cannons, gold and tapestries."
+     "On 2 March 1476 the Confederate army met his army near Concise. The Burgundian troops panicked and ran away. The Confederates plundered his camp and took a rich booty."
     ],
     "view": "ch",
     "layers": [
@@ -773,6 +1246,50 @@
       "year": 1476,
       "note": "Confederates win; Charles flees"
      }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008883/",
+      "title": "HLS: Grandson, Schlacht bei",
+      "quote": "nahm zuerst Yverdon, dann die Stadt G. (21.2.) und das Schloss (am 28.2.) ein",
+      "supports": "In February 1476 Charles took the town and castle of Grandson (place Grandson)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008883/",
+      "title": "HLS: Grandson, Schlacht bei",
+      "quote": "Die Berner Garnison liess er erhängen oder im See ertränken.",
+      "supports": "He had the Bernese garrison hanged or drowned"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008883/",
+      "title": "HLS: Grandson, Schlacht bei",
+      "quote": "Am 2. März verlegte Karl rund 20'000 Mann von G. in die Nähe von Concise in ein ungünstiges Gelände.",
+      "supports": "On 2 March 1476 the armies met near Concise"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008883/",
+      "title": "HLS: Grandson, Schlacht bei",
+      "quote": "Unter den Burgundern kam Panik auf und sie flohen.",
+      "supports": "The Burgundian troops panicked and ran away"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008883/",
+      "title": "HLS: Grandson, Schlacht bei",
+      "quote": "plünderten das Lager des Hzg. von Burgund und machten reiche Beute",
+      "supports": "The Confederates plundered his camp and took a rich booty"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008881/",
+      "title": "HLS: Burgunderkriege",
+      "quote": "das Waadtland ziehen, das zum grössten Teil dem mit Burgund verbündeten Savoyen gehörte",
+      "supports": "Layer Savoy: Savoy was an ally of Burgundy"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008883/",
+      "title": "HLS: Grandson, Schlacht bei",
+      "quote": "Das Heer der Eidgenossen mit seinen 18'000 Mann aus Kontingenten der acht Orte und zahlreichen Verbündeten",
+      "supports": "Layer Confederates and allies"
+     }
     ]
    },
    {
@@ -780,8 +1297,8 @@
     "tick": "1476 Murten",
     "title": "Murten: the great victory",
     "text": [
-     "Charles came back with a new army. He laid siege to Murten. Soldiers from Bern and Fribourg held the town.",
-     "On 22 June 1476 the Confederates and their allies attacked his camp. Many Burgundian soldiers were driven into the lake. HLS gives 8,000 to 20,000 Burgundian dead, and a few hundred Confederate dead or wounded."
+     "Charles came back with a new army. He laid siege to Murten, and Bern called the Confederates to help.",
+     "On 22 June 1476 the Confederates and their allies attacked his camp by surprise. The Burgundian army panicked and was completely destroyed."
     ],
     "view": "ch",
     "layers": [
@@ -854,6 +1371,42 @@
       "year": 1476,
       "note": "Confederates win"
      }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008884/",
+      "title": "HLS: Murten, Schlacht bei",
+      "quote": "Als Revanche für die Niederlage in der Schlacht bei Grandson belagerte Karl M., worauf Bern die Eidgenossen erneut zur Verteidigung aufrief.",
+      "supports": "Charles came back and besieged Murten; Bern called the Confederates (place Murten)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008884/",
+      "title": "HLS: Murten, Schlacht bei",
+      "quote": "Am 22. Juni 1476 besiegten die Eidgenossen und ihre Bündnispartner Karl den Kühnen",
+      "supports": "On 22 June 1476 the Confederates and allies beat Charles (layer Confederates and allies)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008884/",
+      "title": "HLS: Murten, Schlacht bei",
+      "quote": "Das in Panik versetzte burgund. Heer wurde vollständig zerschlagen.",
+      "supports": "The Burgundian army panicked and was completely destroyed"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008884/",
+      "title": "HLS: Murten, Schlacht bei",
+      "quote": "Das - vielleicht in takt. Hinsicht unterlegene - burgund. Heer wurde durch den Angriff im Lager überrascht",
+      "supports": "They attacked his camp by surprise"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008883/",
+      "title": "HLS: Grandson, Schlacht bei",
+      "quote": "Unter den Burgundern kam Panik auf und sie flohen.",
+      "supports": "Place Grandson: Confederates won"
+     }
+    ],
+    "uncertain": [
+     "Soldiers from Bern and Fribourg held the town of Murten.",
+     "Many Burgundian soldiers were driven into the lake."
     ]
    },
    {
@@ -861,8 +1414,8 @@
     "tick": "1477",
     "title": "Nancy: the end of Charles",
     "text": [
-     "Charles now tried to take Lorraine. Duke René II of Lorraine hired more than 8,000 Confederate soldiers.",
-     "On 5 January 1477 René's army beat Charles near Nancy. Charles was killed after the battle. His lands were split: France took the Duchy of Burgundy, and Habsburg won the Netherlands by marriage.",
+     "René II of Lorraine took back Nancy, and Charles laid siege to it from October 1476. René hired more than 8,000 Confederate soldiers.",
+     "On 5 January 1477 René's army beat Charles near Nancy. Charles was killed after the battle. His lands were split: the King of France took the Duchy of Burgundy, and Habsburg got the largest part of his other lands.",
      "After these wars the princes of Europe wanted Swiss soldiers. Hiring out soldiers (mercenary service) became a big business for the Confederates."
     ],
     "view": [
@@ -956,6 +1509,59 @@
       "year": 1476,
       "note": "Confederates win"
      }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008885/",
+      "title": "HLS: Nancy, Schlacht bei",
+      "quote": "der Rückeroberung Ns. durch Hzg. René von Lothringen belagerte Karl der Kühne ab dem 22. Okt. 1476 mit 12'000 Mann N.",
+      "supports": "René took back Nancy; Charles besieged it from October 1476 (layer Lorraine)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008885/",
+      "title": "HLS: Nancy, Schlacht bei",
+      "quote": "René führte Anfang Jan. 1477 ein Entsatzheer von rund 20'000 Mann, zu dem auch über 8'000 eidg. Söldner zählten",
+      "supports": "René had more than 8,000 Confederate soldiers"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008881/",
+      "title": "HLS: Burgunderkriege",
+      "quote": "Unbekannte erschlugen ihn nach der Schlacht bei Nancy (5. Januar 1477)",
+      "supports": "On 5 January 1477 at Nancy; Charles was killed after the battle (place Nancy)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008885/",
+      "title": "HLS: Nancy, Schlacht bei",
+      "quote": "Nach kurzem Widerstand floh das Heer Karls.",
+      "supports": "René's army beat Charles"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007281/",
+      "title": "HLS: Burgund (Herzogtum)",
+      "quote": "gingen die bedeutendsten Besitzungen des Hauses Burgund-Valois an das Haus Habsburg über",
+      "supports": "France took the Duchy of Burgundy; Habsburg got the most important other lands"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007281/",
+      "title": "HLS: Burgund (Herzogtum)",
+      "quote": "Während der französische König Ludwig XI. das eigentliche Herzogtum Burgund als erledigtes Lehen in den Kronbesitz überführte",
+      "supports": "The King of France took the Duchy of Burgundy"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008881/",
+      "title": "HLS: Burgunderkriege",
+      "quote": "Die Siege von Grandson und Murten veranlassten die Fürsten Europas, die erfolgreichen Eidgenossen als Söldner für sich zu gewinnen",
+      "supports": "After these wars the princes of Europe wanted Swiss soldiers"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008884/",
+      "title": "HLS: Murten, Schlacht bei",
+      "quote": "Am 22. Juni 1476 besiegten die Eidgenossen und ihre Bündnispartner Karl den Kühnen",
+      "supports": "Place Murten"
+     }
+    ],
+    "uncertain": [
+     "Habsburg got the Netherlands through the marriage of Maximilian with Charles's daughter Mary."
     ]
    },
    {
@@ -963,9 +1569,9 @@
     "tick": "1478",
     "title": "Giornico: Uri in the south",
     "text": [
-     "Uri wanted the Leventina valley south of the Gotthard pass. Milan refused to give it up. In November 1478 the Confederates crossed the Gotthard.",
-     "On 28 December 1478 a small force stayed behind at Giornico. With a trick, it beat a much larger army from Milan. People there call it the 'battle of the big stones'.",
-     "Milan gave up the Leventina, and Uri ruled it. Bellinzona stayed with Milan for now."
+     "Uri had held the Leventina valley south of the Gotthard pass since about 1440. In 1466 Milan gave it to Uri for good, but later the Duke of Milan refused to hand it over. In November 1478 Uri, and then the other Confederates, crossed the Gotthard.",
+     "On 28 December 1478 a small force of about 175 men and 400 men from the Leventina stayed behind at Giornico. With a trick, it beat a much larger army from Milan. People in Ticino call it the 'battle of the big stones'.",
+     "Milan gave up the Leventina, and Uri ruled it again. Bellinzona stayed with Milan for now."
     ],
     "view": [
      [
@@ -1051,6 +1657,68 @@
       "lon": 8.5617,
       "kind": "place"
      }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008893/",
+      "title": "HLS: Mailänderkriege",
+      "quote": "die Leventina, die seit 1439/1441 Uri unterstand",
+      "supports": "Uri had held the Leventina since about 1440 (layer Leventina, ruled by Uri)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/024649/",
+      "title": "HLS: Ennetbirgische Feldzüge",
+      "quote": "1441 wurde die Leventina an Uri verpfändet.",
+      "supports": "Uri held the Leventina from 1441"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/024649/",
+      "title": "HLS: Ennetbirgische Feldzüge",
+      "quote": "sprach Mailand 1466 das Livinental dauerhaft den Urnern zu",
+      "supports": "In 1466 Milan gave the Leventina to Uri for good"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008900/",
+      "title": "HLS: Giornico, Schlacht bei",
+      "quote": "die Weigerung des Hzg. Galeazzo Maria Sforza von Mailand, die 1466 den Urnern zugesprochene Leventina abzutreten",
+      "supports": "The Duke of Milan refused to hand it over (layer Milan)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008900/",
+      "title": "HLS: Giornico, Schlacht bei",
+      "quote": "zogen die Urner im Nov. 1478 über den Gotthard und rückten in die Leventina ein",
+      "supports": "In November 1478 Uri crossed the Gotthard (place Gotthard Pass)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008900/",
+      "title": "HLS: Giornico, Schlacht bei",
+      "quote": "denen sich inzwischen die anderen eidg. Orte angeschlossen hatten",
+      "supports": "The other Confederates joined (layer Confederates)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008900/",
+      "title": "HLS: Giornico, Schlacht bei",
+      "quote": "Lediglich ein 175 Mann starkes Ersatzheer, verstärkt durch ca. 400 Leventiner, war zurückgeblieben und hatte bei G. Stellung bezogen.",
+      "supports": "A small force of 175 men and about 400 Leventina men stayed at Giornico (place Giornico)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008900/",
+      "title": "HLS: Giornico, Schlacht bei",
+      "quote": "Durch eine List gelang es diesem am 28.12.1478, die Übermacht in die Flucht zu schlagen.",
+      "supports": "On 28 December 1478 it beat a much larger army with a trick"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008900/",
+      "title": "HLS: Giornico, Schlacht bei",
+      "quote": "Diese Schlacht ist im Tessin unter dem Namen battaglia dei Sassi grossi bekannt.",
+      "supports": "Battle of the big stones"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008900/",
+      "title": "HLS: Giornico, Schlacht bei",
+      "quote": "verzichtete Mailand auf die Leventina, die wieder unter Urner Herrschaft kam, während Bellinzona bei Mailand verblieb",
+      "supports": "Milan gave up the Leventina, Uri ruled it again; Bellinzona stayed with Milan"
+     }
     ]
    },
    {
@@ -1058,8 +1726,8 @@
     "tick": "1499 Calven",
     "title": "Swabian War: Calven",
     "text": [
-     "Emperor Maximilian I wanted the Confederates to pay imperial taxes and obey the imperial court. They refused. In 1499 war broke out with Habsburg and the Swabian League, an alliance of south German princes and towns.",
-     "The Three Leagues of Graubünden were allies of the Confederates. On 22 May 1499 their army beat a Tyrolean army at the Calven gorge near Glurns. Their captain Benedikt Fontana was killed."
+     "King Maximilian I wanted the Confederates to pay a new imperial tax and to accept the new imperial court. They refused. In 1499 war broke out with Habsburg and the Swabian League, an alliance founded in 1488.",
+     "The Three Leagues of Graubünden were allies of the Confederates. On 22 May 1499 their army beat a Tyrolean army at the Calven, at the entrance of the Val Müstair. Their captain Benedikt Fontana was killed."
     ],
     "view": "ch",
     "layers": [
@@ -1129,6 +1797,62 @@
       "year": 1499,
       "note": "Graubünden beats Tyrol"
      }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008892/",
+      "title": "HLS: Basel, Frieden von (1499)",
+      "quote": "nämlich die Verordnung des Gemeinen Pfennigs und die Einrichtung des Reichskammergerichts am Wormser Reichstag von 1495",
+      "supports": "The causes of the war: the new imperial tax and the imperial court of 1495"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008892/",
+      "title": "HLS: Basel, Frieden von (1499)",
+      "quote": "noch die Weigerung der Eidgenossen, diesen nachzukommen",
+      "supports": "The Confederates refused"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008888/",
+      "title": "HLS: Schwabenkrieg",
+      "quote": "mit dem Haus Habsburg-Österreich und dem Schwäbischen Bund als dessen massgeblichen Verbündeten im Jahr 1499",
+      "supports": "In 1499 war with Habsburg and the Swabian League (layers Habsburg, Swabian League)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008888/",
+      "title": "HLS: Schwabenkrieg",
+      "quote": "das Vorgehen des 1488 gegründeten Schwäbischen Bunds",
+      "supports": "The Swabian League was founded in 1488"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008888/",
+      "title": "HLS: Schwabenkrieg",
+      "quote": "auf Graubünden, Tirol und Vorarlberg",
+      "supports": "Layer Habsburg: Tyrol and Vorarlberg were a front of the war"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008889/",
+      "title": "HLS: Calven, Schlacht an der",
+      "quote": "in dem die Eidgenossen mit ihren Bündnispartnern des Grauen und des Gotteshausbunds gegen den Schwäb. Bund und Kg. Maximilian I. kämpften",
+      "supports": "The leagues of Graubünden were allies of the Confederates; King Maximilian I (layer Three Leagues)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008889/",
+      "title": "HLS: Calven, Schlacht an der",
+      "quote": "An der C., der engsten Stelle des Eingangs ins Münstertal",
+      "supports": "The Calven is at the entrance of the Val Müstair (place Calven)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008889/",
+      "title": "HLS: Calven, Schlacht an der",
+      "quote": "Hier schlugen die Bündner am 22.5. mittels eines Umgehungsmanövers das gegner. Heer vernichtend.",
+      "supports": "On 22 May 1499 the Graubünden army beat the Tyrolean army"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008889/",
+      "title": "HLS: Calven, Schlacht an der",
+      "quote": "Benedikt Fontana, Hauptmann der Gotteshausleute, verlor auf der Schanze sein Leben.",
+      "supports": "Their captain Benedikt Fontana was killed"
+     }
     ]
    },
    {
@@ -1137,7 +1861,7 @@
     "title": "Dornach and the Peace of Basel",
     "text": [
      "On 22 July 1499 troops from Bern, Zurich, Lucerne, Zug and Solothurn attacked an imperial army at Dornach. They won, and the army's commander, Heinrich von Fürstenberg, was killed.",
-     "Maximilian had to make peace. The Peace of Basel (September 1499) ended the war. The Confederates did not leave the Empire on paper, but in practice imperial law no longer applied to them.",
+     "Maximilian had to make peace. The Peace of Basel (22 September 1499) ended the war. The Confederates stayed in the Empire, but in practice the new imperial court no longer had power over them.",
      "Basel and Schaffhausen joined the Confederation in 1501, and Appenzell in 1513."
     ],
     "view": "ch",
@@ -1224,6 +1948,68 @@
       "year": 1499,
       "note": "Graubünden wins"
      }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008891/",
+      "title": "HLS: Dornach, Schlacht bei",
+      "quote": "Die Schlacht bei D. brachte am 22.7.1499 die endgültige Entscheidung im Schweizer- bzw. Schwabenkrieg .",
+      "supports": "Battle of Dornach on 22 July 1499 (place Dornach)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008891/",
+      "title": "HLS: Dornach, Schlacht bei",
+      "quote": "Ein Heer aus Berner, Zürcher, Luzerner, Zuger und Solothurner Truppen schlug in einem Überraschungsangriff das österr. Heer vernichtend.",
+      "supports": "Troops from Bern, Zurich, Lucerne, Zug and Solothurn won"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008891/",
+      "title": "HLS: Dornach, Schlacht bei",
+      "quote": "Heinrich von Fürstenberg fand dabei den Tod. Maximilian I. war gezwungen, mit den Eidgenossen noch im gleichen Jahr Frieden zu schliessen",
+      "supports": "Fürstenberg was killed; Maximilian had to make peace"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008892/",
+      "title": "HLS: Basel, Frieden von (1499)",
+      "quote": "wurde er am 22. September 1499",
+      "supports": "Peace of Basel, 22 September 1499 (place Basel)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008892/",
+      "title": "HLS: Basel, Frieden von (1499)",
+      "quote": "Das Reichskammergericht als oberste Gerichtsinstanz fiel damit ausser Betracht",
+      "supports": "In practice the imperial court no longer had power over them"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008892/",
+      "title": "HLS: Basel, Frieden von (1499)",
+      "quote": "Bis ins 17. Jahrhundert hielten die eidgenössischen Orte an ihrer Zugehörigkeit zum Reich fest",
+      "supports": "The Confederates stayed in the Empire"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/026413/",
+      "title": "HLS: Eidgenossenschaft",
+      "quote": "1501 UR SZ UW LU ZH GL ZG BE FR SO mit BS",
+      "supports": "Basel joined in 1501 (table of alliances)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/026413/",
+      "title": "HLS: Eidgenossenschaft",
+      "quote": "1501 UR SZ UW LU ZH GL ZG BE FR SO BS mit SH",
+      "supports": "Schaffhausen joined in 1501"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/026413/",
+      "title": "HLS: Eidgenossenschaft",
+      "quote": "1513 UR SZ UW LU ZH GL ZG BE FR SO BS SH mit AP",
+      "supports": "Appenzell joined in 1513"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008889/",
+      "title": "HLS: Calven, Schlacht an der",
+      "quote": "Hier schlugen die Bündner am 22.5. mittels eines Umgehungsmanövers das gegner. Heer vernichtend.",
+      "supports": "Place Calven: Graubünden won"
+     }
     ]
    }
   ],
@@ -1252,8 +2038,8 @@
     "tick": "1500",
     "title": "Milan, France and Swiss soldiers",
     "text": [
-     "Around 1500 the Kings of France and the Dukes of Milan fought over Milan. Both sides hired Swiss soldiers.",
-     "In April 1500, at Novara, Swiss soldiers stood on both sides and refused to fight each other. Duke Ludovico Sforza fell into French hands. France ruled Milan.",
+     "Around 1500 the King of France and the Duke of Milan fought over Milan. Both sides hired Swiss soldiers.",
+     "In April 1500, at Novara, Swiss soldiers stood on both sides. The Swiss of Duke Ludovico Sforza refused to fight. The duke fell into French hands. France ruled Milan.",
      "In the same year Uri, Schwyz and Nidwalden took Bellinzona. France accepted this in 1503."
     ],
     "view": [
@@ -1358,6 +2144,50 @@
       "year": 1500,
       "note": "Taken by Uri, Schwyz, Nidwalden"
      }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008894/",
+      "title": "HLS: Novara, Schlachten bei",
+      "quote": "versuchte der Mailänder Hzg. Ludovico Sforza mit einem Söldnerheer, in dem sich viele Tausend Schweizer befanden, die Lombardei zurückzugewinnen",
+      "supports": "The Duke of Milan hired Swiss soldiers to win back Milan"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008894/",
+      "title": "HLS: Novara, Schlachten bei",
+      "quote": "Das franz. Heer, in dem ebenfalls Tausende von Schweizern standen, schloss den Herzog in N. ein",
+      "supports": "The French also had Swiss soldiers; Swiss on both sides at Novara (place Novara)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008894/",
+      "title": "HLS: Novara, Schlachten bei",
+      "quote": "Sforzas Schweizern, die den Kampf verweigerten, gewährten die Franzosen nach der am 9. April ausgehandelten Kapitulation freien Abzug",
+      "supports": "In April 1500 Sforza's Swiss refused to fight"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008893/",
+      "title": "HLS: Mailänderkriege",
+      "quote": "Im September 1499 eroberte Frankreich Mailand und im April 1500 wurde Ludovico Sforza nach dem \"Verrat von Novara\" gefangengenommen.",
+      "supports": "France ruled Milan; Ludovico Sforza was captured in April 1500 (layer Milan under France)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/024649/",
+      "title": "HLS: Ennetbirgische Feldzüge",
+      "quote": "1495 das Bleniotal und die Riviera und übernahmen 1500 die Herrschaft in Bellinzona",
+      "supports": "In 1500 the Confederates took Bellinzona; Blenio and Riviera (layer Bellinzona and valleys; place Bellinzona)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/024649/",
+      "title": "HLS: Ennetbirgische Feldzüge",
+      "quote": "Der französische König Ludwig XII. musste im Frieden von Arona 1503 diese Gebiete den eidgenössischen Ständen Uri, Schwyz und Nidwalden zusprechen.",
+      "supports": "France accepted this in 1503; the lands went to Uri, Schwyz and Nidwalden"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/024649/",
+      "title": "HLS: Ennetbirgische Feldzüge",
+      "quote": "Veltlin, Chiavenna und Bormio lagen im Blickfeld Graubündens.",
+      "supports": "Layer Three Leagues of Graubünden: ally with its own aims in the south"
+     }
     ]
    },
    {
@@ -1365,7 +2195,7 @@
     "tick": "1512",
     "title": "The Pavia campaign",
     "text": [
-     "In 1512 the Confederates joined the Pope and his allies (the Holy League). A large Swiss army marched into Lombardy and drove the French out of Milan.",
+     "In 1510 the Confederates made an alliance with Pope Julius II. They did not formally join his Holy League, but in 1512 a large Swiss army marched into Lombardy and drove the French out of Milan.",
      "The Confederates made Massimiliano Sforza Duke of Milan and protected him. In return they took Lugano, Locarno, Mendrisio and the Ossola valley. Graubünden took the Valtellina, Chiavenna and Bormio."
     ],
     "view": [
@@ -1471,6 +2301,50 @@
       "year": 1512,
       "note": "Ossola under the Confederates"
      }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008893/",
+      "title": "HLS: Mailänderkriege",
+      "quote": "schloss die Eidgenossenschaft vielmehr im März 1510 ein Bündnis mit Papst Julius II.",
+      "supports": "In 1510 the Confederates made an alliance with Pope Julius II"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008893/",
+      "title": "HLS: Mailänderkriege",
+      "quote": "Die Eidgenossenschaft trat zwar der vom Papst 1511 gegründeten Heiligen Liga nicht bei",
+      "supports": "They did not formally join the Holy League"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008893/",
+      "title": "HLS: Mailänderkriege",
+      "quote": "den Pavierzug, der zur Kapitulation von Cremona, Pavia und Mailand sowie zur Vertreibung der Franzosen aus der Lombardei führte",
+      "supports": "In 1512 a Swiss army drove the French out of Milan and Lombardy (place Pavia)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008893/",
+      "title": "HLS: Mailänderkriege",
+      "quote": "die Einsetzung Massimiliano Sforzas, des Sohnes Ludovico Sforzas, als Herzog von Mailand zu erwirken",
+      "supports": "The Confederates made Massimiliano Sforza Duke of Milan"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008894/",
+      "title": "HLS: Novara, Schlachten bei",
+      "quote": "Nach dem Pavierzug 1512 waren die Schweizer die Schutzherren des Herzogtums Mailand.",
+      "supports": "The Confederates protected Milan (layer Milan under Swiss protection)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/024649/",
+      "title": "HLS: Ennetbirgische Feldzüge",
+      "quote": "dehnten sie ihre Herrschaft im Tessin auf Locarno mit Maggia- und Verzascatal, Lugano und das Mendrisiotto aus. Das Eschental wurde erneut unterworfen.",
+      "supports": "They took Lugano, Locarno, Mendrisio and the Ossola (layer New Swiss lands; place Domodossola)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/024649/",
+      "title": "HLS: Ennetbirgische Feldzüge",
+      "quote": "Die Bündner eroberten 1512 das Veltlin, Bormio und Chiavenna.",
+      "supports": "Graubünden took the Valtellina, Chiavenna and Bormio (layer Graubünden)"
+     }
     ]
    },
    {
@@ -1480,7 +2354,7 @@
     "text": [
      "In 1513 King Louis XII of France sent an army to take Milan back. Swiss troops held Novara.",
      "On 6 June 1513 the Swiss attacked the French army near Novara and beat it. HLS calls this the high point of Swiss military power.",
-     "In the same year a Swiss army marched into France as far as Dijon. The town paid money, and the army went home."
+     "In the same year a Swiss army marched into France and laid siege to Dijon. The town gave up, and France promised to give up Milan and to pay money. The Swiss army went home early, and the king then broke the treaty."
     ],
     "view": [
      [
@@ -1586,6 +2460,56 @@
       "year": 1513,
       "note": "Swiss beat the French"
      }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008894/",
+      "title": "HLS: Novara, Schlachten bei",
+      "quote": "Der franz. König Ludwig XII. sammelte 1513 erneut ein 14'000 Mann starkes Heer mit viel Reiterei und Artillerie und fiel in die Lombardei ein.",
+      "supports": "In 1513 Louis XII sent an army to take Milan back (layer France)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008894/",
+      "title": "HLS: Novara, Schlachten bei",
+      "quote": "Ein erstes Schweizer Aufgebot von 4'000 Mann trotzte dem Aufmarsch in N.",
+      "supports": "Swiss troops held Novara (place Novara)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008894/",
+      "title": "HLS: Novara, Schlachten bei",
+      "quote": "Hier wurden sie von den Eidgenossen am frühen Morgen des 6. Juni angegriffen und durch zweiseitige Umgehung eingekesselt.",
+      "supports": "On 6 June 1513 the Swiss attacked and beat the French"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008893/",
+      "title": "HLS: Mailänderkriege",
+      "quote": "Den Höhepunkt an militärischer Macht erreichten die Eidgenossen 1513 mit dem Sieg in der Schlacht bei Novara",
+      "supports": "HLS calls Novara the high point of Swiss military power; Swiss rule over Milan (layer Milan)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008895/",
+      "title": "HLS: Dijonerzug",
+      "quote": "begannen am 7.9.1513 - unterstützt durch den Stellvertreter des Kaisers, Hzg. Ulrich von Württemberg - mit der Belagerung Dijons",
+      "supports": "In 1513 a Swiss army laid siege to Dijon"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008895/",
+      "title": "HLS: Dijonerzug",
+      "quote": "der Verzicht Frankreichs auf Mailand und die Städte und Herrschaften Cremona und Asti sowie eine finanzielle Kriegsentschädigung von 400'000 Kronen",
+      "supports": "France promised to give up Milan and to pay money"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008895/",
+      "title": "HLS: Dijonerzug",
+      "quote": "Nachdem sich jedoch die uneinigen und undisziplinierten eidg. Truppen vorzeitig zurückgezogen hatten, brach Kg. Ludwig XII. den Vertrag",
+      "supports": "The Swiss army went home early, and the king broke the treaty"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008893/",
+      "title": "HLS: Mailänderkriege",
+      "quote": "Mit der 1516 erfolgten Anerkennung der eidgenössischen Herrschaft über Locarno, das Maggiatal, Lugano und Mendrisio",
+      "supports": "Layer New Swiss lands south of the Alps"
+     }
     ]
    },
    {
@@ -1593,9 +2517,9 @@
     "tick": "1515",
     "title": "Marignano: the turning point",
     "text": [
-     "In 1515 the new King of France, Francis I, came with a strong army with cavalry and many cannons. Some Swiss troops went home after an offer of money. The others fought.",
+     "In 1515 the new King of France, Francis I, came with a strong army with cavalry and many cannons. Some Swiss captains, from Bern, Solothurn and Fribourg, made a treaty with the king at Gallarate that promised money. Others did not accept it and fought.",
      "On 13 and 14 September 1515 the armies met at Marignano (today Melegnano), south-east of Milan. On the second morning Venetian troops came to help the French, and the Swiss lost. HLS gives 9,000 to 10,000 Swiss dead.",
-     "France took Milan. The defeat showed that pikes alone could not beat cavalry and guns."
+     "France took Milan. The Swiss lost to the French guns and to the help from Venice."
     ],
     "view": [
      [
@@ -1702,6 +2626,80 @@
       "kind": "battle",
       "year": 1513,
       "note": "Swiss win"
+     }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008896/",
+      "title": "HLS: Marignano, Schlacht von",
+      "quote": "Franz I. überquerte die Alpen mit 30'000 Fusssoldaten und Bogenschützen, mit Reiterei und einer starken Artillerie",
+      "supports": "Francis I came with a strong army with cavalry and many cannons (layer France)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008896/",
+      "title": "HLS: Marignano, Schlacht von",
+      "quote": "den Vertrag von Gallarate, der Frieden und die Zahlung einer Million Kronen an die Eidgenossen in Aussicht stellte",
+      "supports": "Some captains made the treaty of Gallarate that promised money"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008896/",
+      "title": "HLS: Marignano, Schlacht von",
+      "quote": "ein Teil der eidgenössischen Hauptleute, namentlich die Berner, Solothurner und Freiburger, zu Verhandlungen bereit",
+      "supports": "The captains from Bern, Solothurn and Fribourg"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008896/",
+      "title": "HLS: Marignano, Schlacht von",
+      "quote": "Der Vertrag wurde jedoch nicht von allen anerkannt, insbesondere die Urner, Schwyzer und Glarner waren dagegen.",
+      "supports": "Others did not accept it and fought"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008896/",
+      "title": "HLS: Marignano, Schlacht von",
+      "quote": "Die Schlacht von Marignano (heute Melegnano)",
+      "supports": "Marignano is today Melegnano (place Marignano)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008896/",
+      "title": "HLS: Marignano, Schlacht von",
+      "quote": "Am 13. und 14. September 1515 standen sich die Truppen des französischen Königs Franz I. und die das Herzogtum Mailand verteidigenden Eidgenossen gegenüber.",
+      "supports": "The armies met on 13 and 14 September 1515"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008896/",
+      "title": "HLS: Marignano, Schlacht von",
+      "quote": "traf 16 km südöstlich der Stadt auf die mit ihm verbündete Armee Venedigs",
+      "supports": "South-east of Milan"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008896/",
+      "title": "HLS: Marignano, Schlacht von",
+      "quote": "wenn nicht im Verlaufe des Morgens 12'000 Mann Verstärkung der Republik Venedig angekommen wären",
+      "supports": "On the second morning Venetian troops came"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008896/",
+      "title": "HLS: Marignano, Schlacht von",
+      "quote": "von 9000-10'000 eidgenössischen Söldnern",
+      "supports": "9,000 to 10,000 Swiss dead"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008896/",
+      "title": "HLS: Marignano, Schlacht von",
+      "quote": "Die Eidgenossen, die vorzugsweise im Schlachthaufen kämpften, wurden durch die Artillerie und die Ankunft der Venezianer besiegt.",
+      "supports": "The Swiss lost to the French guns and the Venetians"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008898/",
+      "title": "HLS: Ewiger Frieden",
+      "quote": "Franz I. als König von Frankreich und Herzog von Mailand",
+      "supports": "France took Milan"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008894/",
+      "title": "HLS: Novara, Schlachten bei",
+      "quote": "Hier wurden sie von den Eidgenossen am frühen Morgen des 6. Juni angegriffen",
+      "supports": "Place Novara 1513: Swiss win"
      }
     ]
    },
@@ -1818,6 +2816,50 @@
       "year": 1515,
       "note": "French win"
      }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008898/",
+      "title": "HLS: Ewiger Frieden",
+      "quote": "bis in Freiburg am 29.11.1516 nach längeren Verhandlungen der E. abgeschlossen wurde",
+      "supports": "On 29 November 1516 the Perpetual Peace was signed at Fribourg (place Fribourg)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008898/",
+      "title": "HLS: Ewiger Frieden",
+      "quote": "Faktisch gaben die Eidgenossen mit dem E. ihre Ansprüche auf das Protektorat über Mailand auf.",
+      "supports": "The Swiss gave up their protection of Milan"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008898/",
+      "title": "HLS: Ewiger Frieden",
+      "quote": "Auf diese Weise gelangte das Gebiet des späteren Kt. Tessin definitiv, Mendrisio ab 1521, an die Eidgenossenschaft.",
+      "supports": "They kept the lands that are today Ticino (layer Swiss lands in the south)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008893/",
+      "title": "HLS: Mailänderkriege",
+      "quote": "Mit der 1516 erfolgten Anerkennung der eidgenössischen Herrschaft über Locarno, das Maggiatal, Lugano und Mendrisio (1521 endgültig erworben)",
+      "supports": "They kept Lugano, Locarno, Mendrisio and the Maggia valley"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/024649/",
+      "title": "HLS: Ennetbirgische Feldzüge",
+      "quote": "Im Ewigen Frieden von 1516 gestand König Franz I. den Eidgenossen und den Bündnern ihre Eroberungen zu, das Eschental kam wieder zu Mailand.",
+      "supports": "Graubünden kept the Valtellina; the Ossola went back to Milan (layers Graubünden, France)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008893/",
+      "title": "HLS: Mailänderkriege",
+      "quote": "Diesem folgte 1521 ein Bündnisvertrag mit Frankreich, der auch die Stellung von Schweizer Truppen vorsah.",
+      "supports": "In 1521 an alliance with France that provided Swiss soldiers"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008896/",
+      "title": "HLS: Marignano, Schlacht von",
+      "quote": "Die Eidgenossen, die vorzugsweise im Schlachthaufen kämpften, wurden durch die Artillerie und die Ankunft der Venezianer besiegt.",
+      "supports": "Place Marignano: the French won"
+     }
     ]
    },
    {
@@ -1825,8 +2867,8 @@
     "tick": "1522",
     "title": "Bicocca: guns beat pikes",
     "text": [
-     "Now the Swiss fought for France against Emperor Charles V, who wanted Milan.",
-     "On 27 April 1522 the Swiss attacked the imperial army at Bicocca, north of Milan. The enemy waited behind a ditch and a wall and fired with handguns (arquebuses). The Swiss lost many men and did not win."
+     "Now the Swiss fought for France against Emperor Charles V. Both wanted Milan.",
+     "On 27 April 1522 the Swiss and the French fought the imperial army at Bicocca, north of Milan. The enemy waited behind a ditch and a wall and fired with handguns (arquebuses). France and the Swiss lost the battle."
     ],
     "view": [
      [
@@ -1930,6 +2972,35 @@
       "year": 1522,
       "note": "Imperial army beats French and Swiss"
      }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008902/",
+      "title": "HLS: Bicocca, Schlacht bei",
+      "quote": "1521 schlossen die eidg. Orte mit dem franz. Kg. Franz I. in Luzern eine Allianz",
+      "supports": "Now the Swiss fought for France (layer France)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008902/",
+      "title": "HLS: Bicocca, Schlacht bei",
+      "quote": "einem Ort nördlich Mailands, bei der sich die Heere des franz. Königs, der im Begriff stand, Mailand zurückzuerobern, und Ks. Karls V. gegenüberstanden",
+      "supports": "Bicocca is north of Milan; France fought Emperor Charles V over Milan (place Bicocca; layer Milan)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008902/",
+      "title": "HLS: Bicocca, Schlacht bei",
+      "quote": "Der Kampf gegen die kaiserl. Truppen unter der Leitung von Prospero Colonna fand am 27.4.1522 statt. Frankreich und die Eidgenossen verloren die Schlacht.",
+      "supports": "On 27 April 1522 France and the Swiss lost"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008898/",
+      "title": "HLS: Ewiger Frieden",
+      "quote": "Auf diese Weise gelangte das Gebiet des späteren Kt. Tessin definitiv, Mendrisio ab 1521, an die Eidgenossenschaft.",
+      "supports": "Layer Swiss lands in the south"
+     }
+    ],
+    "uncertain": [
+     "At Bicocca the imperial army waited behind a ditch and a wall and fired with arquebuses."
     ]
    },
    {
@@ -2067,6 +3138,56 @@
       "year": 1513,
       "note": "Swiss win"
      }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008897/",
+      "title": "HLS: Pavia, Schlacht bei",
+      "quote": "Kg. Franz I. von Frankreich belagerte ab dem 28.10.1524 P. mit 29'000 Mann, darunter 8'000 Schweizern unter Hans von Diesbach.",
+      "supports": "From October 1524 Francis I laid siege to Pavia; about 8,000 Swiss in his army (place Pavia)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008897/",
+      "title": "HLS: Pavia, Schlacht bei",
+      "quote": "Am 24.2.1525 griff das Entsatzheer Ks. Karl V.",
+      "supports": "On 24 February 1525 an imperial army attacked"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008897/",
+      "title": "HLS: Pavia, Schlacht bei",
+      "quote": "gegen 10'000 wurden gefangen genommen, darunter auch Kg. Franz I.",
+      "supports": "The imperial army won; the king was taken prisoner"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008902/",
+      "title": "HLS: Bicocca, Schlacht bei",
+      "quote": "Diese Niederlage und diejenige von Pavia 1525 bedeuteten das Ende der eidg. Expansionspolitik in Norditalien.",
+      "supports": "Bicocca and Pavia ended Swiss plans in northern Italy (place Bicocca)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008896/",
+      "title": "HLS: Marignano, Schlacht von",
+      "quote": "vor allem auf innere Spaltungen, die wegen der Reformation entstanden waren",
+      "supports": "The Reformation divided the Confederates"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008896/",
+      "title": "HLS: Marignano, Schlacht von",
+      "quote": "der ein Bündnis sowie die Bereitstellung von eidgenössischen Regimentern für Frankreich vorsah. Dieses politisch-militärische System hatte bis zur Französischen Revolution Bestand.",
+      "supports": "Many Swiss still served as mercenaries (for France)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008896/",
+      "title": "HLS: Marignano, Schlacht von",
+      "quote": "Nach Marignano gaben die eidgenössischen Orte ihre Expansionspolitik auf.",
+      "supports": "They no longer made war to win land abroad (place Marignano)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008894/",
+      "title": "HLS: Novara, Schlachten bei",
+      "quote": "Hier wurden sie von den Eidgenossen am frühen Morgen des 6. Juni angegriffen",
+      "supports": "Place Novara: Swiss win"
+     }
     ]
    }
   ],
@@ -2158,6 +3279,56 @@
       "year": 1529,
       "note": "First Peace of Kappel, no battle"
      }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008903/",
+      "title": "HLS: Kappelerkriege",
+      "quote": "zwischen den reformierten Städten – insbesondere Zürich und Bern – und den altgläubigen fünf inneren Orten der Eidgenossenschaft (Luzern, Uri, Schwyz, Unterwalden und Zug)",
+      "supports": "The Reformation split the Confederates; the five inner places stayed Catholic (layers Reformed, Catholic)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008903/",
+      "title": "HLS: Kappelerkriege",
+      "quote": "Der Durchbruch der Reformation in Bern, Basel und Schaffhausen 1528-1529",
+      "supports": "Bern, Basel and Schaffhausen became Reformed"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008903/",
+      "title": "HLS: Kappelerkriege",
+      "quote": "Zum Auslöser des Ersten Kappelerkriegs wurde die Verbrennung des reformierten Pfarrers Jakob Kaiser in Schwyz.",
+      "supports": "In 1529 Schwyz burned the Reformed pastor Jakob Kaiser"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008903/",
+      "title": "HLS: Kappelerkriege",
+      "quote": "Zürich erklärte den fünf Orten am 8. Juni 1529 den Krieg und zog mit seiner Hauptmacht nach Kappel an der Zuger Grenze",
+      "supports": "Zurich went to war; the armies met near Kappel (place Kappel am Albis)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008903/",
+      "title": "HLS: Kappelerkriege",
+      "quote": "Im Ersten Kappelerkrieg von 1529 konnten Kriegshandlungen auf diplomatischem Weg verhindert werden.",
+      "supports": "They did not fight"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008903/",
+      "title": "HLS: Kappelerkriege",
+      "quote": "Kriegsleute aus beiden Lagern hätten demnach aus einem grossen Eimer an der Grenze gemeinsam eine Suppe aus Milch und Brot gegessen",
+      "supports": "The story of the milk soup"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008903/",
+      "title": "HLS: Kappelerkriege",
+      "quote": "Dieser fiel am 26. Juni 1529 in Form des Ersten Kappeler Landfriedens eher zugunsten der reformierten Wünsche aus",
+      "supports": "The First Peace of Kappel (26 June 1529) favoured the Reformed side"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008903/",
+      "title": "HLS: Kappelerkriege",
+      "quote": "Die Frage, ob in den gemeinen Herrschaften die einzelnen Gemeinden oder die regierenden Orte",
+      "supports": "Layer Mixed: in the common lordships the faith was disputed"
+     }
     ]
    },
    {
@@ -2165,9 +3336,9 @@
     "tick": "1531 Kappel",
     "title": "Kappel: Zwingli is killed",
     "text": [
-     "Zurich and Bern blocked food supplies to the Catholic places. In October 1531 the five Catholic places attacked.",
+     "In May 1531 Zurich and Bern blocked grain and salt supplies to the Catholic places. In October 1531 the five Catholic places attacked.",
      "On 11 October 1531 they beat the Zurich army at Kappel. About 500 men from Zurich died, among them the reformer Huldrych Zwingli, who went with the army as a preacher.",
-     "On 24 October the Catholics beat Zurich troops again at the Gubel, near Menzingen."
+     "In the night of 23 to 24 October the Catholics beat Reformed troops again at the Gubel, near Menzingen."
     ],
     "view": "ch",
     "layers": [
@@ -2239,6 +3410,44 @@
       "year": 1531,
       "note": "Catholics win"
      }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008903/",
+      "title": "HLS: Kappelerkriege",
+      "quote": "im Mai entschlossen, gegen die fünf Orte eine Proviantsperre (Unterbindung der Zufuhr von Getreide und Salz) zu erlassen",
+      "supports": "In May 1531 Zurich and Bern blocked grain and salt"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008903/",
+      "title": "HLS: Kappelerkriege",
+      "quote": "Im Oktober 1531 entschlossen sich die fünf inneren Orte, in welchen sich die Lebensmittelblockade immer stärker bemerkbar machte, zum Angriff",
+      "supports": "In October 1531 the five Catholic places attacked (layer Catholic)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008903/",
+      "title": "HLS: Kappelerkriege",
+      "quote": "Der um 16 Uhr ausgelöste Angriff der fünf Orte führte nach kurzem Widerstand zur Flucht des in Panik geratenen Zürcher Heeres.",
+      "supports": "On 11 October 1531 they beat the Zurich army at Kappel (place Kappel am Albis)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008903/",
+      "title": "HLS: Kappelerkriege",
+      "quote": "Unter den etwa 500 gefallenen Zürchern befand sich auch Zwingli, der das Banner als Feldprediger begleitet hatte",
+      "supports": "About 500 men from Zurich died, among them Zwingli, who went with the army as a preacher"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008903/",
+      "title": "HLS: Kappelerkriege",
+      "quote": "nur den Gubel bei Menzingen, wo es während des Nachtlagers von einer kleinen Truppe der fünf Orte überfallen und in die Flucht geschlagen wurde",
+      "supports": "The Catholics beat Reformed troops at the Gubel near Menzingen (place Gubel)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008903/",
+      "title": "HLS: Kappelerkriege",
+      "quote": "bis zur Nacht vom 23. auf den 24. Okotber 1531",
+      "supports": "The night of 23 to 24 October 1531"
+     }
     ]
    },
    {
@@ -2246,8 +3455,8 @@
     "tick": "1531 Peace",
     "title": "Second Peace of Kappel",
     "text": [
-     "The Second Peace of Kappel (November 1531) said that each place keeps its own faith. In the common subject lands, the Catholic side gained.",
-     "The Catholic places now had more power in the Confederation. The border between the faiths stayed almost the same until 1798."
+     "The Second Peace of Kappel (20 November 1531) said that each place keeps its own faith. In the common subject lands, the Catholic side gained.",
+     "The Catholic places now had more power in the Confederation. The peace shaped the map of the two faiths for a long time."
     ],
     "view": "ch",
     "layers": [
@@ -2319,6 +3528,32 @@
       "year": 1531,
       "note": "Catholics win"
      }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008903/",
+      "title": "HLS: Kappelerkriege",
+      "quote": "jedem einzelnen Ort, die Konfession seiner Bürger und Untertanen selbst zu bestimmen, begünstigte jedoch in den gemeinen Herrschaften den Katholizismus",
+      "supports": "Each place keeps its own faith; in the common lands the Catholic side gained (layer Mixed)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008903/",
+      "title": "HLS: Kappelerkriege",
+      "quote": "der am 20. November 1531 im Weiler Deinikon bei Baar abgeschlossene Zweite Kappeler Landfrieden",
+      "supports": "The Second Peace of Kappel, 20 November 1531 (place Kappel am Albis)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/009807/",
+      "title": "HLS: Landfriedensbünde",
+      "quote": "Die Niederlagen der Reformierten bei Kappel und am Gubel ermöglichten es den fünf Orten, nun einen Frieden nach ihren Bedingungen zu diktieren.",
+      "supports": "The Catholic places now had more power (place Gubel)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008903/",
+      "title": "HLS: Kappelerkriege",
+      "quote": "Der Ausgang des Zweiten Kappelerkriegs prägte die konfessionelle Landkarte der Eidgenossenschaft – mit Ausnahme der Westschweiz.",
+      "supports": "The peace shaped the map of the two faiths"
+     }
     ]
    },
    {
@@ -2326,9 +3561,9 @@
     "tick": "1653 Rising",
     "title": "The Peasants' War",
     "text": [
-     "After the Thirty Years' War, prices for farm products fell. Lucerne and Bern also made their coins worth less. The farmers lost money and were angry.",
-     "In February 1653 the farmers of the Entlebuch rose against Lucerne. Farmers in the Emmental and in the lands of Solothurn and Basel joined them. In May 1653 they swore an alliance at Huttwil. They wanted to speak to the town governments as equals.",
-     "This time Catholic and Reformed farmers fought together, against the town lords."
+     "After the Thirty Years' War, prices for farm products fell. In December 1652 Bern, Solothurn and Fribourg also made their coins worth less. The farmers lost money and were angry.",
+     "In February 1653 the farmers of the Entlebuch rose against Lucerne. Farmers in the Emmental and in the lands of Solothurn and Basel joined them. In May 1653 they swore an alliance at Huttwil. They wanted their own assemblies and a say in the laws.",
+     "This time Catholic and Reformed farmers worked together, against the town lords."
     ],
     "view": "ch",
     "layers": [
@@ -2391,6 +3626,56 @@
       "year": 1653,
       "note": "Start of the rising"
      }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008909/",
+      "title": "HLS: Bauernkrieg (1653)",
+      "quote": "Mit der Beendigung des Dreissigjährigen Kriegs folgte auf die ausgeprägte, mehr als zwei Jahrzehnte dauernde Export- und Preiskonjunktur eine tiefe Nachkriegs- und Friedensdepression.",
+      "supports": "After the Thirty Years' War, prices fell"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008909/",
+      "title": "HLS: Bauernkrieg (1653)",
+      "quote": "Die nach dem Dreissigjährigen Krieg verfügte Abwertung der Berner, Solothurner und Freiburger Handmünzen (Batzen, deshalb auch «Batzenkrieg») im Dezember 1652",
+      "supports": "Bern, Solothurn and Fribourg made their coins worth less in December 1652"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008909/",
+      "title": "HLS: Bauernkrieg (1653)",
+      "quote": "Die Untertanen der Luzerner Talschaft Entlebuch waren von der Massnahme besonders stark betroffen",
+      "supports": "The farmers lost money (Entlebuch)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008909/",
+      "title": "HLS: Bauernkrieg (1653)",
+      "quote": "Am 10. Februar veranstalteten sämtliche Bewohner der Talschaft eine Prozession zur Wallfahrtskirche Heiligkreuz",
+      "supports": "In February 1653 the Entlebuch rose against Lucerne (place Entlebuch)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008909/",
+      "title": "HLS: Bauernkrieg (1653)",
+      "quote": "den Aufstand ländlicher Untertanen der eidgenössischen Stände Luzern, Bern, Solothurn und Basel im Entlebuch, Emmental, in Teilen der Solothurner und Basler Landschaft",
+      "supports": "Farmers in the Emmental, Solothurn and Basel lands joined (layers Rising farmers, Town governments)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008909/",
+      "title": "HLS: Bauernkrieg (1653)",
+      "quote": "besammelten sich Vertreter der Untertanen von Luzern, Bern, Solothurn und Basel in Huttwil zu einer weiteren Landsgemeinde und schlossen einen dritten «Bauernbund»",
+      "supports": "In May 1653 (14 May) they swore an alliance at Huttwil (place Huttwil)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008909/",
+      "title": "HLS: Bauernkrieg (1653)",
+      "quote": "das seit dem Stanser Verkommnis (1481) verweigerte Recht auf eigene politische «Landsgemeinden» und Versammlungen sowie die institutionalisierte Mitsprache an der herrschaftlichen Gesetzgebung",
+      "supports": "They wanted their own assemblies and a say in the laws"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008909/",
+      "title": "HLS: Bauernkrieg (1653)",
+      "quote": "intensive Markt- und Austauschbeziehungen, welche über die territorialherrschaftlichen und konfessionellen Grenzen hinwegschritten",
+      "supports": "Catholic and Reformed farmers worked together across borders"
+     }
     ]
    },
    {
@@ -2398,8 +3683,8 @@
     "tick": "1653 Defeat",
     "title": "Wohlenschwil and Herzogenbuchsee",
     "text": [
-     "The Diet (the meeting of the Confederate places) sent an army. On 3 June 1653 it beat the farmers at Wohlenschwil. A few days later Bernese troops beat the rest of the farmers' army at Herzogenbuchsee, and the village burned.",
-     "The farmers' leader, Niklaus Leuenberger, was betrayed and executed in Bern with other leaders. The town lords won, but after this they were more careful with new taxes."
+     "The Diet (the meeting of the Confederate places) sent an army. On 3 June 1653 it fought the farmers at Wohlenschwil, and the church and part of the village burned. Then Bernese troops under General Sigmund von Erlach beat the rest of the farmers' army at Herzogenbuchsee, and that village burned too.",
+     "The farmers' leader, Niklaus Leuenberger, was betrayed and executed in Bern with 20 other leaders. The town lords won, but after this they could not make their power absolute."
     ],
     "view": "ch",
     "layers": [
@@ -2470,6 +3755,50 @@
       "year": 1653,
       "note": "Farmers' alliance"
      }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/001657/",
+      "title": "HLS: Wohlenschwil",
+      "quote": "am 3.6.1653 zwischen dem Tagsatzungsheer und den aufständ. Bauern bei W. zum Gefecht. Die Kirche und ein Teil des Dorfs gingen dabei in Flammen auf.",
+      "supports": "On 3 June 1653 the Diet army fought the farmers at Wohlenschwil; the church and part of the village burned (place Wohlenschwil)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/018844/",
+      "title": "HLS: Leuenberger, Niklaus",
+      "quote": "nach dem Zusammenbruch der Aufstandsbewegung infolge der Niederlagen der Bauern bei Wohlenschwil und Herzogenbuchsee",
+      "supports": "The farmers were beaten at Wohlenschwil and Herzogenbuchsee"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/000565/",
+      "title": "HLS: Herzogenbuchsee",
+      "quote": "Bei Herzogenbuchsee besiegten dann bernische Truppen unter General Sigmund von Erlach Reste von Niklaus Leuenbergers Bauernheer",
+      "supports": "Bernese troops under Sigmund von Erlach beat the rest of the farmers' army at Herzogenbuchsee (place Herzogenbuchsee)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/000565/",
+      "title": "HLS: Herzogenbuchsee",
+      "quote": "das Dorf ging in Flammen auf",
+      "supports": "The village of Herzogenbuchsee burned"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/018844/",
+      "title": "HLS: Leuenberger, Niklaus",
+      "quote": "von einem ehem. Mitstreiter verraten, nach Bern abgeführt und mit 20 weiteren Anführern hingerichtet",
+      "supports": "Leuenberger was betrayed and executed in Bern with 20 other leaders"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/018844/",
+      "title": "HLS: Leuenberger, Niklaus",
+      "quote": "Nachdem er auch die beiden folgenden Landsgemeinden von Huttwil geleitet hatte",
+      "supports": "Place Huttwil: farmers' alliance"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008909/",
+      "title": "HLS: Bauernkrieg (1653)",
+      "quote": "dass die städtischen Obrigkeiten in der Alten Eidgenossenschaft die Entwicklung zum Absolutismus nicht weitertreiben konnten",
+      "supports": "After this the town lords could not make their power absolute (layer Town governments)"
+     }
     ]
    },
    {
@@ -2477,8 +3806,8 @@
     "tick": "1656",
     "title": "First Villmergen War",
     "text": [
-     "In 1655 Schwyz punished Reformed people in Arth, and some fled to Zurich. Zurich and Bern wanted to change the Peace of Kappel by force.",
-     "Zurich laid siege to Rapperswil but could not take it. On 24 January 1656 the army of Lucerne and the inner places beat the Bernese army at Villmergen.",
+     "In 1655 Reformed people from Arth fled to Zurich, and Schwyz executed four Reformed people who had stayed. Zurich and Bern wanted to change the Peace of Kappel by force.",
+     "Zurich laid siege to Rapperswil but could not take it. On 24 January 1656 troops from Lucerne and Zug beat the Bernese army at Villmergen.",
      "The Third Peace of Baden (March 1656) kept the old rules. The Catholic places kept their stronger position."
     ],
     "view": "ch",
@@ -2547,6 +3876,68 @@
       "kind": "town",
       "year": 1656,
       "note": "Zurich siege fails"
+     }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008910/",
+      "title": "HLS: Villmergerkrieg, Erster",
+      "quote": "Im September 1655 traf eine Gruppe von reformierten Flüchtlingen (Nikodemiten) aus Arth in Zürich ein.",
+      "supports": "In 1655 Reformed people from Arth fled to Zurich"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008910/",
+      "title": "HLS: Villmergerkrieg, Erster",
+      "quote": "Entgegen Berner Warnungen wurden vier in Schwyz verbliebene Reformierte hingerichtet.",
+      "supports": "Schwyz executed four Reformed people"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008910/",
+      "title": "HLS: Villmergerkrieg, Erster",
+      "quote": "Die beiden reformierten Orte schickten sich damit an, die Rechtsordnung des Zweiten Landfriedens von 1531 umzugestalten und kriegerische Wege zu beschreiten.",
+      "supports": "Zurich and Bern wanted to change the Peace of Kappel by force"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008910/",
+      "title": "HLS: Villmergerkrieg, Erster",
+      "quote": "Militärischer Konflikt zwischen den reformierten Orten Zürich, Bern und Schaffhausen und den fünf katholischen Orten",
+      "supports": "Layers: Reformed side Zurich, Bern, Schaffhausen; Catholic side the five inner places"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008910/",
+      "title": "HLS: Villmergerkrieg, Erster",
+      "quote": "Als sein Sturmangriff auf Rapperswil am 3. Februar misslang",
+      "supports": "Zurich could not take Rapperswil (place Rapperswil)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008910/",
+      "title": "HLS: Villmergerkrieg, Erster",
+      "quote": "In einem Überraschungsangriff schlugen Luzerner und Zuger Truppen unter Christoph Pfyffer das Berner Heer bei Villmergen.",
+      "supports": "Troops from Lucerne and Zug beat the Bernese army at Villmergen (place Villmergen)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008910/",
+      "title": "HLS: Villmergerkrieg, Erster",
+      "quote": "Die Entscheidung zugunsten der katholischen Orte – Freiburg und Solothurn waren neutral geblieben – fiel am 24. Januar 1656.",
+      "supports": "On 24 January 1656; other places were neutral (layer Others)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008910/",
+      "title": "HLS: Villmergerkrieg, Erster",
+      "quote": "endete mit dem Abschluss des Dritten Landfriedens zu Baden am 7. März 1656",
+      "supports": "The Third Peace of Baden, March 1656"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008910/",
+      "title": "HLS: Villmergerkrieg, Erster",
+      "quote": "eine Erneuerung des Status quo ante, indem der Zweite Landfrieden von 1531 bestätigt wurde",
+      "supports": "The peace kept the old rules"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008910/",
+      "title": "HLS: Villmergerkrieg, Erster",
+      "quote": "Die Stellung der inneren Orte, die eine Kompetenzvermehrung eidgenössischer Institutionen vor allem in konfessionellen Streitigkeiten ablehnten, wurde gestärkt.",
+      "supports": "The Catholic places kept their stronger position"
      }
     ]
    },
@@ -2626,6 +4017,65 @@
       "year": 1712,
       "note": "Peace of Aarau"
      }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008911/",
+      "title": "HLS: Villmergerkrieg, Zweiter",
+      "quote": "der als überkonfessioneller Untertanenaufstand der Toggenburger gegen ihren Landesherrn begann",
+      "supports": "The war started in the Toggenburg with a rising against the abbot (layer Toggenburg)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008911/",
+      "title": "HLS: Villmergerkrieg, Zweiter",
+      "quote": "Zürich und Bern unterstützten dieses Vorgehen und richteten am 13. April 1712 ein Manifest gegen den Fürstabt",
+      "supports": "Zurich and Bern supported them; the five Catholic places took the abbot's side (layers Reformed, Catholic)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008911/",
+      "title": "HLS: Villmergerkrieg, Zweiter",
+      "quote": "worauf die fünf inneren Orte auf die Seite des Fürstabts traten",
+      "supports": "The five Catholic places took the abbot's side"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008911/",
+      "title": "HLS: Villmergerkrieg, Zweiter",
+      "quote": "Am 25. Juli kam es zum entscheidenden Treffen der Innerschweizer und Berner Truppen bei Villmergen",
+      "supports": "On 25 July 1712 Bern beat the Catholic army at Villmergen (place Villmergen)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008911/",
+      "title": "HLS: Villmergerkrieg, Zweiter",
+      "quote": "der mit dem Sieg der besser ausgerüsteten und ausgebildeten Berner endete",
+      "supports": "Bern won"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008911/",
+      "title": "HLS: Villmergerkrieg, Zweiter",
+      "quote": "dem am 11. August 1712 in Aarau abgeschlossenen Vierten Landfrieden",
+      "supports": "The Peace of Aarau, 11 August 1712 (place Aarau)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/009807/",
+      "title": "HLS: Landfriedensbünde",
+      "quote": "Die fünf Orte wurden von der Mitherrschaft in der Grafschaft Baden (mit Bremgarten) und in den Unteren Freien Ämtern ausgeschlossen",
+      "supports": "The Catholics lost their share in Baden and the lower Freie Ämter (layer Baden and lower Freie Ämter)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008911/",
+      "title": "HLS: Villmergerkrieg, Zweiter",
+      "quote": "Der Vierte Landfrieden war ein Machtfrieden der Berner und Zürcher.",
+      "supports": "Zurich and Bern were now the strongest powers"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008911/",
+      "title": "HLS: Villmergerkrieg, Zweiter",
+      "quote": "Der Friedensschluss legte die Rechtsgleichheit der beiden Konfessionen in Religionsfragen fest",
+      "supports": "Both faiths had equal rights"
+     }
+    ],
+    "uncertain": [
+     "After 1712 Glarus shared with Zurich and Bern in ruling Baden and the lower Freie Ämter (map label)."
     ]
    }
   ],
@@ -2654,8 +4104,8 @@
     "tick": "1798 Jan",
     "title": "French troops in Vaud",
     "text": [
-     "France had become a republic after the revolution of 1789. In 1797 it took the south of the Bishopric of Basel. Many people in Vaud wanted to be free of Bern's rule.",
-     "In January 1798 Vaud declared itself free (the 'Lemanic Republic'). French troops marched in. Other places also freed their subjects. The old order of the Confederation broke down."
+     "After the revolution of 1789, France became a strong and aggressive power. At the end of 1797 it took the south of the Bishopric of Basel. Many people in the subject lands, such as Vaud, were unhappy with their rulers.",
+     "In January 1798 a revolution broke out in Vaud, and on 24 January the 'Lemanic Republic' was declared. French troops marched in. Other places also freed their subjects. The old order of the Confederation broke down."
     ],
     "view": "ch",
     "layers": [
@@ -2728,6 +4178,44 @@
       "year": 1798,
       "note": "Vaud declares itself free"
      }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008915/",
+      "title": "HLS: Franzoseneinfall",
+      "quote": "Frankreich , das im Laufe der 1790er Jahre immer mehr in eine durch die Französische Revolution ausgelöste Dynamik geriet",
+      "supports": "France changed after the revolution (layer France)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008915/",
+      "title": "HLS: Franzoseneinfall",
+      "quote": "Ende 1797 besetzten französische Truppen den südlichen, in die eidgenössische Neutralität eingeschlossenen Teil des Fürstbistums Basel.",
+      "supports": "At the end of 1797 France took the south of the Bishopric of Basel"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/009797/",
+      "title": "HLS: Helvetische Republik",
+      "quote": "Frankreich nutzte die bestehende Unzufriedenheit der ländlichen Eliten in den Untertanengebieten",
+      "supports": "Many people in the subject lands were unhappy"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008915/",
+      "title": "HLS: Franzoseneinfall",
+      "quote": "Nach dem Ausbruch der Helvetischen Revolution in der Waadt und aufgrund eines Hilfegesuches der am 24. Januar 1798 proklamierten Lemanischen Republik marschierten die Franzosen ein.",
+      "supports": "Revolution in Vaud; Lemanic Republic on 24 January 1798; French troops marched in (layer Vaud; place Lausanne)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/009797/",
+      "title": "HLS: Helvetische Republik",
+      "quote": "griff die Helvetische Revolution rasch auf andere Orte über",
+      "supports": "Other places followed"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/009797/",
+      "title": "HLS: Helvetische Republik",
+      "quote": "April 1798 gab es in der Schweiz kein einziges Untertanengebiet mehr",
+      "supports": "The subjects were freed; the old order broke down (layer Confederates)"
+     }
     ]
    },
    {
@@ -2735,9 +4223,9 @@
     "tick": "1798 March",
     "title": "Grauholz and Neuenegg: Bern falls",
     "text": [
-     "Bern decided to fight. French armies attacked from the west and the north.",
-     "On 5 March 1798 the French beat the Bernese at Fraubrunnen and then at the Grauholz, north of Bern. On the same day, in the south, Bernese troops beat the French at Neuenegg. But this victory came too late.",
-     "Bern gave up, and French troops occupied the town. They took the Bernese state treasure to France."
+     "Bern decided to fight. French armies attacked from the south-west (Vaud) and from the north (the former Bishopric of Basel).",
+     "On 4 March 1798 the Bernese government resigned. Its troops still fought: in early March the French beat them at Fraubrunnen and then at the Grauholz, north of Bern. In the south, Bernese troops stopped the French at Neuenegg. But this came too late.",
+     "Bern gave up, and French troops occupied the town. They took the Bernese state treasure."
     ],
     "view": "ch",
     "layers": [
@@ -2816,6 +4304,50 @@
       "year": 1798,
       "note": "Occupied by France"
      }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008915/",
+      "title": "HLS: Franzoseneinfall",
+      "quote": "Das aristokratische Bern und die mit ihm verbündeten Patriziate von Solothurn und Freiburg sahen sich dadurch von Norden und Süden bedroht.",
+      "supports": "French armies attacked from the north and the south (layer France)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/009797/",
+      "title": "HLS: Helvetische Republik",
+      "quote": "in einer Zangenbewegung von der Waadt und vom Jura her in das westliche Mittelland vorstiessen",
+      "supports": "From Vaud and from the Jura (layer French-held)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008915/",
+      "title": "HLS: Franzoseneinfall",
+      "quote": "Am 4. März 1798 dankte die Berner Regierung ab.",
+      "supports": "On 4 March 1798 the Bernese government resigned"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008915/",
+      "title": "HLS: Franzoseneinfall",
+      "quote": "Dennoch versuchten die Berner Truppen, den französischen Vorstoss zu stoppen; auf der Nordachse unterlagen sie bei Fraubrunnen und entscheidend beim Grauholz.",
+      "supports": "The French beat the Bernese at Fraubrunnen and at the Grauholz (places Fraubrunnen, Grauholz)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008915/",
+      "title": "HLS: Franzoseneinfall",
+      "quote": "der französische Vorstoss aus dem Süden, der mit der Einnahme von Murten und Freiburg begonnen hatte und durch die Berner bei Neuenegg gestoppt wurde",
+      "supports": "In the south the Bernese stopped the French at Neuenegg, too late (place Neuenegg)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/009797/",
+      "title": "HLS: Helvetische Republik",
+      "quote": "Die Kantone Freiburg, Solothurn und Bern wurden besetzt",
+      "supports": "French troops occupied Bern (place Bern; layer Bern)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008915/",
+      "title": "HLS: Franzoseneinfall",
+      "quote": "Die Franzosen beschlagnahmten unter anderem die Berner und Zürcher Staatskasse und brachten Berns Bären als Trophäe nach Paris.",
+      "supports": "They took the Bernese state treasure"
+     }
     ]
    },
    {
@@ -2823,8 +4355,8 @@
     "tick": "1798 April",
     "title": "The Helvetic Republic",
     "text": [
-     "On 12 April 1798 the Helvetic Republic was proclaimed in Aarau. It was one state with one constitution, made after the French model. All people now had the same rights; there were no more subject lands.",
-     "Schwyz, Uri and Nidwalden refused the new constitution. Their troops, led by Alois Reding of Schwyz, won some fights, for example at Rothenthurm on 2 May 1798. But the French army was too strong, and Schwyz had to accept the constitution."
+     "On 12 April 1798 the Helvetic Republic replaced the old Confederation. Its first capital was Aarau. It was one state with one constitution, made after the French model. All people now had the same rights; there were no more subject lands.",
+     "Schwyz, Uri and Nidwalden refused the new constitution. Their troops, led by Alois Reding of Schwyz, won some fights, for example at Rothenthurm. But the French army was too strong, and on 4 May 1798 Schwyz gave up."
     ],
     "view": "ch",
     "layers": [
@@ -2912,6 +4444,56 @@
       "year": 1798,
       "note": "French win"
      }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/009797/",
+      "title": "HLS: Helvetische Republik",
+      "quote": "Das am 12. April 1798 in Kraft getretene, von Frankreich aufoktroyierte Grundgesetz war eine Adaptation der französischen Direktorialverfassung von 1795.",
+      "supports": "On 12 April 1798 the new constitution, on the French model, came into force (layer Helvetic Republic)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/009797/",
+      "title": "HLS: Helvetische Republik",
+      "quote": "in einen nationalen Einheitsstaat um, der auf den Prinzipien der Rechtsgleichheit, der Volkssouveränität und der Gewaltentrennung beruhte",
+      "supports": "One state; all people had the same rights"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/009797/",
+      "title": "HLS: Helvetische Republik",
+      "quote": "April 1798 gab es in der Schweiz kein einziges Untertanengebiet mehr",
+      "supports": "There were no more subject lands"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/001620/",
+      "title": "HLS: Aarau",
+      "quote": "die am 26. März 1798 zur Hauptstadt der Helvetischen Republik ernannt wurde",
+      "supports": "Aarau was the first capital (place Aarau)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008915/",
+      "title": "HLS: Franzoseneinfall",
+      "quote": "Im April 1798 lehnten Schwyz, Nidwalden und Uri die helvetische Verfassung ab. Unter Alois Reding konnten sie rund 10'000 Mann aufbieten.",
+      "supports": "Schwyz, Uri and Nidwalden refused; troops led by Alois Reding (layer Resisting)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008915/",
+      "title": "HLS: Franzoseneinfall",
+      "quote": "Hingegen gewannen sie je ein Gefecht bei Rothenthurm und Morgarten.",
+      "supports": "They won fights at Rothenthurm (place Rothenthurm)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008915/",
+      "title": "HLS: Franzoseneinfall",
+      "quote": "Doch die Lage war hoffnungslos; am 4. Mai 1798 gab die Schwyzer Landsgemeinde den Kampf auf.",
+      "supports": "On 4 May 1798 Schwyz gave up"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008915/",
+      "title": "HLS: Franzoseneinfall",
+      "quote": "auf der Nordachse unterlagen sie bei Fraubrunnen und entscheidend beim Grauholz",
+      "supports": "Place Grauholz: French win"
+     }
     ]
    },
    {
@@ -2919,8 +4501,8 @@
     "tick": "1798 Sept",
     "title": "Nidwalden: the days of terror",
     "text": [
-     "Nidwalden refused to swear an oath to the new state. In September 1798 French troops attacked from the lake and over the Allweg pass.",
-     "On 9 September the people of Nidwalden fought hard, but around midday they had to give way. HLS gives about 100 dead fighters from Nidwalden and about as many French. About 300 more men, women and children were killed afterwards. Stans, Stansstad, Buochs and Ennetmoos were burned and destroyed.",
+     "In July 1798 every citizen had to swear an oath to the new state. Nidwalden refused and rose up. The Helvetic government asked the French army under General Schauenburg to put down the rising.",
+     "On 9 September 1798 the people of Nidwalden fought a hopeless battle against the French army. HLS gives about 100 dead fighters from Nidwalden and about as many French. More than 300 men, women and children were killed afterwards. Stans, Stansstad, Buochs and Ennetmoos were badly destroyed.",
      "People in Nidwalden remembered these days of terror for a long time."
     ],
     "view": "ch",
@@ -3017,6 +4599,53 @@
       "year": 1798,
       "note": "Burned"
      }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/009797/",
+      "title": "HLS: Helvetische Republik",
+      "quote": "Am 12. Juli 1798 dekretierten die helvetischen Räte, dass alle Bürger den in der Verfassung vorgesehenen Eid auf die Helvetische Republik abzulegen hätten.",
+      "supports": "In July 1798 every citizen had to swear an oath"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/009797/",
+      "title": "HLS: Helvetische Republik",
+      "quote": "Dieser Beschluss löste offenen Aufruhr in Nidwalden und Schwyz aus",
+      "supports": "Nidwalden refused and rose up (layer Nidwalden)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007411/",
+      "title": "HLS: Nidwalden",
+      "quote": "die Nidwaldner Truppen in eine aussichtslose Schlacht gegen die französische Armee unter General Alexis Balthasar Henri Antoine von Schauenburg",
+      "supports": "On 9 September 1798 Nidwalden fought a hopeless battle against the French under Schauenburg (layer France; place Allweg)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007411/",
+      "title": "HLS: Nidwalden",
+      "quote": "dem die helvetischen Behörden den Auftrag zur Niederschlagung des Aufstandes erteilt hatten",
+      "supports": "The Helvetic government asked the French to put down the rising (layer Helvetic Republic)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007411/",
+      "title": "HLS: Nidwalden",
+      "quote": "Rund 100 Nidwaldner und ebenso viele Franzosen fielen im Kampf, weitere gut 300 Männer, Frauen und Kinder kamen bei den anschliessenden Massakern um.",
+      "supports": "About 100 dead from Nidwalden and as many French; more than 300 killed afterwards"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007411/",
+      "title": "HLS: Nidwalden",
+      "quote": "Die Dörfer Ennetmoos, Stansstad, Buochs und Stans wurden stark verwüstet.",
+      "supports": "Stans, Stansstad, Buochs and Ennetmoos were badly destroyed (places Stans, Stansstad, Buochs)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/007411/",
+      "title": "HLS: Nidwalden",
+      "quote": "Die \"Nidwaldner Schreckenstage\" erzeugten ein kollektives Trauma, das lange nachwirkte",
+      "supports": "People remembered the days of terror for a long time"
+     }
+    ],
+    "uncertain": [
+     "The French attacked from the lake and over the Allweg pass, and the people of Nidwalden gave way around midday."
     ]
    },
    {
@@ -3025,7 +4654,7 @@
     "title": "First Battle of Zurich",
     "text": [
      "In 1799 Austria and Russia went to war against France again (the Second Coalition War). Switzerland became a battlefield of foreign armies.",
-     "Austrian troops under Archduke Charles came from the east. In early June 1799 they attacked the French under General Masséna at Zurich. The French gave up the town and moved back to a line west of Zurich.",
+     "Austrian troops came from the north under Archduke Charles and from the east under Friedrich von Hotze. In early June 1799 they attacked the French under General Masséna at Zurich. The French gave up the town and moved back to a line west of Zurich.",
      "The armies took food, animals and wood from the people. Many villages suffered badly."
     ],
     "view": "ch",
@@ -3095,6 +4724,44 @@
       "year": 1799,
       "note": "Austrians beat the French"
      }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008917/",
+      "title": "HLS: Zürich, Schlachten bei",
+      "quote": "Die beiden Schlachten um Zürich spielten sich 1799 während des Zweiten Koalitionskriegs zwischen französischen und österreichisch-russischen Truppen ab.",
+      "supports": "In 1799 Austria and Russia fought France (Second Coalition War) in Switzerland"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008917/",
+      "title": "HLS: Zürich, Schlachten bei",
+      "quote": "drangen österreichische Truppen von Norden unter Erzherzog Karl und von Osten unter dem aus Richterswil stammenden Feldmarschall Johann Konrad Hotz in die Schweiz ein",
+      "supports": "Austrian troops came from the north under Archduke Charles and from the east under Hotze (layer Austrian-held)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008917/",
+      "title": "HLS: Zürich, Schlachten bei",
+      "quote": "Als am 2.-4. Juni der französische Brückenkopf bei Zürich",
+      "supports": "In early June 1799 they attacked the French at Zurich (place Zurich)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008917/",
+      "title": "HLS: Zürich, Schlachten bei",
+      "quote": "entschloss sich Masséna, Zürich zu räumen und die Stadt den Österreichern zu überlassen",
+      "supports": "Masséna gave up the town"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008917/",
+      "title": "HLS: Zürich, Schlachten bei",
+      "quote": "Rund drei Monate lagen sich die beiden Heere westlich von Zürich gegenüber.",
+      "supports": "The French held a line west of Zurich (layer French-held)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008914/",
+      "title": "HLS: Koalitionskriege",
+      "quote": "vor allem als Durchmarschgebiet wichtig und litt dementsprechend unter den Requisitionslasten",
+      "supports": "The armies took supplies from the people; the country suffered"
+     }
     ]
    },
    {
@@ -3102,8 +4769,8 @@
     "tick": "1799 Zurich II",
     "title": "Second Battle of Zurich",
     "text": [
-     "In late summer most Austrian troops left. A Russian army under General Korsakov took their place at Zurich.",
-     "On 25 and 26 September 1799 Masséna attacked and beat the Russians at Zurich. On the same days French troops under General Soult beat the Austrians on the Linth river. The Austrian general Hotze was killed near Schänis.",
+     "In late August most Austrian troops left. A Russian army of about 20,000 men under General Korsakov took their place at Zurich.",
+     "On 25 and 26 September 1799 Masséna attacked and beat the Russians at Zurich. On the same days French troops beat the Austrians at the Linth river near Schänis.",
      "The plan of the allies was to attack the French together with a second Russian army coming from Italy. That army, under General Suvorov, was still in the mountains."
     ],
     "view": "ch",
@@ -3181,6 +4848,42 @@
       "year": 1799,
       "note": "French beat the Austrians"
      }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008917/",
+      "title": "HLS: Zürich, Schlachten bei",
+      "quote": "Am 28. August überliessen die Österreicher den Russen mit ca. 20'000 Mann die Stellungen von Rapperswil (SG) bis Koblenz.",
+      "supports": "In late August Russians (about 20,000) took over from the Austrians (layer Allied-held)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008914/",
+      "title": "HLS: Koalitionskriege",
+      "quote": "Masséna besiegte in der zweiten Schlacht bei Zürich am 25. und 26. September Korsakow",
+      "supports": "On 25 and 26 September 1799 Masséna beat Korsakov at Zurich (place Zurich; layer French-held)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008917/",
+      "title": "HLS: Zürich, Schlachten bei",
+      "quote": "sowohl über den Linthkanal bei Schänis als auch über die Limmat bei Dietikon an. An beiden Orten wurden die Österreicher und Russen entscheidend zurückgeworfen",
+      "supports": "The French beat the Austrians at the Linth near Schänis (place Schänis)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008917/",
+      "title": "HLS: Zürich, Schlachten bei",
+      "quote": "Der auf den 26. September geplante koordinierte Angriff der Alliierten gegen die Franzosen",
+      "supports": "The allies planned a joint attack"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008917/",
+      "title": "HLS: Zürich, Schlachten bei",
+      "quote": "wegen Zeitverzögerungen des 2. russischen Heeres unter Alexander Suworow im Tessin und am Gotthard verunmöglicht",
+      "supports": "Suvorov's second Russian army was delayed in the mountains"
+     }
+    ],
+    "uncertain": [
+     "The Austrian general Hotze was killed near Schänis.",
+     "The French at the Linth were led by General Soult."
     ]
    },
    {
@@ -3189,7 +4892,7 @@
     "title": "Suvorov crosses the Gotthard",
     "text": [
      "The Russian general Alexander Suvorov had driven the French out of northern Italy. Now he was to join Korsakov at Zurich. His army had about 20,000 men.",
-     "On 24 September 1799 he fought his way over the Gotthard pass. On 25 September his troops fought the French at the Devil's Bridge in the Schöllenen gorge. On 26 September he reached Altdorf.",
+     "After fights at Faido and Airolo he reached the Gotthard pass on 24 September 1799. Then his troops fought hard against the French in the Schöllenen gorge, at the Devil's Bridge. On 26 September he reached Altdorf.",
      "There was no road along Lake Lucerne, and the French held the boats. So Suvorov had to go over the mountains."
     ],
     "view": [
@@ -3236,6 +4939,54 @@
       "year": 1799,
       "note": "Suvorov's route"
      }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/041517/",
+      "title": "HLS: Suworow, Alexander",
+      "quote": "verdrängte Alexander Suworow mit seinem russischen Korps im Sommer 1799 die französischen Truppen aus Oberitalien",
+      "supports": "Suvorov drove the French out of northern Italy"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/041517/",
+      "title": "HLS: Suworow, Alexander",
+      "quote": "Anschliessend sollte er im Raum Zürich mit der Armee von General Alexander Korsakow gegen die französische Helvetienarmee von General André Masséna antreten.",
+      "supports": "He was to join Korsakov at Zurich"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008914/",
+      "title": "HLS: Koalitionskriege",
+      "quote": "Suworow, der mit seiner Armee (20'000 Mann) den Weg über den Gotthard erkämpft hatte",
+      "supports": "His army had about 20,000 men and fought its way over the Gotthard"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/041517/",
+      "title": "HLS: Suworow, Alexander",
+      "quote": "Nach Gefechten bei Faido und Airolo gegen die Franzosen erreichte er mit seiner Truppe am 24. September den Gotthardpass",
+      "supports": "Fights at Airolo; Gotthard pass on 24 September 1799 (places Airolo, Gotthard Pass)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/041517/",
+      "title": "HLS: Suworow, Alexander",
+      "quote": "nach harten Kämpfen in der Schöllenen gegen den französischen General Claude-Jacques Lecourbe",
+      "supports": "Hard fighting against the French in the Schöllenen"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008796/",
+      "title": "HLS: Schöllenen",
+      "quote": "1799 lieferten sich Russen und Franzosen in der Schöllenen ein Gefecht, woran das 1895-1898 erbaute Suworowdenkmal erinnert.",
+      "supports": "Russians and French fought in the Schöllenen gorge (place Devil's Bridge)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008914/",
+      "title": "HLS: Koalitionskriege",
+      "quote": "Er gelangte am 26. September nach Altdorf (UR",
+      "supports": "On 26 September he reached Altdorf (place Altdorf)"
+     }
+    ],
+    "uncertain": [
+     "The fight at the Devil's Bridge was on 25 September 1799.",
+     "There was no road along Lake Lucerne, and the French held the boats."
     ]
    },
    {
@@ -3243,8 +4994,8 @@
     "tick": "1799 Muotathal",
     "title": "Trapped in the Muota valley",
     "text": [
-     "Suvorov led his army over the Kinzig pass into the Muota valley. There he learned that Korsakov had lost at Zurich. He was now cut off.",
-     "At the end of September and early October his rear guard fought the French in the Muota valley. The main army crossed the Pragel pass to Glarus, in snow and rain, with little food."
+     "Suvorov led his army over the Kinzig pass into the Muota valley. Korsakov had lost at Zurich, so the plan to join the two Russian armies failed. He was now cut off.",
+     "The French attacked his army in the Muota valley. The army crossed the Pragel pass to Glarus, in bad weather and snow, under constant fighting."
     ],
     "view": [
      [
@@ -3322,6 +5073,47 @@
       "year": 1799,
       "note": "Suvorov's route"
      }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008914/",
+      "title": "HLS: Koalitionskriege",
+      "quote": "über den Kinzigpass nach Muotathal, um nach Schwyz und Einsiedeln vorzustossen",
+      "supports": "Over the Kinzig pass into the Muota valley (places Kinzig Pass, Muotathal)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/041517/",
+      "title": "HLS: Suworow, Alexander",
+      "quote": "sodass der strategische Plan scheiterte, die beiden russischen Heere miteinander zu vereinen",
+      "supports": "Korsakov had lost, so the plan to join the armies failed"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008914/",
+      "title": "HLS: Koalitionskriege",
+      "quote": "Von den Franzosen angegriffen, schlug er sich über den Pragelpass nach Linthal",
+      "supports": "The French attacked; he crossed the Pragel pass into the Glarus land (places Pragel Pass, Glarus)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/041517/",
+      "title": "HLS: Suworow, Alexander",
+      "quote": "Der von Unwettern, Schnee und ständigen Gefechten begleitete Alpenzug forderte hohe Verluste.",
+      "supports": "Bad weather, snow and constant fighting"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/041517/",
+      "title": "HLS: Suworow, Alexander",
+      "quote": "erreichte er mit seiner Truppe am 24. September den Gotthardpass",
+      "supports": "Earlier places on the route: Gotthard Pass"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008914/",
+      "title": "HLS: Koalitionskriege",
+      "quote": "Er gelangte am 26. September nach Altdorf (UR",
+      "supports": "Earlier place on the route: Altdorf"
+     }
+    ],
+    "uncertain": [
+     "His rear guard fought the French in the Muota valley at the end of September and early October, while the army had little food."
     ]
    },
    {
@@ -3329,8 +5121,8 @@
     "tick": "1799 Panix",
     "title": "Over the Panix pass",
     "text": [
-     "The way north was blocked. Suvorov turned south. In early October (HLS: 5 October) his army crossed the Panix pass, about 2,400 metres high, in deep snow. Many soldiers and horses fell to their death.",
-     "The army reached Ilanz and Chur and then left Switzerland for the east. The march cost Suvorov many men, but it did not change the war.",
+     "The way north was blocked, because the Austrians had also lost at Schänis. Suvorov turned south. On 6 and 7 October 1799 his army crossed the Panix pass, about 2,400 metres high, in deep snow. Snow and cold cost him many men and much material.",
+     "The army reached the Vorderrhein valley at Ilanz. On 12 October it left Graubünden over the St. Luzisteig and marched back to Russia. The march did not change the war.",
      "For the local people, the march brought hunger and loss. French troops stayed in Switzerland. In 1803 Napoleon gave the country a new order, the Act of Mediation."
     ],
     "view": [
@@ -3441,6 +5233,72 @@
       "year": 1799,
       "note": "Suvorov's route"
      }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/041517/",
+      "title": "HLS: Suworow, Alexander",
+      "quote": "da der österreichische General Johann Konrad Hotz bei Schänis ebenfalls geschlagen worden war",
+      "supports": "The way north was blocked because the Austrians had also lost at Schänis"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/041517/",
+      "title": "HLS: Suworow, Alexander",
+      "quote": "am 6. und 7. Oktober über den verschneiten Panixerpass ins Vorderrheintal absetzen",
+      "supports": "The way was blocked after Schänis; on 6 and 7 October 1799 over the snowy Panix pass into the Vorderrhein valley (places Panix Pass, Ilanz)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008868/",
+      "title": "HLS: Panixerpass",
+      "quote": "2407 m hoher Übergang von Elm im Glarner Sernftal nach Pigniu (deutsch Panix)",
+      "supports": "The pass is about 2,400 m high, from Elm (place Elm)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008868/",
+      "title": "HLS: Panixerpass",
+      "quote": "Am 6. und 7. Oktober 1799 überquerte der russische General Alexander Suworow mit seiner Armee den Pass",
+      "supports": "Crossing on 6 and 7 October 1799"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008868/",
+      "title": "HLS: Panixerpass",
+      "quote": "dabei erlitt er infolge Schnee und Kälte grosse Verluste an Menschen und Material",
+      "supports": "Crossing on 6 and 7 October; great losses of men and material from snow and cold"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/041517/",
+      "title": "HLS: Suworow, Alexander",
+      "quote": "Am 12. Oktober verliess seine Truppe Bünden über den St. Luzisteig und marschierte über München nach Russland zurück.",
+      "supports": "On 12 October the army left Graubünden and marched back to Russia (place Chur area)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008914/",
+      "title": "HLS: Koalitionskriege",
+      "quote": "vermochte keine Wende mehr herbeizuführen",
+      "supports": "The march did not change the war"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/041517/",
+      "title": "HLS: Suworow, Alexander",
+      "quote": "weisen auf das Elend der vom Alpenzug betroffenen Bevölkerung hin",
+      "supports": "For the local people the march brought misery"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/009797/",
+      "title": "HLS: Helvetische Republik",
+      "quote": "Februar 1803 besiegelte das Ende der Helvetischen Republik.",
+      "supports": "In 1803 the Act of Mediation ended the Helvetic Republic"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/008914/",
+      "title": "HLS: Koalitionskriege",
+      "quote": "Von den Franzosen angegriffen, schlug er sich über den Pragelpass nach Linthal",
+      "supports": "Earlier places on the route: Pragel Pass, Glarus"
+     }
+    ],
+    "uncertain": [
+     "The army passed through Chur.",
+     "French troops stayed in Switzerland after the march."
     ]
    }
   ],
@@ -3468,9 +5326,9 @@
     "tick": "1845",
     "title": "The Sonderbund",
     "text": [
-     "In the 1840s liberals and Catholic conservatives fought over the future of Switzerland. The liberals wanted a stronger central state. The conservatives wanted the cantons to stay free, and they defended the Catholic Church.",
-     "In 1844 Lucerne called the Jesuits to its schools. Armed groups of radicals (the 'Freischaren') attacked Lucerne twice, in 1844 and 1845, but failed.",
-     "In December 1845 seven Catholic conservative cantons formed a defence league in Lucerne: Lucerne, Uri, Schwyz, Unterwalden (Obwalden and Nidwalden), Zug, Fribourg and Valais. Its opponents called it the 'Sonderbund' (separate league)."
+     "In the 1840s liberals and Catholic conservatives fought over the future of Switzerland. The liberals wanted a federal state. The conservatives wanted the cantons to stay free, and they defended the Catholic religion.",
+     "Lucerne decided to call the Jesuits, and they came to Lucerne in 1845. Armed groups of radicals (the 'Freischaren') attacked Lucerne twice, in 1844 and 1845, but failed.",
+     "On 11 December 1845 seven Catholic conservative cantons formed a defence league in Lucerne: Lucerne, Uri, Schwyz, Unterwalden (Obwalden and Nidwalden), Zug, Fribourg and Valais. Its opponents called it the 'Sonderbund' (separate league)."
     ],
     "view": "ch",
     "layers": [
@@ -3494,9 +5352,10 @@
      {
       "name": "Neutral",
       "kind": "other",
-      "label": "Neutral: Neuchâtel and Appenzell Innerrhoden",
+      "label": "Neutral: Basel-Stadt, Neuchâtel and Appenzell Innerrhoden",
       "sel": {
        "cantons": [
+        "BS",
         "NE",
         "AI"
        ]
@@ -3512,7 +5371,6 @@
         "BE",
         "GL",
         "SO",
-        "BS",
         "BL",
         "SH",
         "AR",
@@ -3537,6 +5395,68 @@
       "year": 1845,
       "note": "Sonderbund founded"
      }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/017241/",
+      "title": "HLS: Sonderbund",
+      "quote": "Die Liberal-Radikalen wollten keinen Einheitsstaat wie zu Zeiten der Helvetik, sondern einen Bundesstaat.",
+      "supports": "The liberals wanted a federal state"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/017241/",
+      "title": "HLS: Sonderbund",
+      "quote": "Es gehe um die Verteidigung der katholischen Religion und den Schutz der alten Freiheiten.",
+      "supports": "The conservatives defended the Catholic religion and the old freedoms"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/017241/",
+      "title": "HLS: Sonderbund",
+      "quote": "In Luzern setzten nach dem konservativ-demokratischen Umschwung von 1841 Kreise um den Grossbauern Josef Leu die Jesuitenberufung durch.",
+      "supports": "Lucerne decided to call the Jesuits"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/011718/",
+      "title": "HLS: Jesuiten",
+      "quote": "1845 kehrten die Jesuiten auf Betreiben der Luzerner Regierung nach Luzern zurück.",
+      "supports": "The Jesuits came to Lucerne in 1845"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/017241/",
+      "title": "HLS: Sonderbund",
+      "quote": "Die Feindseligkeiten gipfelten in den beiden Freischarenzügen (1844-1845)",
+      "supports": "Two Freischaren attacks in 1844 and 1845"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/017241/",
+      "title": "HLS: Sonderbund",
+      "quote": "Am 11. Dezember 1845 gründeten sieben katholisch-konservative Kantone in Luzern eine sogenannte Schutzvereinigung.",
+      "supports": "On 11 December 1845 seven cantons formed a defence league in Lucerne (place Lucerne)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/017241/",
+      "title": "HLS: Sonderbund",
+      "quote": "Als die sieben katholisch-konservativen Kantone Luzern, Uri, Schwyz, Unterwalden, Zug, Freiburg und Wallis 1845 ein Separatbündnis schlossen",
+      "supports": "Layer Sonderbund: the seven Catholic conservative cantons"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/017241/",
+      "title": "HLS: Sonderbund",
+      "quote": "sahen die Liberalen darin nichts anderes als einen Sonderbund, eine Bezeichnung, die sich in der Folge durchsetzte",
+      "supports": "Its opponents called it the Sonderbund"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/017241/",
+      "title": "HLS: Sonderbund",
+      "quote": "Die reformiert-konservativen Kantone Basel-Stadt und Neuenburg sowie das katholisch-konservative Appenzell Innerrhoden blieben neutral.",
+      "supports": "Layer Neutral: Basel-Stadt, Neuchâtel and Appenzell Innerrhoden"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/017241/",
+      "title": "HLS: Sonderbund",
+      "quote": "Alle liberal-radikalen Kantone, darunter auch die liberalen katholischen bzw. mehrheitlich liberal katholisch gesinnten Orte Solothurn, Tessin und St. Gallen",
+      "supports": "Layer Diet majority: the liberal-radical cantons, with Solothurn, Ticino and St. Gallen"
+     }
     ]
    },
    {
@@ -3544,8 +5464,8 @@
     "tick": "1847 July",
     "title": "The Diet decides",
     "text": [
-     "The federal treaty did not allow such separate leagues. In 1847 the liberals won a majority in the Diet, the meeting of the cantons.",
-     "In July 1847 the Diet ordered the Sonderbund to break up. The Sonderbund refused and called up its troops in October. The Diet made Guillaume-Henri Dufour of Geneva general of the federal army."
+     "The federal treaty did not allow such separate leagues. In May 1847 the liberals won the elections in St. Gallen, and so they had a majority in the Diet, the meeting of the cantons.",
+     "On 20 July 1847 the Diet ordered the Sonderbund to break up. The Sonderbund refused and called up its troops on 16 October. On 21 October the Diet made Guillaume-Henri Dufour of Geneva general of the federal army."
     ],
     "view": "ch",
     "layers": [
@@ -3569,9 +5489,10 @@
      {
       "name": "Neutral",
       "kind": "other",
-      "label": "Neutral: Neuchâtel and Appenzell Innerrhoden",
+      "label": "Neutral: Basel-Stadt, Neuchâtel and Appenzell Innerrhoden",
       "sel": {
        "cantons": [
+        "BS",
         "NE",
         "AI"
        ]
@@ -3587,7 +5508,6 @@
         "BE",
         "GL",
         "SO",
-        "BS",
         "BL",
         "SH",
         "AR",
@@ -3619,6 +5539,68 @@
       "kind": "town",
       "year": 1845,
       "note": "Centre of the Sonderbund"
+     }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/017241/",
+      "title": "HLS: Sonderbund",
+      "quote": "Der Sonderbund hatte einen defensiven Charakter, doch die ausserordentlichen Vollmachten des Kriegsrats verstiessen gegen den Bundesvertrag.",
+      "supports": "The federal treaty did not allow such a league"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/017241/",
+      "title": "HLS: Sonderbund",
+      "quote": "Dadurch rückten die Wahlen im «Schicksalskanton» St. Gallen vom Mai 1847 ins Rampenlicht, denn bei einem Sieg der Liberal-Radikalen wäre die Mehrheit Tatsache geworden.",
+      "supports": "In May 1847 the St. Gallen elections gave the liberals a majority in the Diet"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/017241/",
+      "title": "HLS: Sonderbund",
+      "quote": "Am 20. Juli 1847 beschloss die Tagsatzung die Auflösung des Sonderbunds",
+      "supports": "On 20 July 1847 the Diet ordered the Sonderbund to break up (place Bern)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/017241/",
+      "title": "HLS: Sonderbund",
+      "quote": "An der Sommertagsatzung 1847 in Bern",
+      "supports": "The Diet met in Bern in 1847"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/017241/",
+      "title": "HLS: Sonderbund",
+      "quote": "Am 16. Oktober 1847 mobilisierte der Kriegsrat des Sonderbunds seine Milizen.",
+      "supports": "The Sonderbund called up its troops on 16 October"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/017241/",
+      "title": "HLS: Sonderbund",
+      "quote": "Bereits am 21. Oktober hatte sie den reformierten Genfer Guillaume-Henri Dufour, der als gemässigter Konservativer galt, zum General der eidgenössischen Truppen ernannt.",
+      "supports": "On 21 October the Diet made Dufour of Geneva general"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/017241/",
+      "title": "HLS: Sonderbund",
+      "quote": "Die Abgeordneten des Kriegsrats wählten den Luzerner Regierungsrat Konstantin Siegwart-Müller zu ihrem Präsidenten",
+      "supports": "Place Lucerne: centre of the Sonderbund"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/017241/",
+      "title": "HLS: Sonderbund",
+      "quote": "Als die sieben katholisch-konservativen Kantone Luzern, Uri, Schwyz, Unterwalden, Zug, Freiburg und Wallis 1845 ein Separatbündnis schlossen",
+      "supports": "Layer Sonderbund: the seven Catholic conservative cantons"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/017241/",
+      "title": "HLS: Sonderbund",
+      "quote": "Die reformiert-konservativen Kantone Basel-Stadt und Neuenburg sowie das katholisch-konservative Appenzell Innerrhoden blieben neutral.",
+      "supports": "Layer Neutral: Basel-Stadt, Neuchâtel and Appenzell Innerrhoden"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/017241/",
+      "title": "HLS: Sonderbund",
+      "quote": "Alle liberal-radikalen Kantone, darunter auch die liberalen katholischen bzw. mehrheitlich liberal katholisch gesinnten Orte Solothurn, Tessin und St. Gallen",
+      "supports": "Layer Diet majority: the liberal-radical cantons, with Solothurn, Ticino and St. Gallen"
      }
     ]
    },
@@ -3652,9 +5634,10 @@
      {
       "name": "Neutral",
       "kind": "other",
-      "label": "Neutral: Neuchâtel and Appenzell Innerrhoden",
+      "label": "Neutral: Basel-Stadt, Neuchâtel and Appenzell Innerrhoden",
       "sel": {
        "cantons": [
+        "BS",
         "NE",
         "AI"
        ]
@@ -3670,7 +5653,6 @@
         "BE",
         "GL",
         "SO",
-        "BS",
         "BL",
         "SH",
         "AR",
@@ -3695,6 +5677,47 @@
       "year": 1847,
       "note": "Fribourg gives up to the federal army"
      }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/017241/",
+      "title": "HLS: Sonderbund",
+      "quote": "Dufour beabsichtigte zuerst einen Schlag gegen das isolierte Freiburg",
+      "supports": "Dufour attacked first Fribourg, which was cut off"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/017241/",
+      "title": "HLS: Sonderbund",
+      "quote": "Sie planten, die Stadt möglichst schnell einzuschliessen, um sie wie Freiburg zur Kapitulation zu bewegen.",
+      "supports": "His army surrounded the town and made it give up"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/017241/",
+      "title": "HLS: Sonderbund",
+      "quote": "Seine Offensive gegen den isolierten Kanton Freiburg glückte und bereits am 14. November kapitulierte dieser.",
+      "supports": "On 14 November 1847 Fribourg gave up (place Fribourg)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/017241/",
+      "title": "HLS: Sonderbund",
+      "quote": "Als die sieben katholisch-konservativen Kantone Luzern, Uri, Schwyz, Unterwalden, Zug, Freiburg und Wallis 1845 ein Separatbündnis schlossen",
+      "supports": "Layer Sonderbund: the seven Catholic conservative cantons"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/017241/",
+      "title": "HLS: Sonderbund",
+      "quote": "Die reformiert-konservativen Kantone Basel-Stadt und Neuenburg sowie das katholisch-konservative Appenzell Innerrhoden blieben neutral.",
+      "supports": "Layer Neutral: Basel-Stadt, Neuchâtel and Appenzell Innerrhoden"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/017241/",
+      "title": "HLS: Sonderbund",
+      "quote": "Alle liberal-radikalen Kantone, darunter auch die liberalen katholischen bzw. mehrheitlich liberal katholisch gesinnten Orte Solothurn, Tessin und St. Gallen",
+      "supports": "Layer Diet majority: the liberal-radical cantons, with Solothurn, Ticino and St. Gallen"
+     }
+    ],
+    "uncertain": [
+     "Fribourg gave up almost without a fight."
     ]
    },
    {
@@ -3702,8 +5725,8 @@
     "tick": "1847 Gisikon",
     "title": "Gisikon and Lucerne",
     "text": [
-     "Then Dufour turned against Lucerne. On 23 November 1847 the federal army fought the Sonderbund troops at Gisikon on the Reuss bridge and at Meierskappel. The federal army won.",
-     "On 24 November federal troops entered Lucerne. The leaders of the Sonderbund fled."
+     "Then Dufour turned against Lucerne. On 23 November 1847 the federal army fought the Sonderbund troops at Gisikon and at Meierskappel. The federal army won.",
+     "The leaders of the Sonderbund fled to Uri. The town council of Lucerne decided to give up the town, and federal troops entered it."
     ],
     "view": "ch",
     "layers": [
@@ -3727,9 +5750,10 @@
      {
       "name": "Neutral",
       "kind": "other",
-      "label": "Neutral: Neuchâtel and Appenzell Innerrhoden",
+      "label": "Neutral: Basel-Stadt, Neuchâtel and Appenzell Innerrhoden",
       "sel": {
        "cantons": [
+        "BS",
         "NE",
         "AI"
        ]
@@ -3745,7 +5769,6 @@
         "BE",
         "GL",
         "SO",
-        "BS",
         "BL",
         "SH",
         "AR",
@@ -3794,6 +5817,60 @@
       "year": 1847,
       "note": "Gave up"
      }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/017241/",
+      "title": "HLS: Sonderbund",
+      "quote": "Mit ihrer zweiten Offensive richteten die eidgenössischen Truppen ihr Augenmerk auf Luzern.",
+      "supports": "Then Dufour turned against Lucerne"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/017241/",
+      "title": "HLS: Sonderbund",
+      "quote": "Am selben Tag brachten die Gefechte von Gisikon und Meierskappel die Entscheidung zugunsten der Tagsatzungsarmee.",
+      "supports": "On 23 November 1847 the federal army won at Gisikon and Meierskappel (places Gisikon, Meierskappel)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/017241/",
+      "title": "HLS: Sonderbund",
+      "quote": "zogen sich der sonderbündische Kriegsrat und die Luzerner Regierung in den Kanton Uri zurück",
+      "supports": "The Sonderbund leaders fled to Uri"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/017241/",
+      "title": "HLS: Sonderbund",
+      "quote": "sodass sich der Luzerner Stadtrat bald für die Übergabe der Stadt entschloss, in der es dann zu einzelnen Plünderungen durch Tagsatzungstruppen kam",
+      "supports": "Lucerne gave up and federal troops entered it (place Lucerne)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/017241/",
+      "title": "HLS: Sonderbund",
+      "quote": "Seine Offensive gegen den isolierten Kanton Freiburg glückte und bereits am 14. November kapitulierte dieser.",
+      "supports": "Place Fribourg: gave up"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/017241/",
+      "title": "HLS: Sonderbund",
+      "quote": "Als die sieben katholisch-konservativen Kantone Luzern, Uri, Schwyz, Unterwalden, Zug, Freiburg und Wallis 1845 ein Separatbündnis schlossen",
+      "supports": "Layer Sonderbund: the seven Catholic conservative cantons"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/017241/",
+      "title": "HLS: Sonderbund",
+      "quote": "Die reformiert-konservativen Kantone Basel-Stadt und Neuenburg sowie das katholisch-konservative Appenzell Innerrhoden blieben neutral.",
+      "supports": "Layer Neutral: Basel-Stadt, Neuchâtel and Appenzell Innerrhoden"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/017241/",
+      "title": "HLS: Sonderbund",
+      "quote": "Alle liberal-radikalen Kantone, darunter auch die liberalen katholischen bzw. mehrheitlich liberal katholisch gesinnten Orte Solothurn, Tessin und St. Gallen",
+      "supports": "Layer Diet majority: the liberal-radical cantons, with Solothurn, Ticino and St. Gallen"
+     }
+    ],
+    "uncertain": [
+     "The fight at Gisikon was at the Reuss bridge.",
+     "Federal troops entered Lucerne on 24 November 1847."
     ]
    },
    {
@@ -3801,8 +5878,8 @@
     "tick": "1847 End",
     "title": "The war ends",
     "text": [
-     "One after the other, the other Sonderbund cantons gave up. Valais was the last, at the end of November.",
-     "The war lasted less than a month, and fairly few people died. Dufour had ordered his troops to treat prisoners and people well. This made peace easier."
+     "One after the other, the other Sonderbund cantons gave up: Zug on 21 November, then the inner cantons and Valais between 25 and 29 November.",
+     "The war lasted 25 days, and fairly few people died: HLS gives 93 dead soldiers. Dufour wanted to avoid deaths and hatred, so that the Confederation could stay together. This made peace easier."
     ],
     "view": "ch",
     "layers": [
@@ -3876,6 +5953,56 @@
       "year": 1847,
       "note": "Gave up"
      }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/017241/",
+      "title": "HLS: Sonderbund",
+      "quote": "unterzeichneten dessen Gesandte am 21. November eine Kapitulationsurkunde",
+      "supports": "Zug gave up on 21 November"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/017241/",
+      "title": "HLS: Sonderbund",
+      "quote": "Zwischen dem 25. und 29. November folgte die kampflose Unterwerfung der Urkantone und des Wallis und damit das Ende des Sonderbunds.",
+      "supports": "The inner cantons and Valais gave up between 25 and 29 November (place Sion; layer Former Sonderbund)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/017241/",
+      "title": "HLS: Sonderbund",
+      "quote": "Die neuesten Untersuchungen gehen bei einer Kriegsdauer von 25 Tagen von 60 Toten und 386 Verwundeten bei den Tagsatzungstruppen",
+      "supports": "The war lasted 25 days"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/017241/",
+      "title": "HLS: Sonderbund",
+      "quote": "also insgesamt von 93 gefallenen und 510 verwundeten Soldaten aus",
+      "supports": "93 dead soldiers"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/017241/",
+      "title": "HLS: Sonderbund",
+      "quote": "Dufour war bestrebt, Hassgefühle gegen die Sonderbundskantone, wo immer sie auftraten, zu unterbinden. Er wollte den künftigen Zusammenhalt der Eidgenossenschaft nicht gefährden.",
+      "supports": "Dufour wanted to avoid hatred so that the Confederation could stay together"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/017241/",
+      "title": "HLS: Sonderbund",
+      "quote": "Seine Strategie bestand darin, rasch zu handeln und Opfer zu vermeiden.",
+      "supports": "Dufour wanted to avoid deaths"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/017241/",
+      "title": "HLS: Sonderbund",
+      "quote": "Die Tagsatzungsmehrheit schickte in die besiegten Kantone eidgenössische Repräsentanten, die für neue Regierungen und die Ausweisung der Jesuiten zu sorgen hatten.",
+      "supports": "Layer Former Sonderbund cantons, now under federal control"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/017241/",
+      "title": "HLS: Sonderbund",
+      "quote": "Am selben Tag brachten die Gefechte von Gisikon und Meierskappel die Entscheidung zugunsten der Tagsatzungsarmee.",
+      "supports": "Place Gisikon: federal army wins"
+     }
     ]
    },
    {
@@ -3883,8 +6010,8 @@
     "tick": "1848",
     "title": "The federal state",
     "text": [
-     "The winners wrote a new constitution. In September 1848 it came into force. Switzerland was now a federal state with a government (the Federal Council), and a parliament with two chambers. Customs, post and money became federal matters.",
-     "Bern became the federal city. The cantons kept many rights. The Catholic conservatives were the losers for a long time; they got a seat in the Federal Council only in 1891.",
+     "The winners wrote a new constitution. On 12 September 1848 it came into force. Switzerland was now a federal state with a government (the Federal Council) and a parliament with two equal chambers. Customs inside Switzerland were abolished, and money became a federal matter.",
+     "On 28 November 1848 parliament chose Bern as the federal city. The cantons kept many rights. The Catholic conservatives were the losers for a long time; they got a seat in the Federal Council only in 1891.",
      "The Sonderbund War was the last war between Swiss cantons."
     ],
     "view": "ch",
@@ -3934,6 +6061,66 @@
       "year": 1848,
       "note": "Federal city"
      }
+    ],
+    "sources": [
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/009811/",
+      "title": "HLS: Bundesverfassung",
+      "quote": "Am 12. September 1848 erklärte die Tagsatzung, dass die Bundesverfassung «damit angenommen [sei] und als Grundgesetz der Eidgenossenschaft» gelte.",
+      "supports": "On 12 September 1848 the constitution came into force (layer Switzerland 1848)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/009811/",
+      "title": "HLS: Bundesverfassung",
+      "quote": "wählten als Vereinigte Bundesversammlung am 16. November die sieben ersten Bundesräte",
+      "supports": "The Federal Council"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/009801/",
+      "title": "HLS: Bundesstaat",
+      "quote": "Die Einführung des Zweikammersystems mit zwei gleichgestellten Räten ( Bundesversammlung ) analog dem amerikanischen Vorbild",
+      "supports": "A parliament with two equal chambers"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/009811/",
+      "title": "HLS: Bundesverfassung",
+      "quote": "Die Zölle im Innern der Eidgenossenschaft wurden abgeschafft",
+      "supports": "Customs inside Switzerland were abolished"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/009811/",
+      "title": "HLS: Bundesverfassung",
+      "quote": "nur das Münzregal ( Münzen ), die Festlegung der Masse und Gewichte sowie die Errichtung öffentlicher Werke",
+      "supports": "Money became a federal matter"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/010102/",
+      "title": "HLS: Bundesstadt",
+      "quote": "Für die Wahl zur Bundesstadt vom 28. November 1848 blieben letztlich die drei ehemaligen Vororte Zürich, Bern und Luzern als ernsthafte Konkurrenten übrig",
+      "supports": "On 28 November 1848 the federal city was chosen"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/010102/",
+      "title": "HLS: Bundesstadt",
+      "quote": "Bereits im ersten Wahlgang entschieden sich 58 National- und 21 Ständeräte für Bern",
+      "supports": "Parliament chose Bern (place Bern)"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/009811/",
+      "title": "HLS: Bundesverfassung",
+      "quote": "Die Kantone behielten die Kompetenzen über das Zivilrecht, das Strafrecht , das Prozessrecht und die Polizei .",
+      "supports": "The cantons kept many rights"
+     },
+     {
+      "url": "https://hls-dhs-dss.ch/de/articles/009801/",
+      "title": "HLS: Bundesstaat",
+      "quote": "die Katholisch-Konservativen, die ab 1891 einen Bundesrat stellten",
+      "supports": "Catholic conservatives had a Federal Councillor from 1891"
+     }
+    ],
+    "uncertain": [
+     "The Sonderbund War was the last war between Swiss cantons.",
+     "The post became a federal matter in 1848."
     ]
    }
   ],
