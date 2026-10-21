@@ -39,10 +39,10 @@ def apply_shapes(stories, research, name):
             rings, traced = [], []
             for ref in refs:
                 kind, rest = ref.split(":", 1)
-                if kind == "hand":
-                    rings.append(smooth(spec["hand"][rest]))
+                if kind in ("hand", "far"):
+                    rings.append(smooth(spec[kind][rest]))
                     traced.append(0)
-                    note = "%s: %s" % (layer["name"], spec["hand_note"])
+                    note = "%s: %s" % (layer["name"], spec[kind + "_note"])
                     if note not in stop.setdefault("uncertain", []):
                         stop["uncertain"].append(note)
                     continue
@@ -55,7 +55,9 @@ def apply_shapes(stories, research, name):
                     used.append(kind)
             layer["shape"] = rings
             layer["traced"] = traced
-            layer.pop("sel", None)
+            # Today's municipalities and regions are no longer used for this layer.
+            for k in ("sel", "regions", "countries"):
+                layer.pop(k, None)
         # Frame of the traced map, shrunk a little: the site fades the shapes out before its cut edge.
         frames = [maps[k]["data"].get("frame") for k in used if maps[k]["data"].get("frame")]
         if frames:

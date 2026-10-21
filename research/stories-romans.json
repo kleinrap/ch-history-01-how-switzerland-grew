@@ -399,7 +399,7 @@
      {
       "name": "Goal: Saintonge",
       "kind": "other",
-      "label": "Goal of the migration: the Saintonge (shown as today's Charente-Maritime)",
+      "label": "Goal of the migration: the Saintonge, land of the Santones (rough)",
       "sel": {},
       "regions": [
        "FRA-5278"
@@ -499,7 +499,7 @@
     ],
     "uncertain": [
      "The Mont Vully burn layer was once linked with 58 BC; this idea was given up (fire about 80 BC).",
-     "The extent of Gallia Narbonensis is drawn very roughly."
+     "The extent of Gallia Narbonensis is drawn very roughly; the Saintonge (land of the Santones) is a rough shape around Saintes."
     ]
    },
    {
@@ -647,7 +647,7 @@
      {
       "name": "Colonia Iulia Equestris",
       "kind": "roman",
-      "label": "Land of the colony of Nyon (rough: today's Nyon district)",
+      "label": "Land of the colony of Nyon (rough)",
       "sel": {
        "districts": [
         2228
@@ -987,7 +987,7 @@
     ],
     "uncertain": [
      "The sources give 16–15 BC for Zürich and Chur and 15 BC for the main campaign; the step uses 15 BC.",
-     "Coloured areas are rough. Near Switzerland they follow the HLS map of AD 14 (not a map of 15 BC); further away Bavaria, Tyrol and Vorarlberg are whole modern states."
+     "Coloured areas are rough. Near Switzerland they follow the HLS map of AD 14 (not a map of 15 BC); further away they are drawn by hand."
     ]
    },
    {
@@ -1792,7 +1792,7 @@
      }
     ],
     "uncertain": [
-     "Near Switzerland the borders follow the HLS map of the 4th century, because there is no HLS map for AD 85; further away whole modern regions are used (for example all of Baden-Württemberg and Bavaria). The real borders were different.",
+     "Near Switzerland the borders follow the HLS map of the 4th century, because there is no HLS map for AD 85; further away they are drawn by hand. The real borders were different.",
      "Central Switzerland (UR, SZ, OW, NW) is left blank: the sources give no province for it here."
     ]
    },
@@ -1818,7 +1818,7 @@
      {
       "name": "Alemanni",
       "kind": "alemanni",
-      "label": "Land behind the old limes, now held by the Alemanni (rough: today's Baden-Württemberg)",
+      "label": "Land behind the old limes, now held by the Alemanni (rough)",
       "sel": {},
       "regions": [
        "DEU-1573"
@@ -1939,7 +1939,7 @@
     ],
     "uncertain": [
      "One source dates the destruction of the civil town to 273/274; another gives 275–277.",
-     "The Alemanni area is shown as all of Baden-Württemberg, which is only a rough picture of the Dekumatland.",
+     "The Alemanni area is drawn by hand as the land between the Rhine, the Danube and the old limes (the Dekumatland); only a rough picture.",
      "Near Switzerland the Roman area follows the HLS map of the 4th century."
     ]
    },
@@ -2178,7 +2178,7 @@
    "https://hls-dhs-dss.ch/de/articles/007866/",
    "https://hls-dhs-dss.ch/de/articles/012289/"
   ],
-  "notes": "Areas are drawn as broad shapes. Most are traced from maps of the Historical Dictionary of Switzerland (HLS: the Helvetii, the provinces in AD 14 and in the 4th century), matched to today's lakes (about 2 km off on average). Small tribe areas are drawn by hand. Far away from Switzerland, whole modern regions are used (French départements, Italian provinces, German and Austrian states). All ancient borders are only rough. Kinds are used for colour: 'roman' = the main Gaulish province of the Plateau (Belgica, Germania superior, Maxima Sequanorum), 'other' = Raetia, 'ally' = Alpes Graiae et Poeninae, 'noble' = Gallia Narbonensis, 'empire' = Italy; in step 2 'ally' = Raurici, 'noble' = Valais tribes, 'milan' = Lepontii. Negative years are BC."
+  "notes": "Areas are drawn as broad shapes. Most are traced from maps of the Historical Dictionary of Switzerland (HLS: the Helvetii, the provinces in AD 14 and in the 4th century), matched to today's lakes (about 2 km off on average). Small tribe areas are drawn by hand. Far away from Switzerland, areas are drawn by hand as broad shapes. All ancient borders are only rough. Kinds are used for colour: 'roman' = the main Gaulish province of the Plateau (Belgica, Germania superior, Maxima Sequanorum), 'other' = Raetia, 'ally' = Alpes Graiae et Poeninae, 'noble' = Gallia Narbonensis, 'empire' = Italy; in step 2 'ally' = Raurici, 'noble' = Valais tribes, 'milan' = Lepontii. Negative years are BC."
  },
  {
   "id": "early-middle-ages",

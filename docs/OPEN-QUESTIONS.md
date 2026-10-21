@@ -221,12 +221,12 @@
 - **c. 100 BC** — All borders are rough: the Helvetii and the Roman land follow HLS maps; the Raurici, the Valais tribes, the Lepontii and the Raetians are drawn by hand. The eastern Plateau (east of Zürich) and central Switzerland are drawn or left blank without exact evidence.
 - **c. 100 BC** — Most other valleys of Graubünden may have been Celtic, not Raetian (opinion of R. Frei-Stolba); they are left blank.
 - **58 BC March** — The Mont Vully burn layer was once linked with 58 BC; this idea was given up (fire about 80 BC).
-- **58 BC March** — The extent of Gallia Narbonensis is drawn very roughly.
+- **58 BC March** — The extent of Gallia Narbonensis is drawn very roughly; the Saintonge (land of the Santones) is a rough shape around Saintes.
 - **58 BC June: Bibracte** — The place of the battle is not certain (the source says 'probably near Montmort'). The point is set at the village of Montmort.
 - **45–44 BC** — The border of the Nyon colony is not exactly known (Aubonne, Venoge or Morge); here a rough shape around Nyon is drawn, up to about Aubonne.
 - **45–44 BC** — Whether the Helvetii had a formal treaty with Caesar is open.
 - **15 BC** — The sources give 16–15 BC for Zürich and Chur and 15 BC for the main campaign; the step uses 15 BC.
-- **15 BC** — Coloured areas are rough. Near Switzerland they follow the HLS map of AD 14 (not a map of 15 BC); further away Bavaria, Tyrol and Vorarlberg are whole modern states.
+- **15 BC** — Coloured areas are rough. Near Switzerland they follow the HLS map of AD 14 (not a map of 15 BC); further away they are drawn by hand.
 - **AD 14–17** — The start of the legion camp is dated differently in the sources: 14, about 16/17, or the end of 16.
 - **AD 14–17** — Where exactly the border between Belgica and Raetia ran in the east is not known; the map follows the HLS map of AD 14.
 - **AD 41–47** — 'Latin rights' is simplified to 'leaders could become Roman citizens' (by holding an office).
@@ -234,10 +234,10 @@
 - **Roads and passes** — The road lists date from different times (the Itinerarium Antonini is 3rd century); this step is placed at AD 47 for the story only.
 - **Roads and passes** — The exact line of many Roman roads is not known; the points mark towns and passes along the routes, not the roads themselves.
 - **Roads and passes** — Whether the Septimer or the Julier was more important is unclear.
-- **c. AD 85** — Near Switzerland the borders follow the HLS map of the 4th century, because there is no HLS map for AD 85; further away whole modern regions are used (for example all of Baden-Württemberg and Bavaria). The real borders were different.
+- **c. AD 85** — Near Switzerland the borders follow the HLS map of the 4th century, because there is no HLS map for AD 85; further away they are drawn by hand. The real borders were different.
 - **c. AD 85** — Central Switzerland (UR, SZ, OW, NW) is left blank: the sources give no province for it here.
 - **c. 260–277** — One source dates the destruction of the civil town to 273/274; another gives 275–277.
-- **c. 260–277** — The Alemanni area is shown as all of Baden-Württemberg, which is only a rough picture of the Dekumatland.
+- **c. 260–277** — The Alemanni area is drawn by hand as the land between the Rhine, the Danube and the old limes (the Dekumatland); only a rough picture.
 - **c. 260–277** — Near Switzerland the Roman area follows the HLS map of the 4th century.
 - **c. 294–401** — Year of the troop withdrawal: the sources give 400, 401 or 401/402; the text says 'about 401'.
 - **c. 294–401** — Geneva's late Roman province is not named in the sources used; Geneva is left blank.
