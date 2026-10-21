@@ -27,6 +27,7 @@ then open `http://localhost:8000`. Links like `index.html#bern-1798` or `index.h
 - `research/*.json`: the researched history of each canton (5 files, by region). `python3 scripts/build_cantons.py research/central.json research/northeast.json research/northwest.json research/west.json research/south.json` turns them into `content-cantons.js`.
 - `app.js`: map, timeline, legend and chart (d3 + topojson-client from a CDN).
 - `data/`: borders and the municipality list, made by `scripts/fetch_data.py`.
+- `scripts/trace_map.py`: reads the coloured areas of an SVG history map (for example an HLS map), lines it up with today's lakes, and writes lon/lat shapes to `research/traced/`. `research/shapes-romans.json` says which shape goes to which step of the Romans story; `scripts/build_stories.py` puts them in.
 - `docs/DATA.md`: sources and limits. `docs/OPEN-QUESTIONS.md`: facts to check. `docs/IDEAS.md`: ideas for later.
 
 - `PLAN.md`: decisions and phases. `uncertain.html` is built from `docs/OPEN-QUESTIONS.md` with `python3 scripts/build_uncertain.py . "How Switzerland Grew"`.

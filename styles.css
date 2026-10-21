@@ -320,3 +320,7 @@ button { font: inherit; color: inherit; }
 .ctx-toggle { position: absolute; right: 12px; top: 12px; border: 1px solid var(--line); background: var(--panel); color: var(--ink);
   border-radius: 999px; padding: 5px 12px; font: 600 0.82rem "IBM Plex Sans", sans-serif; cursor: pointer; }
 .ctx-toggle[hidden] { display: none; }
+
+/* Drawn shapes (test): no hard lines inside old territories; today's border only faint */
+.shaped-look .territory:not(.empty) { stroke: none; }
+.shaped-look .outline { stroke-opacity: 0.25; }

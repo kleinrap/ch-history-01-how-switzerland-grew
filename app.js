@@ -37,6 +37,13 @@
     .attr("width", 7).attr("height", 7).attr("patternTransform", "rotate(45)");
   stripes.append("rect").attr("width", 2.5).attr("height", 7).style("fill", "var(--panel)").style("fill-opacity", 0.75);
 
+  // Drawn shapes end at the frame of the map they were traced from: fade them out before that edge.
+  var fadeBlur = defs.append("filter").attr("id", "fade-blur").attr("x", "-20%").attr("y", "-20%").attr("width", "140%").attr("height", "140%");
+  fadeBlur.append("feGaussianBlur").attr("stdDeviation", 14);
+  var frameMask = defs.append("mask").attr("id", "frame-mask").attr("maskUnits", "userSpaceOnUse")
+    .attr("x", -5000).attr("y", -5000).attr("width", 10000).attr("height", 10000);
+  var frameMaskPath = frameMask.append("path").style("fill", "#fff").attr("filter", "url(#fade-blur)");
+
   // No fixed canton lines: every border on the map comes from the territories of the chosen date.
   // Europe: today's countries as a quiet background (Natural Earth). Stories can zoom out to it.
   var EU = window.DATA_EUROPE || { regions: { features: [] }, countries: { features: [] } };
@@ -111,7 +118,11 @@
       .text(function (d) { return d.text; });
   }
 
+  function frameRing(f) {
+    return d3.geoArea({ type: "Polygon", coordinates: [f] }) > 2 * Math.PI ? f.slice().reverse() : f;
+  }
   function fillTerritories(feats, fill, cls) {
+    gFill.selectAll("path").attr("mask", null);
     gFill.selectAll("path").data(feats, function (d) { return d.properties.key; })
       .join("path").attr("d", path)
       .attr("class", function (d) { return "territory" + (cls && cls(d) ? " " + cls(d) : ""); })
@@ -448,18 +459,38 @@
   function currentStory() { return MAP_STORIES.filter(function (st) { return st.id === state.story; })[0]; }
 
   function drawStory(stop) {
-    var swiss = T.stopGroups(communes, { layers: stop.layers.map(function (l) { return { sel: l.sel || {} }; }) });
+    var swiss = T.stopGroups(communes, { layers: stop.layers.map(function (l) { return { sel: l.shape ? { munis: [] } : (l.sel || {}) }; }) });
+    var isShaped = !!(currentStory() || {}).shaped;
     var feats = [];
     stop.layers.forEach(function (l, i) {
       var parts = [];
       if (swiss[i].length) parts.push({ type: "Feature", geometry: merge(swiss[i]) });
-      (l.regions || []).forEach(function (r) { if (euRegion[r]) parts.push(euRegion[r]); });
-      (l.countries || []).forEach(function (c) { if (euCountry[c]) parts.push(euCountry[c]); });
+      // Drawn shapes (traced from a map or drawn by hand): one polygon per ring, wound the way d3 needs.
+      (l.shape || []).forEach(function (ring, j) {
+        var g = { type: "Polygon", coordinates: [ring] };
+        if (d3.geoArea(g) > 2 * Math.PI) g = { type: "Polygon", coordinates: [ring.slice().reverse()] };
+        parts.push({ type: "Feature", id: "shape" + j, geometry: g, traced: !!(l.traced && l.traced[j]) });
+      });
+      // With drawn shapes, today's regions are kept only far away (outside the traced map, or all of them
+      // for a hand-drawn shape that covers the area itself).
+      var near = function (f) {
+        if (!l.shape) return false;
+        if (!stop.frame || l.traced.indexOf(1) === -1) return true;
+        return d3.geoContains({ type: "Polygon", coordinates: [frameRing(stop.frame)] }, d3.geoCentroid(f));
+      };
+      (l.regions || []).forEach(function (r) { if (euRegion[r] && !near(euRegion[r])) parts.push(euRegion[r]); });
+      (l.countries || []).forEach(function (c) { if (euCountry[c] && !near(euCountry[c])) parts.push(euCountry[c]); });
       parts.forEach(function (p, j) {
-        feats.push({ type: "Feature", geometry: p.geometry, properties: { key: "st-" + i + "-" + j + "-" + (p.id || "ch"), layer: l, first: j === 0 } });
+        feats.push({ type: "Feature", geometry: p.geometry, properties: { key: "st-" + i + "-" + j + "-" + (p.id || "ch"), layer: l, first: j === 0, traced: p.traced } });
       });
     });
+    // Drawn shapes overlap, so the first layer goes on top (like "first layer wins" for municipalities).
+    if (isShaped) feats.reverse();
     fillTerritories(feats, function (d) { return STORY_COLOR[d.properties.layer.kind] || "var(--c-other)"; });
+    svg.classed("shaped-look", isShaped);
+    // Only traced shapes fade out near the frame of their map; hand shapes and far regions do not.
+    if (isShaped && stop.frame) frameMaskPath.attr("d", path({ type: "Polygon", coordinates: [frameRing(stop.frame)] }));
+    gFill.selectAll("path").attr("mask", function (d) { return isShaped && stop.frame && d.properties.traced ? "url(#frame-mask)" : null; });
     gFocus.selectAll("*").remove();
     var k = zoomTo(storyView(stop.view));
     // One label per layer, on its largest piece.
@@ -484,7 +515,7 @@
       .concat((stop.places || []).some(function (p) { return p.kind === "battle"; }) ? [{ color: "battle", label: "Battle" }] : [])
       .concat(stop.route ? [{ color: "dash", label: "Route of the march" }] : []));
     d3.select("#stat").html("");
-    d3.select("#map-note").text(stop.view === "europe" || Array.isArray(stop.view)
+    d3.select("#map-note").text(isShaped ? "Old borders drawn as broad shapes, after HLS maps or by hand: nobody knows them exactly." : stop.view === "europe" || Array.isArray(stop.view)
       ? "Old territories drawn with today's regions of Europe, so borders are approximate (German and Austrian states are large units)."
       : "Old territories drawn with today's municipalities, so small details are approximate.");
   }

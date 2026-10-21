@@ -1,0 +1,92 @@
+{
+  "story": "celts-romans",
+  "maps": {
+    "helv": {
+      "file": "traced/hls-03068-helvetii.json",
+      "url": "https://hls-dhs-dss.ch/de/articles/008017/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Helvetier, map 'Die Helvetier'",
+      "licence": "CC BY-SA 4.0"
+    },
+    "p14": {
+      "file": "traced/hls-02847-provinces-14.json",
+      "url": "https://hls-dhs-dss.ch/de/articles/008248/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Römisches Reich, map 'Das Reich beim Tode des Augustus (14 n.Chr.)'",
+      "licence": "CC BY-SA 4.0"
+    },
+    "p350": {
+      "file": "traced/hls-02848-provinces-350.json",
+      "url": "https://hls-dhs-dss.ch/de/articles/008248/",
+      "title": "Historisches Lexikon der Schweiz (HLS): Römisches Reich, map 'Das Reich um die Mitte des 4. Jh.'",
+      "licence": "CC BY-SA 4.0"
+    }
+  },
+  "hand_note": "Drawn by hand as a smooth curve through a few points along rivers, lakes and mountain ridges. A rough guess, not traced from a map.",
+  "hand": {
+    "latene": [[6.0, 46.2], [6.25, 46.75], [6.9, 47.3], [7.5, 47.6], [8.3, 47.75], [9.2, 47.75], [9.6, 47.45], [9.3, 47.15], [8.6, 46.95], [8.0, 46.8], [7.3, 46.6], [6.85, 46.42], [6.3, 46.2]],
+    "raurici": [[6.95, 47.33], [7.05, 47.62], [7.25, 47.9], [7.6, 47.95], [7.95, 47.7], [8.1, 47.5], [7.85, 47.38], [7.45, 47.3]],
+    "valais": [[6.85, 46.4], [7.2, 46.32], [7.65, 46.4], [8.05, 46.45], [8.4, 46.56], [8.25, 46.33], [7.85, 46.12], [7.35, 46.0], [7.0, 46.03], [6.82, 46.2]],
+    "lepontii": [[8.25, 46.38], [8.6, 46.56], [8.98, 46.5], [9.15, 46.25], [9.0, 46.0], [8.65, 45.95], [8.3, 46.08]],
+    "raetians": [[9.75, 46.85], [10.4, 47.05], [11.3, 47.2], [11.9, 46.75], [11.5, 46.05], [10.8, 45.95], [10.1, 46.25]],
+    "nyon": [[6.08, 46.28], [6.12, 46.47], [6.3, 46.6], [6.45, 46.52], [6.3, 46.39], [6.17, 46.29]]
+  },
+  "stops": {
+    "0": {
+      "Celtic Iron Age (La Tène) area": ["hand:latene"]
+    },
+    "1": {
+      "Raetians": ["hand:raetians"],
+      "Lepontii": ["hand:lepontii"],
+      "Roman land": ["p14:#ffe7af", "p14:#f9b843"],
+      "Raurici": ["hand:raurici"],
+      "Valais tribes": ["hand:valais"],
+      "Helvetii": ["helv:#ebafc8"]
+    },
+    "2": {
+      "Gallia Narbonensis": ["p14:#ffe7af"],
+      "Helvetii": ["helv:#ebafc8"]
+    },
+    "3": {
+      "Gallia Narbonensis": ["p14:#ffe7af"],
+      "Helvetii": ["helv:#ebafc8"]
+    },
+    "4": {
+      "Colonia Iulia Equestris": ["hand:nyon"],
+      "Gallia Narbonensis": ["p14:#ffe7af"],
+      "Raurici": ["hand:raurici"],
+      "Helvetii": ["helv:#ebafc8"]
+    },
+    "5": {
+      "Conquered in 15 BC": ["p14:#9cc11e"],
+      "Already Roman": ["p14:#f9b843", "p14:#ffe7af"],
+      "Plateau": ["p14:#dadb26"]
+    },
+    "6": {
+      "Gallia Narbonensis": ["p14:#ffe7af"],
+      "Italia": ["p14:#f9b843"],
+      "Raetia": ["p14:#9cc11e:0"],
+      "Gallia Belgica": ["p14:#dadb26"]
+    },
+    "7": {
+      "Alpes Graiae et Poeninae": ["p350:#9cc11e"],
+      "Italia": ["p14:#f9b843"],
+      "Gallia Narbonensis": ["p14:#ffe7af"],
+      "Gallia Belgica": ["p14:#dadb26"]
+    },
+    "9": {
+      "Gallia Narbonensis": ["p350:#ededac"],
+      "Alpes Graiae et Poeninae": ["p350:#9cc11e"],
+      "Italia": ["p350:#f49c2e", "p350:#f9b843"],
+      "Raetia": ["p350:#ee7e1f", "p350:#e79985"],
+      "Germania superior": ["p350:#efe872", "p350:#b1c929"]
+    },
+    "10": {
+      "Roman Empire": ["p350:#efe872", "p350:#ee7e1f", "p350:#9cc11e", "p350:#ededac", "p350:#f49c2e", "p350:#f9b843"]
+    },
+    "11": {
+      "Italia": ["p350:#f49c2e"],
+      "Alpes Graiae et Poeninae": ["p350:#9cc11e"],
+      "Raetia": ["p350:#ee7e1f"],
+      "Maxima Sequanorum": ["p350:#efe872"]
+    }
+  }
+}

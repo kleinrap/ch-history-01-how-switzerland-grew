@@ -354,7 +354,7 @@
      }
     ],
     "uncertain": [
-     "All borders are rough: they are drawn with today's cantons, districts and foreign regions. The eastern Plateau (east of Zürich) and central Switzerland are drawn or left blank without exact evidence.",
+     "All borders are rough: the Helvetii and the Roman land follow HLS maps; the Raurici, the Valais tribes, the Lepontii and the Raetians are drawn by hand. The eastern Plateau (east of Zürich) and central Switzerland are drawn or left blank without exact evidence.",
      "Most other valleys of Graubünden may have been Celtic, not Raetian (opinion of R. Frei-Stolba); they are left blank."
     ]
    },
@@ -780,7 +780,7 @@
      }
     ],
     "uncertain": [
-     "The border of the Nyon colony is not exactly known (Aubonne, Venoge or Morge); here only today's Nyon district is coloured.",
+     "The border of the Nyon colony is not exactly known (Aubonne, Venoge or Morge); here a rough shape around Nyon is drawn, up to about Aubonne.",
      "Whether the Helvetii had a formal treaty with Caesar is open."
     ]
    },
@@ -987,7 +987,7 @@
     ],
     "uncertain": [
      "The sources give 16–15 BC for Zürich and Chur and 15 BC for the main campaign; the step uses 15 BC.",
-     "Coloured areas are rough; Bavaria, Tyrol and Vorarlberg are whole modern states."
+     "Coloured areas are rough. Near Switzerland they follow the HLS map of AD 14 (not a map of 15 BC); further away Bavaria, Tyrol and Vorarlberg are whole modern states."
     ]
    },
    {
@@ -1149,7 +1149,7 @@
     ],
     "uncertain": [
      "The start of the legion camp is dated differently in the sources: 14, about 16/17, or the end of 16.",
-     "Where exactly the border between Belgica and Raetia ran in the east is not known; central and eastern Switzerland are left blank or drawn roughly."
+     "Where exactly the border between Belgica and Raetia ran in the east is not known; the map follows the HLS map of AD 14."
     ]
    },
    {
@@ -1306,7 +1306,8 @@
      }
     ],
     "uncertain": [
-     "'Latin rights' is simplified to 'leaders could become Roman citizens' (by holding an office)."
+     "'Latin rights' is simplified to 'leaders could become Roman citizens' (by holding an office).",
+     "The Valais province follows the HLS map of the 4th century; its borders under Claudius may have been different."
     ]
    },
    {
@@ -1791,7 +1792,7 @@
      }
     ],
     "uncertain": [
-     "Province borders are drawn with whole modern cantons and regions (for example all of Baden-Württemberg, Rhineland-Palatinate and Bavaria); the real borders were different.",
+     "Near Switzerland the borders follow the HLS map of the 4th century, because there is no HLS map for AD 85; further away whole modern regions are used (for example all of Baden-Württemberg and Bavaria). The real borders were different.",
      "Central Switzerland (UR, SZ, OW, NW) is left blank: the sources give no province for it here."
     ]
    },
@@ -1938,7 +1939,8 @@
     ],
     "uncertain": [
      "One source dates the destruction of the civil town to 273/274; another gives 275–277.",
-     "The Alemanni area is shown as all of Baden-Württemberg, which is only a rough picture of the Dekumatland."
+     "The Alemanni area is shown as all of Baden-Württemberg, which is only a rough picture of the Dekumatland.",
+     "Near Switzerland the Roman area follows the HLS map of the 4th century."
     ]
    },
    {
@@ -2165,7 +2167,7 @@
     "uncertain": [
      "Year of the troop withdrawal: the sources give 400, 401 or 401/402; the text says 'about 401'.",
      "Geneva's late Roman province is not named in the sources used; Geneva is left blank.",
-     "Whether late Roman Raetia included all of eastern Switzerland is not checked; drawn roughly."
+     "Whether late Roman Raetia included all of eastern Switzerland is not checked; drawn as in the HLS map of the 4th century."
     ]
    }
   ],
@@ -2176,7 +2178,7 @@
    "https://hls-dhs-dss.ch/de/articles/007866/",
    "https://hls-dhs-dss.ch/de/articles/012289/"
   ],
-  "notes": "All areas are built from today's cantons, districts and foreign regions (French départements, Italian provinces, whole German and Austrian states), so ancient borders are only rough. Kinds are used for colour: 'roman' = the main Gaulish province of the Plateau (Belgica, Germania superior, Maxima Sequanorum), 'other' = Raetia, 'ally' = Alpes Graiae et Poeninae, 'noble' = Gallia Narbonensis, 'empire' = Italy; in step 2 'ally' = Raurici, 'noble' = Valais tribes, 'milan' = Lepontii. Negative years are BC."
+  "notes": "Areas are drawn as broad shapes. Most are traced from maps of the Historical Dictionary of Switzerland (HLS: the Helvetii, the provinces in AD 14 and in the 4th century), matched to today's lakes (about 2 km off on average). Small tribe areas are drawn by hand. Far away from Switzerland, whole modern regions are used (French départements, Italian provinces, German and Austrian states). All ancient borders are only rough. Kinds are used for colour: 'roman' = the main Gaulish province of the Plateau (Belgica, Germania superior, Maxima Sequanorum), 'other' = Raetia, 'ally' = Alpes Graiae et Poeninae, 'noble' = Gallia Narbonensis, 'empire' = Italy; in step 2 'ally' = Raurici, 'noble' = Valais tribes, 'milan' = Lepontii. Negative years are BC."
  },
  {
   "id": "early-middle-ages",
